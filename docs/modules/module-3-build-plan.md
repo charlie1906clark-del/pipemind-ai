@@ -1,33 +1,33 @@
 # Module 3 – Safety & Risk Simulator
 ## Super-Detailed Build Plan
 
-### Goal
-A scenario-based risk tool that produces clear, auditable risk results for hybrid LH₂ + superconducting pipelines.
+### Goal of v1
+A scenario-driven risk tool that produces transparent, auditable results suitable for discussion with safety engineers and for early project stages.
 
-### Phase 1 – Scenario Library
-1. Define the standard set of leak sizes and frequencies
-2. Implement simple integral dispersion models
-3. Add consequence thresholds (LFL, heat flux, overpressure)
-4. Create loss-of-cooling and quench scenarios
+### Phase 1 – Scenario Engine
+1. Build the standard library of leak sizes and frequencies
+2. Implement fast integral dispersion models
+3. Add consequence thresholds (LFL, selected heat-flux and over-pressure values)
+4. Code loss-of-cooling and quench scenarios
 
-### Phase 2 – Risk Calculation
-5. Calculate individual risk along the route
+### Phase 2 – Risk Metrics
+5. Calculate individual risk along the corridor
 6. Produce simple societal risk indicators
-7. Generate risk heat-map data
-8. Suggest detector and fibre-optic sensor locations
+7. Generate data for risk heat-maps
+8. Propose detector and fibre-optic sensor layouts
 
-### Phase 3 – Usability & Audit
-9. Clear input of route and operating conditions
-10. One-page management summary + detailed engineering report
-11. Full assumption register (every number must be traceable)
-12. Export to PDF and structured data
+### Phase 3 – Reporting & Audit
+9. Clear input of route geometry and operating conditions
+10. One-page management summary plus detailed technical report
+11. Full assumption register (every number traceable)
+12. Export to PDF and structured data formats
 
 ### Phase 4 – Integration
-13. Accept geometry from Module 1
-14. Accept operating conditions from Module 2
-15. Feed risk results into Module 6 (Reports)
+13. Accept geometry from Module 1 and operating data from Module 2
+14. Feed results into Module 6 (Reports)
+15. Prepare hooks for later CFD export of critical cases
 
-### Definition of Done for v1
-- Can run a full set of standard scenarios on a sample corridor
-- Results are transparent and suitable for discussion with a safety engineer
-- Ready for a paid pilot conversation
+### Definition of Done
+- Full set of standard scenarios runs on a sample corridor
+- Results are transparent enough for a safety engineer to challenge and accept
+- Ready to support a paid pilot conversation

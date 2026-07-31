@@ -1,31 +1,36 @@
-# Module 2 Research – Cooling & Cryogenics Optimiser
+# Module 2 – Cooling & Cryogenics Optimiser
+## Complete Research Synthesis
 
-## Purpose
-Calculate temperature rise, pressure drop and optimal cooling-station spacing for liquid-hydrogen cooled superconducting cables.
+### Purpose
+Calculate temperature rise, pressure drop and optimal cooling-station spacing for liquid-hydrogen cooled superconducting cables so that hydrogen remains liquid with adequate safety margin along the entire route.
 
-## Core Physics
-- Heat leak into the cryostat (typically 1–2 W/m for good insulation)
-- Frictional pressure drop
-- Temperature rise determined by mass flow rate and specific heat of LH₂
-- Constraint: hydrogen must stay liquid with safety margin
+### Core Physics
+Liquid hydrogen at approximately 20 K cools the superconductor and simultaneously transports chemical energy. Continuous heat ingress from ambient, residual electrical losses and friction raise the fluid temperature and drop its pressure. The design must keep the fluid inside the liquid domain until the next recooling station.
 
-## Key Published Ranges
-- Heat leak: ~1.5–2 W/m typical
-- Station spacing: 5–10 km (conservative) up to 50–75 km in optimised designs
-- Current-lead heat load often ~50 W/kA per terminal
+### Key Published Values
+- Heat leak: typically 1–2 W/m for high-quality multi-layer insulation (examples: 1.56 W/m for 60 mm class, ~2 W/m for larger cryostats)
+- Current-lead heat load: often taken as ~50 W/kA per terminal (four terminals for bipolar)
+- Station spacing: 5–10 km conservative; 20–50 km common in studies; up to 75 km claimed in highly optimised rigid-pipe GW-class designs
+- Maximum pressure often limited by cryostat mechanical design (10–15 bar range in many concepts)
 
-## Modelling Approach
-Start with fast 1-D steady-state thermo-hydraulic equations. Later optional CFD for critical sections.
+### Modelling Hierarchy
+1. Fast 1-D steady-state thermo-hydraulic equations (primary for the module)
+2. Higher-fidelity multi-physics / CFD for critical sections or validation
+3. Indirect cooling variants (helium-filled protective pipe around the cable) exist for material compatibility and safety
 
-## Inputs the module needs
-- Pipe diameter and insulation quality
-- Mass flow rate
+### Required Inputs
+- Inner diameter and insulation quality
+- Mass-flow rate of LH₂
 - Inlet temperature and pressure
-- Cable current and residual losses
+- Cable current and estimated residual loss
 - Route length and elevation profile (from Module 1)
 
-## Outputs
+### Outputs
 - Axial temperature and pressure profiles
 - Maximum allowable station spacing
-- Required cooling power per station
-- Sensitivity to insulation degradation
+- Required cooling power at each station
+- Automatic station placement that minimises total capital + energy cost
+- Sensitivity to insulation degradation, mass-flow change and ambient temperature
+
+### Key Sources
+Nature Communications Sustainability hybrid-pipeline tables, 75 km GW-class design paper, University of Bologna / Politecnico thermo-hydraulic work, KIT indirect-cooling experiments, SCARLET public parameters, Chinese composite pipeline studies.
