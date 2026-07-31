@@ -1,30 +1,30 @@
 # Module 4 – Cost & Business Case Engine
 ## Super-Detailed Build Plan
 
-### Goal
-A transparent financial engine that converts technical design into a clear business case.
+### Goal of v1
+A fully transparent financial engine that turns a technical design into a clear business case an energy-company finance or project team can trust.
 
 ### Phase 1 – Cost Model
-1. Create a structured cost database (unit rates with sources)
-2. Link every technical quantity (length, stations, crossings, heat load) to cost formulas
-3. Allow every unit rate to be overridden by the user
-4. Calculate total CAPEX with contingency
+1. Structured unit-cost database with sources attached to every rate
+2. Formulas that link length, station count, crossings, heat load etc. to cost lines
+3. User override for every single unit rate
+4. Total CAPEX calculation including contingency
 
-### Phase 2 – Life-Cycle
-5. Annual OPEX model (cooling power + maintenance)
-6. NPV and IRR calculation over 40 years
-7. Simple payback and levelised cost metrics
+### Phase 2 – Life-Cycle Analysis
+5. Annual OPEX model (cooling electricity + maintenance)
+6. 40-year cash-flow, NPV and IRR at user-chosen discount rate
+7. Levelised cost and simple payback metrics
 
 ### Phase 3 – Comparison & Sensitivity
 8. Side-by-side comparison against three conventional alternatives
-9. Tornado chart for the most influential variables
-10. One-page executive dashboard + detailed breakdown
+9. Tornado sensitivity chart for the most influential variables
+10. One-page executive dashboard + detailed breakdown export
 
-### Phase 4 – Integration
-11. Pull data automatically from Modules 1–3
-12. Feed results into Module 6 reports
-13. Full audit trail of every assumption and rate used
+### Phase 4 – Integration & Audit
+11. Automatic data pull from Modules 1–3
+12. Results feed into Module 6 reports
+13. Complete audit trail of every assumption and rate
 
-### Definition of Done for v1
+### Definition of Done
 - Produces a credible business case from a sample design
-- Finance or project person can understand and challenge the numbers
+- Numbers can be challenged and explained by a non-specialist finance person

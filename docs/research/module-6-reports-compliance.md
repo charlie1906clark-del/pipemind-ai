@@ -1,21 +1,22 @@
-# Module 6 Research – Report & Compliance Generator
+# Module 6 – Report & Compliance Generator
+## Complete Research Synthesis
 
-## Purpose
-Automatically produce professional, audit-ready documents from the results of all other modules.
+### Purpose
+Automatically assemble professional, fully traceable engineering documents from the outputs of all other modules so that reports are consistent, fast to produce, and acceptable to clients and regulators.
 
-## Required Document Types
-- Feasibility / Concept Report
+### Required Document Types
+- Feasibility / Concept Study
 - Thermal Design Report
 - Safety & Risk Assessment
 - Cost & Business Case
-- Executive Summary (2 pages)
+- Two-page Executive Summary
 
-## Key Requirements
-- Every number must be traceable back to its source calculation and assumption
-- Consistent branding and structure
-- Export to PDF and editable formats (Word/PPT)
+### Critical Requirements
+- Every numerical value must be traceable to its source calculation and assumption
+- Consistent structure and branding
+- Export to high-quality PDF plus editable formats
 - Version history and change log
+- Awareness of ISO, IEC, NFPA, CIGRE and PRESLHY documentation expectations
 
-## Standards Awareness
-- ISO, IEC, NFPA, CIGRE and PRESLHY documentation expectations
-- Functional safety and quality management requirements
+### Key Sources
+AI-driven engineering documentation platforms, model-driven report generators (Simulink Report Generator style), BIM compliance checkers, knowledge-graph reporting systems, and the documentation requirements of the relevant hydrogen and high-voltage standards.
