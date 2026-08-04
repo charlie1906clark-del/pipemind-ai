@@ -1,30 +1,30 @@
 # PipeMind AI – Complete Skill System
 
 ## Expert / Build Skills
-| Skill | Focus |
-|-------|-------|
-| `pipemind-master` | Strategy, architecture, prioritisation, business growth |
-| `pipemind-route` | Building Module 1 – Smart Route Planner |
-| `pipemind-cooling` | Building Module 2 – Cooling & Cryogenics |
-| `pipemind-safety` | Building Module 3 – Safety & Risk Simulator |
-| `pipemind-cost` | Building Module 4 – Cost & Business Case |
-| `pipemind-twin` | Building Module 5 – Digital Twin Viewer |
-| `pipemind-reports` | Building Module 6 – Report & Compliance |
+| Skill | Purpose |
+|-------|---------|
+| pipemind-master | Strategy, prioritisation, business growth |
+| pipemind-route | Build Module 1 |
+| pipemind-cooling | Build Module 2 |
+| pipemind-safety | Build Module 3 |
+| pipemind-cost | Build Module 4 |
+| pipemind-twin | Build Module 5 |
+| pipemind-reports | Build Module 6 |
 
 ## Research Skills
-| Skill | Focus |
-|-------|-------|
-| `pipemind-research-route` | Fresh research for Module 1 |
-| `pipemind-research-cooling` | Fresh research for Module 2 |
-| `pipemind-research-safety` | Fresh research for Module 3 |
-| `pipemind-research-cost` | Fresh research for Module 4 |
-| `pipemind-research-twin` | Fresh research for Module 5 |
-| `pipemind-research-reports` | Fresh research for Module 6 |
-| `pipemind-research-domain` | Broad hybrid LH₂ + superconducting domain |
+| Skill | Purpose |
+|-------|---------|
+| pipemind-research-route | Research for Module 1 |
+| pipemind-research-cooling | Research for Module 2 |
+| pipemind-research-safety | Research for Module 3 |
+| pipemind-research-cost | Research for Module 4 |
+| pipemind-research-twin | Research for Module 5 |
+| pipemind-research-reports | Research for Module 6 |
+| pipemind-research-domain | Broad domain research |
 
 ## Orchestrator
-| Skill | Focus |
-|-------|-------|
-| `pipemind-daily-research` | Runs the daily research cycle, updates GitHub + expert knowledge + Obsidian |
+| Skill | Purpose |
+|-------|---------|
+| pipemind-daily-research | Runs the daily closed-loop research → trains expert agents → updates Obsidian |
 
-See `docs/daily-research-system.md` for the full process and schedule.
+See `docs/daily-research-system.md` for the full process.

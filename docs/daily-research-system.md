@@ -1,23 +1,21 @@
-# PipeMind AI – Daily Research & Knowledge Upgrade System
+# PipeMind AI – Daily Research & Training System
 
-## Goal
-Every day a focused research cycle runs on one module. The findings are used to:
-1. Update the research documents in this repository
-2. Train / upgrade the corresponding expert skill
-3. Keep the user’s Obsidian vault current
+This document explains how the research agents continuously improve the expert agents and keep Obsidian current.
 
-## How it works
+## Overview
 
-### 1. Daily Research Orchestrator
-Skill name: `pipemind-daily-research`
+Every day a focused research cycle runs for one module. The cycle produces three things:
 
-Trigger phrases:
-- “Run daily research”
-- “Start the research cycle”
-- “Update knowledge for Module X”
-- “Train the agents”
+1. **Research Note** → goes into GitHub `docs/research/` and into Obsidian
+2. **Knowledge Upgrade Block** → trains the corresponding expert skill
+3. **Obsidian-ready note** → paste directly into the vault
 
-### 2. Rotation Schedule
+This creates a closed loop:
+
+Research Agent → New Knowledge → Expert Agent gets smarter → Better advice & code → Stronger product
+
+## Daily Rotation
+
 | Day | Module | Research Skill |
 |-----|--------|----------------|
 | Monday | 1 – Route | pipemind-research-route |
@@ -26,40 +24,45 @@ Trigger phrases:
 | Thursday | 4 – Cost | pipemind-research-cost |
 | Friday | 5 – Twin | pipemind-research-twin |
 | Saturday | 6 – Reports | pipemind-research-reports |
-| Sunday | Domain / Catch-up | pipemind-research-domain |
-
-You can override the schedule by naming a specific module.
-
-### 3. What happens in one cycle
-1. Choose a sharp research question for that module
-2. Deep research with live web tools
-3. Produce a structured research note
-4. Update the GitHub research file
-5. Generate a short “Knowledge Upgrade” for the expert skill
-6. Generate an Obsidian-ready note the user pastes into their vault
-
-### 4. Obsidian Integration
-After every cycle you will receive a clean Markdown block. Paste it into:
-
-```
-02-Modules/
-  Module-X-Name/
-    Research-Log.md   ← append the new entry
-    Notes.md          ← if important permanent knowledge
-```
-
-Also drop a short entry into your Daily Notes.
-
-### 5. Feedback Loop
-The expert skills (pipemind-route, pipemind-cooling, etc.) are designed to absorb the new findings when you next work on that module. Over time the research skills keep the expert skills sharp.
+| Sunday | Domain / catch-up | pipemind-research-domain |
 
 ## How to run it
+
 Simply say:
 
-> Run today’s daily research
+> run daily research
 
 or
 
-> Run daily research for the Safety module
+> run daily research for safety
 
-The orchestrator will execute the full cycle.
+The orchestrator (`pipemind-daily-research`) will:
+- Choose the correct module
+- Perform deep research
+- Produce the three outputs
+- Show you exactly what to paste into Obsidian
+- Show the Knowledge Upgrade that trains the expert agent
+
+## Obsidian Update Rule
+
+After every research cycle, paste the provided note into:
+
+```
+02-Modules/Module-X/Research-Log.md
+```
+
+and also into that day’s Daily Note.
+
+This keeps your personal brain perfectly in sync with the research the agents are doing.
+
+## Training the Expert Agents
+
+Each expert skill (pipemind-route, pipemind-safety, etc.) now contains a Knowledge Upgrade Protocol. When a Knowledge Upgrade Block is generated, the expert agent treats every bullet as permanent new knowledge and uses it in all future reasoning.
+
+Over weeks this compounds: the agents become noticeably more accurate and up-to-date.
+
+## Recommended Habit
+
+- Run the daily research every morning (or the night before).
+- Spend 5 minutes pasting the Obsidian note.
+- Once a week, review the accumulated Knowledge Upgrades and decide if any build-plan changes are needed.
