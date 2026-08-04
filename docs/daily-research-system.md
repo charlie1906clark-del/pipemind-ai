@@ -1,68 +1,62 @@
 # PipeMind AI – Daily Research & Training System
 
-This document explains how the research agents continuously improve the expert agents and keep Obsidian current.
+## Important Reality Check
 
-## Overview
+True fully automatic background running (with zero intervention) is **not possible** with the current Grok skill system. Skills only run when a conversation is active.
 
-Every day a focused research cycle runs for one module. The cycle produces three things:
+The practical solution is a **one-command full daily batch**.
 
-1. **Research Note** → goes into GitHub `docs/research/` and into Obsidian
-2. **Knowledge Upgrade Block** → trains the corresponding expert skill
-3. **Obsidian-ready note** → paste directly into the vault
+## Two Ways to Run Research
 
-This creates a closed loop:
+### 1. Full Batch (Recommended) – All 6 modules
+Say:
+```
+run full daily research
+```
 
-Research Agent → New Knowledge → Expert Agent gets smarter → Better advice & code → Stronger product
+This will research one focused topic for every module in a single session, produce Knowledge Upgrade Blocks for all 6 expert agents, and give you 6 ready-to-paste Obsidian notes.
 
-## Daily Rotation
-
-| Day | Module | Research Skill |
-|-----|--------|----------------|
-| Monday | 1 – Route | pipemind-research-route |
-| Tuesday | 2 – Cooling | pipemind-research-cooling |
-| Wednesday | 3 – Safety | pipemind-research-safety |
-| Thursday | 4 – Cost | pipemind-research-cost |
-| Friday | 5 – Twin | pipemind-research-twin |
-| Saturday | 6 – Reports | pipemind-research-reports |
-| Sunday | Domain / catch-up | pipemind-research-domain |
-
-## How to run it
-
-Simply say:
-
-> run daily research
-
+### 2. Single Module
+Say:
+```
+run daily research
+```
 or
+```
+run daily research for safety
+```
 
-> run daily research for safety
+## What Happens in a Full Batch
 
-The orchestrator (`pipemind-daily-research`) will:
-- Choose the correct module
-- Perform deep research
-- Produce the three outputs
-- Show you exactly what to paste into Obsidian
-- Show the Knowledge Upgrade that trains the expert agent
+For each of the 6 modules the system will:
+1. Choose a focused research question
+2. Perform deep research
+3. Produce a Research Note
+4. Produce a Knowledge Upgrade Block (this trains the expert agent)
+5. Produce an Obsidian-ready note
 
-## Obsidian Update Rule
+At the end you receive a summary table and the exact notes to paste into your vault.
 
-After every research cycle, paste the provided note into:
+## Obsidian Habit
+
+After every full batch, paste each note into the correct place:
 
 ```
-02-Modules/Module-X/Research-Log.md
+02-Modules/Module-1-Route/Research-Log.md
+02-Modules/Module-2-Cooling/Research-Log.md
+...
 ```
 
 and also into that day’s Daily Note.
 
-This keeps your personal brain perfectly in sync with the research the agents are doing.
+## Training Effect
 
-## Training the Expert Agents
+Every Knowledge Upgrade Block is treated as permanent new knowledge by the corresponding expert skill. Over time the expert agents become more accurate and up-to-date without you having to manually teach them.
 
-Each expert skill (pipemind-route, pipemind-safety, etc.) now contains a Knowledge Upgrade Protocol. When a Knowledge Upgrade Block is generated, the expert agent treats every bullet as permanent new knowledge and uses it in all future reasoning.
+## Suggested Daily Routine
 
-Over weeks this compounds: the agents become noticeably more accurate and up-to-date.
-
-## Recommended Habit
-
-- Run the daily research every morning (or the night before).
-- Spend 5 minutes pasting the Obsidian note.
-- Once a week, review the accumulated Knowledge Upgrades and decide if any build-plan changes are needed.
+1. Open a chat with me
+2. Type: `run full daily research`
+3. Wait for the complete cycle (it will take a few minutes)
+4. Spend 5–10 minutes pasting the 6 Obsidian notes
+5. Done – all expert agents have been trained for the day
