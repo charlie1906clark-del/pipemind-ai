@@ -47,3 +47,18 @@ Open for 2026-10-16:
 - Connect Typefully and rerun `analytics:posts:list` with metrics before grading anything A.
 - Delete scheduled drafts matching the W41 losing themes.
 - If PostHog `x_organic` appears, log sessions beside profile visits. Do not substitute it for replies.
+
+## 2026-10-09 — Weekly strategy refresh
+
+Context: same day as the W41 analytics note. This pass re-read the ranker and wrote the operating system. It did not grade posts and did not delete drafts.
+
+Correction to the analytics note above: commit `e62790c` (6 Oct 2026) has `home-mixer/params/param.rs` header `last sync 2026-10-05T16:00:50Z`. The 8 Oct stamp was not in that file. Weights match the analytics note. Do not treat the 8 Oct stamp as verified.
+
+What this pass confirmed in-file:
+
+- Author diversity enabled, decay 0.5, floor 0.25. OON factor 0.75. Topic OON factor 0.5.
+- `EnablePhoenixOonReplies` false. Replies are an in-thread channel only.
+- Cold start: threshold 200, max age 7200s, follower cap 50,000, slot 15–16.
+- `NewUserOonWeightFactor` 0.00001. DPP on, theta 0.65.
+
+Decision applied: snapshot week of 12 Oct is the three variants from the W41 review, not a new five-post pack. Agent files updated. Copy-link checklist deferred.

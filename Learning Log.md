@@ -26,3 +26,29 @@ Open for next Friday:
 - Pull Typefully / X analytics if the account is connected and replace the stage assumption.
 - Record which of the five post shapes earned a specialist reply.
 - Re-check `param.rs` sync stamp; do not trust blog weight tables older than the file header.
+
+## 2026-10-09 — Weekly strategy refresh
+
+Context: W41 originals were not observed. `reviews/x/2026-W41 Review.md` already graded the five planned slots F and blocked a queue wipe on missing Typefully auth. This refresh did not invent engagement. Public keyword search still does not show a PipeMind cluster; niche hits are Oman LH2 export links and unrelated Scarlet posts.
+
+Ranker, re-read at commit `e62790c` (6 Oct 2026):
+
+- Header on `home-mixer/params/param.rs` is `last sync 2026-10-05T16:00:50Z`, not 8 Oct. A same-day analytics note that cited 8 Oct is not confirmed against this commit.
+- Weights that drive the operating system are unchanged: copy-link 20.0, reply 5.0, bidirectional reply boost 15.0, quote 5.0, DM share 5.0, follow-author 4.0, like 0.5, not-interested −47.52, profile click 0.0.
+- Newly confirmed in-file, previously only “commonly cited”: author diversity decay 0.5 / floor 0.25 and enabled; OON factor 0.75; topic OON factor 0.5; cold-start threshold 200, max age 7200s, follower cap 50,000, slot 15–16.
+- `EnablePhoenixOonReplies` is false. Replies are not an out-of-network For You channel.
+- `NewUserOonWeightFactor` is 0.00001. Empty accounts will not be found by new viewers in For You.
+- DPP is on (theta 0.65). Duplicate claims are a distribution tax.
+- Playbook tables that still say click-dwell 0.0 or not-interested −43.2 are stale.
+
+Decision applied:
+
+- Did not restore the five-post W41 pack. Week of 12 Oct is three originals (Tue number, Wed correction, Thu build log), Monday replies only, Friday empty unless a specialist replies.
+- Copy-link checklist deferred. No point shipping a forwardable asset before one post has a reader.
+- Agent files updated: stamp path, OON-reply fact, three-variant cap, no invented heat-leak number.
+
+Open for 2026-10-16:
+
+- Typefully key still missing. Do not grade posts until `analytics:posts:list` can run.
+- Record whether V1–V3 were armed, and whether any specialist reply arrived.
+- Re-read the home-mixer header. If it is still 5 Oct, flag the snapshot stale rather than copying blog weights.
