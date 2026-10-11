@@ -1,5 +1,7 @@
 # PipeMind AI
 
+> **Development update (11 October 2026):** `main` currently holds the knowledge/research base, not a deployed application. Four isolated branches and draft PRs now hold architecture, a tested thermal-screening prototype, agent-governance/retrieval work, and cable research. The executable screening model is *illustrative only*: no pressure/phase safety calculations or industrial control. See [delivery map](docs/execution/2026-10-11-delivery-map.md) (architecture branch) and [ADR-0001](docs/decisions/ADR-0001-product-boundary-and-build-order.md). Prior research facts are not automatically verified engineering inputs.
+
 **AI software that helps energy companies plan, design, optimise and safely operate hybrid liquid-hydrogen + superconducting energy pipelines.**
 
 This repository contains the complete research foundation, detailed module specifications, and development plans for PipeMind AI.
