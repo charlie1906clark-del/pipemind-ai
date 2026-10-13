@@ -7,7 +7,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
-_DATA = Path(__file__).resolve().parents[2] / "data" / "evidence" / "claims.json"
+_DATA = Path(__file__).with_name("evidence_claims.json")
 _VALID = {"primary_published_model", "primary_project_plan", "primary_government_guidance", "assumption", "hypothesis"}
 
 

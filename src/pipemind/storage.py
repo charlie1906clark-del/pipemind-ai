@@ -98,6 +98,15 @@ class Store:
             row=self.db.execute("SELECT payload FROM runs WHERE tenant=? AND id=?",(tenant,run_id)).fetchone()
         return json.loads(row[0]) if row else None
 
+    def get_run_record(self, tenant: str, run_id: str) -> dict | None:
+        """Return original run kind and payload for safely scoped review."""
+        with self.lock:
+            row=self.db.execute(
+                "SELECT kind,payload FROM runs WHERE tenant=? AND id=?",
+                (tenant,run_id),
+            ).fetchone()
+        return {"kind":row[0],"payload":json.loads(row[1])} if row else None
+
     def list_runs(self, tenant: str, limit: int = 30) -> list[dict]:
         with self.lock:
             rows=self.db.execute("SELECT id,created,kind FROM runs WHERE tenant=? ORDER BY created DESC LIMIT ?",(tenant,max(1,min(limit,100)))).fetchall()
