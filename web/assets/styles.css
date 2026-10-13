@@ -8,3 +8,10 @@
 .run-list{margin-top:16px;display:grid;gap:8px;max-height:330px;overflow:auto}
 .run-button{text-align:left;background:#f6f8fd;border:1px solid #e5ebf4;padding:12px 15px;border-radius:8px;color:#435a7b;font-size:12px}
 .run-button:hover{border-color:#a5b8ea;background:#eef4ff}
+
+/* Independent validation case cards. */
+.validation-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:20px}
+.reference-card{border:1px solid #e4eaf4;border-radius:12px;background:#f8fbff;padding:17px;display:flex;flex-direction:column;gap:10px}
+.reference-card h3{margin:0;color:#284976;font-size:14px}
+.reference-card p{color:#60728e;font-size:12px;line-height:1.6;margin:0;flex:1}
+.reference-card button{width:100%;font-size:11px;min-height:38px}

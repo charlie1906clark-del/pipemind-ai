@@ -21,6 +21,7 @@
         <button data-view="telemetry" class="nav-link"><span>◉</span> Asset replay</button>
         <button data-view="corridors" class="nav-link"><span>⌁</span> Corridor ranking</button>
         <button data-view="reports" class="nav-link"><span>▤</span> Reports</button>
+        <button data-view="validation" class="nav-link"><span>◎</span> Validation lab</button>
         <button data-view="research" class="nav-link"><span>⌕</span> Research brain</button>
       </nav>
       <div class="nav-section">PLATFORM</div>
@@ -137,6 +138,30 @@
             <p class="smallprint">This demonstration compares two hypothetical paths: a shorter route through constrained ground and a longer route alongside existing infrastructure. It is not a real UK route plan.</p>
             <button class="primary" id="corridor-demo" type="button">Evaluate two hypothetical corridors →</button>
             <div id="corridor-result" class="route-result" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section class="page" id="view-validation">
+          <div class="page-header"><div><span class="eyebrow">QUALITY ASSURANCE / REAL-WORLD PHYSICS</span><h1>Validation laboratory.</h1><p>Published experiments establish the test conditions. Measured curves and independent scientific review are still required before declaring a model accurate.</p></div><span class="disclaimer-chip">NOT YET EXPERIMENTALLY VALIDATED</span></div>
+          <div class="panel research-panel"><div class="panel-head"><div><span class="eyebrow">NASA / OPEN RESEARCH</span><h2>Published reference cases</h2></div><button id="load-validation-cases" class="secondary" type="button">Load references</button></div>
+            <p class="muted-note">Five published NASA K-Site and MHTB self-pressurisation boundary configurations. These are reference *inputs*, not measured outcome curves or a claimed simulation benchmark.</p>
+            <div id="validation-cases" class="validation-grid"><p class="placeholder">Load the scientific reference manifest to inspect available conditions.</p></div>
+            <div id="validation-prepared" class="route-result"></div>
+          </div>
+          <div class="work-grid" style="margin-top:20px">
+            <div class="panel form-panel"><div class="panel-head"><h2>Compare against measured pressure</h2><span class="tag muted">Offline only</span></div>
+              <form id="validation-form">
+                <label>Previous tank-simulation UUID<input name="run_id" type="text" placeholder="Saved tank run UUID" maxlength="36" required></label>
+                <label>Measured data asset ID<input name="asset_id" type="text" placeholder="Reference tank ID" maxlength="64" required></label>
+                <label>Simulation start time, UTC<input name="model_start_utc" type="text" placeholder="2026-10-13T12:00:00Z" required></label>
+                <button class="primary" type="submit">Calculate comparison error →</button>
+              </form>
+            </div>
+            <div class="panel results-panel"><div class="panel-head"><h2>Reproducible comparison</h2><span class="tag">No certification</span></div>
+              <div class="result-summary"><div><small>Matched points</small><strong id="benchmark-count">—</strong></div><div><small>MAE</small><strong id="benchmark-mae">—</strong></div><div><small>RMSE</small><strong id="benchmark-rmse">—</strong></div></div>
+              <div class="route-result" id="benchmark-details">No field measurements have been compared. Synthetic agreement is not evidence of industrial accuracy.</div>
+              <div class="warning">Predefine performance targets and source quality with a qualified cryogenic engineer. Neither a low error nor this dashboard authorises operating setpoints or safety certification.</div>
+            </div>
           </div>
         </section>
         <section class="page" id="view-reports">

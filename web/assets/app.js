@@ -9,7 +9,7 @@
   const $$ = (s) => Array.from(document.querySelectorAll(s));
   const views = {
     overview: 'Command centre', tank: 'LH₂ tank twin', cable: 'Hybrid cable',
-    economics: 'Economics', telemetry: 'Asset replay', corridors: 'Corridor ranking', reports: 'Reports', research: 'Research brain', agents: 'AI specialists',
+    economics: 'Economics', telemetry: 'Asset replay', corridors: 'Corridor ranking', reports: 'Reports', validation: 'Validation lab', research: 'Research brain', agents: 'AI specialists',
     security: 'Security & APEX'
   };
   const fmt = (value, dp=1) => typeof value === 'number' && Number.isFinite(value)
@@ -351,6 +351,62 @@
       setTimeout(()=>URL.revokeObjectURL(url),1000);
     }catch(err){toast(err.message);}
     finally{clearTimeout(watchdog);}
+  });
+
+
+  // Independently verifiable reference inputs are not benchmark outcomes.
+  async function loadValidationCases(){
+    const root=$('#validation-cases');
+    root.textContent='Loading literature reference cases…';
+    try{
+      const registry=await api('/validation/reference-cases','GET');
+      root.textContent='';
+      const tanks=Object.fromEntries(registry.tanks.map(t=>[t.id,t]));
+      registry.cases.forEach(item=>{
+        const card=document.createElement('article');
+        card.className='reference-card';
+        const h=document.createElement('h3');
+        h.textContent=item.id+' · '+item.tank_id;
+        const caption=document.createElement('p');
+        caption.textContent='Tank '+fmt(tanks[item.tank_id]?.volume_m3,2)+' m³ · fill '+
+          fmt(item.fill_fraction*100,0)+'% · heat '+fmt(item.total_heat_w,1)+' W · initial pressure '+
+          fmt(item.initial_pressure_pa/1000,1)+' kPa';
+        const button=document.createElement('button');
+        button.type='button';button.className='secondary';
+        button.textContent='Inspect published conditions';
+        button.addEventListener('click',async()=>{
+          try{
+            const detail=await api('/validation/reference-case/'+encodeURIComponent(item.id),'GET');
+            say('#validation-prepared','Status: '+detail.status+
+              '\nReference: '+detail.source_url+
+              '\nInputs: '+JSON.stringify(detail.tank_input,null,2)+
+              '\nMissing experimental traces: '+!detail.experimental_time_series_available+
+              '\nAssumptions: '+detail.assumptions.join(' • '));
+          }catch(err){toast('Case unavailable: '+err.message);}
+        });
+        card.append(h,caption,button);root.append(card);
+      });
+      if(!registry.cases.length){root.textContent='No published reference cases indexed.';}
+    }catch(err){root.textContent='Reference manifest unavailable: '+err.message;}
+  }
+  $('#load-validation-cases').addEventListener('click',loadValidationCases);
+  $('#validation-form').addEventListener('submit',async(e)=>{
+    e.preventDefault();
+    const fd=new FormData(e.currentTarget);
+    try{
+      const result=await api('/twin/benchmark/tank-pressure','POST',{
+        run_id:String(fd.get('run_id')).trim(),
+        asset_id:String(fd.get('asset_id')).trim(),
+        model_start_utc:String(fd.get('model_start_utc')).trim()
+      });
+      say('#benchmark-count',result.matched_samples??0);
+      say('#benchmark-mae',Number.isFinite(result.mae_pa)?fmt(result.mae_pa,2)+' Pa':'Not calculated');
+      say('#benchmark-rmse',Number.isFinite(result.rmse_pa)?fmt(result.rmse_pa,2)+' Pa':'Not calculated');
+      say('#benchmark-details',result.status+
+        '\nMeasurement origin: '+(result.source||'not established')+
+        '\nSynthetic-only validation: '+(result.synthetic_validation_only===undefined?'unknown':result.synthetic_validation_only)+
+        '\nThis result remains a research comparison, not engineering approval.');
+    }catch(err){toast('Benchmark refused: '+err.message);}
   });
 
   plotBlank();
