@@ -1,0 +1,48 @@
+{
+  "schema": "pipemind-evidence-v1",
+  "reviewed_on": "2026-10-13",
+  "notice": "Reviewed bibliographic links only; not independent device validation. Explicit modelling assumptions are not empirical measured results.",
+  "claims": [
+    {
+      "id": "PM-H2-EOS-001",
+      "module": "cryogenics",
+      "title": "Leachman hydrogen equations of state",
+      "claim": "Peer-reviewed equations of state exist for parahydrogen, normal hydrogen and orthohydrogen.",
+      "source_url": "https://www.nist.gov/publications/fundamental-equations-state-parahydrogen-normal-hydrogen-and-orthohydrogen",
+      "doi": "10.1063/1.3160306",
+      "evidence_tier": "primary_published_model",
+      "status": "source_checked",
+      "limitations": "EOS data uncertainty is state-dependent; publication is not validation of a complete tank model."
+    },
+    {
+      "id": "PM-H2-SCARLET-002",
+      "module": "cable",
+      "title": "SCARLET WP4 target design",
+      "claim": "The SCARLET work package describes a 25 kV class, 20 kA, 500 MW DC monopole LH2-cooled MgB2 demonstration design.",
+      "source_url": "https://scarlet-project.eu/project/wp-4/",
+      "evidence_tier": "primary_project_plan",
+      "status": "source_checked",
+      "limitations": "Specifications are design/project targets, not proof of a commissioned commercial cable."
+    },
+    {
+      "id": "PM-H2-SEC-003",
+      "module": "security",
+      "title": "UK NCSC OT secure connectivity",
+      "claim": "UK NCSC advises segregated OT, DMZ mediation, secure protocols and no direct IT-to-OT connection for shared data.",
+      "source_url": "https://www.ncsc.gov.uk/collection/operational-technology/secure-connectivity/principle-4",
+      "evidence_tier": "primary_government_guidance",
+      "status": "source_checked",
+      "limitations": "Security architecture must still be adapted and validated for each site."
+    },
+    {
+      "id": "PM-H2-AIOT-004",
+      "module": "security",
+      "title": "Principles for secure integration of AI into OT",
+      "claim": "Joint guidance discusses avoiding novel AI-linked cybersecurity risks in operational technology.",
+      "source_url": "https://www.ncsc.govt.nz/protect-your-organisation/principles-for-the-secure-integration-of-ai-in-ot/",
+      "evidence_tier": "primary_government_guidance",
+      "status": "source_checked",
+      "limitations": "Guidance is not a safety or product certification."
+    }
+  ]
+}
