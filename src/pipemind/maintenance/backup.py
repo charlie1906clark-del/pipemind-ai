@@ -88,9 +88,12 @@ def verify_backup(path: str | Path) -> dict:
 
 def create_backup(source: str | Path, destination: str | Path) -> dict:
     """Create a consistent snapshot without overwriting an existing backup."""
-    src = Path(source).resolve()
+    source_input = Path(source)
+    if source_input.is_symlink():
+        raise BackupFailure("source must not be a symlink")
+    src = source_input.resolve()
     dst = Path(destination).absolute()
-    if not src.is_file() or src.is_symlink():
+    if not src.is_file():
         raise BackupFailure("source must be an existing local database file")
     if src == dst or dst.exists() or Path(str(dst)+".sha256.json").exists():
         raise BackupFailure("refusing to overwrite database or existing backup")
