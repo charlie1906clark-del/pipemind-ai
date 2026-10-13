@@ -1,0 +1,12 @@
+.git
+.github
+__pycache__
+*.pyc
+.venv
+.env
+.env.*
+tests
+data
+*.sqlite
+*.db
+*.pdf
