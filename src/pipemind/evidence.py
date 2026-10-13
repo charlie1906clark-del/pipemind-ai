@@ -8,7 +8,8 @@ from pathlib import Path
 from typing import Any
 
 _DATA = Path(__file__).with_name("evidence_claims.json")
-_VALID = {"primary_published_model", "primary_project_plan", "primary_government_guidance", "assumption", "hypothesis"}
+_VALID = {"primary_published_model", "primary_project_plan", "primary_government_guidance", "primary_intergovernmental_report",
+          "technical_software_documentation", "vendor_claim", "assumption", "hypothesis"}
 
 
 @dataclass(frozen=True)

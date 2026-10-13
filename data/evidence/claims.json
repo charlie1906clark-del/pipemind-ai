@@ -43,6 +43,56 @@
       "evidence_tier": "primary_government_guidance",
       "status": "source_checked",
       "limitations": "Guidance is not a safety or product certification."
+    },
+    {
+      "id": "PM-H2-IEA-2026-005",
+      "module": "market",
+      "title": "IEA Global Hydrogen Review 2026: project demand and timing",
+      "claim": "IEA reports global hydrogen demand exceeded 100 Mt in 2025, concentrated in existing industrial/refining applications; low-emissions H2 reached close to 1 Mt.",
+      "source_url": "https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary",
+      "evidence_tier": "primary_intergovernmental_report",
+      "status": "source_checked",
+      "limitations": "Market-wide figures, not an addressable LH2 software market estimate. Original report published in 2026; do not extrapolate prices or site-level customer demand."
+    },
+    {
+      "id": "PM-H2-IEA-2026-006",
+      "module": "market",
+      "title": "IEA 2026: project pipeline and financing risk",
+      "claim": "IEA reports announced potential low-emissions hydrogen production to 2030 declined to 27 Mt and highlights slow demand/offtake commitments and delayed investment decisions.",
+      "source_url": "https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary",
+      "evidence_tier": "primary_intergovernmental_report",
+      "status": "source_checked",
+      "limitations": "Project announcements, FID and actual production must remain separate; does not predict PipeMind revenue."
+    },
+    {
+      "id": "PM-H2-NIST-OT-007",
+      "module": "security",
+      "title": "NIST OT Security Guide 800-82 Revision 3",
+      "claim": "NIST provides operational technology risk-management and cybersecurity guidance explicitly considering reliability and safety requirements.",
+      "source_url": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+      "evidence_tier": "primary_government_guidance",
+      "status": "source_checked",
+      "limitations": "Revision 3 is final (2023); Revision 4 initial draft exists in 2026. Neither is a certificate for a PipeMind deployment."
+    },
+    {
+      "id": "PM-H2-CP-008",
+      "module": "cryogenics",
+      "title": "CoolProp ParaHydrogen fluid property documentation",
+      "claim": "CoolProp documents its ParaHydrogen thermodynamic formulation using the Leachman et al. 2009 EOS and separate transport-property references.",
+      "source_url": "https://coolprop.github.io/devdocs/fluid_properties/fluids/ParaHydrogen.html",
+      "evidence_tier": "technical_software_documentation",
+      "status": "source_checked",
+      "limitations": "Software EOS reference is not a coupled tank/line transient validation, nor a certified equipment rating."
+    },
+    {
+      "id": "PM-H2-ASP-009",
+      "module": "market",
+      "title": "AspenTech hydrogen simulation and digital twins",
+      "claim": "AspenTech markets process simulation and digital-twin tools for hydrogen project design, production, storage and operations.",
+      "source_url": "https://www.aspentech.com/en/solutions/accelerate-innovation-for-the-hydrogen-economy",
+      "evidence_tier": "vendor_claim",
+      "status": "source_checked",
+      "limitations": "Vendor-stated capabilities only. Do not claim full parity, verified customer performance, or exclusive market positioning for PipeMind."
     }
   ]
 }
