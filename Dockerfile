@@ -4,9 +4,8 @@ ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 WORKDIR /srv/pipemind
 COPY pyproject.toml README.md ./
 COPY src/ ./src/
-COPY docs/ ./docs/
-COPY research/ ./research/
-COPY tools/ ./tools/
+# Internal source/agent notes deliberately excluded from customer images.
+# Only reviewed public bibliography bundled as package data.
 COPY web/ ./web/
 RUN python -m pip install --no-cache-dir . && \
     useradd --system --create-home --uid 10001 pipemind && \

@@ -20,6 +20,8 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: python -m pip install -e ".[test]"
+      - name: Check browser application syntax
+        run: node --check web/assets/app.js
       - name: Run domain, API, tenant and evidence tests
         run: PYTHONPATH=src:tools python -m unittest discover -s tests -v
         env:
@@ -39,3 +41,72 @@ jobs:
       - uses: actions/checkout@v4
       - run: docker build -t pipemind:ci .
       - run: docker run --rm -e PIPEMIND_ENV=development -e PIPEMIND_DEV_TOKEN=ci-temporary-test-token-01234567890 pipemind:ci python -c "import pipemind; import pipemind.physics; print('PipeMind import OK')"
+      - name: Boot the complete application and check real HTTP trust boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run -d --name pipemind-smoke -p 127.0.0.1:18080:8080 \
+            -e PIPEMIND_ENV=development \
+            -e PIPEMIND_DEV_TOKEN=ci-temporary-test-token-01234567890 pipemind:ci
+          trap 'docker logs pipemind-smoke || true; docker rm -f pipemind-smoke >/dev/null 2>&1 || true' EXIT
+          for attempt in $(seq 1 35); do
+            if curl -fsS http://127.0.0.1:18080/readyz > /tmp/pipemind-ready.json; then
+              break
+            fi
+            sleep 1
+          done
+          python - <<'PY'
+          import json
+          with open('/tmp/pipemind-ready.json') as f:
+              state = json.load(f)
+          assert state["ready"] is True and state["eos"] == "CoolProp", state
+          PY
+          CODE=$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/api/v1/status)
+          test "$CODE" = "401"
+          curl -fsS -H 'Authorization: Bearer ci-temporary-test-token-01234567890' \
+             http://127.0.0.1:18080/api/v1/status | python -c \
+            'import json,sys; v=json.load(sys.stdin); assert v["actuation_enabled"] is False and v["tenant"]=="demo"'
+
+
+  browser:
+    runs-on: ubuntu-24.04
+    needs: python
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install API and browser runner
+        run: python -m pip install -e ".[test]" playwright
+      - name: Install browser and Linux dependencies
+        run: python -m playwright install --with-deps chromium
+      - name: Test full desktop/mobile UI against running API
+        env:
+          PIPEMIND_ENV: development
+          PIPEMIND_DEV_TOKEN: browser-test-only-long-temporary-token-123456789
+          PIPEMIND_DB_PATH: /tmp/pipemind-browser-ci.sqlite
+          PIPEMIND_TEST_URL: http://127.0.0.1:18888
+          PIPEMIND_TEST_TOKEN: browser-test-only-long-temporary-token-123456789
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/pipemind-browser-shots
+          uvicorn pipemind.api.app:app --host 127.0.0.1 --port 18888 > /tmp/pipemind-browser.log 2>&1 &
+          SERVER_PID=$!
+          trap 'cat /tmp/pipemind-browser.log || true; kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 40); do
+            if curl -fsS http://127.0.0.1:18888/readyz > /dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          python tests/browser_smoke.py --screenshots /tmp/pipemind-browser-shots
+      - name: Retain browser screenshots on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipemind-browser-failure-shots
+          path: /tmp/pipemind-browser-shots
+          retention-days: 7

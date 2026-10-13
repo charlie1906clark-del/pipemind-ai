@@ -20,13 +20,17 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, ConfigDict, Field
 
 from pipemind.api.auth import IdentityProvider
+from pipemind.api.request_limits import RequestBodyLimitMiddleware
 from pipemind.finance import CostInputs, compare_options, evaluate_cost
 from pipemind.physics import CableInput, TankInput, PropertyDomainError, simulate_cable, simulate_tank
 from pipemind.storage import Store
 from pipemind.twin.telemetry import check_batch, METRICS
 from pipemind.twin.forecast import forecast
+from pipemind.twin.asset_forecast import replay_forecast
+from pipemind.twin.benchmark import benchmark_tank_pressure
 from pipemind.brain import search as brain_search
-from pipemind.evidence import load_evidence
+from pipemind.evidence import load_evidence, retrieve_verified
+from pipemind.validation.references import load_reference_cases, prepare_screening_input
 from pipemind.agents import compose_review
 from pipemind.optimization import OptimisationStudy, optimise
 from pipemind.reports import draft_report
@@ -131,6 +135,12 @@ class TrendBody(StrictBody):
     horizon_samples: int=Field(default=1,ge=1,le=24)
 
 
+class TankBenchmarkBody(StrictBody):
+    run_id: str = Field(min_length=36,max_length=36)
+    asset_id: str = Field(min_length=1,max_length=64)
+    model_start_utc: str = Field(min_length=10,max_length=48)
+
+
 class ResearchBody(StrictBody):
     question: str=Field(min_length=2,max_length=300)
     limit: int=Field(default=8,ge=1,le=30)
@@ -182,7 +192,9 @@ def create_app() -> FastAPI:
         try:
             store.db.execute("SELECT 1")
             from pipemind.physics.properties import CoolProp
-            return {"ready":CoolProp is not None,"database":"sqlite-single-node","eos":"CoolProp" if CoolProp is not None else "UNAVAILABLE"}
+            if CoolProp is None:
+                return JSONResponse({"ready":False,"reason":"hydrogen EOS unavailable"},status_code=503)
+            return {"ready":True,"database":"sqlite-single-node","eos":"CoolProp","scope":"software-only; no plant validation"}
         except Exception:
             return JSONResponse({"ready":False},status_code=503)
 
@@ -195,6 +207,7 @@ def create_app() -> FastAPI:
             "tenant":person.tenant,"roles":sorted(person.roles),
             "physics_backend":CoolProp.__version__ if CoolProp is not None else "UNAVAILABLE",
             "actuation_enabled":False,
+            "synthetic_import_enabled":auth.environment == "development",
             "wong_link":"CURATED_CONTRACT_ONLY","apex_connected":False,
             "capabilities":["tank-simulation","cable-screening","scenario-cost","telemetry-quality",
                             "trend-backtest","source-linked-research","audit-trail","advisory-review","report-drafts","synthetic-routing","scenario-optimisation"]
@@ -255,9 +268,15 @@ def create_app() -> FastAPI:
     @app.post("/api/v1/twin/ingest")
     def ingest(body:BatchBody,request:Request):
         user=auth.require(request,"ingest")
+        if auth.environment=="production" and any(item.source=="simulated" for item in body.observations):
+            raise HTTPException(403,"synthetic telemetry is disabled in production tenants")
         result=check_batch([item.model_dump() for item in body.observations])
         written=store.append_observations(user.tenant,user.subject,[x.to_dict() for x in result.accepted]) if result.accepted else 0
-        return {"persisted":written,"quality":result.to_dict(),"source":"import/replay, not OT control"}
+        return {
+            "persisted":written,"duplicates_previous_batches":len(result.accepted)-written,
+            "quality":result.to_dict(),"source":"offline import/replay only; NOT a live authenticated gateway",
+            "no_operational_alerts":True,
+        }
 
     @app.get("/api/v1/twin/observations/{asset_id}/{metric}")
     def observations(asset_id:str,metric:str,request:Request,limit:int=200):
@@ -273,16 +292,77 @@ def create_app() -> FastAPI:
         user=auth.require(request,"analyst")
         return save(user,"trend",forecast(body.values,body.horizon_samples).to_dict())
 
+    @app.get("/api/v1/twin/replay-forecast/{asset_id}/{metric}")
+    def replay_asset_forecast(asset_id:str,metric:str,request:Request,horizon_samples:int=1):
+        user=auth.require(request,"analyst")
+        if not asset_id or len(asset_id)>64 or metric not in METRICS:
+            raise HTTPException(422,"invalid asset or metric")
+        if not 1<=horizon_samples<=24:
+            raise HTTPException(422,"horizon outside 1..24")
+        readings=store.read_observations(user.tenant,asset_id,metric,limit=1500)
+        result=replay_forecast(readings,metric,horizon_samples=horizon_samples)
+        return save(user,"replay-forecast",{"asset_id":asset_id,"metric":metric,**result})
+
+    @app.post("/api/v1/twin/benchmark/tank-pressure")
+    def tank_pressure_benchmark(body:TankBenchmarkBody,request:Request):
+        user=auth.require(request,"analyst")
+        try:
+            UUID(body.run_id)
+        except ValueError:
+            raise HTTPException(422,"invalid run identifier")
+        record=store.get_run_record(user.tenant,body.run_id)
+        if record is None:
+            raise HTTPException(404,"tank simulation not found")
+        if record["kind"]!="tank":
+            raise HTTPException(422,"only tank simulation runs can be benchmarked")
+        observations=store.read_observations(user.tenant,body.asset_id,"pressure_pa",limit=1500)
+        result=benchmark_tank_pressure(
+            record["payload"],observations,model_start_utc=body.model_start_utc
+        )
+        return save(user,"tank-pressure-benchmark",{
+            "simulation_run_id":body.run_id,"asset_id":body.asset_id,**result
+        })
+
+    @app.get("/api/v1/validation/reference-cases")
+    def reference_cases(request:Request):
+        auth.require(request,"viewer","analyst")
+        return load_reference_cases()
+
+    @app.get("/api/v1/validation/reference-case/{case_id}")
+    def reference_case(case_id:str,request:Request):
+        auth.require(request,"viewer","analyst")
+        try:
+            return prepare_screening_input(case_id)
+        except ValueError:
+            raise HTTPException(404,"reference case not found")
+
     @app.post("/api/v1/research/search")
     def research(body:ResearchBody,request:Request):
-        auth.require(request,"viewer","analyst")
-        return {"question":body.question,"results":[x.to_dict() for x in brain_search(REPO_ROOT,body.question,body.limit)],
-                "warning":"Retrieved text is not independently verified and must never override physics or safety gates."}
+        person=auth.require(request,"viewer","analyst")
+        # A general customer MUST NOT have access to internal planning, private
+        # competitor notes, unreleased research or agent instruction files.
+        # The development research corpus is only accessible to an admin on a
+        # local research build. Production never exposes the full repository.
+        internal=auth.environment=="development" and "admin" in person.roles
+        if internal:
+            return {
+                "question":body.question,"scope":"internal_development_corpus",
+                "results":[x.to_dict() for x in brain_search(REPO_ROOT,body.question,body.limit)],
+                "warning":"Unreviewed internal research, for administrators only; not scientific validation.",
+            }
+        return {
+            "question":body.question,"scope":"public_source_checked_bibliography",
+            "results":retrieve_verified(body.question,limit=body.limit),
+            "warning":"Bibliographic links checked; calculations, measurements and safety claims are NOT independently validated.",
+        }
 
     @app.get("/api/v1/evidence")
     def evidence_manifest(request:Request):
         auth.require(request,"viewer","analyst","auditor")
-        return {"cards":[e.to_dict() for e in load_evidence()],"warning":"Source verification is not a field test"}
+        return {
+            "cards":[e.to_dict() for e in load_evidence() if e.status=="source_checked"],
+            "warning":"Source verification is not a field test",
+        }
 
     @app.post("/api/v1/agents/review/{run_id}")
     def review_run(run_id:str,body:ReviewBody,request:Request):
@@ -336,8 +416,8 @@ def create_app() -> FastAPI:
 
     @app.get("/api/v1/audit/verify")
     def audit(request:Request):
-        auth.require(request,"auditor")
-        return store.verify_audit_chain()
+        user=auth.require(request,"auditor")
+        return store.verify_audit_chain(user.tenant)
 
     @app.get("/api/v1/apex/contract")
     def apex_contract(request:Request):
@@ -348,6 +428,9 @@ def create_app() -> FastAPI:
             "forbidden":["Wong private notes","shared JWT signing keys","equipment commands","unreviewed research claims"],
             "proposed_types":["PipeMindAsset","PipeMindSimulationRun","PipeMindEvidenceClaim","PipeMindAdvisory"],
         }
+
+    # Outermost guard enforces actual received body bytes, including chunked POSTs.
+    app.add_middleware(RequestBodyLimitMiddleware, max_bytes=256_000)
 
     if STATIC.exists():
         app.mount("/assets",StaticFiles(directory=str(STATIC/"assets")),name="assets")

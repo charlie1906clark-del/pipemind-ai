@@ -1,0 +1,78 @@
+{
+  "schema": "pipemind-experimental-anchors-v1",
+  "reference": "S. Fernandes et al., International Journal of Heat and Mass Transfer 256 (2026) 128067",
+  "doi": "10.1016/j.ijheatmasstransfer.2025.128067",
+  "source_url": "https://www.sciencedirect.com/science/article/pii/S0017931025014024",
+  "source_description": "Table 1 and Table 3 of the published comparison of NASA K-Site and MHTB self-pressurisation experiments",
+  "data_classification": "published_conditions_only",
+  "experimental_pressure_time_series": "NOT_INCLUDED",
+  "validation_status": "NO_INDEPENDENT_PRESSURE_TRACE_BENCHMARKED",
+  "notes": [
+    "Only selected boundary conditions and geometry transcribed from published paper; original measured pressure traces are not packaged.",
+    "Two NASA experiments used in published CFD comparison. Current PipeMind model is well-mixed equilibrium; it does not reproduce the paper's VOF/Schrage CFD, wall heat conduction or initial stratified K-Site temperature.",
+    "Spin composition, exact wall thermal response, instrumentation and reference pressure points must be independently confirmed before claiming published experiment reproduction."
+  ],
+  "tanks": [
+    {
+      "id": "NASA-KSITE",
+      "volume_m3": 4.89,
+      "geometry": "approximately ellipsoidal, ~2.20m major / ~1.93m minor axis",
+      "publication": "NASA K-Site test tank",
+      "initial_temperature_profile": "measured stratification; series not included"
+    },
+    {
+      "id": "NASA-MHTB",
+      "volume_m3": 18.27,
+      "geometry": "3.05m cylinder with two elliptical domes",
+      "publication": "NASA Multi-Purpose Hydrogen Test Bed",
+      "initial_temperature_profile": "assumed uniform near saturation in published CFD"
+    }
+  ],
+  "cases": [
+    {
+      "id": "K(i)",
+      "tank_id": "NASA-KSITE",
+      "fill_fraction": 0.5,
+      "initial_pressure_pa": 103000,
+      "total_heat_w": 49,
+      "duration_hours": 17.5,
+      "initial_temperature_k": null
+    },
+    {
+      "id": "K(ii)",
+      "tank_id": "NASA-KSITE",
+      "fill_fraction": 0.5,
+      "initial_pressure_pa": 103000,
+      "total_heat_w": 28,
+      "duration_hours": 20,
+      "initial_temperature_k": null
+    },
+    {
+      "id": "M(i)",
+      "tank_id": "NASA-MHTB",
+      "fill_fraction": 0.25,
+      "initial_pressure_pa": 122100,
+      "total_heat_w": 18.8,
+      "duration_hours": 18.4,
+      "initial_temperature_k": 21.03
+    },
+    {
+      "id": "M(ii)",
+      "tank_id": "NASA-MHTB",
+      "fill_fraction": 0.5,
+      "initial_pressure_pa": 111600,
+      "total_heat_w": 51,
+      "duration_hours": 13.6,
+      "initial_temperature_k": 20.71
+    },
+    {
+      "id": "M(iii)",
+      "tank_id": "NASA-MHTB",
+      "fill_fraction": 0.9,
+      "initial_pressure_pa": 113300,
+      "total_heat_w": 71.3,
+      "duration_hours": 6.8,
+      "initial_temperature_k": 20.76
+    }
+  ]
+}

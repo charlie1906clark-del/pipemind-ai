@@ -20,9 +20,17 @@ class Store:
         self.path = path
         self.lock = threading.RLock()
         if path != ":memory:":
-            Path(path).parent.mkdir(parents=True, exist_ok=True)
+            db_path = Path(path)
+            if db_path.is_symlink():
+                raise ValueError("SQLite database path must not be a symlink")
+            db_path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
         # A single connection is guarded by lock; multi-process deployments not supported.
         self.db = sqlite3.connect(path, check_same_thread=False, timeout=10, isolation_level=None)
+        if path != ":memory:" and os.name == "posix":
+            # The pilot's stored observations and run inputs must not be
+            # readable by other local users. OS access is still ultimately
+            # controlled by volume/host permissions.
+            os.chmod(path, 0o600)
         self.db.execute("PRAGMA journal_mode=WAL")
         self.db.execute("PRAGMA busy_timeout=10000")
         self.db.execute("PRAGMA foreign_keys=ON")
@@ -56,18 +64,31 @@ class Store:
             cur = self.db.cursor()
             try:
                 cur.execute("BEGIN IMMEDIATE")
+                inserted: list[dict] = []
                 for p in points:
-                    cur.execute("INSERT INTO observations VALUES (?,?,?,?,?,?,?,?,?)", (
-                        str(uuid.uuid4()),tenant,p["asset_id"],p["measured_at"],p["metric"],
-                        p["value"],p["unit"],p["source"],p.get("lineage","")
-                    ))
-                digest = hashlib.sha256(json.dumps(points,sort_keys=True).encode()).hexdigest()
-                self._audit(cur,tenant,actor,"telemetry.append",digest)
+                    # Idempotence across REST retries and batches: the same source +
+                    # asset + metric + timestamp is one sample, regardless of value.
+                    # A changed value needs an explicit correction process, never an
+                    # invisible overwrite of historical measurements.
+                    cur.execute(
+                        "INSERT INTO observations(id,tenant,asset,ts,metric,value,unit,source,lineage) "
+                        "SELECT ?,?,?,?,?,?,?,?,? WHERE NOT EXISTS ("
+                        "SELECT 1 FROM observations WHERE tenant=? AND asset=? AND ts=? "
+                        "AND metric=? AND source=?)",
+                        (str(uuid.uuid4()),tenant,p["asset_id"],p["measured_at"],p["metric"],
+                         p["value"],p["unit"],p["source"],p.get("lineage",""),
+                         tenant,p["asset_id"],p["measured_at"],p["metric"],p["source"]),
+                    )
+                    if cur.rowcount:
+                        inserted.append(p)
+                if inserted:
+                    digest = hashlib.sha256(json.dumps(inserted,sort_keys=True).encode()).hexdigest()
+                    self._audit(cur,tenant,actor,"telemetry.append",digest)
                 cur.execute("COMMIT")
             except Exception:
                 cur.execute("ROLLBACK")
                 raise
-        return len(points)
+        return len(inserted)
 
     def read_observations(self, tenant: str, asset: str, metric: str, limit: int = 200) -> list[dict]:
         with self.lock:
@@ -112,14 +133,53 @@ class Store:
             rows=self.db.execute("SELECT id,created,kind FROM runs WHERE tenant=? ORDER BY created DESC LIMIT ?",(tenant,max(1,min(limit,100)))).fetchall()
         return [{"id":x[0],"created_at":x[1],"kind":x[2]} for x in rows]
 
-    def verify_audit_chain(self) -> dict:
+    def verify_audit_chain(self, tenant: str | None = None) -> dict:
+        """Verify the whole physical hash chain without leaking other tenants' activity.
+
+        An authenticated tenant sees only its event count and a per-tenant
+        fingerprint, never global sequence numbers, cross-tenant event counts or
+        the global chain head. An internal integrity service may call with None
+        to obtain the complete chain head for offline anchoring.
+        """
         with self.lock:
-            rows=self.db.execute("SELECT seq,ts,tenant,actor,event,digest,prev_hash,hash FROM audit ORDER BY seq").fetchall()
-        prev="0"*64
-        for seq,ts,tenant,actor,event,digest,recorded_prev,hash_ in rows:
-            canonical=json.dumps([ts,tenant,actor,event,digest,prev],separators=(",",":"))
-            computed=hashlib.sha256(canonical.encode()).hexdigest()
+            rows = self.db.execute(
+                "SELECT seq,ts,tenant,actor,event,digest,prev_hash,hash "
+                "FROM audit ORDER BY seq"
+            ).fetchall()
+
+        prev = "0" * 64
+        own_count = 0
+        own_fingerprint = hashlib.sha256()
+        for seq, ts, row_tenant, actor, event, digest, recorded_prev, hash_ in rows:
+            canonical = json.dumps(
+                [ts, row_tenant, actor, event, digest, prev],
+                separators=(",", ":"),
+            )
+            computed = hashlib.sha256(canonical.encode()).hexdigest()
             if recorded_prev != prev or computed != hash_:
-                return {"verified":False,"failed_sequence":seq,"event_count":len(rows)}
-            prev=hash_
-        return {"verified":True,"event_count":len(rows),"chain_head":prev}
+                if tenant is not None:
+                    return {
+                        "verified": False, "event_count": own_count,
+                        "error": "shared audit integrity failed; engineering review required",
+                    }
+                return {
+                    "verified": False, "failed_sequence": seq,
+                    "event_count": len(rows),
+                }
+            if tenant is not None and row_tenant == tenant:
+                own_count += 1
+                own_fingerprint.update(hash_.encode("ascii"))
+            prev = hash_
+
+        if tenant is not None:
+            return {
+                "verified": True, "event_count": own_count,
+                "tenant_evidence_fingerprint": own_fingerprint.hexdigest(),
+                "scope": "tenant",
+                "note": "Fingerprint is not an externally anchored audit certificate",
+            }
+        return {
+            "verified": True, "event_count": len(rows),
+            "chain_head": prev,
+            "scope": "internal_global",
+        }

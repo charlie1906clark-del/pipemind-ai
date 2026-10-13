@@ -24,6 +24,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 pipemind = ["evidence_claims.json"]
+"pipemind.validation" = ["nasa_cases.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
