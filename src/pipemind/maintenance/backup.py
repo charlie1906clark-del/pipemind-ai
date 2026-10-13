@@ -70,6 +70,10 @@ def verify_backup(path: str | Path) -> dict:
     manifest_path = Path(str(target) + ".sha256.json")
     if not manifest_path.is_file() or manifest_path.is_symlink():
         raise BackupFailure("backup manifest is missing or unsafe")
+    # Hashing only the main SQLite file ignores changes held in WAL/journal.
+    # Backups must be settled and read-only before verification.
+    if any(Path(str(target) + suffix).exists() for suffix in ("-wal", "-shm", "-journal")):
+        raise BackupFailure("backup has a mutable SQLite journal sidecar; reject")
     data = json.loads(manifest_path.read_text(encoding="utf-8"))
     if data.get("schema") != "pipemind-backup-v1":
         raise BackupFailure("unrecognised backup manifest schema")
@@ -114,6 +118,15 @@ def create_backup(source: str | Path, destination: str | Path) -> dict:
                 snapshot.close()
         finally:
             db.close()
+        # A backup copied from a WAL-mode database may carry WAL journalling
+        # mode into the snapshot. Normalise the OFFLINE copy to a settled
+        # single-file DELETE journal before any digest is calculated.
+        settled = sqlite3.connect(str(partial))
+        try:
+            settled.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+            settled.execute("PRAGMA journal_mode=DELETE")
+        finally:
+            settled.close()
         if os.name == "posix":
             os.chmod(partial, 0o600)
         integrity = _integrity(partial)
