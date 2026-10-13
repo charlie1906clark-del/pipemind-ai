@@ -28,7 +28,7 @@ from pipemind.twin.forecast import forecast
 from pipemind.twin.asset_forecast import replay_forecast
 from pipemind.twin.benchmark import benchmark_tank_pressure
 from pipemind.brain import search as brain_search
-from pipemind.evidence import load_evidence
+from pipemind.evidence import load_evidence, retrieve_verified
 from pipemind.agents import compose_review
 from pipemind.optimization import OptimisationStudy, optimise
 from pipemind.reports import draft_report
@@ -323,14 +323,31 @@ def create_app() -> FastAPI:
 
     @app.post("/api/v1/research/search")
     def research(body:ResearchBody,request:Request):
-        auth.require(request,"viewer","analyst")
-        return {"question":body.question,"results":[x.to_dict() for x in brain_search(REPO_ROOT,body.question,body.limit)],
-                "warning":"Retrieved text is not independently verified and must never override physics or safety gates."}
+        person=auth.require(request,"viewer","analyst")
+        # A general customer MUST NOT have access to internal planning, private
+        # competitor notes, unreleased research or agent instruction files.
+        # The development research corpus is only accessible to an admin on a
+        # local research build. Production never exposes the full repository.
+        internal=auth.environment=="development" and "admin" in person.roles
+        if internal:
+            return {
+                "question":body.question,"scope":"internal_development_corpus",
+                "results":[x.to_dict() for x in brain_search(REPO_ROOT,body.question,body.limit)],
+                "warning":"Unreviewed internal research, for administrators only; not scientific validation.",
+            }
+        return {
+            "question":body.question,"scope":"public_source_checked_bibliography",
+            "results":retrieve_verified(body.question,limit=body.limit),
+            "warning":"Bibliographic links checked; calculations, measurements and safety claims are NOT independently validated.",
+        }
 
     @app.get("/api/v1/evidence")
     def evidence_manifest(request:Request):
         auth.require(request,"viewer","analyst","auditor")
-        return {"cards":[e.to_dict() for e in load_evidence()],"warning":"Source verification is not a field test"}
+        return {
+            "cards":[e.to_dict() for e in load_evidence() if e.status=="source_checked"],
+            "warning":"Source verification is not a field test",
+        }
 
     @app.post("/api/v1/agents/review/{run_id}")
     def review_run(run_id:str,body:ReviewBody,request:Request):

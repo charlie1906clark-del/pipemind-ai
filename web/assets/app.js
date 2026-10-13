@@ -151,18 +151,30 @@
     event.preventDefault();
     const question=new FormData(event.currentTarget).get('question');
     const out=$('#research-results');
-    out.textContent='Searching reviewed and unreviewed notes…';
+    out.textContent='Searching research and source-linked evidence…';
     try{
       const data=await api('/research/search','POST',{question:String(question),limit:12});
       out.textContent='';
       if(!data.results.length){out.textContent='No matching passages found.';return;}
       data.results.forEach(hit=>{
         const article=document.createElement('article');article.className='research-hit';
-        const h=document.createElement('h3');h.textContent=hit.heading;
-        const p=document.createElement('p');p.textContent=hit.snippet;
-        const sm=document.createElement('small');sm.textContent=hit.path+' · lines '+hit.start_line+'–'+hit.end_line;
-        const a=document.createElement('a');a.textContent='View source in GitHub →';
-        a.href='https://github.com/charlie1906clark-del/pipemind-ai/blob/main/'+hit.path.split('/').map(encodeURIComponent).join('/')+'#L'+hit.start_line;
+        const h=document.createElement('h3');h.textContent=hit.title||hit.heading||'Research';
+        const p=document.createElement('p');p.textContent=hit.claim||hit.snippet||'';
+        const sm=document.createElement('small');
+        sm.textContent=hit.source_url
+          ? ((hit.evidence_tier||'source')+' · '+(hit.status||'source checked')+' · '+(hit.limitations||''))
+          : ((hit.path||'research')+' · lines '+hit.start_line+'–'+hit.end_line);
+        const a=document.createElement('a');
+        a.textContent=hit.source_url?'Open the cited primary source →':'View internal research in GitHub →';
+        if(hit.source_url){
+          a.href=hit.source_url;
+        }else if(hit.path){
+          a.href='https://github.com/charlie1906clark-del/pipemind-ai/blob/main/'+
+            hit.path.split('/').map(encodeURIComponent).join('/')+'#L'+hit.start_line;
+        }else {
+          a.textContent='No public source provided';
+          a.removeAttribute('href');
+        }
         a.target='_blank';a.rel='noopener noreferrer';
         article.append(h,sm,p,a);out.append(article);
       });

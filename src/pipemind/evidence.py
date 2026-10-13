@@ -52,6 +52,8 @@ def retrieve_verified(question: str, *, limit: int = 6) -> list[dict]:
     terms = set(re.findall(r"[a-z0-9]{3,}", question.lower()))
     candidates = []
     for card in load_evidence():
+        if card.status!="source_checked":
+            continue
         haystack = " ".join((card.title,card.claim,card.module,card.id,card.limitations)).lower()
         score = sum(1 for word in terms if word in haystack)
         if score:

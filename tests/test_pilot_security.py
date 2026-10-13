@@ -90,6 +90,28 @@ class PilotSecurityTests(unittest.TestCase):
         self.assertEqual(r.json()["persisted"],0)
         self.assertIn("UNTRUSTED_SOURCE",r.json()["quality"]["rejected"][0]["flags"])
 
+    def test_research_is_public_only_for_customer_viewer(self):
+        viewer=self.bearer("viewer")
+        public=self.client.post("/api/v1/research/search",headers=viewer,
+                                json={"question":"hydrogen equation of state","limit":8})
+        self.assertEqual(public.status_code,200,public.text)
+        result=public.json()
+        self.assertEqual(result["scope"],"public_source_checked_bibliography")
+        self.assertTrue(result["results"])
+        self.assertTrue(all("path" not in item and "source_url" in item for item in result["results"]))
+        self.assertEqual(self.client.get("/api/v1/evidence",headers=viewer).status_code,200)
+
+    def test_internal_search_only_dev_admin(self):
+        alice=self.bearer("alice")
+        result=self.client.post("/api/v1/research/search",headers=alice,
+                                json={"question":"hydrogen cryogenic","limit":3})
+        self.assertEqual(result.json()["scope"],"public_source_checked_bibliography")
+        self.application.state.auth.environment="production"
+        locked=self.client.post("/api/v1/research/search",headers=alice,
+                                json={"question":"hydrogen cryogenic","limit":3})
+        self.assertEqual(locked.json()["scope"],"public_source_checked_bibliography")
+        self.application.state.auth.environment="development"
+
     def test_evidence_copies_have_identical_ids(self):
         from pipemind.evidence import _DATA
         source=Path(__file__).resolve().parents[1]/"data/evidence/claims.json"
