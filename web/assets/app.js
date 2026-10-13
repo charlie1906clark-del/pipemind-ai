@@ -205,7 +205,7 @@
   $('#research-form').addEventListener('submit',doResearch);
   $('#verify-audit').addEventListener('click',async()=>{
     try{const result=await api('/audit/verify','GET');say('#audit-response',result.verified?
-      'Chain verified · '+result.event_count+' events · head '+result.chain_head.slice(0,12):
+      'Chain verified · '+result.event_count+' tenant events · fingerprint '+result.tenant_evidence_fingerprint.slice(0,12):
       'Verification failed at event '+result.failed_sequence);}
     catch(err){say('#audit-response',err.message);}
   });

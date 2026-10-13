@@ -416,8 +416,8 @@ def create_app() -> FastAPI:
 
     @app.get("/api/v1/audit/verify")
     def audit(request:Request):
-        auth.require(request,"auditor")
-        return store.verify_audit_chain()
+        user=auth.require(request,"auditor")
+        return store.verify_audit_chain(user.tenant)
 
     @app.get("/api/v1/apex/contract")
     def apex_contract(request:Request):
