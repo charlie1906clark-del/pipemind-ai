@@ -20,6 +20,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, ConfigDict, Field
 
 from pipemind.api.auth import IdentityProvider
+from pipemind.api.request_limits import RequestBodyLimitMiddleware
 from pipemind.finance import CostInputs, compare_options, evaluate_cost
 from pipemind.physics import CableInput, TankInput, PropertyDomainError, simulate_cable, simulate_tank
 from pipemind.storage import Store
@@ -427,6 +428,9 @@ def create_app() -> FastAPI:
             "forbidden":["Wong private notes","shared JWT signing keys","equipment commands","unreviewed research claims"],
             "proposed_types":["PipeMindAsset","PipeMindSimulationRun","PipeMindEvidenceClaim","PipeMindAdvisory"],
         }
+
+    # Outermost guard enforces actual received body bytes, including chunked POSTs.
+    app.add_middleware(RequestBodyLimitMiddleware, max_bytes=256_000)
 
     if STATIC.exists():
         app.mount("/assets",StaticFiles(directory=str(STATIC/"assets")),name="assets")
