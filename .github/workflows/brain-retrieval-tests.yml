@@ -14,7 +14,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install platform and test dependencies
+        run: python -m pip install -e ".[test]"
       - name: Unit tests
-        run: PYTHONPATH=tools python -m unittest discover -s tests -v
+        run: PYTHONPATH=src:tools python -m unittest discover -s tests -v
+        env:
+          PIPEMIND_ENV: development
+          PIPEMIND_DEV_TOKEN: ci-temporary-test-token-01234567890
+          PIPEMIND_DB_PATH: /tmp/pipemind-ci-brain.sqlite
       - name: Smoke test against repository knowledge
         run: python tools/brain_search.py "hydrogen cryogenics" --limit 2
