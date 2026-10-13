@@ -75,9 +75,23 @@ def run_scenario(page: Page, label: str, shots: Path) -> None:
     expect(page.locator("#replay-count")).to_contain_text("36 accepted samples", timeout=15_000)
     page.screenshot(path=str(shots / f"{label}-replay.png"), full_page=True)
 
+    visit(page,"corridors")
+    page.locator("#corridor-demo").click()
+    expect(page.locator("#corridor-result")).to_contain_text(
+        "SYNTHETIC_ROUTING_SCREENING", timeout=12_000
+    )
+
     visit(page,"reports")
     page.locator("#refresh-runs").click()
     expect(page.locator(".run-button").first).to_be_visible(timeout=12_000)
+    page.locator(".run-button:not([disabled])").first.click()
+    expect(page.locator("#report-findings")).to_contain_text(
+        "ADVISORY_DRAFT_REQUIRES_HUMAN_REVIEW", timeout=12_000
+    )
+    with page.expect_download(timeout=12_000) as downloaded:
+        page.locator("#download-report").click()
+    if not downloaded.value.suggested_filename.endswith(".md"):
+        raise AssertionError(f"{label}: report did not download as Markdown")
 
     visit(page,"security")
     page.locator("#verify-audit").click()
