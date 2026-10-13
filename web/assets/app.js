@@ -9,7 +9,7 @@
   const $$ = (s) => Array.from(document.querySelectorAll(s));
   const views = {
     overview: 'Command centre', tank: 'LH₂ tank twin', cable: 'Hybrid cable',
-    economics: 'Economics', research: 'Research brain', agents: 'AI specialists',
+    economics: 'Economics', telemetry: 'Asset replay', corridors: 'Corridor ranking', reports: 'Reports', research: 'Research brain', agents: 'AI specialists',
     security: 'Security & APEX'
   };
   const fmt = (value, dp=1) => typeof value === 'number' && Number.isFinite(value)
@@ -175,6 +175,7 @@
     try{
       const status=await api('/status','GET');
       say('#tenant-label',status.tenant);
+      $('#replay-demo').hidden = !status.synthetic_import_enabled;
       say('#platform-mode','Connected · '+status.tenant);
       $('#login-overlay').classList.add('hidden');$('#token-field').value='';
       toast('Authenticated research environment · no equipment control');
@@ -210,5 +211,135 @@
     if(lastCable) cablePlot();
     if(!lastTank&&!lastCable)plotBlank();
   });
+
+  // Research-only operation surfaces. Sensor values are never represented as live.
+  function replayInput() {
+    const form = $('#replay-form');
+    return {
+      asset: String(form.elements.namedItem('asset_id').value).trim(),
+      metric: String(form.elements.namedItem('metric').value)
+    };
+  }
+  function replayUnit(metric) {
+    return {temperature_k:'K',pressure_pa:'Pa',liquid_fill_fraction:'fraction',
+      mass_flow_kg_s:'kg/s',heat_ingress_w:'W'}[metric] || '';
+  }
+  async function loadReplay() {
+    const {asset,metric} = replayInput();
+    if (!/^[A-Za-z0-9_.-]{1,64}$/.test(asset)) throw new Error('Invalid asset identifier');
+    const data = await api('/twin/observations/'+encodeURIComponent(asset)+'/'+encodeURIComponent(metric),'GET');
+    say('#replay-count',data.observations.length+' accepted samples');
+    if (data.observations.length>=2) {
+      const x=data.observations.map((p,i)=>({sample:i+1,value:p.value}));
+      drawPlot($('#replay-chart'),x,'sample',['value'],metric+' · '+replayUnit(metric));
+    }
+    let note='Accepted historical records: '+data.observations.length+'.';
+    if(data.observations.length>=12){
+      const fc=await api('/twin/replay-forecast/'+encodeURIComponent(asset)+'/'+encodeURIComponent(metric),'GET');
+      note+=' Replay model: '+fc.status+'.';
+      if(Number.isFinite(fc.next_value))note+=' Estimated next sample: '+fmt(fc.next_value,3)+' '+replayUnit(metric)+'.';
+      if(fc.reference_time_utc)note+=' Last historical sample: '+fc.reference_time_utc+'.';
+      note+=' Not a live forecast or a safety alert.';
+    }else note+=' Need at least 12 regularly spaced, single-source samples for a forecast.';
+    say('#replay-details',note);
+  }
+  $('#replay-form').addEventListener('submit',async(e)=>{
+    e.preventDefault();try{await loadReplay();}catch(err){toast('Replay unavailable: '+err.message);}
+  });
+  $('#replay-demo').addEventListener('click',async()=>{
+    const {asset,metric}=replayInput();
+    const origin=Date.now()-35*60_000;
+    const base=metric==='pressure_pa'?101325:metric==='temperature_k'?20:
+      metric==='liquid_fill_fraction'?.7:metric==='mass_flow_kg_s'?0.8:700;
+    const slope=metric==='pressure_pa'?175:metric==='temperature_k'?.008:
+      metric==='liquid_fill_fraction'?-.00015:metric==='mass_flow_kg_s'?.0001:.2;
+    const observations=Array.from({length:36},(_,i)=>({
+      asset_id:asset,metric,measured_at:new Date(origin+i*60_000).toISOString(),
+      value:base+slope*i,unit:replayUnit(metric),source:'simulated',
+      lineage:'PIPeMind locally generated illustrative replay, not field data'
+    }));
+    try{
+      const outcome=await api('/twin/ingest','POST',{observations});
+      toast('Synthetic test: '+outcome.persisted+' new rows; '+outcome.quality.counts.rejected+' invalid.');
+      await loadReplay();
+    }catch(err){toast('Demo rejected: '+err.message);}
+  });
+  $('#import-json').addEventListener('click',async()=>{
+    try{
+      const parsed=JSON.parse($('#import-observations').value);
+      if(!Array.isArray(parsed)||!parsed.length||parsed.length>500)throw new Error('Expected 1–500 JSON records');
+      const result=await api('/twin/ingest','POST',{observations:parsed});
+      toast('Quality check: '+result.persisted+' new records, '+result.quality.counts.rejected+' rejected.');
+      await loadReplay();
+    }catch(err){toast('Import not accepted: '+err.message);}
+  });
+  $('#corridor-demo').addEventListener('click',async()=>{
+    const network={
+      nodes:['Industrial hub','Junction east','Road corridor','Hydrogen terminal'],
+      source:'Industrial hub',destination:'Hydrogen terminal',
+      segments:[
+        {start:'Industrial hub',end:'Junction east',length_m:3800,ground_risk:2,trenchless_crossings:2},
+        {start:'Junction east',end:'Hydrogen terminal',length_m:3300,ground_risk:1,trenchless_crossings:1},
+        {start:'Industrial hub',end:'Road corridor',length_m:5200,ground_risk:0.1,infrastructure_parallel:true,trenchless_crossings:0},
+        {start:'Road corridor',end:'Hydrogen terminal',length_m:4100,ground_risk:0.1,infrastructure_parallel:true,trenchless_crossings:0}
+      ]
+    };
+    try{
+      const r=await api('/routes/synthetic','POST',network);
+      say('#corridor-result',
+        'Screening status: '+r.status+'\nPreferred node sequence: '+(r.nodes||[]).join(' → ')+
+        '\nPath length: '+fmt(r.length_m,0)+' m'+
+        '\nProxy score: '+fmt(r.proxy_cost,0)+'\nNo geospatial survey, site permissions or construction safety validation.');
+    }catch(err){toast('Route screening rejected: '+err.message);}
+  });
+  let lastReportRun='';
+  async function showRuns(){
+    const data=await api('/runs','GET');
+    const el=$('#run-list');
+    el.textContent='';
+    data.runs.slice(0,30).forEach(item=>{
+      const button=document.createElement('button');
+      button.className='run-button';
+      button.textContent=item.kind+' · '+String(item.id).slice(0,8)+' · '+item.created_at;
+      button.addEventListener('click',()=>{
+        $('#report-form').elements.namedItem('run_id').value=item.id;
+        $('#report-form').requestSubmit();
+      });
+      el.append(button);
+    });
+    if(!data.runs.length)el.textContent='No saved studies for this tenant yet.';
+  }
+  $('#refresh-runs').addEventListener('click',()=>showRuns().catch(err=>toast(err.message)));
+  $('#report-form').addEventListener('submit',async(e)=>{
+    e.preventDefault();
+    const runId=String(new FormData(e.currentTarget).get('run_id')||'').trim();
+    if(!/^[a-f\d-]{36}$/i.test(runId)){toast('Please enter a full run UUID');return;}
+    try{
+      const result=await api('/agents/review/'+runId,'POST',{question:'Explain uncertainty and gaps'});
+      lastReportRun=runId;
+      say('#report-findings',result.status+'\n'+result.checks.map(
+        v=>v.role+': '+v.verdict+' — '+v.detail).join('\n')+'\nEngineering approval required.');
+      $('#download-report').disabled=false;
+    }catch(err){toast('Review not possible: '+err.message);}
+  });
+  $('#download-report').addEventListener('click',async()=>{
+    if(!lastReportRun)return;
+    const controller=new AbortController();
+    const watchdog=setTimeout(()=>controller.abort(),30000);
+    try{
+      const response=await fetch('/api/v1/reports/draft/'+encodeURIComponent(lastReportRun),{
+        headers:{Authorization:'Bearer '+token},credentials:'omit',signal:controller.signal
+      });
+      if(!response.ok)throw new Error('Report export denied: '+response.status);
+      const blob=new Blob([await response.text()],{type:'text/markdown'});
+      const url=URL.createObjectURL(blob);
+      const link=document.createElement('a');
+      link.href=url;link.download='PipeMind-Research-Report-'+lastReportRun.slice(0,8)+'.md';
+      document.body.append(link);link.click();link.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),1000);
+    }catch(err){toast(err.message);}
+    finally{clearTimeout(watchdog);}
+  });
+
   plotBlank();
 })();

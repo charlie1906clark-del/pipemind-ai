@@ -18,6 +18,9 @@
         <button data-view="tank" class="nav-link"><span>▣</span> LH₂ tank twin</button>
         <button data-view="cable" class="nav-link"><span>⌁</span> Hybrid cable</button>
         <button data-view="economics" class="nav-link"><span>◫</span> Economics</button>
+        <button data-view="telemetry" class="nav-link"><span>◉</span> Asset replay</button>
+        <button data-view="corridors" class="nav-link"><span>⌁</span> Corridor ranking</button>
+        <button data-view="reports" class="nav-link"><span>▤</span> Reports</button>
         <button data-view="research" class="nav-link"><span>⌕</span> Research brain</button>
       </nav>
       <div class="nav-section">PLATFORM</div>
@@ -97,6 +100,55 @@
 
         <section class="page" id="view-research"><div class="page-header"><div><span class="eyebrow">RESEARCH / SOURCE PROVENANCE</span><h1>The research brain.</h1><p>Search the existing PipeMind Obsidian-compatible notes with file and line citations. Retrieval does not verify a claim.</p></div><span class="disclaimer-chip">EVIDENCE STATUS REQUIRED</span></div><div class="panel research-panel"><form id="research-form" class="search-box"><input name="question" type="search" placeholder="Search cooling, routing, hydrides, safety..." value="liquid hydrogen cooling"><button class="primary">Search knowledge →</button></form><div id="research-results" class="search-results"><p class="placeholder">Search your research corpus to inspect source passages.</p></div></div></section>
 
+
+        <section class="page" id="view-telemetry">
+          <div class="page-header"><div><span class="eyebrow">DIGITAL TWIN / DATA QUALITY</span><h1>Asset replay laboratory.</h1><p>Review historical tank measurements, screen incoming data quality and benchmark a conservative forecast. No live alarm or equipment connection exists.</p></div><span class="disclaimer-chip">OFFLINE REPLAY ONLY</span></div>
+          <div class="work-grid">
+            <div class="panel form-panel"><div class="panel-head"><h2>Inspection query</h2><span class="tag">Tenant scoped</span></div>
+              <form id="replay-form">
+                <label>Asset identifier<input name="asset_id" value="research-tank-01" maxlength="64" required></label>
+                <label>Physical measurement<select name="metric">
+                  <option value="temperature_k">Temperature (K)</option>
+                  <option value="pressure_pa">Pressure (Pa)</option>
+                  <option value="liquid_fill_fraction">Fill fraction</option>
+                  <option value="mass_flow_kg_s">Mass flow (kg/s)</option>
+                  <option value="heat_ingress_w">Heat ingress (W)</option>
+                </select></label>
+                <button class="primary" type="submit">Inspect historical measurements →</button>
+              </form>
+              <button id="replay-demo" class="secondary wide" type="button" hidden>Generate clearly labelled synthetic readings</button>
+              <p class="muted-note">Production synthetic ingestion is disabled. Real facility data requires a security-approved offline import or independently authenticated gateway.</p>
+            </div>
+            <div class="panel results-panel"><div class="panel-head"><div><span class="eyebrow">HISTORY / GATED FORECAST</span><h2>Quality before intelligence</h2></div><span class="tag muted" id="replay-count">No data</span></div>
+              <canvas id="replay-chart" class="chart" height="300"></canvas>
+              <div id="replay-details" class="smallprint">No authenticated source data loaded. Forecasts are labelled historical research only.</div>
+              <div class="warning">A trend forecast does not establish tank safety, pressure relief requirements or controller setpoints. Unsynchronised or mixed source data is refused.</div>
+            </div>
+          </div>
+          <div class="panel import-panel"><div class="panel-head"><h2>Offline JSON observation import</h2><span class="tag muted">Reviewer / ingest role</span></div>
+            <p>Enter a JSON array of records containing asset_id, measured_at (ISO UTC), metric, value, unit and source ("operator-import"). Uploads are traceable to an authenticated tenant.</p>
+            <textarea id="import-observations" rows="5" spellcheck="false" placeholder='[{"asset_id":"tank-01","measured_at":"2026-10-13T11:00:00Z","metric":"temperature_k","value":20.3,"unit":"K","source":"operator-import"}]'></textarea>
+            <button id="import-json" class="secondary" type="button">Check and import offline observations →</button>
+          </div>
+        </section>
+        <section class="page" id="view-corridors">
+          <div class="page-header"><div><span class="eyebrow">MODULE 01 / EARLY CORRIDOR RESEARCH</span><h1>Route screening.</h1><p>Reproducible least-cost graph ranking using a synthetic network and transparent crossing/risk weights.</p></div><span class="disclaimer-chip">NOT A PLANNING ALIGNMENT</span></div>
+          <div class="panel research-panel"><div class="panel-head"><h2>Concept route comparison</h2><span class="tag muted">Synthetic geometry</span></div>
+            <p class="smallprint">This demonstration compares two hypothetical paths: a shorter route through constrained ground and a longer route alongside existing infrastructure. It is not a real UK route plan.</p>
+            <button class="primary" id="corridor-demo" type="button">Evaluate two hypothetical corridors →</button>
+            <div id="corridor-result" class="route-result" aria-live="polite"></div>
+          </div>
+        </section>
+        <section class="page" id="view-reports">
+          <div class="page-header"><div><span class="eyebrow">MODULE 06 / TRACEABLE ENGINEERING EVIDENCE</span><h1>Reports and reviews.</h1><p>Reopen a saved simulation by identifier, generate an advisory review or export a source-linked draft report.</p></div><span class="disclaimer-chip">UNSIGNED ENGINEERING DRAFT</span></div>
+          <div class="panel research-panel"><div class="panel-head"><h2>Saved run records</h2></div>
+            <button id="refresh-runs" class="secondary" type="button">Refresh my tenant's runs</button>
+            <div id="run-list" class="run-list"></div>
+            <form id="report-form" class="search-box" style="margin-top:24px"><input type="text" name="run_id" placeholder="Paste a run UUID" required><button class="primary">Prepare review and draft</button></form>
+            <div id="report-findings" class="route-result" aria-live="polite"></div>
+            <button id="download-report" class="secondary" type="button" disabled>Download research report (.md)</button>
+          </div>
+        </section>
         <section class="page" id="view-agents"><div class="page-header"><div><span class="eyebrow">AGENT STUDIO / ROLE BOUNDARIES</span><h1>Specialist intelligence.</h1><p>A modular team of bounded research assistants, structured around deterministic engineering results.</p></div><span class="disclaimer-chip">AGENTS NOT AUTONOMOUS</span></div>
           <div class="agent-grid">
             <article><span>01 / EVIDENCE</span><h3>Research verifier</h3><p>Checks claim provenance, scope, published measurements and disagreements.</p><small>Instruction contract · drafted</small></article>

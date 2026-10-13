@@ -20,6 +20,8 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: python -m pip install -e ".[test]"
+      - name: Check browser application syntax
+        run: node --check web/assets/app.js
       - name: Run domain, API, tenant and evidence tests
         run: PYTHONPATH=src:tools python -m unittest discover -s tests -v
         env:
