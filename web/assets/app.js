@@ -309,11 +309,15 @@
     const data=await api('/runs','GET');
     const el=$('#run-list');
     el.textContent='';
+    const eligible=new Set(['tank','cable','cost','trend','comparison']);
     data.runs.slice(0,30).forEach(item=>{
       const button=document.createElement('button');
       button.className='run-button';
-      button.textContent=item.kind+' · '+String(item.id).slice(0,8)+' · '+item.created_at;
+      button.disabled=!eligible.has(item.kind);
+      button.textContent=item.kind+' · '+String(item.id).slice(0,8)+' · '+
+        item.created_at+(button.disabled?' · research data only':' · report available');
       button.addEventListener('click',()=>{
+        if(button.disabled)return;
         $('#report-form').elements.namedItem('run_id').value=item.id;
         $('#report-form').requestSubmit();
       });
