@@ -68,6 +68,9 @@ def run_scenario(page: Page, label: str, shots: Path) -> None:
 
     visit(page,"telemetry")
     expect(page.locator("#replay-demo")).to_be_visible()
+    # Each viewport tests its own synthetic asset. Running both in the same
+    # test database must not cause a misleading extra-history expectation.
+    page.locator('#replay-form input[name="asset_id"]').fill(f"browser-{label}-tank")
     page.locator("#replay-demo").click()
     expect(page.locator("#replay-count")).to_contain_text("36 accepted samples", timeout=15_000)
     page.screenshot(path=str(shots / f"{label}-replay.png"), full_page=True)
