@@ -20,9 +20,17 @@ class Store:
         self.path = path
         self.lock = threading.RLock()
         if path != ":memory:":
-            Path(path).parent.mkdir(parents=True, exist_ok=True)
+            db_path = Path(path)
+            if db_path.is_symlink():
+                raise ValueError("SQLite database path must not be a symlink")
+            db_path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
         # A single connection is guarded by lock; multi-process deployments not supported.
         self.db = sqlite3.connect(path, check_same_thread=False, timeout=10, isolation_level=None)
+        if path != ":memory:" and os.name == "posix":
+            # The pilot's stored observations and run inputs must not be
+            # readable by other local users. OS access is still ultimately
+            # controlled by volume/host permissions.
+            os.chmod(path, 0o600)
         self.db.execute("PRAGMA journal_mode=WAL")
         self.db.execute("PRAGMA busy_timeout=10000")
         self.db.execute("PRAGMA foreign_keys=ON")
