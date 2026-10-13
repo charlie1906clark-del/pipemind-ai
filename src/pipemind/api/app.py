@@ -26,6 +26,7 @@ from pipemind.storage import Store
 from pipemind.twin.telemetry import check_batch, METRICS
 from pipemind.twin.forecast import forecast
 from pipemind.twin.asset_forecast import replay_forecast
+from pipemind.twin.benchmark import benchmark_tank_pressure
 from pipemind.brain import search as brain_search
 from pipemind.evidence import load_evidence
 from pipemind.agents import compose_review
@@ -130,6 +131,12 @@ class BatchBody(StrictBody):
 class TrendBody(StrictBody):
     values: list[float]=Field(min_length=1,max_length=2000)
     horizon_samples: int=Field(default=1,ge=1,le=24)
+
+
+class TankBenchmarkBody(StrictBody):
+    run_id: str = Field(min_length=36,max_length=36)
+    asset_id: str = Field(min_length=1,max_length=64)
+    model_start_utc: str = Field(min_length=10,max_length=48)
 
 
 class ResearchBody(StrictBody):
@@ -293,6 +300,26 @@ def create_app() -> FastAPI:
         readings=store.read_observations(user.tenant,asset_id,metric,limit=1500)
         result=replay_forecast(readings,metric,horizon_samples=horizon_samples)
         return save(user,"replay-forecast",{"asset_id":asset_id,"metric":metric,**result})
+
+    @app.post("/api/v1/twin/benchmark/tank-pressure")
+    def tank_pressure_benchmark(body:TankBenchmarkBody,request:Request):
+        user=auth.require(request,"analyst")
+        try:
+            UUID(body.run_id)
+        except ValueError:
+            raise HTTPException(422,"invalid run identifier")
+        record=store.get_run_record(user.tenant,body.run_id)
+        if record is None:
+            raise HTTPException(404,"tank simulation not found")
+        if record["kind"]!="tank":
+            raise HTTPException(422,"only tank simulation runs can be benchmarked")
+        observations=store.read_observations(user.tenant,body.asset_id,"pressure_pa",limit=1500)
+        result=benchmark_tank_pressure(
+            record["payload"],observations,model_start_utc=body.model_start_utc
+        )
+        return save(user,"tank-pressure-benchmark",{
+            "simulation_run_id":body.run_id,"asset_id":body.asset_id,**result
+        })
 
     @app.post("/api/v1/research/search")
     def research(body:ResearchBody,request:Request):
