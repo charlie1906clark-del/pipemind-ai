@@ -25,6 +25,7 @@ from pipemind.physics import CableInput, TankInput, PropertyDomainError, simulat
 from pipemind.storage import Store
 from pipemind.twin.telemetry import check_batch, METRICS
 from pipemind.twin.forecast import forecast
+from pipemind.twin.asset_forecast import replay_forecast
 from pipemind.brain import search as brain_search
 from pipemind.evidence import load_evidence
 from pipemind.agents import compose_review
@@ -182,7 +183,9 @@ def create_app() -> FastAPI:
         try:
             store.db.execute("SELECT 1")
             from pipemind.physics.properties import CoolProp
-            return {"ready":CoolProp is not None,"database":"sqlite-single-node","eos":"CoolProp" if CoolProp is not None else "UNAVAILABLE"}
+            if CoolProp is None:
+                return JSONResponse({"ready":False,"reason":"hydrogen EOS unavailable"},status_code=503)
+            return {"ready":True,"database":"sqlite-single-node","eos":"CoolProp","scope":"software-only; no plant validation"}
         except Exception:
             return JSONResponse({"ready":False},status_code=503)
 
@@ -257,7 +260,11 @@ def create_app() -> FastAPI:
         user=auth.require(request,"ingest")
         result=check_batch([item.model_dump() for item in body.observations])
         written=store.append_observations(user.tenant,user.subject,[x.to_dict() for x in result.accepted]) if result.accepted else 0
-        return {"persisted":written,"quality":result.to_dict(),"source":"import/replay, not OT control"}
+        return {
+            "persisted":written,"duplicates_previous_batches":len(result.accepted)-written,
+            "quality":result.to_dict(),"source":"offline import/replay only; NOT a live authenticated gateway",
+            "no_operational_alerts":True,
+        }
 
     @app.get("/api/v1/twin/observations/{asset_id}/{metric}")
     def observations(asset_id:str,metric:str,request:Request,limit:int=200):
@@ -272,6 +279,17 @@ def create_app() -> FastAPI:
     def trend(body:TrendBody,request:Request):
         user=auth.require(request,"analyst")
         return save(user,"trend",forecast(body.values,body.horizon_samples).to_dict())
+
+    @app.get("/api/v1/twin/replay-forecast/{asset_id}/{metric}")
+    def replay_asset_forecast(asset_id:str,metric:str,request:Request,horizon_samples:int=1):
+        user=auth.require(request,"analyst")
+        if not asset_id or len(asset_id)>64 or metric not in METRICS:
+            raise HTTPException(422,"invalid asset or metric")
+        if not 1<=horizon_samples<=24:
+            raise HTTPException(422,"horizon outside 1..24")
+        readings=store.read_observations(user.tenant,asset_id,metric,limit=1500)
+        result=replay_forecast(readings,metric,horizon_samples=horizon_samples)
+        return save(user,"replay-forecast",{"asset_id":asset_id,"metric":metric,**result})
 
     @app.post("/api/v1/research/search")
     def research(body:ResearchBody,request:Request):

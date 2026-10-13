@@ -1,6 +1,9 @@
 """Safety-neutral data quality checks; never infer a facility is safe.
 
 All input records carry source, UTC timestamp and data-quality annotations.
+A string saying "signed-gateway" is not proof of a cryptographically authenticated
+OT gateway. Only operator-import or synthetic replay data are accepted until an
+independent, authenticated, one-way OT-to-IT integration is implemented.
 """
 from __future__ import annotations
 
@@ -55,7 +58,7 @@ class QualityResult:
 
 def check_batch(
     raw: Iterable[dict], *, now: datetime | None = None,
-    trusted_sources: tuple[str, ...] = ("simulated", "operator-import", "signed-gateway"),
+    trusted_sources: tuple[str, ...] = ("simulated", "operator-import"),
     history: dict[tuple[str, str], list[float]] | None = None,
 ) -> QualityResult:
     now = now or datetime.now(timezone.utc)

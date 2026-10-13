@@ -56,18 +56,31 @@ class Store:
             cur = self.db.cursor()
             try:
                 cur.execute("BEGIN IMMEDIATE")
+                inserted: list[dict] = []
                 for p in points:
-                    cur.execute("INSERT INTO observations VALUES (?,?,?,?,?,?,?,?,?)", (
-                        str(uuid.uuid4()),tenant,p["asset_id"],p["measured_at"],p["metric"],
-                        p["value"],p["unit"],p["source"],p.get("lineage","")
-                    ))
-                digest = hashlib.sha256(json.dumps(points,sort_keys=True).encode()).hexdigest()
-                self._audit(cur,tenant,actor,"telemetry.append",digest)
+                    # Idempotence across REST retries and batches: the same source +
+                    # asset + metric + timestamp is one sample, regardless of value.
+                    # A changed value needs an explicit correction process, never an
+                    # invisible overwrite of historical measurements.
+                    cur.execute(
+                        "INSERT INTO observations(id,tenant,asset,ts,metric,value,unit,source,lineage) "
+                        "SELECT ?,?,?,?,?,?,?,?,? WHERE NOT EXISTS ("
+                        "SELECT 1 FROM observations WHERE tenant=? AND asset=? AND ts=? "
+                        "AND metric=? AND source=?)",
+                        (str(uuid.uuid4()),tenant,p["asset_id"],p["measured_at"],p["metric"],
+                         p["value"],p["unit"],p["source"],p.get("lineage",""),
+                         tenant,p["asset_id"],p["measured_at"],p["metric"],p["source"]),
+                    )
+                    if cur.rowcount:
+                        inserted.append(p)
+                if inserted:
+                    digest = hashlib.sha256(json.dumps(inserted,sort_keys=True).encode()).hexdigest()
+                    self._audit(cur,tenant,actor,"telemetry.append",digest)
                 cur.execute("COMMIT")
             except Exception:
                 cur.execute("ROLLBACK")
                 raise
-        return len(points)
+        return len(inserted)
 
     def read_observations(self, tenant: str, asset: str, metric: str, limit: int = 200) -> list[dict]:
         with self.lock:
