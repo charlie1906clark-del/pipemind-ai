@@ -198,6 +198,7 @@ def create_app() -> FastAPI:
             "tenant":person.tenant,"roles":sorted(person.roles),
             "physics_backend":CoolProp.__version__ if CoolProp is not None else "UNAVAILABLE",
             "actuation_enabled":False,
+            "synthetic_import_enabled":auth.environment == "development",
             "wong_link":"CURATED_CONTRACT_ONLY","apex_connected":False,
             "capabilities":["tank-simulation","cable-screening","scenario-cost","telemetry-quality",
                             "trend-backtest","source-linked-research","audit-trail","advisory-review","report-drafts","synthetic-routing","scenario-optimisation"]
@@ -258,6 +259,8 @@ def create_app() -> FastAPI:
     @app.post("/api/v1/twin/ingest")
     def ingest(body:BatchBody,request:Request):
         user=auth.require(request,"ingest")
+        if auth.environment=="production" and any(item.source=="simulated" for item in body.observations):
+            raise HTTPException(403,"synthetic telemetry is disabled in production tenants")
         result=check_batch([item.model_dump() for item in body.observations])
         written=store.append_observations(user.tenant,user.subject,[x.to_dict() for x in result.accepted]) if result.accepted else 0
         return {
