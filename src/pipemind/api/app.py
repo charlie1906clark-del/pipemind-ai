@@ -15,7 +15,7 @@ from uuid import UUID
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import JSONResponse, FileResponse
+from fastapi.responses import JSONResponse, FileResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -26,6 +26,11 @@ from pipemind.storage import Store
 from pipemind.twin.telemetry import check_batch, METRICS
 from pipemind.twin.forecast import forecast
 from pipemind.brain import search as brain_search
+from pipemind.evidence import load_evidence
+from pipemind.agents import compose_review
+from pipemind.optimization import OptimisationStudy, optimise
+from pipemind.reports import draft_report
+from pipemind.route import best_route, Segment
 
 log=logging.getLogger("pipemind")
 REPO_ROOT=Path(__file__).resolve().parents[3]
@@ -77,6 +82,34 @@ class CostBody(StrictBody):
 class ComparisonBody(StrictBody):
     baseline: CostBody
     candidates: list[CostBody]=Field(min_length=1,max_length=20)
+
+
+class OptimisationBody(StrictBody):
+    baseline: CostBody
+    cooling_capital_annual_gbp: float | None = Field(default=None, ge=0, le=1e10)
+    recovery_capital_annual_gbp: float | None = Field(default=None, ge=0, le=1e10)
+    recovery_aux_electricity_kwh_per_kg: float | None = Field(default=None, ge=0, le=100000)
+
+
+class ReviewBody(StrictBody):
+    question: str = Field(default="", max_length=300)
+
+
+class RouteSegment(StrictBody):
+    start: str = Field(min_length=1, max_length=64)
+    end: str = Field(min_length=1, max_length=64)
+    length_m: float = Field(ge=0, le=1e9)
+    ground_risk: float = Field(default=0, ge=0, le=10)
+    protected_area: bool = False
+    trenchless_crossings: int = Field(default=0, ge=0, le=1000)
+    infrastructure_parallel: bool = False
+
+
+class RouteBody(StrictBody):
+    nodes: list[str] = Field(min_length=2, max_length=500)
+    segments: list[RouteSegment] = Field(min_length=1, max_length=5000)
+    source: str = Field(min_length=1, max_length=64)
+    destination: str = Field(min_length=1, max_length=64)
 
 
 class ObservationBody(StrictBody):
@@ -164,7 +197,7 @@ def create_app() -> FastAPI:
             "actuation_enabled":False,
             "wong_link":"CURATED_CONTRACT_ONLY","apex_connected":False,
             "capabilities":["tank-simulation","cable-screening","scenario-cost","telemetry-quality",
-                            "trend-backtest","source-linked-research","audit-trail"]
+                            "trend-backtest","source-linked-research","audit-trail","advisory-review","report-drafts","synthetic-routing","scenario-optimisation"]
         }
 
     def save(person,kind,result):
@@ -199,6 +232,26 @@ def create_app() -> FastAPI:
             "no_equipment_control":True,
         })
 
+    @app.post("/api/v1/optimization/screen")
+    def optimization(body:OptimisationBody,request:Request):
+        user=auth.require(request,"analyst")
+        study=OptimisationStudy(
+            baseline=CostInputs(**body.baseline.model_dump()),
+            cooling_capital_annual_gbp=body.cooling_capital_annual_gbp,
+            recovery_capital_annual_gbp=body.recovery_capital_annual_gbp,
+            recovery_aux_electricity_kwh_per_kg=body.recovery_aux_electricity_kwh_per_kg
+        )
+        return save(user,"optimization",optimise(study))
+
+    @app.post("/api/v1/routes/synthetic")
+    def route(body:RouteBody,request:Request):
+        user=auth.require(request,"analyst")
+        result=best_route(
+            body.nodes,[Segment(**s.model_dump()) for s in body.segments],
+            body.source,body.destination
+        )
+        return save(user,"route",result)
+
     @app.post("/api/v1/twin/ingest")
     def ingest(body:BatchBody,request:Request):
         user=auth.require(request,"ingest")
@@ -225,6 +278,44 @@ def create_app() -> FastAPI:
         auth.require(request,"viewer","analyst")
         return {"question":body.question,"results":[x.to_dict() for x in brain_search(REPO_ROOT,body.question,body.limit)],
                 "warning":"Retrieved text is not independently verified and must never override physics or safety gates."}
+
+    @app.get("/api/v1/evidence")
+    def evidence_manifest(request:Request):
+        auth.require(request,"viewer","analyst","auditor")
+        return {"cards":[e.to_dict() for e in load_evidence()],"warning":"Source verification is not a field test"}
+
+    @app.post("/api/v1/agents/review/{run_id}")
+    def review_run(run_id:str,body:ReviewBody,request:Request):
+        user=auth.require(request,"analyst")
+        try:
+            UUID(run_id)
+        except ValueError:
+            raise HTTPException(404,"not found")
+        record=store.get_run_record(user.tenant,run_id)
+        if record is None:
+            raise HTTPException(404,"not found")
+        if record["kind"] not in {"tank","cable","cost","trend","comparison"}:
+            raise HTTPException(422,"run type not eligible for review")
+        result=compose_review(record["kind"],record["payload"],body.question)
+        return save(user,"advisory-review",result)
+
+    @app.get("/api/v1/reports/draft/{run_id}")
+    def report_run(run_id:str,request:Request):
+        user=auth.require(request,"analyst","viewer")
+        try:
+            UUID(run_id)
+        except ValueError:
+            raise HTTPException(404,"not found")
+        record=store.get_run_record(user.tenant,run_id)
+        if record is None:
+            raise HTTPException(404,"not found")
+        if record["kind"] not in {"tank","cable","cost","trend","comparison"}:
+            raise HTTPException(422,"run type not eligible for report")
+        review=compose_review(record["kind"],record["payload"],record["kind"])
+        return PlainTextResponse(
+            draft_report(run_id,record["kind"],record["payload"],review),
+            media_type="text/markdown",
+        )
 
     @app.get("/api/v1/runs")
     def runs(request:Request):
