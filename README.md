@@ -1,9 +1,10 @@
 # PipeMind AI — Cryogenic Hydrogen Intelligence
 
 > **Current status: TESTED RESEARCH PILOT CANDIDATE — NOT INDUSTRIAL CONTROL SOFTWARE.**
-> Main branch holds the original research; current integrated code is in
-> [`integration/pipemind-platform-2026-10-13`](https://github.com/charlie1906clark-del/pipemind-ai/tree/integration/pipemind-platform-2026-10-13).
-> Subsequent changes are proposed under [the telemetry/deployment hardening PR](https://github.com/charlie1906clark-del/pipemind-ai/pull/13).
+> Main branch holds the original research; integrated prototype on `integration/pipemind-platform-2026-10-13`.
+> The **latest tested pilot candidate**, including runtime security and desktop/mobile acceptance,
+> is the `hardening/telemetry-physics-and-pilot-gates-2026-10-13` branch in
+> [draft PR #13](https://github.com/charlie1906clark-del/pipemind-ai/pull/13).
 > No public production deployment, site validation or connection to plant control equipment is claimed.
 
 PipeMind combines source-traceable hydrogen thermodynamics, offline digital-twin replay,
@@ -41,7 +42,7 @@ liquid-hydrogen-cooled superconducting transmission cables.
 Requires Python 3.12+ recommended, CoolProp-compatible platform and pip:
 
 ```bash
-git checkout integration/pipemind-platform-2026-10-13
+git checkout hardening/telemetry-physics-and-pilot-gates-2026-10-13
 python -m venv .venv
 # Activate .venv using your platform's standard activation command
 python -m pip install -e ".[test]"
@@ -69,6 +70,7 @@ Run the gates:
 PYTHONPATH=src:tools python -m unittest discover -s tests -v
 python tools/brain_search.py "hydrogen cooling" --limit 3
 node --check web/assets/app.js
+# Full real-Chromium desktop/mobile workflow also runs in GitHub Actions.
 ```
 
 ## Production container preconditions
@@ -117,6 +119,41 @@ docs/research/               Dated source review and business positioning
 data/evidence/              Curated bibliographic evidence manifest
 tests/                      Regression, EOS, tenancy, audit and CI gates
 ```
+
+
+## Offline backup, retention and audit boundary
+
+On the latest hardening branch, generate a consistent research pilot snapshot
+with SQLite's online-backup API rather than copying a live WAL database directly:
+
+```bash
+python -m pipemind.maintenance.backup create ./data/pipemind-local.sqlite /restricted/backup.sqlite
+python -m pipemind.maintenance.backup verify /restricted/backup.sqlite
+```
+
+This verifies database integrity, a source-side audit chain and a file hash
+without overwriting existing backups. Backup encryption, offsite immutable
+retention, timed scheduling, monitored recovery and tested restore are **not yet
+configured**.
+
+The API verifies global audit integrity internally but only exposes
+tenant-specific counts/fingerprints to customer auditors. The browser never
+allows a user to issue plant control actions. Outbound customer research search
+returns a reviewed public evidence manifest; full internal Obsidian content is
+restricted to development administrators and is not packaged in customer images.
+
+## Browser acceptance and operating assumptions
+
+GitHub Actions launches a real Chromium browser at desktop (1440px) and mobile
+(390px) widths against a running API, exercising login, cryogenic models,
+forecast replay, published experiment manifests, synthetic routing, report
+exports, research search and audit checks. Test screenshots are retained for
+failed runs. These prove end-user **software flows**, not scientific model
+accuracy, cybersecurity certification or the suitability of a particular
+facility's sensor calibration.
+
+All production/safety decisions still require independent domain validation,
+instrumented data rights, deployment review and competent engineering sign-off.
 
 ## Critical gates still open
 
