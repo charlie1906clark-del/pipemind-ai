@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="PipeMind AI — research-grade cryogenic asset intelligence.">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <title>PipeMind AI · Cryogenic Intelligence</title>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="logo"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="4"/><path d="M8 24L16 16 22 21 31 11" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>PIPEMIND</b><small>Hydrogen Intelligence</small></span></div>
+      <div class="nav-section">WORKSPACE</div>
+      <nav id="nav">
+        <button data-view="overview" class="nav-link active"><span>◈</span> Command centre</button>
+        <button data-view="tank" class="nav-link"><span>▣</span> LH₂ tank twin</button>
+        <button data-view="cable" class="nav-link"><span>⌁</span> Hybrid cable</button>
+        <button data-view="economics" class="nav-link"><span>◫</span> Economics</button>
+        <button data-view="research" class="nav-link"><span>⌕</span> Research brain</button>
+      </nav>
+      <div class="nav-section">PLATFORM</div>
+      <nav>
+        <button data-view="agents" class="nav-link"><span>✣</span> AI specialists</button>
+        <button data-view="security" class="nav-link"><span>◇</span> Security & APEX</button>
+      </nav>
+      <div class="sidebar-bottom"><span class="online-led"></span> <span id="platform-mode">Local research environment</span><p>Research software. No equipment control.</p></div>
+    </aside>
+    <main class="workspace">
+      <header class="topbar">
+        <div class="breadcrumb"><span>WORKSPACE</span> <i>/</i> <strong id="page-name">Command centre</strong></div>
+        <div class="top-right"><span class="statuschip"><span class="status-dot"></span> Advisory mode</span><span class="tenant" id="tenant-label">Not signed in</span><button class="secondary small" id="change-token">Access</button></div>
+      </header>
+      <div class="content">
+        <section class="page active" id="view-overview">
+          <div class="page-header"><div><span class="eyebrow">PIPEMIND / INTELLIGENCE OVERVIEW</span><h1>Hydrogen, in focus.</h1><p>Evidence-backed decisions for cryogenic infrastructure. From the tank to the transmission corridor.</p></div><span class="disclaimer-chip">SIMULATED DATA ONLY</span></div>
+          <div class="metrics">
+            <article class="metric"><span class="metric-label">Tank pressure · forecast endpoint</span><div class="metric-value"><b id="metric-pressure">—</b><span>kPa</span></div><small id="metric-pressure-note">Run a tank scenario</small></article>
+            <article class="metric"><span class="metric-label">Liquid inventory · initial</span><div class="metric-value"><b id="metric-inventory">—</b><span>kg</span></div><small>Mass from two-phase EOS</small></article>
+            <article class="metric"><span class="metric-label">Cryogenic heat load</span><div class="metric-value"><b id="metric-heat">—</b><span>W</span></div><small>Research scenario input</small></article>
+            <article class="metric"><span class="metric-label">Cable phase margin</span><div class="metric-value"><b id="metric-margin">—</b><span>K</span></div><small>Model only · not a safety limit</small></article>
+          </div>
+          <div class="overview-grid">
+            <div class="panel primary-panel"><div class="panel-head"><div><span class="eyebrow">DIGITAL TWIN / LH₂ STORAGE</span><h2>Thermal state evolution</h2></div><span class="tag">CoolProp EOS</span></div><div class="chart-legend"><span><i class="legend-blue"></i> Pressure</span><span><i class="legend-violet"></i> Temperature</span></div><canvas id="overview-chart" class="chart" height="245"></canvas><div class="chart-note" id="chart-explainer">Use the simulator to generate the first pressure and temperature profile.</div></div>
+            <div class="panel scene-panel"><div class="panel-head"><div><span class="eyebrow">ASSET DIGITAL MODEL</span><h2>Tank configuration</h2></div><span class="tag muted">CONCEPTUAL</span></div><div class="scene">
+              <svg viewBox="0 0 460 285" role="img" aria-label="Isometric conceptual cryogenic liquid hydrogen tank with layered vessel walls and coolant piping">
+                <defs><linearGradient id="metal" x1="0" x2="1"><stop stop-color="#c6d6e8"/><stop offset=".3" stop-color="#f0f6fb"/><stop offset=".68" stop-color="#a8bed7"/><stop offset="1" stop-color="#e4edf6"/></linearGradient><linearGradient id="liquid" x1="0" x2="1"><stop stop-color="#4f8afa"/><stop offset="1" stop-color="#91d5f7"/></linearGradient><clipPath id="inside"><rect x="90" y="70" width="290" height="152" rx="70"/></clipPath><filter id="shadow"><feGaussianBlur stdDeviation="9"/></filter></defs>
+                <ellipse cx="230" cy="246" rx="172" ry="13" fill="#95a8c1" opacity=".17" filter="url(#shadow)"/>
+                <rect x="70" y="52" width="335" height="177" rx="81" fill="url(#metal)" stroke="#97afc9" stroke-width="2"/>
+                <rect x="85" y="68" width="300" height="148" rx="73" fill="#e8f6fc" stroke="#97b7cd" stroke-width="2"/>
+                <g clip-path="url(#inside)"><rect id="tank-liquid" x="88" y="105" width="300" height="135" fill="url(#liquid)" opacity=".83"/><ellipse id="tank-surface" cx="235" cy="105" rx="143" ry="10" fill="#c2f0ff"/><path d="M84 118Q135 105 185 119T290 119T395 119" fill="none" stroke="#d7fcff" stroke-width="1.5" opacity=".8"/></g>
+                <rect x="70" y="52" width="335" height="177" rx="81" fill="none" stroke="#fff" stroke-width="5" opacity=".7"/>
+                <path d="M385 131H431V105" fill="none" stroke="#98b3d4" stroke-width="13" stroke-linecap="round"/><path d="M385 131H431V105" fill="none" stroke="#effaff" stroke-width="6" stroke-linecap="round"/>
+                <path d="M185 226v21h-34M288 226v21h34" fill="none" stroke="#99aac0" stroke-width="8" stroke-linecap="round"/>
+                <circle cx="431" cy="105" r="14" fill="#e0eaf5" stroke="#9fb2c9" stroke-width="3"/>
+                <text x="234" y="150" fill="#163f7b" font-size="20" font-weight="700" text-anchor="middle">LH₂</text><text x="234" y="169" fill="#28577f" font-size="11" text-anchor="middle">Cryogenic liquid hydrogen</text>
+              </svg>
+              <div class="scene-details"><span><i class="dot blue"></i> Cryogenic fluid</span><span><i class="dot pale"></i> Insulated vessel</span></div>
+            </div><div class="scene-footer">Schematic geometry is illustrative, not a manufacturing specification.</div></div>
+          </div>
+          <div class="module-row"><div><span class="eyebrow">ENGINEERING WORKSTREAMS</span><h2>One model, connected disciplines</h2></div><div class="module-cards"><div><span>01</span><strong>Physics</strong><small>EOS / mass-energy</small></div><div><span>02</span><strong>Intelligence</strong><small>Quality / forecast</small></div><div><span>03</span><strong>Economics</strong><small>Cost / trade-offs</small></div><div><span>04</span><strong>Hybrid cable</strong><small>Thermal screening</small></div></div></div>
+        </section>
+
+        <section class="page" id="view-tank"><div class="page-header"><div><span class="eyebrow">MODULE 02 / COOLING AND CRYOGENICS</span><h1>Liquid hydrogen twin.</h1><p>Screen a sealed, well-mixed rigid tank with a hydrogen equation of state.</p></div><span class="disclaimer-chip">NOT FOR PRESSURE CONTROL</span></div>
+          <div class="work-grid"><div class="panel form-panel"><div class="panel-head"><h2>Simulation inputs</h2><span class="tag">SI units</span></div><form id="tank-form">
+            <label>Tank volume <span>m³</span><input name="volume_m3" type="number" min=".01" max="100000" value="100" step="1" required></label>
+            <label>Initial liquid volume fraction <span>0–1</span><input name="fill_liquid_volume_fraction" type="number" min=".03" max=".97" step=".01" value=".84" required></label>
+            <label>Initial pressure <span>Pa</span><input name="initial_pressure_pa" type="number" min="30000" max="500000" value="101325" required></label>
+            <label>Heat ingress <span>W</span><input name="heat_ingress_w" type="number" min="0" max="250000" value="700" required></label>
+            <label>Available cooling duty <span>W</span><input name="cooling_duty_w" type="number" min="0" max="250000" value="0" required></label>
+            <label>Electrical cooling COP <span>W/W</span><input name="cooling_cop" type="number" min=".001" max=".25" step=".001" value=".04" required></label>
+            <label>Simulation duration <span>hours</span><input name="duration_hours" type="number" min=".01" max="72" step=".5" value="12" required></label>
+            <label>Molecular state <span>EOS</span><select name="spin"><option value="para">Parahydrogen</option><option value="normal">Normal hydrogen</option><option value="ortho">Orthohydrogen</option></select></label>
+            <input type="hidden" name="steps" value="24"><button class="primary" type="submit">Run tank simulation <span>→</span></button>
+          </form></div>
+          <div class="panel results-panel"><div class="panel-head"><div><span class="eyebrow">THERMODYNAMIC RESPONSE</span><h2>Tank pressure over time</h2></div><span class="tag muted" id="tank-result-id">Awaiting run</span></div><canvas id="tank-chart" class="chart" height="300"></canvas><div class="result-summary"><div><small>Final pressure</small><strong id="tank-end-pressure">—</strong></div><div><small>EOS model</small><strong id="tank-eos">—</strong></div><div><small>Cooling energy</small><strong id="tank-cooling">—</strong></div></div><div class="warning">Screening model only. No vent system, tank wall inertia, mixing gradients or certified pressure limits. Never use these results as equipment setpoints.</div></div></div>
+        </section>
+
+        <section class="page" id="view-cable"><div class="page-header"><div><span class="eyebrow">MODULE / HYBRID ENERGY CORRIDOR</span><h1>Superconducting cable.</h1><p>A first thermohydraulic model for single-phase liquid hydrogen flowing through a cryogenic cable channel.</p></div><span class="disclaimer-chip">NO ELECTRICAL RATING</span></div>
+          <div class="work-grid"><div class="panel form-panel"><div class="panel-head"><h2>Line conditions</h2><span class="tag">Steady 1-D</span></div><form id="cable-form">
+            <label>Line length <span>m</span><input name="length_m" type="number" min="1" max="50000" value="1000" required></label>
+            <label>Hydraulic diameter <span>m</span><input name="inner_diameter_m" type="number" step=".01" min=".01" max="2" value=".12" required></label>
+            <label>Mass flow <span>kg/s</span><input name="mass_flow_kg_s" type="number" step=".05" min=".01" value=".8" required></label>
+            <label>Inlet pressure <span>Pa</span><input name="inlet_pressure_pa" type="number" min="50000" max="600000" value="240000" required></label>
+            <label>Inlet temperature <span>K</span><input name="inlet_temperature_k" type="number" min="15" max="28" step=".1" value="19" required></label>
+            <label>Outer heat ingress <span>W/m</span><input name="heat_ingress_w_per_m" type="number" min="0" max="50" step=".1" value="1" required></label>
+            <label>Electrical residual heat <span>W/m</span><input name="residual_electrical_heat_w_per_m" type="number" min="0" max="100" step=".1" value="0" required></label>
+            <input type="hidden" name="absolute_roughness_m" value=".00001"><input type="hidden" name="elevation_gain_m" value="0"><input type="hidden" name="steps" value="40"><input type="hidden" name="spin" value="para">
+            <button class="primary" type="submit">Run cable simulation <span>→</span></button>
+          </form></div><div class="panel results-panel"><div class="panel-head"><div><span class="eyebrow">DISTRIBUTED CRYOGENICS</span><h2>Temperature vs distance</h2></div><span class="tag muted">Subcooled-only</span></div><div class="cutaway"><svg viewBox="0 0 500 94" role="img" aria-label="Conceptual concentric insulated superconducting cable cross-section"><defs><linearGradient id="outer" x1="0" x2="1"><stop stop-color="#cdd8ed"/><stop offset=".5" stop-color="#f6f9fe"/><stop offset="1" stop-color="#acbed3"/></linearGradient></defs><ellipse cx="250" cy="47" rx="214" ry="39" fill="url(#outer)" stroke="#7c95b4" stroke-width="2"/><ellipse cx="250" cy="47" rx="187" ry="31" fill="#dce6f6" stroke="#96acc6" stroke-width="6"/><ellipse cx="250" cy="47" rx="154" ry="24" fill="#84ceef" stroke="#2d8abc" stroke-width="2"/><ellipse cx="250" cy="47" rx="100" ry="16" fill="#7768ce" stroke="#f1e9ff" stroke-width="5"/><ellipse cx="250" cy="47" rx="53" ry="9" fill="#c4b5fd"/></svg><small>Vacuum jacket · liquid hydrogen annulus · conceptual conductor layers</small></div><canvas id="cable-chart" class="chart" height="260"></canvas><div class="result-summary"><div><small>Exit temperature</small><strong id="cable-end-temp">—</strong></div><div><small>Pressure loss</small><strong id="cable-drop">—</strong></div><div><small>Phase margin</small><strong id="cable-margin">—</strong></div></div><div class="warning">Flow screening only: no MgB₂ critical current curve, magnetic-field derating, cable electrical insulation rating, quench or safety certification.</div></div></div>
+        </section>
+
+        <section class="page" id="view-economics"><div class="page-header"><div><span class="eyebrow">MODULE 04 / FINANCIAL INTELLIGENCE</span><h1>Energy economics.</h1><p>Compare the theoretical cost of boil-off recovery and electric cooling under consistent assumptions.</p></div><span class="disclaimer-chip">ILLUSTRATIVE ECONOMICS</span></div>
+          <div class="work-grid"><div class="panel form-panel"><div class="panel-head"><h2>Cost assumptions</h2></div><form id="cost-form"><label>Heat load <span>W</span><input type="number" name="heat_load_w" value="1000" min="0" required></label><label>Duration <span>hours</span><input type="number" name="duration_hours" value="24" min=".1" required></label><label>Refrigeration share <span>0–1</span><input type="number" name="cooling_fraction" value=".3" min="0" max="1" step=".1" required></label><label>Recovery share <span>0–1</span><input type="number" name="recovered_vapour_fraction" value=".3" min="0" max="1" step=".1" required></label><label>Cooling COP <span>W/W</span><input type="number" name="cooling_cop" value=".04" min=".001" max=".25" step=".001" required></label><label>Electricity <span>£/kWh</span><input type="number" name="electricity_gbp_kwh" value=".2" min="0" step=".01" required></label><label>Unrecovered H₂ value <span>£/kg</span><input type="number" name="unrecovered_hydrogen_gbp_kg" value="5" min="0" step=".5" required></label><input type="hidden" name="effective_latent_heat_j_kg" value="445000"><input type="hidden" name="annualised_equipment_cost_gbp" value="0"><button class="primary" type="submit">Calculate scenario <span>→</span></button></form></div><div class="panel results-panel"><div class="panel-head"><div><span class="eyebrow">COST BREAKDOWN</span><h2>Illustrative scenario</h2></div></div><div class="economics-total"><small>Modelled variable cost</small><strong id="cost-total">—</strong><p>Excludes real equipment CAPEX, recovery costs and many operating costs.</p></div><div class="result-summary"><div><small>Vaporisation equivalent</small><strong id="cost-gross">—</strong></div><div><small>Unrecovered equivalent</small><strong id="cost-lost">—</strong></div><div><small>Electricity</small><strong id="cost-electric">—</strong></div></div><div class="warning">This is a fixed-pressure latent heat cost scenario, not the closed-tank pressure model. Do not combine their outputs as though they represented one operating system.</div></div></div>
+        </section>
+
+        <section class="page" id="view-research"><div class="page-header"><div><span class="eyebrow">RESEARCH / SOURCE PROVENANCE</span><h1>The research brain.</h1><p>Search the existing PipeMind Obsidian-compatible notes with file and line citations. Retrieval does not verify a claim.</p></div><span class="disclaimer-chip">EVIDENCE STATUS REQUIRED</span></div><div class="panel research-panel"><form id="research-form" class="search-box"><input name="question" type="search" placeholder="Search cooling, routing, hydrides, safety..." value="liquid hydrogen cooling"><button class="primary">Search knowledge →</button></form><div id="research-results" class="search-results"><p class="placeholder">Search your research corpus to inspect source passages.</p></div></div></section>
+
+        <section class="page" id="view-agents"><div class="page-header"><div><span class="eyebrow">AGENT STUDIO / ROLE BOUNDARIES</span><h1>Specialist intelligence.</h1><p>A modular team of bounded research assistants, structured around deterministic engineering results.</p></div><span class="disclaimer-chip">AGENTS NOT AUTONOMOUS</span></div>
+          <div class="agent-grid">
+            <article><span>01 / EVIDENCE</span><h3>Research verifier</h3><p>Checks claim provenance, scope, published measurements and disagreements.</p><small>Instruction contract · drafted</small></article>
+            <article><span>02 / THERMODYNAMICS</span><h3>Cryogenic engineer</h3><p>Defines fluid-domain assumptions, tests EOS validity and reviews results.</p><small>Instruction contract · drafted</small></article>
+            <article><span>03 / DIGITAL TWIN</span><h3>Twin engineer</h3><p>Validates sensor quality, replays read-only data and tracks error bounds.</p><small>Instruction contract · drafted</small></article>
+            <article><span>04 / ECONOMICS</span><h3>Optimisation analyst</h3><p>Compares economic scenarios; abstains when the baseline is incomplete.</p><small>Instruction contract · drafted</small></article>
+            <article><span>05 / RISK</span><h3>Safety reviewer</h3><p>Escalates unresolved hazards to competent engineering specialists.</p><small>Instruction contract · drafted</small></article>
+            <article><span>06 / INFRASTRUCTURE</span><h3>Superconducting specialist</h3><p>Researches validated MgB₂ properties, quench constraints and cable scenarios.</p><small>Instruction contract · drafted</small></article>
+          </div><div class="warning full">No agent may approve plant safety, control a valve or determine certified superconducting cable ratings. These are agent specifications, not trained autonomous services.</div>
+        </section>
+
+        <section class="page" id="view-security"><div class="page-header"><div><span class="eyebrow">SECURITY / ZERO-TRUST BOUNDARY</span><h1>Governed intelligence.</h1><p>Opaque inputs, explicit permissions, tenant isolation and immutable records of every analysis.</p></div><span class="disclaimer-chip">OT CONTROL DISABLED</span></div><div class="security-grid"><article class="panel"><div class="panel-head"><h2>Platform trust</h2></div><div class="security-row"><span>Token authentication</span><b>Required</b></div><div class="security-row"><span>Industrial actuation</span><b>Disabled</b></div><div class="security-row"><span>Storage</span><b>Single-node pilot</b></div><div class="security-row"><span>APEX/Wong sync</span><b>Not connected</b></div><div class="security-row"><span>Engineering certification</span><b>Not claimed</b></div><button id="verify-audit" class="secondary">Verify audit chain</button><div class="audit-result" id="audit-response"></div></article><article class="panel"><div class="panel-head"><h2>Soteria / APEX architecture</h2></div><p>Wong and APEX form a separately governed intelligence environment. PipeMind is designed to export only reviewed, non-personal engineering claims and asset summaries to a dedicated APEX ontology.</p><div class="security-callout">Wong's private memory, household data and other client information must never be automatically ingested into an industrial customer workspace.</div><p class="smallprint">Requires a configured secure API, scoped service identity, approved retention policy and an explicit integration verification test.</p></article></div></section>
+      </div><footer class="footer">PipeMind AI · Research environment <span>Not certified for plant operation · © 2026</span></footer>
+    </main>
+  </div>
+  <div id="login-overlay" class="login-overlay"><div class="login-card"><div class="brand"><span class="logo">◈</span><span><b>PIPEMIND</b><small>Hydrogen Intelligence</small></span></div><span class="eyebrow">SECURE WORKSPACE</span><h2>Access your research twin.</h2><p>Enter the token configured for your local test environment or issued by your identity provider. No credential is stored in the browser.</p><form id="login-form"><input id="token-field" type="password" autocomplete="off" placeholder="Bearer access token" minlength="24" required><button class="primary" type="submit">Open workspace →</button></form><div id="login-error" class="login-error"></div><small>Authorised users only. There is no automatic demonstration login.</small></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/assets/app.js" defer></script>
+</body></html>
