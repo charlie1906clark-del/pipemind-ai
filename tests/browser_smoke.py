@@ -32,6 +32,15 @@ def run_scenario(page: Page, label: str, shots: Path) -> None:
     expect(page.locator("#tenant-label")).to_have_text("demo")
     page.screenshot(path=str(shots / f"{label}-overview.png"), full_page=True)
 
+    # The browser silently suppresses invalid forms before any API request.
+    for form in ("#tank-form", "#cable-form", "#cost-form"):
+        if not page.locator(form).evaluate("(f) => f.checkValidity()"):
+            detail = page.locator(form).evaluate(
+                "(f) => [...f.elements].filter(e => e.willValidate && !e.validity.valid)"
+                ".map(e => ({name:e.name,value:e.value,reason:e.validationMessage}))"
+            )
+            raise AssertionError(f"{label}: invalid default input(s) in {form}: {detail}")
+
     visit(page,"tank")
     page.locator('#tank-form button[type="submit"]').click()
     expect(page.locator("#tank-end-pressure")).not_to_have_text("—", timeout=30_000)
