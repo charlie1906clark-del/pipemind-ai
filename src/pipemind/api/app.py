@@ -29,6 +29,7 @@ from pipemind.twin.asset_forecast import replay_forecast
 from pipemind.twin.benchmark import benchmark_tank_pressure
 from pipemind.brain import search as brain_search
 from pipemind.evidence import load_evidence, retrieve_verified
+from pipemind.validation.references import load_reference_cases, prepare_screening_input
 from pipemind.agents import compose_review
 from pipemind.optimization import OptimisationStudy, optimise
 from pipemind.reports import draft_report
@@ -320,6 +321,19 @@ def create_app() -> FastAPI:
         return save(user,"tank-pressure-benchmark",{
             "simulation_run_id":body.run_id,"asset_id":body.asset_id,**result
         })
+
+    @app.get("/api/v1/validation/reference-cases")
+    def reference_cases(request:Request):
+        auth.require(request,"viewer","analyst")
+        return load_reference_cases()
+
+    @app.get("/api/v1/validation/reference-case/{case_id}")
+    def reference_case(case_id:str,request:Request):
+        auth.require(request,"viewer","analyst")
+        try:
+            return prepare_screening_input(case_id)
+        except ValueError:
+            raise HTTPException(404,"reference case not found")
 
     @app.post("/api/v1/research/search")
     def research(body:ResearchBody,request:Request):
