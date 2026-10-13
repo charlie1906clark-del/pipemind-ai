@@ -1,0 +1,25 @@
+services:
+  pipemind:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - pipemind_data:/srv/pipemind/data
+    environment:
+      PIPEMIND_ENV: production
+      PIPEMIND_DB_PATH: /srv/pipemind/data/pipemind.sqlite
+      PIPEMIND_JWT_ISSUER: ${PIPEMIND_JWT_ISSUER:?configure OIDC issuer}
+      PIPEMIND_JWT_AUDIENCE: ${PIPEMIND_JWT_AUDIENCE:?configure audience}
+      PIPEMIND_JWKS_URL: ${PIPEMIND_JWKS_URL:?configure JWKS URL}
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  pipemind_data:
