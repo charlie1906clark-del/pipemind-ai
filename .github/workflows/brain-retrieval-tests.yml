@@ -1,0 +1,20 @@
+name: Knowledge retrieval tests
+
+on:
+  push:
+    branches:
+      - "feat/agent-governance"
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: PYTHONPATH=tools python -m unittest discover -s tests -v
+      - name: Smoke test against repository knowledge
+        run: python tools/brain_search.py "hydrogen cryogenics" --limit 2
