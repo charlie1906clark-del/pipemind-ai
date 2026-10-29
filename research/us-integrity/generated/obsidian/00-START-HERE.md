@@ -4,6 +4,20 @@ Research baseline: 29 October 2026. These notes record evidence and planning; no
 
 Open the built-in graph, or use these indexes. Source details and legal status are in each note.
 
+## Completed catheter research pass
+
+Six specialist workers completed a bounded public-source investigation. The data captures cover 6,870 published supplier rows; the findings distinguish statistical changes, published allegations, administrative records and unresolved questions.
+
+- [[DME-INV-20261029|Investigation overview and all evidence paths]]
+- [[DME-CT-F009|Centennial: unresolved intercompany transfers in the public complaint]]
+- [[DME-COHORT-2023-A4353|2023 catheter cohort and its monetary measures]]
+- [[DME-ENTRY-CONTROL-2022-2023|Why a newly visible code row is not necessarily a new company]]
+- [[DME-REVOCATION-COHORT-OVERVIEW|Exact NPI revocation screen and its limitations]]
+- [[DME-ANONYMOUS-ENROLLMENT-A|Anonymous enrollment question A]]
+- [[DME-ANONYMOUS-ENROLLMENT-B|Anonymous enrollment question B]]
+
+No new fraud or recoverable loss is established. The two anonymous questions have unresolved historical enrollment and cash evidence; they are not public accusations.
+
 ## Sector map
 
 - [[sector-agriculture-food|Agriculture, SNAP, nutrition and farm support]]

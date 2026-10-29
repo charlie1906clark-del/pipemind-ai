@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "extensions": [
+    {
+      "path": "investigations/dme-catheter-2026-10-29/graph-extension.json",
+      "sha256": "eb580ad515e77e837c5f4312e6da0af9e3849313aed7cf849c611489271806b8",
+      "review_status": "accepted_for_public_graph",
+      "reviewed_at": "2026-10-29",
+      "review_note": "Reviewed bounded public source records, explicit allegation and disposition states, separate monetary measures, exact registry roles and administrative actions. Independent arithmetic review is pinned to its checked data/script digests. Novel named outlier allegations and private query identities are excluded. Final publication is subject to repository review. Root review links the completed research collection to its nine validated captures; this status does not establish fraud."
+    }
+  ]
+}

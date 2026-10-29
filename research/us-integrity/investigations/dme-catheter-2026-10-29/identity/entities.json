@@ -1,0 +1,209 @@
+[
+  {
+    "id": "identity-org-nd-medical-solutions",
+    "type": "organization",
+    "title": "ND Medical Solutions LLC",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1790533503",
+      "identity-src-doj-nd-2026-09-04"
+    ],
+    "properties": {
+      "npi": "1790533503",
+      "practice_state": "PA",
+      "practice_city": "Fort Washington",
+      "state_registry_id": null,
+      "ultimate_beneficial_owner": "unresolved",
+      "scope": "Identity and professional roles only; allegations are edge-specific."
+    }
+  },
+  {
+    "id": "identity-org-centennial-med-supply",
+    "type": "organization",
+    "title": "Centennial Med Supply, LLC",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1609626167",
+      "identity-src-colorado-20241008944",
+      "identity-src-doj-nh-2026-06-25"
+    ],
+    "properties": {
+      "npi": "1609626167",
+      "state_registry_id": "20241008944",
+      "registry_jurisdiction": "CO",
+      "practice_city": "Denver",
+      "practice_state": "CO",
+      "corporate_status": "Delinquent",
+      "corporate_status_observed_at": "2026-10-29",
+      "formed_on": "2024-01-02",
+      "ultimate_beneficial_owner": "unresolved"
+    }
+  },
+  {
+    "id": "identity-nppes-record-1790533503",
+    "type": "provider_registry_record",
+    "title": "NPPES organizational record 1790533503",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1790533503"
+    ],
+    "properties": {
+      "npi": "1790533503",
+      "organization_name": "ND MEDICAL SOLUTIONS LLC",
+      "enumeration_type": "NPI-2",
+      "enumeration_date": "2024-05-07",
+      "last_updated": "2025-02-18",
+      "nppes_status": "A",
+      "status_scope": "NPI active; not evidence of current Medicare billing eligibility",
+      "taxonomy": "332B00000X"
+    }
+  },
+  {
+    "id": "identity-nppes-record-1609626167",
+    "type": "provider_registry_record",
+    "title": "NPPES organizational record 1609626167",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1609626167"
+    ],
+    "properties": {
+      "npi": "1609626167",
+      "organization_name": "CENTENNIAL MED SUPPLY LLC",
+      "enumeration_type": "NPI-2",
+      "enumeration_date": "2024-03-26",
+      "last_updated": "2025-08-20",
+      "nppes_status": "A",
+      "authorized_official_name_as_reported": "KAHKA BENDELIANI",
+      "authorized_official_title_as_reported": "Owner",
+      "status_scope": "Reported registry fields, not adjudicated ownership or Medicare eligibility",
+      "taxonomy": "332B00000X"
+    }
+  },
+  {
+    "id": "identity-co-record-20241008944",
+    "type": "company_registry_record",
+    "title": "Colorado entity 20241008944",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-colorado-20241008944"
+    ],
+    "properties": {
+      "entity_id": "20241008944",
+      "name_as_reported": "Centennial Med Supply, LLC",
+      "formed_on": "2024-01-02",
+      "status_as_reported": "Delinquent",
+      "registered_agent_as_reported": "Kakha Bendeliani",
+      "ownership_scope": "Registered agent field does not identify beneficial ownership"
+    }
+  },
+  {
+    "id": "identity-person-gugava",
+    "type": "public_case_person",
+    "title": "Erekle Gugava",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1790533503",
+      "identity-src-doj-nd-2026-09-04"
+    ],
+    "properties": {
+      "public_role_scope": "NPPES authorized official and publicly named defendant; no private details",
+      "latest_case_status_in_sources": "indicted",
+      "case_status_date": "2026-09-03",
+      "adjudication": "No finding of guilt established by these sources"
+    }
+  },
+  {
+    "id": "identity-person-bendeliani",
+    "type": "public_case_person",
+    "title": "Kakha Bendeliani",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-colorado-20241008944",
+      "identity-src-doj-nh-2026-06-25",
+      "identity-src-doj-bendeliani-indictment"
+    ],
+    "properties": {
+      "public_role_scope": "Colorado registered agent and publicly named defendant; no private details",
+      "latest_case_status_in_sources": "charged_by_indictment",
+      "case_status_date": "2026-06-17",
+      "adjudication": "No finding of guilt established by these sources"
+    }
+  },
+  {
+    "id": "identity-person-danelia",
+    "type": "public_case_person",
+    "title": "Goga Danelia",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-doj-danelia-affidavit",
+      "identity-src-doj-nh-2026-06-25"
+    ],
+    "properties": {
+      "public_role_scope": "Publicly named defendant; ownership not established",
+      "latest_case_status_in_sources": "charged_by_complaint",
+      "case_status_date": "2026-03-27",
+      "adjudication": "No finding of guilt established by these sources"
+    }
+  },
+  {
+    "id": "identity-leie-centennial-20260711",
+    "type": "administrative_exclusion_record",
+    "title": "Centennial exact-NPI OIG exclusion row",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-oig-leie-2026-09",
+      "identity-src-oig-leie-method"
+    ],
+    "properties": {
+      "npi": "1609626167",
+      "business_name": "CENTENNIAL MED SUPPLY LLC",
+      "state": "CO",
+      "exclusion_code": "1128Aa",
+      "exclusion_date": "2026-07-11",
+      "snapshot_through": "2026-09-30",
+      "criminal_status_scope": "An administrative exclusion row is distinct from criminal adjudication"
+    }
+  },
+  {
+    "id": "identity-query-leie-nd-no-exact-match",
+    "type": "query_result",
+    "title": "ND Medical exact NPI absent from retrieved LEIE snapshot",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-oig-leie-2026-09",
+      "identity-src-oig-leie-method"
+    ],
+    "properties": {
+      "searched_npi": "1790533503",
+      "match_count": 0,
+      "rows_scanned": 84093,
+      "coverage_through": "2026-09-30",
+      "interpretation": "No exact-NPI row found. Not a clearance: identifiers may be absent and later changes are outside this snapshot."
+    }
+  },
+  {
+    "id": "identity-unresolved-nd-beneficial-controller",
+    "type": "unresolved_party",
+    "title": "ND Medical ultimate beneficial controller unresolved",
+    "status": "unknown",
+    "source_ids": [
+      "identity-src-doj-nd-2026-09-04"
+    ],
+    "properties": {
+      "scope": "Do not equate publicly alleged nominee owner or registry official with ultimate beneficial ownership"
+    }
+  },
+  {
+    "id": "identity-unresolved-centennial-beneficial-controller",
+    "type": "unresolved_party",
+    "title": "Centennial ultimate beneficial controller unresolved",
+    "status": "unknown",
+    "source_ids": [
+      "identity-src-doj-nh-2026-06-25",
+      "identity-src-doj-bendeliani-indictment"
+    ],
+    "properties": {
+      "scope": "Indictment alleges nominee arrangement; no resolved beneficial owner identified here"
+    }
+  }
+]

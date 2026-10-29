@@ -1,0 +1,162 @@
+{
+  "@id": "https://data.cms.gov/data-api/v1/dataset/a6496a7d-4e19-479a-a9ad-d4c0a49e07c3/data-viewer",
+  "@type": "Dataset",
+  "title": "Revoked Medicare Providers and Suppliers : 2026-09-01",
+  "description": "The Revoked Medicare Providers and Suppliers dataset contains information on providers and suppliers who are revoked and under a current re-enrollment bar. This dataset includes provider and supplier names, NPIs, revocation authorities pursuant to 42 CFR § 424.535, revocation effective dates, and re-enrollment bar expiration dates.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Office of Enterprise Data and Analytics (OEDA)",
+    "subOrganizationOf": [
+      {
+        "@type": "Organization",
+        "name": "Centers for Medicare and Medicaid Services (CMS)"
+      }
+    ]
+  },
+  "contactPoint": {
+    "@type": "Kind",
+    "fn": "Provider Enrollment Data Requests - CPI",
+    "hasEmail": "mailto:ProviderEnrollmentDataRequests@cms.hhs.gov"
+  },
+  "identifier": "https://data.cms.gov/data-api/v1/dataset/a6496a7d-4e19-479a-a9ad-d4c0a49e07c3/data-viewer",
+  "accessRights": "public",
+  "sourceSite": "data.cms.gov",
+  "sourceCatalog": "https://data.cms.gov/data.json",
+  "modified": "2026-10-21",
+  "language": [
+    "en"
+  ],
+  "temporal": [
+    {
+      "@type": "PeriodOfTime",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30"
+    }
+  ],
+  "landingPage": {
+    "@type": "Document",
+    "title": "Revoked Medicare Providers and Suppliers",
+    "accessURL": "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/revoked-medicare-providers-and-suppliers"
+  },
+  "describedBy": {
+    "@type": "Distribution",
+    "title": "Revoked Medicare Providers and Suppliers : 2026-09-01 data dictionary",
+    "downloadURL": "https://data.cms.gov/resources/revoked-medicare-providers-and-suppliers-data-dictionary"
+  },
+  "keyword": [
+    "States & Territories",
+    "Medicare",
+    "Original Medicare",
+    "Provider Enrollment"
+  ],
+  "theme": [
+    "Medicare"
+  ],
+  "accrualPeriodicity": "quarterly",
+  "accessLevel": "public",
+  "bureauCode": [
+    "009:38"
+  ],
+  "programCode": [
+    "009:000"
+  ],
+  "references": [
+    "https://data.cms.gov/resources/revoked-medicare-providers-and-suppliers-methodology"
+  ],
+  "distribution": [
+    {
+      "@type": "Distribution",
+      "format": "API",
+      "accessURL": "https://data.cms.gov/data-api/v1/dataset/a6496a7d-4e19-479a-a9ad-d4c0a49e07c3/data",
+      "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/a6496a7d-4e19-479a-a9ad-d4c0a49e07c3",
+      "description": "latest",
+      "title": "Revoked Medicare Providers and Suppliers : 2026-09-01",
+      "describedBy": {
+        "@type": "Distribution",
+        "title": "Data dictionary for Revoked Medicare Providers and Suppliers : 2026-09-01",
+        "downloadURL": "https://data.cms.gov/data-api/v1/dataset/a6496a7d-4e19-479a-a9ad-d4c0a49e07c3/dictionary",
+        "mediaType": "application/json"
+      },
+      "modified": "2026-10-21",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "2026-07-01",
+          "endDate": "2026-09-30"
+        }
+      ],
+      "license": "https://www.usa.gov/government-works"
+    },
+    {
+      "@type": "Distribution",
+      "downloadURL": "https://data.cms.gov/sites/default/files/2026-10/0ee8db18-c7de-4fd8-8401-31cd61f821b1/Revocation_Extract_2026.10.21.csv",
+      "mediaType": "text/csv",
+      "format": "CSV",
+      "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93",
+      "title": "Revoked Medicare Providers and Suppliers : 2026-09-01",
+      "describedBy": {
+        "@type": "Distribution",
+        "title": "Data dictionary for Revoked Medicare Providers and Suppliers : 2026-09-01",
+        "downloadURL": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/dictionary",
+        "mediaType": "application/json"
+      },
+      "modified": "2026-10-21",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "2026-07-01",
+          "endDate": "2026-09-30"
+        }
+      ],
+      "license": "https://www.usa.gov/government-works"
+    },
+    {
+      "@type": "Distribution",
+      "format": "API",
+      "accessURL": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data",
+      "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93",
+      "title": "Revoked Medicare Providers and Suppliers : 2026-09-01",
+      "describedBy": {
+        "@type": "Distribution",
+        "title": "Data dictionary for Revoked Medicare Providers and Suppliers : 2026-09-01",
+        "downloadURL": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/dictionary",
+        "mediaType": "application/json"
+      },
+      "modified": "2026-10-21",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "2026-07-01",
+          "endDate": "2026-09-30"
+        }
+      ],
+      "license": "https://www.usa.gov/government-works"
+    }
+  ],
+  "inSeries": [
+    {
+      "@id": "https://data.cms.gov/data-api/v1/dataset/a6496a7d-4e19-479a-a9ad-d4c0a49e07c3/data",
+      "@type": "DatasetSeries",
+      "title": "Revoked Medicare Providers and Suppliers",
+      "description": "The Revoked Medicare Providers and Suppliers dataset contains information on providers and suppliers who are revoked and under a current re-enrollment bar. This dataset includes provider and supplier names, NPIs, revocation authorities pursuant to 42 CFR § 424.535, revocation effective dates, and re-enrollment bar expiration dates.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Office of Enterprise Data and Analytics (OEDA)",
+        "subOrganizationOf": [
+          {
+            "@type": "Organization",
+            "name": "Centers for Medicare and Medicaid Services (CMS)"
+          }
+        ]
+      },
+      "contactPoint": [
+        {
+          "@type": "Kind",
+          "fn": "Provider Enrollment Data Requests - CPI",
+          "hasEmail": "mailto:ProviderEnrollmentDataRequests@cms.hhs.gov"
+        }
+      ],
+      "identifier": "https://data.cms.gov/data-api/v1/dataset/a6496a7d-4e19-479a-a9ad-d4c0a49e07c3/data"
+    }
+  ]
+}

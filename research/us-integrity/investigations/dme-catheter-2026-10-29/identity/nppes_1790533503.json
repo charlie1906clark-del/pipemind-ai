@@ -1,0 +1,53 @@
+{
+  "source_url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&number=1790533503",
+  "retrieved_at": "2026-10-29",
+  "sha256_original_response": "196d3c958d7f3e883f44df60b15d0b8624a67efaa1f66ef87cdd5996fb2e621d",
+  "raw_response_archived": false,
+  "result_count": 1,
+  "results": [
+    {
+      "number": "1790533503",
+      "enumeration_type": "NPI-2",
+      "created_epoch": "1715115904000",
+      "last_updated_epoch": "1739919885000",
+      "other_names": [],
+      "basic": {
+        "authorized_official_first_name": "EREKLE",
+        "authorized_official_last_name": "GUGAVA",
+        "authorized_official_name_prefix": "Mr.",
+        "authorized_official_title_or_position": "President",
+        "certification_date": "2025-02-18",
+        "enumeration_date": "2024-05-07",
+        "last_updated": "2025-02-18",
+        "organization_name": "ND MEDICAL SOLUTIONS LLC",
+        "organizational_subpart": "NO",
+        "status": "A"
+      },
+      "locations": [
+        {
+          "address_purpose": "LOCATION",
+          "city": "FORT WASHINGTON",
+          "country_code": "US",
+          "state": "PA"
+        },
+        {
+          "address_purpose": "MAILING",
+          "city": "FORT WASHINGTON",
+          "country_code": "US",
+          "state": "PA"
+        }
+      ],
+      "taxonomies": [
+        {
+          "code": "332B00000X",
+          "desc": "Durable Medical Equipment & Medical Supplies",
+          "license": null,
+          "primary": true,
+          "state": null,
+          "taxonomy_group": ""
+        }
+      ]
+    }
+  ],
+  "omissions": "Street addresses, postal codes, telephone, fax and contacts excluded from saved record"
+}

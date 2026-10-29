@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-10-29",
+  "graph_nodes": 829,
+  "graph_edges": 1861,
+  "sources": 212,
+  "generated_node_notes": 829,
+  "navigation_notes": 1,
+  "checked_wikilinks": 6380,
+  "broken_wikilinks": 0,
+  "investigation_markdown_link_errors": 0,
+  "sqlite_foreign_key_errors": 0,
+  "tests_passed": {
+    "engine": 35,
+    "connector": 8,
+    "assembly_and_extension": 20,
+    "catheter_contracts": 6
+  },
+  "test_total": 69,
+  "enrollment_offline_validation": "passed",
+  "independent_data_review": "passed",
+  "canonical_graph_sha256": "1c945140135c0ee4ad100eb289ca4969fc7608ba3836072696e8ed1d210e861d",
+  "canonical_hash_encoding": "sorted keys, compact separators, UTF-8; not formatted file bytes",
+  "no_new_fraud_determination": true
+}

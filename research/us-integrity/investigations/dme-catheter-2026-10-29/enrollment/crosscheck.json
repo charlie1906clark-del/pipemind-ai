@@ -1,0 +1,303 @@
+{
+  "main_rows": 8620,
+  "main_unique_enrollment_npi_keys": 8620,
+  "main_unique_enrollments": 8620,
+  "main_blank_npi_rows": 128,
+  "additional_npi_rows": 94,
+  "additional_orphan_rows": 0,
+  "flattened_enrollment_npi_rows_including_blanks": 8714,
+  "flattened_unique_nonblank_npis": 7462,
+  "cohort_unique_npis_across_years_and_codes": 1976,
+  "unique_cohort_npis_matching_current_snapshot": 64,
+  "cohort_input_sha256": {
+    "data-audit/snapshots/suppliers_2022_A4351.json": "1efd4c53de117089f7f47ec43ead51e272634b5810223c78effb516d56ea0860",
+    "data-audit/snapshots/suppliers_2022_A4352.json": "a7ddd5ca537c9d082656f4aeffcd671728e6f2e9f2cdb61c122e1103bdde55f8",
+    "data-audit/snapshots/suppliers_2022_A4353.json": "dd7d5cedfa9d160dde10ac5bfc999af01c540cb06e9e5d9d15c79a3b3afd44b1",
+    "data-audit/snapshots/suppliers_2023_A4351.json": "09bacddc9472e38934f3c81787b51c9bf515b5fe56d559516efa55626b403063",
+    "data-audit/snapshots/suppliers_2023_A4352.json": "ed518fed359be3b20b529dddd2e19f66ab26d50ea9dcbe61e41b89357f07f891",
+    "data-audit/snapshots/suppliers_2023_A4353.json": "16b75bd7d611dbb3c067ad2dde56d27027ad179bd27b758323d44c584d069d1e",
+    "data-audit/snapshots/suppliers_2024_A4351.json": "fc9f23b0aee3de42889120080b60a71bbd6158faad9c5930f407895f738168f7",
+    "data-audit/snapshots/suppliers_2024_A4352.json": "daaff223e13d0a499a89dbce13fa9c971d5985b0c9df567b91f8cd2331c22625",
+    "data-audit/snapshots/suppliers_2024_A4353.json": "228793c093d4bd6587db97d321887f907c04d673f12bdabb92198be197aafdfb"
+  },
+  "cohorts": [
+    {
+      "year": 2022,
+      "code": "A4351",
+      "cohort_unique_npis": 1483,
+      "matches_to_current_revocation_snapshot_unique_npis": 31,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 3,
+          "associated_annual_puf_payment_measure_usd": "503035.23"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "74687.63"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 27,
+          "associated_annual_puf_payment_measure_usd": "170642.36"
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "code": "A4352",
+      "cohort_unique_npis": 567,
+      "matches_to_current_revocation_snapshot_unique_npis": 13,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "900307.45"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "66616.17"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 11,
+          "associated_annual_puf_payment_measure_usd": "105815636.16"
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "code": "A4353",
+      "cohort_unique_npis": 322,
+      "matches_to_current_revocation_snapshot_unique_npis": 7,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "618062.77"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "47812.64"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 5,
+          "associated_annual_puf_payment_measure_usd": "129593.70"
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "code": "ALL_THREE_CODES",
+      "cohort_unique_npis": 1616,
+      "matches_to_current_revocation_snapshot_unique_npis": 39,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 3,
+          "associated_annual_puf_payment_measure_usd": "2021405.45"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "189116.44"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 35,
+          "associated_annual_puf_payment_measure_usd": "106115872.22"
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "code": "A4351",
+      "cohort_unique_npis": 1382,
+      "matches_to_current_revocation_snapshot_unique_npis": 34,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 4,
+          "associated_annual_puf_payment_measure_usd": "601597.10"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 0,
+          "associated_annual_puf_payment_measure_usd": "0.00"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 30,
+          "associated_annual_puf_payment_measure_usd": "9992121.81"
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "code": "A4352",
+      "cohort_unique_npis": 586,
+      "matches_to_current_revocation_snapshot_unique_npis": 14,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 2,
+          "associated_annual_puf_payment_measure_usd": "976646.82"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "165239318.37"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 11,
+          "associated_annual_puf_payment_measure_usd": "212876155.93"
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "code": "A4353",
+      "cohort_unique_npis": 332,
+      "matches_to_current_revocation_snapshot_unique_npis": 21,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 2,
+          "associated_annual_puf_payment_measure_usd": "698981.04"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "29514092.71"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 18,
+          "associated_annual_puf_payment_measure_usd": "2986805166.65"
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "code": "ALL_THREE_CODES",
+      "cohort_unique_npis": 1520,
+      "matches_to_current_revocation_snapshot_unique_npis": 47,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 4,
+          "associated_annual_puf_payment_measure_usd": "2277224.96"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "194753411.08"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 42,
+          "associated_annual_puf_payment_measure_usd": "3209673444.39"
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "code": "A4351",
+      "cohort_unique_npis": 1297,
+      "matches_to_current_revocation_snapshot_unique_npis": 22,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 2,
+          "associated_annual_puf_payment_measure_usd": "492805.45"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "560.35"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 19,
+          "associated_annual_puf_payment_measure_usd": "184781.76"
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "code": "A4352",
+      "cohort_unique_npis": 569,
+      "matches_to_current_revocation_snapshot_unique_npis": 10,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "857665.72"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 0,
+          "associated_annual_puf_payment_measure_usd": "0.00"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 9,
+          "associated_annual_puf_payment_measure_usd": "279410.46"
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "code": "A4353",
+      "cohort_unique_npis": 332,
+      "matches_to_current_revocation_snapshot_unique_npis": 14,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 1,
+          "associated_annual_puf_payment_measure_usd": "573041.37"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 5,
+          "associated_annual_puf_payment_measure_usd": "392037653.47"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 8,
+          "associated_annual_puf_payment_measure_usd": "719147225.11"
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "code": "ALL_THREE_CODES",
+      "cohort_unique_npis": 1440,
+      "matches_to_current_revocation_snapshot_unique_npis": 34,
+      "timing_relations": {
+        "effective_before_service_year": {
+          "unique_npis": 2,
+          "associated_annual_puf_payment_measure_usd": "1923512.54"
+        },
+        "effective_during_service_year": {
+          "unique_npis": 6,
+          "associated_annual_puf_payment_measure_usd": "392038213.82"
+        },
+        "effective_after_service_year": {
+          "unique_npis": 26,
+          "associated_annual_puf_payment_measure_usd": "719611417.33"
+        }
+      }
+    }
+  ],
+  "known_case_puf_presence": {
+    "nd_medical": {
+      "npi": "1790533503",
+      "published_rows": [
+        {
+          "year": 2024,
+          "code": "A4353",
+          "rows": 1,
+          "revocation_effective_dates": [
+            "2025-04-23"
+          ],
+          "associated_annual_puf_payment_measure_usd": "88034901.04"
+        }
+      ],
+      "absence_is_not_evidence_of_no_billing": true
+    },
+    "centennial": {
+      "npi": "1609626167",
+      "published_rows": [],
+      "absence_is_not_evidence_of_no_billing": true
+    }
+  },
+  "interpretation": [
+    "Exact NPI linkage only; current snapshot is not historical enrollment status.",
+    "Annual PUF service-year measures cannot establish transaction payment dates or released cash.",
+    "A revocation effective during a year does not place that year's services before or after the effective date.",
+    "A current revoked enrollment may coexist with another active enrollment under the same TIN; NPI linkage alone does not identify the billed enrollment.",
+    "The current-bar snapshot omits completed bars, appeal outcomes and other historically relevant records; matching share is not a fraud or revocation rate.",
+    "Relation buckets can overlap for an NPI with more than one revoked enrollment; do not sum them.",
+    "No new named suspected actor or alleged loss is emitted."
+  ],
+  "validation": {
+    "stats_row_count_equal": true,
+    "main_enrollment_npi_keys_unique": true,
+    "additional_enrollment_npi_keys_unique": true,
+    "terminal_empty_page": true,
+    "additional_all_enrollments_linked": true
+  }
+}

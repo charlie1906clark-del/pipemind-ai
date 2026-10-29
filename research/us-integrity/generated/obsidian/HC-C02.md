@@ -55,4 +55,4 @@ This note records supplied sources; it does not independently establish fraud.
 
 ## Backlinks
 
-None recorded.
+- [[DME-INV-20261029]]: examines_existing_published_case — documented_fact (DME-E-8efc4af1ef6a8218c8d3)

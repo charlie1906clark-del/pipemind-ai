@@ -1,0 +1,199 @@
+[
+  {
+    "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-01-02",
+    "modified": "2026-06-30",
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2026-01-01",
+        "endDate": "2026-03-31"
+      }
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-05/9b0dd033-8c63-4e52-b9b0-0cabdb5db198/PPEF_Enrollment_Extract_2026.04.01.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/7fa94d4b-12ec-4a05-a09f-572b94147179",
+        "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-01-02",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Fee-For-Service Public Provider Enrollment : 2026-01-02",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/7fa94d4b-12ec-4a05-a09f-572b94147179/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-06-30",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-01-01",
+            "endDate": "2026-03-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/7fa94d4b-12ec-4a05-a09f-572b94147179/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/7fa94d4b-12ec-4a05-a09f-572b94147179",
+        "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-01-02",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Fee-For-Service Public Provider Enrollment : 2026-01-02",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/7fa94d4b-12ec-4a05-a09f-572b94147179/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-06-30",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-01-01",
+            "endDate": "2026-03-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ]
+  },
+  {
+    "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-07-01",
+    "modified": "2026-07-27",
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2026-07-01",
+        "endDate": "2026-09-30"
+      }
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-07/9c89bdde-66b6-4fb9-8c2f-a96cbb3859ba/PPEF_Enrollment_Extract_2026.07.17.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/903dcfa5-4924-4775-8676-4fa0f6a8aee9",
+        "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-07-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Fee-For-Service Public Provider Enrollment : 2026-07-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/903dcfa5-4924-4775-8676-4fa0f6a8aee9/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-07-27",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-07-01",
+            "endDate": "2026-09-30"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/903dcfa5-4924-4775-8676-4fa0f6a8aee9/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/903dcfa5-4924-4775-8676-4fa0f6a8aee9",
+        "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-07-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Fee-For-Service Public Provider Enrollment : 2026-07-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/903dcfa5-4924-4775-8676-4fa0f6a8aee9/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-07-27",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-07-01",
+            "endDate": "2026-09-30"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ]
+  },
+  {
+    "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-10-01",
+    "modified": "2026-10-19",
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2026-10-01",
+        "endDate": "2026-12-31"
+      }
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/2457ea29-fc82-48b0-86ec-3b0755de7515/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/2457ea29-fc82-48b0-86ec-3b0755de7515",
+        "description": "latest",
+        "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-10-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Fee-For-Service Public Provider Enrollment : 2026-10-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/2457ea29-fc82-48b0-86ec-3b0755de7515/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-10-19",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-10-01",
+            "endDate": "2026-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-09/b840a66b-6781-4630-9238-d056ecd633ce/PPEF_Enrollment_Extract_2026.09.29.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/d94cfc52-f241-4de0-9100-a95c564a5d80",
+        "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-10-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Fee-For-Service Public Provider Enrollment : 2026-10-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/d94cfc52-f241-4de0-9100-a95c564a5d80/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-10-19",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-10-01",
+            "endDate": "2026-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/d94cfc52-f241-4de0-9100-a95c564a5d80/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/d94cfc52-f241-4de0-9100-a95c564a5d80",
+        "title": "Medicare Fee-For-Service Public Provider Enrollment : 2026-10-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Fee-For-Service Public Provider Enrollment : 2026-10-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/d94cfc52-f241-4de0-9100-a95c564a5d80/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-10-19",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-10-01",
+            "endDate": "2026-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ]
+  }
+]

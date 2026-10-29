@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-10-29",
+  "automatic_execution": false,
+  "new_fraud_required": false,
+  "tasks": [
+    {
+      "id": "DME-F01",
+      "title": "Resolve the two published intercompany transfers",
+      "specialist": "case-trace",
+      "status": "open_research_question",
+      "method": "Search later public filings referring to Danelia complaint paragraph47, with docket and exact amount/date checks.",
+      "acceptance_evidence": "A court filing identifies the counterparty and transaction purpose with supporting records.",
+      "disconfirmation_or_stop_condition": "Keep entities unidentified if no explicit source; close any name-only or amount-only match.",
+      "current_evidence_boundary": "Public complaint; later filings not acquired as complete docket.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F02",
+      "title": "Reconcile Centennial payer receipts and escrow",
+      "specialist": "payer-reconciliation",
+      "status": "open_research_question",
+      "method": "Compare dated complaint, indictment, later restitution/forfeiture and official recovery figures, keeping claims and cash separate.",
+      "acceptance_evidence": "Payer-specific receipt window and recovery disposition agree across records.",
+      "disconfirmation_or_stop_condition": "Do not count withheld escrow as received loss or add overlapping claims/receipts.",
+      "current_evidence_boundary": "Public filing summaries available; transaction-level ledger absent.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F03",
+      "title": "Resolve the earlier-revocation cohort screen",
+      "specialist": "enrollment-review",
+      "status": "open_research_question",
+      "method": "For anonymous screened matches, distinguish enrollment identifier, revocation date, notice date, appeals, reinstatement, service date and payment date.",
+      "acceptance_evidence": "Exact same enrollment has unreversed revocation plus eligible claim-level timing and cash reconciliation.",
+      "disconfirmation_or_stop_condition": "Downgrade if another enrollment, reversal, earlier service, lagged claim or other legitimate explanation resolves overlap.",
+      "current_evidence_boundary": "Bounded public follow-up completed: one candidate has another approved immunization-only enrollment; the other has no selected enrollment hits. Neither historical 2024 catheter eligibility nor billed enrollment is resolved. See enrollment/candidate_followup_summary.json.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F04",
+      "title": "Check effectiveness of supplemental-payer suspension notifications",
+      "specialist": "control-evaluation",
+      "status": "open_research_question",
+      "method": "Search official material after January2026 for distribution coverage, transmission latency, implementation and residual payment findings.",
+      "acceptance_evidence": "Dated independent implementation evidence, including denominator and residual exposure.",
+      "disconfirmation_or_stop_condition": "Do not describe the historical gap as unchanged merely because outcome data is missing.",
+      "current_evidence_boundary": "GAO documents sharing begun; current effectiveness incomplete.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F05",
+      "title": "Acquire 2025 supplier data when publicly released",
+      "specialist": "data-acquisition",
+      "status": "open_research_question",
+      "method": "Resolve current CMS catalog, preserve immutable dataset ID, metadata, dictionary and selected cohort capture.",
+      "acceptance_evidence": "Counts/pagination/hashes validated and 2025 service year explicitly published.",
+      "disconfirmation_or_stop_condition": "Stop at absent release; never relabel a2024 file as2025.",
+      "current_evidence_boundary": "2024 is the latest service year acquired in this run; no background monitor activated.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F06",
+      "title": "Resolve historical company control from published filings",
+      "specialist": "identity-review",
+      "status": "open_research_question",
+      "method": "Read dated acquisition/amendment/manager records; distinguish source-reported nominee owner from beneficial controller.",
+      "acceptance_evidence": "Identifier match, effective dates and direct evidence for each claimed role.",
+      "disconfirmation_or_stop_condition": "Registered agent or authorized official alone does not prove ownership.",
+      "current_evidence_boundary": "Exact NPI and current corporate roles acquired; full beneficial chain unresolved.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F07",
+      "title": "Track adjudication and collected recoveries",
+      "specialist": "case-status",
+      "status": "open_research_question",
+      "method": "Check official later pleas, judgments, restitution, forfeiture and collection statements for each named defendant separately.",
+      "acceptance_evidence": "Dated case event and collection evidence rather than scheduled event/order alone.",
+      "disconfirmation_or_stop_condition": "Keep charged defendants presumed innocent; never upgrade all network participants from one conviction.",
+      "current_evidence_boundary": "Current official status updates captured; complete live dockets not certified.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F08",
+      "title": "Identify the eleven September2026 suppliers only from explicit sources",
+      "specialist": "public-source-discovery",
+      "status": "open_research_question",
+      "method": "Look for CMS/OIG/DOJ releases or public appeal decisions explicitly naming the suppliers and identifiers.",
+      "acceptance_evidence": "Source itself ties exact supplier to the specific announcement.",
+      "disconfirmation_or_stop_condition": "No inferred identities from geography, spending size, LEIE or unrelated revocations.",
+      "current_evidence_boundary": "September announcement does not name them; Preclusion List not public.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F09",
+      "title": "Separate CHAMPVA and other public-program claims from disbursement",
+      "specialist": "payer-reconciliation",
+      "status": "open_research_question",
+      "method": "Use later public filings to establish whether billed CHAMPVA/TRICARE claims were paid, withheld, rejected or recovered.",
+      "acceptance_evidence": "Payer-specific amounts and dates with supporting source.",
+      "disconfirmation_or_stop_condition": "Do not convert a billed figure into paid loss or assume program labels are interchangeable.",
+      "current_evidence_boundary": "Complaint has billed CHAMPVA amount with payment unknown.",
+      "external_contact_or_submission_authorized": false
+    },
+    {
+      "id": "DME-F10",
+      "title": "Evaluate detector false positives on a separate cohort",
+      "specialist": "methodology-review",
+      "status": "open_research_question",
+      "method": "Predeclare features and evaluate with independent adjudicated examples and benign controls outside training case set.",
+      "acceptance_evidence": "Observed sensitivity/precision with a defensible labeled denominator and time split.",
+      "disconfirmation_or_stop_condition": "No calibrated fraud probability from a hand-picked Gold Rush benchmark.",
+      "current_evidence_boundary": "No predictive model performance claimed.",
+      "external_contact_or_submission_authorized": false
+    }
+  ]
+}

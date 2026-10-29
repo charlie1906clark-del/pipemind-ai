@@ -1,0 +1,28 @@
+{
+  "nd_medical": [
+    {
+      "ENRLMT_ID": "O20241216000744",
+      "NPI": "1790533503",
+      "MULTIPLE_NPI_FLAG": "N",
+      "STATE_CD": "PA",
+      "PROVIDER_TYPE_DESC": "DME SUPPLIER - MEDICAL SUPPLY COMPANY WITH ORTHOTIC PERSONNEL",
+      "REVOCATION_RSN": "424.535(A)(8)(Ii) Abuse Of Billing Privileges: Pattern Or Practice",
+      "REVOCATION_EFCTV_DT": "2025-04-23",
+      "REENROLLMENT_BAR_EXPRTN_DT": "2035-04-22",
+      "ORG_NAME": "ND MEDICAL SOLUTIONS LLC"
+    }
+  ],
+  "centennial": [
+    {
+      "ENRLMT_ID": "O20240710000183",
+      "NPI": "1609626167",
+      "MULTIPLE_NPI_FLAG": "N",
+      "STATE_CD": "CO",
+      "PROVIDER_TYPE_DESC": "DME SUPPLIER - MEDICAL SUPPLY COMPANY",
+      "REVOCATION_RSN": "424.535(A)(8)(Ii) Abuse Of Billing Privileges: Pattern Or Practice",
+      "REVOCATION_EFCTV_DT": "2025-10-24",
+      "REENROLLMENT_BAR_EXPRTN_DT": "2035-10-23",
+      "ORG_NAME": "CENTENNIAL MED SUPPLY LLC"
+    }
+  ]
+}

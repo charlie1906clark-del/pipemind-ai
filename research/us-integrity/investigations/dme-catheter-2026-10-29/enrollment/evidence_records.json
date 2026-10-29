@@ -1,0 +1,134 @@
+{
+  "investigation": "dme-catheter-2026-10-29",
+  "component": "enrollment-status-audit",
+  "evidence_records": [
+    {
+      "id": "ENROLLMENT-KNOWN-ND_MEDICAL",
+      "record_type": "administrative_record",
+      "legal_status": "CMS administrative revocation record; not criminal adjudication",
+      "claim": {
+        "ENRLMT_ID": "O20241216000744",
+        "NPI": "1790533503",
+        "MULTIPLE_NPI_FLAG": "N",
+        "STATE_CD": "PA",
+        "PROVIDER_TYPE_DESC": "DME SUPPLIER - MEDICAL SUPPLY COMPANY WITH ORTHOTIC PERSONNEL",
+        "REVOCATION_RSN": "424.535(A)(8)(Ii) Abuse Of Billing Privileges: Pattern Or Practice",
+        "REVOCATION_EFCTV_DT": "2025-04-23",
+        "REENROLLMENT_BAR_EXPRTN_DT": "2035-04-22",
+        "ORG_NAME": "ND MEDICAL SOLUTIONS LLC"
+      },
+      "source_url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data?filter%5BNPI%5D=1790533503&column=ENRLMT_ID%2CNPI%2CMULTIPLE_NPI_FLAG%2CSTATE_CD%2CPROVIDER_TYPE_DESC%2CREVOCATION_RSN%2CREVOCATION_EFCTV_DT%2CREENROLLMENT_BAR_EXPRTN_DT%2CORG_NAME&size=5000",
+      "source_local": "snapshots/known_case_matches.json",
+      "source_retrieved_at": "2026-10-29T19:18:18.946533+00:00",
+      "source_wire_response_sha256": "0fe3831a35f76198b2fe8a8cd52875397655615902a06bc95046b29a87c61bd7",
+      "limitations": [
+        "Enrollment-specific snapshot, not real-time NPI or Medicare status",
+        "First-level appeal inclusion criterion does not mean all further appeals exhausted"
+      ]
+    },
+    {
+      "id": "ENROLLMENT-KNOWN-CENTENNIAL",
+      "record_type": "administrative_record",
+      "legal_status": "CMS administrative revocation record; not criminal adjudication",
+      "claim": {
+        "ENRLMT_ID": "O20240710000183",
+        "NPI": "1609626167",
+        "MULTIPLE_NPI_FLAG": "N",
+        "STATE_CD": "CO",
+        "PROVIDER_TYPE_DESC": "DME SUPPLIER - MEDICAL SUPPLY COMPANY",
+        "REVOCATION_RSN": "424.535(A)(8)(Ii) Abuse Of Billing Privileges: Pattern Or Practice",
+        "REVOCATION_EFCTV_DT": "2025-10-24",
+        "REENROLLMENT_BAR_EXPRTN_DT": "2035-10-23",
+        "ORG_NAME": "CENTENNIAL MED SUPPLY LLC"
+      },
+      "source_url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data?filter%5BNPI%5D=1609626167&column=ENRLMT_ID%2CNPI%2CMULTIPLE_NPI_FLAG%2CSTATE_CD%2CPROVIDER_TYPE_DESC%2CREVOCATION_RSN%2CREVOCATION_EFCTV_DT%2CREENROLLMENT_BAR_EXPRTN_DT%2CORG_NAME&size=5000",
+      "source_local": "snapshots/known_case_matches.json",
+      "source_retrieved_at": "2026-10-29T19:18:23.637481+00:00",
+      "source_wire_response_sha256": "ba4cb77f8e0fa97197a86c11494043762d59427df1c520521161eb39cb89f5b2",
+      "limitations": [
+        "Enrollment-specific snapshot, not real-time NPI or Medicare status",
+        "First-level appeal inclusion criterion does not mean all further appeals exhausted"
+      ]
+    },
+    {
+      "id": "ENROLLMENT-SNAPSHOT-FRESHNESS",
+      "record_type": "source_metadata",
+      "claim": {
+        "title": "Revoked Medicare Providers and Suppliers : 2026-09-01",
+        "modified": "2026-10-21",
+        "dataset_root": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93",
+        "main_rows": 8620,
+        "additional_npi_rows": 94
+      },
+      "source_url": "https://data.cms.gov/data.json",
+      "source_local": "acquisition_manifest.json",
+      "limitations": [
+        "Do not substitute indexed Q1 documentation for the live selected version"
+      ]
+    },
+    {
+      "id": "ENROLLMENT-COHORT-INTERSECTION",
+      "record_type": "reproducible_aggregate",
+      "claim": {
+        "cohort_unique_npis": 1976,
+        "unique_matches": 64,
+        "2024_matches": 34,
+        "2024_effective_before_year": 2,
+        "2024_effective_during_year": 6,
+        "2024_effective_after_year": 26,
+        "2024_prior_year_associated_puf_measure_usd": "1923512.54"
+      },
+      "source_local": "crosscheck.json",
+      "limitations": [
+        "NPI linkage does not prove same enrollment",
+        "Annual PUF measure is not released cash or fraud loss",
+        "No newly named suspected party published"
+      ]
+    },
+    {
+      "id": "ENROLLMENT-CANDIDATE-FALSIFICATION",
+      "record_type": "bounded_followup",
+      "claim": {
+        "candidates": 2,
+        "different_approved_enrollment_demonstrated": 1,
+        "different_approved_scope": "Part B mass immunization roster billing",
+        "historical_2024_status_resolved": 0,
+        "conclusive_matched_DAB_appeal_decisions": 0
+      },
+      "source_local": "candidate_followup_summary.json",
+      "limitations": [
+        "Different approved enrollment does not permit catheter billing",
+        "Negative searches are not clearance or adverse findings",
+        "No 2024 enrollment-level claims or cash-release records examined"
+      ]
+    },
+    {
+      "id": "ENROLLMENT-OIG-PRECLUSION-CONTEXT",
+      "record_type": "published_official_audit",
+      "legal_status": "Published data brief, not a catheter-case allegation",
+      "claim": {
+        "report": "A-02-24-01013",
+        "issued": "2026-09-28",
+        "posted": "2026-10-01",
+        "reviewed_revoked_npis_absent_preclusion_list": 1017,
+        "selection_years": "2022\u20132023",
+        "paid_associated_npis": 249,
+        "payment_years": "2022\u20132024",
+        "payment_usd_reported": 72000000,
+        "dispensing_pharmacy_npis": 12,
+        "dispensing_pharmacy_usd_reported": 42000000
+      },
+      "source_url": "https://oig.hhs.gov/documents/audit/11934/A-02-24-01013.pdf",
+      "source_local": "supporting_sources.json",
+      "limitations": [
+        "Preclusion authority did not cover dispensing eligible-prescriber prescriptions; separate exclusion duties remain",
+        "All $72 million is not established fraud",
+        "No link to named catheter suppliers established"
+      ]
+    }
+  ],
+  "report": "REPORT.md",
+  "bounded_followup": "candidate_followup_summary.json",
+  "validation": "python audit_enrollment.py --validate",
+  "interpretive_rule": "Maintain separate NPI, Medicare enrollment revocation, OIG exclusion, preclusion, claims adjudication and cash-release states."
+}

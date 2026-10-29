@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-29",
+  "json_and_reference_validation": "passed",
+  "python_compilation": "passed",
+  "live_repeat_acquisition": "passed",
+  "exact_npi_checks": 2,
+  "leie_rows_scanned": 84093,
+  "exact_leie_matches": 1,
+  "nppes_original_hashes_match_repeat": true,
+  "selected_field_privacy_check": "passed",
+  "json_schema_library": "not_installed; root integrator to run repository validator"
+}

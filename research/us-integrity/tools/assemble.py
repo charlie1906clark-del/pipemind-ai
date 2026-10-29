@@ -10,6 +10,7 @@ from pathlib import Path
 import re
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from coverage import SECTORS
+from investigation_extensions import load_approved_extensions
 
 ROOT = Path(__file__).resolve().parents[1]
 DAY = '2026-10-29'
@@ -266,13 +267,16 @@ def main():
                 for a in ids:
                     if s not in by_id or a not in by_id:raise ValueError('Invalid sector agent coverage mapping')
                     edge('assigned_'+role+'_specification',s,a,status='planned',runtime_active=False)
+    investigations = load_approved_extensions(ROOT, nodes, edges, DAY)
+    by_id.update({n['id']: n for n in nodes})
     # Explicit provenance edges make the evidence bank navigable outside Obsidian.
     for n in list(nodes):
         for sid in n['source_ids']:edge('cites',n['id'],sid,[sid])
     nodes.sort(key=lambda n:n['id']);edges.sort(key=lambda e:e['id'])
     write(ROOT/'data/graph.json',dict(version='1.0',as_of=DAY,nodes=nodes,edges=edges))
     stats=dict(as_of=DAY,nodes=len(nodes),edges=len(edges),node_types=dict(Counter(n['type'] for n in nodes)),
-               unique_source_urls=len(urls),live_cohort_records=cohort_counts,
+               unique_source_urls=len({n['properties']['url'] for n in nodes if n['type']=='source'}),
+               live_cohort_records=cohort_counts, approved_investigations=investigations,
                new_fraud_cases_identified=0,nationwide_buyer_coverage='not_complete',
                novel_named_leads_published=0,autonomous_agents_running=False)
     write(ROOT/'data/coverage-summary.json',stats)

@@ -1,0 +1,897 @@
+[
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/data-viewer",
+    "@type": "Dataset",
+    "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2022-03-26",
+    "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "Medicare Provider Data - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-03-26",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service",
+      "accessURL": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service Data Dictionary",
+      "downloadURL": "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service-data-dictionary"
+    },
+    "keyword": [
+      "Medicare",
+      "Original Medicare",
+      "Physicians & Practitioners",
+      "Medical Suppliers & Equipment",
+      "Health Care Use & Payments",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2025-11/9a07a963-19eb-480c-8052-ba1a24cf489d/mup_dme_ry25_p05_v20_dy22_suphpr.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/dad703df-2e52-4ac6-a26f-51ecbf463d77",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2022-03-26",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2022-03-26",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2025-03-26",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2022-01-01",
+            "endDate": "2022-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/dad703df-2e52-4ac6-a26f-51ecbf463d77",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2022-03-26",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2022-03-26",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2025-03-26",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2022-01-01",
+            "endDate": "2022-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data",
+        "@type": "DatasetSeries",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "Medicare Provider Data - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/44235fd3-6cf9-487f-928d-12998cd84071/data-viewer",
+    "@type": "Dataset",
+    "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2023-01-01",
+    "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "Medicare Provider Data - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/44235fd3-6cf9-487f-928d-12998cd84071/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-09-09",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service",
+      "accessURL": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service Data Dictionary",
+      "downloadURL": "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service-data-dictionary"
+    },
+    "keyword": [
+      "Medicare",
+      "Original Medicare",
+      "Physicians & Practitioners",
+      "Medical Suppliers & Equipment",
+      "Health Care Use & Payments",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2025-06/e6cbcb60-386c-4bac-a30f-f132f7bb7dad/mup_dme_ry25_p05_v10_dy23_suphpr.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/44235fd3-6cf9-487f-928d-12998cd84071",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2023-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2023-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/44235fd3-6cf9-487f-928d-12998cd84071/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2025-09-09",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/44235fd3-6cf9-487f-928d-12998cd84071/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/44235fd3-6cf9-487f-928d-12998cd84071",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2023-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2023-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/44235fd3-6cf9-487f-928d-12998cd84071/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2025-09-09",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data",
+        "@type": "DatasetSeries",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "Medicare Provider Data - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data-viewer",
+    "@type": "Dataset",
+    "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01",
+    "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "Medicare Provider Data - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2026-07-23",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service",
+      "accessURL": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service-data-dictionary"
+    },
+    "keyword": [
+      "Medicare",
+      "Original Medicare",
+      "Physicians & Practitioners",
+      "Medical Suppliers & Equipment",
+      "Health Care Use & Payments",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/1746a83e-bb65-4300-8e02-21edbab77c6b",
+        "description": "latest",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-07-23",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2024-01-01",
+            "endDate": "2024-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-07/9213e585-a53b-4728-bd47-5713c80ab2ba/mup_dme_ry26_p05_v10_dy24_suphpr.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/1dc6718a-e44b-403a-a735-ce01a6233822",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/1dc6718a-e44b-403a-a735-ce01a6233822/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-07-23",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2024-01-01",
+            "endDate": "2024-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/1dc6718a-e44b-403a-a735-ce01a6233822/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/1dc6718a-e44b-403a-a735-ce01a6233822",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/1dc6718a-e44b-403a-a735-ce01a6233822/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-07-23",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2024-01-01",
+            "endDate": "2024-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data",
+        "@type": "DatasetSeries",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "Medicare Provider Data - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/a9d1461a-9c63-49e1-8d91-696082e20e47/data-viewer",
+    "@type": "Dataset",
+    "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2022-12-30",
+    "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Geography and Service dataset contains information on usage, payments, and submitted charges organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "Medicare Provider Data - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/a9d1461a-9c63-49e1-8d91-696082e20e47/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2024-06-04",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service",
+      "accessURL": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service Data Dictionary",
+      "downloadURL": "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service-data-dictionary-0"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Original Medicare",
+      "Physicians & Practitioners",
+      "Health Care Use & Payments",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2024-05/75aedbf5-34dd-4b6e-8692-81e2ab64d025/mup_dme_ry24_p05_v10_dy22_geor.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/a9d1461a-9c63-49e1-8d91-696082e20e47",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2022-12-30",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2022-12-30",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/a9d1461a-9c63-49e1-8d91-696082e20e47/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2024-06-04",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2022-01-01",
+            "endDate": "2022-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/a9d1461a-9c63-49e1-8d91-696082e20e47/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/a9d1461a-9c63-49e1-8d91-696082e20e47",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2022-12-30",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2022-12-30",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/a9d1461a-9c63-49e1-8d91-696082e20e47/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2024-06-04",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2022-01-01",
+            "endDate": "2022-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data",
+        "@type": "DatasetSeries",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Geography and Service dataset contains information on usage, payments, and submitted charges organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "Medicare Provider Data - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d/data-viewer",
+    "@type": "Dataset",
+    "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2023-01-01",
+    "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Geography and Service dataset contains information on usage, payments, and submitted charges organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "Medicare Provider Data - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-06-26",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service",
+      "accessURL": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service Data Dictionary",
+      "downloadURL": "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service-data-dictionary-0"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Original Medicare",
+      "Physicians & Practitioners",
+      "Health Care Use & Payments",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2025-06/29aaedf2-a518-4d2c-8c69-e52e0cbee702/mup_dme_ry25_p05_v10_dy23_geor.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2023-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2023-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2025-06-26",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2023-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2023-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2025-06-26",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data",
+        "@type": "DatasetSeries",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Geography and Service dataset contains information on usage, payments, and submitted charges organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "Medicare Provider Data - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data-viewer",
+    "@type": "Dataset",
+    "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01",
+    "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Geography and Service dataset contains information on usage, payments, and submitted charges organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "Medicare Provider Data - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2026-07-23",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service",
+      "accessURL": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service-data-dictionary-0"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Original Medicare",
+      "Physicians & Practitioners",
+      "Health Care Use & Payments",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/27c150fd-8578-43b1-bba5-6388987e32af",
+        "description": "latest",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-07-23",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2024-01-01",
+            "endDate": "2024-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-07/d264f6fd-f327-4e54-9ab7-9132f1395b6b/mup_dme_ry26_p05_v10_dy24_geor.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/eb336619-c076-4d78-8aee-1a752e206bfa",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/eb336619-c076-4d78-8aee-1a752e206bfa/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-07-23",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2024-01-01",
+            "endDate": "2024-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/eb336619-c076-4d78-8aee-1a752e206bfa/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/eb336619-c076-4d78-8aee-1a752e206bfa",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/eb336619-c076-4d78-8aee-1a752e206bfa/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-07-23",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2024-01-01",
+            "endDate": "2024-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data",
+        "@type": "DatasetSeries",
+        "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Geography and Service dataset contains information on usage, payments, and submitted charges organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "Medicare Provider Data - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data"
+      }
+    ]
+  }
+]

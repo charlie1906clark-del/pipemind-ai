@@ -43,4 +43,4 @@ No supporting source attached; treat as an unverified planning record.
 
 ## Backlinks
 
-None recorded.
+- [[DME-INV-20261029]]: deepens_sector_research — documented_fact (DME-E-0f211d32f8ddf549b80d)

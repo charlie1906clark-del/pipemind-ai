@@ -1,0 +1,164 @@
+[
+  {
+    "year": 2022,
+    "code": "A4351",
+    "national_suppliers_sum_across_rental": 2499,
+    "national_beneficiaries_sum_across_rental": 76307,
+    "national_claims": 404259,
+    "national_services": "73429961",
+    "detail_service_coverage_pct": "98.98",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "334709185.45",
+      "allowed": "153573912.12",
+      "puf_payment": "115914393.40",
+      "standardized_payment": "122405250.64"
+    },
+    "detail_payment_coverage_pct": "99.06",
+    "national_less_detail_payment_usd": "1091089.38",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  },
+  {
+    "year": 2022,
+    "code": "A4352",
+    "national_suppliers_sum_across_rental": 1215,
+    "national_beneficiaries_sum_across_rental": 45961,
+    "national_claims": 185500,
+    "national_services": "46664007",
+    "detail_service_coverage_pct": "99.15",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "482227273.41",
+      "allowed": "343877250.55",
+      "puf_payment": "267662167.65",
+      "standardized_payment": "284010505.29"
+    },
+    "detail_payment_coverage_pct": "99.22",
+    "national_less_detail_payment_usd": "2077342.81",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  },
+  {
+    "year": 2022,
+    "code": "A4353",
+    "national_suppliers_sum_across_rental": 720,
+    "national_beneficiaries_sum_across_rental": 5731,
+    "national_claims": 32754,
+    "national_services": "6279809",
+    "detail_service_coverage_pct": "95.62",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "80424571.80",
+      "allowed": "53519355.06",
+      "puf_payment": "40876216.24",
+      "standardized_payment": "40776758.78"
+    },
+    "detail_payment_coverage_pct": "95.84",
+    "national_less_detail_payment_usd": "1699700.67",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  },
+  {
+    "year": 2023,
+    "code": "A4351",
+    "national_suppliers_sum_across_rental": 2374,
+    "national_beneficiaries_sum_across_rental": 87545,
+    "national_claims": 400212,
+    "national_services": "79525705",
+    "detail_service_coverage_pct": "99.03",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "446344427.30",
+      "allowed": "180999829.65",
+      "puf_payment": "136673833.72",
+      "standardized_payment": "144910340.55"
+    },
+    "detail_payment_coverage_pct": "99.11",
+    "national_less_detail_payment_usd": "1218612.80",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  },
+  {
+    "year": 2023,
+    "code": "A4352",
+    "national_suppliers_sum_across_rental": 1165,
+    "national_beneficiaries_sum_across_rental": 157818,
+    "national_claims": 307298,
+    "national_services": "111686945",
+    "detail_service_coverage_pct": "99.65",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "1134549546.44",
+      "allowed": "908022416.35",
+      "puf_payment": "707255528.31",
+      "standardized_payment": "742916794.02"
+    },
+    "detail_payment_coverage_pct": "99.69",
+    "national_less_detail_payment_usd": "2210163.19",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  },
+  {
+    "year": 2023,
+    "code": "A4353",
+    "national_suppliers_sum_across_rental": 703,
+    "national_beneficiaries_sum_across_rental": 518185,
+    "national_claims": 571072,
+    "national_services": "429493441",
+    "detail_service_coverage_pct": "99.94",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "4085976361.12",
+      "allowed": "3907243789.04",
+      "puf_payment": "3059163823.61",
+      "standardized_payment": "3133774694.55"
+    },
+    "detail_payment_coverage_pct": "99.94",
+    "national_less_detail_payment_usd": "1801025.37",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  },
+  {
+    "year": 2024,
+    "code": "A4351",
+    "national_suppliers_sum_across_rental": 2220,
+    "national_beneficiaries_sum_across_rental": 70376,
+    "national_claims": 377854,
+    "national_services": "69464400",
+    "detail_service_coverage_pct": "98.96",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "428531956.55",
+      "allowed": "161744723.80",
+      "puf_payment": "121999530.80",
+      "standardized_payment": "129612104.73"
+    },
+    "detail_payment_coverage_pct": "99.03",
+    "national_less_detail_payment_usd": "1180095.56",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  },
+  {
+    "year": 2024,
+    "code": "A4352",
+    "national_suppliers_sum_across_rental": 1127,
+    "national_beneficiaries_sum_across_rental": 35414,
+    "national_claims": 183132,
+    "national_services": "30110190",
+    "detail_service_coverage_pct": "98.74",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "360459690.77",
+      "allowed": "248088072.12",
+      "puf_payment": "190933171.56",
+      "standardized_payment": "203051659.24"
+    },
+    "detail_payment_coverage_pct": "98.82",
+    "national_less_detail_payment_usd": "2245287.52",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  },
+  {
+    "year": 2024,
+    "code": "A4353",
+    "national_suppliers_sum_across_rental": 672,
+    "national_beneficiaries_sum_across_rental": 244723,
+    "national_claims": 271980,
+    "national_services": "157039228",
+    "detail_service_coverage_pct": "99.84",
+    "national_amounts_usd_reconstructed": {
+      "submitted": "1562316579.58",
+      "allowed": "1486107942.53",
+      "puf_payment": "1155271517.52",
+      "standardized_payment": "1167002313.46"
+    },
+    "detail_payment_coverage_pct": "99.85",
+    "national_less_detail_payment_usd": "1728254.60",
+    "note": "National table includes underlying claims hidden from supplier detail; totals reconstructed from rounded averages. Beneficiaries overlap across codes; do not sum them."
+  }
+]

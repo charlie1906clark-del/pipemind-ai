@@ -1,0 +1,68 @@
+{
+  "identifier": "dce0342b-a0c4-40a6-bd0c-f0e826b109cd",
+  "data": {
+    "title": "Revoked Medicare Providers and Suppliers Data Dictionary",
+    "fields": [
+      {
+        "name": "ENRLMT_ID",
+        "label": "Enrollment ID",
+        "description": "An enrollment ID is a unique 15-digit alphanumeric identifier that is assigned to each new provider enrollment application. All enrollment-level information (e.g. enrollment type, enrollment state, provider specialty and reassignment of benefits) is linked through the enrollment ID."
+      },
+      {
+        "name": "FIRST_NAME",
+        "label": "First Name",
+        "description": "Individual provider’s first name."
+      },
+      {
+        "name": "MDL_NAME",
+        "label": "Middle Name",
+        "description": "Individual provider’s middle name."
+      },
+      {
+        "name": "LAST_NAME",
+        "label": "Last Name",
+        "description": "Individual provider’s last name."
+      },
+      {
+        "name": "ORG_NAME",
+        "label": "Organization Name",
+        "description": "Organizational provider’s legal business name."
+      },
+      {
+        "name": "NPI",
+        "label": "National Provider Identifier",
+        "description": "An NPI is a unique 10-digit numeric identifier that all providers must obtain before enrolling in Medicare. It is assigned to health care providers upon application through the National Plan and Provider Enumeration System (NPPES)."
+      },
+      {
+        "name": "MULTIPLE_NPI_FLAG",
+        "label": "Multiple NPI Flag",
+        "description": "A flag that indicates whether the provider has more than 1 NPI (Y/N). If yes, additional NPIs are displayed in the Additional NPIs file."
+      },
+      {
+        "name": "STATE_CD",
+        "label": "State Code",
+        "description": "Provider’s enrollment state."
+      },
+      {
+        "name": "PROVIDER_TYPE_DESC",
+        "label": "Provider Specialty Description",
+        "description": "Specialty description for enrollment’s primary specialty."
+      },
+      {
+        "name": "REVOCATION_RSN",
+        "label": "Revocation Reason",
+        "description": "Revocation reason text. If multiple reasons, concatenated with semi-colon."
+      },
+      {
+        "name": "REVOCATION_EFCTV_DT",
+        "label": "Revocation Effective Date",
+        "description": "Revocation effective date."
+      },
+      {
+        "name": "REENROLLMENT_BAR_EXPRTN_DT",
+        "label": "Re-enrollment Bar Expiration Date",
+        "description": "Date the re-enrollment bar expires."
+      }
+    ]
+  }
+}

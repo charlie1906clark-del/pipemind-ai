@@ -1,0 +1,342 @@
+{
+  "as_of": "2026-10-29",
+  "contract": {
+    "task_id": "dme-catheter-2026-10-29-identity",
+    "agent_id": "agent-entity-resolution",
+    "input_commit": "ec341a476bad7cb7771a0133f5ec380bd7420e2c",
+    "cohort": [
+      "1790533503",
+      "1609626167"
+    ],
+    "source_ids": [
+      "identity-src-nppes-1790533503",
+      "identity-src-nppes-1609626167",
+      "identity-src-colorado-20241008944",
+      "identity-src-oig-leie-2026-09",
+      "identity-src-oig-leie-method",
+      "identity-src-doj-nd-2026-09-04",
+      "identity-src-doj-bendeliani-indictment",
+      "identity-src-doj-danelia-affidavit",
+      "identity-src-doj-nh-2026-06-25",
+      "identity-src-pa-record-searches",
+      "identity-src-pa-search-access",
+      "identity-src-gugava-indictment-mirror"
+    ],
+    "direct_findings": [
+      "Exact NPI records retrieved",
+      "Colorado registry identity resolved",
+      "Exact Centennial OIG exclusion row retrieved"
+    ],
+    "inferences": [
+      "Candidate NPPES given-name transposition, explicitly not merged"
+    ],
+    "contradictions": [
+      "Source-specific KAHKA/Kakha spelling retained",
+      "January 1 approximate versus January 2 exact formation date retained"
+    ],
+    "benign_alternatives_tested": [
+      "Punctuation explains initial registry null result",
+      "Active NPI and excluded status are different administrative predicates, not inconsistent records",
+      "Registered agent or reported official may lack ultimate beneficial ownership",
+      "Different transfer milestones explain May/June dates"
+    ],
+    "missing_data": [
+      "ND Pennsylvania registry ID and original corporate filings",
+      "Centennial historical original amendment image (DOJ describes it; direct state detail request returned HTTP 403)",
+      "Ultimate beneficial ownership for either company",
+      "Verified additional DBA registrations",
+      "Any supplier/manufacturer or sales transaction identity not expressly established by primary documents"
+    ],
+    "method": "Official exact NPI lookups, bounded Colorado name search then exact entity-ID extraction, full official LEIE scan by two exact NPIs, original court-document inspection. No fuzzy automatic mergers. Full original NPPES/LEIE records not archived; sanitized extracts plus original-byte hashes retained.",
+    "visibility": "public_known_case_evidence",
+    "legal_status_if_case": "Charges/allegations, not convictions; separate administrative OIG listing. No complete docket update asserted.",
+    "next_step": "Use independently audited Medicare revocation snapshots; obtain original state filing histories if accessible; do not infer current billing eligibility from NPI status.",
+    "review_status": "ready_for_independent_review"
+  },
+  "sources": [
+    {
+      "id": "identity-src-nppes-1790533503",
+      "type": "source",
+      "title": "CMS NPPES exact NPI 1790533503",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&number=1790533503",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_registry_api",
+        "snapshot_file": "nppes_1790533503.json",
+        "sha256_original_response": "196d3c958d7f3e883f44df60b15d0b8624a67efaa1f66ef87cdd5996fb2e621d",
+        "original_response_archived": false
+      }
+    },
+    {
+      "id": "identity-src-nppes-1609626167",
+      "type": "source",
+      "title": "CMS NPPES exact NPI 1609626167",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&number=1609626167",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_registry_api",
+        "snapshot_file": "nppes_1609626167.json",
+        "sha256_original_response": "39ad3eaca11b429a3ef45bfb5ed9513c96f6a27f73e169c828646a8f1532be22",
+        "original_response_archived": false
+      }
+    },
+    {
+      "id": "identity-src-colorado-20241008944",
+      "type": "source",
+      "title": "Colorado business entity 20241008944",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?%24where=entityid%3D%2720241008944%27&%24select=entityid%2Centityname%2Centitystatus%2Cjurisdictonofformation%2Centitytype%2Centityformdate%2Cprincipalcity%2Cprincipalstate%2Cagentfirstname%2Cagentlastname",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_state_dataset",
+        "snapshot_file": "colorado_snapshot.json",
+        "sha256_selected_response": "e44ca58453cba24048c0db1ef71162791455a8cfb3494bbe9e2e51124af38ad6"
+      }
+    },
+    {
+      "id": "identity-src-oig-leie-2026-09",
+      "type": "source",
+      "title": "OIG active exclusions September 2026 snapshot",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_download",
+        "snapshot_file": "leie_snapshot.json",
+        "sha256_original_response": "7483d47bc48734f7955095d51d13dd1111b11cc8a60f54ebe894806e6c293c03",
+        "original_response_archived": false,
+        "rows_scanned": 84093,
+        "coverage_end": "2026-09-30"
+      }
+    },
+    {
+      "id": "identity-src-oig-leie-method",
+      "type": "source",
+      "title": "OIG LEIE download scope and current publication",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://www.oig.hhs.gov/exclusions/leie-database-supplement-downloads/",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_methodology",
+        "page_last_updated": "2026-10-09",
+        "snapshot_label": "09-2026 Updated LEIE Database"
+      }
+    },
+    {
+      "id": "identity-src-doj-nd-2026-09-04",
+      "type": "source",
+      "title": "DOJ ND Medical / Gugava indictment announcement",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://www.justice.gov/opa/pr/illegal-alien-georgia-charged-conspiracy-launder-proceeds-13b-health-care-fraud-scheme",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_enforcement_release",
+        "published_at": "2026-09-04",
+        "legal_status": "indicted",
+        "legal_status_date": "2026-09-03"
+      }
+    },
+    {
+      "id": "identity-src-doj-bendeliani-indictment",
+      "type": "source",
+      "title": "DOJ-hosted Bendeliani indictment",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://www.justice.gov/criminal/media/1446896/dl",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_court_document",
+        "published_at": "2026-06-17",
+        "sha256_original_response": "fe9f5f2a8e2f7cb10e94b5e75db145f6c925fcf57b726122dff69c60e65a4554",
+        "locator": "page 10, subparagraphs a-d",
+        "inspection": "Original PDF downloaded and page 10 rendered at 2x; year verified as 2025. Raw PDF kept outside repository."
+      }
+    },
+    {
+      "id": "identity-src-doj-danelia-affidavit",
+      "type": "source",
+      "title": "DOJ-hosted Danelia complaint and affidavit",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://www.justice.gov/criminal/media/1446881/dl",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_court_document",
+        "published_at": "2026-03-27",
+        "case_number": "1:26-mj-00089-AJ",
+        "document": "1-1",
+        "sha256_original_response": "d58595a8920159dc25a95dac2fbe17975240020c8814be96c9572ab8d3f2c312",
+        "locator": "Affidavit paragraphs 18, 19, 51-54; affidavit pages 5-6 and 19; PDF pages 6-7 and 20"
+      }
+    },
+    {
+      "id": "identity-src-doj-nh-2026-06-25",
+      "type": "source",
+      "title": "DOJ New Hampshire public charging announcement",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://www.justice.gov/usao-nh/pr/district-new-hampshire-and-new-england-strike-force-charges-money-laundering-operation",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_enforcement_release",
+        "published_at": "2026-06-25",
+        "legal_status": "charged"
+      }
+    },
+    {
+      "id": "identity-src-pa-record-searches",
+      "type": "source",
+      "title": "Pennsylvania Department of State record-search scope",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://www.pa.gov/agencies/dos/programs/business/information-services/record-searches",
+        "accessed_at": "2026-10-29",
+        "source_kind": "official_methodology"
+      }
+    },
+    {
+      "id": "identity-src-pa-search-access",
+      "type": "source",
+      "title": "Pennsylvania business-search access attempt",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://file.dos.pa.gov/search/business",
+        "accessed_at": "2026-10-29",
+        "source_kind": "access_attempt",
+        "outcome": "HTTP 403 from unauthenticated HTTP request; no bypass attempted; no ND state-record absence inferred"
+      }
+    },
+    {
+      "id": "identity-src-gugava-indictment-mirror",
+      "type": "source",
+      "title": "Gugava indictment, court filing mirrored by Universal Hub",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://images.universalhub.com/files/attachments/2026/gugava-indictment.pdf",
+        "accessed_at": "2026-10-29",
+        "source_kind": "court_document_on_secondary_host",
+        "case_number": "1:26-cr-10243-NMG",
+        "document_number": "1",
+        "filed_at": "2026-09-03",
+        "locator": "page 3 paragraph 14",
+        "sha256_original_response": "cb5c064f26dd421b56bf9cc8a6ce485d61a34f867cf67a9e4486a18bc0a17c3d",
+        "authentication_limit": "Court-stamped filing copy on third-party host; case and general allegation corroborated by DOJ; no independent PACER-certified copy retrieved",
+        "inspection": "Page 3 rendered and dates visually verified; original PDF outside repository"
+      }
+    }
+  ],
+  "records": [
+    {
+      "id": "identity-finding-npi-confirmation",
+      "status": "documented_fact",
+      "source_ids": [
+        "identity-src-nppes-1790533503",
+        "identity-src-nppes-1609626167"
+      ],
+      "finding": "Both exact organizational NPIs returned one live official NPPES result; PA and CO identities corroborate the named DOJ businesses. Saved extracts omit addresses and contact details."
+    },
+    {
+      "id": "identity-finding-centennial-state-match",
+      "status": "documented_fact",
+      "source_ids": [
+        "identity-src-colorado-20241008944",
+        "identity-src-nppes-1609626167"
+      ],
+      "finding": "Colorado entity 20241008944 matches Centennial. Initial unpunctuated exact-name query returned zero; a bounded broader query located the comma variant. No neighboring search result was merged."
+    },
+    {
+      "id": "identity-finding-centennial-exclusion",
+      "status": "documented_fact",
+      "source_ids": [
+        "identity-src-oig-leie-2026-09",
+        "identity-src-oig-leie-method"
+      ],
+      "finding": "Centennial exact NPI is present in the active LEIE snapshot with exclusion date 2026-07-11. ND exact NPI is absent; absence is not clearance. Active NPI and exclusion concern different systems."
+    },
+    {
+      "id": "identity-finding-centennial-timeline",
+      "status": "allegation",
+      "source_ids": [
+        "identity-src-doj-danelia-affidavit",
+        "identity-src-doj-bendeliani-indictment"
+      ],
+      "timeline": [
+        {
+          "date": "2025-05-15",
+          "event": "Prior Owner 1 reportedly agreed sale",
+          "locator": "affidavit 51"
+        },
+        {
+          "date": "2025-06-12",
+          "event": "Reported sale closing",
+          "locator": "affidavit 51"
+        },
+        {
+          "date": "2025-06-18",
+          "event": "Bank signatory changed",
+          "locator": "affidavit 52"
+        },
+        {
+          "date": "2025-06-20",
+          "event": "Corporate amendment / purported sole officer-manager installation",
+          "locator": "affidavit 18; indictment page 10(a)"
+        },
+        {
+          "date": "2025-06-20",
+          "event": "New business accounts; one name included DBA Centennial Med Group",
+          "locator": "affidavit 53"
+        }
+      ],
+      "note": "Dates describe different events; original indictment page visually confirmed 2025. Affidavit CC-1 is unnamed there and is not independently de-anonymized from that document."
+    },
+    {
+      "id": "identity-finding-name-variant",
+      "status": "disputed",
+      "source_ids": [
+        "identity-src-nppes-1609626167",
+        "identity-src-colorado-20241008944",
+        "identity-src-doj-nh-2026-06-25"
+      ],
+      "finding": "NPPES reports KAHKA; Colorado and DOJ report Kakha. Candidate correspondence retained with source-specific names; no names-only person merge."
+    },
+    {
+      "id": "identity-finding-state-formation-precision",
+      "status": "documented_fact",
+      "source_ids": [
+        "identity-src-colorado-20241008944",
+        "identity-src-doj-danelia-affidavit"
+      ],
+      "finding": "Colorado formation date is 2024-01-02; affidavit says on or about January 1, 2024. This one-day difference is retained and does not establish inconsistency or fraud."
+    },
+    {
+      "id": "identity-finding-pa-access-gap",
+      "status": "unknown",
+      "source_ids": [
+        "identity-src-pa-record-searches",
+        "identity-src-pa-search-access"
+      ],
+      "finding": "PA official search route identified but unauthenticated retrieval returned HTTP 403. ND registry ID, filings, registered agent and pre-acquisition owner remain unverified. This is an access outcome, not a finding of missing registration."
+    },
+    {
+      "id": "identity-finding-nd-ownership-date-alignment",
+      "status": "documented_fact",
+      "source_ids": [
+        "identity-src-gugava-indictment-mirror",
+        "identity-src-nppes-1790533503"
+      ],
+      "finding": "The alleged sale date February 18, 2025 in court-copy paragraph 14 equals NPPES last_updated and certification_date. This is a date alignment, not proof that the update itself transferred ownership. The alleged purported-ownership end date is July 9, 2025.",
+      "inference_limit": "Registry date alone cannot identify the particular changed field or prove beneficial ownership."
+    }
+  ]
+}

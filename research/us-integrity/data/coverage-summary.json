@@ -1,12 +1,19 @@
 {
   "as_of": "2026-10-29",
-  "nodes": 532,
-  "edges": 1180,
+  "nodes": 829,
+  "edges": 1861,
   "node_types": {
-    "case": 28,
-    "money_measure": 30,
-    "organization": 79,
-    "person": 3,
+    "finding": 84,
+    "case": 35,
+    "dataset_cohort": 9,
+    "money_measure": 106,
+    "case_timeline_event": 25,
+    "person": 20,
+    "investigation": 1,
+    "organization": 82,
+    "administrative_revocation_record": 2,
+    "source": 212,
+    "published_unidentified_entity": 2,
     "trade_name": 1,
     "neutral_trace_award": 1,
     "neutral_trace_location": 1,
@@ -20,18 +27,30 @@
     "cohort": 3,
     "geography": 18,
     "hypothesis": 44,
+    "company_registry_record": 1,
+    "administrative_exclusion_record": 1,
+    "provider_registry_record": 2,
+    "query_result": 1,
+    "unresolved_party": 2,
     "reward_route": 8,
     "sector": 27,
-    "source": 148,
     "research_task": 24,
     "workstream": 9
   },
-  "unique_source_urls": 145,
+  "unique_source_urls": 209,
   "live_cohort_records": {
     "medical-supplies": 25,
     "defense-parts": 20,
     "nih-grants": 20
   },
+  "approved_investigations": [
+    {
+      "path": "investigations/dme-catheter-2026-10-29/graph-extension.json",
+      "sha256": "eb580ad515e77e837c5f4312e6da0af9e3849313aed7cf849c611489271806b8",
+      "nodes": 297,
+      "edges": 280
+    }
+  ],
   "new_fraud_cases_identified": 0,
   "nationwide_buyer_coverage": "not_complete",
   "novel_named_leads_published": 0,
