@@ -1,5 +1,7 @@
 # PipeMind AI
 
+US public-funds research is a separate domain in [research/us-integrity/START-HERE.md](research/us-integrity/START-HERE.md): sourced research, Obsidian evidence notes, bounded award snapshots, specialist-agent contracts and a tested local graph engine. It does not alter the hydrogen product or establish that any sampled recipient committed fraud.
+
 **AI software that helps energy companies plan, design, optimise and safely operate hybrid liquid-hydrogen + superconducting energy pipelines.**
 
 This repository contains the complete research foundation, detailed module specifications, and development plans for PipeMind AI.

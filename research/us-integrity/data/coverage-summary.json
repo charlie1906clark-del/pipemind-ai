@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-10-29",
+  "nodes": 532,
+  "edges": 1180,
+  "node_types": {
+    "case": 28,
+    "money_measure": 30,
+    "organization": 79,
+    "person": 3,
+    "trade_name": 1,
+    "neutral_trace_award": 1,
+    "neutral_trace_location": 1,
+    "neutral_trace_awardaction": 1,
+    "neutral_trace_agencyoffice": 1,
+    "neutral_trace_fundingprogram": 1,
+    "agency": 4,
+    "agent_specification": 32,
+    "award": 65,
+    "research_collection": 4,
+    "cohort": 3,
+    "geography": 18,
+    "hypothesis": 44,
+    "reward_route": 8,
+    "sector": 27,
+    "source": 148,
+    "research_task": 24,
+    "workstream": 9
+  },
+  "unique_source_urls": 145,
+  "live_cohort_records": {
+    "medical-supplies": 25,
+    "defense-parts": 20,
+    "nih-grants": 20
+  },
+  "new_fraud_cases_identified": 0,
+  "nationwide_buyer_coverage": "not_complete",
+  "novel_named_leads_published": 0,
+  "autonomous_agents_running": false
+}

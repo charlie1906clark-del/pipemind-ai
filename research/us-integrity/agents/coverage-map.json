@@ -1,0 +1,455 @@
+{
+  "version": "1.0",
+  "as_of": "2026-10-29",
+  "mapping_status": "all_27_catalogued_scopes_mapped",
+  "coverage": [
+    {
+      "sector_id": "sector-defense-systems",
+      "sector_slug": "defense-systems",
+      "title": "Defence weapons, aircraft and major systems",
+      "primary_agent_id": "agent-defense-systems",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-defense-spares",
+      "sector_slug": "defense-spares",
+      "title": "Military spares, commodities and medical procurement",
+      "primary_agent_id": "agent-defense-parts",
+      "secondary_agent_ids": [
+        "agent-healthcare-dme"
+      ],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-healthcare-dme",
+      "sector_slug": "healthcare-dme",
+      "title": "Medicare durable medical equipment and medical supplies",
+      "primary_agent_id": "agent-healthcare-dme",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-healthcare-services",
+      "sector_slug": "healthcare-services",
+      "title": "Home health, hospice, nursing and inpatient care",
+      "primary_agent_id": "agent-healthcare-home-hospice",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-pharma-labs",
+      "sector_slug": "pharma-labs",
+      "title": "Pharmaceuticals, PBMs, labs and telehealth",
+      "primary_agent_id": "agent-healthcare-pharma-labs",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-medicaid-behavioral",
+      "sector_slug": "medicaid-behavioral",
+      "title": "Medicaid, autism and special services",
+      "primary_agent_id": "agent-healthcare-managed-care",
+      "secondary_agent_ids": [
+        "agent-childcare-social"
+      ],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-veterans",
+      "sector_slug": "veterans",
+      "title": "Veterans healthcare, benefits and VA purchasing",
+      "primary_agent_id": "agent-veterans-health-benefits",
+      "secondary_agent_ids": [
+        "agent-pensions-benefits"
+      ],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-construction",
+      "sector_slug": "construction",
+      "title": "Infrastructure, transport and public works",
+      "primary_agent_id": "agent-construction-infrastructure",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-it-services",
+      "sector_slug": "it-services",
+      "title": "IT, cybersecurity, consulting and staffing",
+      "primary_agent_id": "agent-it-cyber-services",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-small-business",
+      "sector_slug": "small-business",
+      "title": "Small-business set-asides and certification",
+      "primary_agent_id": "agent-small-business-setasides",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-logistics",
+      "sector_slug": "logistics",
+      "title": "Military and civilian logistics, fuel and transport",
+      "primary_agent_id": "agent-defense-logistics-services",
+      "secondary_agent_ids": [
+        "agent-construction-infrastructure"
+      ],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-foreign-aid",
+      "sector_slug": "foreign-aid",
+      "title": "Foreign assistance and overseas procurement",
+      "primary_agent_id": "agent-foreign-aid",
+      "secondary_agent_ids": [
+        "agent-defense-logistics-services"
+      ],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-grants-research",
+      "sector_slug": "grants-research",
+      "title": "Research grants and university/nonprofit funding",
+      "primary_agent_id": "agent-research-education-grants",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-education",
+      "sector_slug": "education",
+      "title": "Education, student aid and training programmes",
+      "primary_agent_id": "agent-research-education-grants",
+      "secondary_agent_ids": [
+        "agent-childcare-social"
+      ],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-pandemic-loans",
+      "sector_slug": "pandemic-loans",
+      "title": "PPP, EIDL and business relief",
+      "primary_agent_id": "agent-pandemic-relief",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-unemployment",
+      "sector_slug": "unemployment",
+      "title": "Unemployment insurance and labour benefits",
+      "primary_agent_id": "agent-unemployment-labour",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-disaster",
+      "sector_slug": "disaster",
+      "title": "FEMA, disaster recovery and emergency programmes",
+      "primary_agent_id": "agent-housing-disaster",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-housing",
+      "sector_slug": "housing",
+      "title": "Housing, rental assistance and development",
+      "primary_agent_id": "agent-housing-disaster",
+      "secondary_agent_ids": [
+        "agent-construction-infrastructure"
+      ],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-agriculture-food",
+      "sector_slug": "agriculture-food",
+      "title": "Agriculture, SNAP, nutrition and farm support",
+      "primary_agent_id": "agent-agriculture-nutrition",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-childcare-social",
+      "sector_slug": "childcare-social",
+      "title": "Childcare, TANF and social services",
+      "primary_agent_id": "agent-childcare-social",
+      "secondary_agent_ids": [
+        "agent-agriculture-nutrition"
+      ],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-energy-environment",
+      "sector_slug": "energy-environment",
+      "title": "Energy grants, environmental projects and credits",
+      "primary_agent_id": "agent-energy-environment",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-tax",
+      "sector_slug": "tax",
+      "title": "Tax administration and tax-credit claims",
+      "primary_agent_id": "agent-tax-customs-trade",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-customs-trade",
+      "sector_slug": "customs-trade",
+      "title": "Customs, tariffs, imports and trade remedies",
+      "primary_agent_id": "agent-tax-customs-trade",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-financial",
+      "sector_slug": "financial",
+      "title": "Financial programmes, securities and commodities",
+      "primary_agent_id": "agent-finance-digital-assets",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-pensions-benefits",
+      "sector_slug": "pensions-benefits",
+      "title": "Social Security, federal pensions and personnel",
+      "primary_agent_id": "agent-pensions-benefits",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-justice-detention",
+      "sector_slug": "justice-detention",
+      "title": "Justice, detention, corrections and homeland services",
+      "primary_agent_id": "agent-justice-detention",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    },
+    {
+      "sector_id": "sector-tribal-local",
+      "sector_slug": "tribal-local",
+      "title": "Tribal, state and local pass-through funding",
+      "primary_agent_id": "agent-tribal-local",
+      "secondary_agent_ids": [],
+      "mandatory_reviewers": [
+        "agent-provenance-curator",
+        "agent-entity-resolution",
+        "agent-financial-methods",
+        "agent-falsification-reviewer",
+        "agent-privacy-publication",
+        "agent-legal-route-reviewer"
+      ],
+      "runtime_status": "specification_not_running"
+    }
+  ]
+}

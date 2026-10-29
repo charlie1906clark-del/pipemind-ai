@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "cohort": "nih-grants",
+  "scope": "NIH grant-type award sample; research-focused proxy, not a verified research-only population.",
+  "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+  "method": "POST",
+  "started_at": "2026-10-29T18:35:34+00:00",
+  "request_file": "request.json",
+  "request_sha256": "61b52a4e1904a5f85d8a2a789033315296e23c495a66c2c99d288333c74411a7",
+  "source_contract": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/contracts/v2/search/spending_by_award.md",
+  "source_filters": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+  "api_contract_checked_on": "2026-10-29",
+  "timeout_seconds": 20,
+  "max_response_bytes": 4194304,
+  "request_limit": 20,
+  "pages_requested": [
+    1
+  ],
+  "auto_pagination": false,
+  "automatic_retries": 0,
+  "sampling": "largest_cumulative_award_amount_descending_first_page",
+  "sample_is_random": false,
+  "sample_is_complete_population": false,
+  "truncated_sample": true,
+  "is_fraud_rank": false,
+  "amount_semantics": "Cumulative award-level amount, not spending within the FY filter, not contract ceiling, not a fraud loss or recoverable sum.",
+  "time_filter_semantics": "FY2026 award-search date window; default date_type omitted. It is not an FY2026 transaction-spending aggregate.",
+  "ownership_verified": false,
+  "success": true,
+  "http_status": 200,
+  "response_content_type": "application/json",
+  "response_date_header": "Thu, 29 Oct 2026 18:35:39 GMT",
+  "response_file": "response.json",
+  "response_sha256": "0c6a0af83478b40d0aae449e7bd9b7e468683fdf2de6bc77ffef6a48ef974ccb",
+  "response_bytes": 21617,
+  "warnings": [],
+  "records_returned": 20,
+  "page_metadata": {
+    "page": 1,
+    "hasNext": true,
+    "last_record_unique_id": 271684598,
+    "last_record_sort_value": "19981936300"
+  },
+  "api_messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ],
+  "completed_at": "2026-10-29T18:35:39+00:00"
+}

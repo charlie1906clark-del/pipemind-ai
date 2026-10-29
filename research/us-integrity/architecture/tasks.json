@@ -1,0 +1,489 @@
+{
+  "version": "1.0",
+  "as_of": "2026-10-29",
+  "runtime_status": "unassigned_backlog_not_completed_work",
+  "tasks": [
+    {
+      "id": "WP-001",
+      "title": "Recheck written reward terms and statement discrepancy",
+      "sector": "legal-route-reviewer",
+      "agent_id": "agent-legal-route-reviewer",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [],
+      "scope": "Compare current WHIP written terms, public statement, other programmes and case-specific questions.",
+      "acceptance": "Dated official-source matrix; 1% is not treated as a universal entitlement.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-002",
+      "title": "Verify source catalogue and acquisition limits",
+      "sector": "provenance-curator",
+      "agent_id": "agent-provenance-curator",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [],
+      "scope": "Review endpoints, public access, pagination, licence, update cadence and known missingness for initial cohorts.",
+      "acceptance": "Every initial source has an official URL, reviewed schema/access note and coverage limitation.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-003",
+      "title": "Rebuild and review the canonical evidence bank",
+      "sector": "quality-evaluator",
+      "agent_id": "agent-quality-evaluator",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [],
+      "scope": "Validate canonical graph, generate Obsidian/SQLite and reproduce node/edge/note counts.",
+      "acceptance": "Validation and meaningful engine tests pass; no dangling provenance or restricted records exported.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-004",
+      "title": "Define procurement product cohort before ranking",
+      "sector": "defense-parts",
+      "agent_id": "agent-defense-parts",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-002"
+      ],
+      "scope": "Select one product family, one agency and one fiscal year; enumerate the full available population and exclusions.",
+      "acceptance": "Cohort JSON and count reconciliation; no price claims without unit/specification evidence.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-005",
+      "title": "Audit procurement identities and temporal parents",
+      "sector": "entity-resolution",
+      "agent_id": "agent-entity-resolution",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-004"
+      ],
+      "scope": "Resolve UEI/CAGE and dated public corporate assertions for all bounded procurement recipients.",
+      "acceptance": "Reversible match log with candidate collisions and unknown beneficial owners preserved.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-006",
+      "title": "Normalise procurement product economics",
+      "sector": "financial-methods",
+      "agent_id": "agent-financial-methods",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-004",
+        "WP-005"
+      ],
+      "scope": "Compare quantity, unit, specifications, contract type and delivery conditions within the bounded cohort.",
+      "acceptance": "Comparable measures or explicit no-comparison finding; no ceiling/obligation/payment conflation.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-007",
+      "title": "Independently challenge procurement alerts",
+      "sector": "falsification-reviewer",
+      "agent_id": "agent-falsification-reviewer",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-006"
+      ],
+      "scope": "Reproduce each surviving price/competition alert and test legitimate explanations.",
+      "acceptance": "Each alert supported, narrowed, rejected or unresolved with reasons and original-source locators.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-008",
+      "title": "Define DME or home-health provider cohort",
+      "sector": "healthcare-dme",
+      "agent_id": "agent-healthcare-dme",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-002"
+      ],
+      "scope": "Select a public file, period, service group and state/region; enumerate suppression and missingness.",
+      "acceptance": "Complete public cohort with NPI/service key and clinical-context limitations.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-009",
+      "title": "Resolve provider roles and ownership dates",
+      "sector": "entity-resolution",
+      "agent_id": "agent-entity-resolution",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-008"
+      ],
+      "scope": "Join provider identifiers to public enrolment/ownership/exclusion records at the relevant time.",
+      "acceptance": "No inferred owners from names/addresses; documented roles and unresolved relationships.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-010",
+      "title": "Test healthcare utilisation hypotheses",
+      "sector": "healthcare-home-hospice",
+      "agent_id": "agent-healthcare-home-hospice",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-008",
+        "WP-009"
+      ],
+      "scope": "Run service-specific peer comparisons while preserving case-mix and public-claim access gaps.",
+      "acceptance": "Reproducible test with matched controls; no patient-level medical-necessity conclusion.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-011",
+      "title": "Independently challenge healthcare alerts",
+      "sector": "falsification-reviewer",
+      "agent_id": "agent-falsification-reviewer",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-010"
+      ],
+      "scope": "Recheck source definitions, service dates, exclusions, suppression and alternative clinical/business explanations.",
+      "acceptance": "Reviewed alert/null record and exact missing evidence needed.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-012",
+      "title": "Define grants and single-audit cohort",
+      "sector": "research-education-grants",
+      "agent_id": "agent-research-education-grants",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-002"
+      ],
+      "scope": "Choose one programme/Assistance Listing and period; reconcile awards to FAC/public project records.",
+      "acceptance": "Award/audit crosswalk with unmatched rate and fiscal period differences.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-013",
+      "title": "Test grant audit and scope-overlap hypotheses",
+      "sector": "research-education-grants",
+      "agent_id": "agent-research-education-grants",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-012"
+      ],
+      "scope": "Compare public scopes, dates, audit findings and remediation; seek cost allocation evidence where available.",
+      "acceptance": "Questioned cost not relabelled fraud; overlapping award totals not treated as duplicate invoices.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-014",
+      "title": "Independently challenge grant alerts",
+      "sector": "falsification-reviewer",
+      "agent_id": "agent-falsification-reviewer",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-013"
+      ],
+      "scope": "Check legitimate co-funding, separate project scopes, accounting periods and revised audit findings.",
+      "acceptance": "Independent decision and reproducible evidence packet for each surviving hypothesis.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-015",
+      "title": "Review live extract coverage and provenance",
+      "sector": "provenance-curator",
+      "agent_id": "agent-provenance-curator",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-002"
+      ],
+      "scope": "Inspect any bounded USAspending snapshot, pagination ledger, record hashes and extraction schema.",
+      "acceptance": "Actual samples labelled samples; manifests show exact queries and no national-completeness claim.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-016",
+      "title": "Review privacy and publication of initial cohorts",
+      "sector": "privacy-publication",
+      "agent_id": "agent-privacy-publication",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-007",
+        "WP-011",
+        "WP-014"
+      ],
+      "scope": "Classify records; prevent new named allegations and unnecessary personal details from entering the public branch.",
+      "acceptance": "Publication diff approved or blocked with remediation; sensitive findings remain restricted.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-017",
+      "title": "Review surviving leads for possible reporting routes",
+      "sector": "legal-route-reviewer",
+      "agent_id": "agent-legal-route-reviewer",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-001",
+        "WP-016"
+      ],
+      "scope": "Research official route requirements, novelty, confidentiality, timing and counsel questions for surviving evidence.",
+      "acceptance": "No eligibility promise, contact, filing or submission; case-specific review questions documented.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-018",
+      "title": "Build pandemic public-data feasibility packet",
+      "sector": "pandemic-relief",
+      "agent_id": "agent-pandemic-relief",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-002"
+      ],
+      "scope": "Inventory public PPP/EIDL fields and a complete bounded cohort proposal before extraction.",
+      "acceptance": "Correct loan measure and duplicate-resolution plan; unsupported borrower suspicion excluded.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-019",
+      "title": "Build housing-disaster feasibility packet",
+      "sector": "housing-disaster",
+      "agent_id": "agent-housing-disaster",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-002"
+      ],
+      "scope": "Choose one disaster/programme and map project funding, public audits and possible scope tests.",
+      "acceptance": "Project rather than household tracing; overlap test conditioned on comparable scope.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-020",
+      "title": "Build infrastructure construction feasibility packet",
+      "sector": "construction-infrastructure",
+      "agent_id": "agent-construction-infrastructure",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-002"
+      ],
+      "scope": "Map one programme/project family, change orders and publicly available scope/quantity evidence.",
+      "acceptance": "Legitimate variations and cost context distinguished from misrepresentation.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-021",
+      "title": "Document tax/UI decisive-data access limits",
+      "sector": "tax-customs-trade",
+      "agent_id": "agent-tax-customs-trade",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-002"
+      ],
+      "scope": "Map what is publicly testable and what requires official access; coordinate UI specialist.",
+      "acceptance": "No claim of access to tax returns, customs entries, claimant identities or bank records.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-022",
+      "title": "Validate separate-session collaboration procedure",
+      "sector": "coordinator",
+      "agent_id": "agent-coordinator",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-003"
+      ],
+      "scope": "Use disjoint work packages and an actual shared coordinator or single database; test lease/owner behaviour.",
+      "acceptance": "No global-lock claim across copied databases; handoff includes branch, base commit and claimed task.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-023",
+      "title": "Evaluate historical cases without hindsight leakage",
+      "sector": "quality-evaluator",
+      "agent_id": "agent-quality-evaluator",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-003"
+      ],
+      "scope": "Choose officially resolved historical examples and freeze data available before enforcement.",
+      "acceptance": "No new-discovery or reward claim; evaluate extraction limits, false positives and missed signals.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    },
+    {
+      "id": "WP-024",
+      "title": "Decide readiness for the next sector batch",
+      "sector": "coordinator",
+      "agent_id": "agent-coordinator",
+      "status": "queued",
+      "owner": null,
+      "depends_on": [
+        "WP-015",
+        "WP-016",
+        "WP-022",
+        "WP-023"
+      ],
+      "scope": "Review completed cohort coverage, independent reviews, costs, corrections and unresolved access gaps.",
+      "acceptance": "Written go/no-go for bounded expansion; no autonomous deployment inferred.",
+      "visibility": "public",
+      "output_policy": "Methods and already-published evidence can be public; novel named suspicions require a separate restricted record.",
+      "proposed_limits": {
+        "new_sources": 25,
+        "download_mb": 200,
+        "review_passes": 2
+      }
+    }
+  ]
+}

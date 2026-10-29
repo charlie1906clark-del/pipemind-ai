@@ -1,0 +1,228 @@
+[
+  {
+    "id": "XS-C01",
+    "title": "Genoverde NSF grants and PPP",
+    "sector": "research_grants",
+    "entities": [
+      "Genoverde Bioscience, Inc."
+    ],
+    "status": "civil_settlement_no_admission_no_judicial_determination",
+    "status_as_of": "2026-04-06",
+    "source_ids": [
+      "XS-S34"
+    ],
+    "amounts": [
+      {
+        "value": 152500,
+        "currency": "USD",
+        "type": "settlement",
+        "measure": "settlement"
+      }
+    ],
+    "pattern": "Allegedly duplicative research expenses and allegedly improper PPP/forgiveness",
+    "research_use": "Benchmark duplicate-cost hypothesis; not a new discovery.",
+    "legal_status": "civil_settlement_no_admission_no_judicial_determination"
+  },
+  {
+    "id": "XS-C02",
+    "title": "Dana-Farber NIH grant certifications",
+    "sector": "research_grants",
+    "entities": [
+      "Dana-Farber Cancer Institute Inc."
+    ],
+    "status": "civil_settlement_of_allegations",
+    "status_as_of": "2025-12-16",
+    "source_ids": [
+      "XS-S33"
+    ],
+    "amounts": [
+      {
+        "value": 15000000,
+        "currency": "USD",
+        "type": "settlement",
+        "measure": "settlement"
+      }
+    ],
+    "pattern": "Allegedly materially false statements/certifications related to scientific grants",
+    "research_use": "Research-integrity and certification control benchmark.",
+    "legal_status": "civil_settlement_of_allegations"
+  },
+  {
+    "id": "XS-C03",
+    "title": "FEMA disaster meal contract conviction",
+    "sector": "disaster_procurement",
+    "entities": [],
+    "status": "jury_conviction_reported_sentence_not_rechecked",
+    "status_as_of": "2025-01-24",
+    "source_ids": [
+      "XS-S35"
+    ],
+    "amounts": [
+      {
+        "value": 156000000,
+        "currency": "USD",
+        "type": "approximate_contract_face_value_not_loss",
+        "measure": "approximate_contract_face_value_not_loss"
+      }
+    ],
+    "pattern": "Delivery capacity and false contract representations",
+    "research_use": "Never treat contract face value as fraud loss.",
+    "legal_status": "jury_conviction_reported_sentence_not_rechecked"
+  },
+  {
+    "id": "XS-C04",
+    "title": "Hurricane Ida assistance scheme",
+    "sector": "disaster_benefits",
+    "entities": [],
+    "status": "sentenced_after_guilty_plea",
+    "status_as_of": "2026-01-28",
+    "source_ids": [
+      "XS-S36"
+    ],
+    "amounts": [
+      {
+        "value": 1744982.64,
+        "currency": "USD",
+        "type": "court_determined_assistance_paid_on_false_representations",
+        "measure": "court_determined_assistance_paid_on_false_representations"
+      }
+    ],
+    "pattern": "Fabricated tenancy/utility/repair support submitted for almost 200 applications",
+    "research_use": "Evidence-chain benchmark; no beneficiary dossier expansion.",
+    "legal_status": "sentenced_after_guilty_plea"
+  },
+  {
+    "id": "XS-C05",
+    "title": "Feeding Our Future Star Distribution",
+    "sector": "child_nutrition",
+    "entities": [
+      "Star Distribution",
+      "GAK Properties LLC",
+      "GIF Properties LLC"
+    ],
+    "status": "guilty_pleas_reported_sentencing_not_rechecked",
+    "status_as_of": "2026-04-09",
+    "source_ids": [
+      "XS-S37"
+    ],
+    "amounts": [
+      {
+        "value": 10100000,
+        "currency": "USD",
+        "type": "approximate_program_funds_received",
+        "measure": "approximate_program_funds_received"
+      },
+      {
+        "value": 8662287,
+        "currency": "USD",
+        "type": "agreed_restitution_one_defendant",
+        "measure": "agreed_restitution_one_defendant"
+      }
+    ],
+    "pattern": "Purported meal supply and property-company laundering described in pleas",
+    "research_use": "Vendor-site-capacity-cost flow benchmark; source contains date typo.",
+    "legal_status": "guilty_pleas_reported_sentencing_not_rechecked"
+  },
+  {
+    "id": "XS-C06",
+    "title": "COVID employment tax-credit promoter scheme",
+    "sector": "tax_credits",
+    "entities": [],
+    "status": "sentenced_after_guilty_plea",
+    "status_as_of": "2026-05-13",
+    "source_ids": [
+      "XS-S38"
+    ],
+    "amounts": [
+      {
+        "value": 600000000,
+        "currency": "USD",
+        "type": "claims_sought_more_than",
+        "measure": "claims_sought_more_than"
+      },
+      {
+        "value": 45000000,
+        "currency": "USD",
+        "type": "approximate_government_loss",
+        "measure": "approximate_government_loss"
+      }
+    ],
+    "pattern": "False ERC and paid-leave refund returns",
+    "research_use": "Attempted-versus-paid distinction and promoter-network benchmark.",
+    "legal_status": "sentenced_after_guilty_plea"
+  },
+  {
+    "id": "XS-C07",
+    "title": "Wildfire fuel truck procurement collusion",
+    "sector": "disaster_procurement",
+    "entities": [],
+    "status": "guilty_plea_reported_sentencing_not_rechecked",
+    "status_as_of": "2025-03-26",
+    "source_ids": [
+      "XS-S39"
+    ],
+    "amounts": [],
+    "pattern": "Bid rigging, territory allocation and wire fraud",
+    "research_use": "Benchmark collusion tests; bidding patterns alone cannot establish agreement.",
+    "legal_status": "guilty_plea_reported_sentencing_not_rechecked"
+  },
+  {
+    "id": "XS-C08",
+    "title": "SBA/IRS insider pandemic bribes",
+    "sector": "pandemic_cross_program",
+    "entities": [],
+    "status": "sentenced_after_guilty_plea",
+    "status_as_of": "2026-09-03",
+    "source_ids": [
+      "XS-S41"
+    ],
+    "amounts": [
+      {
+        "value": 3272000,
+        "currency": "USD",
+        "type": "disbursed_and_restitution_order",
+        "measure": "disbursed_and_restitution_order"
+      }
+    ],
+    "pattern": "Insider bribery/referrals across pandemic programmes",
+    "research_use": "Role/access/conflict controls benchmark; not a new lead.",
+    "legal_status": "sentenced_after_guilty_plea"
+  },
+  {
+    "id": "XS-C09",
+    "title": "GAO state-administered programme control assessment",
+    "sector": "cross_sector",
+    "entities": [],
+    "status": "audit_control_vulnerability_not_fraud_finding",
+    "status_as_of": "2026-08-07",
+    "source_ids": [
+      "XS-S01"
+    ],
+    "amounts": [
+      {
+        "value": 1100000000000,
+        "currency": "USD",
+        "type": "FY2025_obligations_exposure_not_loss",
+        "measure": "FY2025_obligations_exposure_not_loss"
+      }
+    ],
+    "pattern": "Decentralised federal-state-subrecipient oversight and risk assessment",
+    "research_use": "Prioritisation evidence; never count exposure as fraud.",
+    "legal_status": "audit_control_vulnerability_not_fraud_finding"
+  },
+  {
+    "id": "XS-C10",
+    "title": "CBP EAPA mattress transshipment determination",
+    "sector": "customs",
+    "entities": [],
+    "status": "administrative_determination_review_status_not_rechecked",
+    "status_as_of": "2025-05-29",
+    "source_ids": [
+      "XS-S30"
+    ],
+    "amounts": [],
+    "pattern": "Country-of-origin/transshipment and AD/CVD duty evasion",
+    "research_use": "Administrative record benchmark; not criminal conviction.",
+    "legal_status": "administrative_determination_review_status_not_rechecked"
+  }
+]

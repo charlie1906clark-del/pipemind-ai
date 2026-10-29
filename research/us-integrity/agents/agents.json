@@ -1,0 +1,1831 @@
+{
+  "version": "1.0",
+  "as_of": "2026-10-29",
+  "runtime_status": "specification_not_running",
+  "agents": [
+    {
+      "id": "agent-healthcare-dme",
+      "kind": "sector_specialist",
+      "title": "DME and medical supplies",
+      "scope": "healthcare-dme",
+      "sources": "CMS DME public use files; NPPES; CMS ownership/enrolment; HHS OIG exclusions; USAspending medical supply awards",
+      "join_keys": "NPI; HCPCS; supplier location; service year; UEI/CAGE for supply contracts",
+      "hypotheses": "Outlier units or payment per beneficiary; abrupt new supplier concentration; billing after exclusion or closure",
+      "benign_alternatives": "Legitimate specialisation; referral concentration; suppression; lagged exclusions; pack/unit mismatch",
+      "method": "Normalise HCPCS and service period; compare matched supplier cohorts; verify effective dates; never infer medical necessity from aggregate claims alone",
+      "acceptance": "A reproducible NPI/service cohort with missingness table and source-dated corporate-role edges",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-healthcare-home-hospice",
+      "kind": "sector_specialist",
+      "title": "Home health and hospice",
+      "scope": "healthcare-home-hospice",
+      "sources": "CMS hospice/home-health public files and ownership; Care Compare; HHS OIG; state licensing",
+      "join_keys": "CCN; NPI; ownership record; facility; service year",
+      "hypotheses": "Rapid enrolment or ownership turnover; unusual visit/intensity aggregates; geographically implausible service footprint",
+      "benign_alternatives": "Case mix; rural coverage; changes in reporting; acquisition; multiple legal sites",
+      "method": "Compare peers and years; distinguish hospice from home-health measures; verify licence and operation dates",
+      "acceptance": "Service-specific cohort, ownership chronology and explicit patient-level evidence gap",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-healthcare-pharma-labs",
+      "kind": "sector_specialist",
+      "title": "Pharmaceuticals, PBMs and laboratories",
+      "scope": "healthcare-pharma-labs",
+      "sources": "CMS Part D and Open Payments; Medicaid drug public files; FDA drug data; HHS OIG; DOJ published cases",
+      "join_keys": "NPI; NDC; HCPCS; manufacturer; service year; organisation IDs",
+      "hypotheses": "Unusual test/prescribing concentration; publicly documented payment links; possible duplicate product units",
+      "benign_alternatives": "Specialist referral patterns; rebates hidden from gross figures; branded/generic and package differences",
+      "method": "Separate manufacturer transfers from kickbacks; do not infer net prices from gross reimbursement; require service/contract context",
+      "acceptance": "Drug/test-specific comparable measures and a reviewed distinction between transfers, allegations and adjudicated conduct",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-healthcare-managed-care",
+      "kind": "sector_specialist",
+      "title": "Medicare Advantage and Medicaid managed care",
+      "scope": "healthcare-managed-care",
+      "sources": "CMS managed-care data; HHS public Medicaid datasets; HHS OIG audits; state programme publications",
+      "join_keys": "Contract/plan ID; NPI; state provider ID; service year; plan ownership",
+      "hypotheses": "Risk-adjustment or encounter anomalies; capitation/fee-for-service measure mismatches; contract concentration",
+      "benign_alternatives": "Risk mix; coding changes; incomplete encounter data; plan consolidation",
+      "method": "Use programme-specific denominator; distinguish diagnoses from payments; disclose unavailable records",
+      "acceptance": "Plan/provider scope and coverage statement that prevents claims-level overinterpretation",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-veterans-health-benefits",
+      "kind": "sector_specialist",
+      "title": "Veterans healthcare and benefits",
+      "scope": "veterans-health-benefits",
+      "sources": "VA OIG; USAspending VA awards; SAM; public facility and programme reports",
+      "join_keys": "Award key; UEI/CAGE; VA facility; programme; public provider ID",
+      "hypotheses": "Provider or supplier contract anomalies; duplicate charges when documented; eligibility intermediary misconduct patterns",
+      "benign_alternatives": "Rural access needs; special product specifications; programme reporting lag",
+      "method": "Keep healthcare contracts separate from individual benefit claims; do not acquire claimant identities",
+      "acceptance": "VA-specific award/provider paths and explicit distinction between public awards and private benefits records",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-defense-parts",
+      "kind": "sector_specialist",
+      "title": "Defence parts, aerospace and manufacturing",
+      "scope": "defense-parts",
+      "sources": "USAspending; SAM Contract Awards; DLA PUB LOG; DoD OIG; DCAA published reports; DOJ",
+      "join_keys": "Award key; action ID; UEI; CAGE/NCAGE; NSN/NIIN; manufacturer part number",
+      "hypotheses": "Price or competition outliers; counterfeit/substitution typologies; repeated modifications; certification inconsistencies",
+      "benign_alternatives": "Airworthiness/testing; obsolescence; low-volume tooling; military specifications; urgent delivery",
+      "method": "Normalise specifications and unit of issue; distinguish audit shortcoming from fraud; respect delayed or restricted public records",
+      "acceptance": "Part-family cohort with quantity/specification gaps and source-backed supplier roles",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-defense-logistics-services",
+      "kind": "sector_specialist",
+      "title": "Defence logistics, overseas support and services",
+      "scope": "defense-logistics-services",
+      "sources": "USAspending; SAM; DoD OIG; State OIG; SIGAR archived official material",
+      "join_keys": "Award/action; UEI/CAGE; place of performance; service category; contract period",
+      "hypotheses": "Unsupported labour categories; pass-through billing; concentration in subcontract chains; repeated task-order changes",
+      "benign_alternatives": "Security costs; mobilisation; hazardous environments; authorised subcontracting; reimbursable risk",
+      "method": "Test contract type and deliverables; do not interpret geography or nationality as risk; require public transaction evidence",
+      "acceptance": "Contract-period service map and verified subcontract visibility limits",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-construction-infrastructure",
+      "kind": "sector_specialist",
+      "title": "Construction, transport and infrastructure",
+      "scope": "construction-infrastructure",
+      "sources": "USAspending; SAM; DOT OIG; FHWA; agency project data; state procurement portals; FAC",
+      "join_keys": "Award/FAIN; UEI; project ID; Assistance Listing; location; change order",
+      "hypotheses": "Overlapping funded scopes; excessive modifications; related-party procurement; bid-pattern hypotheses",
+      "benign_alternatives": "Ground conditions; inflation; design change; scope variation; legitimate framework contracts",
+      "method": "Compare drawings/specification/scope and change authorisations where public; avoid invoice-level conclusions from award totals",
+      "acceptance": "Project cost/scope timeline and a documented distinction between variation, waste and misrepresentation",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-it-cyber-services",
+      "kind": "sector_specialist",
+      "title": "IT, cyber, cloud and professional services",
+      "scope": "it-cyber-services",
+      "sources": "USAspending; SAM; GSA public procurement data; GAO IT reports; agency OIG; DOJ Civil Cyber-Fraud releases",
+      "join_keys": "Award/action; UEI; product/service code; contract vehicle; task order",
+      "hypotheses": "Duplicated software/service scope; labour charging issues; allegedly false cyber certifications; noncompetitive renewals",
+      "benign_alternatives": "Bundled support; volume licensing; legacy integration; security accreditation; scarce skills",
+      "method": "Distinguish security vulnerability from knowingly false representation; compare licence terms and service periods",
+      "acceptance": "Service-normalised cohort and certification assertions with precise source/legal status",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-small-business-setasides",
+      "kind": "sector_specialist",
+      "title": "Small business, set-asides and procurement eligibility",
+      "scope": "small-business-setasides",
+      "sources": "SAM; SBA public certification materials; USAspending; SBA OIG; DOJ",
+      "join_keys": "UEI; CAGE; certification record; award date; programme eligibility dates",
+      "hypotheses": "Pass-through/subcontracting patterns; size/ownership timing conflicts; inconsistent eligibility statements",
+      "benign_alternatives": "Permitted teaming; affiliation rules requiring legal analysis; certification lag; legitimate acquisitions",
+      "method": "Test eligibility at award date under applicable programme; do not infer control from registered agent",
+      "acceptance": "Award-date eligibility evidence table and unresolved legal questions for human review",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-pandemic-relief",
+      "kind": "sector_specialist",
+      "title": "PPP, EIDL and pandemic business relief",
+      "scope": "pandemic-relief",
+      "sources": "SBA public PPP/EIDL files; SBA OIG; PRAC; DOJ; GAO",
+      "join_keys": "Loan/award ID; business identity; date; programme; lender where public",
+      "hypotheses": "Duplicate programme records; incompatible business chronology; abnormal employee/loan ratios",
+      "benign_alternatives": "Amendments; DBA/legal-name variants; legitimate eligibility rules; incomplete public fields",
+      "method": "Preserve loan face value versus subsidy/recovery; do not treat same address as duplicate fraud",
+      "acceptance": "Bounded programme cohort with duplicate-resolution and public-field limitations",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-unemployment-labour",
+      "kind": "sector_specialist",
+      "title": "Unemployment insurance and labour programmes",
+      "scope": "unemployment-labour",
+      "sources": "DOL OIG; GAO; DOL programme aggregates; public state reports; FAC",
+      "join_keys": "State; programme; period; employer/recipient public identifier only when lawfully public",
+      "hypotheses": "State/system control weaknesses; publicly evidenced employer/intermediary anomalies",
+      "benign_alternatives": "Emergency policy changes; processing lag; reconciliations; incomplete cross-state data",
+      "method": "Do not attempt claimant or bank-record reconstruction; separate estimated losses from prosecuted cases",
+      "acceptance": "Aggregate risk/control analysis with decisive non-public data explicitly marked unavailable",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-research-education-grants",
+      "kind": "sector_specialist",
+      "title": "Research, education and grant programmes",
+      "scope": "research-education-grants",
+      "sources": "USAspending; FAC; NIH RePORTER; NSF public awards; Education OIG; HHS OIG",
+      "join_keys": "FAIN/award ID; UEI; Assistance Listing; audit entity; project dates",
+      "hypotheses": "Duplicate project/cost hypotheses; repeated audit findings; undisclosed related parties; payroll certification concerns",
+      "benign_alternatives": "Legitimate co-funding; distinct scopes; institution-level accounting; no invoice visibility",
+      "method": "Require scope/cost allocation evidence; distinguish questioned cost from fraud or recovered money",
+      "acceptance": "Award/audit crosswalk and a falsifiable overlap test with missing-cost-record statement",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-housing-disaster",
+      "kind": "sector_specialist",
+      "title": "Housing, FEMA and disaster recovery",
+      "scope": "housing-disaster",
+      "sources": "HUD OIG; FEMA OIG/DHS OIG; USAspending; OpenFEMA; HUD public data; FAC",
+      "join_keys": "Disaster number; project/award ID; FAIN; UEI; geography; programme",
+      "hypotheses": "Duplicate funded repairs; unsupported subrecipient costs; contractor concentration; repeated audit issues",
+      "benign_alternatives": "Multiple recovery phases; insurance offsets; revised damage estimates; complex eligibility",
+      "method": "Separate household data from public grantee records; reconcile project scope and period before duplicate claims",
+      "acceptance": "Project-level funding map and comparable cost/coverage table",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-agriculture-nutrition",
+      "kind": "sector_specialist",
+      "title": "Agriculture, SNAP, meals and childcare-related grants",
+      "scope": "agriculture-nutrition",
+      "sources": "USDA OIG; USDA programme public data; USAspending; FAC; HHS/state childcare public reports",
+      "join_keys": "Programme; recipient UEI; site/operator public ID; state; period",
+      "hypotheses": "Site capacity/claim aggregate incompatibility; operator concentration; repeated audit findings; procurement anomalies",
+      "benign_alternatives": "Seasonal demand; sponsor/site structures; programme-specific reimbursement; changed rules",
+      "method": "No beneficiary dossiers; verify site/service period; require claim evidence beyond estimated capacity",
+      "acceptance": "Programme-specific operator map and explicit line between public capacity indicators and proof",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-energy-environment",
+      "kind": "sector_specialist",
+      "title": "Energy, environment and clean-technology funding",
+      "scope": "energy-environment",
+      "sources": "DOE OIG; EPA OIG; USAspending; DOE/EPA award/project data; FAC; public SEC filings",
+      "join_keys": "Award/FAIN; UEI; project/site ID; Assistance Listing; milestone date",
+      "hypotheses": "Overlapping cost scopes; false milestone/certification hypotheses; related-party procurement; grant performance gaps",
+      "benign_alternatives": "Technology risk; permitted cost sharing; delayed milestones; project cancellations",
+      "method": "Keep technical failure and commercial loss separate from deception; verify applicable award terms",
+      "acceptance": "Milestone/funding chronology and documented technical/financial uncertainty",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-tax-customs-trade",
+      "kind": "sector_specialist",
+      "title": "Tax, customs, tariffs and international trade",
+      "scope": "tax-customs-trade",
+      "sources": "IRS whistleblower public guidance; GAO; Treasury OIG/TIGTA; CBP public enforcement/statistics; DOJ",
+      "join_keys": "Public case/entry identifiers where released; entity registry ID; product classification; period",
+      "hypotheses": "Published evasion/misclassification typologies; publicly testable importer/product inconsistencies",
+      "benign_alternatives": "Lawful tariff classification; transfer pricing requiring private records; timing and origin rules",
+      "method": "Do not claim access to returns, bank records or confidential entries; distinguish trade statistics from company transactions",
+      "acceptance": "Evidence-access map and source-backed public typologies, with non-public requirements documented",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-finance-digital-assets",
+      "kind": "sector_specialist",
+      "title": "Financial misconduct and digital assets touching federal funds",
+      "scope": "finance-digital-assets",
+      "sources": "SEC EDGAR/enforcement; CFTC; FinCEN public guidance; OFAC; DOJ; public award records",
+      "join_keys": "CIK; LEI; public case ID; UEI; transaction hash only when materially tied by evidence",
+      "hypotheses": "Publicly documented diversion; conflicts requiring evidence; securities/AML typologies; shell-entity candidates",
+      "benign_alternatives": "Corporate treasury activity; legal investment; omnibus accounts; common service providers",
+      "method": "Separate investor/securities harm from federal loss; a token/address label is not identity proof; no trading signal output",
+      "acceptance": "Documented federal-funds nexus and independently verified entity links",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-defense-systems",
+      "kind": "sector_specialist",
+      "title": "Defence weapons, aircraft and major systems",
+      "scope": "defense-systems",
+      "sources": "USAspending; SAM Contract Awards; DoD OIG; GAO weapon-system assessments; public programme budget/contract reports; DOJ",
+      "join_keys": "Agency plus PIID/IDV; award action; programme; UEI/CAGE; system/subsystem; period",
+      "hypotheses": "Potentially false certified cost/pricing data; product substitution; unsupported progress representations; subcontractor pass-through assertions",
+      "benign_alternatives": "Sole-source design rights; classified scope; engineering change; development risk; lifecycle support; different procurement lots",
+      "method": "Separate development, production and sustainment costs; test contemporaneous contractual representations and applicable certification requirements; an overrun is not proof of deception",
+      "acceptance": "A programme/contract-action chronology with cost-measure controls, public specification gaps and exact claim-to-source links",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-foreign-aid",
+      "kind": "sector_specialist",
+      "title": "Foreign assistance and overseas procurement",
+      "scope": "foreign-aid",
+      "sources": "State/USAID OIG; DoD OIG; SIGAR archived records; USAspending; SAM; official programme and local registry records where accessible",
+      "join_keys": "Programme; award/FAIN; UEI; implementing partner; local registry ID; currency; delivery period",
+      "hypotheses": "Unverified delivery; changing subrecipient roles; related-party procurement; allegedly false certifications; duplicate funded scope",
+      "benign_alternatives": "Security restrictions; currency fluctuations; legitimate local price differences; authorised partner changes; emergency logistics",
+      "method": "Use programme-specific award terms and dated local identities; distinguish obligated aid from disbursed funds and delivered benefit; document incomplete local/subaward visibility",
+      "acceptance": "Country/programme-bounded implementing chain with exchange-rate basis and explicit end-use verification gaps",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-childcare-social",
+      "kind": "sector_specialist",
+      "title": "Childcare, TANF and social services",
+      "scope": "childcare-social",
+      "sources": "HHS OIG; USDA OIG where meals intersect; state licensing/programme public reports; FAC; USAspending; DOJ published cases",
+      "join_keys": "Programme; operator legal identity; state licence/site ID; award/subaward; service period; jurisdiction",
+      "hypotheses": "Published capacity/licence and reimbursement-period contradictions; repeated sponsor/operator audit issues; related-party vendor candidates",
+      "benign_alternatives": "Temporary closure; licence capacity changes; lawful sponsor/site arrangements; reporting lag; age/service eligibility differences",
+      "method": "Apply the exact programme rules and effective dates; never infer attendance from a vacant building photo or beneficiary eligibility from demographics; decisive attendance/claim records may be non-public",
+      "acceptance": "Operator/site chronology and a test distinguishing publicly evidenced contradiction from unavailable attendance or benefit files",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-pensions-benefits",
+      "kind": "sector_specialist",
+      "title": "Social Security, federal pensions and personnel",
+      "scope": "pensions-benefits",
+      "sources": "SSA OIG; OPM OIG; GAO; official programme/payroll aggregates; USAspending administrator/vendor contracts",
+      "join_keys": "Programme; period; public agency/vendor UEI; audit ID; aggregate measure",
+      "hypotheses": "Published control failures; administrator performance discrepancies; contractor billing anomalies; benefit/payment reconciliation risks",
+      "benign_alternatives": "Death-data lag; identity theft victims; lawful survivor benefits; appeals; timing adjustments; incomplete matching",
+      "method": "Work with aggregate/public vendor records; do not reconstruct private beneficiaries or personnel files; distinguish error estimates, recovered payments and fraud convictions",
+      "acceptance": "Public control/procurement evidence map, with restricted individual records and misleading deceased-name matching explicitly excluded",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-justice-detention",
+      "kind": "sector_specialist",
+      "title": "Justice, detention, corrections and homeland services",
+      "scope": "justice-detention",
+      "sources": "DOJ OIG; DHS OIG; GAO; BOP/ICE public contracts/inspection reports; USAspending; SAM; public SEC operator filings",
+      "join_keys": "Facility ID; award/action; UEI; contract period; capacity/occupancy measure; dated corporate ownership",
+      "hypotheses": "False contractual service/capacity representations; inspection/compliance contradictions; unsupported invoicing hypotheses; subcontractor delivery anomalies",
+      "benign_alternatives": "Minimum guarantees; surge capacity; emergency mobilisation; occupancy changes; different medical/security service bundles",
+      "method": "Compare the precise contract standard with dated inspections and payment measure; a facility deficiency is not automatically fraud; no detainee-level health or immigration dossiers",
+      "acceptance": "Facility-contract-inspection chronology, measure-normalised cost comparison and missing invoice/detainee evidence statement",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-tribal-local",
+      "kind": "sector_specialist",
+      "title": "Tribal, state and local pass-through funding",
+      "scope": "tribal-local",
+      "sources": "FAC; USAspending subawards; Treasury/agency programme reports; tribal/state/local official audit and procurement portals",
+      "join_keys": "Federal FAIN/Assistance Listing; recipient UEI; subaward ID; local project/vendor; jurisdiction; audit period",
+      "hypotheses": "Repeated unresolved audit findings; inconsistent downstream project certifications; related-party procurement; duplicate cost hypotheses",
+      "benign_alternatives": "Sovereign/jurisdiction-specific reporting rules; permitted local procurement; reporting thresholds; distinct accounting periods; lawful pooled funding",
+      "method": "Identify governing award terms and jurisdiction before applying a rule; missing federal subaward records do not establish misuse; do not infer misconduct from tribal status",
+      "acceptance": "Programme/jurisdiction-specific funding chain with downstream reporting limits, audit remediation and precise authority questions",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-coordinator",
+      "kind": "cross_cutting",
+      "title": "Research coordinator",
+      "scope": "Enforce bounded work packages, dependencies, source coverage, budgets, versioning and review ownership. Cannot declare guilt or reward eligibility.",
+      "sources": "Task ledger; source registry; cohort manifests; agent outputs",
+      "join_keys": "Task IDs; input commit; source IDs; cohort period",
+      "hypotheses": "Evaluate the assigned claim or workflow; never create a conclusion before evidence.",
+      "benign_alternatives": "Source error; identifier collision; stale records; incomplete coverage; lawful conduct; incorrect analytical assumptions.",
+      "method": "Reject unbounded tasks, missing acceptance tests, duplicated research and premature publication.",
+      "acceptance": "A prioritised work plan with explicit next evidence requirement and owner",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-entity-resolution",
+      "kind": "cross_cutting",
+      "title": "Entity and ownership resolver",
+      "scope": "Resolve legal entities, public business roles and corporate relationships using dated identifiers; maintain reversible candidate matches.",
+      "sources": "SAM; NPPES/PECOS public files; state registries; SEC; primary case documents",
+      "join_keys": "UEI; CAGE; NPI; CCN; state registry ID; CIK; LEI; effective dates",
+      "hypotheses": "Evaluate the assigned claim or workflow; never create a conclusion before evidence.",
+      "benign_alternatives": "Source error; identifier collision; stale records; incomplete coverage; lawful conduct; incorrect analytical assumptions.",
+      "method": "Test DBA, registered agent, same-name businesses, acquisitions and shared service addresses before any merge.",
+      "acceptance": "Identity decision log, candidate matches, contrary evidence and unresolved owner edges",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-provenance-curator",
+      "kind": "cross_cutting",
+      "title": "Provenance and source curator",
+      "scope": "Maintain source lineage, canonical IDs, retrieval manifests, byte-hash honesty, dates and exact locators.",
+      "sources": "Original official sources; saved response manifests; source registry",
+      "join_keys": "Source ID; canonical URL; retrieved time; content hash if archived",
+      "hypotheses": "Evaluate the assigned claim or workflow; never create a conclusion before evidence.",
+      "benign_alternatives": "Source error; identifier collision; stale records; incomplete coverage; lawful conduct; incorrect analytical assumptions.",
+      "method": "Reject citation laundering, missing pages, synthetic URLs, unverifiable dates and unsupported raw-archive claims.",
+      "acceptance": "Validated source/claim links and reproducibility manifest",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-falsification-reviewer",
+      "kind": "cross_cutting",
+      "title": "Independent falsification reviewer",
+      "scope": "Attempt to disprove the lead using fresh reading, matched controls, data-quality explanations and contradictory evidence.",
+      "sources": "Original sources plus independent primary corroboration",
+      "join_keys": "Claim ID; input manifest; entity/period/measure",
+      "hypotheses": "Evaluate the assigned claim or workflow; never create a conclusion before evidence.",
+      "benign_alternatives": "Source error; identifier collision; stale records; incomplete coverage; lawful conduct; incorrect analytical assumptions.",
+      "method": "Receive evidence before conclusions when feasible; do not count repeated official press-release copies as independent corroboration.",
+      "acceptance": "Supported, narrowed, unsupported, contradicted or needs-more-evidence verdict with reasons",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-financial-methods",
+      "kind": "cross_cutting",
+      "title": "Financial and statistical methods reviewer",
+      "scope": "Check accounting measures, denominators, units, transaction corrections, peer controls and multiple testing.",
+      "sources": "Source data dictionaries; transaction tables; economic/clinical context",
+      "join_keys": "Award/action IDs; measure kind; decimal amount; currency; period; unit",
+      "hypotheses": "Evaluate the assigned claim or workflow; never create a conclusion before evidence.",
+      "benign_alternatives": "Source error; identifier collision; stale records; incomplete coverage; lawful conduct; incorrect analytical assumptions.",
+      "method": "Reject prime/subaward double count, ceiling-as-payment, alleged-loss-as-recovery and unadjusted unit-price comparisons.",
+      "acceptance": "Recomputed comparable figures, sensitivity checks and false-positive controls",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-legal-route-reviewer",
+      "kind": "cross_cutting",
+      "title": "Reward-route and procedural-status researcher",
+      "scope": "Compare written official reward rules and procedural status; identify questions for qualified counsel. Does not determine legal eligibility.",
+      "sources": "DOJ WHIP/FCA/corporate/antitrust guidance; IRS; SEC; CFTC; FinCEN; statutory text",
+      "join_keys": "Route ID; source version; review date; case status",
+      "hypotheses": "Evaluate the assigned claim or workflow; never create a conclusion before evidence.",
+      "benign_alternatives": "Source error; identifier collision; stale records; incomplete coverage; lawful conduct; incorrect analytical assumptions.",
+      "method": "Public-disclosure, original-information, timing, threshold, overlap, confidentiality and jurisdiction questions must remain explicit.",
+      "acceptance": "Dated routing matrix and counsel questions; no filing or contact",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-privacy-publication",
+      "kind": "cross_cutting",
+      "title": "Privacy and publication reviewer",
+      "scope": "Enforce role relevance, public/restricted classification, personal-data minimisation and novel-lead publication controls.",
+      "sources": "Output diff; source records; data dictionary; repository classification policy",
+      "join_keys": "Record ID; visibility; public_record; PII fields; publication decision",
+      "hypotheses": "Evaluate the assigned claim or workflow; never create a conclusion before evidence.",
+      "benign_alternatives": "Source error; identifier collision; stale records; incomplete coverage; lawful conduct; incorrect analytical assumptions.",
+      "method": "Reject patient/claimant data, home/contact enrichment, confidential tips, unsupported named suspicion and source-injected commands.",
+      "acceptance": "Redacted or blocked publication decision with exact reason and remediation",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    },
+    {
+      "id": "agent-quality-evaluator",
+      "kind": "cross_cutting",
+      "title": "Research quality and regression evaluator",
+      "scope": "Run reproducibility and failure-case evaluations across entity joins, money semantics, legal language and collaboration races.",
+      "sources": "Frozen fixtures; independent source checks; engine tests; cohort reports",
+      "join_keys": "Fixture ID; code commit; input hashes; expected result",
+      "hypotheses": "Evaluate the assigned claim or workflow; never create a conclusion before evidence.",
+      "benign_alternatives": "Source error; identifier collision; stale records; incomplete coverage; lawful conduct; incorrect analytical assumptions.",
+      "method": "Prevent hindsight leakage, self-evaluation and arbitrary score-to-guilt claims.",
+      "acceptance": "Pass/fail evidence, observed limitations and bounded release recommendation",
+      "version": "1.0",
+      "status": "specification_not_running",
+      "capabilities": [
+        "read approved public sources",
+        "analyse bounded extracts",
+        "write proposed evidence patches in assigned workspace"
+      ],
+      "forbidden_actions": [
+        "contact individuals or organisations",
+        "submit tips or claims",
+        "publish novel named allegations",
+        "access private patient, benefit, bank or tax records",
+        "bypass authentication or source access controls",
+        "deploy services or incur paid API spend"
+      ],
+      "source_tiers": [
+        "primary official record with exact locator",
+        "official explanatory/data documentation",
+        "secondary reporting only as a lead to primary evidence"
+      ],
+      "required_output": [
+        "task_id",
+        "agent_id",
+        "input_commit",
+        "cohort",
+        "source_ids",
+        "direct_findings",
+        "inferences",
+        "contradictions",
+        "benign_alternatives_tested",
+        "missing_data",
+        "method",
+        "visibility",
+        "legal_status_if_case",
+        "next_step",
+        "review_status"
+      ],
+      "escalation": [
+        "source access or legal authority unclear",
+        "identifiers conflict",
+        "novel named suspicion survives falsification",
+        "confidential or personal data encountered",
+        "written programme rules conflict",
+        "source/schema drift invalidates comparison"
+      ]
+    }
+  ]
+}

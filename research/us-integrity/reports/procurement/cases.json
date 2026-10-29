@@ -1,0 +1,244 @@
+[
+  {
+    "id": "PROC-C001",
+    "title": "C-17 spare parts pricing audit",
+    "sector": "defense_spares",
+    "organizations": [
+      "U.S. Air Force",
+      "Boeing"
+    ],
+    "status": "audit_finding_not_fraud_determination",
+    "status_as_of": "2024-10-29",
+    "source_ids": [
+      "PROC-S025"
+    ],
+    "amount": {
+      "currency": "USD",
+      "value": null,
+      "description": "nearly $1 million reviewed-part overpayment; not an audited universe-wide fraud total",
+      "category": "audit_overpayment"
+    },
+    "summary": "Audit example for testing price-evidence completeness and comparable-item controls.",
+    "known_paths": [
+      "Air Force -> C-17 performance-based logistics contracts -> Boeing -> spare parts"
+    ],
+    "missing": [
+      "award/line identifiers not extracted here",
+      "supplier invoice and exact specification evidence"
+    ],
+    "research_use": "control_validation_benchmark_not_new_lead"
+  },
+  {
+    "id": "PROC-C002",
+    "title": "Raytheon multi-scheme resolutions",
+    "sector": "defense_aerospace",
+    "organizations": [
+      "U.S. Department of Defense",
+      "Raytheon Company",
+      "RTX"
+    ],
+    "status": "criminal_dpa_with_admissions_and_separate_civil_resolution",
+    "status_as_of": "2024-10-16",
+    "source_ids": [
+      "PROC-S024"
+    ],
+    "amount": {
+      "currency": "USD",
+      "value": 950000000,
+      "qualifier": "greater_than",
+      "category": "combined_announced_resolutions_not_loss"
+    },
+    "summary": "Official example connecting defective pricing to distinct bribery/export-control matters; retain each legal component separately.",
+    "known_paths": [
+      "DoD -> defense articles/services -> Raytheon",
+      "RTX -> subsidiary -> Raytheon"
+    ],
+    "missing": [
+      "separate payment components and overlap reconciliation",
+      "contract identifiers"
+    ],
+    "research_use": "typology_benchmark_not_new_lead"
+  },
+  {
+    "id": "PROC-C003",
+    "title": "Honeywell Aerospace cybersecurity FCA settlement",
+    "sector": "it_cybersecurity",
+    "organizations": [
+      "U.S. Department of Defense",
+      "Honeywell Aerospace Inc.",
+      "Honeywell International Inc."
+    ],
+    "status": "civil_settlement_allegations_no_determination_of_liability",
+    "status_as_of": "2026-09-01",
+    "source_ids": [
+      "PROC-S023"
+    ],
+    "amount": {
+      "currency": "USD",
+      "value": 2042518,
+      "category": "announced_settlement_not_verified_collection"
+    },
+    "summary": "Contract cybersecurity representation benchmark; access to internal compliance evidence is a gating limitation.",
+    "known_paths": [
+      "DoD -> contract -> Honeywell business unit",
+      "Honeywell International -> historical business segment -> aerospace business; later standalone company per release"
+    ],
+    "missing": [
+      "contract identifier",
+      "effective-dated legal-entity mapping",
+      "internal assessment and remediation records"
+    ],
+    "research_use": "typology_benchmark_not_new_lead"
+  },
+  {
+    "id": "PROC-C004",
+    "title": "Broadway/Cornerstone set-aside resolution",
+    "sector": "small_business_set_asides",
+    "organizations": [
+      "Broadway Electric Inc.",
+      "Cornerstone Contracting Inc."
+    ],
+    "status": "civil_settlement_with_specific_conduct_admissions",
+    "status_as_of": "2026-06-09",
+    "source_ids": [
+      "PROC-S026"
+    ],
+    "amount": {
+      "currency": "USD",
+      "value": 21300000,
+      "category": "announced_settlement_not_verified_collection"
+    },
+    "summary": "Control and work-performance benchmark: distinguish nominal eligibility from who actually directs and performs the contract.",
+    "known_paths": [
+      "Federal set-aside contracts -> purported eligible small businesses -> Broadway/Cornerstone controlled performance as described in settlement"
+    ],
+    "missing": [
+      "full named eligible-entity award mapping",
+      "historical certification dates",
+      "legal teaming and subcontract terms"
+    ],
+    "research_use": "typology_benchmark_not_new_lead"
+  },
+  {
+    "id": "PROC-C005",
+    "title": "Booz Allen training-simulator settlement",
+    "sector": "it_professional_services",
+    "organizations": [
+      "GSA",
+      "U.S. Air Force",
+      "Booz Allen Hamilton Holding Corporation",
+      "Booz Allen Hamilton Engineering Services LLC",
+      "QuantaDyn Corporation"
+    ],
+    "status": "civil_settlement_allegations_no_determination_of_liability",
+    "status_as_of": "2025-01-03",
+    "source_ids": [
+      "PROC-S027"
+    ],
+    "amount": {
+      "currency": "USD",
+      "value": 15875000,
+      "category": "announced_settlement_not_verified_collection"
+    },
+    "summary": "Official case illustrates prime/subcontract and confidential procurement information risks; individual criminal resolutions are separate from civil status.",
+    "known_paths": [
+      "GSA -> DoD training-simulator task order -> BES -> QuantaDyn modules",
+      "Booz Allen -> wholly owned subsidiary -> BES"
+    ],
+    "missing": [
+      "task-order identifiers and full module ledger",
+      "source-selection records"
+    ],
+    "research_use": "typology_benchmark_not_new_lead"
+  },
+  {
+    "id": "PROC-C006",
+    "title": "Military maintenance bid-rigging plea",
+    "sector": "construction_maintenance",
+    "organizations": [
+      "Defense Logistics Agency"
+    ],
+    "status": "individual_guilty_plea; sentencing_not_verified_in_this_research",
+    "status_as_of": "2025-12-17",
+    "source_ids": [
+      "PROC-S028"
+    ],
+    "amount": {
+      "currency": "USD",
+      "value": 6000000,
+      "qualifier": "approximately",
+      "category": "attributable_volume_of_commerce_not_loss"
+    },
+    "summary": "Plea benchmark for cover bids in maintenance/repair/operations procurements. Source does not name the company; do not guess its identity.",
+    "known_paths": [
+      "DLA-administered military installation procurements -> competitive subcontract process -> coordinated cover bids"
+    ],
+    "missing": [
+      "company legal identity",
+      "full bid sheets and lot histories",
+      "later sentencing docket"
+    ],
+    "research_use": "typology_benchmark_not_new_lead"
+  },
+  {
+    "id": "PROC-C007",
+    "title": "Denali military moving surveys settlement",
+    "sector": "logistics_transport",
+    "organizations": [
+      "U.S. Transportation Command",
+      "Denali Group Inc."
+    ],
+    "status": "civil_settlement_allegations_no_determination_of_liability",
+    "status_as_of": "2025-11-13",
+    "source_ids": [
+      "PROC-S029"
+    ],
+    "amount": {
+      "currency": "USD",
+      "value": 3500000,
+      "category": "announced_settlement_not_verified_collection"
+    },
+    "summary": "Performance-score integrity benchmark. DP3 allocation patterns alone cannot prove customer-survey falsification.",
+    "known_paths": [
+      "USTRANSCOM -> Defense Personal Property Program -> transportation provider -> survey-weighted shipment allocations"
+    ],
+    "missing": [
+      "underlying survey and authentication evidence",
+      "shipment-level award records"
+    ],
+    "research_use": "typology_benchmark_not_new_lead"
+  },
+  {
+    "id": "PROC-C008",
+    "title": "USAID Vistant/Apprio bribery resolutions",
+    "sector": "foreign_assistance_procurement",
+    "organizations": [
+      "USAID",
+      "PM Consulting Group LLC d/b/a Vistant",
+      "Apprio Inc."
+    ],
+    "status": "individual_guilty_pleas_corporate_dpas_and_later_individual_debarments",
+    "status_as_of": "2025-09-04",
+    "source_ids": [
+      "PROC-S030",
+      "PROC-S034"
+    ],
+    "amount": {
+      "currency": "USD",
+      "value": 550000000,
+      "qualifier": "greater_than",
+      "category": "prime_contract_volume_not_loss_or_recovery"
+    },
+    "summary": "Known-resolution benchmark for changing prime/sub roles and procurement influence; do not treat all contract value as stolen.",
+    "known_paths": [
+      "USAID -> Apprio prime -> Vistant subcontractor",
+      "Later USAID -> Vistant prime -> Apprio subcontractor"
+    ],
+    "missing": [
+      "14-contract identifier map",
+      "specific corporate DPA and civil terms",
+      "later judicial developments"
+    ],
+    "research_use": "typology_benchmark_not_new_lead"
+  }
+]

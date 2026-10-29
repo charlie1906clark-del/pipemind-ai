@@ -1,0 +1,9 @@
+{
+  "reviewed_on": "2026-10-29",
+  "policy": "Explicit finite sample selection. A new run requires reviewed replacement or versioned observations, never implicit latest-run selection.",
+  "manifest_paths": [
+    "connectors/snapshots/20261029T183534Z-e5a42676/medical-supplies/manifest.json",
+    "connectors/snapshots/20261029T183534Z-e5a42676/defense-parts/manifest.json",
+    "connectors/snapshots/20261029T183534Z-e5a42676/nih-grants/manifest.json"
+  ]
+}

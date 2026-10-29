@@ -1,0 +1,144 @@
+{
+  "as_of": "2026-10-29",
+  "routes": [
+    {
+      "id": "reward-whip",
+      "name": "WHIP",
+      "status": "active_discretionary_pilot",
+      "award_basis": "charge_stage_fixed_award",
+      "minimum_award_usd": 10000,
+      "maximum_award_usd": 30000,
+      "universal_one_percent_entitlement_verified": false,
+      "individual_eligibility": "not_assessed",
+      "citations": [
+        "R02",
+        "R04",
+        "R05",
+        "R22"
+      ],
+      "conflicts": [
+        "Internal detailed-terms inconsistency: introduction omits Department of War; eligibility section 6 includes it, as do announcement/FAQ/landing.",
+        "Reported uncapped 1% promise differs from written terms."
+      ]
+    },
+    {
+      "id": "reward-fca",
+      "name": "False Claims Act qui tam",
+      "status": "statutory",
+      "award_basis": "proceeds_of_action_or_settlement",
+      "government_proceeds_percent": [
+        15,
+        25
+      ],
+      "government_declines_percent": [
+        25,
+        30
+      ],
+      "exceptions_apply": true,
+      "individual_eligibility": "not_assessed",
+      "citations": [
+        "R06",
+        "R07",
+        "R21"
+      ],
+      "source_caveat": "2024 statutory edition cross-checked against current House search excerpts; current text must be rechecked by counsel before filing."
+    },
+    {
+      "id": "reward-irs",
+      "name": "IRS",
+      "status": "statutory",
+      "award_basis": "attributable_collected_proceeds",
+      "usual_percent": [
+        15,
+        30
+      ],
+      "mandatory_disputed_proceeds_threshold_usd": 2000000,
+      "mandatory_threshold_comparator": "greater_than",
+      "individual_taxpayer_income_threshold_usd": 200000,
+      "individual_eligibility": "not_assessed",
+      "citations": [
+        "R08",
+        "R09"
+      ]
+    },
+    {
+      "id": "reward-sec",
+      "name": "SEC",
+      "status": "statutory",
+      "award_basis": "collected_monetary_sanctions",
+      "percent": [
+        10,
+        30
+      ],
+      "ordered_sanctions_threshold_usd": 1000000,
+      "threshold_comparator": "greater_than",
+      "individual_eligibility": "not_assessed",
+      "citations": [
+        "R10",
+        "R11",
+        "R13"
+      ]
+    },
+    {
+      "id": "reward-cftc",
+      "name": "CFTC",
+      "status": "statutory",
+      "award_basis": "collected_monetary_sanctions",
+      "percent": [
+        10,
+        30
+      ],
+      "covered_action_sanctions_threshold_usd": 1000000,
+      "threshold_comparator": "greater_than",
+      "individual_eligibility": "not_assessed",
+      "citations": [
+        "R12"
+      ]
+    },
+    {
+      "id": "reward-cwa",
+      "name": "DOJ Corporate Whistleblower Awards pilot",
+      "status": "active_discretionary_pilot",
+      "award_basis": "net_forfeiture",
+      "net_forfeiture_threshold_usd": 1000000,
+      "threshold_comparator": "greater_than",
+      "individual_eligibility": "not_assessed",
+      "citations": [
+        "R14",
+        "R15",
+        "R23"
+      ]
+    },
+    {
+      "id": "reward-antitrust-usps",
+      "name": "DOJ Antitrust / USPS",
+      "status": "active_discretionary_program",
+      "award_basis": "criminal_fine_or_other_recovery",
+      "presumptive_percent": [
+        15,
+        30
+      ],
+      "recovery_threshold_usd": 1000000,
+      "threshold_comparator": "at_least",
+      "postal_nexus_required": true,
+      "individual_eligibility": "not_assessed",
+      "citations": [
+        "R16",
+        "R17"
+      ]
+    },
+    {
+      "id": "reward-fincen",
+      "name": "FinCEN",
+      "status": "statutory_program_implementation_pending_per_current_site",
+      "award_basis": "collected_monetary_sanctions",
+      "covered_penalty_threshold_usd": 1000000,
+      "threshold_comparator": "greater_than",
+      "payout_mechanics_finalized_verified": false,
+      "individual_eligibility": "not_assessed",
+      "citations": [
+        "R18"
+      ]
+    }
+  ]
+}

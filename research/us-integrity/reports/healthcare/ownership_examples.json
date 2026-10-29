@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "HC-E-PTL",
+      "type": "organization",
+      "name": "Physicians Toxicology Laboratory LLC"
+    },
+    {
+      "id": "HC-E-LUND",
+      "type": "organization",
+      "name": "Lund Capital Group LLC"
+    },
+    {
+      "id": "HC-E-NJOKU",
+      "type": "person",
+      "name": "Paul Njoku",
+      "scope": "public professional role in published conviction record"
+    },
+    {
+      "id": "HC-E-OPNET",
+      "type": "organization",
+      "name": "Opnet Health Care Services Inc."
+    },
+    {
+      "id": "HC-E-PANDP",
+      "type": "trade_name",
+      "name": "P & P Health Care Services"
+    }
+  ],
+  "edges": [
+    {
+      "id": "HC-EDGE-01",
+      "subject": "HC-E-PTL",
+      "predicate": "has_grandparent",
+      "object": "HC-E-LUND",
+      "source_ids": [
+        "HC-S26"
+      ],
+      "evidence_state": "explicit_official_statement",
+      "time_basis": "as described in 2025-01-03 source; direct parent/percentage not established"
+    },
+    {
+      "id": "HC-EDGE-02",
+      "subject": "HC-E-NJOKU",
+      "predicate": "owned_and_operated",
+      "object": "HC-E-OPNET",
+      "source_ids": [
+        "HC-S28"
+      ],
+      "evidence_state": "explicit_official_statement",
+      "time_basis": "underlying historic conduct; source 2025-08-28"
+    },
+    {
+      "id": "HC-EDGE-03",
+      "subject": "HC-E-OPNET",
+      "predicate": "doing_business_as",
+      "object": "HC-E-PANDP",
+      "source_ids": [
+        "HC-S28"
+      ],
+      "evidence_state": "explicit_official_statement",
+      "time_basis": "as described in 2025-08-28 source"
+    }
+  ]
+}

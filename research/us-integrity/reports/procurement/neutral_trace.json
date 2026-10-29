@@ -1,0 +1,172 @@
+{
+  "id": "PROC-TRACE001",
+  "title": "Illustrative sourced procurement path, separate from historical enforcement benchmark",
+  "warning": "This is a neutral award trace. No allegation attaches to this award. Historical Raytheon resolutions are different matters and are not connected to this PIID.",
+  "nodes": [
+    {
+      "id": "PROC-ORG-ACC",
+      "type": "AgencyOffice",
+      "name": "U.S. Army Contracting Command, Redstone Arsenal",
+      "location_city": "Redstone Arsenal",
+      "location_state": "Alabama"
+    },
+    {
+      "id": "PROC-AWARD-W31P4Q24C0003",
+      "type": "Award",
+      "name": "PATRIOT production hardware, software and services",
+      "piid": "W31P4Q24C0003",
+      "reported_piid": "W31P4Q-24-C-0003",
+      "identity_status": "official_piid; full USAspending generated award key not resolved"
+    },
+    {
+      "id": "PROC-MOD-P00002",
+      "type": "AwardAction",
+      "name": "Modification P00002",
+      "modification_number": "P00002",
+      "announced_at": "2024-12-23",
+      "amounts": [
+        {
+          "value": 946446735,
+          "currency": "USD",
+          "measure": "announced_modification_value"
+        },
+        {
+          "value": 463758900,
+          "currency": "USD",
+          "measure": "funds_obligated_at_award"
+        }
+      ]
+    },
+    {
+      "id": "PROC-ORG-RAYTHEON",
+      "type": "Organization",
+      "name": "Raytheon Company",
+      "aliases": [
+        "Raytheon Co."
+      ],
+      "identity_status": "official_named_entity; UEI and CAGE not resolved in this seed"
+    },
+    {
+      "id": "PROC-ORG-RTX",
+      "type": "Organization",
+      "name": "RTX Corporation",
+      "identifiers": {
+        "SEC_CIK": "0000101829"
+      }
+    },
+    {
+      "id": "PROC-LOC-ANDOVER",
+      "type": "Location",
+      "name": "Andover, Massachusetts",
+      "granularity": "city"
+    },
+    {
+      "id": "PROC-PROGRAM-FMS-ROMANIA",
+      "type": "FundingProgram",
+      "name": "Foreign Military Sales (Romania)"
+    },
+    {
+      "id": "PROC-C002",
+      "type": "PublishedLegalMatter",
+      "name": "2024 Raytheon multi-scheme resolutions",
+      "legal_status": "DPAs with admissions and separate civil resolution; current detailed compliance disclosure available"
+    }
+  ],
+  "edges": [
+    {
+      "id": "PROC-E001",
+      "from": "PROC-ORG-ACC",
+      "to": "PROC-AWARD-W31P4Q24C0003",
+      "relation": "contracting_activity_for",
+      "source_ids": [
+        "PROC-S037"
+      ],
+      "assertion_type": "official_award_announcement",
+      "as_of": "2024-12-23"
+    },
+    {
+      "id": "PROC-E002",
+      "from": "PROC-MOD-P00002",
+      "to": "PROC-AWARD-W31P4Q24C0003",
+      "relation": "modifies",
+      "source_ids": [
+        "PROC-S037"
+      ],
+      "assertion_type": "official_award_announcement",
+      "as_of": "2024-12-23"
+    },
+    {
+      "id": "PROC-E003",
+      "from": "PROC-AWARD-W31P4Q24C0003",
+      "to": "PROC-ORG-RAYTHEON",
+      "relation": "reported_awardee",
+      "source_ids": [
+        "PROC-S037"
+      ],
+      "assertion_type": "official_named_party_not_identifier_crosswalk",
+      "as_of": "2024-12-23"
+    },
+    {
+      "id": "PROC-E004",
+      "from": "PROC-ORG-RAYTHEON",
+      "to": "PROC-ORG-RTX",
+      "relation": "subsidiary_of",
+      "source_ids": [
+        "PROC-S024"
+      ],
+      "assertion_type": "DOJ_explicit_relationship",
+      "as_of": "2024-10-16"
+    },
+    {
+      "id": "PROC-E005",
+      "from": "PROC-ORG-RAYTHEON",
+      "to": "PROC-ORG-RTX",
+      "relation": "listed_subsidiary_or_affiliate_of",
+      "source_ids": [
+        "PROC-S035"
+      ],
+      "assertion_type": "issuer_filing_corroboration",
+      "as_of": "2025-12-31"
+    },
+    {
+      "id": "PROC-E006",
+      "from": "PROC-AWARD-W31P4Q24C0003",
+      "to": "PROC-LOC-ANDOVER",
+      "relation": "announced_place_of_performance",
+      "source_ids": [
+        "PROC-S037"
+      ],
+      "assertion_type": "official_award_announcement",
+      "as_of": "2024-12-23"
+    },
+    {
+      "id": "PROC-E007",
+      "from": "PROC-MOD-P00002",
+      "to": "PROC-PROGRAM-FMS-ROMANIA",
+      "relation": "funded_by",
+      "source_ids": [
+        "PROC-S037"
+      ],
+      "assertion_type": "official_award_announcement",
+      "as_of": "2024-12-23"
+    },
+    {
+      "id": "PROC-E008",
+      "from": "PROC-C002",
+      "to": "PROC-ORG-RAYTHEON",
+      "relation": "names_party",
+      "source_ids": [
+        "PROC-S024"
+      ],
+      "assertion_type": "published_resolution",
+      "as_of": "2024-10-16"
+    }
+  ],
+  "unresolved": [
+    "Subaward chain not retrieved",
+    "No ultimate natural-person owner inferred",
+    "Award is not linked to historical legal matter",
+    "UEI/CAGE crosswalk needed before automated joins",
+    "Announcement is not complete invoice/payment history"
+  ]
+}
