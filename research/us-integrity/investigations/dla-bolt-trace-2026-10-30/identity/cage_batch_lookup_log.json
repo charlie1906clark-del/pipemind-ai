@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-10-30",
+  "requests": [
+    {
+      "url": "https://cage.dla.mil/Home/UsageAgree",
+      "method": "GET",
+      "status": 200,
+      "wire_sha256": "d815784a12143dca47dac5900c0d2f79d2905e2a0bd73b6cf8dabc1332c245da",
+      "raw_archived": false
+    },
+    {
+      "url": "https://cage.dla.mil/Home/UsageAgree",
+      "method": "POST",
+      "status": 200,
+      "wire_sha256": "dd07d5f815b604d1df26a7c672817d29c073b8aec529ff60fe7bba0cb40e80b7",
+      "raw_archived": false
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "GET",
+      "status": 200,
+      "wire_sha256": "4214dc052dd6d0ca86519cc83c04bb6659c45072688a947db2b9866a1cd9a2d9",
+      "raw_archived": false
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "POST",
+      "status": 200,
+      "wire_sha256": "0dd9a7b3a73bb02f91aadbc0e6f9170cae29be6616767b93b1325d0c81492165",
+      "raw_archived": false
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "POST",
+      "status": 200,
+      "wire_sha256": "7a044b86324aeeb14e8b74ff1b4706c03ffe2e70c43caf6a9230d698b1ea4763",
+      "raw_archived": false
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "POST",
+      "status": 200,
+      "wire_sha256": "188ebd86f4eef7d6cbe42239304184121b5ccd815ba37fe96deca4439fd89c97",
+      "raw_archived": false
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "POST",
+      "status": 200,
+      "wire_sha256": "be3997d8b5ca948b47204ee8adca814ca814edf12d377efaf52a1b658acd19a2",
+      "raw_archived": false
+    }
+  ]
+}

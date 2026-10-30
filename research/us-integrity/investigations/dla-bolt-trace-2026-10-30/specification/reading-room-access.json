@@ -1,0 +1,7 @@
+{
+  "url": "https://www.dla.mil/Information-Operations/FLIS-Data-Electronic-Reading-Room/PUBLOGFLISSearchDownloadInstr/",
+  "accessed_at": "2026-10-30T11:51:07.855822+00:00",
+  "method": "GET",
+  "request_scope": "Ordinary direct read of official published reading-room page; no credentials or bypass",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,315 @@
+{
+  "as_of": "2026-10-30",
+  "nsn": "5306016864912",
+  "source_id": "BR-S01",
+  "source_kind": "solicitation",
+  "current_solicitation": "SPE4A6-26-U-3619",
+  "fields": [
+    {
+      "field": "nsn",
+      "current_value": "5306016864912",
+      "current_source_page": 9,
+      "historical_table_value": "same NSN printed",
+      "next_evidence": "Same identifier is not proof of unchanged revision or economic terms"
+    },
+    {
+      "field": "item_revision",
+      "current_value": "TDP Rev A Gen 1; non-government standard ASMEB18.24 dated2023-10-16",
+      "current_source_page": 9,
+      "historical_table_value": null,
+      "next_evidence": "Need historical award technical references and applicable versions; no restricted drawing access attempted"
+    },
+    {
+      "field": "unit_of_issue",
+      "current_value": "EA",
+      "current_source_page": 9,
+      "historical_table_value": null,
+      "next_evidence": "Need historical line unit; do not copy current EA backward"
+    },
+    {
+      "field": "quantity_per_unit_pack",
+      "current_value": 1,
+      "current_source_page": 10,
+      "historical_table_value": null,
+      "next_evidence": "Need historical QUP and priced quantity relationship"
+    },
+    {
+      "field": "condition",
+      "current_value": "Current automated award disallows used/reconditioned/remanufactured/former surplus exceptions",
+      "current_source_page": 2,
+      "historical_table_value": "Surplus flag N only",
+      "next_evidence": "N does not supply every condition/certification term"
+    },
+    {
+      "field": "quantity",
+      "current_value": "2221.000 estimated annual; not firm",
+      "current_source_page": 2,
+      "historical_table_value": "History quantity printed",
+      "next_evidence": "Need awarded/ordered quantity and modifications"
+    },
+    {
+      "field": "unit_price",
+      "current_value": null,
+      "current_source_page": 9,
+      "historical_table_value": "History Unit Cost printed",
+      "next_evidence": "Current blank; history table is not a verified priced CLIN"
+    },
+    {
+      "field": "currency",
+      "current_value": "USD explicit in current maximum only",
+      "current_source_page": 2,
+      "historical_table_value": null,
+      "next_evidence": "Do not transfer ceiling currency label into unlabelled historic table without corroborating record"
+    },
+    {
+      "field": "delivery_days",
+      "current_value": 78,
+      "current_source_page": 10,
+      "historical_table_value": null,
+      "next_evidence": "Need required date, urgency, amendments and actual delivery where relevant"
+    },
+    {
+      "field": "delivery_freight",
+      "current_value": "FOB origin / First Destination Transportation",
+      "current_source_page": 8,
+      "historical_table_value": null,
+      "next_evidence": "Need historic shipment/transport terms and included freight"
+    },
+    {
+      "field": "inspection_acceptance",
+      "current_value": "Destination / destination",
+      "current_source_page": 10,
+      "historical_table_value": null,
+      "next_evidence": "Need historic quality/inspection/acceptance requirements"
+    },
+    {
+      "field": "packaging",
+      "current_value": "ASTM D3951 subject to DLA master requirements; MIL-STD-129 markings",
+      "current_source_page": 10,
+      "historical_table_value": null,
+      "next_evidence": "Need historical requirement/version and packing obligations"
+    },
+    {
+      "field": "sampling",
+      "current_value": "MIL-STD-1916 or ASQ H1331/comparable specified zero acceptance sampling",
+      "current_source_page": 9,
+      "historical_table_value": null,
+      "next_evidence": "Need historical inspection plan and contract-specific requirements"
+    },
+    {
+      "field": "additive_manufacturing",
+      "current_value": "Not eligible unless specifically authorized",
+      "current_source_page": 7,
+      "historical_table_value": null,
+      "next_evidence": "Need actual applicable authorization; no delivered-item inference"
+    },
+    {
+      "field": "warranty",
+      "current_value": null,
+      "current_source_page": null,
+      "historical_table_value": null,
+      "next_evidence": "Not established by pages inspected; do not mark none"
+    },
+    {
+      "field": "nonrecurring_costs",
+      "current_value": null,
+      "current_source_page": null,
+      "historical_table_value": null,
+      "next_evidence": "No breakdown of setup, tooling, qualification or inspection costs"
+    },
+    {
+      "field": "payment_receipt",
+      "current_value": null,
+      "current_source_page": null,
+      "historical_table_value": null,
+      "next_evidence": "Award or obligation is not invoice, acceptance or disbursement"
+    }
+  ],
+  "historical_rows": [
+    {
+      "contract_number": "SPE4A626V138W",
+      "cage": "6ZF42",
+      "date": "2026-05-26",
+      "source_page": 7,
+      "quantity_as_printed": "1212.000",
+      "cost_as_printed": "0.93000",
+      "price_kind": "solicitation_procurement_history",
+      "eligible_for_like_for_like_price_comparison": false,
+      "blocked_fields": [
+        "historical_unit",
+        "pack",
+        "revision",
+        "delivery",
+        "inspection_acceptance",
+        "warranty_basis",
+        "nonrecurring_costs",
+        "currency",
+        "priced_CLIN_verification"
+      ]
+    },
+    {
+      "contract_number": "SPE4A626P5931",
+      "cage": "0NFB8",
+      "date": "2025-11-14",
+      "source_page": 7,
+      "quantity_as_printed": "706.000",
+      "cost_as_printed": "1.00000",
+      "price_kind": "solicitation_procurement_history",
+      "eligible_for_like_for_like_price_comparison": false,
+      "blocked_fields": [
+        "historical_unit",
+        "pack",
+        "revision",
+        "delivery",
+        "inspection_acceptance",
+        "warranty_basis",
+        "nonrecurring_costs",
+        "currency",
+        "priced_CLIN_verification"
+      ]
+    },
+    {
+      "contract_number": "SPE4A625V346U",
+      "cage": "7W108",
+      "date": "2025-06-16",
+      "source_page": 8,
+      "quantity_as_printed": "448.000",
+      "cost_as_printed": "1.05000",
+      "price_kind": "solicitation_procurement_history",
+      "eligible_for_like_for_like_price_comparison": false,
+      "blocked_fields": [
+        "historical_unit",
+        "pack",
+        "revision",
+        "delivery",
+        "inspection_acceptance",
+        "warranty_basis",
+        "nonrecurring_costs",
+        "currency",
+        "priced_CLIN_verification"
+      ]
+    },
+    {
+      "contract_number": "SPE4A625V252D",
+      "cage": "8A1E8",
+      "date": "2025-05-16",
+      "source_page": 8,
+      "quantity_as_printed": "665.000",
+      "cost_as_printed": "1.10000",
+      "price_kind": "solicitation_procurement_history",
+      "eligible_for_like_for_like_price_comparison": false,
+      "blocked_fields": [
+        "historical_unit",
+        "pack",
+        "revision",
+        "delivery",
+        "inspection_acceptance",
+        "warranty_basis",
+        "nonrecurring_costs",
+        "currency",
+        "priced_CLIN_verification"
+      ]
+    },
+    {
+      "contract_number": "SPE4A625V208Q",
+      "cage": "6ZF42",
+      "date": "2025-04-30",
+      "source_page": 8,
+      "quantity_as_printed": "472.000",
+      "cost_as_printed": "1.17000",
+      "price_kind": "solicitation_procurement_history",
+      "eligible_for_like_for_like_price_comparison": false,
+      "blocked_fields": [
+        "historical_unit",
+        "pack",
+        "revision",
+        "delivery",
+        "inspection_acceptance",
+        "warranty_basis",
+        "nonrecurring_costs",
+        "currency",
+        "priced_CLIN_verification"
+      ]
+    },
+    {
+      "contract_number": "SPE4A625PK654",
+      "cage": "51Y73",
+      "date": "2025-03-24",
+      "source_page": 8,
+      "quantity_as_printed": "240.000",
+      "cost_as_printed": "1.44000",
+      "price_kind": "solicitation_procurement_history",
+      "eligible_for_like_for_like_price_comparison": false,
+      "blocked_fields": [
+        "historical_unit",
+        "pack",
+        "revision",
+        "delivery",
+        "inspection_acceptance",
+        "warranty_basis",
+        "nonrecurring_costs",
+        "currency",
+        "priced_CLIN_verification"
+      ]
+    },
+    {
+      "contract_number": "SPE4A625V4508",
+      "cage": "8A1E8",
+      "date": "2024-12-04",
+      "source_page": 8,
+      "quantity_as_printed": "536.000",
+      "cost_as_printed": "1.92000",
+      "price_kind": "solicitation_procurement_history",
+      "eligible_for_like_for_like_price_comparison": false,
+      "blocked_fields": [
+        "historical_unit",
+        "pack",
+        "revision",
+        "delivery",
+        "inspection_acceptance",
+        "warranty_basis",
+        "nonrecurring_costs",
+        "currency",
+        "priced_CLIN_verification"
+      ]
+    }
+  ],
+  "possible_history_pairs": 21,
+  "eligible_history_pairs": 0,
+  "history_to_current_quote_pairs_eligible": 0,
+  "external_award_and_identity_review": "pending producer acquisition; append exact receipt when available",
+  "source_eligibility_question": {
+    "standard_reference": "ASMEB18.24",
+    "classification_in_primary_source": "basic_non_government_standard",
+    "manufacturer_or_approved_source_list_proved": false,
+    "secondary_listed_source_warning_sufficient": false
+  },
+  "new_fraud_established": false,
+  "current_awarded_line": {
+    "parent_contract": "SPE4A626D61WS",
+    "order": "SPE4A627F0588",
+    "unit": "EA",
+    "currency": "USD",
+    "unit_price": "0.9100",
+    "quantity": "906.000",
+    "order_amount": "824.46",
+    "delivery_date": "2027-01-04",
+    "source_ids": [
+      "BR-S06",
+      "BR-S07"
+    ],
+    "current_priced_clin_verified": true,
+    "cash_payment_verified": false,
+    "all_later_modifications_acquired": false
+  },
+  "current_solicitation_terms_are_not_awarded_terms": {
+    "minimum_order_quantity": {
+      "rfq": "555EA",
+      "award": "1EA"
+    },
+    "delivery_days": {
+      "rfq": 78,
+      "award": 76
+    }
+  }
+}

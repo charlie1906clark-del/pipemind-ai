@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-10-30",
+  "status": "passed",
+  "tests": 7,
+  "exact_awards": 7,
+  "matching_dates": 7,
+  "matching_obligation_products": 7,
+  "original_historical_awards_acquired": 0,
+  "claims_of_fraud": 0,
+  "archive_privacy": "No street/contact/demographic fields retained in selected details",
+  "observation_sha256": "90a2a69d999028899a86737857cac308e78633ab4963190e7c41b66550f7f22d",
+  "limitations": "Hash checks and joins verify captured records; no line-item, payment, independent ownership or fraud verification."
+}

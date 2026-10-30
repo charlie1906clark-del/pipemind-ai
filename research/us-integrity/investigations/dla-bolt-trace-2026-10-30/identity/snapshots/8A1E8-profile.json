@@ -1,0 +1,22 @@
+{
+  "name": "KAREN CARLISLE",
+  "alternate_names": [
+    "CARLISLE  KAREN",
+    "CARLISLE, KAREN"
+  ],
+  "duns": "363339602",
+  "uei": "KJGWN783BNB5",
+  "recipient_id": "b8231930-323b-d449-de43-51bb4faecfc7-C",
+  "recipient_level": "C",
+  "parent_id": "b8231930-323b-d449-de43-51bb4faecfc7-P",
+  "parent_name": "KAREN CARLISLE",
+  "parent_duns": "363339602",
+  "parent_uei": "KJGWN783BNB5",
+  "location": {
+    "state_code": "TX",
+    "country_code": "USA"
+  },
+  "business_structure_types": [
+    "sole_proprietorship"
+  ]
+}

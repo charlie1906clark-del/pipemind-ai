@@ -1,0 +1,30 @@
+{
+  "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+  "members": [
+    {
+      "name": "TOOLS/README.TXT",
+      "observed_date": "2026-10-30",
+      "compressed_bytes_read": 3153,
+      "uncompressed_bytes_read": 9185,
+      "complete_member": true,
+      "range_sha256": "32fa23f016c23d800ced2bf65f659b7f355bdc58b91e2609983eb405587612ca",
+      "uncompressed_prefix_hex": "0d0a546865736520746f6f6c7320696e636c75646520756e6c696d69746564207573652077697468696e20494d442e0d0a0d0a416e79206368616e6765732074",
+      "scope": "Static file inspection; no executable content run",
+      "selected_file": "archive-tools-readme-selected.txt",
+      "original_member_sha256": "5f4a0b092a6a546694aaab6dea68365b67aadd8d19bf9d23b3b95838424cd877",
+      "original_member_archived_in_repo": false,
+      "selected_sha256": "821a3ab3a7ce0773a897ed66a3828e736f40ae9d7be393968e6b86d76b8c03ef",
+      "selected_scope": "Opening DECOMP instructions only, stops before MERGE"
+    },
+    {
+      "name": "V_CHARACTERISTICS.TAB",
+      "observed_date": "2026-10-30",
+      "compressed_bytes_read": 16384,
+      "uncompressed_bytes_read": 56407,
+      "complete_member": false,
+      "range_sha256": "431103c88b7e07c8df44c5a657d7b9230d7d79412be4c8d2098f02bfc29c7578",
+      "uncompressed_prefix_hex": "a3505c886a68029c66bd5e79399dd8b367e726da98d16d606dcfd9f8948d14c5ff8b6e93d015e30b1716c54072dc43e1c5ca1a0475fd1a40249fe29e97c72c72",
+      "scope": "Static file inspection; no executable content run"
+    }
+  ]
+}

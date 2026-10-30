@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "id": "BI-S-HISTORY",
+      "title": "Original DLA solicitation selected procurement-history table",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/RFQ/9/SPE4A626U3619.PDF",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../../discovery-policy-2026-10-30/pricing/snapshots/selected_evidence.json",
+      "snapshot_sha256": "052d394c9aeca30e9220436b70fe40a3518233b1f4aabf36a97dd7c6b9c958d8",
+      "snapshot_scope": "Selected extraction; original PDF separately archived in prior investigation",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-CAGE-0NFB8",
+      "title": "DLA CAGE public exact-code result 0NFB8",
+      "url": "https://cage.dla.mil/Search/Results?q=0NFB8&page=1",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/cage-0NFB8-selected.json",
+      "snapshot_sha256": "f14a89104d95a6f2bcb805a088c8d384e061aad56835de4c0ac7b7d1d291b4ff",
+      "snapshot_scope": "Selected identifier/name text from one result row; no form tokens, address or contacts",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-PROFILE-0NFB8",
+      "title": "USAspending child recipient profile JEJSN59MQVK3",
+      "url": "https://api.usaspending.gov/api/v2/recipient/646c7184-b1bf-d4f5-fb0c-db4c899c87da-C/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/0NFB8-profile.json",
+      "snapshot_sha256": "cdc1258cd1dd87399396c5426305eb7e84b67a037e2ddacaa5d43103381667d8",
+      "snapshot_scope": "Selected name, identifiers, aliases, reporting-parent, legal structure, state/country; demographic and contact fields omitted",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-AWARD-SPE4A626P5931",
+      "title": "USAspending exact award SPE4A626P5931",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626P5931_9700_-NONE-_-NONE-/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../awards/capture-success/award-SPE4A626P5931.json",
+      "snapshot_sha256": "46829719b252ea402198a5c6f25ac0f6bdeee3255aea82e05fc3340624351317",
+      "snapshot_scope": "Selected official award response; exact PIID, signed date, recipient UEI/name; original CAGE is supplied by the distinct DLA history source",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-CAGE-51Y73",
+      "title": "DLA CAGE public exact-code result 51Y73",
+      "url": "https://cage.dla.mil/Search/Results?q=51Y73&page=1",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/cage-51Y73-selected.json",
+      "snapshot_sha256": "87d4eed7f78f3beacfc6bf21c4adb5cfb245e6c94ab713755ca272e7c8eb8062",
+      "snapshot_scope": "Selected identifier/name text from one result row; no form tokens, address or contacts",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-PROFILE-51Y73",
+      "title": "USAspending child recipient profile US4BABY42KV8",
+      "url": "https://api.usaspending.gov/api/v2/recipient/3f90f59d-d2b0-8b9b-23c5-c23a0e3de900-C/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/51Y73-profile.json",
+      "snapshot_sha256": "7ad0de4aec802f649030e1e35f445907c81f85ce57a5042235c58b9ff1185cab",
+      "snapshot_scope": "Selected name, identifiers, aliases, reporting-parent, legal structure, state/country; demographic and contact fields omitted",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-AWARD-SPE4A625PK654",
+      "title": "USAspending exact award SPE4A625PK654",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A625PK654_9700_-NONE-_-NONE-/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../awards/capture-success/award-SPE4A625PK654.json",
+      "snapshot_sha256": "eb4c322574b11011abf4251f9a851df5436e2d01ee79b5f1abfd2ddafcb6edd6",
+      "snapshot_scope": "Selected official award response; exact PIID, signed date, recipient UEI/name; original CAGE is supplied by the distinct DLA history source",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-CAGE-6ZF42",
+      "title": "DLA CAGE public exact-code result 6ZF42",
+      "url": "https://cage.dla.mil/Search/Results?q=6ZF42&page=1",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/cage-6ZF42-selected.json",
+      "snapshot_sha256": "73a50427781e158e07dfac8298342a5f71bc5fe1a223f599d0c7a6d17a360697",
+      "snapshot_scope": "Selected identifier/name text from one result row; no form tokens, address or contacts",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-PROFILE-6ZF42",
+      "title": "USAspending child recipient profile GWEEKJ2PNL45",
+      "url": "https://api.usaspending.gov/api/v2/recipient/d1cd4996-edc1-13ae-62f8-61565174116a-C/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/6ZF42-profile.json",
+      "snapshot_sha256": "cb72507569f7309caf640edde7f30f76a5542c841d144f615b10e836a4ddabc6",
+      "snapshot_scope": "Selected name, identifiers, aliases, reporting-parent, legal structure, state/country; demographic and contact fields omitted",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-AWARD-SPE4A626V138W",
+      "title": "USAspending exact award SPE4A626V138W",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626V138W_9700_-NONE-_-NONE-/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../awards/capture-success/award-SPE4A626V138W.json",
+      "snapshot_sha256": "bbbd3762d933913f279e9147d5aa792fa1bdf86f7523ba7075b61c0949112f1c",
+      "snapshot_scope": "Selected official award response; exact PIID, signed date, recipient UEI/name; original CAGE is supplied by the distinct DLA history source",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-AWARD-SPE4A625V208Q",
+      "title": "USAspending exact award SPE4A625V208Q",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A625V208Q_9700_-NONE-_-NONE-/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../awards/capture-success/award-SPE4A625V208Q.json",
+      "snapshot_sha256": "a62d41f787c1f1a7f1bbf02f9d5ed780482c0fa74e086993d45545d734761859",
+      "snapshot_scope": "Selected official award response; exact PIID, signed date, recipient UEI/name; original CAGE is supplied by the distinct DLA history source",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-CAGE-7W108",
+      "title": "DLA CAGE public exact-code result 7W108",
+      "url": "https://cage.dla.mil/Search/Results?q=7W108&page=1",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/cage-7W108-selected.json",
+      "snapshot_sha256": "115d17b46c9dddbd8ba8e750d5b2d61037c3b90e42a61c8e65ae23ada9304e71",
+      "snapshot_scope": "Selected identifier/name text from one result row; no form tokens, address or contacts",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-PROFILE-7W108",
+      "title": "USAspending child recipient profile JE5NG1MWNU77",
+      "url": "https://api.usaspending.gov/api/v2/recipient/f3ee792f-00ef-e3de-8f7f-8cb4be2725c7-C/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/7W108-profile.json",
+      "snapshot_sha256": "5fb534518b465c54667b20c5f14c5b8ec38fdab18dad07881d02e3edc583388b",
+      "snapshot_scope": "Selected name, identifiers, aliases, reporting-parent, legal structure, state/country; demographic and contact fields omitted",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-AWARD-SPE4A625V346U",
+      "title": "USAspending exact award SPE4A625V346U",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A625V346U_9700_-NONE-_-NONE-/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../awards/capture-success/award-SPE4A625V346U.json",
+      "snapshot_sha256": "91b533975efd0c4f0dc3d33e33569004f2ba2979887c0013e6bcff87135d688c",
+      "snapshot_scope": "Selected official award response; exact PIID, signed date, recipient UEI/name; original CAGE is supplied by the distinct DLA history source",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-CAGE-8A1E8",
+      "title": "DLA CAGE public exact-code result 8A1E8",
+      "url": "https://cage.dla.mil/Search/Results?q=8A1E8&page=1",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/cage-8A1E8-selected.json",
+      "snapshot_sha256": "f15a91584b4236b9972a1995ba17ca00633c92aac4462c8b332eea564217dbea",
+      "snapshot_scope": "Selected identifier/name text from one result row; no form tokens, address or contacts",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-PROFILE-8A1E8",
+      "title": "USAspending child recipient profile KJGWN783BNB5",
+      "url": "https://api.usaspending.gov/api/v2/recipient/b8231930-323b-d449-de43-51bb4faecfc7-C/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "snapshots/8A1E8-profile.json",
+      "snapshot_sha256": "efaa6958c2e52e66d5ed86088b33fbb5c822e8a56e791151efd581f89776047d",
+      "snapshot_scope": "Selected name, identifiers, aliases, reporting-parent, legal structure, state/country; demographic and contact fields omitted",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-AWARD-SPE4A625V252D",
+      "title": "USAspending exact award SPE4A625V252D",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A625V252D_9700_-NONE-_-NONE-/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../awards/capture-success/award-SPE4A625V252D.json",
+      "snapshot_sha256": "35aac13f2921de6499c7070232ae531b08d209e1c3b97fd39a8a61ee2eaaf309",
+      "snapshot_scope": "Selected official award response; exact PIID, signed date, recipient UEI/name; original CAGE is supplied by the distinct DLA history source",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "BI-S-AWARD-SPE4A625V4508",
+      "title": "USAspending exact award SPE4A625V4508",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A625V4508_9700_-NONE-_-NONE-/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../awards/capture-success/award-SPE4A625V4508.json",
+      "snapshot_sha256": "9c20cdfd1dfbb67ef26b98b90dd24088f3c295b90dde0b8562ab41144c5f508f",
+      "snapshot_scope": "Selected official award response; exact PIID, signed date, recipient UEI/name; original CAGE is supplied by the distinct DLA history source",
+      "original_wire_bytes_archived": false
+    }
+  ]
+}

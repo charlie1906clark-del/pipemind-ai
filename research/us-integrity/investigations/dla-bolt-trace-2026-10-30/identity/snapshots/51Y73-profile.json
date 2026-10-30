@@ -1,0 +1,24 @@
+{
+  "name": "CASCADE NUT & BOLT, INC",
+  "alternate_names": [
+    "CASCADE NUT & BOLT  INC",
+    "CASCADE NUT & BOLT INC",
+    "CASCADE NUT & BOLT INC."
+  ],
+  "duns": "868217647",
+  "uei": "US4BABY42KV8",
+  "recipient_id": "3f90f59d-d2b0-8b9b-23c5-c23a0e3de900-C",
+  "recipient_level": "C",
+  "parent_id": "3f90f59d-d2b0-8b9b-23c5-c23a0e3de900-P",
+  "parent_name": "CASCADE NUT & BOLT, INC",
+  "parent_duns": "868217647",
+  "parent_uei": "US4BABY42KV8",
+  "location": {
+    "state_code": "OR",
+    "country_code": "USA"
+  },
+  "business_structure_types": [
+    "corporate_entity_not_tax_exempt",
+    "subchapter_s_corporation"
+  ]
+}

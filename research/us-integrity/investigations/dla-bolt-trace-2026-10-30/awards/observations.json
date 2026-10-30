@@ -1,0 +1,430 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "observations": [
+    {
+      "id": "BOLT-AWARD-SPE4A625PK654",
+      "contract_number": "SPE4A625PK654",
+      "nsn_from_history": "5306016864912",
+      "history_cage": "51Y73",
+      "recipient_name": "CASCADE NUT & BOLT, INC",
+      "recipient_uei": "US4BABY42KV8",
+      "recipient_hash": "3f90f59d-d2b0-8b9b-23c5-c23a0e3de900-C",
+      "source_ids": [
+        "BOLT-AWD-HISTORY",
+        "BOLT-AWD-SEARCH",
+        "BOLT-AWD-SPE4A625PK654"
+      ],
+      "date_signed": "2025-03-24",
+      "history_date_matches": true,
+      "award_type": "PURCHASE ORDER",
+      "awarding_agency": {
+        "id": 1219,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Defense Logistics Agency",
+          "code": "97AS",
+          "abbreviation": "DLA"
+        },
+        "office_agency_name": "DLA AVIATION"
+      },
+      "solicitation_identifier": "SPE4A625T825F",
+      "number_of_offers_received": "4",
+      "competition": "COMPETED UNDER SAP",
+      "contract_pricing": "FIRM FIXED PRICE",
+      "set_aside": "NO SET ASIDE USED.",
+      "psc": "5306",
+      "performance_period": {
+        "start_date": "2025-03-24",
+        "end_date": "2025-04-14",
+        "last_modified_date": "2025-05-17",
+        "potential_end_date": "2025-04-14 00:00:00"
+      },
+      "award_obligation_usd": "345.6",
+      "amount_basis": "Current cumulative obligation in official award summary; not payment",
+      "history_quantity_as_printed": "240.000",
+      "history_unit_cost_as_printed": "1.44000",
+      "arithmetic_product": "345.60000000",
+      "product_equals_award_obligation": true,
+      "arithmetic_limit": "Numeric reconciliation only; does not authenticate purchased units, complete price scope or payment",
+      "cage_uei_join_basis": "Historical RFQ PIID/CAGE + exact official award PIID/UEI and matching date; not a direct SAM registration crosswalk",
+      "historical_clin_verified": false,
+      "historical_unit_verified": false,
+      "historical_pack_verified": false,
+      "historical_delivery_terms_verified": false,
+      "invoice_or_payment_verified": false,
+      "fraud_finding": false
+    },
+    {
+      "id": "BOLT-AWARD-SPE4A625V208Q",
+      "contract_number": "SPE4A625V208Q",
+      "nsn_from_history": "5306016864912",
+      "history_cage": "6ZF42",
+      "recipient_name": "BUTT FAREED AHMAD",
+      "recipient_uei": "GWEEKJ2PNL45",
+      "recipient_hash": "d1cd4996-edc1-13ae-62f8-61565174116a-C",
+      "source_ids": [
+        "BOLT-AWD-HISTORY",
+        "BOLT-AWD-SEARCH",
+        "BOLT-AWD-SPE4A625V208Q"
+      ],
+      "date_signed": "2025-04-30",
+      "history_date_matches": true,
+      "award_type": "PURCHASE ORDER",
+      "awarding_agency": {
+        "id": 1219,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Defense Logistics Agency",
+          "code": "97AS",
+          "abbreviation": "DLA"
+        },
+        "office_agency_name": "DLA AVIATION"
+      },
+      "solicitation_identifier": "SPE4A625T52K8",
+      "number_of_offers_received": "3",
+      "competition": "COMPETED UNDER SAP",
+      "contract_pricing": "FIRM FIXED PRICE",
+      "set_aside": "NO SET ASIDE USED.",
+      "psc": "5306",
+      "performance_period": {
+        "start_date": "2025-04-30",
+        "end_date": "2025-06-09",
+        "last_modified_date": "2025-06-21",
+        "potential_end_date": "2025-06-09 00:00:00"
+      },
+      "award_obligation_usd": "552.24",
+      "amount_basis": "Current cumulative obligation in official award summary; not payment",
+      "history_quantity_as_printed": "472.000",
+      "history_unit_cost_as_printed": "1.17000",
+      "arithmetic_product": "552.24000000",
+      "product_equals_award_obligation": true,
+      "arithmetic_limit": "Numeric reconciliation only; does not authenticate purchased units, complete price scope or payment",
+      "cage_uei_join_basis": "Historical RFQ PIID/CAGE + exact official award PIID/UEI and matching date; not a direct SAM registration crosswalk",
+      "historical_clin_verified": false,
+      "historical_unit_verified": false,
+      "historical_pack_verified": false,
+      "historical_delivery_terms_verified": false,
+      "invoice_or_payment_verified": false,
+      "fraud_finding": false
+    },
+    {
+      "id": "BOLT-AWARD-SPE4A625V252D",
+      "contract_number": "SPE4A625V252D",
+      "nsn_from_history": "5306016864912",
+      "history_cage": "8A1E8",
+      "recipient_name": "KAREN CARLISLE",
+      "recipient_uei": "KJGWN783BNB5",
+      "recipient_hash": "b8231930-323b-d449-de43-51bb4faecfc7-C",
+      "source_ids": [
+        "BOLT-AWD-HISTORY",
+        "BOLT-AWD-SEARCH",
+        "BOLT-AWD-SPE4A625V252D"
+      ],
+      "date_signed": "2025-05-16",
+      "history_date_matches": true,
+      "award_type": "PURCHASE ORDER",
+      "awarding_agency": {
+        "id": 1219,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Defense Logistics Agency",
+          "code": "97AS",
+          "abbreviation": "DLA"
+        },
+        "office_agency_name": "DLA AVIATION"
+      },
+      "solicitation_identifier": "SPE4A625T61G7",
+      "number_of_offers_received": "4",
+      "competition": "COMPETED UNDER SAP",
+      "contract_pricing": "FIRM FIXED PRICE",
+      "set_aside": "NO SET ASIDE USED.",
+      "psc": "5306",
+      "performance_period": {
+        "start_date": "2025-05-16",
+        "end_date": "2025-11-03",
+        "last_modified_date": "2026-01-17",
+        "potential_end_date": "2025-11-03 00:00:00"
+      },
+      "award_obligation_usd": "731.5",
+      "amount_basis": "Current cumulative obligation in official award summary; not payment",
+      "history_quantity_as_printed": "665.000",
+      "history_unit_cost_as_printed": "1.10000",
+      "arithmetic_product": "731.50000000",
+      "product_equals_award_obligation": true,
+      "arithmetic_limit": "Numeric reconciliation only; does not authenticate purchased units, complete price scope or payment",
+      "cage_uei_join_basis": "Historical RFQ PIID/CAGE + exact official award PIID/UEI and matching date; not a direct SAM registration crosswalk",
+      "historical_clin_verified": false,
+      "historical_unit_verified": false,
+      "historical_pack_verified": false,
+      "historical_delivery_terms_verified": false,
+      "invoice_or_payment_verified": false,
+      "fraud_finding": false
+    },
+    {
+      "id": "BOLT-AWARD-SPE4A625V346U",
+      "contract_number": "SPE4A625V346U",
+      "nsn_from_history": "5306016864912",
+      "history_cage": "7W108",
+      "recipient_name": "SUBURBAN BOLT & SUPPLY CO",
+      "recipient_uei": "JE5NG1MWNU77",
+      "recipient_hash": "f3ee792f-00ef-e3de-8f7f-8cb4be2725c7-C",
+      "source_ids": [
+        "BOLT-AWD-HISTORY",
+        "BOLT-AWD-SEARCH",
+        "BOLT-AWD-SPE4A625V346U"
+      ],
+      "date_signed": "2025-06-16",
+      "history_date_matches": true,
+      "award_type": "PURCHASE ORDER",
+      "awarding_agency": {
+        "id": 1219,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Defense Logistics Agency",
+          "code": "97AS",
+          "abbreviation": "DLA"
+        },
+        "office_agency_name": "DLA AVIATION"
+      },
+      "solicitation_identifier": "SPE4A625T99L1",
+      "number_of_offers_received": "5",
+      "competition": "COMPETED UNDER SAP",
+      "contract_pricing": "FIRM FIXED PRICE",
+      "set_aside": "NO SET ASIDE USED.",
+      "psc": "5306",
+      "performance_period": {
+        "start_date": "2025-06-16",
+        "end_date": "2025-10-14",
+        "last_modified_date": "2025-11-01",
+        "potential_end_date": "2025-10-14 00:00:00"
+      },
+      "award_obligation_usd": "470.4",
+      "amount_basis": "Current cumulative obligation in official award summary; not payment",
+      "history_quantity_as_printed": "448.000",
+      "history_unit_cost_as_printed": "1.05000",
+      "arithmetic_product": "470.40000000",
+      "product_equals_award_obligation": true,
+      "arithmetic_limit": "Numeric reconciliation only; does not authenticate purchased units, complete price scope or payment",
+      "cage_uei_join_basis": "Historical RFQ PIID/CAGE + exact official award PIID/UEI and matching date; not a direct SAM registration crosswalk",
+      "historical_clin_verified": false,
+      "historical_unit_verified": false,
+      "historical_pack_verified": false,
+      "historical_delivery_terms_verified": false,
+      "invoice_or_payment_verified": false,
+      "fraud_finding": false
+    },
+    {
+      "id": "BOLT-AWARD-SPE4A625V4508",
+      "contract_number": "SPE4A625V4508",
+      "nsn_from_history": "5306016864912",
+      "history_cage": "8A1E8",
+      "recipient_name": "KAREN CARLISLE",
+      "recipient_uei": "KJGWN783BNB5",
+      "recipient_hash": "b8231930-323b-d449-de43-51bb4faecfc7-C",
+      "source_ids": [
+        "BOLT-AWD-HISTORY",
+        "BOLT-AWD-SEARCH",
+        "BOLT-AWD-SPE4A625V4508"
+      ],
+      "date_signed": "2024-12-04",
+      "history_date_matches": true,
+      "award_type": "PURCHASE ORDER",
+      "awarding_agency": {
+        "id": 1219,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Defense Logistics Agency",
+          "code": "97AS",
+          "abbreviation": "DLA"
+        },
+        "office_agency_name": "DLA AVIATION"
+      },
+      "solicitation_identifier": "SPE4A625T131Y",
+      "number_of_offers_received": "4",
+      "competition": "COMPETED UNDER SAP",
+      "contract_pricing": "FIRM FIXED PRICE",
+      "set_aside": "NO SET ASIDE USED.",
+      "psc": "5306",
+      "performance_period": {
+        "start_date": "2024-12-04",
+        "end_date": "2025-01-18",
+        "last_modified_date": "2025-02-09",
+        "potential_end_date": "2025-01-18 00:00:00"
+      },
+      "award_obligation_usd": "1029.12",
+      "amount_basis": "Current cumulative obligation in official award summary; not payment",
+      "history_quantity_as_printed": "536.000",
+      "history_unit_cost_as_printed": "1.92000",
+      "arithmetic_product": "1029.12000000",
+      "product_equals_award_obligation": true,
+      "arithmetic_limit": "Numeric reconciliation only; does not authenticate purchased units, complete price scope or payment",
+      "cage_uei_join_basis": "Historical RFQ PIID/CAGE + exact official award PIID/UEI and matching date; not a direct SAM registration crosswalk",
+      "historical_clin_verified": false,
+      "historical_unit_verified": false,
+      "historical_pack_verified": false,
+      "historical_delivery_terms_verified": false,
+      "invoice_or_payment_verified": false,
+      "fraud_finding": false
+    },
+    {
+      "id": "BOLT-AWARD-SPE4A626P5931",
+      "contract_number": "SPE4A626P5931",
+      "nsn_from_history": "5306016864912",
+      "history_cage": "0NFB8",
+      "recipient_name": "DIALOGIC CORP",
+      "recipient_uei": "JEJSN59MQVK3",
+      "recipient_hash": "646c7184-b1bf-d4f5-fb0c-db4c899c87da-C",
+      "source_ids": [
+        "BOLT-AWD-HISTORY",
+        "BOLT-AWD-SEARCH",
+        "BOLT-AWD-SPE4A626P5931"
+      ],
+      "date_signed": "2025-11-14",
+      "history_date_matches": true,
+      "award_type": "PURCHASE ORDER",
+      "awarding_agency": {
+        "id": 1219,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Defense Logistics Agency",
+          "code": "97AS",
+          "abbreviation": "DLA"
+        },
+        "office_agency_name": "DLA AVIATION"
+      },
+      "solicitation_identifier": "SPE4A626T8303",
+      "number_of_offers_received": "4",
+      "competition": "COMPETED UNDER SAP",
+      "contract_pricing": "FIRM FIXED PRICE",
+      "set_aside": "NO SET ASIDE USED.",
+      "psc": "5306",
+      "performance_period": {
+        "start_date": "2025-11-14",
+        "end_date": "2026-05-04",
+        "last_modified_date": "2026-04-21",
+        "potential_end_date": "2026-05-04 00:00:00"
+      },
+      "award_obligation_usd": "706.0",
+      "amount_basis": "Current cumulative obligation in official award summary; not payment",
+      "history_quantity_as_printed": "706.000",
+      "history_unit_cost_as_printed": "1.00000",
+      "arithmetic_product": "706.00000000",
+      "product_equals_award_obligation": true,
+      "arithmetic_limit": "Numeric reconciliation only; does not authenticate purchased units, complete price scope or payment",
+      "cage_uei_join_basis": "Historical RFQ PIID/CAGE + exact official award PIID/UEI and matching date; not a direct SAM registration crosswalk",
+      "historical_clin_verified": false,
+      "historical_unit_verified": false,
+      "historical_pack_verified": false,
+      "historical_delivery_terms_verified": false,
+      "invoice_or_payment_verified": false,
+      "fraud_finding": false
+    },
+    {
+      "id": "BOLT-AWARD-SPE4A626V138W",
+      "contract_number": "SPE4A626V138W",
+      "nsn_from_history": "5306016864912",
+      "history_cage": "6ZF42",
+      "recipient_name": "BUTT FAREED AHMAD",
+      "recipient_uei": "GWEEKJ2PNL45",
+      "recipient_hash": "d1cd4996-edc1-13ae-62f8-61565174116a-C",
+      "source_ids": [
+        "BOLT-AWD-HISTORY",
+        "BOLT-AWD-SEARCH",
+        "BOLT-AWD-SPE4A626V138W"
+      ],
+      "date_signed": "2026-05-26",
+      "history_date_matches": true,
+      "award_type": "PURCHASE ORDER",
+      "awarding_agency": {
+        "id": 1219,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Defense Logistics Agency",
+          "code": "97AS",
+          "abbreviation": "DLA"
+        },
+        "office_agency_name": "DLA AVIATION"
+      },
+      "solicitation_identifier": "SPE4A626T52U3",
+      "number_of_offers_received": "3",
+      "competition": "COMPETED UNDER SAP",
+      "contract_pricing": "FIRM FIXED PRICE",
+      "set_aside": "NO SET ASIDE USED.",
+      "psc": "5306",
+      "performance_period": {
+        "start_date": "2026-05-26",
+        "end_date": "2026-11-13",
+        "last_modified_date": "2026-05-26",
+        "potential_end_date": "2026-11-13 00:00:00"
+      },
+      "award_obligation_usd": "1127.16",
+      "amount_basis": "Current cumulative obligation in official award summary; not payment",
+      "history_quantity_as_printed": "1212.000",
+      "history_unit_cost_as_printed": "0.93000",
+      "arithmetic_product": "1127.16000000",
+      "product_equals_award_obligation": true,
+      "arithmetic_limit": "Numeric reconciliation only; does not authenticate purchased units, complete price scope or payment",
+      "cage_uei_join_basis": "Historical RFQ PIID/CAGE + exact official award PIID/UEI and matching date; not a direct SAM registration crosswalk",
+      "historical_clin_verified": false,
+      "historical_unit_verified": false,
+      "historical_pack_verified": false,
+      "historical_delivery_terms_verified": false,
+      "invoice_or_payment_verified": false,
+      "fraud_finding": false
+    }
+  ],
+  "summary": {
+    "exact_contracts": 7,
+    "exact_date_matches": 7,
+    "arithmetic_matches": 7,
+    "distinct_ueis": 5,
+    "sum_current_award_obligations_usd": "4962.02",
+    "aggregate_scope": "Seven distinct purchase-order PIIDs only; not spend for the NSN, invoices, loss, recovery or savings",
+    "original_priced_awards_acquired": 0,
+    "fraud_cases_established": 0,
+    "reward_estimate": null
+  }
+}

@@ -1,0 +1,1 @@
+{"filters": {"award_type_codes": ["A", "B", "C", "D"], "award_ids": ["SPE4A627F0588"]}, "fields": ["Award ID", "generated_internal_id", "Recipient Name", "Recipient UEI", "Award Amount", "Awarding Agency", "Start Date", "End Date"], "limit": 10, "page": 1, "sort": "Award ID", "order": "asc", "subawards": false}

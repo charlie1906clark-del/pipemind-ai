@@ -1,0 +1,87 @@
+{
+  "as_of": "2026-10-30",
+  "id": "BOLT-NEXT-001",
+  "status": "planned_not_executed",
+  "area": "DLA hardware, initially FSC5306 machine bolts",
+  "seed_disposition": "Reject the157.5867 purchased-price interpretation; retain actual0.91 market fairness and buyer independence as unresolved evidence questions",
+  "why_change_selection": "Extend within DLA hardware toward repeated purchasing exposure and feasible independent same-item benchmarks while retaining this seed's specification/price challenge. Legitimate identities, arithmetic and declining prices do not exclude a persistent premium.",
+  "selection": {
+    "candidate_source": "Official DLA award/RFQ listing or bounded USAspending prime-contract query, followed to original DLA records",
+    "agency": "DLA",
+    "psc": "5306",
+    "exclude": [
+      "IDV ceilings treated as purchases",
+      "unverified catalog/retail substitutes",
+      "restricted technical material",
+      "duplicate parent/order or modification snapshots"
+    ],
+    "ordering": "Eligible candidates by reported cumulative obligation descending; tie-break exact PIID ascending. This is research prioritization, never a fraud ranking.",
+    "maximum_unique_awards": 30,
+    "approximate_award_age_window_days": [
+      91,
+      119
+    ],
+    "illustrative_date_window_for_2026_10_30": [
+      "2026-07-03",
+      "2026-07-31"
+    ],
+    "date_basis_limit": "DLA retention refers to posting/latest modification; USAspending delay refers to publication. Award-age screen is an approximation, not a guaranteed availability window. Verify actual dates.",
+    "alternative_when_no_overlap": "Capture accessible new official award/line documents now and reconcile aggregate records only when actually published. No scheduled background capture created."
+  },
+  "workers": [
+    {
+      "role": "official acquisition",
+      "output": "all included/excluded/failure rows and original source hashes"
+    },
+    {
+      "role": "item/term matching",
+      "output": "verified NSN/revision/UI/QUP/quantity/delivery/condition/qualification/freight matrix"
+    },
+    {
+      "role": "price review",
+      "output": "same-item eligible comparisons, alternatives and missing records"
+    },
+    {
+      "role": "identity check",
+      "output": "exact identifiers and dated roles for any surviving transaction question"
+    },
+    {
+      "role": "independent challenge",
+      "output": "accept/narrow/reject/unresolved source-based receipt"
+    }
+  ],
+  "bounds": {
+    "maximum_official_listing_or_API_reads": 12,
+    "maximum_candidate_awards": 30,
+    "maximum_original_document_attempts": 60,
+    "timeout_seconds": 20,
+    "maximum_questions_for_manual_followup": 5
+  },
+  "advance_only_if": [
+    "Original priced line and exact item/terms support a comparison",
+    "A specific unexplained transaction/representation/delivery question survives ordinary alternatives",
+    "Independent reviewer confirms source and calculation",
+    "Prior disclosures are searched with explicit scope; government knowledge remains unknown"
+  ],
+  "stopping_conditions": [
+    "Finite cohort and access budget exhausted",
+    "No suitable original line terms: close affected comparison as unresolved",
+    "All apparent anomalies explained or unsupported: close cohort with null result"
+  ],
+  "money_rules": [
+    "Obligations are not cash paid",
+    "Ceilings are not ordered values",
+    "Price differences are not automatically recoverable losses",
+    "No percentage reward calculation"
+  ],
+  "automatic_execution": false,
+  "claude_review_requested": "Review and improve this selection rule through existing manual task; no Claude result yet verified",
+  "price_controls": {
+    "implementation": "price-controls/",
+    "review_playbook": "price-challenge/evidence_requirements.json",
+    "method": "Sum quantity\u00d7independent adjusted reference and quantity\u00d7contract price within matched strata; report both base and gross denominators. Identify repeated percentage patterns separately from causal conclusions.",
+    "annualization": "Only observed distinct transactions within an explicit period; no ceiling or estimated-quantity substitution.",
+    "benefit_test": "Separate dated decision-maker relationships, steering evidence and documented return benefit. Price difference alone is insufficient.",
+    "current_seed": "Three provisional retailer candidates; no qualified benchmark or actual excess amount."
+  }
+}

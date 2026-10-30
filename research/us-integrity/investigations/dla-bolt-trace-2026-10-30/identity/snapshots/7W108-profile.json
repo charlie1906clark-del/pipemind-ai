@@ -1,0 +1,23 @@
+{
+  "name": "SUBURBAN BOLT & SUPPLY CO",
+  "alternate_names": [
+    "SUBURBAN BOLT AND SUPPLY COMPANY",
+    "SUBURBAN BOLT AND SUPPLY COMPANY INC",
+    "SUBURBAN BOLT AND SUPPLY COMPANY INCORPORATED"
+  ],
+  "duns": "054685078",
+  "uei": "JE5NG1MWNU77",
+  "recipient_id": "f3ee792f-00ef-e3de-8f7f-8cb4be2725c7-C",
+  "recipient_level": "C",
+  "parent_id": "f3ee792f-00ef-e3de-8f7f-8cb4be2725c7-P",
+  "parent_name": "SUBURBAN BOLT & SUPPLY CO",
+  "parent_duns": "054685078",
+  "parent_uei": "JE5NG1MWNU77",
+  "location": {
+    "state_code": "MI",
+    "country_code": "USA"
+  },
+  "business_structure_types": [
+    "corporate_entity_not_tax_exempt"
+  ]
+}

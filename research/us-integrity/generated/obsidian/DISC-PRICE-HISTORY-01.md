@@ -56,4 +56,5 @@ This note records supplied sources; it does not independently establish fraud.
 
 ## Backlinks
 
+- [[BOLT-RECONCILIATION-SPE4A626V138W]]: checks_prior_history_row — documented_fact (BOLT-E-eeedfd677ca07ca6b6c8)
 - [[DISC-20261030]]: records_observation — documented_fact (DISC-E-315c09564dd022c0d201)

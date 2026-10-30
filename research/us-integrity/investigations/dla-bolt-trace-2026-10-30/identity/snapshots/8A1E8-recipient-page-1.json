@@ -1,0 +1,29 @@
+{
+  "page_metadata": {
+    "page": 1,
+    "total": 2,
+    "limit": 1000,
+    "next": null,
+    "previous": null,
+    "hasNext": false,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "id": "b8231930-323b-d449-de43-51bb4faecfc7-P",
+      "duns": "363339602",
+      "uei": "KJGWN783BNB5",
+      "name": "KAREN CARLISLE",
+      "recipient_level": "P",
+      "amount": 362144.89
+    },
+    {
+      "id": "b8231930-323b-d449-de43-51bb4faecfc7-C",
+      "duns": "363339602",
+      "uei": "KJGWN783BNB5",
+      "name": "KAREN CARLISLE",
+      "recipient_level": "C",
+      "amount": 362144.89
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "contract": "SPE4A626D61WS",
+    "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+    "url_derivation": "Known award date formatted DDMMMYY and exact PIID, using observed public DIBBS award-document route; unconfirmed posting-date component",
+    "retrieved_at_utc": "2026-10-30T11:30:13.956823+00:00",
+    "requests": [
+      {
+        "method": "GET",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "final_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF"
+      },
+      {
+        "method": "POST public notice consent",
+        "status": 200,
+        "content_type": "application/pdf; charset=ISO-8859-1",
+        "final_url": "https://dibbs2.bsm.dla.mil/dodwarning.aspx?goto=%2fdownloads%2fawards%2f17sep26%2fspe4a626d61ws.pdf"
+      }
+    ],
+    "hidden_form_values_retained": false,
+    "snapshot_sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0",
+    "bytes": 496971,
+    "result": "pdf_acquired",
+    "date_and_key_discovery": "Initially secondary discovery; original PDF identifier/date fields subsequently verified.",
+    "not_an_absence_finding": true,
+    "local_unpublished_snapshot": "SPE4A626D61WS.pdf",
+    "original_pdf_archived_in_public_repo": false,
+    "public_selected_artifacts": "../selected_manifest.json",
+    "document_identifiers_verified": true
+  },
+  {
+    "contract": "SPE4A626D61WSSPE4A627F0588",
+    "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/19OCT26/SPE4A626D61WSSPE4A627F0588.PDF",
+    "url_derivation": "Known award date formatted DDMMMYY and exact PIID, using observed public DIBBS award-document route; unconfirmed posting-date component",
+    "retrieved_at_utc": "2026-10-30T11:30:13.957630+00:00",
+    "requests": [
+      {
+        "method": "GET",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "final_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/19OCT26/SPE4A626D61WSSPE4A627F0588.PDF"
+      },
+      {
+        "method": "POST public notice consent",
+        "status": 200,
+        "content_type": "application/pdf; charset=ISO-8859-1",
+        "final_url": "https://dibbs2.bsm.dla.mil/dodwarning.aspx?goto=%2fdownloads%2fawards%2f19oct26%2fspe4a626d61wsspe4a627f0588.pdf"
+      }
+    ],
+    "hidden_form_values_retained": false,
+    "snapshot_sha256": "3360e103d973fd70d38d2baebc1aa47644cd3806822bc8393fb5db99bcbbc4ef",
+    "bytes": 263226,
+    "result": "pdf_acquired",
+    "date_and_key_discovery": "Initially secondary discovery; original PDF identifier/date fields subsequently verified.",
+    "not_an_absence_finding": true,
+    "local_unpublished_snapshot": "SPE4A626D61WSSPE4A627F0588.pdf",
+    "original_pdf_archived_in_public_repo": false,
+    "public_selected_artifacts": "../selected_manifest.json",
+    "document_identifiers_verified": true
+  }
+]

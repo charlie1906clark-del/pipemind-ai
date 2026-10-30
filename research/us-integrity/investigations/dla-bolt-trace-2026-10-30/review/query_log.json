@@ -1,0 +1,56 @@
+{
+  "as_of": "2026-10-30",
+  "limits": {
+    "search_queries_max": 6,
+    "public_reads_max": 12
+  },
+  "search_queries_used": 3,
+  "direct_public_opens_used": 4,
+  "entries": [
+    {
+      "kind": "open",
+      "target": "https://nsnexplorer.com/nsn/5306-01-686-4912/",
+      "result": "secondary_page_read",
+      "source_id": "BR-S02"
+    },
+    {
+      "kind": "open",
+      "target": "https://www.acquisition.gov/far/15.404-1",
+      "result": "official_page_read",
+      "source_id": "BR-S03"
+    },
+    {
+      "kind": "search",
+      "query": "site.asme.org B18.24 part identifying number code system standard",
+      "result": "issuer source and indexed title-page excerpt",
+      "source_ids": [
+        "BR-S04",
+        "BR-S05"
+      ]
+    },
+    {
+      "kind": "independent_api_spotcheck",
+      "target": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626V138W_9700_-NONE-_-NONE-/",
+      "result": "matched_producer_selected_fields",
+      "snapshot_manifest": "spotchecks/manifest.json"
+    },
+    {
+      "kind": "independent_api_spotcheck",
+      "target": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A625V4508_9700_-NONE-_-NONE-/",
+      "result": "matched_producer_selected_fields",
+      "snapshot_manifest": "spotchecks/manifest.json"
+    },
+    {
+      "kind": "search",
+      "query": "site.usaspending.gov Department Defense 90 day delay contract data",
+      "result": "official current profile notice and official explanatory PDF indexed",
+      "source_id": "BR-S08"
+    },
+    {
+      "kind": "search",
+      "query": "site.fsd.gov defense contract awards 90 days delay public FPDS",
+      "result": "no additional usable source retained"
+    }
+  ],
+  "additional_network_acquisition": true
+}

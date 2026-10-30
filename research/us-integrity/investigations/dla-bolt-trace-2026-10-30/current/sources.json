@@ -1,0 +1,52 @@
+{
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "id": "BOLT-CUR-S01",
+      "title": "SPE4A626D61WS original DLA award/order",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+      "publication_date": "2026-09-17",
+      "accessed_at": "2026-10-30",
+      "source_kind": "primary_official",
+      "retrieval_status": "acquired_and_visually_checked",
+      "original_pdf_sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0",
+      "original_pdf_archived_in_public_repo": false,
+      "selected_manifest": "selected_manifest.json",
+      "locator": "Parent p1: date/CAGE; p2: ceiling/estimate/conditional minimum/order limits; p5: NSN, priced CLIN, USD, EA, QUP and delivery"
+    },
+    {
+      "id": "BOLT-CUR-S02",
+      "title": "SPE4A626D61WSSPE4A627F0588 original DLA award/order",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/19OCT26/SPE4A626D61WSSPE4A627F0588.PDF",
+      "publication_date": "2026-10-19",
+      "accessed_at": "2026-10-30",
+      "source_kind": "primary_official",
+      "retrieval_status": "acquired_and_visually_checked",
+      "original_pdf_sha256": "3360e103d973fd70d38d2baebc1aa47644cd3806822bc8393fb5db99bcbbc4ef",
+      "original_pdf_archived_in_public_repo": false,
+      "selected_manifest": "selected_manifest.json",
+      "locator": "p1 date/CAGE/total; p2 parent linkage, NSN, quantity, UI, unit price, line total and delivery"
+    },
+    {
+      "id": "BOLT-CUR-S03",
+      "title": "USAspending About the Data",
+      "url": "https://www.usaspending.gov/data/about-the-data-download.pdf",
+      "publication_date": "2026-10-06",
+      "accessed_at": "2026-10-30",
+      "source_kind": "primary_official",
+      "retrieval_status": "web_pdf_read",
+      "locator": "p11 and p15: DoD/USACE90-day procurement publication delay; Files C/D1 affected",
+      "original_pdf_archived_in_public_repo": false
+    },
+    {
+      "id": "BOLT-CUR-S04",
+      "title": "USAspending official API search filters",
+      "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+      "accessed_at": "2026-10-30",
+      "source_kind": "primary_official_documentation",
+      "retrieval_status": "read",
+      "locator": "Award ID and Award Type sections; unquoted award_ids may match fuzzily",
+      "original_bytes_archived": false
+    }
+  ]
+}

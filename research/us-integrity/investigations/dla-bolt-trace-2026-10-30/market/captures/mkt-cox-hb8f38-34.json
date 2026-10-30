@@ -1,0 +1,63 @@
+{
+  "id": "MKT-COX-HB8F38-34",
+  "source_id": "MKT-SRC-COX",
+  "observed_date": "2026-10-30",
+  "source_capture_kind": "structured_factual_extract_from_opened_page",
+  "original_html_archived": false,
+  "seller": "Cox Hardware and Lumber",
+  "sku": "HB8F38.34",
+  "specifications": {
+    "diameter_in": 0.375,
+    "threads_per_inch": 24,
+    "length_in": 0.75,
+    "head_style": "hex",
+    "grade": "8",
+    "material": "steel",
+    "finish": "yellow zinc",
+    "nsn_crosswalk_primary": false,
+    "thread_series": "fine/UNF suggested by 3/8-24; not universally explicit",
+    "thread_class": null,
+    "thread_direction": null,
+    "finish_standard": null,
+    "finish_thickness": null,
+    "country_of_manufacture": null,
+    "government_packaging_compliance": null,
+    "lot_traceability_included": null,
+    "certification_included": null,
+    "full_thread": null
+  },
+  "price": {
+    "currency_display": "$",
+    "currency_interpretation": "USD inferred from US merchant; ISO currency not explicit",
+    "selling_uom": "EA",
+    "pack_quantity": null,
+    "tiers": [
+      {
+        "minimum_units": 1,
+        "maximum_units": 99,
+        "price_per_unit": "0.590"
+      },
+      {
+        "minimum_units": 100,
+        "maximum_units": 499,
+        "price_per_unit": "0.413"
+      },
+      {
+        "minimum_units": 500,
+        "maximum_units": null,
+        "price_per_unit": "0.384"
+      }
+    ],
+    "freight_included": null,
+    "tax_included": null,
+    "price_as_of": "2026-10-30",
+    "publication_date": null
+  },
+  "availability": {
+    "available_units": 62,
+    "on_order_units": 0,
+    "item_specific": true,
+    "units_906_available": false
+  },
+  "offer_status": "test_site_catalog_reference_only"
+}

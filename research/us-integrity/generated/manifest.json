@@ -1,12 +1,12 @@
 {
   "as_of": "2026-10-30",
-  "edges": 2348,
-  "graph_sha256": "4951333d469aee5721cb58f9ceafbd3f159de595a0306741cb077a55fcd1f70f",
+  "edges": 3148,
+  "graph_sha256": "f9fab2edf7ed8624cc24e89b30f56210a43d421a3bd935ab46f9416964d7ac5b",
   "hash_scope": "canonical supplied JSON, not downloaded source content",
-  "nodes": 1020,
-  "obsidian_notes": 1020,
+  "nodes": 1219,
+  "obsidian_notes": 1219,
   "public_export": true,
-  "sources": 294,
+  "sources": 367,
   "tasks_imported": 24,
   "version": "1.0"
 }

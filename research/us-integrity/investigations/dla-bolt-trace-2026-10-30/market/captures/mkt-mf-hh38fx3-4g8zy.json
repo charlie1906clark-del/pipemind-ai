@@ -1,0 +1,50 @@
+{
+  "id": "MKT-MF-HH38FX3-4G8ZY",
+  "source_id": "MKT-SRC-MF",
+  "observed_date": "2026-10-30",
+  "source_capture_kind": "structured_factual_extract_from_opened_page",
+  "original_html_archived": false,
+  "seller": "MF Supply",
+  "sku": "HH38FX3/4G8ZY",
+  "specifications": {
+    "diameter_in": 0.375,
+    "threads_per_inch": 24,
+    "length_in": 0.75,
+    "head_style": "hex",
+    "grade": "8",
+    "material": "steel",
+    "finish": "yellow zinc",
+    "nsn_crosswalk_primary": false,
+    "thread_series": "fine/UNF suggested by 3/8-24; not universally explicit",
+    "thread_class": null,
+    "thread_direction": null,
+    "finish_standard": null,
+    "finish_thickness": null,
+    "country_of_manufacture": null,
+    "government_packaging_compliance": null,
+    "lot_traceability_included": null,
+    "certification_included": null,
+    "full_thread": null,
+    "dimensional_standard": "ASME B18.2.1",
+    "material_standard": "SAE J429"
+  },
+  "price": {
+    "currency_display": "$",
+    "currency_interpretation": "USD inferred from US merchant and US-only online shipping; ISO currency not explicit",
+    "selling_uom": "box",
+    "pack_quantity": null,
+    "displayed_box_price": "328.91",
+    "displayed_piece_price": "0.29901",
+    "normalized_unit_price": null,
+    "freight_included": null,
+    "tax_included": null,
+    "price_as_of": "2026-10-30",
+    "publication_date": null
+  },
+  "availability": {
+    "available_boxes": 7,
+    "item_specific": true,
+    "units_906_available": null
+  },
+  "offer_status": "posted_catalog_offer_subject_to_seller_acceptance"
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "relationships": [
+    {
+      "id": "BI-REL-AWARD-SPE4A626P5931",
+      "source": "SPE4A626P5931",
+      "target": "BI-ENTITY-0NFB8",
+      "relationship": "source_reports_award_recipient",
+      "effective_date": "2025-11-14",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A626P5931"
+      ],
+      "ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-CAGE-0NFB8",
+      "source": "CAGE:0NFB8",
+      "target": "UEI:JEJSN59MQVK3",
+      "relationship": "current_registry_crosswalk",
+      "observed_on": "2026-10-30",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-CAGE-0NFB8"
+      ],
+      "historical_validity_inferred": false
+    },
+    {
+      "id": "BI-REL-PARENT-0NFB8",
+      "source": "BI-ENTITY-0NFB8",
+      "target": "UEI:JEJSN59MQVK3",
+      "relationship": "source_reports_parent",
+      "observed_on": "2026-10-30",
+      "status": "source_reported_reporting_hierarchy",
+      "source_ids": [
+        "BI-S-PROFILE-0NFB8"
+      ],
+      "beneficial_ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-ALIAS-0NFB8-1",
+      "source": "BI-ENTITY-0NFB8",
+      "target": "DIALOGIC CORP.",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-0NFB8"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-ALIAS-0NFB8-2",
+      "source": "BI-ENTITY-0NFB8",
+      "target": "DIALOGIC CORPORATION",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-0NFB8"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-AWARD-SPE4A625PK654",
+      "source": "SPE4A625PK654",
+      "target": "BI-ENTITY-51Y73",
+      "relationship": "source_reports_award_recipient",
+      "effective_date": "2025-03-24",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A625PK654"
+      ],
+      "ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-CAGE-51Y73",
+      "source": "CAGE:51Y73",
+      "target": "UEI:US4BABY42KV8",
+      "relationship": "current_registry_crosswalk",
+      "observed_on": "2026-10-30",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-CAGE-51Y73"
+      ],
+      "historical_validity_inferred": false
+    },
+    {
+      "id": "BI-REL-PARENT-51Y73",
+      "source": "BI-ENTITY-51Y73",
+      "target": "UEI:US4BABY42KV8",
+      "relationship": "source_reports_parent",
+      "observed_on": "2026-10-30",
+      "status": "source_reported_reporting_hierarchy",
+      "source_ids": [
+        "BI-S-PROFILE-51Y73"
+      ],
+      "beneficial_ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-ALIAS-51Y73-1",
+      "source": "BI-ENTITY-51Y73",
+      "target": "CASCADE NUT & BOLT  INC",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-51Y73"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-ALIAS-51Y73-2",
+      "source": "BI-ENTITY-51Y73",
+      "target": "CASCADE NUT & BOLT INC",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-51Y73"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-ALIAS-51Y73-3",
+      "source": "BI-ENTITY-51Y73",
+      "target": "CASCADE NUT & BOLT INC.",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-51Y73"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-AWARD-SPE4A626V138W",
+      "source": "SPE4A626V138W",
+      "target": "BI-ENTITY-6ZF42",
+      "relationship": "source_reports_award_recipient",
+      "effective_date": "2026-05-26",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A626V138W"
+      ],
+      "ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-AWARD-SPE4A625V208Q",
+      "source": "SPE4A625V208Q",
+      "target": "BI-ENTITY-6ZF42",
+      "relationship": "source_reports_award_recipient",
+      "effective_date": "2025-04-30",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A625V208Q"
+      ],
+      "ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-CAGE-6ZF42",
+      "source": "CAGE:6ZF42",
+      "target": "UEI:GWEEKJ2PNL45",
+      "relationship": "current_registry_crosswalk",
+      "observed_on": "2026-10-30",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-CAGE-6ZF42"
+      ],
+      "historical_validity_inferred": false
+    },
+    {
+      "id": "BI-REL-PARENT-6ZF42",
+      "source": "BI-ENTITY-6ZF42",
+      "target": "UEI:GWEEKJ2PNL45",
+      "relationship": "source_reports_parent",
+      "observed_on": "2026-10-30",
+      "status": "source_reported_reporting_hierarchy",
+      "source_ids": [
+        "BI-S-PROFILE-6ZF42"
+      ],
+      "beneficial_ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-ALIAS-6ZF42-1",
+      "source": "BI-ENTITY-6ZF42",
+      "target": "BUTT  FAREED AHMAD",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-6ZF42"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-ALIAS-6ZF42-2",
+      "source": "BI-ENTITY-6ZF42",
+      "target": "BUTT, FAREED AHMAD",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-6ZF42"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-AWARD-SPE4A625V346U",
+      "source": "SPE4A625V346U",
+      "target": "BI-ENTITY-7W108",
+      "relationship": "source_reports_award_recipient",
+      "effective_date": "2025-06-16",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A625V346U"
+      ],
+      "ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-CAGE-7W108",
+      "source": "CAGE:7W108",
+      "target": "UEI:JE5NG1MWNU77",
+      "relationship": "current_registry_crosswalk",
+      "observed_on": "2026-10-30",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-CAGE-7W108"
+      ],
+      "historical_validity_inferred": false
+    },
+    {
+      "id": "BI-REL-PARENT-7W108",
+      "source": "BI-ENTITY-7W108",
+      "target": "UEI:JE5NG1MWNU77",
+      "relationship": "source_reports_parent",
+      "observed_on": "2026-10-30",
+      "status": "source_reported_reporting_hierarchy",
+      "source_ids": [
+        "BI-S-PROFILE-7W108"
+      ],
+      "beneficial_ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-ALIAS-7W108-1",
+      "source": "BI-ENTITY-7W108",
+      "target": "SUBURBAN BOLT AND SUPPLY COMPANY",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-7W108"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-ALIAS-7W108-2",
+      "source": "BI-ENTITY-7W108",
+      "target": "SUBURBAN BOLT AND SUPPLY COMPANY INC",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-7W108"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-ALIAS-7W108-3",
+      "source": "BI-ENTITY-7W108",
+      "target": "SUBURBAN BOLT AND SUPPLY COMPANY INCORPORATED",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-7W108"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-AWARD-SPE4A625V252D",
+      "source": "SPE4A625V252D",
+      "target": "BI-ENTITY-8A1E8",
+      "relationship": "source_reports_award_recipient",
+      "effective_date": "2025-05-16",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A625V252D"
+      ],
+      "ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-AWARD-SPE4A625V4508",
+      "source": "SPE4A625V4508",
+      "target": "BI-ENTITY-8A1E8",
+      "relationship": "source_reports_award_recipient",
+      "effective_date": "2024-12-04",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A625V4508"
+      ],
+      "ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-CAGE-8A1E8",
+      "source": "CAGE:8A1E8",
+      "target": "UEI:KJGWN783BNB5",
+      "relationship": "current_registry_crosswalk",
+      "observed_on": "2026-10-30",
+      "status": "documented_source_relationship",
+      "source_ids": [
+        "BI-S-CAGE-8A1E8"
+      ],
+      "historical_validity_inferred": false
+    },
+    {
+      "id": "BI-REL-PARENT-8A1E8",
+      "source": "BI-ENTITY-8A1E8",
+      "target": "UEI:KJGWN783BNB5",
+      "relationship": "source_reports_parent",
+      "observed_on": "2026-10-30",
+      "status": "source_reported_reporting_hierarchy",
+      "source_ids": [
+        "BI-S-PROFILE-8A1E8"
+      ],
+      "beneficial_ownership_inferred": false
+    },
+    {
+      "id": "BI-REL-ALIAS-8A1E8-1",
+      "source": "BI-ENTITY-8A1E8",
+      "target": "CARLISLE  KAREN",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-8A1E8"
+      ],
+      "independent_legal_name_history_verified": false
+    },
+    {
+      "id": "BI-REL-ALIAS-8A1E8-2",
+      "source": "BI-ENTITY-8A1E8",
+      "target": "CARLISLE, KAREN",
+      "relationship": "source_reports_alternate_name",
+      "observed_on": "2026-10-30",
+      "effective_date": null,
+      "status": "source_reported_alias",
+      "source_ids": [
+        "BI-S-PROFILE-8A1E8"
+      ],
+      "independent_legal_name_history_verified": false
+    }
+  ]
+}

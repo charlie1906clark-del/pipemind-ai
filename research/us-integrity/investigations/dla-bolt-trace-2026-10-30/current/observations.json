@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "nsn": "5306016864912",
+  "parent": {
+    "contract": "SPE4A626D61WS",
+    "award_date": "2026-09-17",
+    "contractor_cage": "8A1E8",
+    "reported_business_name": "KAREN CARLISLE",
+    "source_id": "BOLT-CUR-S01",
+    "source_pages": [
+      1,
+      2,
+      5
+    ],
+    "clin": "0001",
+    "unit_of_issue": "EA",
+    "unit_price": "0.91000",
+    "currency": "USD",
+    "base_line_quantity_as_printed": "0.000",
+    "base_line_quantity_is_purchased_quantity": false,
+    "contract_ceiling": "350000.00",
+    "estimated_annual_quantity": "2221.000",
+    "estimate_is_order": false,
+    "guaranteed_minimum_quantity": "222",
+    "guaranteed_minimum_condition": "Unilateral IDC becomes binding after an order and acceptable performance; completion not verified",
+    "minimum_delivery_order_quantity": "1",
+    "delivery_days": "76",
+    "quantity_per_unit_pack": "001",
+    "inspection": "DESTINATION",
+    "acceptance": "DESTINATION",
+    "technical_reference": "TDP Rev A Gen 1; IAW BASIC NON GOVT STD ASMEB18.24 dated10/16/2023",
+    "payment_verified": false
+  },
+  "child_order": {
+    "contract": "SPE4A627F0588",
+    "parent_contract": "SPE4A626D61WS",
+    "order_date": "2026-10-19",
+    "contractor_cage": "8A1E8",
+    "reported_business_name": "KAREN CARLISLE",
+    "source_id": "BOLT-CUR-S02",
+    "source_pages": [
+      1,
+      2
+    ],
+    "clin": "0001",
+    "basic_reference_clin": "0001",
+    "quantity": "906.000",
+    "unit_of_issue": "EA",
+    "unit_price": "0.9100",
+    "currency": "USD",
+    "currency_basis": "DOLLAR VALUE heading and linked parent CLIN explicit USD",
+    "order_line_total": "824.46",
+    "measure": "ordered_line_value_not_verified_payment",
+    "delivery_date": "2027-01-04",
+    "inspection": "DESTINATION",
+    "acceptance": "DESTINATION",
+    "fob": "ORIGIN",
+    "fob_payment_method": "GOVERNMENT",
+    "arithmetic": {
+      "expression": "906.000 * 0.9100",
+      "result": "824.4600000",
+      "equals_order_line_total": true
+    },
+    "delivery_verified": false,
+    "receipt_or_acceptance_verified": false,
+    "payment_verified": false,
+    "all_orders_under_parent_acquired": false
+  },
+  "term_changes_from_rfq": {
+    "reference_rfq": "SPE4A626U3619",
+    "minimum_delivery_order_quantity": {
+      "rfq": "555",
+      "award": "1",
+      "unit": "EA"
+    },
+    "delivery_days": {
+      "rfq": "78",
+      "award": "76"
+    },
+    "meaning": "Terms can change from request to award; original RFQ is not an automatic proxy for executed terms. No misconduct inferred."
+  },
+  "public_database_observation": {
+    "success_queries": [
+      "order-search",
+      "order-id-filter",
+      "idv-id-filter"
+    ],
+    "zero_result_queries": 3,
+    "failed_503_queries": [
+      "order-exact",
+      "idv-exact"
+    ],
+    "false_absence_inference_prohibited": true,
+    "publication_delay_days": 90,
+    "delay_source_id": "BOLT-CUR-S03",
+    "order_age_days": 11,
+    "parent_age_days": 43,
+    "interpretation": "Observed empty responses are compatible with normal publication lag; exact cause is unverified. HTTP503 is a failed retrieval, not an empty result."
+  },
+  "comparison_status": {
+    "parent_child_price_consistent": true,
+    "historical_like_for_like_comparison_verified": false,
+    "ceiling_divided_by_estimate_is_unit_price": false,
+    "price_from_primary_award_and_order": "0.91 USD/EA",
+    "fraud_established": false,
+    "loss_calculated": false,
+    "reward_assessed": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "id": "BOLT-SPEC-DLA-READINGROOM",
+      "url": "https://www.dla.mil/Information-Operations/FLIS-Data-Electronic-Reading-Room/PUBLOGFLISSearchDownloadInstr/",
+      "retrieved_on": "2026-10-30",
+      "retrieval": "Official search-index text available; direct webpage403; not archived webpage bytes",
+      "supports": "Monthly CSV product route and characteristics/reference descriptions; not exact NSN record",
+      "web_ref": "turn236search0"
+    },
+    {
+      "id": "BOLT-SPEC-DLA-PUBLOG",
+      "url": "https://www.dla.mil/Information-Operations/Services/Applications/PUB-LOG/ProceduresManuals/",
+      "retrieved_on": "2026-10-30",
+      "retrieval": "Official search-index text supplied public archive link; direct page403",
+      "supports": "Provenance of public PublogDVD.zip link; not exact NSN record",
+      "web_ref": "turn230search1"
+    },
+    {
+      "id": "BOLT-SPEC-DLA-ARCHIVE",
+      "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+      "retrieved_on": "2026-10-30",
+      "retrieval": "HEAD200 and normal GET206 ranges; metadata, completeTOOLS/README.TXT and partialV_CHARACTERISTICS.TAB prefix",
+      "supports": "Actual archive member inventory and documented DECOMP extraction route; no NSN record acquired",
+      "archive_complete": false,
+      "original_archive_sha256": null,
+      "etag": "0x8DF35B01E6D741A",
+      "last_modified": "Thu, 29 Oct 2026 11:31:05 GMT",
+      "archive_bytes": 1617404308
+    },
+    {
+      "id": "BOLT-SPEC-DLA-CSV-LAYOUT",
+      "url": "https://www.dla.mil/Portals/104/Documents/InformationOperations/LogisticsInformationServices/FOIA/PUBLOG/Characteristics%20FOIA%20Layout.pdf?ver=5V2FBD90HKVqCMMpG8_NUA%3D%3D",
+      "retrieved_on": "2026-10-30",
+      "retrieval": "Official indexed PDF text; complete PDF not acquired in this lane",
+      "supports": "CSV characteristics layout NIIN,MRC,REQUIREMENTS_STATEMENT,CLEAR_TEXT_REPLY; no exact NSN record",
+      "web_ref": "turn236search3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "page_metadata": {
+    "page": 1,
+    "total": 2,
+    "limit": 1000,
+    "next": null,
+    "previous": null,
+    "hasNext": false,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "id": "d1cd4996-edc1-13ae-62f8-61565174116a-C",
+      "duns": "079115653",
+      "uei": "GWEEKJ2PNL45",
+      "name": "BUTT FAREED AHMAD",
+      "recipient_level": "C",
+      "amount": 642510.76
+    },
+    {
+      "id": "d1cd4996-edc1-13ae-62f8-61565174116a-P",
+      "duns": "079115653",
+      "uei": "GWEEKJ2PNL45",
+      "name": "BUTT FAREED AHMAD",
+      "recipient_level": "P",
+      "amount": 642510.76
+    }
+  ]
+}

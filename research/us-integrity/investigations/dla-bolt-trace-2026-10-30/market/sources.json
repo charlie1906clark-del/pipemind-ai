@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "observed_date": "2026-10-30",
+  "capture_policy": "Only selected numeric/specification fact records retained for the three product pages. Hashes cover these derivative JSON captures, not original website bytes. Terms are summarized, not mirrored. Web retrieval and search-index crawl dates do not establish historical quote validity.",
+  "government_source_reuse": "../current/sources.json and ../current/selected_manifest.json",
+  "spec_source_route": "spec-crosswalk.json",
+  "sources": [
+    {
+      "id": "MKT-SRC-COX",
+      "url": "https://aspdotnetstorefront.coxhardware.com/product/713/38-24-hex-bolts-grade-8",
+      "web_ref": "turn221view1",
+      "source_type": "seller_owned_catalog",
+      "selected_lines": "0;75–100",
+      "capture": "captures/mkt-cox-hb8f38-34.json",
+      "evidence_class": "test_site_catalog_reference",
+      "limitations": [
+        "Header says Cox Hardware Test Site.",
+        "Search index and opened document differ in stock; opened document used."
+      ]
+    },
+    {
+      "id": "MKT-SRC-FSS",
+      "url": "https://www.fastenersuperstore.com/products/191377/hex-cap-screws",
+      "web_ref": "turn224view1",
+      "source_type": "seller_owned_catalog",
+      "selected_lines": "2–46",
+      "capture": "captures/mkt-fss-191377.json",
+      "evidence_class": "posted_bulk_catalog_offer"
+    },
+    {
+      "id": "MKT-SRC-MF",
+      "url": "https://www.mfsupply.com/product_p/hh38fx3-fslash-4g8zy.htm",
+      "request_url": "https://www.mfsupply.com/productdetails.php?ProductCode=HH38FX3%2F4G8ZY",
+      "web_ref": "turn227view0",
+      "source_type": "seller_owned_catalog",
+      "selected_lines": "84–120",
+      "capture": "captures/mkt-mf-hh38fx3-4g8zy.json",
+      "evidence_class": "posted_catalog_offer_subject_to_acceptance"
+    },
+    {
+      "id": "MKT-SRC-FSS-STYLE",
+      "url": "https://www.fastenersuperstore.com/product_specs/bolts-hex-cap-grades-five-eight",
+      "web_ref": "turn227view2",
+      "source_type": "seller_linked_generic_specification_pdf",
+      "evidence_class": "generic_specification_not_nsn_crosswalk",
+      "facts": [
+        "References ASME B18.2.1-2012.",
+        "Distinguishes grade5 and grade8; no acquired NSN5306016864912 mapping."
+      ]
+    },
+    {
+      "id": "MKT-SRC-FSS-FINISH",
+      "url": "https://www.fastenersuperstore.com/product_specs/finishes-coatings-plating",
+      "web_ref": "turn227view3",
+      "source_type": "seller_linked_generic_finish_pdf",
+      "evidence_class": "generic_finish_guidance_not_item_certificate",
+      "facts": [
+        "Describes different zinc finishes and coating standards.",
+        "Does not prove exact government-required finish or this item's lot conformity."
+      ]
+    },
+    {
+      "id": "MKT-SRC-FSS-FAQ",
+      "url": "https://www.fastenersuperstore.com/faq",
+      "web_ref": "turn228view0",
+      "source_type": "seller_terms",
+      "selected_lines": "38;51–57;76–96",
+      "facts": [
+        "Products sold in displayed bulk quantities; smaller broken quantities require a separate inquiry.",
+        "Shipping charges depend on weight and destination.",
+        "Typical deliveries1–4days, not this item's guaranteed delivery.",
+        "Main office Downers Grove, Illinois."
+      ]
+    },
+    {
+      "id": "MKT-SRC-FSS-TERMS",
+      "url": "https://www.fastenersuperstore.com/terms",
+      "web_ref": "turn228view1",
+      "source_type": "seller_terms",
+      "selected_lines": "18–21;36",
+      "facts": [
+        "Availability statement is site-wide rather than an item-specific stock promise.",
+        "Default shipping is UPS Ground, FOB seller warehouses.",
+        "Reseller returns carry stated restrictions."
+      ]
+    },
+    {
+      "id": "MKT-SRC-MF-SHIPPING",
+      "url": "https://www.mfsupply.com/Articles.php?ID=287",
+      "web_ref": "turn228view2",
+      "source_type": "seller_terms",
+      "selected_lines": "80–89",
+      "facts": [
+        "Online orders ship only to USA addresses.",
+        "General dispatch estimate1–2days; stock and warehouse determine source.",
+        "Expedited shipment can cost extra."
+      ]
+    },
+    {
+      "id": "MKT-SRC-MF-TERMS",
+      "url": "https://www.mfsupply.com/terms.php",
+      "web_ref": "turn228view3",
+      "source_type": "seller_terms",
+      "selected_lines": "82–95;120–121",
+      "facts": [
+        "Orders require seller acceptance, and erroneous pricing may be corrected.",
+        "Testing, inspection, quality, certification and documentation requirements require written acceptance.",
+        "Stock and lead times may change."
+      ]
+    }
+  ]
+}

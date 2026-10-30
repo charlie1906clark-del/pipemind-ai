@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "budget": {
+    "search_queries_limit": 12,
+    "web_document_attempts_limit": 25,
+    "market_agent_search_queries": 6,
+    "crosswalk_agent_search_queries": 4,
+    "total_search_queries": 10,
+    "market_agent_web_document_attempts": 17,
+    "crosswalk_agent_web_document_attempts": 5,
+    "total_web_document_attempts": 22,
+    "local_prior_evidence_reads": "Reported separately; reused current observations and selected parent page5. Crosswalk agent read2local sources."
+  },
+  "search_queries": [
+    {
+      "id": "MQ1",
+      "engine": "system2",
+      "query": "\"AEB02F375750WA6DG1\"",
+      "status": "secondary specification leads only"
+    },
+    {
+      "id": "MQ2",
+      "engine": "system2",
+      "query": "\"3/8-24\" \"3/4\" \"Grade 8\" bolt price zinc",
+      "status": "supplier catalog discovery"
+    },
+    {
+      "id": "MQ3",
+      "engine": "system2",
+      "query": "\"3/8-24\" \"3/4\" \"Grade 8\" \"$\" bolt zinc yellow buy",
+      "status": "supplier catalog discovery",
+      "refs": [
+        "turn222search1",
+        "turn222search6",
+        "turn222search11"
+      ]
+    },
+    {
+      "id": "MQ4",
+      "engine": "system2",
+      "query": "\"3/8-24 x 3/4\" \"Grade 8\" price bolt",
+      "status": "supplier catalog discovery"
+    },
+    {
+      "id": "MQ5",
+      "engine": "system1",
+      "query": "\"3/8-24 x 3/4\" \"Grade 8\" zinc price -site:boltdepot.com -site:coxhardware.com -site:fastenersdirect.com -site:fastenersuperstore.com",
+      "status": "stronger supplier coverage",
+      "refs": [
+        "turn226search4",
+        "turn226search5"
+      ]
+    },
+    {
+      "id": "MQ6",
+      "engine": "system1",
+      "query": "\"3/8-24\" \"3/4\" \"zinc\" bolt \"$\" \"each\" -site:boltdepot.com -site:coxhardware.com -site:fastenersdirect.com -site:fastenersuperstore.com",
+      "status": "stronger supplier coverage"
+    }
+  ],
+  "document_attempts": [
+    {
+      "id": "MD1",
+      "url": "https://boltdepot.com/Product-Details?product=743",
+      "status": "initial three-document tool result was truncated; no observation adopted"
+    },
+    {
+      "id": "MD2",
+      "url": "https://aspdotnetstorefront.coxhardware.com/product/713/38-24-hex-bolts-grade-8",
+      "status": "initial three-document tool result was truncated; repeated targeted retrieval"
+    },
+    {
+      "id": "MD3",
+      "url": "https://ecommerce.fastenersdirect.com/details/item?itemid=F-44161",
+      "status": "initial three-document tool result was truncated; no observation adopted"
+    },
+    {
+      "id": "MD4",
+      "url": "https://boltdepot.com/Product-Details?product=743",
+      "ref": "turn221view0",
+      "status": "403; no quote adopted"
+    },
+    {
+      "id": "MD5",
+      "url": "https://aspdotnetstorefront.coxhardware.com/product/713/38-24-hex-bolts-grade-8",
+      "ref": "turn221view1",
+      "status": "success; test-site caveat"
+    },
+    {
+      "id": "MD6",
+      "url": "https://ecommerce.fastenersdirect.com/details/item?itemid=F-44161",
+      "ref": "turn221view2",
+      "status": "redirect destination inaccessible; no quote adopted"
+    },
+    {
+      "id": "MD7",
+      "url": "https://boltdepot.com/BrowseList?F_Drive_type=External_hex&F_Grade=Grade_8&F_Length=3%2F4%22&Page=0",
+      "ref": "turn224view0",
+      "status": "403; no quote adopted"
+    },
+    {
+      "id": "MD8",
+      "url": "https://www.fastenersuperstore.com/products/191377/hex-cap-screws",
+      "ref": "turn224view1",
+      "status": "success"
+    },
+    {
+      "id": "MD9",
+      "url": "https://www.fastenersdirect.com/details/item?itemid=F-44161",
+      "ref": "turn224view2",
+      "status": "inaccessible; no quote adopted"
+    },
+    {
+      "id": "MD10",
+      "url": "https://www.mfsupply.com/productdetails.php?ProductCode=HH38FX3%2F4G8ZY",
+      "ref": "turn227view0",
+      "status": "success; redirected to canonical product URL"
+    },
+    {
+      "id": "MD11",
+      "url": "https://www.menards.com/main/hardware/fasteners-connectors/bolts/cap-screws-hex-bolts/midwest-fastener-reg-3-8-24-x-3-4-yellow-zinc-grade-8-hex-cap-screw-50-count/00856/p-1444439626722-c-8730.htm",
+      "ref": "turn227view1",
+      "status": "navigation only; no quote adopted"
+    },
+    {
+      "id": "MD12",
+      "url": "https://www.fastenersuperstore.com/product_specs/bolts-hex-cap-grades-five-eight",
+      "ref": "turn227view2",
+      "status": "success; generic specification"
+    },
+    {
+      "id": "MD13",
+      "url": "https://www.fastenersuperstore.com/product_specs/finishes-coatings-plating",
+      "ref": "turn227view3",
+      "status": "success; generic finish reference"
+    },
+    {
+      "id": "MD14",
+      "url": "https://www.fastenersuperstore.com/faq",
+      "ref": "turn228view0",
+      "status": "success"
+    },
+    {
+      "id": "MD15",
+      "url": "https://www.fastenersuperstore.com/terms",
+      "ref": "turn228view1",
+      "status": "success"
+    },
+    {
+      "id": "MD16",
+      "url": "https://www.mfsupply.com/Articles.php?ID=287",
+      "ref": "turn228view2",
+      "status": "success"
+    },
+    {
+      "id": "MD17",
+      "url": "https://www.mfsupply.com/terms.php",
+      "ref": "turn228view3",
+      "status": "success"
+    }
+  ],
+  "crosswalk_queries_and_attempts": "See spec-crosswalk.json; all5official page attempts returned403, and no exact primary catalog lookup completed.",
+  "no_account_or_contact_actions": true,
+  "stop_reason": "Bounded market audit complete: three owned catalog references, two viable provisional seller offers, explicit gaps recorded; root pursuing exact crosswalk separately."
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-30",
+  "source_capture_kind": "independent selected factual observations from freshly opened official or seller-owned web pages",
+  "original_webpage_bytes_archived": false,
+  "sources": [
+    {
+      "source_id": "PC-MKT-S01",
+      "url": "https://aspdotnetstorefront.coxhardware.com/product/713/38-24-hex-bolts-grade-8",
+      "web_ref": "turn235view0",
+      "locator": "page header and SKU HB8F38.34 row",
+      "observed": {
+        "test_site_header": true,
+        "sku": "HB8F38.34",
+        "size": "3/8-24 x 3/4",
+        "grade": "8",
+        "finish": "yellow zinc",
+        "price_unit": "EA",
+        "displayed_price_currency": "$",
+        "price_tiers": [
+          {
+            "minimum": 1,
+            "maximum": 99,
+            "price": "0.590"
+          },
+          {
+            "minimum": 100,
+            "maximum": 499,
+            "price": "0.413"
+          },
+          {
+            "minimum": 500,
+            "maximum": null,
+            "price": "0.384"
+          }
+        ],
+        "available_units": 62,
+        "on_order_units": 0
+      },
+      "decision": "reject_as_executable_906_unit_quote"
+    },
+    {
+      "source_id": "PC-MKT-S02",
+      "url": "https://www.fastenersuperstore.com/products/191377/hex-cap-screws",
+      "web_ref": "turn235view1",
+      "locator": "product details, pricing and part cross-reference",
+      "observed": {
+        "sku": "191377",
+        "size": "3/8-24 x 3/4",
+        "grade": "8",
+        "finish": "zinc yellow",
+        "full_thread": true,
+        "carton_quantity": 1100,
+        "currency_symbol": "$",
+        "carton_prices": [
+          "342.62",
+          "322.47",
+          "304.55"
+        ],
+        "minimum_cartons": [
+          1,
+          3,
+          5
+        ],
+        "displayed_each_prices": [
+          "0.31147",
+          "0.29315",
+          "0.27686"
+        ],
+        "upstream_reference": "Kanebridge 3812CH8O",
+        "item_specific_stock_quantity": null
+      },
+      "decision": "accept_catalog_facts_narrow_to_provisional_comparator"
+    },
+    {
+      "source_id": "PC-MKT-S03",
+      "url": "https://www.mfsupply.com/product_p/hh38fx3-fslash-4g8zy.htm",
+      "request_url": "https://www.mfsupply.com/productdetails.php?ProductCode=HH38FX3%2F4G8ZY",
+      "web_ref": "turn240view0",
+      "failed_direct_open_ref": "turn235view2",
+      "locator": "product prices and details",
+      "observed": {
+        "sku": "HH38FX3/4G8ZY",
+        "size": "3/8-24 x 3/4",
+        "grade": "8",
+        "finish": "zinc yellow",
+        "currency_symbol": "$",
+        "box_price": "328.91",
+        "displayed_piece_price": "0.29901",
+        "boxes_available": 7,
+        "explicit_pack_quantity": null,
+        "reference": "3812CH8O",
+        "standards": [
+          "ASME B18.2.1",
+          "SAE J429"
+        ]
+      },
+      "decision": "accept_displayed_facts_pack_normalization_unresolved"
+    },
+    {
+      "source_id": "PC-MKT-S04",
+      "url": "https://www.mfsupply.com/terms.php",
+      "web_ref": "turn241view0",
+      "locator": "sale terms 1, 1b, 2 and 4",
+      "observed": {
+        "orders_require_seller_acceptance": true,
+        "certification_testing_qa_require_disclosure_and_written_acceptance": true,
+        "stock_and_lead_times_subject_to_change": true
+      },
+      "decision": "accept_supply_conditions_unresolved"
+    }
+  ],
+  "limits": [
+    "Primary NSN-to-product equivalence not established by these pages.",
+    "Displayed commercial facts do not establish a historical quote, an accepted government-compliant offer or payment.",
+    "No misconduct or benefit finding; catalog comparisons remain unqualified."
+  ]
+}

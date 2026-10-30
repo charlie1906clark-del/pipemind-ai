@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-10-30",
+  "nsn": "5306016864912",
+  "niin": "016864912",
+  "status": "primary_item_characteristics_not_extracted",
+  "exact_nsn_to_retail_specification_match": null,
+  "verified_item_characteristics": null,
+  "verified_part_number": null,
+  "catalog_reader_route_verified": true,
+  "reader_route": "Official archive TOOLS/README.TXT documents DECOMP SQL table extraction; archive contains V_CHARACTERISTICS.TAB and V_FLIS_PART.TAB. Compatible reader and complete necessary member data still required.",
+  "primary_current_document": "../current/observations.json",
+  "primary_current_limit": "ASME B18.24 cited; exact part-piece number blank. Does not establish retail characteristics.",
+  "archive_scope": "Directory metadata and file-format inspection only. A binary prefix is not an extracted row; no absence inference.",
+  "selected_member_sizes": [
+    {
+      "name": "V_CHARACTERISTICS.TAB",
+      "compressed_bytes": 155515900,
+      "uncompressed_bytes": 306610192,
+      "header_offset": 1037570506,
+      "compression_type": 8,
+      "crc32": "4095fc3e"
+    },
+    {
+      "name": "V_FLIS_PART.TAB",
+      "compressed_bytes": 130989447,
+      "uncompressed_bytes": 187203600,
+      "header_offset": 1360534774,
+      "compression_type": 8,
+      "crc32": "897f6217"
+    }
+  ],
+  "acquisition_decision": "Do not download large opaque tables without a validated compatible parser. Preserve exact route and verify a selected NIIN export, then independently review the match. This is a technical evidence gap, not proof data is private or unavailable.",
+  "next_steps": [
+    "Acquire the DLA CSV Characteristics and Reference products through actual published links, or use the documented official PUB LOG reader to export NIIN016864912.",
+    "Capture export date, source release, exact original record and field definitions; review NSN, revisions and applicability dates.",
+    "Reconcile dimensions, material grade, finish, traceability, packaging and all applicable order terms with seller offers."
+  ],
+  "market_comparability": "still_unresolved"
+}

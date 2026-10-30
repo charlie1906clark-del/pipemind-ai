@@ -1,0 +1,115 @@
+{
+  "as_of": "2026-10-30",
+  "search_budget": 10,
+  "search_queries_used": 10,
+  "queries": [
+    {
+      "id": "BI-Q01",
+      "engine": "system2",
+      "query": "\"6ZF42\" \"0NFB8\"",
+      "useful_reference_ids": [
+        "turn195search2",
+        "turn195search5"
+      ],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q02",
+      "engine": "system2",
+      "query": "\"7W108\" CAGE",
+      "useful_reference_ids": [
+        "turn195search31",
+        "turn195search18"
+      ],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q03",
+      "engine": "system2",
+      "query": "\"8A1E8\" \"51Y73\"",
+      "useful_reference_ids": [
+        "turn195search4"
+      ],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q04",
+      "engine": "system1",
+      "query": "\"6ZF42\" site:gov",
+      "useful_reference_ids": [],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q05",
+      "engine": "system1",
+      "query": "\"8A1E8\" site:gov",
+      "useful_reference_ids": [],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q06",
+      "engine": "system1",
+      "query": "\"0NFB8\" site:gov",
+      "useful_reference_ids": [],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q07",
+      "engine": "system1",
+      "query": "\"51Y73\" site:gov",
+      "useful_reference_ids": [
+        "turn196search0"
+      ],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q08",
+      "engine": "system1",
+      "query": "\"6ZF42\" CAGE \"UEI\"",
+      "useful_reference_ids": [
+        "turn197search0",
+        "turn197search7"
+      ],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q09",
+      "engine": "system1",
+      "query": "\"8A1E8\" CAGE \"UEI\"",
+      "useful_reference_ids": [
+        "turn197search1",
+        "turn197search2"
+      ],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    },
+    {
+      "id": "BI-Q10",
+      "engine": "system1",
+      "query": "\"0NFB8\" \"UEI\"",
+      "useful_reference_ids": [
+        "turn197search4",
+        "turn197search5",
+        "turn197search6"
+      ],
+      "purpose": "Find exact public identifier candidates; all substantive identity crosswalks subsequently checked in official CAGE and USAspending records",
+      "raw_search_results_archived": false
+    }
+  ],
+  "discovery_limit": "The site:gov/domain-filter searches did not yield a reliable relevant official result set. Secondary pages were used as discovery pointers, not official registration or ownership proof.",
+  "unadopted_secondary_parent_assertion": {
+    "url": "https://www.highergov.com/awardee/cascade-nut-bolt-inc-10036785/",
+    "reference_id": "turn196search0",
+    "assertion": "Secondary page lists Derry Enterprises as parent awardee",
+    "status": "unverified_secondary_discovery_pointer_not_beneficial_ownership_fact",
+    "why_not_a_contradiction": "USAspending source-reported hierarchy is not identical to legal or beneficial ownership and may have a different time basis. No current or historical corporate-control claim is established here."
+  }
+}

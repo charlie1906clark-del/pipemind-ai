@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-10-30",
+  "earlier_attempts": [
+    {
+      "url": "https://cage.dla.mil",
+      "method": "web_open",
+      "result": "public usage agreement",
+      "source_ref": "turn201view0"
+    },
+    {
+      "url": "https://cage.dla.mil/Home/UsageAgree",
+      "method": "GET",
+      "result": "HTTP200 public consent form; session not retained"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://cage.dla.mil/Home/UsageAgree",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cage.dla.mil/Home/UsageAgree",
+      "wire_sha256": "929b4fdc053ca868a5cfbed1ba922672e094e83fc15a1c35b63a5f551bfba989",
+      "raw_archived": false,
+      "note": "Session-only response; no cookies, form tokens, or personal contact fields retained."
+    },
+    {
+      "url": "https://cage.dla.mil/Home/UsageAgree",
+      "method": "POST",
+      "status": 200,
+      "final_url": "https://cage.dla.mil/",
+      "wire_sha256": "dd07d5f815b604d1df26a7c672817d29c073b8aec529ff60fe7bba0cb40e80b7",
+      "raw_archived": false,
+      "note": "Session-only response; no cookies, form tokens, or personal contact fields retained."
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cage.dla.mil/Search",
+      "wire_sha256": "29632864e8a5be57350d158457f9a1bee4e6a8d05f0c3ba00219dec75a1cce25",
+      "raw_archived": false,
+      "note": "Session-only response; no cookies, form tokens, or personal contact fields retained."
+    }
+  ]
+}

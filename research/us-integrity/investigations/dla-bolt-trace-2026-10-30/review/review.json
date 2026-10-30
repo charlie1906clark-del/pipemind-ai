@@ -1,0 +1,554 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "reviewer": "bolt_comparison_reviewer",
+  "status": "completed",
+  "public_neutral_graph_decision": "accept_with_recorded_limits",
+  "method": "Independent original-page visual checks, retained-source reconstruction, two live award API spotchecks, Decimal reconciliation and adversarial input tests. No producer modules imported by the independent verification scripts.",
+  "findings": [
+    {
+      "id": "BREV-F01",
+      "decision": "accept",
+      "title": "Original RFQ history and blank quote independently verified",
+      "statement": "Seven manually transcribed history rows match the original PDF; current RFQ line prices remain blank.",
+      "source_ids": [
+        "BR-S01"
+      ],
+      "source_paths": [
+        "review/pdf_review.json",
+        "review/verify_pdf.py"
+      ],
+      "locator": "Original RFQ pp7\u201310 and p2 text",
+      "evidence_limits": "This statement concerns the earlier RFQ, not the later priced award. It establishes no historic CLIN or payment.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F02",
+      "decision": "accept",
+      "title": "Seven official historical award keys reconcile",
+      "statement": "All seven exact PIIDs and signed dates match; each printed quantity\u00d7cost equals the corresponding source-reported current obligation.",
+      "source_ids": [
+        "BR-S01",
+        "BOLT-AWD-SPE4A625PK654",
+        "BOLT-AWD-SPE4A625V208Q",
+        "BOLT-AWD-SPE4A625V252D",
+        "BOLT-AWD-SPE4A625V346U",
+        "BOLT-AWD-SPE4A625V4508",
+        "BOLT-AWD-SPE4A626P5931",
+        "BOLT-AWD-SPE4A626V138W"
+      ],
+      "source_paths": [
+        "awards/capture-success/manifest.json",
+        "review/award_review.json"
+      ],
+      "locator": "Seven exact award-detail snapshots and before/terminal search pages",
+      "evidence_limits": "Numeric consistency is not proof of purchased units, actual cash, delivered quantities or complete modifications.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F03",
+      "decision": "accept",
+      "title": "Current original order establishes USD0.91 per EA",
+      "statement": "Original parent CLIN0001 is USD0.91000/EA; child CLIN0001 orders906EA at0.9100 for824.46, due2027-01-04.",
+      "source_ids": [
+        "BR-S06",
+        "BR-S07"
+      ],
+      "source_paths": [
+        "current/selected_manifest.json",
+        "current/observations.json",
+        "review/current_order_review.json",
+        "review/current_original_inspection.json"
+      ],
+      "locator": "Parent pp2,5\u20136; child pp1\u20132",
+      "evidence_limits": "Ordered amount is not verified delivery, acceptance or payment; original full PDFs are not published.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F04",
+      "decision": "reject_inference",
+      "title": "Secondary 157.5867 unit-price alarm is unsupported",
+      "statement": "The secondary displayed unit price equals350000/2221, but primary records distinguish a350000ceiling from estimated quantity and establish0.91/EA.",
+      "source_ids": [
+        "BR-S01",
+        "BR-S02",
+        "BR-S06",
+        "BR-S07"
+      ],
+      "source_paths": [
+        "review/pdf_review.json",
+        "review/current_order_review.json"
+      ],
+      "locator": "Secondary price table; original RFQ p2, parent p5, child p2",
+      "evidence_limits": "The site internal calculation is uninspected. Reject that unit-price inference; do not attribute misrepresentation to the vendor.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F05",
+      "decision": "reject_inference",
+      "title": "ASME reference does not prove an exclusive supplier list",
+      "statement": "The primary document calls ASMEB18.24 a non-government standard and ASME identifies it as a fastener PIN-code standard.",
+      "source_ids": [
+        "BR-S01",
+        "BR-S02",
+        "BR-S04",
+        "BR-S05",
+        "BR-S06"
+      ],
+      "source_paths": [
+        "review/sources.json"
+      ],
+      "locator": "RFQ p9, parent p5, ASME B18 issuer listing",
+      "evidence_limits": "This does not establish actual historical source approval; a catalog reference and distributor difference alone cannot prove unauthorized supply.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F06",
+      "decision": "accept",
+      "title": "Visible terms changed from RFQ to award",
+      "statement": "Minimum order changes from555EA to1EA and delivery from78to76days; a solicitation is not automatically the executed terms.",
+      "source_ids": [
+        "BR-S01",
+        "BR-S06"
+      ],
+      "source_paths": [
+        "review/comparability_matrix.json",
+        "current/observations.json"
+      ],
+      "locator": "RFQ pp2,10; parent pp2,5",
+      "evidence_limits": "No adverse inference from the change itself; later modifications not comprehensively acquired.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F07",
+      "decision": "accept",
+      "title": "Five supplier identity paths are consistent in retained evidence",
+      "statement": "Five CAGE/UEI/name registry rows, seven dated PIID joins, nine recipient profiles and twelve source-reported aliases reconcile.",
+      "source_ids": [
+        "BI-S-HISTORY",
+        "BI-S-CAGE-0NFB8",
+        "BI-S-CAGE-51Y73",
+        "BI-S-CAGE-6ZF42",
+        "BI-S-CAGE-7W108",
+        "BI-S-CAGE-8A1E8",
+        "BI-S-PROFILE-0NFB8",
+        "BI-S-PROFILE-51Y73",
+        "BI-S-PROFILE-6ZF42",
+        "BI-S-PROFILE-7W108",
+        "BI-S-PROFILE-8A1E8"
+      ],
+      "source_paths": [
+        "identity/entity_records.json",
+        "identity/relationships.json",
+        "review/identity_review.json"
+      ],
+      "locator": "Selected CAGE rows, current recipient profiles and exact historical award keys",
+      "evidence_limits": "Beneficial ownership, legal alias effective dates and historical eligibility remain unknown; reviewer did not repeat all five live CAGE lookups.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F08",
+      "decision": "unresolved",
+      "title": "Historical like-for-like comparison remains blocked",
+      "statement": "The current unit price is verified, but all21historical pairs still lack sufficient historic award-unit, pack, revision and economic terms.",
+      "source_ids": [
+        "BR-S01",
+        "BR-S03"
+      ],
+      "source_paths": [
+        "review/comparability_matrix.json",
+        "awards/observations.json"
+      ],
+      "locator": "Historical table; original historical documents not acquired",
+      "evidence_limits": "Do not transfer current EA/pack/delivery terms backward or count document timeouts as evidence of concealment.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F09",
+      "decision": "reject_inference",
+      "title": "Empty current API searches do not prove a nonexistent award",
+      "statement": "Original current award/order documents were acquired despite empty USAspending queries; official display-lag notice supplies a plausible timing explanation.",
+      "source_ids": [
+        "BR-S06",
+        "BR-S07",
+        "BR-S08"
+      ],
+      "source_paths": [
+        "current/observations.json"
+      ],
+      "locator": "Current query result and failure manifests; original documents",
+      "evidence_limits": "A90-day delay is general portal guidance, not a verified cause of a particular empty result. HTTP503 remains failure, not zero results.",
+      "new_named_adverse_allegation": false
+    },
+    {
+      "id": "BREV-F10",
+      "decision": "unresolved",
+      "title": "No fraud, recoverable loss or paid-invoice conclusion",
+      "statement": "Source-reported competition and declining historical printed costs supply counterevidence to simple price-escalation/sole-source narratives, while acceptance/payment evidence remains missing.",
+      "source_ids": [
+        "BR-S01",
+        "BR-S06",
+        "BR-S07",
+        "BOLT-AWD-SPE4A625PK654",
+        "BOLT-AWD-SPE4A625V208Q",
+        "BOLT-AWD-SPE4A625V252D",
+        "BOLT-AWD-SPE4A625V346U",
+        "BOLT-AWD-SPE4A625V4508",
+        "BOLT-AWD-SPE4A626P5931",
+        "BOLT-AWD-SPE4A626V138W"
+      ],
+      "source_paths": [
+        "review/award_review.json",
+        "review/pdf_review.json",
+        "review/current_original_inspection.json"
+      ],
+      "locator": "Historical source-reported3\u20135offers; child form blank receipt/payment blocks",
+      "evidence_limits": "Reject unsupported adverse conclusions; no claim that these controls prove absence of every possible misconduct.",
+      "new_named_adverse_allegation": false
+    }
+  ],
+  "summary": {
+    "history_rows_checked": 7,
+    "official_historical_award_keys_checked": 7,
+    "independent_live_award_spotchecks": 2,
+    "supplier_identities_checked": 5,
+    "historical_identity_joins": 7,
+    "source_reported_aliases_checked": 12,
+    "current_original_documents_inspected": 2,
+    "current_original_full_pdfs_published": 0,
+    "current_priced_order_lines_verified": 1,
+    "historical_comparable_pairs_approved": 0,
+    "new_fraud_cases_established": 0,
+    "cash_payment_verified": false,
+    "recoverable_loss_established": false
+  },
+  "tests": {
+    "awards_producer_tests": 7,
+    "identity_producer_tests": 4,
+    "independent_current_review_tests": 7,
+    "independent_replay_scripts": [
+      "verify_pdf.py",
+      "verify_awards.py",
+      "verify_current.py",
+      "verify_identity.py"
+    ],
+    "result": "all_passed"
+  },
+  "input_path_base": "investigations/dla-bolt-trace-2026-10-30",
+  "input_artifacts": [
+    {
+      "path": "awards/capture-success/award-SPE4A625PK654.json",
+      "sha256": "eb4c322574b11011abf4251f9a851df5436e2d01ee79b5f1abfd2ddafcb6edd6"
+    },
+    {
+      "path": "awards/capture-success/award-SPE4A625V208Q.json",
+      "sha256": "a62d41f787c1f1a7f1bbf02f9d5ed780482c0fa74e086993d45545d734761859"
+    },
+    {
+      "path": "awards/capture-success/award-SPE4A625V252D.json",
+      "sha256": "35aac13f2921de6499c7070232ae531b08d209e1c3b97fd39a8a61ee2eaaf309"
+    },
+    {
+      "path": "awards/capture-success/award-SPE4A625V346U.json",
+      "sha256": "91b533975efd0c4f0dc3d33e33569004f2ba2979887c0013e6bcff87135d688c"
+    },
+    {
+      "path": "awards/capture-success/award-SPE4A625V4508.json",
+      "sha256": "9c20cdfd1dfbb67ef26b98b90dd24088f3c295b90dde0b8562ab41144c5f508f"
+    },
+    {
+      "path": "awards/capture-success/award-SPE4A626P5931.json",
+      "sha256": "46829719b252ea402198a5c6f25ac0f6bdeee3255aea82e05fc3340624351317"
+    },
+    {
+      "path": "awards/capture-success/award-SPE4A626V138W.json",
+      "sha256": "bbbd3762d933913f279e9147d5aa792fa1bdf86f7523ba7075b61c0949112f1c"
+    },
+    {
+      "path": "awards/capture-success/coverage.json",
+      "sha256": "a031b47fd1523d1e7d04e62ad9f5f5266fba7fea4e5d0728df478751b2272a3f"
+    },
+    {
+      "path": "awards/capture-success/exact-award-search.json",
+      "sha256": "2ef9e90533476b925dac4ba3e1bc7b1092e1a7909a3e00317ddaa16e1edf67ef"
+    },
+    {
+      "path": "awards/capture-success/exact-award-search.request.json",
+      "sha256": "8d9bfb279369692624c3e7d9ef1833b03b8bc47ffa3a66a285e8f5dc541447f5"
+    },
+    {
+      "path": "awards/capture-success/exact-award-terminal.json",
+      "sha256": "df53ff285e7abc10626f66cdda6f64382c1ec4c6f12d70f34c23c49fe8fcbbd1"
+    },
+    {
+      "path": "awards/capture-success/exact-award-terminal.request.json",
+      "sha256": "fd4824ac478ee3da2e8ca72ebeb70848fda3f49b22d2e8619e4adfe39fa326eb"
+    },
+    {
+      "path": "awards/capture-success/manifest.json",
+      "sha256": "bd80d4013a97cc84e4f3f23d59b5c9982c8b8b65ef701ea2401c2699152e80d6"
+    },
+    {
+      "path": "awards/capture_manifest.json",
+      "sha256": "7f7a55850d4700fc4b4ee49905479a5b238bf08522ba0f823b6e233a4584a3cd"
+    },
+    {
+      "path": "awards/observations.json",
+      "sha256": "90a2a69d999028899a86737857cac308e78633ab4963190e7c41b66550f7f22d"
+    },
+    {
+      "path": "current/observations.json",
+      "sha256": "76c3978c4d9cff03bfcbbadc019fd27699761ef0b0833a8df3e065026f21b401"
+    },
+    {
+      "path": "current/selected_manifest.json",
+      "sha256": "4cb576afaab6e73ec77b13c55f25b14c7946701033f2c21d94e5c2234e80a5eb"
+    },
+    {
+      "path": "current/snapshots/order-page2.png",
+      "sha256": "11db614549c5f1292c6d2471eec904f4285a5ba967aa5e8f5af52777e0d5a5cb"
+    },
+    {
+      "path": "current/snapshots/order-page2.txt",
+      "sha256": "34f802ee0b549dba5eea5d63fecb96f7593d16466aca2a6f47334a5a5d49ebea"
+    },
+    {
+      "path": "current/snapshots/parent-page2.txt",
+      "sha256": "c8f6e28f60445d082a740cf1ba7f3403c16b2a49a8abccffe6c0eff28757f531"
+    },
+    {
+      "path": "current/snapshots/parent-page5.png",
+      "sha256": "ce430b0c8c817413c39128fde086ede9b24d64b9b1d352804d163c2aa8778619"
+    },
+    {
+      "path": "current/snapshots/parent-page5.txt",
+      "sha256": "e551d347f7dc7abe51e52351b6ea4dbaa70d97c88ebbeeb447e71f42aa26d9dd"
+    },
+    {
+      "path": "identity/cage_access_log.json",
+      "sha256": "9eb85a11aae9c8ac63643fed14e166ce18d6a904c95685e734217c70be3de744"
+    },
+    {
+      "path": "identity/cage_batch_lookup_log.json",
+      "sha256": "f7fd5d4a15dc11e76091a57a0b4fde84e306b0958a0d92d8ad175bf7a7064d8d"
+    },
+    {
+      "path": "identity/cage_lookup_log.json",
+      "sha256": "eade2c9383c94dda0c1aadbac384dfa89fa1690b3876bb42f11f8fd20336ef6c"
+    },
+    {
+      "path": "identity/capture_manifest.json",
+      "sha256": "9d94d6da6690cfa7c422e06c24c27aaa2da3fa98ecf8358cf378d9ec855b77b5"
+    },
+    {
+      "path": "identity/entity_records.json",
+      "sha256": "bf6e0fa95b2371545d02991b1a40e5f1d76f610f0e195088c42e84e70bbbf0d7"
+    },
+    {
+      "path": "identity/relationships.json",
+      "sha256": "f552180310cf0b2c9aa94026c133ef910ed514b9aba47441a2519a10273ba910"
+    },
+    {
+      "path": "identity/requests/0NFB8-recipient-page-1.json",
+      "sha256": "abd7c8d59f14b9a03bb94fdf7256a760b8efcad154b50e0473a6454e7464815f"
+    },
+    {
+      "path": "identity/requests/0NFB8-recipient-page-2.json",
+      "sha256": "489a14d4fcf6eb0bbf6f1b9f523f392fdbc04e7379a2b68efb4ab18df919454b"
+    },
+    {
+      "path": "identity/requests/51Y73-recipient-page-1.json",
+      "sha256": "ba14190f1a5b86bf4a0f5ae83afbbc03f8ed6975cb01b4fa6a817cc56a07bac5"
+    },
+    {
+      "path": "identity/requests/51Y73-recipient-page-2.json",
+      "sha256": "dbefe70f958c1fe43a63f87ec28532e35fee41a8d9930a365ddf835a9d05b7d9"
+    },
+    {
+      "path": "identity/requests/6ZF42-recipient-page-1.json",
+      "sha256": "f4fc89d74c6f60fd22c08a3cdd0cb5e6f3022438301ab63ca6b7bb55afae0c93"
+    },
+    {
+      "path": "identity/requests/6ZF42-recipient-page-2.json",
+      "sha256": "2632a8642f8872c6f2f4d93d939ddd6c644afcec7fdaf573f2205b984c3deab2"
+    },
+    {
+      "path": "identity/requests/7W108-recipient-page-1.json",
+      "sha256": "05c31688fdacf9c6fdf1e6b47452acb97c096a3d2650faf5b6d49b2008aad452"
+    },
+    {
+      "path": "identity/requests/7W108-recipient-page-2.json",
+      "sha256": "65ed92390d38fc941107c40e2f05d46a93dfb5d4634f23119c06b1283926c59f"
+    },
+    {
+      "path": "identity/requests/8A1E8-recipient-page-1.json",
+      "sha256": "f7c8930a6ee2ab30605c586cced4fc91d8198cfc558a6be051e66e7866facc7a"
+    },
+    {
+      "path": "identity/requests/8A1E8-recipient-page-2.json",
+      "sha256": "2d671570266d0a855f346897dbde2566d8d6219658ba9cdc69d8b3a094d299c2"
+    },
+    {
+      "path": "identity/snapshots/0NFB8-profile.json",
+      "sha256": "cdc1258cd1dd87399396c5426305eb7e84b67a037e2ddacaa5d43103381667d8"
+    },
+    {
+      "path": "identity/snapshots/0NFB8-recipient-page-1.json",
+      "sha256": "622501ccfaf8aafd42f925a2e0375b2783e9467c1f53604aaa64d4212e871203"
+    },
+    {
+      "path": "identity/snapshots/0NFB8-recipient-page-2.json",
+      "sha256": "5019b864ce56427d10c8d2a16366f3b30322349587780411f458741fd307167e"
+    },
+    {
+      "path": "identity/snapshots/51Y73-profile.json",
+      "sha256": "7ad0de4aec802f649030e1e35f445907c81f85ce57a5042235c58b9ff1185cab"
+    },
+    {
+      "path": "identity/snapshots/51Y73-recipient-page-1.json",
+      "sha256": "4dc234d8d7c345c3588bf8de268e2b069727c92b15a67e70f2fa04d6ef942e95"
+    },
+    {
+      "path": "identity/snapshots/51Y73-recipient-page-2.json",
+      "sha256": "4c4cd195bf63ae8b346e03a884d78762001dcc4b4b489554e05a523e57a51e4e"
+    },
+    {
+      "path": "identity/snapshots/6ZF42-profile.json",
+      "sha256": "cb72507569f7309caf640edde7f30f76a5542c841d144f615b10e836a4ddabc6"
+    },
+    {
+      "path": "identity/snapshots/6ZF42-recipient-page-1.json",
+      "sha256": "9728212ca8fe2dfd8099e24d130f0a210df298caf5e0d8bbc64aac15b4f5ff2d"
+    },
+    {
+      "path": "identity/snapshots/6ZF42-recipient-page-2.json",
+      "sha256": "5019b864ce56427d10c8d2a16366f3b30322349587780411f458741fd307167e"
+    },
+    {
+      "path": "identity/snapshots/7W108-profile.json",
+      "sha256": "5fb534518b465c54667b20c5f14c5b8ec38fdab18dad07881d02e3edc583388b"
+    },
+    {
+      "path": "identity/snapshots/7W108-recipient-page-1.json",
+      "sha256": "3141e74b344798122a50b697b003877b07d40954953990852432b516a0e188f7"
+    },
+    {
+      "path": "identity/snapshots/7W108-recipient-page-2.json",
+      "sha256": "5019b864ce56427d10c8d2a16366f3b30322349587780411f458741fd307167e"
+    },
+    {
+      "path": "identity/snapshots/8A1E8-profile.json",
+      "sha256": "efaa6958c2e52e66d5ed86088b33fbb5c822e8a56e791151efd581f89776047d"
+    },
+    {
+      "path": "identity/snapshots/8A1E8-recipient-page-1.json",
+      "sha256": "774b24257b414efd4ecb22a242b9bd89bcc71b60491868210766de8c028a10ad"
+    },
+    {
+      "path": "identity/snapshots/8A1E8-recipient-page-2.json",
+      "sha256": "5019b864ce56427d10c8d2a16366f3b30322349587780411f458741fd307167e"
+    },
+    {
+      "path": "identity/snapshots/cage-0NFB8-selected.json",
+      "sha256": "f14a89104d95a6f2bcb805a088c8d384e061aad56835de4c0ac7b7d1d291b4ff"
+    },
+    {
+      "path": "identity/snapshots/cage-51Y73-selected.json",
+      "sha256": "87d4eed7f78f3beacfc6bf21c4adb5cfb245e6c94ab713755ca272e7c8eb8062"
+    },
+    {
+      "path": "identity/snapshots/cage-6ZF42-selected.json",
+      "sha256": "73a50427781e158e07dfac8298342a5f71bc5fe1a223f599d0c7a6d17a360697"
+    },
+    {
+      "path": "identity/snapshots/cage-7W108-selected.json",
+      "sha256": "115d17b46c9dddbd8ba8e750d5b2d61037c3b90e42a61c8e65ae23ada9304e71"
+    },
+    {
+      "path": "identity/snapshots/cage-8A1E8-selected.json",
+      "sha256": "f15a91584b4236b9972a1995ba17ca00633c92aac4462c8b332eea564217dbea"
+    },
+    {
+      "path": "review/award_review.json",
+      "sha256": "37c08be080cce9786eeb5fc2fb4d709cb0c2011ce5a517e9bf6c9047325ff2eb"
+    },
+    {
+      "path": "review/comparability_matrix.json",
+      "sha256": "ece02b89b23b27a83ad8618e35b9e42f04832982718759963fb4c595bf0434fa"
+    },
+    {
+      "path": "review/current_order_review.json",
+      "sha256": "f4461904b3ad5784f0e506192016ac5e30430875077fb2cf4a89318075034e2a"
+    },
+    {
+      "path": "review/current_original_inspection.json",
+      "sha256": "93ed89ab94bcd2616d85e069e12d9f9c1ad43cdaefa5b4a3053b96e8a7c16913"
+    },
+    {
+      "path": "review/identity_review.json",
+      "sha256": "e6617d66841c23314dfa546d99aede81f391faf81fd39cf057187a24c0b0f22e"
+    },
+    {
+      "path": "review/pdf_review.json",
+      "sha256": "caa0e84f5a0ee8e92d65c678dc495b412fd75c9da73272a3d462f702a58f015c"
+    },
+    {
+      "path": "review/query_log.json",
+      "sha256": "f0310db95a41181e4ec7580e7a32d5ed8b22c8720b1bbd15d8ff07be79e747da"
+    },
+    {
+      "path": "review/sources.json",
+      "sha256": "f12a87d2678237f8efe5a5ecdd271e7b009b58f776f253aa9dedd166e6d13c2d"
+    },
+    {
+      "path": "review/spotchecks/SPE4A625V4508.json",
+      "sha256": "6e9682b7aca1799ad3be5b24475c017370deb04c25940ba0bb66f900008718ad"
+    },
+    {
+      "path": "review/spotchecks/SPE4A626V138W.json",
+      "sha256": "c35dc79cf4c4720535e4a90f69aa965e604a7396be9370d6a32ef312b536e1a8"
+    },
+    {
+      "path": "review/spotchecks/manifest.json",
+      "sha256": "b261219ef3db420438faf938333c65db9eb19ae886d2f86715f7fadb41b2b516"
+    },
+    {
+      "path": "review/test_current_review.py",
+      "sha256": "42a9b570ea1b625cd23dfd5e83e9318e537c8007b31585333d8978f365b6bf96"
+    },
+    {
+      "path": "review/verify_awards.py",
+      "sha256": "e709341a8b524de0b16f64c8986ad541e8cd2f78b85ff635528567907626409c"
+    },
+    {
+      "path": "review/verify_current.py",
+      "sha256": "2438c44fcae6c1825d1f33ee7ec593325358a9677d525c1e818ed6f62ff7593a"
+    },
+    {
+      "path": "review/verify_identity.py",
+      "sha256": "119e910ba5ff3da399dcdc421b4c66e0d1c37ec88d090304ea21eb2e5fd50bfd"
+    },
+    {
+      "path": "review/verify_pdf.py",
+      "sha256": "ea89dc456fe1b0ea2050608ac1cc294749082f372f7bad853a654c1a1f918bc3"
+    }
+  ],
+  "original_document_metadata_only": [
+    {
+      "file": "SPE4A626D61WS.pdf",
+      "sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0",
+      "public_bytes_archived": false
+    },
+    {
+      "file": "SPE4A626D61WSSPE4A627F0588.pdf",
+      "sha256": "3360e103d973fd70d38d2baebc1aa47644cd3806822bc8393fb5db99bcbbc4ef",
+      "public_bytes_archived": false
+    }
+  ],
+  "next_discriminating_evidence": [
+    "Actual historical priced award/CLIN and applicable modifications for a proposed comparison",
+    "Acceptance/delivery/payment evidence only if a specific billing or conformity question survives",
+    "Official catalog reference qualifiers and governing source-approval terms if an unauthorized-source theory is proposed"
+  ],
+  "scope_limit": "Checks do not authenticate all underlying declarations, prove nationwide coverage, establish what government investigators know, determine reward eligibility or assert a fraud-free supplier."
+}

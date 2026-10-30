@@ -1,0 +1,41 @@
+{
+  "filters": {
+    "award_type_codes": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "award_ids": [
+      "SPE4A626V138W",
+      "SPE4A626P5931",
+      "SPE4A625V346U",
+      "SPE4A625V252D",
+      "SPE4A625V208Q",
+      "SPE4A625PK654",
+      "SPE4A625V4508"
+    ]
+  },
+  "fields": [
+    "Award ID",
+    "generated_internal_id",
+    "Recipient Name",
+    "Recipient UEI",
+    "recipient_id",
+    "Awarding Agency",
+    "Awarding Agency Code",
+    "Awarding Sub Agency",
+    "Awarding Sub Agency Code",
+    "Start Date",
+    "End Date",
+    "Award Amount",
+    "Description",
+    "Place of Performance State Code",
+    "PSC"
+  ],
+  "limit": 100,
+  "page": 2,
+  "sort": "Award ID",
+  "order": "asc",
+  "subawards": false
+}

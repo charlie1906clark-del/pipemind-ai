@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "data_origin": "illustrative",
+  "evidence_kind": "synthetic_calibration",
+  "dataset_scope": "Two invented order lines illustrating value weighting",
+  "submitted_lines": 2,
+  "lines": [
+    {
+      "line_id": "C",
+      "status": "eligible_as_declared",
+      "data_origin": "illustrative",
+      "key": {
+        "agency_code": "ILLUSTRATIVE",
+        "piid": "ILL-C",
+        "order_id": "NO_SEPARATE_ORDER",
+        "clin": "0001"
+      },
+      "currency": "XXX",
+      "value_basis": "ordered_value",
+      "quantity": "1",
+      "contract_unit_price": "120",
+      "raw_reference_unit_price": "100",
+      "reference_adjustment_per_unit": "0",
+      "adjusted_reference_unit_price": "100",
+      "reference_basis_exact": "100",
+      "observed_basis_exact": "120",
+      "difference_exact": "20",
+      "difference_rounded": "20.00",
+      "premium_against_reference_percent": "20.000000",
+      "difference_as_percent_of_observed_value": "16.666667",
+      "source_ids": [
+        "contract-C",
+        "reference-C"
+      ],
+      "reference_kind": "illustrative",
+      "reviewer_id_as_declared": "illustrative-reviewer"
+    },
+    {
+      "line_id": "D",
+      "status": "eligible_as_declared",
+      "data_origin": "illustrative",
+      "key": {
+        "agency_code": "ILLUSTRATIVE",
+        "piid": "ILL-D",
+        "order_id": "NO_SEPARATE_ORDER",
+        "clin": "0001"
+      },
+      "currency": "XXX",
+      "value_basis": "ordered_value",
+      "quantity": "9",
+      "contract_unit_price": "100",
+      "raw_reference_unit_price": "100",
+      "reference_adjustment_per_unit": "0",
+      "adjusted_reference_unit_price": "100",
+      "reference_basis_exact": "900",
+      "observed_basis_exact": "900",
+      "difference_exact": "0",
+      "difference_rounded": "0.00",
+      "premium_against_reference_percent": "0.000000",
+      "difference_as_percent_of_observed_value": "0.000000",
+      "source_ids": [
+        "contract-D",
+        "reference-D"
+      ],
+      "reference_kind": "illustrative",
+      "reviewer_id_as_declared": "illustrative-reviewer"
+    }
+  ],
+  "eligible_lines": 2,
+  "blocked_lines": 0,
+  "coverage_complete_for_submitted_lines": true,
+  "aggregates": [
+    {
+      "currency": "XXX",
+      "value_basis": "ordered_value",
+      "eligible_line_ids": [
+        "C",
+        "D"
+      ],
+      "reference_basis_exact": "1000",
+      "observed_basis_exact": "1020",
+      "difference_exact": "20",
+      "difference_rounded": "20.00",
+      "weighted_premium_against_reference_percent": "2.000000",
+      "difference_as_percent_of_observed_value": "1.960784",
+      "minimum_line_premium_percent": "0.000000",
+      "maximum_line_premium_percent": "20.000000"
+    }
+  ],
+  "interpretation": "Differences against supplied reviewed references, not a misconduct or recoverability finding.",
+  "authentication_limit": "This calculator validates declared fields and arithmetic. It cannot authenticate sources, reviewer identity, availability, independence, payments or concealed benefits. Inspect the underlying evidence.",
+  "rounding": "Decimal precision 80; totals aggregate unrounded values; display uses half-up 2 decimal amounts and 6 decimal percentage points. No FX or automatic unit conversion.",
+  "input_snapshot": {
+    "file_name": "weighted-mix.json",
+    "sha256": "ea40415a73b259211b1ffce5a4d54b9e97188c90b49e6e02c05f78fe0923ee2e"
+  }
+}

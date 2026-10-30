@@ -14,6 +14,13 @@
       "review_status": "accepted_for_public_graph",
       "reviewed_at": "2026-10-30",
       "review_note": "Reviewed statement/source attribution, proposed versus enacted authority states and captured status dates. Independent name and price reviews are pinned to checked inputs. Neutral profile and supplier identifiers are not fraud allegations; all 21 historical price pairs remain blocked. Claude and Grok execution is not claimed. Public primary PDF/XML and selected JSON archive digests verified; no API authorization URLs included."
+    },
+    {
+      "path": "investigations/dla-bolt-trace-2026-10-30/graph-extension.json",
+      "sha256": "5f49198f14326873418039fd418867fe447d736ccf86a360a2ffa34db219faa8",
+      "review_status": "accepted_for_public_graph",
+      "reviewed_at": "2026-10-30",
+      "review_note": "Independent reviews accept the bounded neutral trace and expanded price-fairness challenge. Seven historical PIIDs, five dated CAGE\u2013UEI links and one current priced order remain distinct from market fairness and buyer independence, which are unresolved. Three provisional catalog candidates yield zero qualified comparators and no premium, payment, loss or benefit estimate. Synthetic calculator scenarios have no money-export fields. Partial public catalog metadata and selected readme bytes establish an accessible reader route, not an extracted exact NIIN record. Source digests distinguish selected facts/renders from unarchived original bytes. The two full current PDFs remain excluded. Existing evidence captures and prior review receipts are unchanged; no new fraud finding or external-model execution is asserted."
     }
   ]
 }

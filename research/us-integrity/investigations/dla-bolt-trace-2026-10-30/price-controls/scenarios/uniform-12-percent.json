@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "data_origin": "illustrative",
+  "evidence_kind": "synthetic_calibration",
+  "dataset_scope": "Two invented order lines; no named party or government transaction",
+  "lines": [
+    {
+      "line_id": "A",
+      "analyst_id": "illustrative-analyst",
+      "key": {
+        "agency_code": "ILLUSTRATIVE",
+        "piid": "ILL-A",
+        "order_id": "NO_SEPARATE_ORDER",
+        "clin": "0001"
+      },
+      "currency": "XXX",
+      "value_basis": "ordered_value",
+      "quantity": "1000",
+      "contract": {
+        "unit_price": "112",
+        "price_measure": "ordered_unit_price",
+        "quantity_measure": "ordered_quantity",
+        "source": {
+          "source_id": "contract-A",
+          "url": "https://illustration.invalid/contract-A",
+          "locator": "Synthetic fixture; no real transaction",
+          "scope": "Illustrative arithmetic only",
+          "source_kind": "illustrative",
+          "observed_on": "2026-10-30"
+        },
+        "terms": {
+          "item_identifier": "ILLUSTRATIVE-FASTENER-A",
+          "revision": "R1",
+          "unit_of_issue": "EA",
+          "pack_size": "1",
+          "quantity": "1000",
+          "price_date": "2026-10-01",
+          "delivery": "Same documented date and destination",
+          "condition": "new",
+          "quality": "same verified grade/finish in illustration",
+          "traceability": "same certificates in illustration",
+          "freight": "included, same delivery basis",
+          "warranty": "same warranty in illustration",
+          "included_scope": "same material, testing, tax and handling scope in illustration"
+        }
+      },
+      "reference": {
+        "unit_price": "100",
+        "currency": "XXX",
+        "price_measure": "offered_unit_price",
+        "availability_for_quantity": "confirmed",
+        "source": {
+          "source_id": "reference-A",
+          "url": "https://illustration.invalid/reference-A",
+          "locator": "Synthetic fixture; no real transaction",
+          "scope": "Illustrative arithmetic only",
+          "source_kind": "illustrative",
+          "observed_on": "2026-10-30"
+        },
+        "terms": {
+          "item_identifier": "ILLUSTRATIVE-FASTENER-A",
+          "revision": "R1",
+          "unit_of_issue": "EA",
+          "pack_size": "1",
+          "quantity": "1000",
+          "price_date": "2026-10-01",
+          "delivery": "Same documented date and destination",
+          "condition": "new",
+          "quality": "same verified grade/finish in illustration",
+          "traceability": "same certificates in illustration",
+          "freight": "included, same delivery basis",
+          "warranty": "same warranty in illustration",
+          "included_scope": "same material, testing, tax and handling scope in illustration"
+        },
+        "independence": {
+          "status": "reviewed_independent",
+          "evidence": {
+            "source_id": "independence-A",
+            "url": "https://illustration.invalid/independence-A",
+            "locator": "Synthetic fixture; no real transaction",
+            "scope": "Illustrative arithmetic only",
+            "source_kind": "illustrative",
+            "observed_on": "2026-10-30"
+          },
+          "claimant_independence_status": "reviewed_independent"
+        },
+        "adjustments": []
+      },
+      "comparison_review": {
+        "decision": "comparable",
+        "reviewer_id": "illustrative-reviewer",
+        "reviewed_on": "2026-10-30",
+        "evidence_note": "Declared equivalent solely for arithmetic calibration; no real evidence"
+      }
+    },
+    {
+      "line_id": "B",
+      "analyst_id": "illustrative-analyst",
+      "key": {
+        "agency_code": "ILLUSTRATIVE",
+        "piid": "ILL-B",
+        "order_id": "NO_SEPARATE_ORDER",
+        "clin": "0001"
+      },
+      "currency": "XXX",
+      "value_basis": "ordered_value",
+      "quantity": "2000",
+      "contract": {
+        "unit_price": "56",
+        "price_measure": "ordered_unit_price",
+        "quantity_measure": "ordered_quantity",
+        "source": {
+          "source_id": "contract-B",
+          "url": "https://illustration.invalid/contract-B",
+          "locator": "Synthetic fixture; no real transaction",
+          "scope": "Illustrative arithmetic only",
+          "source_kind": "illustrative",
+          "observed_on": "2026-10-30"
+        },
+        "terms": {
+          "item_identifier": "ILLUSTRATIVE-FASTENER-A",
+          "revision": "R1",
+          "unit_of_issue": "EA",
+          "pack_size": "1",
+          "quantity": "2000",
+          "price_date": "2026-10-01",
+          "delivery": "Same documented date and destination",
+          "condition": "new",
+          "quality": "same verified grade/finish in illustration",
+          "traceability": "same certificates in illustration",
+          "freight": "included, same delivery basis",
+          "warranty": "same warranty in illustration",
+          "included_scope": "same material, testing, tax and handling scope in illustration"
+        }
+      },
+      "reference": {
+        "unit_price": "50",
+        "currency": "XXX",
+        "price_measure": "offered_unit_price",
+        "availability_for_quantity": "confirmed",
+        "source": {
+          "source_id": "reference-B",
+          "url": "https://illustration.invalid/reference-B",
+          "locator": "Synthetic fixture; no real transaction",
+          "scope": "Illustrative arithmetic only",
+          "source_kind": "illustrative",
+          "observed_on": "2026-10-30"
+        },
+        "terms": {
+          "item_identifier": "ILLUSTRATIVE-FASTENER-A",
+          "revision": "R1",
+          "unit_of_issue": "EA",
+          "pack_size": "1",
+          "quantity": "2000",
+          "price_date": "2026-10-01",
+          "delivery": "Same documented date and destination",
+          "condition": "new",
+          "quality": "same verified grade/finish in illustration",
+          "traceability": "same certificates in illustration",
+          "freight": "included, same delivery basis",
+          "warranty": "same warranty in illustration",
+          "included_scope": "same material, testing, tax and handling scope in illustration"
+        },
+        "independence": {
+          "status": "reviewed_independent",
+          "evidence": {
+            "source_id": "independence-B",
+            "url": "https://illustration.invalid/independence-B",
+            "locator": "Synthetic fixture; no real transaction",
+            "scope": "Illustrative arithmetic only",
+            "source_kind": "illustrative",
+            "observed_on": "2026-10-30"
+          },
+          "claimant_independence_status": "reviewed_independent"
+        },
+        "adjustments": []
+      },
+      "comparison_review": {
+        "decision": "comparable",
+        "reviewer_id": "illustrative-reviewer",
+        "reviewed_on": "2026-10-30",
+        "evidence_note": "Declared equivalent solely for arithmetic calibration; no real evidence"
+      }
+    }
+  ]
+}

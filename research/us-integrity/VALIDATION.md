@@ -4,8 +4,8 @@ Verified 30 October 2026 against the files in this branch. This record concerns 
 
 | Check | Result |
 |---|---|
-| Graph validator with public-export checks | Passed: 1,020 nodes, 2,348 edges, 294 source records |
-| Obsidian generation | 1,020 generated node notes plus a navigation note; all wiki links checked |
+| Graph validator with public-export checks | Passed: 1,219 nodes, 3,148 edges, 367 source records |
+| Obsidian generation | 1,219 generated node notes plus a navigation note; all wiki links checked |
 | Task definitions/import | 24 dependency-ordered work packages |
 | Engine tests | 35 passed |
 | Public-source connector tests | 8 passed, offline |
@@ -15,7 +15,10 @@ Verified 30 October 2026 against the files in this branch. This record concerns 
 | Supplier-name capture/identity tests | 16 passed |
 | Price-comparison eligibility tests | 6 passed |
 | Claude/Grok result-contract tests | 17 passed |
-| Total tests | **111 passed** |
+| DLA exact award and identity tests | 7 + 4 passed |
+| DLA document-review tests | 7 passed |
+| Repeated-premium calculator tests | 12 passed |
+| Total tests | **141 passed** |
 | Reassembly | Same canonical graph bytes on repeated frozen input |
 | Captured USAspending responses | 3 successful HTTP 200 requests; 65 rows; request/response hashes verified |
 | Cohort completeness | All three responses have further pages; incomplete samples explicitly retained |
@@ -23,17 +26,17 @@ Verified 30 October 2026 against the files in this branch. This record concerns 
 | National catheter comparator | Nine geography/service rows; suppression undercoverage quantified |
 | Independent calculation review | Nine aggregates, six decompositions, two cross-code checks and nine national reconciliations passed |
 | Revoked-enrollment acquisition | 8,620 main rows plus 94 companion NPI rows; counts, hashes, joins and date boundaries checked |
-| Investigation approval boundary | Two explicit dated extensions; 34 catheter and 69 discovery input-artifact digests checked; no unlisted automatic ingestion |
+| Investigation approval boundary | Three explicit dated extensions; 34 catheter, 69 discovery and 129 bolt input-artifact digests checked; no unlisted automatic ingestion |
 | Amazon/Amazon. public query control | 19 captured requests; 150/12 awards, all 12 overlapping; three UEIs and six P/C profiles independently reproduced |
 | Original DLA price source | Archived original PDF hash verified; seven history rows independently transcribed and replayed |
-| Price comparability | All 21 possible pairs correctly blocked; historical terms unknown, current quote blank; no savings calculation |
+| Price comparability | All 21 historical pairs remain blocked; newer original order has USD0.91/EA; three retailer candidates remain unqualified; no excess/loss calculation |
 | Legislative evidence | Six dated official bill-status XML captures; proposals, oversight requests and enacted law remain distinct |
 | Registry/court evidence | Exact NPI matches, corporate roles, exclusion/revocation events and source-specific legal dates preserved |
 | Search | SQLite full-text search returned source-linked results |
 | Task concurrency | Exclusive claims, expiry/fencing, dependencies and completion preservation tested |
 | Source spot checks | Official CMS, DOJ, VA OIG and SEC records re-opened during independent review |
 | New fraud proved / submissions made | None / none |
-| Autonomous agents or external model execution | Not activated; Claude/Grok packets queued, no external model response |
+| Autonomous agents or external model execution | No unattended service or coordinator model API call; user reports manual Claude dispatch, no authenticated external result |
 
 The independent review corrected legal-status parsing that could confuse negated convictions or unverified sentencing with completed legal events; person-versus-company typing; lost amount qualifiers; future snapshot collisions; and missing request-digest/success checks. The regression suite preserves these distinctions.
 
@@ -46,3 +49,7 @@ Current graph content digest: see `generated/manifest.json`. This digest hashes 
 Identity scope remains explicit: award recipients use source-reported UEIs; corporate filing relationships are dated; case name mentions remain scoped and unresolved until corroborated. Public healthcare aggregates cannot establish medical necessity, exact patient transactions or direct referral relationships. Award sums are cumulative, not FY2026 spending. Lower bounds and conditional payments remain qualified, and overlapping case amounts are nonadditive.
 
 The current code does not perform nationwide ingestion, score new fraud, identify all owners, query private records, independently update every court docket, submit reward claims, or run a live LLM agent service. Agent contracts and shared-task architecture prepare that work; they do not prove it is running. The local task ledger only coordinates workers using the same database; separate sessions require a coordinator or a later shared transactional service.
+
+The latest [DLA validation record](investigations/dla-bolt-trace-2026-10-30/VALIDATION.json) records a clean public-file export with Git history available for immutable baseline checks. All 141tests, the public graph validator, four document/identity replay scripts and deterministic assembly passed without the two ignored current PDFs. Every one of the prior 1,020 nodes and 2,348 semantic edges remains unchanged. The current extension adds 199 nodes, 229 explicit edges and 73 sources; automatic source relationships account for the larger total edge increase. Wiki links across 1,219 node notes and one navigation note resolve.
+
+The [independent price challenge](investigations/dla-bolt-trace-2026-10-30/price-challenge/REPORT.md) separately verified three seller listings and four calculator outputs. It corrected invoice-source gating and removed seller-profit disclosure as a mandatory price-analysis input. A legitimate supplier, reconciled order, reported offer count or declining nominal price does not clear market fairness or buyer independence. The real comparison has no qualified benchmark; three synthetic controls have no actual-money fields. The public archive route was inspected, but the exact primary NSN specification remains unextracted.

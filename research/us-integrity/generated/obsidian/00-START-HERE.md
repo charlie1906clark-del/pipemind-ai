@@ -4,6 +4,22 @@ Research updated: 30 October 2026. These notes record evidence and planning; no 
 
 Open the built-in graph, or use these indexes. Source details and legal status are in each note.
 
+## DLA prices and buyer independence
+
+- [[BOLT-TRACE-20261030|One-area investigation and completed evidence trace]]
+- [[BOLT-PRICE-FAIRNESS-AUDIT|Price fairness and buyer-independence audit]]
+- [[BOLT-MARKET-BENCHMARK-MATRIX|Three provisional retail candidates and comparison limits]]
+- [[BOLT-PRICE-CHALLENGE-REVIEW|Independent price and calculation review]]
+- [[BOLT-PRICE-FAIRNESS-UNKNOWN|Why the actual $0.91 price remains an open question]]
+- [[BOLT-BUYER-INDEPENDENCE-UNKNOWN|Separate buyer influence and benefit evidence]]
+- [[BOLT-SPEC-PUBLIC-ROUTE|Accessible official catalog archive and extraction route]]
+- [[BOLT-SPEC-EXACT-ROW-GAP|Exact primary specification still needed]]
+- [[BOLT-PRICE-PREMIUM-ENGINE|Weighted repeated-purchase price calculator]]
+- [[BOLT-PRICE-ACTUAL-BLOCKED|Actual DLA comparison remains blocked]]
+- [[BOLT-SYNTHETIC-ANNUAL-ILLUSTRATION|Synthetic 12% annual example—not government spending]]
+
+Verified identities and arithmetic do not establish fair pricing or independent purchasing. Retail prices remain provisional until specifications and procurement terms match. No price excess, buyer benefit or new fraud is established.
+
 ## Reward authority and new-case discovery methods
 
 - [[DISC-20261030|Latest investigation and evidence paths]]
@@ -16,7 +32,7 @@ Open the built-in graph, or use these indexes. Source details and legal status a
 - [[DISC-PRICE-COMPARABILITY|Why the current price pairs are not comparable]]
 - [[DISC-WP-DLA-BOLTS-001|Next bounded DLA investigation]]
 
-The latest pass adds 191 nodes and preserves earlier evidence dates. Punctuation is not impersonation; a ceiling is not a unit price; absence from a public search does not establish that investigators are unaware of a matter.
+The earlier discovery pass added 191 nodes and preserves earlier evidence dates. Punctuation is not impersonation; a ceiling is not a unit price; absence from a public search does not establish that investigators are unaware of a matter.
 
 ## Completed catheter research pass
 

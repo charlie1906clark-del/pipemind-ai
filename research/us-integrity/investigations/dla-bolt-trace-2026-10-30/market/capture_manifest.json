@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-30",
+  "original_website_bytes_archived": false,
+  "captures": [
+    {
+      "path": "captures/mkt-cox-hb8f38-34.json",
+      "bytes": 1725,
+      "sha256": "149d528699cbc4ad24d8309be56764635d78579b570c3e02f3992955962c96b1",
+      "hash_scope": "retained selected factual extraction; not original website bytes"
+    },
+    {
+      "path": "captures/mkt-fss-191377.json",
+      "bytes": 2227,
+      "sha256": "ee1f1cd9eb5d171be498964a36134db4d8521424677dcf8ea4c8ad76588f908f",
+      "hash_scope": "retained selected factual extraction; not original website bytes"
+    },
+    {
+      "path": "captures/mkt-mf-hh38fx3-4g8zy.json",
+      "bytes": 1577,
+      "sha256": "7312757069d7a12afcdcbbe5b85bcb47e310ae7f9072b259da0b36595e958d2b",
+      "hash_scope": "retained selected factual extraction; not original website bytes"
+    }
+  ],
+  "verification": {
+    "json_parsed": true,
+    "fss_pack_arithmetic_checked": true,
+    "unknown_mf_pack_preserved": true,
+    "qualified_price_loss_values_unset": true
+  }
+}

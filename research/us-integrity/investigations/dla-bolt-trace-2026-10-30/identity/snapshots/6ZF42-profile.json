@@ -1,0 +1,22 @@
+{
+  "name": "BUTT FAREED AHMAD",
+  "alternate_names": [
+    "BUTT  FAREED AHMAD",
+    "BUTT, FAREED AHMAD"
+  ],
+  "duns": "079115653",
+  "uei": "GWEEKJ2PNL45",
+  "recipient_id": "d1cd4996-edc1-13ae-62f8-61565174116a-C",
+  "recipient_level": "C",
+  "parent_id": "d1cd4996-edc1-13ae-62f8-61565174116a-P",
+  "parent_name": "BUTT FAREED AHMAD",
+  "parent_duns": "079115653",
+  "parent_uei": "GWEEKJ2PNL45",
+  "location": {
+    "state_code": "TX",
+    "country_code": "USA"
+  },
+  "business_structure_types": [
+    "sole_proprietorship"
+  ]
+}

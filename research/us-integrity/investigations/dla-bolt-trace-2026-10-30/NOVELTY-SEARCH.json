@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-30",
+  "purpose": "Bounded initial prior-publication discovery, not a certification of novelty",
+  "queries": [
+    {
+      "query": "\"5306016864912\" (fraud OR audit OR investigation)",
+      "requested_domains": [
+        "justice.gov",
+        "dodig.mil",
+        "gao.gov",
+        "oversight.gov"
+      ],
+      "result": "Returned secondary procurement listings; no qualifying enforcement result adopted."
+    },
+    {
+      "query": "\"SPE4A626U3619\" OR \"SPE4A625V4508\" OR \"SPE4A626P5931\"",
+      "requested_domains": [
+        "justice.gov",
+        "dodig.mil",
+        "gao.gov",
+        "oversight.gov"
+      ],
+      "result": "Returned secondary procurement listings; no qualifying enforcement result adopted."
+    },
+    {
+      "query": "site:justice.gov \"5306016864912\" OR site:dodig.mil \"5306016864912\" OR site:gao.gov \"5306016864912\"",
+      "result": "Engine returned non-matching secondary pages; no government-case match adopted."
+    },
+    {
+      "query": "site:oversight.gov \"SPE4A626U3619\" OR site:justice.gov \"SPE4A626D61WS\" OR site:dodig.mil \"SPE4A626D61WS\"",
+      "result": "Engine returned secondary pages; none establish enforcement or government knowledge."
+    }
+  ],
+  "search_limits": "Exact identifier discovery only; domain restrictions were not faithfully reflected in returned results, so filtered results were rejected. Not a comprehensive docket, case-name or mechanism search. No surviving adverse hypothesis was advanced for a novelty determination.",
+  "government_knowledge": "unknown",
+  "new_fraud_case_claimed": false
+}

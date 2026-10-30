@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "scope": {
+    "nsn": "5306016864912",
+    "office": "DLA purchasing office identified by action documents; individual decision roles not established",
+    "period": "Initial cohort: seven historical actions plus current parent and child; expanding requires a declared universe and coverage"
+  },
+  "finding_classes": [
+    {
+      "id": "ordinary_margin",
+      "meaning": "A distributor's sales price exceeds its acquisition cost; services, costs, risk and competition may explain the difference.",
+      "required": "Documented acquisition cost plus relevant cost/service and sale terms if making a margin claim.",
+      "not_implied": "A markup is neither automatically excessive nor a buyer kickback."
+    },
+    {
+      "id": "poor_purchase",
+      "meaning": "A feasible, equivalent, contemporaneous lower-cost option was reasonably available and not selected, with acquisition rationale evaluated.",
+      "required": "Qualified comparator, actual availability, selection terms and decision rationale.",
+      "not_implied": "A cheaper catalog entry alone does not prove an avoidable overpayment or intent."
+    },
+    {
+      "id": "unexplained_premium",
+      "meaning": "A reproducible price difference remains after declared comparability controls and plausible alternatives are tested.",
+      "required": "Qualified benchmark and uncertainty range, source-level coverage and independent challenge.",
+      "not_implied": "It is a request for further explanation, not established loss or corruption."
+    },
+    {
+      "id": "corroborated_corruption_indicator",
+      "meaning": "A documented procurement decision is linked to evidence of improper influence or benefit, with provenance and ordinary alternatives reviewed.",
+      "required": "Role/timing evidence, actual communication/benefit evidence and nexus to the procurement.",
+      "not_implied": "A screening analyst does not turn the indicator into a legal finding."
+    },
+    {
+      "id": "established_kickback_or_bribery",
+      "meaning": "A competent official finding, admitted facts or adjudicated record establishes the conduct, with legal status dated.",
+      "required": "Exact authoritative source and conduct/status/date; distinguish allegations, pleas, settlement and findings.",
+      "not_implied": "Neither price premium nor commercial identity establishes this class."
+    }
+  ],
+  "record_fields": {
+    "provenance": [
+      "record_id",
+      "source_id",
+      "source_url",
+      "document_title",
+      "document_date",
+      "retrieved_at",
+      "locator",
+      "original_sha256_if_available",
+      "saved_artifact_sha256",
+      "hash_scope",
+      "public_replay_path",
+      "extraction_method",
+      "source_claim_or_inference",
+      "reviewer",
+      "review_status"
+    ],
+    "action_identity": [
+      "agency",
+      "awarding_office_code",
+      "funding_office_code",
+      "solicitation_id",
+      "piid",
+      "parent_piid",
+      "order_id",
+      "modification_id",
+      "clin",
+      "subclin",
+      "action_date",
+      "effective_date",
+      "line_status",
+      "cancelled_quantity",
+      "superseded_by"
+    ],
+    "product": [
+      "nsn",
+      "approved_part_number",
+      "manufacturer_part_number",
+      "drawing_id",
+      "drawing_revision",
+      "specification_revision",
+      "diameter",
+      "length",
+      "thread_series",
+      "thread_class",
+      "thread_hand",
+      "head_style",
+      "material",
+      "grade",
+      "finish_specification",
+      "origin_requirement",
+      "traceability_requirement",
+      "sampling_plan",
+      "test_report_requirement",
+      "certificate_requirement"
+    ],
+    "commercial_terms": [
+      "currency",
+      "price_unit",
+      "units_per_price_unit",
+      "units_per_pack",
+      "ordered_quantity_ea",
+      "invoice_quantity_ea",
+      "accepted_quantity_ea",
+      "paid_quantity_ea",
+      "unit_price",
+      "extended_line_amount",
+      "discount",
+      "rebate",
+      "credit",
+      "return",
+      "freight_responsibility",
+      "freight_amount",
+      "insurance",
+      "tax",
+      "duty",
+      "minimum_order",
+      "quantity_tier",
+      "stock_at_quote",
+      "lead_time",
+      "delivery_due",
+      "delivery_location_business_region",
+      "payment_terms",
+      "warranty",
+      "first_article_or_nonrecurring_cost"
+    ],
+    "benchmark": [
+      "benchmark_id",
+      "benchmark_source_type",
+      "quoted_at",
+      "valid_until",
+      "historical_or_current",
+      "exact_product_match",
+      "specification_match_evidence",
+      "quantity_tier_match",
+      "pack_normalization_evidence",
+      "available_quantity",
+      "deliverable_by_required_date",
+      "compliance_accepted",
+      "seller_independence_status",
+      "upstream_manufacturer",
+      "landed_unit_price_low",
+      "landed_unit_price_central",
+      "landed_unit_price_high",
+      "adjustment_records",
+      "qualification_decision",
+      "excluded_reason"
+    ],
+    "bid_and_decision": [
+      "bidder_uei",
+      "bidder_cage",
+      "submission_id",
+      "submitted_at",
+      "offered_clin_price",
+      "quoted_delivery",
+      "technical_acceptability",
+      "withdrawal_date",
+      "evaluation_criteria",
+      "evaluation_score_or_reason",
+      "award_rationale",
+      "price_reasonableness_record",
+      "sole_source_reason",
+      "bid_document_hash",
+      "native_metadata_if_lawfully_available",
+      "role_assignment_id",
+      "role_start",
+      "role_end",
+      "delegated_authority",
+      "decision_timestamp"
+    ],
+    "professional_entity_links": [
+      "link_id",
+      "subject_public_business_id",
+      "object_public_business_id",
+      "relation_type",
+      "role_name",
+      "valid_from",
+      "valid_to",
+      "date_precision",
+      "source_filed_at",
+      "source_retrieved_at",
+      "identity_join_method",
+      "conflicting_evidence",
+      "link_is_reported_or_verified",
+      "professional_role_only"
+    ],
+    "benefit_nexus": [
+      "benefit_record_id",
+      "record_type",
+      "dated_authoritative_source",
+      "allegation_or_admission_or_finding",
+      "benefit_provider_entity_id",
+      "beneficiary_public_role_id_if_necessary",
+      "benefit_type",
+      "amount_if_source_established",
+      "currency",
+      "transaction_date",
+      "procurement_decision_id",
+      "nexus_evidence",
+      "alternative_explanation",
+      "legal_status_as_of",
+      "underlying_records_examined"
+    ]
+  },
+  "normalization_rules": [
+    "Require documented pack and price units. Dividing box price by a claimed per-piece display can check arithmetic but cannot prove pack count.",
+    "Keep item price and government-paid freight distinct, then compare like landed-cost bases. FOB origin does not mean free shipping.",
+    "Use quantities actually ordered/invoiced/paid for the chosen basis; an annual estimate, ceiling or cancelled balance is not volume purchased.",
+    "Require actual revision/grade/thread/finish/traceability equivalence or a documented technical adjustment; do not use ASME B18.24 alone as a complete product specification.",
+    "Preserve the source's monetary precision and round only at declared reporting stages; do not select a tier whose minimum order exceeds feasible demand without accounting for all packs purchased.",
+    "Do not infer dated availability from today's stock, or a historical comparable from a current page. Preserve quote validity and delivery capacity.",
+    "Maintain business identity and beneficial ownership as different relations. A current CAGE/UEI match, self-parent record, shared upstream manufacturer or punctuation alias does not prove historical ownership or bid coordination.",
+    "Do not merge awards, invoice lines and cash disbursements; use unique parent/order/modification/CLIN keys and deduplicate cumulative obligations."
+  ],
+  "tests": [
+    {
+      "id": "PC-T01",
+      "name": "Exact technical and commercial qualification",
+      "inputs": [
+        "product",
+        "commercial_terms",
+        "benchmark"
+      ],
+      "test": "For every hard-required field compare source-supported values. Unknown is unresolved, explicit conflict is rejected. A technical difference requires a documented adjustment or separate non-comparable cohort.",
+      "output": "qualified / unresolved / rejected, with field-level reasons",
+      "current_status": "blocked; complete primary NSN product specification and compliant independent quote missing"
+    },
+    {
+      "id": "PC-T02",
+      "name": "Amount-weighted premium",
+      "inputs": [
+        "eligible row quantity q",
+        "actual comparable unit price p",
+        "adjusted benchmark b"
+      ],
+      "test": "For a single declared amount basis, compute E=sum(q*(p-b)), B=sum(q*b), A=sum(q*p); weighted_markup=E/B and excess_share_of_gross=E/A. Require B>0, A>0, finite numbers and common currency.",
+      "output": "signed excess, positive-only difference separately, baseline-weighted percentage, amount coverage and uncertainty interval",
+      "guard": "Do not average percentages equally or drop negative differences; no mixed ordered/invoiced/paid rows."
+    },
+    {
+      "id": "PC-T03",
+      "name": "Repeated 12 percent hypothesis",
+      "inputs": [
+        "qualified rows",
+        "declared rate and tolerance",
+        "solicitation/date strata",
+        "benchmark intervals"
+      ],
+      "test": "Before reading outcomes, declare 0.12 as a hypothesis, tolerance (for example 0.01), minimum independent solicitations/periods and complete eligible universe. Count rows and baseline-weighted amount within the band, report all residuals and benchmark sensitivity. Split exploratory and held-out periods; do not round values into a 12 percent pattern.",
+      "output": "observed repetition and coverage, not a kickback probability",
+      "guard": "Thresholds are analyst-selected screening settings, not official fraud cutoffs. Multiple lines under one solicitation are not independent repetitions. Seven incomplete history rows cannot establish this test."
+    },
+    {
+      "id": "PC-T04",
+      "name": "Mix, quantity and time control",
+      "inputs": [
+        "exact SKU/revision strata",
+        "quantity tiers",
+        "quote dates",
+        "freight and delivery",
+        "benchmark provenance"
+      ],
+      "test": "Compare within the same item/specification and feasible quantity tier. Construct a fixed-basket comparison using baseline quantities. Match time windows or document an item-relevant dated adjustment; run no-adjustment and bounded-adjustment sensitivity. Report how product mix and urgent delivery change the result.",
+      "output": "within-stratum premium versus composition effect",
+      "guard": "Do not impose a generic inflation series or assume retail availability at a government delivery date. No regression on eight incomparable records."
+    },
+    {
+      "id": "PC-T05",
+      "name": "Independent competition challenge",
+      "inputs": [
+        "all actual bids",
+        "bidder identity as of bid date",
+        "bid metadata",
+        "evaluation and withdrawals"
+      ],
+      "test": "Reconstruct submitted prices, technical acceptability, timestamps and spread. Review common errors, author metadata, bid rotation, withdrawals and losing-bidder subcontracts against neutral templates, shared upstream supply, specialization and capacity.",
+      "output": "documented pattern with alternatives and missing fields",
+      "guard": "An offers-received number, distinct legal names or different unit prices does not establish independence. A shared manufacturer does not establish collusion."
+    },
+    {
+      "id": "PC-T06",
+      "name": "Buyer decision event study",
+      "inputs": [
+        "sourced decision roles and dates",
+        "eligible office procurement universe",
+        "same-item quotations",
+        "supplier outcomes"
+      ],
+      "test": "Separate requisitioner, buyer, contracting officer, evaluator, inspector and disbursing official. Compare same-item/same-terms outcomes before and after role changes and against other offices where technically comparable. Report vendor win share, exclusion rationale, amendment timing and split/urgent buys with eligible denominators.",
+      "output": "a decision pattern requiring explanation, not causation",
+      "guard": "An award signatory is not assumed to have selected the item, supplier or price. Staffing/capacity/mission changes are confounders."
+    },
+    {
+      "id": "PC-T07",
+      "name": "Benefit and influence nexus",
+      "inputs": [
+        "lawfully available actual communications or authoritative findings",
+        "role dates",
+        "procurement events"
+      ],
+      "test": "Build a dated decision-to-benefit timeline only from supporting records; distinguish lawful employment/ownership and ordinary commercial payments from a documented improper exchange. Require more than temporal coincidence or a common surname.",
+      "output": "supported nexus / counterevidence / unresolved",
+      "guard": "No private financial, residential or family-data collection. No guessed benefit amount, personal profiling or allegation generated from a price residual."
+    },
+    {
+      "id": "PC-T08",
+      "name": "Alternative and sensitivity review",
+      "inputs": [
+        "all accepted and excluded benchmarks",
+        "selection rules",
+        "supplier response if already in public record"
+      ],
+      "test": "Try to invalidate the apparent premium using pack rounding, full-order cost, compliant certifications, delivery capacity, freight, returns, credit terms, warranty, quantity discounts and timestamp alignment; document why each survives or fails.",
+      "output": "accept / narrow / reject / unresolved independently signed"
+    },
+    {
+      "id": "PC-T09",
+      "name": "Amount and loss distinction",
+      "inputs": [
+        "price screen",
+        "receipts",
+        "invoices",
+        "credits",
+        "disbursements",
+        "official loss methodology if any"
+      ],
+      "test": "Report ordered comparison only from order documents. Upgrade to invoiced or paid comparison only with the corresponding records and adjustments. Separate benchmark-relative difference from an official recoverable loss finding.",
+      "output": "basis-labeled amount with nulls for unsupported loss/payment/benefit"
+    }
+  ],
+  "record_acquisition_queue": [
+    {
+      "priority": 1,
+      "id": "PC-R01",
+      "record": "Unrestricted authoritative item characteristics and applicable drawing/specification revision for NSN 5306016864912",
+      "availability": "Public acquisition/catalog records where actually accessible; a controlled drawing is not presumed public",
+      "reason": "Determines whether any commercial bolt is actually equivalent",
+      "current": "ASME reference and NSN verified; complete primary dimensions/grade/finish not established",
+      "next_action": "Review already public unrestricted records; log access limitation without bypassing controls."
+    },
+    {
+      "priority": 2,
+      "id": "PC-R02",
+      "record": "Dated compliant seller offers for the actual order quantity and delivery terms, with accepted certificates, freight and pack units",
+      "availability": "Public catalogs partly available; executable quotes and acceptance may require supplier interaction not performed here",
+      "reason": "Tests a feasible independent price, not merely displayed retail price",
+      "current": "Parallel market lane reviewing public seller catalogs; qualification remains field-specific",
+      "next_action": "Use public catalogs as screens; prepare exact quote specification for authorized procurement, with no contact sent."
+    },
+    {
+      "priority": 3,
+      "id": "PC-R03",
+      "record": "Seven historical award CLINs, modifications, specification references, shipping and pack terms",
+      "availability": "Older public DLA document attempts unsuccessful; agency records may be obtainable by request subject to applicable withholding",
+      "reason": "Prevents copying current terms backward and enables same-item history",
+      "current": "Identity/date/obligation arithmetic reconciled; historical commercial terms unresolved",
+      "next_action": "Preserve exact PIID list and request narrowly defined line documents, not an unbounded search."
+    },
+    {
+      "priority": 4,
+      "id": "PC-R04",
+      "record": "Solicitation quote abstracts, all actual submitted prices/delivery terms, evaluation and price-reasonableness records",
+      "availability": "Not in USAspending offer counts; some contract-file records may require agency/FOIA release and may be redacted or withheld",
+      "reason": "Tests true competition and reason for selection",
+      "current": "3–5 reported offers only",
+      "next_action": "Request existing records by solicitation and period; record missing/withheld separately from absent."
+    },
+    {
+      "priority": 5,
+      "id": "PC-R05",
+      "record": "Dated role/delegation and procurement decision records, limited to official duties",
+      "availability": "Some official directories/award roles public; detailed internal assignments and deliberations may not be",
+      "reason": "Identifies who actually influenced a decision and when",
+      "current": "No colluding buyer identified or alleged",
+      "next_action": "Join only authoritative professional-role identifiers and time intervals; do not infer influence from signature alone."
+    },
+    {
+      "priority": 6,
+      "id": "PC-R06",
+      "record": "Receipts, acceptance, invoices, credits/returns and corresponding disbursement records",
+      "availability": "Not in supplied order or summary obligation data; detailed agency systems generally require authorized access or releases",
+      "reason": "Separates ordered amount from net amount actually paid",
+      "current": "Future delivery due on current order; payment not verified",
+      "next_action": "No payment/annualization inference pending source records."
+    },
+    {
+      "priority": 7,
+      "id": "PC-R07",
+      "record": "Relevant public corporate filings and dated disclosed officer/ownership roles",
+      "availability": "Public business registries/SEC filings if applicable; coverage varies",
+      "reason": "Tests dated business links without equating aliases with ownership",
+      "current": "Five CAGE/UEI crosswalks verified; beneficial ownership unresolved",
+      "next_action": "Record effective date, filing date and entity identifiers; do not collect residential/contact fields."
+    },
+    {
+      "priority": 8,
+      "id": "PC-R08",
+      "record": "Evidence of improper benefit, communications or concealment linked to a procurement decision",
+      "availability": "May appear in official adjudications or released records; nonpublic bank/payroll/communications records require lawful investigative authority",
+      "reason": "Separately tests bribery/kickback theory",
+      "current": "No such evidence for this cohort",
+      "next_action": "Do not obtain nonpublic data or make contacts under this research task; preserve the gap rather than converting a pricing anomaly into an accusation."
+    }
+  ]
+}
