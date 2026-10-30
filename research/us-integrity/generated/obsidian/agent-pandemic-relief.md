@@ -4,7 +4,7 @@ type: "agent_specification"
 title: "PPP, EIDL and pandemic business relief"
 status: "planned"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

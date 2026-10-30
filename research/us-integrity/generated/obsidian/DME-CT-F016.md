@@ -4,7 +4,7 @@ type: "finding"
 title: "OIG identifies ownership verification, ordering-document and beneficiary-identifier weaknesses; these are control risks, not proof against an uncharged supplier."
 status: "audit_finding"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

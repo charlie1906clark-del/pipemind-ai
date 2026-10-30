@@ -4,7 +4,7 @@ type: "hypothesis"
 title: "New or acquired supplier shows an extreme catheter billing increase relative to peers"
 status: "hypothesis"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

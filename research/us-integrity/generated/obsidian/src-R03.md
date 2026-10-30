@@ -4,7 +4,7 @@ type: "source"
 title: "President Donald J. Trump and Vice President JD Vance announce the Fraud Whistleblower Incentive Program"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

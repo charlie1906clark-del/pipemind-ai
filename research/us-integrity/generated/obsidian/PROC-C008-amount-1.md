@@ -4,7 +4,7 @@ type: "money_measure"
 title: "USAID Vistant/Apprio bribery resolutions: prime_contract_volume_not_loss_or_recovery"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

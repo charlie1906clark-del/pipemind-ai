@@ -1,0 +1,8 @@
+{
+  "keyword": "Amazon",
+  "award_type": "contracts",
+  "sort": "name",
+  "order": "asc",
+  "limit": 1000,
+  "page": 2
+}

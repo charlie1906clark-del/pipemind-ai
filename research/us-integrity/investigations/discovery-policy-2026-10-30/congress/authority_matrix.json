@@ -1,0 +1,165 @@
+{
+  "as_of": "2026-10-30",
+  "authorities": [
+    {
+      "id": "CA01",
+      "topic": "Universal 1% government savings reward",
+      "status": "not_established_by_bounded_search",
+      "source_ids": [
+        "C01",
+        "C02",
+        "C16"
+      ],
+      "result": "No retrieved enacted general one-percent law or identified general one-percent bill. This is a bounded negative result, not proof of absence."
+    },
+    {
+      "id": "CA02",
+      "topic": "DOJ public reward authority",
+      "status": "enacted_statutory_authority",
+      "source_ids": [
+        "C01"
+      ],
+      "result": "28 USC530C(b)(1)(L): discretionary reward authority, ordinary $3m cap; terrorism or another statute may permit more; $250k+ personal AG or President approval; congressional notice; no judicial review of amount/nonpayment. No percentage formula."
+    },
+    {
+      "id": "CA03",
+      "topic": "False Claims Act relator share",
+      "status": "enacted_statutory_authority",
+      "source_ids": [
+        "C02",
+        "C03",
+        "C04"
+      ],
+      "result": "Conditional 15\u201325% with government proceeding, 25\u201330% without; shares concern action/settlement proceeds, not estimated savings. Public-disclosure, originality, first-to-file, seal and other conditions require separate review."
+    },
+    {
+      "id": "CA04",
+      "topic": "IRS",
+      "status": "existing_sector_program",
+      "source_ids": [
+        "C19"
+      ],
+      "result": "Generally15\u201330% of attributable collected proceeds for eligible information concerning laws IRS administers; not a general spending reward."
+    },
+    {
+      "id": "CA05",
+      "topic": "SEC",
+      "status": "existing_sector_program",
+      "source_ids": [
+        "C20"
+      ],
+      "result": "10\u201330% collected sanctions, qualifying original information and SEC action over$1m sanctions; securities jurisdiction."
+    },
+    {
+      "id": "CA06",
+      "topic": "CFTC",
+      "status": "existing_sector_program",
+      "source_ids": [
+        "C21"
+      ],
+      "result": "10\u201330% collected sanctions in qualifying CEA/related action; action sanctions exceed$1m and original voluntary information."
+    },
+    {
+      "id": "CA07",
+      "topic": "Defense certified cost/pricing threshold",
+      "status": "enacted_amendment",
+      "source_ids": [
+        "C11",
+        "C12",
+        "C13"
+      ],
+      "result": "PL119-60 section1804(c): qualifying prime contracts afterJune30,2026 $10m; earlier statutory threshold$2m, regulatory inflation-adjusted$2.5m. Agency, award date, contract tier/action and exceptions must be resolved."
+    },
+    {
+      "id": "CA08",
+      "topic": "Pricing transparency proposal",
+      "status": "member_announcement_bill_number_unresolved",
+      "source_ids": [
+        "C09",
+        "C10"
+      ],
+      "result": "Proposed reporting screens25%/50%; cannot classify a price deviation as illegal by proposal alone."
+    },
+    {
+      "id": "CA09",
+      "topic": "Mandatory sentencing/state official liability proposal",
+      "status": "member_announcement_bill_number_unresolved",
+      "source_ids": [
+        "C16",
+        "C17"
+      ],
+      "result": "Cline October29 proposal, not shown enacted; separately track Trump/Ferguson October20 request in executive report."
+    },
+    {
+      "id": "CA-B-hr7725",
+      "topic": "Stop Child Care Fraud Act of 2026",
+      "status": "not_enacted_in_captured_status_record",
+      "source_ids": [
+        "B-hr7725"
+      ],
+      "latest_action": {
+        "actionDate": "2026-04-06",
+        "text": "Placed on the Union Calendar, Calendar No. 511."
+      },
+      "record_updated": "2026-06-11T23:41:32Z",
+      "limitation": "No laws element in captured XML. Status beyond its recorded update is not implied."
+    },
+    {
+      "id": "CA-B-hr7726",
+      "topic": "Stop Child Care Scams Act of 2026",
+      "status": "not_enacted_in_captured_status_record",
+      "source_ids": [
+        "B-hr7726"
+      ],
+      "latest_action": {
+        "actionDate": "2026-06-04",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "record_updated": "2026-07-23T23:06:21Z",
+      "limitation": "No laws element in captured XML. Status beyond its recorded update is not implied."
+    },
+    {
+      "id": "CA-B-s1473",
+      "topic": "Stop Stealing our Chips Act",
+      "status": "not_enacted_in_captured_status_record",
+      "source_ids": [
+        "B-s1473"
+      ],
+      "latest_action": {
+        "actionDate": "2026-05-21",
+        "text": "Held at the desk.",
+        "actionTime": "15:30:23"
+      },
+      "record_updated": "2026-05-27T11:22:16Z",
+      "limitation": "No laws element in captured XML. Status beyond its recorded update is not implied."
+    },
+    {
+      "id": "CA-B-hr4646",
+      "topic": "Whistleblower Protection Act of 2025",
+      "status": "not_enacted_in_captured_status_record",
+      "source_ids": [
+        "B-hr4646"
+      ],
+      "latest_action": {
+        "actionDate": "2026-09-16",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "record_updated": "2026-09-19T01:38:23Z",
+      "limitation": "No laws element in captured XML. Status beyond its recorded update is not implied."
+    },
+    {
+      "id": "CA-B-hr10792",
+      "topic": "FTC Whistleblower Act of 2026",
+      "status": "not_enacted_in_captured_status_record",
+      "source_ids": [
+        "B-hr10792"
+      ],
+      "latest_action": {
+        "actionDate": "2026-10-09",
+        "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "record_updated": "2026-10-20T16:40:15Z",
+      "limitation": "No laws element in captured XML. Status beyond its recorded update is not implied."
+    }
+  ]
+}

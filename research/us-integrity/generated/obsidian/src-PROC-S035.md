@@ -4,7 +4,7 @@ type: "source"
 title: "RTX 2025 Form 10-K Exhibit 21: subsidiary and affiliate listing"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

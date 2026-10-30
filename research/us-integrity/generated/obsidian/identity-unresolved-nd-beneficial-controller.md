@@ -4,7 +4,7 @@ type: "unresolved_party"
 title: "ND Medical ultimate beneficial controller unresolved"
 status: "unknown"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

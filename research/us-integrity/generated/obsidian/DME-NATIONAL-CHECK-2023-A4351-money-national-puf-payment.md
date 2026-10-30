@@ -4,7 +4,7 @@ type: "money_measure"
 title: "2023 A4351: national reconstructed payment measure"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

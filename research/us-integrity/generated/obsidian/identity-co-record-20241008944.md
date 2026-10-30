@@ -4,7 +4,7 @@ type: "company_registry_record"
 title: "Colorado entity 20241008944"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

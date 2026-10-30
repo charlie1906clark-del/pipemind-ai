@@ -4,7 +4,7 @@ type: "case"
 title: "GAO state-administered programme control assessment"
 status: "published_case"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

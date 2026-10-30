@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Affidavit documents CHAMPVA claims; the cited amount is billing, not payment. — submitted_claims"
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

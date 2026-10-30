@@ -4,7 +4,7 @@ type: "money_measure"
 title: "2025 Gold Rush umbrella distinguishes bills, scheduled payments, escrow, cash received and seized assets. — scheduled_payment"
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

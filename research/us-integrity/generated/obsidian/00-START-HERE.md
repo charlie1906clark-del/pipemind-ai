@@ -1,8 +1,22 @@
 # US public-funds research bank
 
-Research baseline: 29 October 2026. These notes record evidence and planning; no new fraud is established.
+Research updated: 30 October 2026. These notes record evidence and planning; no new fraud is established.
 
 Open the built-in graph, or use these indexes. Source details and legal status are in each note.
+
+## Reward authority and new-case discovery methods
+
+- [[DISC-20261030|Latest investigation and evidence paths]]
+- [[DISC-EX-ST02|Trump's attributed percentage statement]]
+- [[DISC-EX-ST11|Written DOJ programme terms]]
+- [[DISC-CA02|Statutory reward authority and limits]]
+- [[DISC-CA07|Enacted procurement threshold change]]
+- [[DISC-NAME-ANALYSIS|Amazon/Amazon. query and identifier controls]]
+- [[DISC-RFQ-SPE4A626U3619|Original DLA solicitation and seven historical prices]]
+- [[DISC-PRICE-COMPARABILITY|Why the current price pairs are not comparable]]
+- [[DISC-WP-DLA-BOLTS-001|Next bounded DLA investigation]]
+
+The latest pass adds 191 nodes and preserves earlier evidence dates. Punctuation is not impersonation; a ceiling is not a unit price; absence from a public search does not establish that investigators are unaware of a matter.
 
 ## Completed catheter research pass
 

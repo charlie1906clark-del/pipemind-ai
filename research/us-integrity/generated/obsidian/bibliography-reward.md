@@ -4,7 +4,7 @@ type: "research_collection"
 title: "reward source collection"
 status: "planned"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 
@@ -55,4 +55,4 @@ No supporting source attached; treat as an unverified planning record.
 
 ## Backlinks
 
-None recorded.
+- [[DISC-20261030]]: extends_policy_bibliography — planned (DISC-E-21d94326df0a6cbbf5a0)

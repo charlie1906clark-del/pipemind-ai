@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "DLA-SPE4A626U3619",
+      "title": "DLA RFQ SPE4A6-26-U-3619",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/RFQ/9/SPE4A626U3619.PDF",
+      "publisher": "DLA",
+      "source_tier": "primary",
+      "access_status": "acquired_full_pdf",
+      "accessed_on": "2026-10-30",
+      "supports": "Seven history entries, current solicitation terms and blank quote fields",
+      "archive_path": "snapshots/SPE4A626U3619.pdf",
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "FAR-15-404-1",
+      "title": "FAR 15.404-1 Proposal analysis techniques",
+      "url": "https://www.acquisition.gov/far/15.404-1",
+      "publisher": "Acquisition.gov",
+      "source_tier": "primary",
+      "access_status": "full_documentation_read",
+      "accessed_on": "2026-10-30",
+      "supports": "Historical-price validity and adjustments, price versus cost analysis, unit allocation",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "SAM-CONTRACT-AWARDS-API",
+      "title": "SAM.gov Contract Awards API",
+      "url": "https://open.gsa.gov/api/contract-awards/",
+      "publisher": "GSA",
+      "source_tier": "primary",
+      "access_status": "full_documentation_read",
+      "accessed_on": "2026-10-30",
+      "supports": "Authentication, DoD 90-day revealed-data delay, excluded parent fields; does not establish invoice prices",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "USASPENDING-ABOUT-DATA",
+      "title": "USAspending About the Data download",
+      "url": "https://www.usaspending.gov/data/about-the-data-download.pdf",
+      "publisher": "Treasury",
+      "source_tier": "primary",
+      "access_status": "full_documentation_read",
+      "accessed_on": "2026-10-30",
+      "supports": "Award financial context and data limitations; document updated October 6, 2026",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "DLA-FLIS-READING-ROOM",
+      "title": "FLIS Data Electronic Reading Room",
+      "url": "https://www.dla.mil/Information-Operations/FLIS-Data-Electronic-Reading-Room/PUBLOGFLISSearchDownloadInstr/",
+      "publisher": "DLA",
+      "source_tier": "primary",
+      "access_status": "official_search_index_only_live_403",
+      "accessed_on": "2026-10-30",
+      "supports": "PUB LOG/FLIS catalog download families and FedMall XLSX discovery, not a verified unit-price bulk dataset",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "DLA-EBS",
+      "title": "EBS Supplier Resources",
+      "url": "https://www.dla.mil/Information-Operations/EBS-Supplier-Resources/",
+      "publisher": "DLA",
+      "source_tier": "primary",
+      "access_status": "official_search_index_only",
+      "accessed_on": "2026-10-30",
+      "supports": "Current supplier-portal and access-policy documentation",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "DLA-EPROCUREMENT",
+      "title": "DLA eProcurement",
+      "url": "https://www.dla.mil/Acquisition/Oers/eProcurement/",
+      "publisher": "DLA",
+      "source_tier": "primary",
+      "access_status": "official_search_index_only",
+      "accessed_on": "2026-10-30",
+      "supports": "Public DIBBS RFQ and award discovery route",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "DLA-PACKAGING",
+      "title": "DLA Packaging FAQs",
+      "url": "https://www.dla.mil/Logistics-Operations/Packaging/Packaging-FAQs/",
+      "publisher": "DLA",
+      "source_tier": "primary",
+      "access_status": "official_search_index_only_live_403",
+      "accessed_on": "2026-10-30",
+      "supports": "Unit-of-issue and unit-pack questions; no conversion extracted",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "VA-FSS",
+      "title": "VA Federal Supply Schedule Service",
+      "url": "https://department.va.gov/procurement-acquisition-and-logistics/national-acquisition-center/federal-supply-schedule-service/",
+      "publisher": "VA",
+      "source_tier": "primary",
+      "access_status": "official_search_index_only",
+      "accessed_on": "2026-10-30",
+      "supports": "Schedule price and national-contract route; no prices downloaded",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "VA-NAC-CATALOG",
+      "title": "National Acquisition Center Contract Catalog Search",
+      "url": "https://www.vendorportal.ecms.va.gov/nac/",
+      "publisher": "VA",
+      "source_tier": "primary",
+      "access_status": "official_search_index_only",
+      "accessed_on": "2026-10-30",
+      "supports": "Public catalog discovery; no line-item dataset downloaded",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "VA-FOIA",
+      "title": "VA acquisition FOIA and historical pharmaceutical price records",
+      "url": "https://department.va.gov/administrations-and-offices/acquisition-logistics-and-construction/freedom-of-information-act-requests/",
+      "publisher": "VA",
+      "source_tier": "primary",
+      "access_status": "official_search_index_only",
+      "accessed_on": "2026-10-30",
+      "supports": "Historical pharmaceutical price archive discovery only",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "DLA-FOIA",
+      "title": "DLA Disposition Services FOIA",
+      "url": "https://www.dla.mil/Disposition-Services/FOIA/",
+      "publisher": "DLA",
+      "source_tier": "primary",
+      "access_status": "official_search_index_only",
+      "accessed_on": "2026-10-30",
+      "supports": "Records-request principles; not a promise of release or correct office for every acquisition record",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    },
+    {
+      "id": "SECONDARY-RFQ-DISCOVERY",
+      "title": "Secondary RFQ discovery listing",
+      "url": "https://sam.directory/opportunities/53-boltmachine-spe4a626u3619",
+      "publisher": "Independent mirror",
+      "source_tier": "secondary",
+      "access_status": "search_index_only_live_timeout_or_403",
+      "accessed_on": "2026-10-30",
+      "supports": "Document lead only. Primary source supersedes its split quantity entries.",
+      "archive_path": null,
+      "claim_limit": "Use only for stated scope; discovery-only entries are not dataset acquisitions"
+    }
+  ]
+}

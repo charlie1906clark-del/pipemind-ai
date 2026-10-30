@@ -4,7 +4,7 @@ type: "agent_specification"
 title: "Agriculture, SNAP, meals and childcare-related grants"
 status: "planned"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

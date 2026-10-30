@@ -4,7 +4,7 @@ type: "money_measure"
 title: "GAO identified supplemental-payment exposure and documented suspension reports beginning December2025/January2026; total private-payer cash remains unknown. — cost_sharing_paid"
 status: "audit_finding"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

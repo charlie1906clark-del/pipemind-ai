@@ -4,7 +4,7 @@ type: "finding"
 title: "DOJ reported35 charged and16 convicted in Gold Rush as of August14,2026; this is not an October census."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

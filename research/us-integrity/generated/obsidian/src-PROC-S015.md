@@ -4,7 +4,7 @@ type: "source"
 title: "GAO-26-108174: Limited Beneficial Ownership Information Available on Awardees"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

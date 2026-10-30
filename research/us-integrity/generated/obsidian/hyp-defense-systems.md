@@ -4,7 +4,7 @@ type: "hypothesis"
 title: "Defence weapons, aircraft and major systems: bounded audit test"
 status: "hypothesis"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -1,0 +1,29 @@
+{
+  "id": "supplier-alias-discovery",
+  "goal": "Resolve potentially misleading supplier-name variants without conflating identifiers, roles or legal liability.",
+  "inputs": [
+    "Exact source name, UEI, CAGE where available, recipient profile level, dated award identity, public registry roles"
+  ],
+  "steps": [
+    "Capture bounded queries and completeness evidence",
+    "Preserve raw names; derive comparison keys without legal suffix/DBA stripping",
+    "Separate exact-UEI aliases, distinct-UEI shared names, missing identifiers and profile levels",
+    "Seek independent dated registration/control contradiction and relevant transaction",
+    "Search public prior enforcement for novelty",
+    "Assign independent disconfirmation review"
+  ],
+  "stop_conditions": [
+    "Punctuation alone",
+    "Unresolved identifier or date match",
+    "Known legitimate profile duplication",
+    "Missing claimed cash/false-representation evidence"
+  ],
+  "publication": "Neutral sources and supported observations; no novel named accusation from name screening alone.",
+  "agent_cannot": [
+    "Infer guilt",
+    "Invent ownership links",
+    "Sum overlapping award/profile amounts as loss",
+    "Bypass access controls",
+    "Submit tips or contact subjects"
+  ]
+}

@@ -1,4 +1,5 @@
 id,amount,currency,kind,qualifier,period,basis,condition
+DISC-PRICE-CURRENT-CEILING,350000,USD,solicitation_maximum_contract_value,ceiling_not_paid_amount,2026-09-03,Current RFQ maximum; no current quoted price,
 DME-COHORT-2022-A4351-money-allowed,152106059.86,USD,reconstructed_puf_allowed,approximate_reconstructed,2022,Sum of each row's services multiplied by its published per-service average,
 DME-COHORT-2022-A4351-money-puf_payment,114823304.02,USD,reconstructed_puf_puf_payment,approximate_reconstructed,2022,Sum of each row's services multiplied by its published per-service average,
 DME-COHORT-2022-A4351-money-standardized_payment,121171483.67,USD,reconstructed_puf_standardized_payment,approximate_reconstructed,2022,Sum of each row's services multiplied by its published per-service average,

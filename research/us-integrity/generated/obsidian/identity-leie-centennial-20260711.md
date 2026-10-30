@@ -4,7 +4,7 @@ type: "administrative_exclusion_record"
 title: "Centennial exact-NPI OIG exclusion row"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

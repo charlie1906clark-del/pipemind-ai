@@ -4,7 +4,7 @@ type: "money_measure"
 title: "VA Community Care Network outpatient and dental audit: questioned_costs_metadata"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

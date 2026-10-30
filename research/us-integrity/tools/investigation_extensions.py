@@ -7,6 +7,7 @@ effect of running an investigation's generator.
 import hashlib
 import importlib.util
 import json
+from datetime import date
 from pathlib import Path
 
 
@@ -36,8 +37,15 @@ def load_approved_extensions(root, nodes, edges, as_of):
         if hashlib.sha256(body).hexdigest() != entry.get("sha256"):
             raise ValueError("Investigation extension digest mismatch: " + str(path))
         extension = json.loads(body)
-        if extension.get("version") != "1.0" or extension.get("as_of") != as_of:
-            raise ValueError("Investigation version/date must match assembly")
+        if extension.get("version") != "1.0":
+            raise ValueError("Investigation version must match assembly")
+        try:
+            evidence_day = date.fromisoformat(extension["as_of"])
+            graph_day = date.fromisoformat(as_of)
+        except (KeyError, TypeError, ValueError) as exc:
+            raise ValueError("Invalid investigation or assembly date") from exc
+        if evidence_day > graph_day:
+            raise ValueError("Investigation date cannot exceed assembly date")
         for dependency in extension.get("input_artifacts", []):
             source_path = (root / dependency["path"]).resolve()
             if not source_path.is_relative_to(root / "investigations"):
@@ -58,7 +66,7 @@ def load_approved_extensions(root, nodes, edges, as_of):
                     raise ValueError("Archived investigation source digest mismatch")
         incoming_nodes.extend(extension["nodes"])
         incoming_edges.extend(extension["edges"])
-        loaded.append({"path": entry["path"], "sha256": entry["sha256"],
+        loaded.append({"path": entry["path"], "sha256": entry["sha256"], "as_of": extension["as_of"],
                        "nodes": len(extension["nodes"]), "edges": len(extension["edges"])})
     # Use the same public provenance, legal status, monetary and privacy contract
     # as final exports. No partial append occurs if any extension is invalid.

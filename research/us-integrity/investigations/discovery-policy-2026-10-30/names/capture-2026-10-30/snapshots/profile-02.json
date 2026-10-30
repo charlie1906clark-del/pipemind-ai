@@ -1,0 +1,26 @@
+{
+  "name": "AMAZON.COM SERVICES LLC",
+  "alternate_names": [
+    "AMAZON.COM  INC."
+  ],
+  "duns": "128990418",
+  "uei": "TMKBFBRHFKH3",
+  "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+  "recipient_level": "C",
+  "parent_id": "5fdd1c86-6551-bc97-900c-426613b1ba66-P",
+  "parent_name": "AMAZON.COM, INC.",
+  "parent_duns": "884745530",
+  "parent_uei": "G5F2C46HBCM3",
+  "business_types": [
+    "category_business",
+    "corporate_entity_not_tax_exempt",
+    "limited_liability_corporation",
+    "other_than_small_business",
+    "special_designations",
+    "us_owned_business"
+  ],
+  "location": {
+    "state_code": "WA",
+    "country_code": "USA"
+  }
+}

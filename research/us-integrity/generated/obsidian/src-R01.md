@@ -4,7 +4,7 @@ type: "source"
 title: "Trump promises cash for fraud tips as he awards right-wing YouTuber"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

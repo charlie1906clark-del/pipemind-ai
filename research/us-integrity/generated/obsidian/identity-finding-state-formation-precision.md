@@ -4,7 +4,7 @@ type: "finding"
 title: "Colorado formation date is 2024-01-02; affidavit says on or about January 1, 2024. This one-day difference is retained and does not establish inconsistency or fraud."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -4,7 +4,7 @@ type: "source"
 title: "Remarks: Donald Trump Announces a Fraud Whistleblower Initiative - October 20, 2026"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

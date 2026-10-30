@@ -4,7 +4,7 @@ type: "money_measure"
 title: "FEMA disaster meal contract conviction: approximate_contract_face_value_not_loss"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

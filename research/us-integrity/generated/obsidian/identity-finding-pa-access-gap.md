@@ -4,7 +4,7 @@ type: "finding"
 title: "PA official search route identified but unauthenticated retrieval returned HTTP 403. ND registry ID, filings, registered agent and pre-acquisition owner remain unverified. This is an access outcome, not a finding of missing registration."
 status: "unknown"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

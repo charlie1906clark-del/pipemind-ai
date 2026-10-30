@@ -1,0 +1,269 @@
+{
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "id": "C01",
+      "title": "28 USC 530C, 2024 edition",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partII-chap31-sec530C.htm",
+      "kind": "statute",
+      "web_ref": "turn184view0",
+      "verification_note": "b(1)(L)(i)-(v); corroborated against current House search-indexed text; direct current House page failed",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C02",
+      "title": "31 USC 3730, 2024 edition",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title31/html/USCODE-2024-title31-subtitleIII-chap37-subchapIII-sec3730.htm",
+      "kind": "statute",
+      "web_ref": "turn181view0",
+      "verification_note": "b(2), b(5), d, e(4); current House search-indexed version corroborated but direct page failed",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C03",
+      "title": "31 USC 3729, 2024 edition",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title31/html/USCODE-2024-title31-subtitleIII-chap37-subchapIII-sec3729.htm",
+      "kind": "statute",
+      "web_ref": "turn181view1",
+      "verification_note": "a, b(1), b(4), d",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C04",
+      "title": "DOJ False Claims Act overview",
+      "url": "https://www.justice.gov/civil/false-claims-act",
+      "kind": "agency_guidance",
+      "web_ref": "turn181view2",
+      "verification_note": "Updated January 15, 2025; no claim latest recovery statistics",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C05",
+      "title": "Grassley FCA statement, January 20, 2026",
+      "url": "https://www.grassley.senate.gov/news/news-releases/grassley-law-returns-record-breaking-68-billion-in-fraudulent-government-payments-to-taxpayers",
+      "kind": "member_statement",
+      "web_ref": "turn138view3",
+      "verification_note": "Individual senator statement",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C06",
+      "title": "Grassley letter to Bondi, February 7, 2025; release February 11",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-longtime-champion-of-the-false-claims-act-urges-ag-bondi-to-fully-review-biden-harris-dojs-pending-qui-tam-case-dismissals",
+      "kind": "committee_chair_statement",
+      "web_ref": "turn138view4",
+      "verification_note": "Request to review qui tam dismissals; not new legislation",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C07",
+      "title": "Bipartisan defense price transparency letter, October 20, 2026",
+      "url": "https://www.warren.senate.gov/wp-content/uploads/2026/10/10.20.2026-Letter-to-DoD-on-Supplier-Cost-and-Pricing-Transparency-_Final.pdf",
+      "kind": "member_letter",
+      "web_ref": "turn156view0",
+      "verification_note": "Nine-page letter; response requested November 3, 2026",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C08",
+      "title": "Release of defense letter, October 21, 2026",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/in-bipartisan-letter-warren-grassley-slotkin-ernst-press-pentagon-to-crack-down-on-military-contractors-price-gouging-enforce-cost-transparency/",
+      "kind": "member_statement",
+      "web_ref": "turn154view0",
+      "verification_note": "Release date differs from original letter date",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C09",
+      "title": "Grassley pricing proposal announcement, September 17, 2025",
+      "url": "https://www.grassley.senate.gov/news/news-releases/grassley-colleagues-introduce-legislation-to-expand-transparency-in-government-defense-maintenance-contracts-crack-down-on-price-gouging",
+      "kind": "member_statement",
+      "web_ref": "turn176view1",
+      "verification_note": "Announcement says introduction; independently verified bill number not located",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C10",
+      "title": "Warren pricing draft, September 2025",
+      "url": "https://www.warren.senate.gov/imo/media/doc/transparency_in_contract_pricing_act_of_2025_act_-_updated_bill_text.pdf",
+      "kind": "member_bill_draft",
+      "web_ref": "turn182search7",
+      "verification_note": "Blank S. number; short title says Transparency in Contracting Act of 2025, press title says Contract Pricing",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C11",
+      "title": "FY2026 NDAA, Public Law 119-60",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm",
+      "kind": "enacted_law",
+      "web_ref": "turn182view1",
+      "verification_note": "December 18, 2025; section 1804(c); 139 Stat.1234-1235",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C12",
+      "title": "10 USC3702 current House search-indexed text",
+      "url": "https://uscode.house.gov/us/usc/119-124/t10/s3702/",
+      "kind": "statute_search_index",
+      "web_ref": "turn182search1",
+      "verification_note": "Direct URL reliability limited; statutory amendment independently verified in C11",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C13",
+      "title": "DFARS class deviation 2026-O0048",
+      "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-215/2026-O0048_TAB_A_Deviation_Memo_Part_215.pdf",
+      "kind": "regulatory_deviation_search_index",
+      "web_ref": "turn182search6",
+      "verification_note": "Search-indexed official excerpt; direct retrieval 502/503. Do not treat full deviation/revision as fully verified",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C14",
+      "title": "FAR15.404-1, Proposal analysis techniques",
+      "url": "https://www.acquisition.gov/far/15.404-1",
+      "kind": "regulation",
+      "web_ref": "turn174view2",
+      "verification_note": "FAC2026-01 effective March13,2026; agency RFO deviations may supersede text",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C15",
+      "title": "FAR15.407-1, Defective certified cost or pricing data",
+      "url": "https://www.acquisition.gov/far/15.407-1",
+      "kind": "regulation",
+      "web_ref": "turn174view1",
+      "verification_note": "FAC2026-01 effective March13,2026; agency RFO deviations may supersede text",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C16",
+      "title": "Cline proposal announcement, October29,2026",
+      "url": "https://cline.house.gov/news/documentsingle.aspx?DocumentID=2708",
+      "kind": "member_statement",
+      "web_ref": "turn180search0",
+      "verification_note": "Fetched directly; captured HTML. Search-index primary text. No official bill number independently located",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C17",
+      "title": "Cline signed proposal PDF",
+      "url": "https://cline.house.gov/UploadedFiles/Signed_Bill-Mandatory_Min_Fraud.pdf",
+      "kind": "member_bill_draft",
+      "web_ref": null,
+      "verification_note": "Scanned signed member-hosted draft, footer October28,2026. Page1 visually checked: H.R. number, date and committee fields blank. Direct PDF captured; partial OCR is discovery aid only. No official introduction/status record independently located.",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C18",
+      "title": "CBO H.R.7725 estimate, April17,2026",
+      "url": "https://www.cbo.gov/publication/62360",
+      "kind": "congressional_analysis",
+      "web_ref": "turn175search3",
+      "verification_note": "As reported April6; child-care oversight plans, not universal reward",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C19",
+      "title": "IRS Whistleblower Office",
+      "url": "https://www.irs.gov/compliance/whistleblower-office",
+      "kind": "agency_guidance",
+      "web_ref": "turn183view0",
+      "verification_note": "Tax/noncompliance scope; generally15-30% collected proceeds",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C20",
+      "title": "SEC Whistleblower Program",
+      "url": "https://www.sec.gov/enforcement-litigation/whistleblower-program",
+      "kind": "agency_guidance",
+      "web_ref": "turn183view1",
+      "verification_note": "Securities scope, original information, sanctions threshold",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C21",
+      "title": "CFTC Whistleblower Program overview",
+      "url": "https://www.whistleblower.gov/overview",
+      "kind": "agency_guidance",
+      "web_ref": "turn183view2",
+      "verification_note": "Commodity Exchange Act scope, original information, sanctions threshold",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "C22",
+      "title": "White House Statement of Administration Policy H.R.7726",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/10/SAP-HR7726.pdf",
+      "kind": "administration_policy",
+      "web_ref": "turn175search9",
+      "verification_note": "Conditional support for passage is not enactment; October document vs July-updated bill-status capture date gap",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "id": "B-hr7725",
+      "title": "Stop Child Care Fraud Act of 2026",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7725.xml",
+      "kind": "official_bill_status_xml",
+      "accessed_at": "2026-10-30",
+      "capture": "captures/hr7725.xml",
+      "sha256": "f60eb718fde714670c5b97221422bb6db0ae82930c639f10cf6839d7983e3295",
+      "update_date": "2026-06-11T23:41:32Z",
+      "verification_note": "Latest action is as returned in captured official XML; data-update date retained, not inferred from crawl time."
+    },
+    {
+      "id": "B-hr7726",
+      "title": "Stop Child Care Scams Act of 2026",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7726.xml",
+      "kind": "official_bill_status_xml",
+      "accessed_at": "2026-10-30",
+      "capture": "captures/hr7726.xml",
+      "sha256": "3c057620319d58edff830b7da7dc202cfa6788dccc229d6558f9cb60654a2548",
+      "update_date": "2026-07-23T23:06:21Z",
+      "verification_note": "Latest action is as returned in captured official XML; data-update date retained, not inferred from crawl time."
+    },
+    {
+      "id": "B-s1473",
+      "title": "Stop Stealing our Chips Act",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1473.xml",
+      "kind": "official_bill_status_xml",
+      "accessed_at": "2026-10-30",
+      "capture": "captures/s1473.xml",
+      "sha256": "7018aeabf0f21ed0dc22a70bd1c123b8de1946ae2e2178e323c81fd027f90202",
+      "update_date": "2026-05-27T11:22:16Z",
+      "verification_note": "Latest action is as returned in captured official XML; data-update date retained, not inferred from crawl time."
+    },
+    {
+      "id": "B-hr4646",
+      "title": "Whistleblower Protection Act of 2025",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4646.xml",
+      "kind": "official_bill_status_xml",
+      "accessed_at": "2026-10-30",
+      "capture": "captures/hr4646.xml",
+      "sha256": "701ac42be036b732808f426b7c3905adbf0138dc476aa0098bf235ebe0703de9",
+      "update_date": "2026-09-19T01:38:23Z",
+      "verification_note": "Latest action is as returned in captured official XML; data-update date retained, not inferred from crawl time."
+    },
+    {
+      "id": "B-hr10792",
+      "title": "FTC Whistleblower Act of 2026",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10792.xml",
+      "kind": "official_bill_status_xml",
+      "accessed_at": "2026-10-30",
+      "capture": "captures/hr10792.xml",
+      "sha256": "81bfb97bd7681f9a9e20b64b19a9423565fb90384e946f574c0dca7fdb69fee8",
+      "update_date": "2026-10-20T16:40:15Z",
+      "verification_note": "Latest action is as returned in captured official XML; data-update date retained, not inferred from crawl time."
+    },
+    {
+      "id": "B-ndaa2026",
+      "title": "National Defense Authorization Act for Fiscal Year 2026",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1071.xml",
+      "kind": "official_bill_status_xml",
+      "accessed_at": "2026-10-30",
+      "capture": "captures/ndaa2026.xml",
+      "sha256": "cb262b2d10d632a71289851666de5838eb922cecd070ab0d767cd4a99c96eeac",
+      "update_date": "2026-10-08T15:33:28Z",
+      "verification_note": "Latest action is as returned in captured official XML; data-update date retained, not inferred from crawl time."
+    }
+  ]
+}

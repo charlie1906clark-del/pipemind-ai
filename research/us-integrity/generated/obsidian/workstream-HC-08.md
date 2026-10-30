@@ -4,7 +4,7 @@ type: "workstream"
 title: "Medicare Advantage risk adjustment and delegated vendor networks"
 status: "planned"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

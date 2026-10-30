@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Gold Rush allegations cover $941 million received from Medicare and secondary payers. — attributed"
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

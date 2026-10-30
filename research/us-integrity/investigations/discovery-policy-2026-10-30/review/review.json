@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "review_id": "RV-DISCOVERY-2026-10-30",
+  "review_date": "2026-10-30",
+  "decision": "accept_neutral_method_pilots; no_new_fraud_case_established",
+  "independence": "Separate reviewer; independent name reconstruction and PDF-row transcription, without importing producer modules. Legal reports reviewed for methodological overstatement; not every legal search repeated.",
+  "name_summary": {
+    "amazon_awards": 150,
+    "amazon_dot_awards": 12,
+    "award_intersection": 12,
+    "award_only_amazon": 138,
+    "award_only_amazon_dot": 0,
+    "amazon_recipient_profiles": 6,
+    "amazon_dot_recipient_profiles": 2,
+    "distinct_recipient_ueis": 3,
+    "profile_level_counts": {
+      "P": 3,
+      "C": 3
+    },
+    "same_uei_parent_child_pairs": 3,
+    "normalized_name_groups": 2,
+    "distinct_uei_name_collisions": 1,
+    "same_uei_multiple_names": 0,
+    "child_profile_count": 3,
+    "distinct_reported_parent_ueis_among_child_profiles": 1,
+    "parent_profiles_reporting_self_parent": 3,
+    "money_summed": false,
+    "fraud_determination": false
+  },
+  "price_summary": {
+    "history_rows": 7,
+    "distinct_contract_keys": 7,
+    "unit_cost_as_printed_min": "0.93000",
+    "unit_cost_as_printed_max": "1.92000",
+    "all_historical_units_unknown": true,
+    "current_quote_blank": true,
+    "comparable_price_pairs": 0,
+    "savings_usd": null,
+    "fraud_finding": false
+  },
+  "findings": [
+    {
+      "id": "RV-F01",
+      "kind": "methodology",
+      "conclusion": "Name normalization is a comparison key, not identity proof or automatic merge authority.",
+      "sources": [
+        "RV-S01",
+        "RV-S02",
+        "names/analysis.json"
+      ]
+    },
+    {
+      "id": "RV-F02",
+      "kind": "observed_data_control",
+      "conclusion": "150 and 12 award keyword results overlap by 12; dot query is not a literal recipient-punctuation cohort. Three UEIs remain separate; six P/C profiles are not six companies.",
+      "sources": [
+        "review/name_data_review.json"
+      ]
+    },
+    {
+      "id": "RV-F03",
+      "kind": "observed_data_control",
+      "conclusion": "Seven history rows reproduced; missing historical units and terms block comparability. Blank current quote prevents a price comparison; ceiling divided by estimate is not a price.",
+      "sources": [
+        "RV-S03",
+        "RV-S08",
+        "review/price_data_review.json"
+      ]
+    },
+    {
+      "id": "RV-F04",
+      "kind": "legal_method_limit",
+      "conclusion": "Analytically new is distinct from unknown to government or reward-eligible. Public-data analysis is not categorically excluded by written WHIP terms.",
+      "sources": [
+        "RV-S04"
+      ]
+    },
+    {
+      "id": "RV-F05",
+      "kind": "legal_method_limit",
+      "conclusion": "A universal specific-intent requirement would improperly exclude potential civil FCA theories; a price gap alone still establishes none.",
+      "sources": [
+        "RV-S05",
+        "RV-S06"
+      ]
+    },
+    {
+      "id": "RV-F06",
+      "kind": "next_work",
+      "conclusion": "Use a declared 30-RFQ commodity cohort, verify original award/order/CLIN terms and separate alternatives and novelty review. This is a feasibility judgment, not a statistical fraud-probability estimate.",
+      "sources": [
+        "RV-S03",
+        "RV-S07",
+        "RV-S08"
+      ]
+    }
+  ],
+  "issues_resolved": [
+    "Actual count response and terminal empty-page evidence are validated instead of relying only on manifest claims.",
+    "Derived parent fields are bound to captured source profiles; unused all-null nested parent selections removed.",
+    "Published current-term source page corrected to page 2 and byte-identical offline replay verified.",
+    "Price eligibility gate rejects NaN and Infinity; gate cannot authenticate arbitrary provenance strings or review flags."
+  ],
+  "validation": {
+    "name_tests_passed": 16,
+    "price_tests_passed": 6,
+    "independent_name_reconstruction_passed": true,
+    "independent_price_transcription_passed": true,
+    "price_visual_pages": [
+      7,
+      8
+    ],
+    "price_offline_replay_byte_identical": true,
+    "live_price_reacquisition": "Producer validation records success; reviewer independently reran only offline extraction."
+  },
+  "unresolved": [
+    "Independent legal-identity and dated beneficial-ownership proof for the neutral name records.",
+    "Historical item revision, unit, packaging, delivery, qualification and nonrecurring-cost terms; actual orders/invoices/payments.",
+    "Official audio comparison for the attributed October20 speech; current written reward-scope inconsistencies.",
+    "Current full procurement deviation text and applicable contract-date rules, some bill-number/status crosswalks and archived-code edition limits.",
+    "No basis to establish that a government investigation is absent or a researcher is eligible for payment.",
+    "No complete national population, statistical fraud probability, loss estimate or universal public-access claim."
+  ],
+  "next_work_package": {
+    "id": "WP-DLA-BOLTS-001",
+    "population": "30 recent machine-bolt RFQs within a declared 90-day window; purposive sample",
+    "steps": [
+      "Acquire official RFQs and log all exclusions/failures",
+      "Resolve history contracts to original award/order and modifications",
+      "Match NSN/revision, unit/pack, quantity and economic terms",
+      "Keep noncomparable pairs blocked",
+      "Review a specific delivery, billing or representation question",
+      "Search exact identifiers against public disclosures and independently challenge the candidate"
+    ],
+    "stop_rule": "Complete the declared cohort and report supported, unresolved and null outcomes; do not require a positive fraud result.",
+    "external_referral_performed": false,
+    "external_model_execution_claimed": false
+  },
+  "sources": [
+    {
+      "id": "RV-S01",
+      "title": "SAM.gov Entity Registration",
+      "url": "https://sam.gov/entity-registration",
+      "locator": "UEI-only versus registration",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "id": "RV-S02",
+      "title": "USAspending recipient API contract",
+      "url": "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/api_contracts/contracts/v2/recipient.md",
+      "locator": "Profile level, keyword and trailing-twelve-month amount definitions",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "id": "RV-S03",
+      "title": "FAR 15.404-1",
+      "url": "https://www.acquisition.gov/far/15.404-1",
+      "locator": "Historical comparison b(2)(ii)(A-C), unit-price allocation f",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "id": "RV-S04",
+      "title": "DOJ Criminal Tip Rewards Pilot Program",
+      "url": "https://www.justice.gov/fraud/national-fraud-enforcement-division-criminal-tip-rewards-pilot-program",
+      "locator": "Independent analysis, originality and criminal-charge route",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "id": "RV-S05",
+      "title": "31 USC3729, GovInfo 2023 edition",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title31/html/USCODE-2023-title31-subtitleIII-chap37-subchapIII-sec3729.htm",
+      "locator": "Edition-qualified knowledge and false-claim text",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "id": "RV-S06",
+      "title": "DOJ False Claims Act explainer",
+      "url": "https://www.justice.gov/civil/false-claims-act",
+      "locator": "Knowing false claims, material statements, qui tam",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "id": "RV-S07",
+      "title": "GAO-24-105358",
+      "url": "https://www.gao.gov/products/gao-24-105358",
+      "locator": "Historical risk-management and allegations/adjudications distinction",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "id": "RV-S08",
+      "title": "DLA RFQ SPE4A6-26-U-3619",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/RFQ/9/SPE4A626U3619.PDF",
+      "locator": "Pages 2, 7-10; history, current terms and blank quote",
+      "reviewed_on": "2026-10-30"
+    }
+  ],
+  "artifact_sha256": {
+    "review/REPORT.md": "8917586a5b61b3b65db295e9c6ea07e6c2b1e53a1d4453bcfa5e14c7827201fa",
+    "review/verify_names.py": "a87992520ad8b0f0f5f59af6f2b9b9dc59e5a29781fd465a0310a73a480ccb61",
+    "review/verify_price.py": "65c1462625f305421bf76727f5efd1769d561cfd88d372a5acebc1e4b02a827d",
+    "review/name_data_review.json": "c8c343637cbda98216c2b4bafd0d15bec337c83d6db9af620f1ca5a7e16b0d17",
+    "review/price_data_review.json": "77fb13fd5a55e99027d66f9adf543f5177ea2e878046d3d8119e0e176bb9d2ff",
+    "names/REPORT.md": "b462366d60bbb62de18b244d9a2614842955c523cc9351e47b3bb11791981176",
+    "names/test_audit_names.py": "db959d24ea0ee4965bd08959f33eff5cc501246b3b870f8ef2ff3f0888e4bbaa",
+    "pricing/REPORT.md": "81a21a933b675df44c97bdc214cf0231a3ec42bea5c61735b94f47b95536b118",
+    "pricing/VALIDATION.json": "191ed75c2ea7dc6d929b2c3b39ed24475164b3942b57d6eb238c35edf8ba8a58",
+    "pricing/eligibility_result.json": "e0bec7b5c83e9bdb7dde337e0d421dcdaf3cb47f9d0236c5af021244b96d2f84",
+    "executive/REPORT.md": "de444d08f420583211de45c837ca23d30b57db29a5e100fbb2dbb47c0f5db2dc",
+    "congress/REPORT.md": "b1bcad26e9f30ae2d8062b70ecfa4d24c34992136738f42b24b91e4cad1794a7"
+  },
+  "detailed_input_pins": [
+    "review/name_data_review.json",
+    "review/price_data_review.json"
+  ]
+}

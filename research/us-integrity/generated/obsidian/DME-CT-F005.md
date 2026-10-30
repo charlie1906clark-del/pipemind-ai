@@ -4,7 +4,7 @@ type: "finding"
 title: "DOJ expressly links Centennial and ND Medical cases to the Gold Rush organization. Claim-level inclusion in the 2025 aggregate remains unverified."
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

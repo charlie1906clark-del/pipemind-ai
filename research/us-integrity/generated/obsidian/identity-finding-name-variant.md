@@ -4,7 +4,7 @@ type: "finding"
 title: "NPPES reports KAHKA; Colorado and DOJ report Kakha. Candidate correspondence retained with source-specific names; no names-only person merge."
 status: "disputed"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

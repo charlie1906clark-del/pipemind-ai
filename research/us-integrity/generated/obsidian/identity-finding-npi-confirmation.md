@@ -4,7 +4,7 @@ type: "finding"
 title: "Both exact organizational NPIs returned one live official NPPES result; PA and CO identities corroborate the named DOJ businesses. Saved extracts omit addresses and contact details."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

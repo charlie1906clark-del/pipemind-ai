@@ -4,7 +4,7 @@ type: "finding"
 title: "Colorado entity 20241008944 matches Centennial. Initial unpunctuated exact-name query returned zero; a bounded broader query located the comma variant. No neighboring search result was merged."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

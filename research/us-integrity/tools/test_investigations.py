@@ -55,6 +55,25 @@ class InvestigationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "digest mismatch"):
             self.load()
 
+    def test_historical_extension_keeps_its_observation_date(self):
+        self.approve()
+        nodes = [copy.deepcopy(self.source)]
+        result = load_approved_extensions(self.root, nodes, [], "2026-10-30")
+        self.assertEqual(result[0]["as_of"], DAY)
+        self.assertEqual(nodes[0]["properties"]["accessed_at"], DAY)
+
+    def test_future_extension_is_refused(self):
+        self.extension["as_of"] = "2026-10-30"
+        self.approve()
+        with self.assertRaisesRegex(ValueError, "cannot exceed"):
+            self.load()
+
+    def test_invalid_extension_date_is_refused(self):
+        self.extension["as_of"] = "2026-99-99"
+        self.approve()
+        with self.assertRaisesRegex(ValueError, "Invalid investigation"):
+            self.load()
+
     def test_existing_ids_cannot_be_replaced(self):
         self.extension["nodes"][0]["id"] = "source-original"
         self.approve()

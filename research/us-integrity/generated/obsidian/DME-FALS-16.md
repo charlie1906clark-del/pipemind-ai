@@ -4,7 +4,7 @@ type: "finding"
 title: "Public supplier/service schema has no owner, payment-suspension or cash-recovery field."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

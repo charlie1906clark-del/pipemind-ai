@@ -4,7 +4,7 @@ type: "finding"
 title: "64 of 1,976 cohort NPIs match the current revocation snapshot"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

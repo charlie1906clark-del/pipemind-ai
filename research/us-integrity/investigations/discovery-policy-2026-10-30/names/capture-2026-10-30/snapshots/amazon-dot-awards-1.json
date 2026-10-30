@@ -1,0 +1,267 @@
+{
+  "spending_level": "awards",
+  "limit": 100,
+  "results": [
+    {
+      "internal_id": 277319805,
+      "Award ID": "12314424F0376",
+      "generated_internal_id": "CONT_AWD_12314424F0376_1205_12314424G0052_1205",
+      "Recipient Name": "AMAZON WEB SERVICES, INC",
+      "Recipient UEI": "H6S2VKM5U6C5",
+      "recipient_id": "fd132ca2-1539-c208-cb18-0d8f8cfe0618-C",
+      "Awarding Agency": "Department of Agriculture",
+      "Awarding Agency Code": "012",
+      "Awarding Sub Agency": "Office of the Chief Financial Officer",
+      "Start Date": "2024-08-20",
+      "End Date": "2029-08-19",
+      "Award Amount": 53950946.76,
+      "Place of Performance State Code": "DC",
+      "PSC": {
+        "code": "DA10",
+        "description": "IT AND TELECOM - BUSINESS APPLICATION/APPLICATION DEVELOPMENT SOFTWARE AS A SERVICE"
+      },
+      "awarding_agency_id": 95,
+      "agency_slug": "department-of-agriculture"
+    },
+    {
+      "internal_id": 363510438,
+      "Award ID": "15DDL926P00000037",
+      "generated_internal_id": "CONT_AWD_15DDL926P00000037_1524_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "Department of Justice",
+      "Awarding Agency Code": "015",
+      "Awarding Sub Agency": "Drug Enforcement Administration",
+      "Start Date": "2026-09-30",
+      "End Date": "2026-09-30",
+      "Award Amount": 24696.88,
+      "Place of Performance State Code": "VA",
+      "PSC": {
+        "code": "6640",
+        "description": "LABORATORY EQUIPMENT AND SUPPLIES"
+      },
+      "awarding_agency_id": 252,
+      "agency_slug": "department-of-justice"
+    },
+    {
+      "internal_id": 278285056,
+      "Award ID": "15JA3125P00000028",
+      "generated_internal_id": "CONT_AWD_15JA3125P00000028_1501_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "Department of Justice",
+      "Awarding Agency Code": "015",
+      "Awarding Sub Agency": "Offices, Boards and Divisions",
+      "Start Date": "2025-08-27",
+      "End Date": "2025-11-28",
+      "Award Amount": 18407.56,
+      "Place of Performance State Code": "WA",
+      "PSC": {
+        "code": "R699",
+        "description": "SUPPORT- ADMINISTRATIVE: OTHER"
+      },
+      "awarding_agency_id": 252,
+      "agency_slug": "department-of-justice"
+    },
+    {
+      "internal_id": 363016645,
+      "Award ID": "19WA8026K0252",
+      "generated_internal_id": "CONT_AWD_19WA8026K0252_1900_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "Department of State",
+      "Awarding Agency Code": "019",
+      "Awarding Sub Agency": "Department of State",
+      "Start Date": "2026-09-24",
+      "End Date": "2026-10-09",
+      "Award Amount": 17765.05,
+      "Place of Performance State Code": null,
+      "PSC": {
+        "code": "5810",
+        "description": "COMMUNICATIONS SECURITY EQUIPMENT AND COMPONENTS"
+      },
+      "awarding_agency_id": 315,
+      "agency_slug": "department-of-state"
+    },
+    {
+      "internal_id": 291007410,
+      "Award ID": "68HE0925P0130",
+      "generated_internal_id": "CONT_AWD_68HE0925P0130_6800_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "Environmental Protection Agency",
+      "Awarding Agency Code": "068",
+      "Awarding Sub Agency": "Environmental Protection Agency",
+      "Start Date": "2025-09-23",
+      "End Date": "2026-03-30",
+      "Award Amount": 25000.0,
+      "Place of Performance State Code": "CA",
+      "PSC": {
+        "code": "7510",
+        "description": "OFFICE SUPPLIES"
+      },
+      "awarding_agency_id": 700,
+      "agency_slug": "environmental-protection-agency"
+    },
+    {
+      "internal_id": 357741352,
+      "Award ID": "68HE0926P0104",
+      "generated_internal_id": "CONT_AWD_68HE0926P0104_6800_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "Environmental Protection Agency",
+      "Awarding Agency Code": "068",
+      "Awarding Sub Agency": "Environmental Protection Agency",
+      "Start Date": "2026-05-08",
+      "End Date": "2026-06-08",
+      "Award Amount": 8853.68,
+      "Place of Performance State Code": "AZ",
+      "PSC": {
+        "code": "F108",
+        "description": "ENVIRONMENTAL SYSTEMS PROTECTION- ENVIRONMENTAL REMEDIATION"
+      },
+      "awarding_agency_id": 700,
+      "agency_slug": "environmental-protection-agency"
+    },
+    {
+      "internal_id": 360167909,
+      "Award ID": "68HERW26P0228",
+      "generated_internal_id": "CONT_AWD_68HERW26P0228_6800_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "Environmental Protection Agency",
+      "Awarding Agency Code": "068",
+      "Awarding Sub Agency": "Environmental Protection Agency",
+      "Start Date": "2026-07-10",
+      "End Date": "2026-08-09",
+      "Award Amount": 22038.3,
+      "Place of Performance State Code": "WA",
+      "PSC": {
+        "code": "7E21",
+        "description": "IT AND TELECOM - MOBILE DEVICE PRODUCTS (HARDWARE AND PERPETUAL LICENSE SOFTWARE)"
+      },
+      "awarding_agency_id": 700,
+      "agency_slug": "environmental-protection-agency"
+    },
+    {
+      "internal_id": 291704585,
+      "Award ID": "77344425C0007",
+      "generated_internal_id": "CONT_AWD_77344425C0007_7700_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "U.S. International Development Finance Corporation",
+      "Awarding Agency Code": "077",
+      "Awarding Sub Agency": "U.S. International Development Finance Corporation",
+      "Start Date": "2025-05-23",
+      "End Date": "2027-07-28",
+      "Award Amount": 300000.0,
+      "Place of Performance State Code": "DC",
+      "PSC": {
+        "code": "7510",
+        "description": "OFFICE SUPPLIES"
+      },
+      "awarding_agency_id": 1522,
+      "agency_slug": "us-international-development-finance-corporation"
+    },
+    {
+      "internal_id": 355817315,
+      "Award ID": "91990026P0004",
+      "generated_internal_id": "CONT_AWD_91990026P0004_9100_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "Department of Education",
+      "Awarding Agency Code": "091",
+      "Awarding Sub Agency": "Department of Education",
+      "Start Date": "2026-03-04",
+      "End Date": "2026-03-31",
+      "Award Amount": 25200.0,
+      "Place of Performance State Code": "DC",
+      "PSC": {
+        "code": "R499",
+        "description": "SUPPORT- PROFESSIONAL: OTHER"
+      },
+      "awarding_agency_id": 1068,
+      "agency_slug": "department-of-education"
+    },
+    {
+      "internal_id": 362048435,
+      "Award ID": "95170026M0318",
+      "generated_internal_id": "CONT_AWD_95170026M0318_9568_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "U.S. Agency for Global Media",
+      "Awarding Agency Code": "514",
+      "Awarding Sub Agency": "U.S. Agency for Global Media",
+      "Start Date": "2026-09-03",
+      "End Date": "2026-10-31",
+      "Award Amount": 17592.01,
+      "Place of Performance State Code": "WA",
+      "PSC": {
+        "code": "7510",
+        "description": "OFFICE SUPPLIES"
+      },
+      "awarding_agency_id": 1163,
+      "agency_slug": "us-agency-for-global-media"
+    },
+    {
+      "internal_id": 360081004,
+      "Award ID": "95170026P0225",
+      "generated_internal_id": "CONT_AWD_95170026P0225_9568_-NONE-_-NONE-",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "U.S. Agency for Global Media",
+      "Awarding Agency Code": "514",
+      "Awarding Sub Agency": "U.S. Agency for Global Media",
+      "Start Date": "2026-07-07",
+      "End Date": "2026-08-31",
+      "Award Amount": 22995.02,
+      "Place of Performance State Code": "WA",
+      "PSC": {
+        "code": "5820",
+        "description": "RADIO AND TELEVISION COMMUNICATION EQUIPMENT, EXCEPT AIRBORNE"
+      },
+      "awarding_agency_id": 1163,
+      "agency_slug": "us-agency-for-global-media"
+    },
+    {
+      "internal_id": 356680849,
+      "Award ID": "FA560626FG012",
+      "generated_internal_id": "CONT_AWD_FA560626FG012_9700_47QSCC24D000A_4732",
+      "Recipient Name": "AMAZON.COM SERVICES LLC",
+      "Recipient UEI": "TMKBFBRHFKH3",
+      "recipient_id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Department of the Air Force",
+      "Start Date": "2025-10-01",
+      "End Date": "2026-09-30",
+      "Award Amount": 24647.6,
+      "Place of Performance State Code": null,
+      "PSC": {
+        "code": "8415",
+        "description": "CLOTHING, SPECIAL PURPOSE"
+      },
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

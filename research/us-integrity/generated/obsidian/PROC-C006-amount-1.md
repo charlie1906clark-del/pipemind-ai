@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Military maintenance bid-rigging plea: attributable_volume_of_commerce_not_loss"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -4,7 +4,7 @@ type: "hypothesis"
 title: "Same provider has apparent high hours per month"
 status: "hypothesis"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

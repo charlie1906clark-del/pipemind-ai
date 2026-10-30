@@ -4,7 +4,7 @@ type: "money_measure"
 title: "2022 A4352: reconstructed supplier-detail standardized_payment"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

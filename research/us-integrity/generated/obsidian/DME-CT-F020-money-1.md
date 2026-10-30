@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Eldar Zarbavel pleaded guilty August13,2026. DOJ named Royce Medical Supply LLC and scheduled sentencing for December16. — alleged_submitted_claims"
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Centennial indictment provides distinct billed, Medicare-paid and supplemental-paid totals. — total_paid_to_supplier"
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

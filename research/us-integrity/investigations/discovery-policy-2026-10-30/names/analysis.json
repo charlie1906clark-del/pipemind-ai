@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-10-30",
+  "query_scope": "Two literal recipient keywords, contract recipients and FY2026 prime contracts; no national entity census",
+  "recipient_profile_rows": 6,
+  "distinct_valid_recipient_ueis": 3,
+  "recipient_levels": {
+    "P": 3,
+    "C": 3
+  },
+  "award_rows": 150,
+  "award_raw_name_count": 3,
+  "award_distinct_uei_count": 3,
+  "award_missing_uei_rows": 0,
+  "keyword_variants_return_identical_award_ids": false,
+  "keyword_variant_symmetric_difference_count": 138,
+  "recipient_groups": [
+    {
+      "comparison_key": "amazon com services llc",
+      "record_count": 2,
+      "distinct_raw_names": [
+        "AMAZON.COM SERVICES LLC"
+      ],
+      "distinct_valid_ueis": [
+        "TMKBFBRHFKH3"
+      ],
+      "missing_or_invalid_uei_rows": 0,
+      "profile_level_pair_count": 1,
+      "observations": [
+        "same_uei_parent_and_child_profile_levels"
+      ],
+      "automatic_entity_merge": false,
+      "fraud_determination": false
+    },
+    {
+      "comparison_key": "amazon web services inc",
+      "record_count": 4,
+      "distinct_raw_names": [
+        "AMAZON WEB SERVICES, INC",
+        "AMAZON WEB SERVICES, INC."
+      ],
+      "distinct_valid_ueis": [
+        "H6S2VKM5U6C5",
+        "NQEWN6C1LSU5"
+      ],
+      "missing_or_invalid_uei_rows": 0,
+      "profile_level_pair_count": 2,
+      "observations": [
+        "name_format_variation",
+        "shared_comparison_key_distinct_ueis",
+        "same_uei_parent_and_child_profile_levels"
+      ],
+      "automatic_entity_merge": false,
+      "fraud_determination": false
+    }
+  ],
+  "award_groups": [
+    {
+      "comparison_key": "amazon com services llc",
+      "record_count": 11,
+      "distinct_raw_names": [
+        "AMAZON.COM SERVICES LLC"
+      ],
+      "distinct_valid_ueis": [
+        "TMKBFBRHFKH3"
+      ],
+      "missing_or_invalid_uei_rows": 0,
+      "profile_level_pair_count": 0,
+      "observations": [],
+      "automatic_entity_merge": false,
+      "fraud_determination": false
+    },
+    {
+      "comparison_key": "amazon web services inc",
+      "record_count": 139,
+      "distinct_raw_names": [
+        "AMAZON WEB SERVICES, INC",
+        "AMAZON WEB SERVICES, INC."
+      ],
+      "distinct_valid_ueis": [
+        "H6S2VKM5U6C5",
+        "NQEWN6C1LSU5"
+      ],
+      "missing_or_invalid_uei_rows": 0,
+      "profile_level_pair_count": 0,
+      "observations": [
+        "name_format_variation",
+        "shared_comparison_key_distinct_ueis"
+      ],
+      "automatic_entity_merge": false,
+      "fraud_determination": false
+    }
+  ],
+  "same_uei_multiple_raw_names_count": 0,
+  "profile_parent_uei_present_rows": 6,
+  "scope_limitations": [
+    "Comparison keys do not merge legal entities, beneficial owners or liabilities.",
+    "Recipient P/C/R profile levels are not separate companies; amounts must not be summed across them.",
+    "Recipient amounts are trailing-12-month transaction aggregates; award amounts are cumulative award measures, not FY2026 cash or fraud loss.",
+    "Award date filter uses documented default award-search timing; this is not a list of every FY2026 transaction.",
+    "Keyword matching is an index search, not an exact legal-name search; these queries exclude other sectors and aliases without this token.",
+    "Parent links are source-reported profile relationships, not verified ultimate beneficial ownership.",
+    "No name variation establishes a fake company, false claim, improper payment or reward eligibility."
+  ],
+  "new_fraud_established": false,
+  "fraud_scoring_performed": false,
+  "money_summed": false
+}

@@ -1,0 +1,152 @@
+{
+  "as_of": "2026-10-30",
+  "scope": "Bounded neutral public identity-method audit",
+  "findings": [
+    {
+      "id": "NAMES-F01",
+      "statement": "Two literal keyword searches returned 150 and 12 unique FY2026-window prime contract awards; all 12 occur within the 150.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-D01",
+        "NAMES-D02",
+        "NAMES-S04"
+      ],
+      "inference_limit": "Query behavior is not a literal legal-name suffix filter or a count of fraudulent records.",
+      "public_record": true,
+      "novel_lead": false,
+      "metrics": {
+        "broad_awards": 150,
+        "dot_awards": 12,
+        "intersection": 12,
+        "union": 150,
+        "dot_only": 0,
+        "broad_only": 138
+      }
+    },
+    {
+      "id": "NAMES-F02",
+      "statement": "Six broad-query recipient profiles represent three exact UEIs, each at P and C profile levels.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-D03",
+        "NAMES-S03"
+      ],
+      "inference_limit": "These are three source identifiers, not six companies or a verified count of ultimate legal entities.",
+      "public_record": true,
+      "novel_lead": false,
+      "metrics": {
+        "profile_rows": 6,
+        "ueis": 3,
+        "P_rows": 3,
+        "C_rows": 3
+      }
+    },
+    {
+      "id": "NAMES-F03",
+      "statement": "The two AWS names differ by terminal punctuation and have different reported UEIs and VA/WA profile states.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-S07",
+        "NAMES-S08",
+        "NAMES-S09",
+        "NAMES-S10"
+      ],
+      "inference_limit": "No automatic merge; punctuation and multiple identifiers do not establish a counterfeit company.",
+      "public_record": true,
+      "novel_lead": false
+    },
+    {
+      "id": "NAMES-F04",
+      "statement": "All three child-level profiles report parent UEI G5F2C46HBCM3, labelled AMAZON.COM, INC.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-S06",
+        "NAMES-S08",
+        "NAMES-S09"
+      ],
+      "inference_limit": "A reported common parent is a consistency check, not independently authenticated beneficial ownership or exoneration.",
+      "public_record": true,
+      "novel_lead": false
+    },
+    {
+      "id": "NAMES-F05",
+      "statement": "The three parent-level profiles report self-parent identifiers; profile level changes parent-field interpretation.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-S05",
+        "NAMES-S07",
+        "NAMES-S10",
+        "NAMES-S03"
+      ],
+      "inference_limit": "Do not use a P-level self-parent as an ultimate-control finding or sum P/C amounts.",
+      "public_record": true,
+      "novel_lead": false
+    },
+    {
+      "id": "NAMES-F06",
+      "statement": "The broad award capture has 150 unique award identifiers, three raw recipient names, three UEIs and no missing UEIs.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-D01",
+        "NAMES-S01"
+      ],
+      "inference_limit": "Coverage applies only to selected code types, date window and keyword; not all vendor aliases or spending.",
+      "public_record": true,
+      "novel_lead": false,
+      "metrics": {
+        "unique_awards": 150,
+        "raw_names": 3,
+        "ueis": 3,
+        "missing_uei_rows": 0
+      }
+    },
+    {
+      "id": "NAMES-F07",
+      "statement": "No same-UEI multiple-name variation was observed in the six profiles and 150 award records.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-D01",
+        "NAMES-D03"
+      ],
+      "inference_limit": "A null result within one bounded query cannot establish absence of aliases or impersonation elsewhere.",
+      "public_record": true,
+      "novel_lead": false
+    },
+    {
+      "id": "NAMES-F08",
+      "statement": "Recipient profile amounts use a trailing-12-month transaction basis; award-search amounts have a different award-level basis.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-S01",
+        "NAMES-S03"
+      ],
+      "inference_limit": "No monetary sums, losses, savings or reward calculations are produced.",
+      "public_record": true,
+      "novel_lead": false
+    },
+    {
+      "id": "NAMES-F09",
+      "statement": "SAM permits an entity to obtain a UEI without completing registration.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-S11"
+      ],
+      "inference_limit": "A UEI is not proof of current active registration, historical eligibility or absence of exclusion.",
+      "public_record": true,
+      "novel_lead": false
+    },
+    {
+      "id": "NAMES-F10",
+      "statement": "The captured dot query includes eleven Amazon.com Services awards and one AWS award with no terminal period in its displayed name.",
+      "status": "documented_fact",
+      "source_ids": [
+        "NAMES-D02"
+      ],
+      "inference_limit": "The search input must not be mistaken for a literal punctuation-only population.",
+      "public_record": true,
+      "novel_lead": false
+    }
+  ],
+  "source_registry": "sources.json",
+  "new_fraud_established": false
+}

@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Danelia allegedly assisted account opening and transfers; overseas wires differ from insurer receipts. — outgoing_overseas_wires"
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

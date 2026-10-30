@@ -4,7 +4,7 @@ type: "source"
 title: "US District Court Alaska published decision, 4:22-cv-00061"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -4,7 +4,7 @@ type: "finding"
 title: "Gugava purportedly owned ND Medical from February18 through July9,2025; underlying beneficial control remains alleged."
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

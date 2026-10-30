@@ -4,7 +4,7 @@ type: "case"
 title: "Wildfire fuel truck procurement collusion"
 status: "published_case"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -4,7 +4,7 @@ type: "finding"
 title: "Centennial exact NPI is present in the active LEIE snapshot with exclusion date 2026-07-11. ND exact NPI is absent; absence is not clearance. Active NPI and exclusion concern different systems."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

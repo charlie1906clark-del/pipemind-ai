@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "dispatch_authority": "root coordinator",
+  "tasks": [
+    {
+      "task_id": "CLAUDE-PRICE-001",
+      "task_spec_sha256": "fb25f6dbbcccdf06cdcb8ae61beda17fcbc6eacdade635f244faa7f2a0249a9e",
+      "state": "queued_not_dispatched",
+      "provider_response_id": null,
+      "result_sha256": null,
+      "review_receipt_sha256": null
+    },
+    {
+      "task_id": "GROK-IDENTITY-001",
+      "task_spec_sha256": "a94a2c107ecf50d9306cc2e1e1c4d6ec3ad108f8a61e30942580048f32db4b7e",
+      "state": "queued_not_dispatched",
+      "provider_response_id": null,
+      "result_sha256": null,
+      "review_receipt_sha256": null
+    }
+  ],
+  "automatic_execution": false
+}

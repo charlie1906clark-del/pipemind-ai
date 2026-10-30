@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "task_id": "GROK-IDENTITY-001",
+  "task_version": 1,
+  "created_at": "2026-10-30",
+  "repository": "charlie1906clark-del/pipemind-ai",
+  "input_commit": "55fa8ab8cb7a60b243884f22f8655503009ccda4",
+  "assigned_provider": "xai",
+  "assigned_product": "Grok",
+  "question": "Does a bounded supplier-name variation resolve to the same legal recipient, an ordinary affiliate/DBA, or an unresolved identifier conflict?",
+  "execution_mode_options": [
+    "manual_repo_handoff",
+    "authorized_model_api"
+  ],
+  "provider_model": "record_actual_model_on_execution",
+  "resource_budget": {
+    "public_search_requests_max": 12,
+    "public_document_or_api_reads_max": 20,
+    "model_calls_max": 1,
+    "new_api_spend_authorized_by_this_packet": false,
+    "boundaries": "One finite research result; return partial coverage and access failures honestly."
+  },
+  "read_only_research": true,
+  "external_contact_or_submission": false,
+  "publication_scope": "Public methods, neutral public observations and already published case facts. No new named adverse allegations.",
+  "input_files": [
+    {
+      "path": "research/us-integrity/START-HERE.md",
+      "sha256": "88197dfad521d7db7509839dbaac17acd8758bd2a65e88121e96ee64ee927033"
+    },
+    {
+      "path": "research/us-integrity/reports/reward/reward_verification.md",
+      "sha256": "7aa8ff08de8d6ee8e5a5ea94d511743a943b9a36278d6bebbc41151ca8b47b07"
+    },
+    {
+      "path": "research/us-integrity/architecture/MULTI-AGENT-PROTOCOL.md",
+      "sha256": "e47409900d67fa1b7010d79d5b59c836339c9a2b475ae57dc678ccb33b11f22d"
+    },
+    {
+      "path": "research/us-integrity/engine/README.md",
+      "sha256": "efbbb45ee1b9418539f142f084e5d95b7992d3684ddf041e1804f07f80dc982d"
+    },
+    {
+      "path": "research/us-integrity/agents/agent-entity-resolution.md",
+      "sha256": "2fff1a9bb446568968e337ab35dd6a9bc763728dba15d715acba46257d1b6d56"
+    },
+    {
+      "path": "research/us-integrity/OWNERSHIP-AND-COMMERCE.md",
+      "sha256": "35da67617074f94cb0db716580da74779bbdc4a9daf1c0413e097ca5e77a3743"
+    },
+    {
+      "path": "research/us-integrity/connectors/README.md",
+      "sha256": "c7c317e5ba9970ff32053b1968619c5414baf2ab8c595722fc8ae9209e47e9ee"
+    }
+  ],
+  "result_contract": "research/us-integrity/collaboration/RESULT-CONTRACT.md",
+  "result_destination": "research/us-integrity/collaboration/results/GROK-IDENTITY-001/",
+  "independent_reviewer": "root coordinator or another separately identified worker; not the author",
+  "required_evidence": [
+    "Exact source URLs, publication/access dates and page/paragraph/API locators",
+    "Raw legal names and stable identifiers kept separate from search normalization",
+    "Decimal amounts with payer, period, source measure and basis",
+    "At least two plausible alternatives or a specific explanation why only one is testable",
+    "Bounded DOJ/OIG/GAO/court novelty search and explicit search limits",
+    "A next discriminating observation or a defensible closure/null result"
+  ],
+  "prohibited_inferences": [
+    "A punctuation difference establishes a fictitious company",
+    "A contract ceiling or obligation divided by an estimated quantity establishes a transaction unit price",
+    "An anomalous price establishes fraud or recoverable loss",
+    "An unsuccessful search proves that a lead is undiscovered",
+    "A model-generated answer is an independently verified source"
+  ],
+  "stopping_conditions": [
+    "Stop on access denial; record the boundary without bypassing it.",
+    "Stop the finite cohort at the stated budget; no unattended loop or purchase.",
+    "Return no finding when identifiers, product comparability or evidence cannot support one.",
+    "Keep any unresolved new named suspicion outside this public repository and return an anonymous summary."
+  ],
+  "planned_branch": "research/us-integrity-grok-identity-001",
+  "bounded_cohort": "One FY2026 contract-recipient keyword cohort using Amazon and Amazon. as alternative query inputs; the brand example is a test of matching, not an allegation. If the query cannot be completed, preserve its exact partial scope.",
+  "work_steps": [
+    "Inspect the official query semantics and count/pagination. Retain exact input text rather than assuming punctuation changes the server result.",
+    "Preserve raw recipient name, UEI, recipient/profile ID, parent ID, award ID and source date; distinguish recipient and parent profile levels.",
+    "Use case/punctuation/Unicode normalization only to propose comparisons. Never merge different UEIs or missing identifiers.",
+    "Test legal suffix, DBA, historical name, affiliate and reseller explanations against dated official records. A common parent does not imply the same seller.",
+    "Independently open primary sources for any social/web lead; X posts or model answers are discovery material.",
+    "Search exact identifiers in existing enforcement records. Return neutral aggregate results or a documented unresolved edge, never a new named public accusation."
+  ],
+  "acceptance_tests": [
+    "A complete available query or explicitly incomplete denominator.",
+    "Same-identifier aliases distinguished from different-identifier collisions and missing identifiers.",
+    "At least one legitimate explanation test, with raw names preserved.",
+    "No claim that lack of search matches proves a company is fictitious or a case undiscovered."
+  ],
+  "dispatch_required": true
+}

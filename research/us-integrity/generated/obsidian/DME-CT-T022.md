@@ -4,7 +4,7 @@ type: "case_timeline_event"
 title: "DOJ reports35 charged/16 convicted to date."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

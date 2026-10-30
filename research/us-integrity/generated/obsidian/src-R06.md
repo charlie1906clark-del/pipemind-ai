@@ -4,7 +4,7 @@ type: "source"
 title: "31 USC 3730 - Civil actions for false claims (2024 Edition)"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

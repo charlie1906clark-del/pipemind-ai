@@ -1,0 +1,26 @@
+{
+  "name": "AMAZON WEB SERVICES, INC",
+  "alternate_names": [
+    "AMAZON WEB SERVICES  INC",
+    "AMAZON.COM  INC."
+  ],
+  "duns": "083448961",
+  "uei": "H6S2VKM5U6C5",
+  "recipient_id": "fd132ca2-1539-c208-cb18-0d8f8cfe0618-P",
+  "recipient_level": "P",
+  "parent_id": "fd132ca2-1539-c208-cb18-0d8f8cfe0618-P",
+  "parent_name": "AMAZON WEB SERVICES, INC",
+  "parent_duns": "083448961",
+  "parent_uei": "H6S2VKM5U6C5",
+  "business_types": [
+    "category_business",
+    "corporate_entity_not_tax_exempt",
+    "other_than_small_business",
+    "special_designations",
+    "us_owned_business"
+  ],
+  "location": {
+    "state_code": "VA",
+    "country_code": "USA"
+  }
+}

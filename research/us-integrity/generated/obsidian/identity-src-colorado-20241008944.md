@@ -4,7 +4,7 @@ type: "source"
 title: "Colorado business entity 20241008944"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

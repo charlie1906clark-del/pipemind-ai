@@ -4,7 +4,7 @@ type: "source"
 title: "Improper Payments and Fraud: How They Are Related but Different, GAO-24-106608"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "retrieved_at_utc": "2026-10-30T10:48:55.170384+00:00",
+  "source_id": "DLA-SPE4A626U3619",
+  "source_url": "https://dibbs2.bsm.dla.mil/Downloads/RFQ/9/SPE4A626U3619.PDF",
+  "acquisition": "Public GET returned standard DoD notice; same-session POST of its observed Agree/OK form returned the PDF. No account, proxy or API key used.",
+  "http_status": 200,
+  "content_type": "application/pdf; charset=ISO-8859-1",
+  "source_archived": true,
+  "original_path": "snapshots/SPE4A626U3619.pdf",
+  "original_bytes": 423468,
+  "original_sha256": "4a3996d9aca0fac0b32ea1cebfe8833fdbb144de33dc0af2739d0269b037ac51",
+  "selected_path": "snapshots/selected_evidence.json",
+  "selected_sha256": "052d394c9aeca30e9220436b70fe40a3518233b1f4aabf36a97dd7c6b9c958d8",
+  "extraction": "pdftotext -layout plus regex for seven tabular history rows; current terms manually transcribed and checked against source text",
+  "visual_review": {
+    "pages": [
+      7,
+      8
+    ],
+    "method": "pdftoppm at 90 DPI and image inspection",
+    "result": "Seven history rows agree with extracted values; 2025-04-30 quantity is one 472.000 row"
+  },
+  "partial_selection": true,
+  "coverage": "One public solicitation; seven history observations; not an audit population or a new fraud finding",
+  "publication_status": "Neutral public source evidence only; no suspected or accused entity record",
+  "hidden_form_values_retained": false,
+  "offline_replay": {
+    "executed": true,
+    "original_hash_matched": true,
+    "rows": 7
+  },
+  "live_reacquisition_replay": {
+    "executed": true,
+    "time_utc": "2026-10-30T10:58:54.471256+00:00",
+    "original_hash_matched": true,
+    "selection_byte_equal": true,
+    "rows": 7,
+    "steps": [
+      {
+        "method": "GET",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "method": "POST public notice consent",
+        "status": 200,
+        "content_type": "application/pdf; charset=ISO-8859-1"
+      }
+    ]
+  },
+  "limitations": [
+    "Current quoted unit and total price cells are blank",
+    "Historical unit, pack, revision, delivery and nonrecurring cost details not present in history table",
+    "Source is solicitation-disclosed history, not an invoice or payment ledger"
+  ]
+}

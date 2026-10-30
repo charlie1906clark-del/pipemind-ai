@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Centennial had two unnamed DME counterparties whose transfer purpose remained under investigation. — inbound_five_checks"
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -4,7 +4,7 @@ type: "source"
 title: "CVS Health Exhibit 21.1: subsidiaries at 2025-12-31"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

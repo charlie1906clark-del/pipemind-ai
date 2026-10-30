@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Renat Abramov pleaded guilty February3,2026 and was sentenced August11,2026 to18months for money laundering conspiracy. — proceeds_through_accounts"
 status: "conviction"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

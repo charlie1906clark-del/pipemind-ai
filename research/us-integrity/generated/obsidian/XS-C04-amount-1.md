@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Hurricane Ida assistance scheme: court_determined_assistance_paid_on_false_representations"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

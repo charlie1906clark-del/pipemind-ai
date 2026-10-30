@@ -4,7 +4,7 @@ type: "sector"
 title: "Military spares, commodities and medical procurement"
 status: "planned"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 
@@ -44,4 +44,4 @@ No supporting source attached; treat as an unverified planning record.
 
 ## Backlinks
 
-None recorded.
+- [[DISC-20261030]]: informs_bounded_procurement_research — planned (DISC-E-c1e3a2335db8af6f39ad)

@@ -4,7 +4,7 @@ type: "finding"
 title: "Bendeliani allegedly became sole officer/manager June20,2025 and sole signatory at six institutions; registration status is distinct from alleged concealed control."
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

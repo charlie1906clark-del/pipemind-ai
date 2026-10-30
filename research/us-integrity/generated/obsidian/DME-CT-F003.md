@@ -4,7 +4,7 @@ type: "finding"
 title: "CMS reported revoking fifteen unnamed recently transferred suppliers and stopping over99% of their payments."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

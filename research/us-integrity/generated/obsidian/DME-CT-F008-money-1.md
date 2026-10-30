@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Centennial claims data showing $1.2bn paid largely represented escrow after June30,2025 suspension; the suspension did not itself cover private insurers. — claims_system_paid_including_escrow"
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

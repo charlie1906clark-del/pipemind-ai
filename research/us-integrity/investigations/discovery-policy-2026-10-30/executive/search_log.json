@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "scope": "Bounded official-source verification; no external contact, filing, or remote repository write by this agent",
+  "searches": [
+    {
+      "id": "EX-Q01",
+      "method": "Strong web search across GovInfo, White House and American Presidency Project",
+      "query_record_type": "summary_of_earlier_searches",
+      "objective": "Government-issued October 20 announcement transcript",
+      "result": "Official video and gallery located; government-issued written transcript not located. Roll Call timestamped transcription used with explicit provenance limit.",
+      "sources": [
+        "EX-S01",
+        "EX-S02",
+        "EX-S03",
+        "EX-S13"
+      ],
+      "status": "unresolved_official_transcript"
+    },
+    {
+      "id": "EX-Q02",
+      "method": "Open official White House video pages and click embedded YouTube links",
+      "urls": [
+        "https://www.youtube.com/embed/IQKChHxD9e8?enablejsapi=1&feature=oembed",
+        "https://www.youtube.com/embed/rAg8C8mP-rU?enablejsapi=1&feature=oembed"
+      ],
+      "result": "Embedded fetches throttled; no audio or caption verification claimed.",
+      "status": "retrieval_failed"
+    },
+    {
+      "id": "EX-Q03",
+      "method": "Strong web search",
+      "exact_queries": [
+        "site:america.gov/fraud \"recovering\"",
+        "site:whitehouse.gov \"October 20, 2026\" \"1 percent\"",
+        "site:justice.gov \"WHIP\" \"percent\"",
+        "site:govinfo.gov \"October 20, 2026\" \"whistleblower\" Trump"
+      ],
+      "result": "No operative universal 1% implementation located in returned official sources; America.gov indexed reporting pages located. This is a search-result limitation, not proof of nonexistence.",
+      "web_reference_ids": [
+        "turn173search0",
+        "turn173search1",
+        "turn173search2",
+        "turn173search3"
+      ],
+      "status": "bounded_negative_for_implementation"
+    },
+    {
+      "id": "EX-Q04",
+      "method": "Retrieve DOJ announcement, terms, FAQ, landing page and directive",
+      "sources": [
+        "EX-S04",
+        "EX-S05",
+        "EX-S06",
+        "EX-S07",
+        "EX-S08"
+      ],
+      "result": "Written terms retain $10\u201330k/charges/discretion. Landing page updated Oct28; terms and FAQ updated Oct20. Department of War inconsistency persists.",
+      "status": "verified_current_rendering"
+    },
+    {
+      "id": "EX-Q05",
+      "method": "Find exact speech passages in timestamped Roll Call transcript",
+      "exact_patterns": [
+        "There's no limit.",
+        "99 percent",
+        "recover",
+        "binding arbitration"
+      ],
+      "result": "Located uncapped passage 55:57\u201356:02, recovery 56:24\u201356:35, non-criminal scope 56:35\u201356:46, arbitration 14:19\u201315:16 and FCA assertion 39:45\u201340:07.",
+      "sources": [
+        "EX-S03"
+      ],
+      "status": "secondary_transcript_located"
+    },
+    {
+      "id": "EX-Q06",
+      "method": "Direct open and indexed search for America.gov pages",
+      "urls": [
+        "https://america.gov/fraud",
+        "https://america.gov/benefits-fraud"
+      ],
+      "result": "Both direct opens returned 403. Indexed excerpts available; broader award language mentioned by secondary sources not verified.",
+      "sources": [
+        "EX-S11",
+        "EX-S12"
+      ],
+      "status": "partial_index_only"
+    },
+    {
+      "id": "EX-Q07",
+      "method": "Read EO14395 official GovInfo PDF",
+      "sources": [
+        "EX-S09"
+      ],
+      "result": "Task force/control/FCA directives found; no universal 1% reward mechanism identified.",
+      "status": "verified_bounded_document"
+    },
+    {
+      "id": "EX-Q08",
+      "method": "Read White House dashboard definitions; compare indexed and open renderings",
+      "sources": [
+        "EX-S10",
+        "EX-S12"
+      ],
+      "result": "Dynamic open displayed dashes; indexed figures should not be treated as a reconciled current cash ledger. No amounts reproduced as verified current recoveries.",
+      "status": "measurement_limit"
+    },
+    {
+      "id": "EX-Q09",
+      "method": "Review complete rendered WHIP eligibility and FAQ; find citizenship, residence and foreign-official terminology",
+      "sources": [
+        "EX-S05",
+        "EX-S06"
+      ],
+      "web_reference_ids": [
+        "turn187view0",
+        "turn187view1",
+        "turn187view2",
+        "turn187view3"
+      ],
+      "result": "No blanket U.S. citizenship/residence requirement located; explicit foreign-government-official and law-enforcement exclusions retained. No personal eligibility conclusion.",
+      "status": "bounded_textual_review"
+    }
+  ],
+  "unresolved_questions": [
+    "Official audio verification of exact October 20 speech excerpts.",
+    "Whether a later statute or written agency amendment implements the uncapped presidential description.",
+    "Whether Department of War coverage discrepancy is editorial or substantive for a particular procurement tip.",
+    "Full current America.gov reward wording inaccessible through direct retrieval.",
+    "Whether any applicant is eligible or has received an award; not determined."
+  ],
+  "no_source_claims_policy": "Not found means not located in this bounded search, not proof of absence."
+}

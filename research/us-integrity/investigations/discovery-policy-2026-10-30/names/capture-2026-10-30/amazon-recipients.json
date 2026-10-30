@@ -1,0 +1,50 @@
+[
+  {
+    "id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-P",
+    "duns": "128990418",
+    "uei": "TMKBFBRHFKH3",
+    "name": "AMAZON.COM SERVICES LLC",
+    "recipient_level": "P",
+    "amount": 287562.09
+  },
+  {
+    "id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+    "duns": "128990418",
+    "uei": "TMKBFBRHFKH3",
+    "name": "AMAZON.COM SERVICES LLC",
+    "recipient_level": "C",
+    "amount": 287562.09
+  },
+  {
+    "id": "fd132ca2-1539-c208-cb18-0d8f8cfe0618-P",
+    "duns": "083448961",
+    "uei": "H6S2VKM5U6C5",
+    "name": "AMAZON WEB SERVICES, INC",
+    "recipient_level": "P",
+    "amount": 33716714.25
+  },
+  {
+    "id": "fd132ca2-1539-c208-cb18-0d8f8cfe0618-C",
+    "duns": "083448961",
+    "uei": "H6S2VKM5U6C5",
+    "name": "AMAZON WEB SERVICES, INC",
+    "recipient_level": "C",
+    "amount": 33716714.25
+  },
+  {
+    "id": "645df5f2-66e3-8d2b-a612-3bff6ed3da30-C",
+    "duns": "965048981",
+    "uei": "NQEWN6C1LSU5",
+    "name": "AMAZON WEB SERVICES, INC.",
+    "recipient_level": "C",
+    "amount": 675712152.08
+  },
+  {
+    "id": "645df5f2-66e3-8d2b-a612-3bff6ed3da30-P",
+    "duns": "965048981",
+    "uei": "NQEWN6C1LSU5",
+    "name": "AMAZON WEB SERVICES, INC.",
+    "recipient_level": "P",
+    "amount": 675712152.08
+  }
+]

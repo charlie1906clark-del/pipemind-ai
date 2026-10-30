@@ -4,7 +4,7 @@ type: "source"
 title: "CMS Cracks Down on Massive $3.4 Billion Medical Equipment Supplier Fraud Scheme"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

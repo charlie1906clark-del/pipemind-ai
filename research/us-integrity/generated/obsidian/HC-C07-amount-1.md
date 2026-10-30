@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Opnet / P & P Health Care Services owner sentenced: billed_amount_over"
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

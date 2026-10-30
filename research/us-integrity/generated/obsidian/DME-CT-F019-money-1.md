@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Elnar Zarbailov was sentenced May18,2026 to37months; forfeiture was ordered, not verified collected. — forfeiture_order"
 status: "conviction"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

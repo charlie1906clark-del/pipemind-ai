@@ -4,7 +4,7 @@ type: "source"
 title: "Raytheon defective-pricing, bribery and export-control resolutions"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

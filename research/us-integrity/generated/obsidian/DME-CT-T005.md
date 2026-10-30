@@ -4,7 +4,7 @@ type: "case_timeline_event"
 title: "ND Medical sale to Gugava alleged."
 status: "allegation"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

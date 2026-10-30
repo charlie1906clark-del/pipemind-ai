@@ -4,7 +4,7 @@ type: "finding"
 title: "The alleged sale date February 18, 2025 in court-copy paragraph 14 equals NPPES last_updated and certification_date. This is a date alignment, not proof that the update itself transferred ownership. The alleged purported-ownership end date is July 9, 2025."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

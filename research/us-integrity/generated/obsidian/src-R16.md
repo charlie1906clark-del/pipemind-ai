@@ -4,7 +4,7 @@ type: "source"
 title: "Whistleblower Rewards Program: Reporting Antitrust Crimes and Qualifying for Whistleblower Rewards"
 status: "source"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

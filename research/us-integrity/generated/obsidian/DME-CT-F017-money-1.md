@@ -4,7 +4,7 @@ type: "money_measure"
 title: "Earlier catheter audit estimated improper payments; documentation deficiencies do not themselves establish deliberate fraud. — estimated_improper_payments"
 status: "audit_finding"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 

@@ -4,7 +4,7 @@ type: "finding"
 title: "Gugava was indicted September3,2026 on one count of money laundering conspiracy; no disposition beyond that established here."
 status: "documented_fact"
 visibility: public
-as_of: "2026-10-29"
+as_of: "2026-10-30"
 ---
 <!-- generated-by: us-integrity-engine-v1 -->
 
