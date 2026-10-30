@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "observed_on": "2026-10-30",
+  "method": "web source open",
+  "scope": "Two alternate public award-record routes derived from observed current-record URL pattern and exact historical PIIDs",
+  "operations": [
+    {
+      "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRec.aspx?contract=SPE4A626P5931&dlv=",
+      "result": "tool_reported_not_accessible",
+      "tool_reference": "turn290view0",
+      "document_acquired": false
+    },
+    {
+      "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRec.aspx?contract=SPE4A625PK654&dlv=",
+      "result": "tool_reported_not_accessible",
+      "tool_reference": "turn290view1",
+      "document_acquired": false
+    }
+  ],
+  "absence_of_underlying_award_inferred": false,
+  "full_source_bytes_archived": false
+}

@@ -1,0 +1,25 @@
+{
+  "base_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "artifacts": [
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+      "sha256": "950757e36f73f46cface12a7c3536aedd8ca856a37ffdfb6f23be2a6fd5410d5"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/sources.json",
+      "sha256": "277df83ab8f6610984ed80f39d07024e754bde0e58f953acdb8f51855afcbcec"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/spec-crosswalk.json",
+      "sha256": "eac94abc0f42f7c07766d650a282dd7a45972e99f97c03e705fcac45805cd81c"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/market_review.json",
+      "sha256": "4d5d78f0a2d1dde0440bdac3825191fc2db6779c2681c927a2aa19075f0eb585"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/observations.json",
+      "sha256": "76c3978c4d9cff03bfcbbadc019fd27699761ef0b0833a8df3e065026f21b401"
+    }
+  ]
+}

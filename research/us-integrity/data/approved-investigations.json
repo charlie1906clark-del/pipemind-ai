@@ -36,6 +36,17 @@
         "path": "price-agents/review/graph-integration-review-v2.json",
         "sha256": "f517edeaeb80ac9837540c668452c8815f8b3c5549556f37dc92d86155140ef6"
       }
+    },
+    {
+      "path": "investigations/single-case-followup-2026-10-30/graph-extension.json",
+      "sha256": "dc6d0bb0ce2d2b764c3d8331c577cc8a0a9687c27338680fc4b92de1819796ed",
+      "review_status": "accepted_for_public_graph",
+      "reviewed_at": "2026-10-30",
+      "review_note": "Independent source and projection reviews accept one common-bolt follow-up as narrowly worded observations, not a likely-fraud classification. New seller pack/price claims remain unqualified against the exact NSN. H06 annual-demand evaluation and individual order quantity rules remain separate. Original RFQ/award links and technical application shell do not expose actual losing bids or specifications. Native archive metadata supplies no exact item row. National potential-fraud, improper-payment and modeled-loss measures are distinct and nonadditive. No new actual-money measures, cash loss, benefit, new person allegations, external-model execution or novelty claim. All 71 extension pins and 70 producer-review pins checked; prior four extension bytes preserved.",
+      "independent_review": {
+        "path": "investigations/single-case-followup-2026-10-30/review/graph-review.json",
+        "sha256": "94730afe32b83a962e77ed6c596144fb07a7bb1eef8e0713b5241ccc63c19a8e"
+      }
     }
   ]
 }

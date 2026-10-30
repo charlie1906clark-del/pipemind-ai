@@ -2,7 +2,15 @@
 
 Research updated **30 October 2026**, in a separate domain of PipeMind. This is a source-led research bank with real data captures, completed catheter and discovery-method investigations, and executable local tools. It does not identify a newly proved fraud case or promise a reward.
 
-## Current targeted price agents and actual pilot
+## Current single-case follow-up
+
+Read the [single common-bolt case](investigations/single-case-followup-2026-10-30/REPORT.md). After the user reported Claude usage exhausted, five native specialists focused on NSN 5306016864912. New evidence resolves a seller's 1,100-piece pack, adds a $190.49 advertised carton price, acquires original RFQ/award-record links, and establishes the exact technical-document route. Parent H06 distinguishes annual-demand price evaluation from individual order-quantity pricing.
+
+This remains an **unqualified price-screening question**, not a likely-fraud classification. No authoritative exact technical match, actual competing quote comparison, paid loss or buyer benefit has been established. The linked technical route returned only an application shell, while public archive reads supplied schema metadata rather than the target item. The next useful record is the exact releasable technical package or the actual bid/evaluation record. [Independent challenge](investigations/single-case-followup-2026-10-30/review/REPORT.md) explains which findings advanced and what would disprove the proposed comparison.
+
+The [national-figure check](investigations/single-case-followup-2026-10-30/selection/REPORT.md) distinguishes SBA's estimated potential pandemic PPP/EIDL fraud from GAO improper-payment and modeled fraud-loss estimates. They do not establish a government-wide $200b missing-cash balance or evidence against this supplier. [Codex takeover](collaboration/CODEX-TAKEOVER-2026-10-30.md) records the adjacent work and preserves Claude's immutable original task; no live external-model execution is implied.
+
+## Targeted price agents and three-agency pilot
 
 Start with the [targeted price-agent system](price-agents/README.md) and [latest investigation report](investigations/price-agent-system-2026-10-30/REPORT.md). Seven specialist workers built and reviewed an executable local runtime, attachment tracer and recurrence screen. Fourteen role contracts and twenty current tasks separate exact transactions, comparable prices, purchasing decisions, business relationships, professional roles, actual payments and benefit evidence. Eight later sector waves remain gated plans.
 
@@ -16,7 +24,7 @@ Read the [DLA bolt price and buyer-independence investigation](investigations/dl
 
 The user reports assigning Claude the prepared pricing task. The [shared ownership note](collaboration/ADJACENT-WORK.md) and [updated Claude handoff](collaboration/CLAUDE-UPDATE.md) keep both sessions in this one area, with exact source and commit receipts. No Claude result has yet been received or authenticated. Grok's external route remains pending; specialist workers executing in this session are separate from those external-model states.
 
-The evidence bank contains **1,458 nodes, 3,662 edges and 424 source records**, with details in [coverage-summary.json](data/coverage-summary.json). Each source preserves its actual archive scope. The Obsidian vault includes separate market candidates, buyer-benefit questions, evidence requests and synthetic 12% controls. A real supplier and a reconciled invoice do not establish reasonable pricing or independent procurement.
+The evidence bank contains **1,500 nodes, 3,733 edges and 448 source records**, with details in [coverage-summary.json](data/coverage-summary.json). Each source preserves its actual archive scope. The Obsidian vault includes separate market candidates, buyer-benefit questions, evidence requests and synthetic 12% controls. A real supplier and a reconciled invoice do not establish reasonable pricing or independent procurement.
 
 ## Reward authority and earlier discovery controls
 

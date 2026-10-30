@@ -77,3 +77,4 @@ This note records supplied sources; it does not independently establish fraud.
 
 - [[BOLT-TRACE-20261030]]: records_finding — documented_fact (BOLT-E-a2c8a793e2a43766f0af)
 - [[BOLT-SPEC-EXACT-ROW-GAP]]: blocks_qualified_comparison — planned (BOLT-E-e379c9a0ef9ebac17b3a)
+- [[SC-20261030-MF-PACK]]: updates_pack_evidence_only — documented_fact (SC-20261030-E-903363caf524a60c1827)

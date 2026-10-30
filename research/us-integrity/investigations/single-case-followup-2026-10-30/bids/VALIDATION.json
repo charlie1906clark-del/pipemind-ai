@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-30",
+  "scope": "Source-selected evidence and finite research receipt, not model or fraud-detection validation",
+  "selected_hashes_verified": 4,
+  "prior_input_hashes_verified": 4,
+  "python_syntax": "passed",
+  "relative_consent_url_resolution_check": "passed",
+  "initial_implementation_error_preserved": "Relative form action originally resolved against pre-redirect URL; corrected final-response base and one bounded retry",
+  "new_original_bid_or_price_decision_records": 0,
+  "new_public_transaction_html_records": 2,
+  "new_historical_original_pdfs": 0,
+  "search_queries": 12,
+  "search_service_failed_open_operations": 2,
+  "urllib_opener_operations_including_consent": 13,
+  "declared_combined_read_operations": 15,
+  "implicit_redirect_http_count": "not measured; not included as known HTTP total",
+  "external_model_execution": false,
+  "public_artifact_scope": "No full HTML, original PDFs, cookies, hidden form values or unnecessary contacts committed",
+  "checks_are_not_source_authentication": true,
+  "independent_review": "Separate single_case_challenge lane owns review"
+}

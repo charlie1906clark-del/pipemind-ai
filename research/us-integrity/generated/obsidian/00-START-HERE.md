@@ -4,7 +4,22 @@ Research updated: 30 October 2026. These notes record evidence and planning; no 
 
 Open the built-in graph, or use these indexes. Source details and legal status are in each note.
 
-## Targeted price agents and new federal pilot
+## Current single common-bolt follow-up
+
+- [[SC-20261030-CASE|One case: deeper price and decision research]]
+- [[SC-20261030-SELECTION|Why this is a testable lead, not a guilt ranking]]
+- [[SC-20261030-SBA-POTENTIAL|What the national $200 billion estimate means]]
+- [[SC-20261030-MF-PACK|Explicit seller pack size resolves an earlier gap]]
+- [[SC-20261030-NATIONWIDE-OFFER|New advertised carton price with comparison limits]]
+- [[SC-20261030-H06|Annual-demand evaluation and individual order-price rules]]
+- [[SC-20261030-RFQ-RECORD|Original RFQ and transaction links]]
+- [[SC-20261030-TDMT-GATE|Exact technical route found; specification not acquired]]
+- [[SC-20261030-COMPARISON-BOUNDARY|Precise remaining evidence questions]]
+- [[SC-20261030-REVIEW|Independent challenge and falsification]]
+
+The cheaper advertised product remains unqualified against the government's NSN. No paid loss, hidden 12% arrangement or buyer benefit is established. Broad additional seller searches do not replace the exact technical or actual-bid record. The public bank preserves this limitation alongside each new observation.
+
+## Targeted price agents and federal pilot
 
 - [[PA-SYSTEM-20261030|Targeted investigation system and reviewed implementation]]
 - [[PA-WAVE-20261030-01|Twenty current tasks and dependency gates]]

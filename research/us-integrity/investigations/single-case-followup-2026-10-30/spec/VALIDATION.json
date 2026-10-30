@@ -1,0 +1,69 @@
+{
+  "checked_on": "2026-10-30",
+  "status": "passed_scoped_artifact_checks",
+  "selected_archive_hashes_verified": 3,
+  "prior_input_pins_verified": 5,
+  "exact_item_primary_rows_acquired": 0,
+  "qualified_benchmarks": 0,
+  "request_budget_checked": true,
+  "technical_record_download_verified": false,
+  "tdmt_status": "HTTP200 application shell only; access policy indexed official source; no authentication attempted",
+  "byte_scope": "Four archive range responses total10412003bytes plus one12531-byte TDMT shell; web-service body bytecounts not exposed. No bulk archive or native base table acquired.",
+  "artifacts": [
+    {
+      "path": "REPORT.md",
+      "sha256": "9cc39cc5245300cfe4f0581e97956d15c3ab8dba15057a594d56786c60819d9d",
+      "bytes": 4982
+    },
+    {
+      "path": "archive-change-inspection.json",
+      "sha256": "cbf673493c31e1ec30e56629b8739a5e08d0acc3e36fd5f425b0b9130c03abcf",
+      "bytes": 2414
+    },
+    {
+      "path": "archive-static-inspection.json",
+      "sha256": "ae6bba6aa2dbc65397997f0bb42ac3ad80888fcda4b7cedf6ddc672d1ae5f911",
+      "bytes": 3368
+    },
+    {
+      "path": "prior-inputs.json",
+      "sha256": "325d7d50a9b048e0b3ff76034a114eb97e5d4fd1630b66cd543d762034f10477",
+      "bytes": 1070
+    },
+    {
+      "path": "qualification.json",
+      "sha256": "8eac0b830e563960425c71db63b222d2b26d1875e4e553e38895b99fc6294769",
+      "bytes": 2061
+    },
+    {
+      "path": "query_log.json",
+      "sha256": "82608a33439feabe8a9030d932e923e377f9690b9df4bd1ee085d7c270d2280d",
+      "bytes": 3130
+    },
+    {
+      "path": "selected/imd-target-tables.txt",
+      "sha256": "f594c9554ee4d8f156bc951317da4d9ee457bb4807af9b7b36c479d195666b1e",
+      "bytes": 38
+    },
+    {
+      "path": "selected/release-label.txt",
+      "sha256": "883bcbd92d17b2da90f1f96d0516380981405923579dd21215fd01dc9695aede",
+      "bytes": 111
+    },
+    {
+      "path": "selected/schema-target-tables.txt",
+      "sha256": "783878015133e52f6086a88427305037763fca949bdb79a91181b08675143895",
+      "bytes": 384
+    },
+    {
+      "path": "sources.json",
+      "sha256": "3c85b44410b1a18e0875827e283a657e7bf7cf469358fc7bcafc2c1cee1414b0",
+      "bytes": 3909
+    },
+    {
+      "path": "tdmt-access.json",
+      "sha256": "e96952baaf76a0611d7c997231ab80022cb3ebeab831a0d001ac6d45914db593",
+      "bytes": 1693
+    }
+  ]
+}

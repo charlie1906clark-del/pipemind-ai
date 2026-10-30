@@ -87,3 +87,4 @@ This note records supplied sources; it does not independently establish fraud.
 ## Backlinks
 
 - [[BOLT-TRACE-20261030]]: records_finding — unknown (BOLT-E-e8bd95851bcc640ad3d3)
+- [[SC-20261030-NATIVE-ARCHIVE]]: retains_unresolved_specification — documented_fact (SC-20261030-E-da9f1f4fe953658f8d0a)

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-30",
+  "status": "accepted_for_exact_public_projection",
+  "graph_extension_sha256": "dc6d0bb0ce2d2b764c3d8331c577cc8a0a9687c27338680fc4b92de1819796ed",
+  "baseline_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "input_pins_verified": 71,
+  "producer_review_pins_verified": 70,
+  "extension_nodes": 42,
+  "extension_explicit_edges": 27,
+  "extension_sources": 24,
+  "combined_before_assembly_source_links": {
+    "nodes": 1500,
+    "edges": 3689,
+    "sources": 448
+  },
+  "prior_id_collisions": 0,
+  "new_actual_money_measures": 0,
+  "counterfactual_residuals_exported": false,
+  "source_snapshot_hashes": "passed",
+  "semantic_mappings": "passed",
+  "standalone_scope": "Extension intentionally has links to committed baseline nodes; public validation uses the combined graph.",
+  "omitted_direct_pin": [
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/REPORT.md",
+      "reason": "Avoid graph/review or root-summary validation cycle"
+    }
+  ],
+  "omission_check": "The root case overview is excluded from direct extension inputs but remains pinned and verified through the producer review; it must not be treated as freely mutable.",
+  "network_requests": 0,
+  "canonical_approval_or_assembly_performed": false
+}

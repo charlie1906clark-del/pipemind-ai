@@ -47,3 +47,4 @@ This note records supplied sources; it does not independently establish fraud.
 - [[BOLT-PCR-F01]]: assesses_evidence — documented_fact (BOLT-E-48624ccabf9492315f3f)
 - [[BOLT-PRICE-FAIRNESS-AUDIT]]: separately_tests — documented_fact (BOLT-E-b135dabcc69bbf613a69)
 - [[BOLT-TRACE-20261030]]: records_finding — unknown (BOLT-E-c23383f46b9d5a3504ba)
+- [[SC-20261030-COMPARISON-BOUNDARY]]: keeps_price_question_open — documented_fact (SC-20261030-E-7dca39a1d0379110b1a7)

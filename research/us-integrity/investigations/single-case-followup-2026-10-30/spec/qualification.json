@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-10-30",
+  "nsn": "5306016864912",
+  "niin": "016864912",
+  "secondary_candidate_pin": "AEB02F375750WA6DG1",
+  "primary_exact_niin_characteristics_rows_acquired": 0,
+  "primary_exact_niin_reference_rows_acquired": 0,
+  "qualified_price_benchmark": false,
+  "price_premium": null,
+  "overcharge": null,
+  "buyer_benefit": null,
+  "fraud_established": false,
+  "fair_pricing_established": false,
+  "gates": [
+    {
+      "gate": "ExactgovernmentNSN/orderprice",
+      "status": "verified_prior_primary_selection",
+      "source_ids": [
+        "SC-SPEC-PARENT"
+      ]
+    },
+    {
+      "gate": "UnderlyingASMEreferenceissue date",
+      "status": "verified_reference_not_product_equivalence",
+      "source_ids": [
+        "SC-SPEC-ASME-PREVIEW",
+        "SC-SPEC-PARENT"
+      ]
+    },
+    {
+      "gate": "Nativepubliccatalogexporttableandfieldnames",
+      "status": "verified_schema_not_item_record",
+      "source_ids": [
+        "SC-SPEC-PUBLOG-SCHEMA"
+      ]
+    },
+    {
+      "gate": "ExactNSNtoPIN/characteristicassociation",
+      "status": "unresolved",
+      "source_ids": [
+        "SC-SPEC-PARENT",
+        "SC-SPEC-TDMT"
+      ]
+    },
+    {
+      "gate": "Dimension/thread/strength/material/finish/coating/revisionequivalence",
+      "status": "unresolved_primary_bridge",
+      "source_ids": [
+        "SC-SPEC-TDMT"
+      ]
+    },
+    {
+      "gate": "Governmentacceptedmanufacturer/partreferencequalifiers",
+      "status": "unresolved",
+      "source_ids": [
+        "SC-SPEC-PUBLOG-SCHEMA"
+      ]
+    },
+    {
+      "gate": "Commercialquotequantity/date/availability/packing/freight/traceability",
+      "status": "separate_market_branch_not_resolved_by_this_pass",
+      "source_ids": []
+    }
+  ],
+  "next_record": "Actual complete public Characteristics and Reference exports for NIIN016864912 with release/observation metadata, or appropriately releasable exact-item technical record from originalRFQ-linkedTDMTpackage",
+  "novelty_limit": "New source access/schema observations, not newly discovered misconduct"
+}

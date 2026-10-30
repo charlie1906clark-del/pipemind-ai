@@ -28092,6 +28092,883 @@
       }
     },
     {
+      "id": "SC-20261030-ASME-BOUNDARY",
+      "type": "standards_reference_observation",
+      "title": "ASME PIN system and edition do not supply the exact NSN crosswalk",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW",
+        "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT"
+      ],
+      "properties": {
+        "visibility": "public",
+        "reference_issue_date": "2023-10-16",
+        "full_code_tables_acquired": false,
+        "proposed_pin": "AEB02F375750WA6DG1",
+        "proposed_pin_to_nsn_primary_link_verified": false
+      }
+    },
+    {
+      "id": "SC-20261030-AWARD-RECORD",
+      "type": "award_record_observation",
+      "title": "Original parent award page exposes office codes and document link",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S04"
+      ],
+      "properties": {
+        "visibility": "public",
+        "parent_contract": "SPE4A626D61WS",
+        "award_date": "2026-09-17",
+        "posted_date": "2026-09-17",
+        "issued_by_office": "SPE4A6",
+        "administered_by_office": "SPE4A6",
+        "payment_office": "SL4701",
+        "payment_verified": false,
+        "awardee_cage": "8A1E8",
+        "displayed_modifications": "None",
+        "modifications_scope": "This public parent-record page as observed, not proof no internal action or child order exists",
+        "displayed_amount_interpretation": "Previously verified parent ceiling; not ordered or paid value"
+      }
+    },
+    {
+      "id": "SC-20261030-CASE",
+      "type": "research_collection",
+      "title": "One common-bolt price and decision follow-up",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SELECTION"
+      ],
+      "properties": {
+        "visibility": "public",
+        "nsn": "5306016864912",
+        "parent_piid": "SPE4A626D61WS",
+        "order_piid": "SPE4A627F0588",
+        "base_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+        "selection_basis": "Investigability within the retained corpus",
+        "fraud_probability": null,
+        "new_fraud_established": false,
+        "nationwide_ranking": false,
+        "paid_cash_verified": false,
+        "buyer_benefit": null,
+        "external_model_execution": false,
+        "prior_runtime_state_mutated": false
+      }
+    },
+    {
+      "id": "SC-20261030-COMPARISON-BOUNDARY",
+      "type": "research_question",
+      "title": "Exact benchmark, actual decision and benefit evidence remain open",
+      "status": "unknown",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-1",
+        "SC-20261030-SRC-PUBLOG-2",
+        "SC-20261030-SRC-PUBLOG-3",
+        "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT",
+        "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW",
+        "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT",
+        "SC-20261030-SRC-SCB-S01",
+        "SC-20261030-SRC-SCB-S02",
+        "SC-20261030-SRC-SCB-S03",
+        "SC-20261030-SRC-SCB-S04",
+        "SC-20261030-SRC-SCM-S01",
+        "SC-20261030-SRC-SCM-S02",
+        "SC-20261030-SRC-SCM-S03",
+        "SC-20261030-SRC-SCM-S05",
+        "SC-20261030-SRC-SCM-S06",
+        "SC-20261030-SRC-TDMT-POLICY",
+        "SC-20261030-SRC-TDMT-SHELL"
+      ],
+      "properties": {
+        "visibility": "public",
+        "exact_primary_niin_characteristic_rows": 0,
+        "exact_primary_niin_reference_rows": 0,
+        "qualified_benchmarks": 0,
+        "actual_competing_quote_prices": 0,
+        "bid_abstracts": 0,
+        "decision_memoranda": 0,
+        "price_excess": null,
+        "supplier_cost_or_profit": null,
+        "buyer_benefit": null,
+        "paid_cash": null,
+        "recoverable_loss": null,
+        "new_fraud_established": false,
+        "fair_pricing_established": false,
+        "hypothetical_residuals_exported_as_money": false,
+        "next_record": "Appropriately releasable exact NIIN characteristics/reference or technical package, then feasible dated equivalent offer and actual evaluation record"
+      }
+    },
+    {
+      "id": "SC-20261030-GAO-FRAUD-RANGE",
+      "type": "aggregate_estimate_observation",
+      "title": "GAO's annual fraud-loss range uses FY2018–2022 data",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-GAO-FRAUD-RANGE"
+      ],
+      "properties": {
+        "visibility": "public",
+        "modeled_annual_range_usd": "233–521 billion",
+        "underlying_period": "FY2018–2022",
+        "predictive_of_2026": false,
+        "agency_program_allocation_permitted": false,
+        "comparable_to_improper_payment_estimate": false,
+        "actual_case_money_measure": false,
+        "allocation_to_selected_purchase": false
+      }
+    },
+    {
+      "id": "SC-20261030-GAO-IMPROPER",
+      "type": "aggregate_estimate_observation",
+      "title": "FY2025 estimated improper payments are a distinct measure",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-GAO-IMPROPER"
+      ],
+      "properties": {
+        "visibility": "public",
+        "reported_estimate_usd": "about 186 billion",
+        "period": "FY2025",
+        "reporting_agencies": 15,
+        "reported_programs": 64,
+        "not_all_fraud": true,
+        "complete_government_coverage": false,
+        "actual_case_money_measure": false,
+        "allocation_to_selected_purchase": false
+      }
+    },
+    {
+      "id": "SC-20261030-H06",
+      "type": "contract_term_observation",
+      "title": "H06 separates annual-demand evaluation from order-quantity pricing",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S01"
+      ],
+      "properties": {
+        "visibility": "public",
+        "evaluation_quantity_basis": "Quoted estimated annual demand",
+        "individual_order_price_basis": "Price range covering total quantity on the individual order",
+        "award_standard": "Conforming responsible offeror, price and other factors",
+        "actual_bids_or_evaluation_compliance_established": false,
+        "estimated_annual_demand_is_order": false,
+        "documented_child_order_is_separate": true
+      }
+    },
+    {
+      "id": "SC-20261030-HISTORICAL-ROUTES",
+      "type": "acquisition_observation",
+      "title": "Historical document routes failed; award existence remains established separately",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-HISTORY-ALT-RECEIPT",
+        "SC-20261030-SRC-HISTORY-RECEIPT",
+        "SC-20261030-SRC-SCB-S03"
+      ],
+      "properties": {
+        "visibility": "public",
+        "history_lane_attempted_piids": [
+          "SPE4A626P5931",
+          "SPE4A625PK654"
+        ],
+        "history_lane_results": [
+          {
+            "piid": "SPE4A626P5931",
+            "result": "failed_no_retry",
+            "error_type": "TimeoutError",
+            "url_lineage": "Derived from exact published PIID/date and prior observed official path pattern; not a clicked award hyperlink"
+          },
+          {
+            "piid": "SPE4A625PK654",
+            "result": "failed_no_retry",
+            "error_type": "ValueError",
+            "url_lineage": "Derived from exact published PIID/date and prior observed official path pattern; not a clicked award hyperlink"
+          }
+        ],
+        "latest_other_attempt": "SPE4A626V138W date-derived PDF route returned file-not-found text",
+        "history_lane_opener_operations": 4,
+        "automatic_redirect_hops_separately_counted": false,
+        "alternate_public_award_record_opens": 2,
+        "alternate_route_documents_acquired": 0,
+        "alternate_route_lineage": "Two alternate public award-record routes derived from observed current-record URL pattern and exact historical PIIDs",
+        "new_historical_original_pdfs": 0,
+        "awards_missing_or_concealed_inferred": false,
+        "actual_losing_bids_or_evaluation_records_acquired": 0
+      }
+    },
+    {
+      "id": "SC-20261030-MF-PACK",
+      "type": "market_product_observation",
+      "title": "MF Supply's advertised box size is now explicitly 1,100",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S01",
+        "SC-20261030-SRC-SCM-S02"
+      ],
+      "properties": {
+        "visibility": "public",
+        "seller": "MF Supply",
+        "sku": "HH38FX3/4G8ZY",
+        "advertised_pack_quantity": 1100,
+        "advertised_box_price": "328.91",
+        "currency_interpretation": "USD from US merchant context; page prints dollar symbol",
+        "displayed_boxes": 7,
+        "nominal_displayed_pieces": 7700,
+        "actual_stock_reservation_verified": false,
+        "quote_accepted": false,
+        "applicable_at_award_date_verified": false,
+        "government_equivalence": false,
+        "supersedes_only_prior_pack_unknown": true
+      }
+    },
+    {
+      "id": "SC-20261030-NATIONWIDE-OFFER",
+      "type": "market_product_observation",
+      "title": "Nationwide advertises a 1,100-piece carton at $190.49",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S03"
+      ],
+      "properties": {
+        "visibility": "public",
+        "seller": "Nationwide Industrial Supply",
+        "advertised_part": "3812CH8O",
+        "advertised_carton_quantity": 1100,
+        "advertised_case_price_1_to_4": "190.49",
+        "advertised_case_price_5_plus": "173.18",
+        "currency_interpretation": "USD from US merchant context; page prints dollar symbol",
+        "displayed_stock_label": "in_stock",
+        "available_cartons": null,
+        "delivery_or_acceptance_verified": false,
+        "price_observation_date": "2026-10-30",
+        "government_award_date_price_verified": false,
+        "actual_government_supplier_invoice": false,
+        "upstream_independence_verified": false,
+        "government_equivalence": false,
+        "price_excess": null,
+        "buyer_benefit": null,
+        "recoverable_loss": null
+      }
+    },
+    {
+      "id": "SC-20261030-NATIVE-ARCHIVE",
+      "type": "source_access_observation",
+      "title": "Native archive schema acquired; exact NIIN rows remain absent",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-1",
+        "SC-20261030-SRC-PUBLOG-2",
+        "SC-20261030-SRC-PUBLOG-3",
+        "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT"
+      ],
+      "properties": {
+        "visibility": "public",
+        "http_206_range_requests": 4,
+        "received_range_bytes": 10412003,
+        "native_tables": [
+          "V_FLIS_PART",
+          "V_CHARACTERISTICS"
+        ],
+        "native_part_number_field_length": 60,
+        "native_characteristic_reply_length": 3144,
+        "older_csv_layout_interchangeability": false,
+        "exact_niin_rows_acquired": 0,
+        "base_tables_acquired": false,
+        "executable_extracted_or_run": false,
+        "change_scan_limit": "Add/delete byte scans and nested directory only; large change member not decompressed",
+        "base_catalog_absence_inferred": false
+      }
+    },
+    {
+      "id": "SC-20261030-RELEASE-LABEL",
+      "type": "source_label_observation",
+      "title": "November 2026 archive label observed on 30 October 2026",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-3"
+      ],
+      "properties": {
+        "visibility": "public",
+        "printed_release_label": "November 2026",
+        "observed_at": "2026-10-30T13:17:59.540991+00:00",
+        "publication_timestamp_verified": false,
+        "september_contract_applicability_verified": false,
+        "exact_item_record": false
+      }
+    },
+    {
+      "id": "SC-20261030-REVIEW",
+      "type": "review_assessment",
+      "title": "Independent challenge of this bounded follow-up",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-REVIEW"
+      ],
+      "properties": {
+        "visibility": "public",
+        "review_path": "investigations/single-case-followup-2026-10-30/review/review.json",
+        "review_claim_scope": "Only the scope and exact bytes recorded in the review",
+        "fraud_or_price_fairness_certification": false
+      }
+    },
+    {
+      "id": "SC-20261030-RFQ-RECORD",
+      "type": "solicitation_record_observation",
+      "title": "Original RFQ links exact NSN, PR, award and technical route",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S02"
+      ],
+      "properties": {
+        "visibility": "public",
+        "solicitation": "SPE4A626U3619",
+        "nsn": "5306016864912",
+        "purchase_request": "1000241595",
+        "issue_date": "2026-09-03",
+        "return_by_date": "2026-09-17",
+        "awardee_cage": "8A1E8",
+        "parent_contract": "SPE4A626D61WS",
+        "displayed_rfq_quantity": "2221",
+        "quantity_is_ordered_or_paid": false,
+        "attachments_label": "No Attachments",
+        "separate_technical_documents_link": true,
+        "actual_competing_quote_prices_acquired": 0
+      }
+    },
+    {
+      "id": "SC-20261030-SBA-POTENTIAL",
+      "type": "aggregate_estimate_observation",
+      "title": "SBA's $200 billion refers to potential pandemic PPP/EIDL fraud",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SBA-POTENTIAL"
+      ],
+      "properties": {
+        "visibility": "public",
+        "reported_estimate_usd": "more than 200 billion",
+        "program_scope": "Pandemic PPP/EIDL assistance",
+        "measure_status": "Agency-reiterated potential-fraud estimate, not adjudicated loss or current missing cash",
+        "other_reported_figures": "Referrals and suspensions are suspected/administrative measures with unreconciled overlap",
+        "amounts_additive": false,
+        "actual_case_money_measure": false,
+        "allocation_to_selected_purchase": false
+      }
+    },
+    {
+      "id": "SC-20261030-SELECTION",
+      "type": "selection_assessment",
+      "title": "Single-case choice does not estimate guilt",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SELECTION"
+      ],
+      "properties": {
+        "visibility": "public",
+        "chosen_question": "Can the documented price be compared with an actual equivalent supply offer and decision record?",
+        "known_case_not_selected": "Centennial is an existing publicly investigated matter",
+        "specialty_item_not_selected": "Different NSN and no acquired priced equivalent",
+        "other_pilot_awards_without_original_priced_lines": 29,
+        "earlier_selection_market_unknowns_may_be_updated_by_later_observations": true
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-GAO-FRAUD-RANGE",
+      "type": "source",
+      "title": "GAO-24-105833",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.gao.gov/products/gao-24-105833",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "source_class": "official_primary",
+        "published_at": "2024-04-16",
+        "retrieval_scope": "opened_rendered_page",
+        "original_webpage_bytes_archived": false
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-GAO-IMPROPER",
+      "type": "source",
+      "title": "GAO-26-108694",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.gao.gov/products/gao-26-108694",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "source_class": "official_primary",
+        "published_at": "2026-04-27",
+        "retrieval_scope": "opened_rendered_page",
+        "original_webpage_bytes_archived": false
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-HISTORY-ALT-RECEIPT",
+      "type": "source",
+      "title": "Two alternate public award-record routes also failed",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://github.com/charlie1906clark-del/pipemind-ai",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": true,
+        "artifact_origin": "locally_authored_repository_artifact",
+        "snapshot_scope": "Exact retained local selected facts or receipt; not original webpage bytes",
+        "network_retrieval_inferred": false,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/history/additional-route-checks.json",
+        "content_sha256": "dc55331324c4c63933904a22031fa3477a9a210996eb2fcfaf0a98408a451c8c"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-HISTORY-RECEIPT",
+      "type": "source",
+      "title": "Bounded attempts at historical document locations",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://github.com/charlie1906clark-del/pipemind-ai",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": true,
+        "artifact_origin": "locally_authored_repository_artifact",
+        "snapshot_scope": "Exact retained local selected facts or receipt; not original webpage bytes",
+        "network_retrieval_inferred": false,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/history/acquisition.json",
+        "content_sha256": "a5323c72f848432581ffde00d2b60992353cc3f2ff453d90e2d0d8b839588fac"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-PUBLOG-1",
+      "type": "source",
+      "title": "Selected PUB LOG member: IMD.LST",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+        "accessed_at": "2026-10-30T13:17:51.271012+00:00",
+        "source_bytes_archived": true,
+        "locator": "IMD.LST",
+        "snapshot_scope": "Only target table names, target table field schema, or leading release label; not an item record",
+        "original_member_archived": false,
+        "original_member_sha256": "7ded0d32a5c4d04384df6c6d7c795eed84102843a1f4e427e279520fae87e3a2",
+        "original_range_sha256": "a47dbc9e4c0801c57793e1667b51bf72bfd9fa5b52ef9e46f7f175b06f0450ea",
+        "requested_range": "bytes=38111692-38113000",
+        "crc_matches_retained_directory": true,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/spec/selected/imd-target-tables.txt",
+        "content_sha256": "f594c9554ee4d8f156bc951317da4d9ee457bb4807af9b7b36c479d195666b1e"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-PUBLOG-2",
+      "type": "source",
+      "title": "Selected PUB LOG member: TOOLS/SCHEMA.TXT",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+        "accessed_at": "2026-10-30T13:17:55.817862+00:00",
+        "source_bytes_archived": true,
+        "locator": "TOOLS/SCHEMA.TXT",
+        "snapshot_scope": "Only target table names, target table field schema, or leading release label; not an item record",
+        "original_member_archived": false,
+        "original_member_sha256": "14089fccdf96924634cebde203a02aac878cfaec5b1cee2039148f7643faf7c3",
+        "original_range_sha256": "b295c2cfce72584932b293d3f144f3075f417579b4747971fa1949d5bc4497f1",
+        "requested_range": "bytes=928978752-928982043",
+        "crc_matches_retained_directory": true,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/spec/selected/schema-target-tables.txt",
+        "content_sha256": "783878015133e52f6086a88427305037763fca949bdb79a91181b08675143895"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-PUBLOG-3",
+      "type": "source",
+      "title": "Selected PUB LOG member: RELNOTES.TXT",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+        "accessed_at": "2026-10-30T13:17:59.540991+00:00",
+        "source_bytes_archived": true,
+        "locator": "RELNOTES.TXT",
+        "snapshot_scope": "Only target table names, target table field schema, or leading release label; not an item record",
+        "original_member_archived": false,
+        "original_member_sha256": "fc81e845099a1553f7a8bcb96ade6a29c6bd1dd5c2672460f313e1188ea5c4d2",
+        "original_range_sha256": "4e8f6a401975fbf3567357a78cb51a7782de39665aadfb7b6eda20bd14c9b902",
+        "requested_range": "bytes=926862908-926865896",
+        "crc_matches_retained_directory": true,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/spec/selected/release-label.txt",
+        "content_sha256": "883bcbd92d17b2da90f1f96d0516380981405923579dd21215fd01dc9695aede"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT",
+      "type": "source",
+      "title": "Static change-archive inspection receipt; no base item row",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://github.com/charlie1906clark-del/pipemind-ai",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": true,
+        "artifact_origin": "locally_authored_repository_artifact",
+        "snapshot_scope": "Exact retained local selected facts or receipt; not original webpage bytes",
+        "network_retrieval_inferred": false,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/spec/archive-change-inspection.json",
+        "content_sha256": "cbf673493c31e1ec30e56629b8739a5e08d0acc3e36fd5f425b0b9130c03abcf"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-REVIEW",
+      "type": "source",
+      "title": "Independent review of scoped source observations",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://github.com/charlie1906clark-del/pipemind-ai",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": true,
+        "artifact_origin": "locally_authored_repository_artifact",
+        "snapshot_scope": "Exact retained local selected facts or receipt; not original webpage bytes",
+        "network_retrieval_inferred": false,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/review/review.json",
+        "content_sha256": "340a522f9c6d899672188d2499ee2980e05b15773732e978c77ce4e296f420ff"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SBA-POTENTIAL",
+      "type": "source",
+      "title": "SBA News release26-112",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://legacy.sba.gov/article/2026/10/27/sba-asks-public-report-suspected-pandemic-era-fraud-through-doj-whistleblower-portal",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "source_class": "official_primary",
+        "published_at": "2026-10-27",
+        "retrieval_scope": "opened_rendered_page",
+        "original_webpage_bytes_archived": false
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW",
+      "type": "source",
+      "title": "ASME primary reference: SC-SPEC-ASME-PREVIEW",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.asme.org/getmedia/a4338640-c127-46a5-b1cd-a853b794c4c2/B18-24_2023_ToC.pdf",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "retrieval_scope": "Webopen succeeded9pages; originalbytesnotarchived",
+        "locator": "PDFpage3 issue date; PDFpage4 contents",
+        "original_bytes_archived": false
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT",
+      "type": "source",
+      "title": "ASME primary reference: SC-SPEC-ASME-PRODUCT",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b18-24-part-identifying-number-code-system-standard-b18-fastener-products/2020/pdf",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "retrieval_scope": "Webopen succeeded, title selectsB18.24-2023 despitepath/2020/pdf",
+        "locator": "Description paragraphs and edition heading",
+        "original_bytes_archived": false
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCB-S01",
+      "type": "source",
+      "title": "Selected original procurement record: SCB-S01",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": true,
+        "locator": "Page3, H06 paragraphs1–5",
+        "snapshot_scope": "selected pdftotext excerpt with provenance heading",
+        "original_source_archived": false,
+        "original_source_sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0",
+        "source_origin": "prior captured original, new local passage selection",
+        "event_date": "2026-09-17",
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/bids/selected/parent-page3-h06.txt",
+        "content_sha256": "16e68975b9be9a07df2f99dddd5ffb5938e170f4577d09a84ce7c962274608e4"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCB-S02",
+      "type": "source",
+      "title": "Selected original procurement record: SCB-S02",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.dibbs.bsm.dla.mil/rfq/rfqrec.aspx?sn=spe4a626u3619",
+        "accessed_at": "2026-10-30T13:19:05.326602+00:00",
+        "source_bytes_archived": true,
+        "locator": "RFQ Package Data and Item/Tech Data/Purchase Request table, with observed attached links",
+        "snapshot_scope": "selected normalized source fields and transaction-relevant links",
+        "original_source_archived": false,
+        "original_source_sha256": "92878d763954c0003f3d3b452c79700eb9a5b671f8fe9c82321fc3eeaaf6f0e6",
+        "source_origin": "New public original HTML; selected facts retained",
+        "event_date": null,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/bids/selected/current-rfq-record.json",
+        "content_sha256": "ab0e533587aa2ede7e856f553a4dd47718d03807e3430713cf3aead89e0c82f6"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCB-S03",
+      "type": "source",
+      "title": "Selected original procurement record: SCB-S03",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/26MAY26/SPE4A626V138W.PDF",
+        "accessed_at": "2026-10-30T13:19:59.363678+00:00",
+        "source_bytes_archived": true,
+        "locator": "Returned error page title and file-not-found message",
+        "snapshot_scope": "selected error text and explicitly labeled scope note",
+        "original_source_archived": false,
+        "original_source_sha256": "2d4356eddeafa040123aad0955168da4dc820d34234ac154417e6d3cd28fae49",
+        "source_origin": "New public original HTML; selected facts retained",
+        "event_date": null,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/bids/selected/latest-historical-missing-document.txt",
+        "content_sha256": "9cadcc4508a0e496d2fe505ac50cfc313921bfa5269dec7ea4c3ac94b7e09bcf"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCB-S04",
+      "type": "source",
+      "title": "Selected original procurement record: SCB-S04",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRec.aspx?contract=SPE4A626D61WS&dlv=",
+        "accessed_at": "2026-10-30T13:22:11.564090+00:00",
+        "source_bytes_archived": true,
+        "locator": "Award Package Data, Modifications, and Item/Purchase Request/Solicitation Data",
+        "snapshot_scope": "selected normalized public fields with clearly separated interpretation",
+        "original_source_archived": false,
+        "original_source_sha256": "f290a742fde65ee01e5fe7be99809cf327342e3f6d73f2831981c9c569e4e5a0",
+        "source_origin": "New public original HTML; selected facts retained",
+        "event_date": null,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/bids/selected/current-award-record.json",
+        "content_sha256": "25e26fe9dea45b76976730a3456b4af2f0c8c310f981d9b8d59b5e452f6ea35d"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCM-S01",
+      "type": "source",
+      "title": "Public seller/distributor observation: SCM-S01",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.mfsupply.com/pindex.php?Page=117",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "source_class": "seller_owned_public_product_index",
+        "locator": "line174 exact HH38FX3/4G8ZY index entry",
+        "snapshot_scope": "Selected researcher-authored facts; no original website-byte hash claimed",
+        "original_webpage_bytes_archived": false,
+        "selection_registry": "investigations/single-case-followup-2026-10-30/market-terms/sources.json"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCM-S02",
+      "type": "source",
+      "title": "Public seller/distributor observation: SCM-S02",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.mfsupply.com/product_p/hh38fx3-fslash-4g8zy.htm",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "source_class": "seller_owned_public_catalog",
+        "locator": "lines79–89; prior product specification selection retained",
+        "snapshot_scope": "Selected researcher-authored facts; no original website-byte hash claimed",
+        "original_webpage_bytes_archived": false,
+        "selection_registry": "investigations/single-case-followup-2026-10-30/market-terms/sources.json"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCM-S03",
+      "type": "source",
+      "title": "Public seller/distributor observation: SCM-S03",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.nationwideindustrialsupply.com/departments/grade-8-cap-screws/fine-thread-hex-cap-screw-grade-8-zinc-yellow/3812CH8O/",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "source_class": "seller_owned_public_catalog",
+        "locator": "lines262–275",
+        "snapshot_scope": "Selected researcher-authored facts; no original website-byte hash claimed",
+        "original_webpage_bytes_archived": false,
+        "selection_registry": "investigations/single-case-followup-2026-10-30/market-terms/sources.json"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCM-S05",
+      "type": "source",
+      "title": "Public seller/distributor observation: SCM-S05",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://legacy.kanebridge.com/kaneprls.asp?SellCode=CH8OF",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "source_class": "master_distributor_owned_public_product_listing",
+        "locator": "header lines11–13 and exact row39",
+        "snapshot_scope": "Selected researcher-authored facts; no original website-byte hash claimed",
+        "original_webpage_bytes_archived": false,
+        "selection_registry": "investigations/single-case-followup-2026-10-30/market-terms/sources.json"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SCM-S06",
+      "type": "source",
+      "title": "Public seller/distributor observation: SCM-S06",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.kanebridge.com/pdf/linecards/tap-cap.pdf",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "source_class": "master_distributor_owned_public_linecard",
+        "locator": "PDF pages2 and7 (zero-basedP1 andP6)",
+        "snapshot_scope": "Selected researcher-authored facts; no original website-byte hash claimed",
+        "original_webpage_bytes_archived": false,
+        "selection_registry": "investigations/single-case-followup-2026-10-30/market-terms/sources.json"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-SELECTION",
+      "type": "source",
+      "title": "Frozen selection by evidence availability",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://github.com/charlie1906clark-del/pipemind-ai",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": true,
+        "artifact_origin": "locally_authored_repository_artifact",
+        "snapshot_scope": "Exact retained local selected facts or receipt; not original webpage bytes",
+        "network_retrieval_inferred": false,
+        "snapshot_path": "investigations/single-case-followup-2026-10-30/selection/decision.json",
+        "content_sha256": "3824831477a3052feb85c4de9d68db51b843f62e6c95abd11054c08b52656577"
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-TDMT-POLICY",
+      "type": "source",
+      "title": "Official TDMT access guidance observed through search index",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://www.dla.mil/Working-With-DLA/Applications/Details/Article/4567728/tdmt-technical-data-management-transformation/",
+        "accessed_at": "2026-10-30",
+        "source_bytes_archived": false,
+        "retrieval_scope": "Officialindexedtext; directwebopen403",
+        "claim_scope": "DLA states22June2026phase1transition; commercial/non-government accessrequiresAMPSandOktaMFA",
+        "direct_page_open_succeeded": false,
+        "policy_evidence_kind": "official_indexed_text",
+        "live_login_screen_observed": false
+      }
+    },
+    {
+      "id": "SC-20261030-SRC-TDMT-SHELL",
+      "type": "source",
+      "title": "Exact TDMT link returned only an application shell",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "visibility": "public",
+        "url": "https://tdmt.dla.mil/tdmt/Client/?StartItem=DSP_TDP_Acquisition_Doc%3AbySolicitation%3ASPE4A626U3619",
+        "accessed_at": "2026-10-30T13:21:52.559065+00:00",
+        "source_bytes_archived": false,
+        "http_status": 200,
+        "original_body_sha256": "500110cf2c70810568ec16b90ae6cb23f93656bd37f53dbed19f14ab344a3fb1",
+        "original_body_archived": false,
+        "received_bytes": 12531,
+        "receipt_path": "investigations/single-case-followup-2026-10-30/spec/tdmt-access.json",
+        "receipt_sha256": "e96952baaf76a0611d7c997231ab80022cb3ebeab831a0d001ac6d45914db593",
+        "snapshot_scope": "Retained metadata only; no application HTML or target TDP",
+        "technical_record_acquired": false
+      }
+    },
+    {
+      "id": "SC-20261030-TDMT-GATE",
+      "type": "source_access_observation",
+      "title": "RFQ technical route is known; no technical package was acquired",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S02",
+        "SC-20261030-SRC-TDMT-POLICY",
+        "SC-20261030-SRC-TDMT-SHELL"
+      ],
+      "properties": {
+        "visibility": "public",
+        "exact_startitem": "DSP_TDP_Acquisition_Doc:bySolicitation:SPE4A626U3619",
+        "http_success_is_document_success": false,
+        "result_type": "application_shell_only",
+        "technical_record_acquired": false,
+        "authentication_attempted": false,
+        "source_distribution_classification_verified": false,
+        "required_access_policy": "Indexed official guidance describes AMPS and Okta MFA for external users"
+      }
+    },
+    {
+      "id": "SC-20261030-UPSTREAM-LOT-GAP",
+      "type": "supply_chain_observation",
+      "title": "Shared reference and generic certification claims leave lot identity unresolved",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S05",
+        "SC-20261030-SRC-SCM-S06"
+      ],
+      "properties": {
+        "visibility": "public",
+        "common_catalog_reference": "3812CH8O",
+        "published_catalog_origin": "Canada",
+        "disclosed_distributor_role": "master_distributor",
+        "actual_manufacturer_identified": false,
+        "country_restriction_violation_established": false,
+        "delivered_lot_origin_verified": false,
+        "exact_lot_certificate_acquired": false,
+        "free_generic_certifications_and_lot_control_advertised": true,
+        "certifications_automatically_assumed_costly": false,
+        "qup001_service_quote_acquired": false,
+        "number_of_seller_pages_proves_upstream_independence": false
+      }
+    },
+    {
       "id": "XS-C01",
       "type": "case",
       "title": "Genoverde NSF grants and PPP",
@@ -54858,6 +55735,399 @@
       }
     },
     {
+      "id": "SC-20261030-E-12515f6350b456de9a4f",
+      "type": "has_selected_contract_term",
+      "source": "SC-20261030-AWARD-RECORD",
+      "target": "SC-20261030-H06",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S01",
+        "SC-20261030-SRC-SCB-S04"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-22fb336315bce28c2c09",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-NATIVE-ARCHIVE",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-1",
+        "SC-20261030-SRC-PUBLOG-2",
+        "SC-20261030-SRC-PUBLOG-3",
+        "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-335f04d54f2c90855499",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-H06",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S01"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-38708f45d676e4e7ce53",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-GAO-IMPROPER",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-GAO-IMPROPER"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-44e61b3a5d3f93d8104d",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-UPSTREAM-LOT-GAP",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S05",
+        "SC-20261030-SRC-SCM-S06"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-4a718ee8cbba5be78c0d",
+      "type": "links_award_record",
+      "source": "SC-20261030-RFQ-RECORD",
+      "target": "SC-20261030-AWARD-RECORD",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S02",
+        "SC-20261030-SRC-SCB-S04"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-5cbcd6fe64a31c72e40f",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-GAO-FRAUD-RANGE",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-GAO-FRAUD-RANGE"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-683b5ee36a52ba565c93",
+      "type": "requires_exact_specification",
+      "source": "SC-20261030-NATIONWIDE-OFFER",
+      "target": "SC-20261030-NATIVE-ARCHIVE",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-1",
+        "SC-20261030-SRC-PUBLOG-2",
+        "SC-20261030-SRC-PUBLOG-3",
+        "SC-20261030-SRC-SCM-S03"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-75d172162f9dc52f8307",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-REVIEW",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-REVIEW"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-7bb774f6eaef658fd499",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-COMPARISON-BOUNDARY",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-1",
+        "SC-20261030-SRC-PUBLOG-2",
+        "SC-20261030-SRC-PUBLOG-3",
+        "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT",
+        "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW",
+        "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT",
+        "SC-20261030-SRC-SCM-S01",
+        "SC-20261030-SRC-SCM-S02",
+        "SC-20261030-SRC-SCM-S03",
+        "SC-20261030-SRC-SCM-S05",
+        "SC-20261030-SRC-SCM-S06",
+        "SC-20261030-SRC-TDMT-POLICY",
+        "SC-20261030-SRC-TDMT-SHELL"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-7d23bc4c612d343487f3",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-AWARD-RECORD",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S04"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-7dca39a1d0379110b1a7",
+      "type": "keeps_price_question_open",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "BOLT-PRICE-FAIRNESS-UNKNOWN",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S01",
+        "SC-20261030-SRC-SCM-S02",
+        "SC-20261030-SRC-SCM-S03",
+        "SC-20261030-SRC-SCM-S05",
+        "SC-20261030-SRC-SCM-S06"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-8b457c60219c3a7c8f99",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-ASME-BOUNDARY",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW",
+        "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-8eb96a177d15695d5c43",
+      "type": "keeps_benefit_question_open",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "BOLT-BUYER-INDEPENDENCE-UNKNOWN",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S01",
+        "SC-20261030-SRC-SCB-S02",
+        "SC-20261030-SRC-SCB-S03",
+        "SC-20261030-SRC-SCB-S04"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-8ffdc2b477cc590b40eb",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-SBA-POTENTIAL",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SBA-POTENTIAL"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-903363caf524a60c1827",
+      "type": "updates_pack_evidence_only",
+      "source": "SC-20261030-MF-PACK",
+      "target": "BOLT-MARKET-BENCHMARK-MATRIX",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S01",
+        "SC-20261030-SRC-SCM-S02"
+      ],
+      "properties": {
+        "visibility": "public",
+        "prior_dated_unknown_not_deleted": true,
+        "no_automatic_comparison_qualification": true
+      }
+    },
+    {
+      "id": "SC-20261030-E-bf049520b10939dbea9f",
+      "type": "follows_existing_case",
+      "source": "SC-20261030-CASE",
+      "target": "BOLT-TRACE-20261030",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SELECTION"
+      ],
+      "properties": {
+        "visibility": "public",
+        "old_node_not_modified": true
+      }
+    },
+    {
+      "id": "SC-20261030-E-c38c9813f62f9cfcf6ad",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-MF-PACK",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S01",
+        "SC-20261030-SRC-SCM-S02"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-c92dfc7cbb6087f57dc2",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-SELECTION",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SELECTION"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-cd8e41af8a9d6ca92af8",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-HISTORICAL-ROUTES",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-HISTORY-ALT-RECEIPT",
+        "SC-20261030-SRC-HISTORY-RECEIPT",
+        "SC-20261030-SRC-SCB-S03"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-da9f1f4fe953658f8d0a",
+      "type": "retains_unresolved_specification",
+      "source": "SC-20261030-NATIVE-ARCHIVE",
+      "target": "BOLT-SPEC-EXACT-ROW-GAP",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-1",
+        "SC-20261030-SRC-PUBLOG-2",
+        "SC-20261030-SRC-PUBLOG-3",
+        "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-e7d47af43f3b1b820568",
+      "type": "links_technical_document_route",
+      "source": "SC-20261030-RFQ-RECORD",
+      "target": "SC-20261030-TDMT-GATE",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S02",
+        "SC-20261030-SRC-TDMT-SHELL"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-f1644b064a44bd1472a4",
+      "type": "examines_documented_order",
+      "source": "SC-20261030-CASE",
+      "target": "BOLT-ORDER-SPE4A627F0588",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SELECTION"
+      ],
+      "properties": {
+        "visibility": "public",
+        "old_node_not_modified": true
+      }
+    },
+    {
+      "id": "SC-20261030-E-f45fa4498f4da54b2024",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-RELEASE-LABEL",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-3"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-f6246caad25c196e2b1a",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-TDMT-GATE",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-TDMT-POLICY",
+        "SC-20261030-SRC-TDMT-SHELL"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-f928a1cdf0bb4b8a164e",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-RFQ-RECORD",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S02"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "SC-20261030-E-ffbae2c3accaf5cd9e15",
+      "type": "includes_observation",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-NATIONWIDE-OFFER",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S03"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-000682ca67b8185ae35c",
       "type": "cites",
       "source": "FPP-LINE-SPE4A626PW775-0001",
@@ -55103,6 +56373,19 @@
       }
     },
     {
+      "id": "edge-01909f07da34e9eecfff",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCM-S06",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S06"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-01abb573ecd4d8676476",
       "type": "assigned_reviewer_specification",
       "source": "sector-education",
@@ -55327,6 +56610,19 @@
       "target": "task-WP-002",
       "status": "planned",
       "source_ids": [],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-0400b431ca72b849834f",
+      "type": "cites",
+      "source": "SC-20261030-TDMT-GATE",
+      "target": "SC-20261030-SRC-TDMT-POLICY",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-TDMT-POLICY"
+      ],
       "properties": {
         "visibility": "public"
       }
@@ -56636,6 +57932,19 @@
       }
     },
     {
+      "id": "edge-0d2d29edf01e71af72f5",
+      "type": "cites",
+      "source": "SC-20261030-UPSTREAM-LOT-GAP",
+      "target": "SC-20261030-SRC-SCM-S06",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S06"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-0d48d3c2079d26331147",
       "type": "uses_discovery_bibliography",
       "source": "sector-healthcare-dme",
@@ -57067,6 +58376,19 @@
       }
     },
     {
+      "id": "edge-1066fbe0a3fd57867e97",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCB-S01",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S01"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-10892148b23145b88200",
       "type": "catalogues_source",
       "source": "bibliography-cross_sector",
@@ -57100,6 +58422,19 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-PC-METHOD-S02"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-116c36ff1a6c0adf5f91",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW"
       ],
       "properties": {
         "visibility": "public"
@@ -57305,6 +58640,19 @@
       "status": "documented_fact",
       "source_ids": [
         "DME-SRC-CT-S016"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-12b3f23510aee5ef02c3",
+      "type": "cites",
+      "source": "SC-20261030-HISTORICAL-ROUTES",
+      "target": "SC-20261030-SRC-HISTORY-RECEIPT",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-HISTORY-RECEIPT"
       ],
       "properties": {
         "visibility": "public"
@@ -58147,6 +59495,19 @@
       }
     },
     {
+      "id": "edge-18795f6ab9ef5d3a27f6",
+      "type": "cites",
+      "source": "SC-20261030-SELECTION",
+      "target": "SC-20261030-SRC-SELECTION",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SELECTION"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-18d19fa6a252bc74cd81",
       "type": "cites",
       "source": "DME-ENTRY-CONTROL-2022-2023",
@@ -58446,6 +59807,19 @@
       }
     },
     {
+      "id": "edge-1b20469e460ae562debe",
+      "type": "cites",
+      "source": "SC-20261030-GAO-FRAUD-RANGE",
+      "target": "SC-20261030-SRC-GAO-FRAUD-RANGE",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-GAO-FRAUD-RANGE"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-1b26755a96e53c5515f1",
       "type": "cites",
       "source": "award-e81f9c40968a84e5905d650c",
@@ -58695,6 +60069,19 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-CUR-S01"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-1d4f1994c5be4e04a64d",
+      "type": "cites",
+      "source": "SC-20261030-RELEASE-LABEL",
+      "target": "SC-20261030-SRC-PUBLOG-3",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-3"
       ],
       "properties": {
         "visibility": "public"
@@ -59019,6 +60406,19 @@
       "status": "documented_fact",
       "source_ids": [
         "src-PROC-S027"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-20e1e9ca701f67254e90",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCB-S02",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S02"
       ],
       "properties": {
         "visibility": "public"
@@ -60352,6 +61752,19 @@
       }
     },
     {
+      "id": "edge-29f27e77d010b170e7f2",
+      "type": "cites",
+      "source": "SC-20261030-REVIEW",
+      "target": "SC-20261030-SRC-REVIEW",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-REVIEW"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-2a1d3bd932c7aaf67297",
       "type": "cites",
       "source": "FPP-OBLIGATION-CONT_AWD_36C79126K0111_3600_36C79123D0005_3600",
@@ -60922,6 +62335,19 @@
       }
     },
     {
+      "id": "edge-2db341bcdff10d969d2e",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCM-S03",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S03"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-2dbe3ca787af391b6c8d",
       "type": "includes_award",
       "source": "cohort-nih-grants",
@@ -61045,6 +62471,19 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-PC-METHOD-S02"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-2ea92d5587955af195b1",
+      "type": "cites",
+      "source": "SC-20261030-NATIVE-ARCHIVE",
+      "target": "SC-20261030-SRC-PUBLOG-2",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-2"
       ],
       "properties": {
         "visibility": "public"
@@ -61777,6 +63216,19 @@
       "status": "documented_fact",
       "source_ids": [
         "src-HC-S19"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-341508bad3d92791dcd6",
+      "type": "cites",
+      "source": "SC-20261030-TDMT-GATE",
+      "target": "SC-20261030-SRC-SCB-S02",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S02"
       ],
       "properties": {
         "visibility": "public"
@@ -62673,6 +64125,19 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-SRC-award-SPE4A625V208Q"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-3bb037977e40c6bfb032",
+      "type": "cites",
+      "source": "SC-20261030-CASE",
+      "target": "SC-20261030-SRC-SELECTION",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SELECTION"
       ],
       "properties": {
         "visibility": "public"
@@ -64464,6 +65929,19 @@
       }
     },
     {
+      "id": "edge-47ab6802f813eee980e9",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-TDMT-POLICY",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-TDMT-POLICY"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-47b257280b304db62395",
       "type": "mentions",
       "source": "PROC-C004",
@@ -65429,6 +66907,19 @@
       }
     },
     {
+      "id": "edge-4e03fbbd0c3e271c0836",
+      "type": "cites",
+      "source": "SC-20261030-NATIVE-ARCHIVE",
+      "target": "SC-20261030-SRC-PUBLOG-3",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-3"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-4e12b30027ea2a7bddb7",
       "type": "cites",
       "source": "BOLT-TRACE-20261030",
@@ -66015,6 +67506,32 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-SRC-BI-S-CAGE-7W108"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-520962d9766b9ddc9a58",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-PUBLOG-1",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-1"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-5261d5d00032cc5b4493",
+      "type": "cites",
+      "source": "SC-20261030-MF-PACK",
+      "target": "SC-20261030-SRC-SCM-S02",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S02"
       ],
       "properties": {
         "visibility": "public"
@@ -67061,6 +68578,19 @@
       }
     },
     {
+      "id": "edge-5986a7ca7dbf09c2ff82",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-PUBLOG-2",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-2"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-5996c1c6f4ba54744f06",
       "type": "awards",
       "source": "agency-075",
@@ -67183,6 +68713,19 @@
       "status": "documented_fact",
       "source_ids": [
         "src-R02"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-5ad5409e86ee110759e8",
+      "type": "cites",
+      "source": "SC-20261030-MF-PACK",
+      "target": "SC-20261030-SRC-SCM-S01",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S01"
       ],
       "properties": {
         "visibility": "public"
@@ -69917,6 +71460,19 @@
       }
     },
     {
+      "id": "edge-6ed8b2a057cfaf8f8f7b",
+      "type": "cites",
+      "source": "SC-20261030-NATIVE-ARCHIVE",
+      "target": "SC-20261030-SRC-PUBLOG-1",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-1"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-6ee09b3dad3296e65e38",
       "type": "cites",
       "source": "BOLT-INDEPENDENT-REVIEW",
@@ -70517,6 +72073,19 @@
       "status": "documented_fact",
       "source_ids": [
         "DME-SRC-FALS-S6"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-73768b124f899c32fe21",
+      "type": "cites",
+      "source": "SC-20261030-AWARD-RECORD",
+      "target": "SC-20261030-SRC-SCB-S04",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S04"
       ],
       "properties": {
         "visibility": "public"
@@ -72427,6 +73996,19 @@
       }
     },
     {
+      "id": "edge-80ecaf3aa5ff0ad53f3c",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-TDMT-SHELL",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-TDMT-SHELL"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-8100736b540509d9e7f6",
       "type": "cites",
       "source": "BOLT-BREV-F07",
@@ -73798,6 +75380,19 @@
       }
     },
     {
+      "id": "edge-89ceb3938656159108ee",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-PUBLOG-3",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-3"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-89d4344719dc1060bf91",
       "type": "cites",
       "source": "geo-us-TX",
@@ -73893,6 +75488,19 @@
       "status": "documented_fact",
       "source_ids": [
         "src-PROC-S004"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-8aa1b01b36638f6cd8b8",
+      "type": "cites",
+      "source": "SC-20261030-NATIONWIDE-OFFER",
+      "target": "SC-20261030-SRC-SCM-S03",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S03"
       ],
       "properties": {
         "visibility": "public"
@@ -74330,6 +75938,19 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-PC-METHOD-S02"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-8d891da75eba7d5766a8",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT"
       ],
       "properties": {
         "visibility": "public"
@@ -75194,6 +76815,19 @@
       "status": "documented_fact",
       "source_ids": [
         "src-live-nih-grants"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-93dcf305f9df065b3519",
+      "type": "cites",
+      "source": "SC-20261030-HISTORICAL-ROUTES",
+      "target": "SC-20261030-SRC-HISTORY-ALT-RECEIPT",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-HISTORY-ALT-RECEIPT"
       ],
       "properties": {
         "visibility": "public"
@@ -76218,6 +77852,19 @@
       }
     },
     {
+      "id": "edge-995eac01f065c23f9eac",
+      "type": "cites",
+      "source": "SC-20261030-HISTORICAL-ROUTES",
+      "target": "SC-20261030-SRC-SCB-S03",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S03"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-9965a67b992094083b8d",
       "type": "cites",
       "source": "DISC-20261030",
@@ -76420,6 +78067,19 @@
       "status": "documented_fact",
       "source_ids": [
         "src-R11"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-9b0ae9af09b3698006dd",
+      "type": "cites",
+      "source": "SC-20261030-SBA-POTENTIAL",
+      "target": "SC-20261030-SRC-SBA-POTENTIAL",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SBA-POTENTIAL"
       ],
       "properties": {
         "visibility": "public"
@@ -76749,6 +78409,19 @@
       "status": "documented_fact",
       "source_ids": [
         "identity-src-oig-leie-2026-09"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-9d9e515c910e02aaf741",
+      "type": "cites",
+      "source": "SC-20261030-ASME-BOUNDARY",
+      "target": "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SC-SPEC-ASME-PREVIEW"
       ],
       "properties": {
         "visibility": "public"
@@ -77662,6 +79335,19 @@
       }
     },
     {
+      "id": "edge-a358e2e5b3679a26175a",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCM-S01",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S01"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-a36596d07babb307fc80",
       "type": "cites",
       "source": "PA-ROLE-GRAPH",
@@ -78159,6 +79845,19 @@
       "status": "documented_fact",
       "source_ids": [
         "src-HC-S29"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-a6a35971a82b52cdba60",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCB-S04",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S04"
       ],
       "properties": {
         "visibility": "public"
@@ -78999,6 +80698,19 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-CUR-S01"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-acadd43e3ca4979942d0",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCM-S02",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S02"
       ],
       "properties": {
         "visibility": "public"
@@ -80230,6 +81942,19 @@
       "target": "task-WP-008",
       "status": "planned",
       "source_ids": [],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-b3fb70aa4a1d964b7d8e",
+      "type": "cites",
+      "source": "SC-20261030-TDMT-GATE",
+      "target": "SC-20261030-SRC-TDMT-SHELL",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-TDMT-SHELL"
+      ],
       "properties": {
         "visibility": "public"
       }
@@ -81628,6 +83353,19 @@
       }
     },
     {
+      "id": "edge-bedca6b83f606b32a536",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCM-S05",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S05"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-bf29a886902a5b84b2c5",
       "type": "place_of_performance",
       "source": "award-3e7c077d0dc2c5855769d691",
@@ -82586,6 +84324,19 @@
       }
     },
     {
+      "id": "edge-c5dce8010d5a009539e8",
+      "type": "cites",
+      "source": "SC-20261030-RFQ-RECORD",
+      "target": "SC-20261030-SRC-SCB-S02",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S02"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-c5fa1bdf5cf3eb2ce3fa",
       "type": "includes_award",
       "source": "cohort-medical-supplies",
@@ -82723,6 +84474,19 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-SRC-BI-S-PROFILE-0NFB8"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-c75944d794119c6449d8",
+      "type": "cites",
+      "source": "SC-20261030-NATIVE-ARCHIVE",
+      "target": "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-PUBLOG-CHANGE-RECEIPT"
       ],
       "properties": {
         "visibility": "public"
@@ -82929,6 +84693,19 @@
       "status": "documented_fact",
       "source_ids": [
         "PA-SRC-LATER-WAVES"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-c91567fd4040d4dc6509",
+      "type": "cites",
+      "source": "SC-20261030-UPSTREAM-LOT-GAP",
+      "target": "SC-20261030-SRC-SCM-S05",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCM-S05"
       ],
       "properties": {
         "visibility": "public"
@@ -84945,6 +86722,19 @@
       "status": "documented_fact",
       "source_ids": [
         "PA-SRC-SPEC-FOLLOWUP"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-d736cb9a2b519353e491",
+      "type": "cites",
+      "source": "SC-20261030-ASME-BOUNDARY",
+      "target": "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT"
       ],
       "properties": {
         "visibility": "public"
@@ -86986,6 +88776,19 @@
       }
     },
     {
+      "id": "edge-e5d21d5fe4bde204c98c",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SCB-S03",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S03"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-e5e039f5c8bb45db6db7",
       "type": "cites",
       "source": "BOLT-BREV-F10",
@@ -88479,6 +90282,19 @@
       }
     },
     {
+      "id": "edge-f3e77b4b01a05c9d36bd",
+      "type": "cites",
+      "source": "SC-20261030-COMPARISON-BOUNDARY",
+      "target": "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SC-SPEC-ASME-PRODUCT"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-f3f20dcabe689761d61a",
       "type": "cites",
       "source": "geo-us-IL",
@@ -89264,6 +91080,19 @@
       }
     },
     {
+      "id": "edge-f905b1dbc23531bd0a8f",
+      "type": "cites",
+      "source": "SC-20261030-GAO-IMPROPER",
+      "target": "SC-20261030-SRC-GAO-IMPROPER",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-GAO-IMPROPER"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
       "id": "edge-f9122dae1355e95e13fa",
       "type": "place_of_performance",
       "source": "award-2a33ae7921f476ff1097d509",
@@ -90026,6 +91855,19 @@
       "status": "documented_fact",
       "source_ids": [
         "BOLT-SRC-BI-S-PROFILE-7W108"
+      ],
+      "properties": {
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "edge-fdc8d83bac3519981dd5",
+      "type": "cites",
+      "source": "SC-20261030-H06",
+      "target": "SC-20261030-SRC-SCB-S01",
+      "status": "documented_fact",
+      "source_ids": [
+        "SC-20261030-SRC-SCB-S01"
       ],
       "properties": {
         "visibility": "public"

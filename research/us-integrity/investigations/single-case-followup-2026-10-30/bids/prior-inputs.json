@@ -1,0 +1,21 @@
+{
+  "input_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "artifacts": [
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/awards/observations.json",
+      "sha256": "90a2a69d999028899a86737857cac308e78633ab4963190e7c41b66550f7f22d"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/observations.json",
+      "sha256": "76c3978c4d9cff03bfcbbadc019fd27699761ef0b0833a8df3e065026f21b401"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/selected_manifest.json",
+      "sha256": "4cb576afaab6e73ec77b13c55f25b14c7946701033f2c21d94e5c2234e80a5eb"
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/claude-supplemental-assignment.json",
+      "sha256": "3a2a78d113598bd829fd99c6a3698722e9e8154f908c7a3b56f08b55f977eefd"
+    }
+  ]
+}

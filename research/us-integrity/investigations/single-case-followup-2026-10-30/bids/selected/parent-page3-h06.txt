@@ -1,0 +1,25 @@
+SOURCE: SPE4A626D61WS, page3, selected H06 clause. Original full PDF was acquired in the earlier investigation; this is new local selection, not a new source download.
+
+H06 Unilateral Simplified Indefinite-Delivery Contract (SIDC) (SEP 2021)
+
+ (1) The Government will award a unilateral SIDC resulting from this request for quote (RFQ) to the
+responsible offeror whose quote conforms to the terms and conditions in the (RFQ) and will be most
+advantageous to the Government, after considering price and other factors. This initial unilateral SIDC
+is referred to hereafter as the “basic SIDC”.
+
+ (2) Pricing of orders. The unit price for orders is based on the price for the quantity range that will
+cover the total quantity on the order, regardless of destination.
+
+ (3) Price evaluation will be based on the price quoted for the estimated annual demand in the schedule.
+
+ (4) Acceptable contractor performance on the initial task or delivery order creates the SIDC and
+constitutes agreement by the contractor to accept additional orders under the same terms and conditions
+specified in the basic SIDC. The guaranteed minimum quantity stated in the basic SIDC becomes applicable
+at this point.
+
+ (5) Once the guaranteed minimum quantity stated in the basic SIDC is met, the Government is under no
+obligation to place additional orders. The Government may place additional orders for the period of
+performance stated in the basic SIDC, effective from the award date of the basic SIDC. All additional
+orders will reference the basic SIDC, which documents the terms and conditions of the SIDC. The basic
+SIDC states the maximum value of each task or delivery orders under the SIDC. The maximum value of the
+SIDC will not exceed the SAT; or, for SIDCs using FAR subpart 13.5, the thresholds in 13.500(a).

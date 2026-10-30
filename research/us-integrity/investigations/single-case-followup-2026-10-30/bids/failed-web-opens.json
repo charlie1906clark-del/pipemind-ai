@@ -1,0 +1,17 @@
+{
+  "reads": [
+    {
+      "url": "https://www.dla.mil/Acquisition/Policy-and-Directives/eProcureme/",
+      "result": "HTTP403",
+      "search_ref": "turn278view0"
+    },
+    {
+      "url": "https://www.dla.mil/Information-Operations/EBS-Supplier-Resources/",
+      "result": "HTTP403",
+      "search_ref": "turn278view1"
+    }
+  ],
+  "read_count": 2,
+  "original_page_bytes_archived": false,
+  "scope": "Search service open outcomes, separate from urllib acquisition operations"
+}

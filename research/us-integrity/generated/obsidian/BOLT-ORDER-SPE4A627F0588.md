@@ -76,3 +76,4 @@ This note records supplied sources; it does not independently establish fraud.
 ## Backlinks
 
 - [[BOLT-PRICE-ACTUAL-BLOCKED]]: evaluates_ordered_line — documented_fact (BOLT-E-c44e23f022fb915dcceb)
+- [[SC-20261030-CASE]]: examines_documented_order — documented_fact (SC-20261030-E-f1644b064a44bd1472a4)

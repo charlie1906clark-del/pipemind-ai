@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "case_nsn": "5306016864912",
+  "selection_basis": "Investigability among retained leads, not calibrated fraud probability or a nationwide ranking",
+  "current_case_state": "unqualified_price_screen_pending_specific_records",
+  "decisions": [
+    {
+      "hypothesis": "A materially cheaper equivalent commercial item was available",
+      "status": "unresolved_screening_question",
+      "new_evidence": "Lower posted carton price and explicit pack quantity acquired; shared commercial reference identified",
+      "blocking_evidence": "Authoritative NSN/product and applicable technical-term match plus dated feasible supply",
+      "disconfirmation": "Different required grade, finish, revision or material condition closes this proposed retailer comparison"
+    },
+    {
+      "hypothesis": "Buyer knowingly selected a higher-priced offer improperly",
+      "status": "unsupported_by_acquired_records",
+      "new_evidence": "Original RFQ/award links and H06 governing rule, not actual bids or evaluation",
+      "blocking_evidence": "Actual competing quotes and documented evaluation/selection rationale",
+      "disconfirmation": "Equivalent bid was not feasible, or supported procurement terms and a valid decision explain selection"
+    },
+    {
+      "hypothesis": "A recurring concealed 12 percent arrangement exists",
+      "status": "no_case_specific_evidence_acquired",
+      "new_evidence": "No qualified repeated price pairs or personal-benefit records",
+      "blocking_evidence": "Independent comparable repeated purchases plus separately supported influence or benefit",
+      "disconfirmation": "The user-described rate is an example, not a target to fit the observations to"
+    },
+    {
+      "hypothesis": "The government already lost the apparent retail-price difference",
+      "status": "not_supported",
+      "new_evidence": "The retained current line is ordered value with a future delivery date; payment is unverified",
+      "blocking_evidence": "Qualified valuation and actual net payment, receipt, credits and remedy scope",
+      "disconfirmation": "Unpaid/cancelled/refunded obligations or legitimate term differences invalidate a cash-loss inference"
+    },
+    {
+      "hypothesis": "This is a previously unknown fraud case",
+      "status": "novelty_unverified_and_fraud_unestablished",
+      "new_evidence": "Two bounded exact-identifier searches returned procurement listings, not an acquired official case match",
+      "blocking_evidence": "No search can establish government ignorance; no fraud determination has been made",
+      "disconfirmation": "An existing disclosure or proceeding defeats a new-discovery description; absence of a search hit proves neither originality nor wrongdoing"
+    }
+  ],
+  "price_premium": null,
+  "buyer_benefit": null,
+  "fraud_probability": null,
+  "paid_loss": null,
+  "next_priority": "Exact releasable technical package or actual bid/evaluation record; do not repeat broad seller searches without a new discriminating source",
+  "source_reports": ["selection/REPORT.md", "market-terms/REPORT.md", "bids/REPORT.md", "spec/REPORT.md", "history/REPORT.md", "review/REPORT.md"]
+}

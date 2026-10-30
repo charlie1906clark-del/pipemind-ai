@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-30",
+  "scope": "Local source-reference, retained-input and exact arithmetic checks; independent source review separate",
+  "prior_input_pins_verified": 5,
+  "useful_source_records": 7,
+  "queries": 5,
+  "read_operations": 12,
+  "exact_full_carton_scenarios_checked": 4,
+  "counterfactual_residual_budget_scenarios_checked": 2,
+  "qualified_government_comparisons": 0,
+  "premium_loss_null_controls": "passed",
+  "local_report_links": "passed",
+  "external_actions": 0,
+  "original_webpage_bytes_retained": false,
+  "new_tests_added": 0,
+  "reason_no_new_test_suite": "Data/source follow-up only; Decimal calculations and source references checked directly. No changed executable implementation."
+}

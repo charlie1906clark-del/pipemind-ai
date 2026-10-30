@@ -4,8 +4,8 @@ Verified 30 October 2026 against the files in this branch. This record concerns 
 
 | Check | Result |
 |---|---|
-| Graph validator with public-export checks | Passed: 1,458 nodes, 3,662 edges, 424 source records |
-| Obsidian generation | 1,458 generated node notes plus a navigation note; all wiki links checked |
+| Graph validator with public-export checks | Passed: 1,500 nodes, 3,733 edges, 448 source records |
+| Obsidian generation | 1,500 generated node notes plus a navigation note; all wiki links checked |
 | Task definitions/import | 24 foundation work packages plus a separate 20-task price-agent plan |
 | Engine tests | 35 passed |
 | Public-source connector tests | 8 passed, offline |
@@ -30,7 +30,7 @@ Verified 30 October 2026 against the files in this branch. This record concerns 
 | National catheter comparator | Nine geography/service rows; suppression undercoverage quantified |
 | Independent calculation review | Nine aggregates, six decompositions, two cross-code checks and nine national reconciliations passed |
 | Revoked-enrollment acquisition | 8,620 main rows plus 94 companion NPI rows; counts, hashes, joins and date boundaries checked |
-| Investigation approval boundary | Four explicit dated extensions; 34 catheter, 69 discovery, 129 bolt and 156 price-agent input-artifact digests checked; no unlisted automatic ingestion |
+| Investigation approval boundary | Five explicit dated extensions; 34 catheter, 69 discovery, 129 bolt, 156 price-agent and 71 single-case input-artifact digests checked; no unlisted automatic ingestion |
 | Amazon/Amazon. public query control | 19 captured requests; 150/12 awards, all 12 overlapping; three UEIs and six P/C profiles independently reproduced |
 | Original DLA price source | Archived original PDF hash verified; seven history rows independently transcribed and replayed |
 | Price comparability | All 21 historical pairs remain blocked; newer original order has USD0.91/EA; three retailer candidates remain unqualified; no excess/loss calculation |
@@ -69,3 +69,13 @@ The new original DLA order has two distinct awarded lines totaling $615,816.57: 
 The independent review caught and repaired exhausted-attempt closeout, credential-bearing receipt URLs, redirect/relevance limits, and non-finite or negative source-price input issues. It also demonstrates that a repeated line-count premium can coexist with a negative aggregate price difference. The standalone tracer acquired no documents in its live DNS-failed trial; a tracer/runtime request-reservation bridge and external-model service are not implemented. Tests do not establish fraud-detection accuracy.
 
 Final clean Git-export verification passed all 223 tests, deterministic assembly, public validation, 1,459 note/wiki-link checks and a fresh replay of the four accepted result packets. The export excludes ignored current full PDFs and operational databases; the two earlier intentionally tracked primary PDFs remain. The canonical graph digest is `9ab2c7279ac86b3bbfaf555777fa2b2bc7e700e9cb331d1f8a357733b1b1d43d`; the formatted graph file SHA256 is `b287df79d4541044c9cc85091a19f2f064a23d1eb745af4a03ff3c39ccb83de8`. These hash scopes are distinct.
+
+## Single common-bolt continuation
+
+The [single-case validation](investigations/single-case-followup-2026-10-30/VALIDATION.json) records the successor to commit9238fe6743be83e731cfb40f6481a096bc7208ca. Independent source review pins70artifacts; the new projection pins71. Four full-carton and two explicitly counterfactual calculations reproduce with exact fractions, and six market/interpretation plus two storage-path negative controls pass. These checks do not authenticate product equivalence or prove misconduct.
+
+The extension adds42nodes,27explicit relationships and24sources. Assembly adds44source relationships, yielding1,500nodes,3,733relationships and448sources. All prior1,458nodes,3,662semantic relationships andfour extension files remain unchanged. No new actual-money measure, paid loss, fraud probability or person allegation is introduced. The prior151producer-review pins also remain intact.
+
+The exact technical route was found but returned an application shell. Neither a schema export nor a successful HTTP response supplies the target NIIN specification. Two original public RFQ/award records and a lower advertised carton price advance the bounded evidence, while zero qualified comparators, actual competing quotes, price-decision memoranda or personal-benefit records were acquired. The appropriate case status remains an unqualified price-screening question. Earlier sections retain their historical verification counts and snapshot digests; the latest canonical output is identified in generated/manifest.json.
+
+The single-case clean export passed all223unit tests, the separate source/arithmetic verifier, public graph validation, deterministic assembly and all1,501note/wiki-link checks. The final canonical serialization digest is `551504520976f5a85d236b55c8f4cb67145482085b76d02c2dd5f9d1a6cb0e13`; the formatted JSON file SHA256 is `3bc73040af520c30884113aadd8e35ca6e46357c784f188899276bf1a9972542`. Exact source selections retain their original whitespace; authored-file checks pass.

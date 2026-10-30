@@ -247,4 +247,4 @@ This note records supplied sources; it does not independently establish fraud.
 
 ## Backlinks
 
-None recorded.
+- [[SC-20261030-CASE]]: follows_existing_case — documented_fact (SC-20261030-E-bf049520b10939dbea9f)

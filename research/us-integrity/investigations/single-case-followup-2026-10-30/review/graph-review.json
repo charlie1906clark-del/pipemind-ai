@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "review_id": "SC-GRAPH-REVIEW-20261030-01",
+  "reviewed_on": "2026-10-30",
+  "reviewer": "single_case_challenge",
+  "decision": "accepted_for_public_graph",
+  "scope": "Exact42-node single-case projection only; canonical approval, automatic source-link assembly, full regression and publication remain coordinator actions. Not certification of fair pricing or fraud.",
+  "checks": {
+    "schema_version": "1.0",
+    "checked_on": "2026-10-30",
+    "status": "accepted_for_exact_public_projection",
+    "graph_extension_sha256": "dc6d0bb0ce2d2b764c3d8331c577cc8a0a9687c27338680fc4b92de1819796ed",
+    "baseline_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+    "input_pins_verified": 71,
+    "producer_review_pins_verified": 70,
+    "extension_nodes": 42,
+    "extension_explicit_edges": 27,
+    "extension_sources": 24,
+    "combined_before_assembly_source_links": {
+      "nodes": 1500,
+      "edges": 3689,
+      "sources": 448
+    },
+    "prior_id_collisions": 0,
+    "new_actual_money_measures": 0,
+    "counterfactual_residuals_exported": false,
+    "source_snapshot_hashes": "passed",
+    "semantic_mappings": "passed",
+    "standalone_scope": "Extension intentionally has links to committed baseline nodes; public validation uses the combined graph.",
+    "omitted_direct_pin": [
+      {
+        "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/REPORT.md",
+        "reason": "Avoid graph/review or root-summary validation cycle"
+      }
+    ],
+    "omission_check": "The root case overview is excluded from direct extension inputs but remains pinned and verified through the producer review; it must not be treated as freely mutable.",
+    "network_requests": 0,
+    "canonical_approval_or_assembly_performed": false
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/graph-extension.json",
+      "sha256": "dc6d0bb0ce2d2b764c3d8331c577cc8a0a9687c27338680fc4b92de1819796ed",
+      "bytes": 61834
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/build_graph_extension.py",
+      "sha256": "8001ce6d2bd6977195b13706b558c0637b663e7029d6fef3f337c2afad20269f",
+      "bytes": 26566
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/review.json",
+      "sha256": "340a522f9c6d899672188d2499ee2980e05b15773732e978c77ce4e296f420ff",
+      "bytes": 21810
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/REPORT.md",
+      "sha256": "ad8c0edcf00129b5cc6ad35f09b8668a06a85ead44b1c2eeffc00b4516c7384a",
+      "bytes": 9197
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/verify_case.py",
+      "sha256": "78a0c689cfcfc6782bf5c13a88e19a85934f58f268fcd664dfedba08051c6a99",
+      "bytes": 8704
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/verification.json",
+      "sha256": "fb999c5141602ae0343a34bc32cfd59fa2777d0a93e2be3577da13987bb92425",
+      "bytes": 999
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/independent-rechecks.json",
+      "sha256": "a4243704cab401ce544c104886b084db0d74af69d175218b925d06a88ae984d4",
+      "bytes": 5836
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/verify_graph.py",
+      "sha256": "ad43ffc04d51aad43671d5ba9f9fcbb503a61dfefc952f34c70f9f915c203f95",
+      "bytes": 5814
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/graph-verification.json",
+      "sha256": "b2739ea66f27b3b70a0a0db7a5d35298cccdfe21b270f7a924a08f198b236802",
+      "bytes": 1321
+    }
+  ],
+  "decisions": [
+    {
+      "subject": "Case selection and national figures",
+      "decision": "accepted_limits_preserved",
+      "reason": "Investigability is not guilt ranking. The separate national estimate observations cannot be allocated to this order or added as actual loss."
+    },
+    {
+      "subject": "Commercial pricing and upstream chain",
+      "decision": "accepted_catalog_observations_only",
+      "reason": "Advertised1100carton/box and prices retain current-date,stock,terms andNSNlimits. Multiple shared3812CH8O pages do not authenticate upstream independence. Masterdistributor andCanada catalogorigin are not manufacturer/lotidentity or violation."
+    },
+    {
+      "subject": "Government record chain and clause",
+      "decision": "accepted_limited_document_observations",
+      "reason": "Exact RFQ/award identifiers and source links preserve EAD-versus-child-quantity rules. A paymentoffice is notcash; parentdisplayedamount remainsceiling; page-scopedmodificationlabel doesnotexcludechildorders."
+    },
+    {
+      "subject": "Technical access and historical failures",
+      "decision": "accepted_limits_preserved",
+      "reason": "Native schema/releaselabel are notanexactNIINrecord; TDMT200shell isnotdocumentacquisition. FailuretoacquirehistoricalPDFs isnotconcealment."
+    },
+    {
+      "subject": "Financial graph",
+      "decision": "accepted_no_new_actual_money_measure",
+      "reason": "No money_measure or money property, no hypothetical495.55/633.97residual exported, and premium/benefit/loss remainnull."
+    },
+    {
+      "subject": "Producer-review dependencies",
+      "decision": "accepted_with_explicit_direct-pin_omission",
+      "reason": "All71directpins and70producer-reviewpinsverified. Rootoverviewomittedfromdirectextensionpins isstillboundthroughreview.json andmustnotchangewithoutreview."
+    }
+  ],
+  "review_history": [
+    {
+      "attempt": "Standalone extension schema check",
+      "result": "Rejected dangling endpoints because extension deliberately links prior committed nodes",
+      "classification": "Review invocation scope error, not an invalid combined graph",
+      "resolution": "Validated exact baseline plus candidate; all external endpoints resolve and no IDs collide."
+    }
+  ],
+  "known_limits": [
+    "New observations do not establish technical equivalence, historical feasible marketprice, actual bids, cash payment or personalbenefit.",
+    "Source hashes authenticate retainedbytes, not truth/completeness or an independentlyauthenticatedactor.",
+    "Prior root case overview remains hashpinned even though direct extensioninput omitsit.",
+    "No futureacquisition, externalmodeldeployment or fraudclaim is approved by this receipt."
+  ],
+  "pending_coordinator_steps": [
+    "Bind this exact extension digest and review receipt in approved-investigations.json.",
+    "Assemble and validate canonical graph/Obsidian; preserve prior nodes and semanticrelationships.",
+    "Run final public-export consistency checks and recordactual totals."
+  ],
+  "blockers": []
+}

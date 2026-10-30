@@ -1,0 +1,143 @@
+{
+  "baseline_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "new_review_pins_verified": 70,
+  "previous_price_agent_review_pins_verified": 151,
+  "previous_nodes_preserved": 1458,
+  "previous_semantic_relationships_preserved": 3662,
+  "previous_extensions_unchanged": 4,
+  "new_extension_input_pins_verified": 71,
+  "new_extension_actual_money_measures": 0,
+  "case_specific_verifier": "passed",
+  "case_specific_negative_controls_rejected": 6,
+  "qualified_comparators": 0,
+  "new_fraud_established": false,
+  "graph_nodes": 1500,
+  "graph_edges": 3733,
+  "graph_sources": 448,
+  "formatted_graph_file_sha256": "3bc73040af520c30884113aadd8e35ca6e46357c784f188899276bf1a9972542",
+  "canonical_graph_sha256": "551504520976f5a85d236b55c8f4cb67145482085b76d02c2dd5f9d1a6cb0e13",
+  "new_network_requests": 0,
+  "as_of": "2026-10-30",
+  "validation_scope": "Selected public observations, exact arithmetic and source/graph preservation; not a forensic determination",
+  "new_extension": {
+    "nodes": 42,
+    "explicit_edges": 27,
+    "sources": 24,
+    "input_pins": 71,
+    "sha256": "dc6d0bb0ce2d2b764c3d8331c577cc8a0a9687c27338680fc4b92de1819796ed"
+  },
+  "independent_producer_review": {
+    "path": "review/review.json",
+    "sha256": "340a522f9c6d899672188d2499ee2980e05b15773732e978c77ce4e296f420ff"
+  },
+  "independent_projection_review": {
+    "path": "review/graph-review.json",
+    "sha256": "94730afe32b83a962e77ed6c596144fb07a7bb1eef8e0713b5241ccc63c19a8e"
+  },
+  "clean_public_export": "passed",
+  "clean_export_tested_tree": "993e49c8d65785726ca4a25a18cc47848a1d34f6",
+  "export_scope": "Reviewed code, source selections and graph exported from staged Git tree; final validation receipt is written after checks. Ignored complete current PDFs, raw HTML, credentials and operational databases are not required by the public verifier.",
+  "unit_tests_passed": 223,
+  "test_groups": [
+    {
+      "path": "research/us-integrity/collaboration",
+      "tests": 17,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/connectors",
+      "tests": 8,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/engine",
+      "tests": 35,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30",
+      "tests": 11,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names",
+      "tests": 16,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing",
+      "tests": 6,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/awards",
+      "tests": 7,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/identity",
+      "tests": 4,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls",
+      "tests": 12,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/review",
+      "tests": 7,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dme-catheter-2026-10-29/data-audit",
+      "tests": 6,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+      "tests": 11,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis",
+      "tests": 12,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/price-agents/review",
+      "tests": 9,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime",
+      "tests": 21,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing",
+      "tests": 16,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/tools",
+      "tests": 25,
+      "exit_code": 0
+    }
+  ],
+  "deterministic_reassembly": true,
+  "public_graph_validation": "passed",
+  "wiki_links": "passed",
+  "vault_notes_including_navigation": 1501,
+  "case_specific_exact_fraction_checks": {
+    "carton_scenarios": 4,
+    "counterfactual_allowances": 2
+  },
+  "case_specific_negative_controls": {
+    "market_interpretation": 6,
+    "historical_output_guard": 2
+  },
+  "projection_verifier": "passed",
+  "source_whitespace": "Two hash-pinned selected government source-text files preserve trailing whitespace/newline exactly; authored-file whitespace checks pass when those source selections are excluded.",
+  "changed_markdown_relative_links": "passed"
+}

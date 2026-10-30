@@ -1,0 +1,26 @@
+{
+  "base_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "scope": "Previously committed retained inputs, no new acquisition implied",
+  "artifacts": [
+    {
+      "path": "investigations/dla-bolt-trace-2026-10-30/current/snapshots/parent-page5.txt",
+      "sha256": "e551d347f7dc7abe51e52351b6ea4dbaa70d97c88ebbeeb447e71f42aa26d9dd"
+    },
+    {
+      "path": "investigations/dla-bolt-trace-2026-10-30/market/spec-crosswalk.json",
+      "sha256": "eac94abc0f42f7c07766d650a282dd7a45972e99f97c03e705fcac45805cd81c"
+    },
+    {
+      "path": "investigations/dla-bolt-trace-2026-10-30/specification/archive-directory.json",
+      "sha256": "42652d47b841d5babe39bb6f4982e1a304c7328852098e7d53e436882d813114"
+    },
+    {
+      "path": "investigations/bolt-spec-followup-2026-10-30/export-packet.json",
+      "sha256": "631bc01edb433c7b47d7a23804aefc1240cb392bc18b415fe056658ad0289fcf"
+    },
+    {
+      "path": "investigations/bolt-spec-followup-2026-10-30/REPORT.md",
+      "sha256": "075b209ec95c40d2dbbee8916d2c83fdc6099f8fb8658591c024d05c86fb4159"
+    }
+  ]
+}

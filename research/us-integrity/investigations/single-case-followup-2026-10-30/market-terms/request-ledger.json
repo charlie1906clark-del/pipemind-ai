@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-30",
+  "search_queries": [
+    {
+      "sequence": 1,
+      "engine": "system2",
+      "query": "\"3812CH8O\" Kanebridge"
+    },
+    {
+      "sequence": 2,
+      "engine": "system2",
+      "query": "\"3812CH8O\" \"1100\""
+    },
+    {
+      "sequence": 3,
+      "engine": "system2",
+      "query": "site:mfsupply.com \"HH38FX3/4G8ZY\""
+    },
+    {
+      "sequence": 4,
+      "engine": "system1",
+      "query": "site:kanebridge.com \"3812CH8O\""
+    },
+    {
+      "sequence": 5,
+      "engine": "system1",
+      "query": "site:kanebridge.com grade 8 zinc yellow hex cap screws technical specifications"
+    }
+  ],
+  "read_operations": [
+    {
+      "sequence": 1,
+      "operation": "open",
+      "source_or_url": "SCM-S01",
+      "web_ref": "turn285view0",
+      "outcome": "usable_product_index"
+    },
+    {
+      "sequence": 2,
+      "operation": "open",
+      "source_or_url": "SCM-S03",
+      "web_ref": "turn285view1",
+      "outcome": "usable_catalog"
+    },
+    {
+      "sequence": 3,
+      "operation": "open",
+      "source_or_url": "SCM-S02",
+      "web_ref": "turn285view2",
+      "outcome": "usable_catalog_redirect"
+    },
+    {
+      "sequence": 4,
+      "operation": "find",
+      "source_or_url": "SCM-S01",
+      "web_ref": "turn286view2",
+      "outcome": "exact_sku_pack_entry"
+    },
+    {
+      "sequence": 5,
+      "operation": "find",
+      "source_or_url": "SCM-S03",
+      "web_ref": "turn286view3",
+      "outcome": "exact_catalog_prices"
+    },
+    {
+      "sequence": 6,
+      "operation": "open",
+      "source_or_url": "SCM-S04",
+      "web_ref": "turn286view0",
+      "outcome": "usable_service_description"
+    },
+    {
+      "sequence": 7,
+      "operation": "open",
+      "source_or_url": "https://www.kanebridge.com/faq",
+      "web_ref": "turn286view1",
+      "outcome": "no_readable_lines"
+    },
+    {
+      "sequence": 8,
+      "operation": "click",
+      "source_or_url": "SCM-S05",
+      "web_ref": "turn287view1",
+      "outcome": "public_product_listing_no_login"
+    },
+    {
+      "sequence": 9,
+      "operation": "click",
+      "source_or_url": "https://legacy.kanebridge.com/services/labels.asp",
+      "web_ref": "turn287view2",
+      "outcome": "page_metadata_only_not_used"
+    },
+    {
+      "sequence": 10,
+      "operation": "open",
+      "source_or_url": "SCM-S06",
+      "web_ref": "turn287view0",
+      "outcome": "usable_generic_linecard"
+    },
+    {
+      "sequence": 11,
+      "operation": "open",
+      "source_or_url": "https://legacy.kanebridge.com/services/labels.asp",
+      "web_ref": "turn288view0",
+      "outcome": "403_failed_no_retry"
+    },
+    {
+      "sequence": 12,
+      "operation": "open",
+      "source_or_url": "SCM-S07",
+      "web_ref": "turn288view1",
+      "outcome": "usable_public_access_route_description"
+    }
+  ],
+  "bounds": {
+    "search_queries_used": 5,
+    "search_query_limit": 8,
+    "read_operations_used": 12,
+    "read_operation_limit": 12,
+    "remote_fetch_open_click_operations": 10,
+    "in_document_find_operations": 2,
+    "usable_unique_sources": 7
+  },
+  "actions": {
+    "contact_messages": 0,
+    "quote_requests": 0,
+    "account_or_login_attempts": 0,
+    "orders": 0
+  },
+  "page_template_note": "Nationwide parsed HTML contains a generic thank-you message and quote forms. No form was submitted; template text is not an action receipt."
+}

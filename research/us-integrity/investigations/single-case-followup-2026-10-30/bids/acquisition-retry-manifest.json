@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "id": "current-rfq",
+      "source_url": "https://www.dibbs.bsm.dla.mil/rfq/rfqrec.aspx?sn=spe4a626u3619",
+      "url_lineage": "Exact observed RFQ-record link in indexed source; ordinary notice route",
+      "observed_at": "2026-10-30T13:19:05.326602+00:00",
+      "operations": [
+        {
+          "method": "GET",
+          "status": 200,
+          "final_url": "https://www.dibbs.bsm.dla.mil/dodwarning.aspx?goto=/rfq/rfqrec.aspx?sn=spe4a626u3619",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "method": "POST ordinary public notice consent",
+          "status": 200,
+          "final_url": "https://www.dibbs.bsm.dla.mil//rfq/rfqrec.aspx?sn=spe4a626u3619",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ],
+      "max_operations": 2,
+      "hidden_form_values_retained": false,
+      "original_body_archived_publicly": false,
+      "outcome": "html_acquired",
+      "original_sha256": "92878d763954c0003f3d3b452c79700eb9a5b671f8fe9c82321fc3eeaaf6f0e6",
+      "original_bytes": 53069,
+      "scratch_filename": "current-rfq.html"
+    },
+    {
+      "id": "SPE4A625V4508",
+      "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/04DEC24/SPE4A625V4508.PDF",
+      "url_lineage": "Date-derived candidate using verified award date and previously observed DIBBS archive format; not an attached link",
+      "observed_at": "2026-10-30T13:19:24.262464+00:00",
+      "operations": [
+        {
+          "method": "GET",
+          "status": 200,
+          "final_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/04DEC24/SPE4A625V4508.PDF",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "method": "POST ordinary public notice consent",
+          "outcome": "failed",
+          "error": "TimeoutError: timed out"
+        }
+      ],
+      "max_operations": 2,
+      "hidden_form_values_retained": false,
+      "original_body_archived_publicly": false,
+      "outcome": "failed_no_retry",
+      "error": "TimeoutError: timed out"
+    },
+    {
+      "id": "SPE4A626V138W",
+      "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/26MAY26/SPE4A626V138W.PDF",
+      "url_lineage": "Date-derived candidate using verified award date and previously observed DIBBS archive format; not an attached link",
+      "observed_at": "2026-10-30T13:19:59.363678+00:00",
+      "operations": [
+        {
+          "method": "GET",
+          "status": 200,
+          "final_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/26MAY26/SPE4A626V138W.PDF",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "method": "POST ordinary public notice consent",
+          "status": 200,
+          "final_url": "https://dibbs2.bsm.dla.mil/dodwarning.aspx?goto=%2fdownloads%2fawards%2f26may26%2fspe4a626v138w.pdf",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ],
+      "max_operations": 2,
+      "hidden_form_values_retained": false,
+      "original_body_archived_publicly": false,
+      "outcome": "html_acquired",
+      "original_sha256": "2d4356eddeafa040123aad0955168da4dc820d34234ac154417e6d3cd28fae49",
+      "original_bytes": 5579,
+      "scratch_filename": "SPE4A626V138W.html"
+    }
+  ],
+  "operation_count": 6,
+  "counter_scope": "urllib opener operations; redirects may issue additional HTTP requests; no hidden form values retained"
+}

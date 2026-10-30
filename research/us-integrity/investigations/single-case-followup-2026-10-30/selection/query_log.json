@@ -1,0 +1,61 @@
+{
+  "as_of": "2026-10-30",
+  "budget": {
+    "maximum_queries": 8,
+    "maximum_page_opens": 8
+  },
+  "actual": {
+    "queries": 5,
+    "page_opens": 7,
+    "web_tool_calls": 4
+  },
+  "queries": [
+    {
+      "query": "site.gao.gov 2026 improper payments 186 billion fiscal year 2025",
+      "engine": "system1",
+      "recency_days": 365,
+      "purpose": "Disambiguate national estimate and contemporary official context"
+    },
+    {
+      "query": "site.sba.gov oig 200 billion potentially fraudulent pandemic loans 2023",
+      "engine": "system1",
+      "recency_days": null,
+      "purpose": "Disambiguate national estimate and contemporary official context"
+    },
+    {
+      "query": "site.gao.gov \"233 billion\" \"521 billion\" fraud estimate 2024",
+      "engine": "system1",
+      "recency_days": 1200,
+      "purpose": "Disambiguate national estimate and contemporary official context"
+    },
+    {
+      "query": "site.gao.gov \"Payment Integrity\" \"186 Billion\" \"2025\"",
+      "engine": "system1",
+      "recency_days": 365,
+      "purpose": "Disambiguate national estimate and contemporary official context"
+    },
+    {
+      "query": "site.sba.gov \"200 billion\" \"2026\" \"fraud\"",
+      "engine": "system1",
+      "recency_days": 365,
+      "purpose": "Disambiguate national estimate and contemporary official context"
+    }
+  ],
+  "opened_urls": [
+    "https://legacy.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape",
+    "https://legacy.sba.gov/document/report-25-10-covid-19-pandemic-eidl-ppp-loan-fraud-landscape-recommendations-update",
+    "https://www.gao.gov/products/gao-26-108694",
+    "https://www.gao.gov/products/gao-24-105833",
+    "https://www.gao.gov/products/gao-25-107267",
+    "https://legacy.sba.gov/article/2026/10/27/sba-asks-public-report-suspected-pandemic-era-fraud-through-doj-whistleblower-portal",
+    "https://legacy.sba.gov/article/2026/09/23/sba-referral-leads-irs-investigate-tax-liabilities-related-potentially-100-billion-covid-loan-fraud"
+  ],
+  "latest_sba_url_lineage": "Two 2026 SBA URLs supplied by root from its independent primary-source search, then independently opened in this lane.",
+  "not_performed": [
+    "No nationwide named-fraud ranking",
+    "No source contacts",
+    "No formal submission",
+    "No model provider dispatch",
+    "No raw webpage archive"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "case_nsn": "5306016864912",
+  "data_origin": "public",
+  "actual_worker": "single_case_bids",
+  "external_model_execution": false,
+  "input_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "findings": [
+    {
+      "id": "SCB-OBS-01",
+      "source_ids": [
+        "SCB-S01"
+      ],
+      "status": "documented_contract_term",
+      "fact": "Parent H06 evaluates price against quoted estimated annual demand, while individual order price follows the quantity range covering that order. Award language considers price and other factors.",
+      "limit": "A rule governing evaluation does not show actual submitted bids, reviewer decisions, compliance or whether the rule was followed."
+    },
+    {
+      "id": "SCB-OBS-02",
+      "source_ids": [
+        "SCB-S02"
+      ],
+      "status": "documented_public_record",
+      "fact": "Original RFQ record explicitly links NSN5306016864912, PR1000241595, solicitationSPE4A626U3619 and awardSPE4A626D61WS, with a separate exact TDMT technical-document route.",
+      "limit": "RFQ quantity2221 is not a purchased or paid quantity. No Attachments label is separate from the Tech Docs route."
+    },
+    {
+      "id": "SCB-OBS-03",
+      "source_ids": [
+        "SCB-S04"
+      ],
+      "status": "documented_public_record",
+      "fact": "Original award record supplies office codes, a parent-PDF link and a displayed Modifications:None status.",
+      "limit": "Payment office code is not actual payment. Public displayed350000 amount remains contract ceiling under the primary instrument; modification absence is limited to this page."
+    },
+    {
+      "id": "SCB-OBS-04",
+      "source_ids": [
+        "SCB-S03"
+      ],
+      "status": "acquisition_failure_observation",
+      "fact": "Date-derived latest historical award PDF route returned a file-not-found page after retry.",
+      "limit": "A failed archive location does not establish that the original award record is absent or concealed."
+    }
+  ],
+  "actual_competing_quotes_acquired": 0,
+  "bid_abstracts_acquired": 0,
+  "decision_memoranda_acquired": 0,
+  "new_original_historical_award_pdfs_acquired": 0,
+  "new_public_transaction_html_records_acquired": 2,
+  "new_fraud_established": false,
+  "buyer_benefit": null,
+  "price_premium": null,
+  "next_record": "Actual quote abstract/evaluation and price-reasonableness determination for SPE4A626U3619, or any released original bidder quote and documented selection rationale; no external request submitted",
+  "ordinary_alternatives": [
+    "Public procurement pages can omit internal evaluations and losing bidders without misconduct.",
+    "Quantity-based pricing, documented supply terms and ordinary distributor costs may explain differences; no matched benchmark yet exists.",
+    "A contracting process can be automated or use price and other factors without an individual taking a benefit."
+  ],
+  "unresolved": [
+    "Competing bidder identities and their quoted prices.",
+    "Whether any rejected quote was equivalent and feasible.",
+    "Actual evaluator/approver decisions and dated authority.",
+    "Actual supplier invoices, receiving, cash and personal-benefit nexus."
+  ]
+}
