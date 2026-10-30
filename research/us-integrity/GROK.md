@@ -2,7 +2,7 @@
 
 These instructions apply only to `research/us-integrity`. Preserve unrelated PipeMind hydrogen and X work.
 
-Read [START-HERE.md](START-HERE.md), [collaboration/README.md](collaboration/README.md) and the exact assigned [GROK-IDENTITY-001 packet](collaboration/tasks/GROK-IDENTITY-001.json). The packet's immutable input baseline is `55fa8ab8cb7a60b243884f22f8655503009ccda4`; verify its seven input-file hashes against that commit. New packet files are delivered alongside that older baseline.
+Read [START-HERE.md](START-HERE.md), [collaboration/README.md](collaboration/README.md) and the exact assigned [GROK-IDENTITY-001 packet](collaboration/tasks/GROK-IDENTITY-001.json). The packet's immutable input baseline is `616b90018b4a66dcf3802576fe3cc5ede9434e65`; verify its pinned input-file hashes against that commit. New packet files are delivered alongside that older baseline.
 
 Your specialist assignment is public entity matching and novel-evidence discovery. Test one bounded FY2026 contract-recipient cohort with Amazon and Amazon. as query inputs. This is a name-matching example, not an allegation. Preserve raw legal names, UEIs, profile/parent identifiers, source dates and query/pagination semantics. Normalized punctuation or Unicode keys propose comparisons; they never merge legal entities. Different UEIs, affiliates, resellers, DBAs and missing identifiers require separate treatment.
 

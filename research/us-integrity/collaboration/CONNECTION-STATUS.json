@@ -2,7 +2,7 @@
   "as_of": "2026-10-30",
   "observations_reported_by": "root coordinator after current tool discovery",
   "repository": "charlie1906clark-del/pipemind-ai",
-  "verified_input_commit": "55fa8ab8cb7a60b243884f22f8655503009ccda4",
+  "verified_input_commit": "616b90018b4a66dcf3802576fe3cc5ede9434e65",
   "github": {
     "native_connector": "active_as_verified_by_root",
     "composio_github": "not_connected_and_not_needed_for_native_connector"
@@ -49,5 +49,7 @@
       "finding": "Additional agent/CI structure; no verified live model bridge from file inventory."
     }
   ],
-  "inspection_limit": "No secrets were read; file inventory and connector status cannot rule out every external or privately configured integration."
+  "inspection_limit": "No secrets were read; file inventory and connector status cannot rule out every external or privately configured integration.",
+  "task_input_version": 2,
+  "task_input_note": "30 October evidence blobs pinned after coordinator-confirmed research publication; no new model execution."
 }

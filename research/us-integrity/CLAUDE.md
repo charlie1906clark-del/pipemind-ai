@@ -2,7 +2,7 @@
 
 These instructions apply only to `research/us-integrity`. Preserve unrelated PipeMind hydrogen and X work.
 
-Read [START-HERE.md](START-HERE.md), [collaboration/README.md](collaboration/README.md) and the exact assigned [CLAUDE-PRICE-001 packet](collaboration/tasks/CLAUDE-PRICE-001.json). The packet's immutable input baseline is `55fa8ab8cb7a60b243884f22f8655503009ccda4`; its seven source-file hashes must be checked against that commit. New packet files are delivered separately from the older baseline.
+Read [START-HERE.md](START-HERE.md), [collaboration/README.md](collaboration/README.md) and the exact assigned [CLAUDE-PRICE-001 packet](collaboration/tasks/CLAUDE-PRICE-001.json). The packet's immutable input baseline is `616b90018b4a66dcf3802576fe3cc5ede9434e65`; its pinned source-file hashes must be checked against that commit. New packet files are delivered separately from the older baseline.
 
 Your specialist assignment is procurement price comparability and defective-pricing evidence. Work on one simple consumable/fastener NSN or exact part/revision. Inspect original public documents. Separate ceilings, obligations, line quantities, units, actual unit prices, warranties, testing/engineering, delivery and dates. A high price or a price difference is not itself fraud. Do not use a ceiling divided by estimated demand as an actual unit rate.
 

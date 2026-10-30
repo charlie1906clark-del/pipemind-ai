@@ -24,9 +24,9 @@ Each packet permits one finite research result, at most 12 public search request
 ## Manual handoff that can be used now
 
 1. Open the intended existing Claude or Grok session. Supply the repository branch/commit containing this packet and the relevant entrypoint: [`CLAUDE.md`](../CLAUDE.md) or [`GROK.md`](../GROK.md).
-2. Supply the exact task JSON. Its research inputs are pinned to baseline commit `55fa8ab8cb7a60b243884f22f8655503009ccda4`. The task packet is created later; it is delivered alongside that baseline. Do not pretend the new task file existed at the baseline commit.
+2. Supply the exact task JSON. Its research inputs are pinned to baseline commit `616b90018b4a66dcf3802576fe3cc5ede9434e65`. The task packet is created later; it is delivered alongside that baseline. Do not pretend the new task file existed at the baseline commit.
 3. Assign the task through one coordinator and record its task-specification digest. Read `QUEUE.json` as a dispatch record, not a distributed lock. Use the proposed task-specific branch only after checking it does not already contain someone else's work. No shared-branch overwrites or force pushes.
-4. Read the seven pinned input files from that exact baseline. Their byte hashes are included in the task. New public sources are allowed within the budget, but their dates, queries, coverage and limitations must be captured in the returned result.
+4. Read the pinned input files from that exact baseline. Their byte hashes are included in the task. New public sources are allowed within the budget, but their dates, queries, coverage and limitations must be captured in the returned result.
 5. Return the JSON result described in [RESULT-CONTRACT.md](RESULT-CONTRACT.md), with the actual model and session identifier. The research result starts as `submitted`, awaiting independent review. A null result or a disproved hypothesis is valid.
 6. The coordinator validates the result, obtains a separate review and then decides whether to add findings to the public graph. A model response is not an authoritative source and a successful schema check is not a fraud finding.
 
