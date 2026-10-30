@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "task_id": "GROK-IDENTITY-001",
+  "task_version": 2,
+  "created_at": "2026-10-30",
+  "repository": "charlie1906clark-del/pipemind-ai",
+  "input_commit": "616b90018b4a66dcf3802576fe3cc5ede9434e65",
+  "assigned_provider": "xai",
+  "assigned_product": "Grok",
+  "question": "Independently reproduce and challenge the 30 October Amazon/Amazon. public-recipient audit and its novelty limits, then follow one unresolved identifier or query-semantics edge using primary evidence.",
+  "execution_mode_options": [
+    "manual_repo_handoff",
+    "authorized_model_api"
+  ],
+  "provider_model": "record_actual_model_on_execution",
+  "resource_budget": {
+    "public_search_requests_max": 12,
+    "public_document_or_api_reads_max": 20,
+    "model_calls_max": 1,
+    "new_api_spend_authorized_by_this_packet": false,
+    "boundaries": "One finite research result; return partial coverage and access failures honestly.",
+    "boundary_detail": "The external search/read budget applies to new retrieval, not local verification of pinned input blobs. Inspect summaries first and reproduce scripts locally; do not paste all raw captures into a model prompt."
+  },
+  "read_only_research": true,
+  "external_contact_or_submission": false,
+  "publication_scope": "Public methods, neutral public observations and already published case facts. No new named adverse allegations.",
+  "input_files": [
+    {
+      "path": "research/us-integrity/OWNERSHIP-AND-COMMERCE.md",
+      "sha256": "35da67617074f94cb0db716580da74779bbdc4a9daf1c0413e097ca5e77a3743"
+    },
+    {
+      "path": "research/us-integrity/START-HERE.md",
+      "sha256": "c260bee3e5c673a7bc93f241711e2ab3b0e788228dc527ec21f1bdcb0b0427d6"
+    },
+    {
+      "path": "research/us-integrity/agents/agent-entity-resolution.md",
+      "sha256": "2fff1a9bb446568968e337ab35dd6a9bc763728dba15d715acba46257d1b6d56"
+    },
+    {
+      "path": "research/us-integrity/architecture/MULTI-AGENT-PROTOCOL.md",
+      "sha256": "e47409900d67fa1b7010d79d5b59c836339c9a2b475ae57dc678ccb33b11f22d"
+    },
+    {
+      "path": "research/us-integrity/connectors/README.md",
+      "sha256": "c7c317e5ba9970ff32053b1968619c5414baf2ab8c595722fc8ae9209e47e9ee"
+    },
+    {
+      "path": "research/us-integrity/engine/README.md",
+      "sha256": "efbbb45ee1b9418539f142f084e5d95b7992d3684ddf041e1804f07f80dc982d"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/REPORT.md",
+      "sha256": "b1bcad26e9f30ae2d8062b70ecfa4d24c34992136738f42b24b91e4cad1794a7"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/authority_matrix.json",
+      "sha256": "785b21534332bc0a37afdfe63f3dd747ed30dfa7d191a044722835ba2a781a6b"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/capture_manifest.json",
+      "sha256": "5af20a910ed674ce718590157a3eeb56d4600f7d7856248c89c25fcc8beee790"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/search_log.json",
+      "sha256": "de85f2e58be78154fb1ee5d9441e4fb69a1403330ef849e80c748d0702dae139"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/sources.json",
+      "sha256": "fa06a1dff660687dee1c0a870e8843f86bf5c191d3d734d151773da82df2832a"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/statements.json",
+      "sha256": "5e4453ebf3b7e0b30a4c919361b6a560a4c7b9b87f6bd02177dce001a8815eab"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/executive/REPORT.md",
+      "sha256": "de444d08f420583211de45c837ca23d30b57db29a5e100fbb2dbb47c0f5db2dc"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/executive/search_log.json",
+      "sha256": "895aac3d0ca8c23697fe25b7a4cbf26442fa0c610c8795fafc68af7067273acd"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/executive/sources.json",
+      "sha256": "6d45aa25c6c37cadf2ce4b188b5b745349a24ba1fb114eb6cd1cf8227651ff81"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/executive/statements.json",
+      "sha256": "a87b8313539717bf851fbf4bf748c5a48adc052536a194eec3fbf8113184cd9e"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/REPORT.md",
+      "sha256": "b462366d60bbb62de18b244d9a2614842955c523cc9351e47b3bb11791981176"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/analysis.json",
+      "sha256": "a77186c596bdabcb8255cf38ea87a4d530da58ee19a6c48defb4f72b7cf7db15"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/audit_names.py",
+      "sha256": "d9774fc1ca99cc2028201641b5fc6913416b6b2e57c84c2cd88b7a77110f7937"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/amazon-awards.json",
+      "sha256": "4550eb270afc59bcb07a8382c58416e31b60fd65471c77e27ada37f60fefb07c"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/amazon-dot-awards.json",
+      "sha256": "adaf80f340dc5341443d7c9bcc0d9e5098b03c37574b173af20c38f23b33fdea"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/amazon-dot-recipients.json",
+      "sha256": "bf59d257f275af8cfa8b64602dd73cb10e7d43fd3903d8bd28ac2ffb3315a8c0"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/amazon-recipients.json",
+      "sha256": "108766a59fc9ce5254daf98b8546b47dccdec8cb4714dbecbc43c477839b570a"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/manifest.json",
+      "sha256": "24c16129b1ecd4cdb11ba13d15de47adc93f82f5e60f8e9bde4ce89511c02497"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/profiles.json",
+      "sha256": "a18aeed5b7b604249ab683514c8d6d420493b216d0a2b0d82bd4f2525b337087"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-awards-1.json",
+      "sha256": "b4bce014cf249b9a24696bb2b563c1d37ef3d9241c83e2aac5b1949aeb2ffe63"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-awards-2.json",
+      "sha256": "4cc19f21cd2fedd1606d7f0ec5bbc59c524ecef98cfae340b040f66bba998b6d"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-awards-3.json",
+      "sha256": "163128663c2c2e8155a6b109663b26ae31bd9d0b5fb9d3ccbe2d1933c12c897c"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-count-after.json",
+      "sha256": "e616166942a437db4f3da9116a1a08e8c66f0dafe7de19b0fac4959c6f6a87c6"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-count-before.json",
+      "sha256": "e616166942a437db4f3da9116a1a08e8c66f0dafe7de19b0fac4959c6f6a87c6"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-awards-1.json",
+      "sha256": "94da0e4dd1507c94f3484b745b0907113bf3fb06f8396aa22d1c1805420d2da9"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-awards-2.json",
+      "sha256": "ec7ee016f35e5f609f771129152a3760e836f51b0064dd607105d9dedc4d82b8"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-count-after.json",
+      "sha256": "6ef8d6207c0ab20471a6cd20c135d887f3dd9ac5cfd1cff5aff11d7a43eb68f7"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-count-before.json",
+      "sha256": "6ef8d6207c0ab20471a6cd20c135d887f3dd9ac5cfd1cff5aff11d7a43eb68f7"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-recipients-1.json",
+      "sha256": "f88c8037b7ed086cdace00d6f137db55ad60b775cda12dbf7c02121af74c42c6"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-recipients-2.json",
+      "sha256": "ead5fe0acf0dd3695c52626207d14134a9216d728304d57f15f35b537f054865"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-recipients-1.json",
+      "sha256": "18f0ba8171893c284928a6e94718619f0a13fba3b2bd184d2b4f649e9af9df4e"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-recipients-2.json",
+      "sha256": "bedfcfd4a659601eee3aeed3f01c9b2bdf77e4a311b11583529615fa591e2409"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-awards-1.json",
+      "sha256": "f1f672835df4fd81e75dd67f9eb53b0d426f8135e50a8cd16838a41d75233d6c"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-awards-2.json",
+      "sha256": "2dc017b32968bc1a84c000efb192fe21d59827c61cc3030cba52b00c187e485b"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-awards-3.json",
+      "sha256": "70daed2239e589576256051f81b438036ea024d2499890767424162975ebc418"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-count-after.json",
+      "sha256": "83bee066c2edb37ddc1755e1d88b3617c82962d24dfe7338bc5db5e7fcf11d59"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-count-before.json",
+      "sha256": "83bee066c2edb37ddc1755e1d88b3617c82962d24dfe7338bc5db5e7fcf11d59"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-awards-1.json",
+      "sha256": "d65bfe63bd847ef2d28f0e08f3d93a0afaa1bfcdc606c21ef322c91bc17dc4be"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-awards-2.json",
+      "sha256": "2031285b5ba92a4b6f2711a5dbff02d0e044856d7b48c1f69ade3cc46c0843bb"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-count-after.json",
+      "sha256": "6615b95d8465c12be8ebd3e7131f8552dc8f6e972f383c29a5534f9d1d955f35"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-count-before.json",
+      "sha256": "6615b95d8465c12be8ebd3e7131f8552dc8f6e972f383c29a5534f9d1d955f35"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-recipients-1.json",
+      "sha256": "7807c2c8272255d8d27636859455d1d2320ed401a9627161ac96a3dcc98f612f"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-recipients-2.json",
+      "sha256": "5019b864ce56427d10c8d2a16366f3b30322349587780411f458741fd307167e"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-recipients-1.json",
+      "sha256": "2acc0194806a4e9ef44d1f8a443e8cbd2e2b0326b73ed32c9e91e5c72e188683"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-recipients-2.json",
+      "sha256": "373b20ac63b786ee6bdedd85d4f9394082cfcae4cee361032be1cf3b0cce9b7f"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-01.json",
+      "sha256": "5e291fdf22753058b4c3c42fdcf301b3e27f4790c913a82b3a5ef98968cae984"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-02.json",
+      "sha256": "6af8d0ddf2098f2a49c442f602ddd41d0a2cc5287e9f52df1c482d9ddf9680d2"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-03.json",
+      "sha256": "e6bfb96e3132e00828fa2712fb99fc21fbd7a6681064758e2b5d39ee0d96251f"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-04.json",
+      "sha256": "0d8f1bf3d3921265eca3bcebf262d2c1f9eb7a26eb5169336f3db0a9a1c8d5b3"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-05.json",
+      "sha256": "50e179162badcd8f282e801913dc3fab429a9f368bc6783719bc27c457d8ea61"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-06.json",
+      "sha256": "1702ba048a5a701944d26b1edbe9d0272899ee5eea29a6ebc9a2d76601c7d959"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/evidence_records.json",
+      "sha256": "2593e1d32c5f9ec919b039650b5287f61b0429681708ed735fdeafa201001635"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/sources.json",
+      "sha256": "65cf8d69faab391bb8721897c80568bfaf83fdeebefbf9dbd3f1120c53fa03f4"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/specialist_contract.json",
+      "sha256": "6324941c0c3c521111e18a1c88096f363ae80ce89d760d1043800048f5e5e645"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names/test_audit_names.py",
+      "sha256": "db959d24ea0ee4965bd08959f33eff5cc501246b3b870f8ef2ff3f0888e4bbaa"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/REPORT.md",
+      "sha256": "81a21a933b675df44c97bdc214cf0231a3ec42bea5c61735b94f47b95536b118"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/eligibility_result.json",
+      "sha256": "e0bec7b5c83e9bdb7dde337e0d421dcdaf3cb47f9d0236c5af021244b96d2f84"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/source_access_matrix.json",
+      "sha256": "9f0b1cce1c34a8b1c97866f82f9dab9d0e365a99dca169b816d3b6b5d41b2b17"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/review/REPORT.md",
+      "sha256": "8917586a5b61b3b65db295e9c6ea07e6c2b1e53a1d4453bcfa5e14c7827201fa"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/review/name_data_review.json",
+      "sha256": "c8c343637cbda98216c2b4bafd0d15bec337c83d6db9af620f1ca5a7e16b0d17"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/review/review.json",
+      "sha256": "575e068cf6c5e7c929909c0c0163f6e7e805c0ceaad5fde3cda18aac7353637e"
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/review/verify_names.py",
+      "sha256": "a87992520ad8b0f0f5f59af6f2b9b9dc59e5a29781fd465a0310a73a480ccb61"
+    },
+    {
+      "path": "research/us-integrity/reports/reward/reward_verification.md",
+      "sha256": "7aa8ff08de8d6ee8e5a5ea94d511743a943b9a36278d6bebbc41151ca8b47b07"
+    }
+  ],
+  "result_contract": "research/us-integrity/collaboration/RESULT-CONTRACT.md",
+  "result_destination": "research/us-integrity/collaboration/results/GROK-IDENTITY-001/",
+  "independent_reviewer": "root coordinator or another separately identified worker; not the author",
+  "required_evidence": [
+    "Exact source URLs, publication/access dates and page/paragraph/API locators",
+    "Raw legal names and stable identifiers kept separate from search normalization",
+    "Decimal amounts with payer, period, source measure and basis",
+    "At least two plausible alternatives or a specific explanation why only one is testable",
+    "Bounded DOJ/OIG/GAO/court novelty search and explicit search limits",
+    "A next discriminating observation or a defensible closure/null result"
+  ],
+  "prohibited_inferences": [
+    "A punctuation difference establishes a fictitious company",
+    "A contract ceiling or obligation divided by an estimated quantity establishes a transaction unit price",
+    "An anomalous price establishes fraud or recoverable loss",
+    "An unsuccessful search proves that a lead is undiscovered",
+    "A model-generated answer is an independently verified source"
+  ],
+  "stopping_conditions": [
+    "Stop on access denial; record the boundary without bypassing it.",
+    "Stop the finite cohort at the stated budget; no unattended loop or purchase.",
+    "Return no finding when identifiers, product comparability or evidence cannot support one.",
+    "Keep any unresolved new named suspicion outside this public repository and return an anonymous summary."
+  ],
+  "planned_branch": "research/us-integrity-grok-identity-001",
+  "bounded_cohort": "One FY2026 contract-recipient keyword cohort using Amazon and Amazon. as alternative query inputs; the brand example is a test of matching, not an allegation. If the query cannot be completed, preserve its exact partial scope.",
+  "work_steps": [
+    "Read the committed 30 October executive and Congress matrices; do not assume that a new-looking anomaly guarantees a reward.",
+    "Reproduce the committed name analysis from the complete frozen request/snapshot manifest, raw award/recipient/profile files and audit script. Compare the independent review before making a new query.",
+    "Read the pricing eligibility summary to preserve the distinction between award amount and a comparable transaction unit price.",
+    "Inspect the official query semantics and count/pagination. Retain exact input text rather than assuming punctuation changes the server result.",
+    "Preserve raw recipient name, UEI, recipient/profile ID, parent ID, award ID and source date; distinguish recipient and parent profile levels.",
+    "Use case/punctuation/Unicode normalization only to propose comparisons. Never merge different UEIs or missing identifiers.",
+    "Test legal suffix, DBA, historical name, affiliate and reseller explanations against dated official records. A common parent does not imply the same seller.",
+    "Independently open primary sources for any social/web lead; X posts or model answers are discovery material.",
+    "Search exact identifiers in existing enforcement records. Return neutral aggregate results or a documented unresolved edge, never a new named public accusation."
+  ],
+  "acceptance_tests": [
+    "A complete available query or explicitly incomplete denominator.",
+    "Same-identifier aliases distinguished from different-identifier collisions and missing identifiers.",
+    "At least one legitimate explanation test, with raw names preserved.",
+    "No claim that lack of search matches proves a company is fictitious or a case undiscovered."
+  ],
+  "dispatch_required": true,
+  "supersedes_task_spec_sha256": "a94a2c107ecf50d9306cc2e1e1c4d6ec3ad108f8a61e30942580048f32db4b7e",
+  "supersedes_input_commit": "55fa8ab8cb7a60b243884f22f8655503009ccda4",
+  "evidence_snapshot_date": "2026-10-30",
+  "input_manifest_expanded_prefixes": {
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/": [
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/amazon-awards.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/amazon-dot-awards.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/amazon-dot-recipients.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/amazon-recipients.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/manifest.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/profiles.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-awards-1.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-awards-2.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-awards-3.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-count-after.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-count-before.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-awards-1.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-awards-2.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-count-after.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-count-before.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-recipients-1.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-dot-recipients-2.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-recipients-1.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/requests/amazon-recipients-2.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-awards-1.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-awards-2.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-awards-3.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-count-after.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-count-before.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-awards-1.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-awards-2.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-count-after.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-count-before.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-recipients-1.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-dot-recipients-2.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-recipients-1.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/amazon-recipients-2.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-01.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-02.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-03.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-04.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-05.json",
+      "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/snapshots/profile-06.json"
+    ]
+  }
+}

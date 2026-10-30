@@ -1,0 +1,17 @@
+{
+  "observations": 7,
+  "possible_pairs": 21,
+  "eligible_pairs": 0,
+  "blocked_pairs": 21,
+  "representative_block_reasons": [
+    "left: missing unit_of_issue, pack_quantity, item_revision, condition, delivery_terms, inspection_acceptance, warranty_basis, nonrecurring_cost_treatment, currency, unit_conversion_evidence",
+    "left: amount is not a verified award CLIN or invoice line price",
+    "right: missing unit_of_issue, pack_quantity, item_revision, condition, delivery_terms, inspection_acceptance, warranty_basis, nonrecurring_cost_treatment, currency, unit_conversion_evidence",
+    "right: amount is not a verified award CLIN or invoice line price",
+    "unresolved economic differences: quantity, price_date"
+  ],
+  "scope": "One purposively selected public solicitation; not a representative procurement cohort",
+  "suspect_scores_generated": 0,
+  "potential_savings_usd": null,
+  "new_fraud_case_claimed": false
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "source_id": "DME-SUP-2022-A4351",
+    "title": "CMS supplier/service 2022 A4351, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/data?filter%5BHCPCS_Cd%5D=A4351&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:12:24.844887+00:00",
+    "period": "2022",
+    "snapshot": "snapshots/suppliers_2022_A4351.json",
+    "snapshot_sha256": "1efd4c53de117089f7f47ec43ead51e272634b5810223c78effb516d56ea0860",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-SUP-2022-A4352",
+    "title": "CMS supplier/service 2022 A4352, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/data?filter%5BHCPCS_Cd%5D=A4352&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:12:24.767827+00:00",
+    "period": "2022",
+    "snapshot": "snapshots/suppliers_2022_A4352.json",
+    "snapshot_sha256": "a7ddd5ca537c9d082656f4aeffcd671728e6f2e9f2cdb61c122e1103bdde55f8",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-SUP-2022-A4353",
+    "title": "CMS supplier/service 2022 A4353, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/data?filter%5BHCPCS_Cd%5D=A4353&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:12:24.768871+00:00",
+    "period": "2022",
+    "snapshot": "snapshots/suppliers_2022_A4353.json",
+    "snapshot_sha256": "dd7d5cedfa9d160dde10ac5bfc999af01c540cb06e9e5d9d15c79a3b3afd44b1",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-SUP-2023-A4351",
+    "title": "CMS supplier/service 2023 A4351, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/44235fd3-6cf9-487f-928d-12998cd84071/data?filter%5BHCPCS_Cd%5D=A4351&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:12:41.910082+00:00",
+    "period": "2023",
+    "snapshot": "snapshots/suppliers_2023_A4351.json",
+    "snapshot_sha256": "09bacddc9472e38934f3c81787b51c9bf515b5fe56d559516efa55626b403063",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-SUP-2023-A4352",
+    "title": "CMS supplier/service 2023 A4352, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/44235fd3-6cf9-487f-928d-12998cd84071/data?filter%5BHCPCS_Cd%5D=A4352&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:12:41.900898+00:00",
+    "period": "2023",
+    "snapshot": "snapshots/suppliers_2023_A4352.json",
+    "snapshot_sha256": "ed518fed359be3b20b529dddd2e19f66ab26d50ea9dcbe61e41b89357f07f891",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-SUP-2023-A4353",
+    "title": "CMS supplier/service 2023 A4353, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/44235fd3-6cf9-487f-928d-12998cd84071/data?filter%5BHCPCS_Cd%5D=A4353&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:12:41.808155+00:00",
+    "period": "2023",
+    "snapshot": "snapshots/suppliers_2023_A4353.json",
+    "snapshot_sha256": "16b75bd7d611dbb3c067ad2dde56d27027ad179bd27b758323d44c584d069d1e",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-SUP-2024-A4351",
+    "title": "CMS supplier/service 2024 A4351, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data?filter%5BHCPCS_Cd%5D=A4351&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:13:00.020389+00:00",
+    "period": "2024",
+    "snapshot": "snapshots/suppliers_2024_A4351.json",
+    "snapshot_sha256": "fc9f23b0aee3de42889120080b60a71bbd6158faad9c5930f407895f738168f7",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-SUP-2024-A4352",
+    "title": "CMS supplier/service 2024 A4352, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data?filter%5BHCPCS_Cd%5D=A4352&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:12:59.925140+00:00",
+    "period": "2024",
+    "snapshot": "snapshots/suppliers_2024_A4352.json",
+    "snapshot_sha256": "daaff223e13d0a499a89dbce13fa9c971d5985b0c9df567b91f8cd2331c22625",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-SUP-2024-A4353",
+    "title": "CMS supplier/service 2024 A4353, complete available public cohort",
+    "url": "https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data?filter%5BHCPCS_Cd%5D=A4353&column=Suplr_NPI%2CSuplr_Prvdr_Ent_Cd%2CSuplr_Prvdr_State_Abrvtn%2CSuplr_Prvdr_Spclty_Cd%2CSuplr_Prvdr_Spclty_Desc%2CHCPCS_Cd%2CHCPCS_Desc%2CSuplr_Rentl_Ind%2CTot_Suplr_Benes%2CTot_Suplr_Clms%2CTot_Suplr_Srvcs%2CAvg_Suplr_Sbmtd_Chrg%2CAvg_Suplr_Mdcr_Alowd_Amt%2CAvg_Suplr_Mdcr_Pymt_Amt%2CAvg_Suplr_Mdcr_Stdzd_Amt&sort=Suplr_NPI&size=5000&offset=0",
+    "retrieved_at": "2026-10-29T19:12:59.838883+00:00",
+    "period": "2024",
+    "snapshot": "snapshots/suppliers_2024_A4353.json",
+    "snapshot_sha256": "228793c093d4bd6587db97d321887f907c04d673f12bdabb92198be197aafdfb",
+    "manifest": "acquisition_manifest.json",
+    "status": "official_public_data_selected_columns"
+  },
+  {
+    "source_id": "DME-NAT-2022-A4351",
+    "title": "CMS national geography/service 2022 A4351",
+    "url": "https://data.cms.gov/data-api/v1/dataset/a9d1461a-9c63-49e1-8d91-696082e20e47/data?filter%5BHCPCS_Cd%5D=A4351&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:04.613006+00:00",
+    "period": "2022",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-NAT-2022-A4352",
+    "title": "CMS national geography/service 2022 A4352",
+    "url": "https://data.cms.gov/data-api/v1/dataset/a9d1461a-9c63-49e1-8d91-696082e20e47/data?filter%5BHCPCS_Cd%5D=A4352&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:09.072548+00:00",
+    "period": "2022",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-NAT-2022-A4353",
+    "title": "CMS national geography/service 2022 A4353",
+    "url": "https://data.cms.gov/data-api/v1/dataset/a9d1461a-9c63-49e1-8d91-696082e20e47/data?filter%5BHCPCS_Cd%5D=A4353&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:13.465426+00:00",
+    "period": "2022",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-NAT-2023-A4351",
+    "title": "CMS national geography/service 2023 A4351",
+    "url": "https://data.cms.gov/data-api/v1/dataset/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d/data?filter%5BHCPCS_Cd%5D=A4351&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:17.847069+00:00",
+    "period": "2023",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-NAT-2023-A4352",
+    "title": "CMS national geography/service 2023 A4352",
+    "url": "https://data.cms.gov/data-api/v1/dataset/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d/data?filter%5BHCPCS_Cd%5D=A4352&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:22.210678+00:00",
+    "period": "2023",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-NAT-2023-A4353",
+    "title": "CMS national geography/service 2023 A4353",
+    "url": "https://data.cms.gov/data-api/v1/dataset/87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d/data?filter%5BHCPCS_Cd%5D=A4353&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:26.580807+00:00",
+    "period": "2023",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-NAT-2024-A4351",
+    "title": "CMS national geography/service 2024 A4351",
+    "url": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data?filter%5BHCPCS_Cd%5D=A4351&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:31.745993+00:00",
+    "period": "2024",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-NAT-2024-A4352",
+    "title": "CMS national geography/service 2024 A4352",
+    "url": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data?filter%5BHCPCS_Cd%5D=A4352&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:36.047568+00:00",
+    "period": "2024",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-NAT-2024-A4353",
+    "title": "CMS national geography/service 2024 A4353",
+    "url": "https://data.cms.gov/data-api/v1/dataset/27c150fd-8578-43b1-bba5-6388987e32af/data?filter%5BHCPCS_Cd%5D=A4353&filter%5BRfrg_Prvdr_Geo_Lvl%5D=National&size=5000",
+    "retrieved_at": "2026-10-29T19:15:40.757487+00:00",
+    "period": "2024",
+    "snapshot": "snapshots/national_2022_2024.json",
+    "manifest": "national_acquisition_manifest.json",
+    "status": "official_public_data"
+  },
+  {
+    "source_id": "DME-METHODOLOGY",
+    "title": "methodology",
+    "name": "methodology",
+    "url": "https://data.cms.gov/sites/default/files/2025-06/a837dcf7-3d06-4c1f-8d4a-82ee737b7932/MUP_DME_RY25_Methodology_20250617_508.pdf",
+    "retrieved_at": "2026-10-29T19:12:39.217259+00:00",
+    "wire_sha256": "d39751c80dd5eb3d3225211fc922b2930ea96375895fe64e50271cf69b08ebf2",
+    "bytes": 319986,
+    "retained": "Hash only. Official PDF is publicly retrievable at URL."
+  },
+  {
+    "source_id": "DME-DICTIONARY_PDF",
+    "title": "dictionary_pdf",
+    "name": "dictionary_pdf",
+    "url": "https://data.cms.gov/sites/default/files/2025-06/9d983215-a36b-4089-9683-c50b150dfef2/MUP_DME_RY25_Data-Dictionary_20250617_suphpr_508.pdf",
+    "retrieved_at": "2026-10-29T19:12:39.356800+00:00",
+    "wire_sha256": "d18fb9655761622664e2104a777c3a3c7cb871424d6ba587b5cf58b321f61584",
+    "bytes": 125620,
+    "retained": "Hash only. Official PDF is publicly retrievable at URL."
+  },
+  {
+    "source_id": "DME-CATALOG",
+    "title": "catalog",
+    "name": "catalog",
+    "url": "https://data.cms.gov/data.json",
+    "retrieved_at": "2026-10-29T19:12:39.525740+00:00",
+    "wire_sha256": "7a7f15e332fdf225c7d8db74dd26aff58cf4dde7f2b04980fa8c3810618f4cf9",
+    "bytes": 18002305,
+    "snapshot": "catalog_selected_2022_2024.json",
+    "snapshot_sha256": "cb59da5c6d602f89107e4641c5108f9ab53519e5bd2305ac386f688a868abdd0",
+    "transformation": "Selected 2022\u20132024 supplier/service and geography/service metadata; not full CMS catalog."
+  }
+]

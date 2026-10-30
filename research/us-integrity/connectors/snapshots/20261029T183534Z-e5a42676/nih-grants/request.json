@@ -1,0 +1,47 @@
+{
+  "filters": {
+    "award_type_codes": [
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "time_period": [
+      {
+        "start_date": "2025-10-01",
+        "end_date": "2026-09-30"
+      }
+    ],
+    "agencies": [
+      {
+        "type": "awarding",
+        "tier": "subtier",
+        "name": "National Institutes of Health",
+        "toptier_name": "Department of Health and Human Services"
+      }
+    ]
+  },
+  "fields": [
+    "Award ID",
+    "Recipient Name",
+    "Recipient UEI",
+    "recipient_id",
+    "generated_internal_id",
+    "Award Amount",
+    "Total Outlays",
+    "Awarding Agency",
+    "Awarding Agency Code",
+    "Awarding Sub Agency",
+    "Awarding Sub Agency Code",
+    "Start Date",
+    "End Date",
+    "Description",
+    "Place of Performance State Code",
+    "Assistance Listings"
+  ],
+  "limit": 20,
+  "page": 1,
+  "sort": "Award Amount",
+  "order": "desc",
+  "subawards": false
+}

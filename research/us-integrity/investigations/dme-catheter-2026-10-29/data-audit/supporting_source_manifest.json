@@ -1,0 +1,28 @@
+[
+  {
+    "name": "methodology",
+    "url": "https://data.cms.gov/sites/default/files/2025-06/a837dcf7-3d06-4c1f-8d4a-82ee737b7932/MUP_DME_RY25_Methodology_20250617_508.pdf",
+    "retrieved_at": "2026-10-29T19:12:39.217259+00:00",
+    "wire_sha256": "d39751c80dd5eb3d3225211fc922b2930ea96375895fe64e50271cf69b08ebf2",
+    "bytes": 319986,
+    "retained": "Hash only. Official PDF is publicly retrievable at URL."
+  },
+  {
+    "name": "dictionary_pdf",
+    "url": "https://data.cms.gov/sites/default/files/2025-06/9d983215-a36b-4089-9683-c50b150dfef2/MUP_DME_RY25_Data-Dictionary_20250617_suphpr_508.pdf",
+    "retrieved_at": "2026-10-29T19:12:39.356800+00:00",
+    "wire_sha256": "d18fb9655761622664e2104a777c3a3c7cb871424d6ba587b5cf58b321f61584",
+    "bytes": 125620,
+    "retained": "Hash only. Official PDF is publicly retrievable at URL."
+  },
+  {
+    "name": "catalog",
+    "url": "https://data.cms.gov/data.json",
+    "retrieved_at": "2026-10-29T19:12:39.525740+00:00",
+    "wire_sha256": "7a7f15e332fdf225c7d8db74dd26aff58cf4dde7f2b04980fa8c3810618f4cf9",
+    "bytes": 18002305,
+    "snapshot": "catalog_selected_2022_2024.json",
+    "snapshot_sha256": "cb59da5c6d602f89107e4641c5108f9ab53519e5bd2305ac386f688a868abdd0",
+    "transformation": "Selected 2022\u20132024 supplier/service and geography/service metadata; not full CMS catalog."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "source_url": "https://data.colorado.gov/resource/4ykn-tg5h.json?%24where=entityid%3D%2720241008944%27&%24select=entityid%2Centityname%2Centitystatus%2Cjurisdictonofformation%2Centitytype%2Centityformdate%2Cprincipalcity%2Cprincipalstate%2Cagentfirstname%2Cagentlastname",
+  "retrieved_at": "2026-10-29",
+  "sha256_response": "e44ca58453cba24048c0db1ef71162791455a8cfb3494bbe9e2e51124af38ad6",
+  "data": [
+    {
+      "entityid": "20241008944",
+      "entityname": "Centennial Med Supply, LLC",
+      "entitystatus": "Delinquent",
+      "jurisdictonofformation": "CO",
+      "entitytype": "DLLC",
+      "entityformdate": "2024-01-02T00:00:00.000",
+      "principalcity": "Denver",
+      "principalstate": "CO",
+      "agentfirstname": "Kakha",
+      "agentlastname": "Bendeliani"
+    }
+  ],
+  "omissions": "Street addresses, postal codes and contact details excluded by query"
+}

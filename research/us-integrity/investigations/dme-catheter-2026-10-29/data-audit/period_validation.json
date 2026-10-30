@@ -1,0 +1,63 @@
+{
+  "catalog_request": {
+    "url": "https://data.cms.gov/data.json",
+    "retrieved_at": "2026-10-29T19:18:15.513024+00:00",
+    "status": 200,
+    "bytes": 18002305,
+    "wire_response_sha256": "7a7f15e332fdf225c7d8db74dd26aff58cf4dde7f2b04980fa8c3810618f4cf9",
+    "content_type": "application/json",
+    "last_modified": "Thu, 29 Oct 2026 17:51:48 GMT",
+    "etag": "\"1793296308-gzip\"",
+    "prior_attempts": []
+  },
+  "verified": [
+    {
+      "table": "Supplier and Service",
+      "year": 2022,
+      "uuid": "dad703df-2e52-4ac6-a26f-51ecbf463d77",
+      "matching_titles": [
+        "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2022-03-26"
+      ]
+    },
+    {
+      "table": "Supplier and Service",
+      "year": 2023,
+      "uuid": "44235fd3-6cf9-487f-928d-12998cd84071",
+      "matching_titles": [
+        "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2023-01-01"
+      ]
+    },
+    {
+      "table": "Supplier and Service",
+      "year": 2024,
+      "uuid": "1746a83e-bb65-4300-8e02-21edbab77c6b",
+      "matching_titles": [
+        "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2024-01-01"
+      ]
+    },
+    {
+      "table": "Geography and Service",
+      "year": 2022,
+      "uuid": "a9d1461a-9c63-49e1-8d91-696082e20e47",
+      "matching_titles": [
+        "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2022-12-30"
+      ]
+    },
+    {
+      "table": "Geography and Service",
+      "year": 2023,
+      "uuid": "87dc62d2-5671-4eb0-9b1a-dfe267a1fa1d",
+      "matching_titles": [
+        "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2023-01-01"
+      ]
+    },
+    {
+      "table": "Geography and Service",
+      "year": 2024,
+      "uuid": "27c150fd-8578-43b1-bba5-6388987e32af",
+      "matching_titles": [
+        "Medicare Durable Medical Equipment, Devices & Supplies - by Geography and Service : 2024-01-01"
+      ]
+    }
+  ]
+}

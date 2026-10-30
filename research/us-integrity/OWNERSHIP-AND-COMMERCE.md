@@ -1,0 +1,17 @@
+# Ownership, buyers, sales and trading: what the graph can establish
+
+Research date: 29 October 2026. The published examples in this branch are method benchmarks. They are not newly discovered cases, and corporate relationships do not transfer an allegation from one subsidiary to its parent or another subsidiary.
+
+Start with the government awarding office and distinguish it from the funding office, beneficiary and recipient. Follow an exact award key to the recipient's UEI, then check SAM/CAGE, source-dated corporate filings and reported subawards. A contract award is not an invoice for every item bought. A distributor can be a recipient without manufacturing the product. A prime contractor can also be a subcontractor on a different award. Preserve each role and effective date.
+
+The SEC's RTX Exhibit 21 lists Raytheon Company among its subsidiaries/affiliates at 31 December 2025; DOJ independently described it as an RTX subsidiary in its 16 October 2024 published resolution. This supports a dated corporate relationship, not a percentage ownership or a full ultimate-beneficial-owner chain. The DOJ source connects DoD procurement, Raytheon, PATRIOT/radar systems and a deferred prosecution resolution with admitted conduct. The graph distinguishes that resolution from a conviction and keeps the mixed criminal/civil/export resolution total separate from government losses or collected recoveries.
+
+CVS Health's Exhibit 21.1 lists Aetna Inc. as a subsidiary at 31 December 2025. That source supports a corporate link. It does not establish ownership at every earlier transaction date, identify every ultimate beneficial owner, or imply misconduct by CVS or every Aetna entity. The exact defendant and corporate entity named in any case must be resolved separately before connecting case facts to this structure.
+
+For listed companies, use dated 10-K/10-Q accounts for consolidated/segment revenue and risk disclosures; Exhibit 21 for selected subsidiaries; proxy and Schedule 13D/13G filings for disclosed ownership; Forms 3/4/5 for reported insider transactions. Not all subsidiaries are listed. Investment-manager 13F holdings are not necessarily beneficial ownership or operational control. A stock sale or a price change is not evidence of procurement fraud. Keep securities research separate until there is a sourced connection to the relevant transaction.
+
+Private businesses generally do not publish a complete sales ledger, customer list, bank transactions or ultimate ownership register. State filings may identify only an organizer or registered agent. FinCEN BOI is not an open lookup. GAO's September 2026 report describes the limitations of beneficial ownership information for federal awardees. Record `unknown`, the exact missing evidence and the lawful next source. Do not complete a chain using shared addresses, common surnames or unsupported name matching.
+
+Geography fields represent the source's meaning: recipient headquarters, place of performance, facility location, incorporation jurisdiction and bank location are different attributes. County/state proximity is context, not suspicion. Personal home addresses, contact information, family networks and unrelated private activity do not belong in the public graph.
+
+Sources are graph records `OWN-S001`–`OWN-S006`, linked through generated notes. Exact source URLs and observation dates are in `data/registries/ownership-sources.json`.

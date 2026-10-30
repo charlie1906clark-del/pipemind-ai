@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "target_task_version": 2,
+  "publication_rule": "Resolve every input from the supplied already-published 40-character Git commit. Never hash mutable working files into a different commit.",
+  "common_required_files": [
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/executive/REPORT.md",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/executive/statements.json",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/executive/sources.json",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/executive/search_log.json",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/REPORT.md",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/authority_matrix.json",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/statements.json",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/sources.json",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/capture_manifest.json",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/congress/search_log.json",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/review/REPORT.md",
+    "research/us-integrity/investigations/discovery-policy-2026-10-30/review/review.json"
+  ],
+  "tasks": {
+    "CLAUDE-PRICE-001": {
+      "additional_required_files": [
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/REPORT.md",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/VALIDATION.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/acquisition_manifest.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/agent_contract.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/eligibility.py",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/eligibility_result.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/reproduce.py",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/snapshots/selected_evidence.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/source_access_matrix.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/sources.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/test_eligibility.py",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/review/price_data_review.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/review/verify_price.py",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/REPORT.md",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/analysis.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/sources.json"
+      ],
+      "required_directory_prefixes": [],
+      "question": "Independently reproduce and challenge the 30 October procurement-price result, verify the applicable policy and legislative status, then follow one precisely missing official unit-price evidence edge.",
+      "new_first_steps": [
+        "Read the committed 30 October executive and Congress source/statement matrices; distinguish public remarks, introduced bills, enacted law and operative agency rules.",
+        "Reproduce the committed pricing eligibility result from its selected evidence and compare the independent review. Do not replace missing awarded unit terms with an IDIQ ceiling calculation.",
+        "Read the name-audit summary as a false-positive lesson; it is not evidence against any price-screen supplier."
+      ]
+    },
+    "GROK-IDENTITY-001": {
+      "additional_required_files": [
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/REPORT.md",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/analysis.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/audit_names.py",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/evidence_records.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/sources.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/specialist_contract.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/test_audit_names.py",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/review/name_data_review.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/review/verify_names.py",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/REPORT.md",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/eligibility_result.json",
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing/source_access_matrix.json"
+      ],
+      "required_directory_prefixes": [
+        "research/us-integrity/investigations/discovery-policy-2026-10-30/names/capture-2026-10-30/"
+      ],
+      "question": "Independently reproduce and challenge the 30 October Amazon/Amazon. public-recipient audit and its novelty limits, then follow one unresolved identifier or query-semantics edge using primary evidence.",
+      "new_first_steps": [
+        "Read the committed 30 October executive and Congress matrices; do not assume that a new-looking anomaly guarantees a reward.",
+        "Reproduce the committed name analysis from the complete frozen request/snapshot manifest, raw award/recipient/profile files and audit script. Compare the independent review before making a new query.",
+        "Read the pricing eligibility summary to preserve the distinction between award amount and a comparable transaction unit price."
+      ]
+    }
+  }
+}

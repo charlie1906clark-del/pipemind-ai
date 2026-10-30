@@ -1,0 +1,222 @@
+[
+  {
+    "id": "identity-edge-nd-npi",
+    "type": "has_npi_record",
+    "source": "identity-org-nd-medical-solutions",
+    "target": "identity-nppes-record-1790533503",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1790533503"
+    ],
+    "properties": {
+      "match": "Exact legal name, PA practice state, NPI and authorized-official corroboration from DOJ-named business"
+    }
+  },
+  {
+    "id": "identity-edge-centennial-npi",
+    "type": "has_npi_record",
+    "source": "identity-org-centennial-med-supply",
+    "target": "identity-nppes-record-1609626167",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1609626167",
+      "identity-src-colorado-20241008944",
+      "identity-src-doj-nh-2026-06-25"
+    ],
+    "properties": {
+      "match": "Exact NPI; punctuation-normalized business name; CO/Denver; practice business-location agreement checked in memory; original spellings retained"
+    }
+  },
+  {
+    "id": "identity-edge-centennial-state",
+    "type": "has_state_registry_record",
+    "source": "identity-org-centennial-med-supply",
+    "target": "identity-co-record-20241008944",
+    "status": "verified",
+    "source_ids": [
+      "identity-src-nppes-1609626167",
+      "identity-src-colorado-20241008944"
+    ],
+    "properties": {
+      "match": "Comma punctuation difference only; CO/Denver and business-location agree; locations not republished"
+    }
+  },
+  {
+    "id": "identity-edge-gugava-official",
+    "type": "reported_authorized_official_of",
+    "source": "identity-person-gugava",
+    "target": "identity-org-nd-medical-solutions",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1790533503"
+    ],
+    "properties": {
+      "position": "President",
+      "record_last_updated": "2025-02-18",
+      "observed_at": "2026-10-29",
+      "ownership_inference": false
+    }
+  },
+  {
+    "id": "identity-edge-centennial-reported-owner",
+    "type": "reports_authorized_official",
+    "source": "identity-nppes-record-1609626167",
+    "target": "identity-org-centennial-med-supply",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-nppes-1609626167"
+    ],
+    "properties": {
+      "name_as_reported": "KAHKA BENDELIANI",
+      "title_as_reported": "Owner",
+      "record_last_updated": "2025-08-20",
+      "observed_at": "2026-10-29",
+      "ownership_inference": false
+    }
+  },
+  {
+    "id": "identity-edge-bendeliani-nppes-candidate",
+    "type": "candidate_same_person_as_reported_official",
+    "source": "identity-person-bendeliani",
+    "target": "identity-nppes-record-1609626167",
+    "status": "hypothesis",
+    "source_ids": [
+      "identity-src-nppes-1609626167",
+      "identity-src-colorado-20241008944",
+      "identity-src-doj-bendeliani-indictment"
+    ],
+    "properties": {
+      "name_conflict": "KAKHA in DOJ/Colorado versus KAHKA in NPPES",
+      "basis": "Same company, state and surname; transposed given-name letters; distinct source-role assertions",
+      "merge_state": "No automatic person merge; source-specific spelling preserved"
+    }
+  },
+  {
+    "id": "identity-edge-bendeliani-agent",
+    "type": "registered_agent_for",
+    "source": "identity-person-bendeliani",
+    "target": "identity-org-centennial-med-supply",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-colorado-20241008944"
+    ],
+    "properties": {
+      "observed_at": "2026-10-29",
+      "ownership_inference": false
+    }
+  },
+  {
+    "id": "identity-edge-gugava-alleged-owner",
+    "type": "alleged_purported_owner_of",
+    "source": "identity-person-gugava",
+    "target": "identity-org-nd-medical-solutions",
+    "status": "allegation",
+    "source_ids": [
+      "identity-src-doj-nd-2026-09-04",
+      "identity-src-gugava-indictment-mirror"
+    ],
+    "properties": {
+      "period_start_month": "2025-02",
+      "period_end_month": "2025-07",
+      "as_alleged_at": "2026-09-04",
+      "beneficial_ownership_proven": false,
+      "alleged_role_start": "2025-02-18",
+      "alleged_role_end": "2025-07-09",
+      "exact_date_source_limit": "Mirrored court filing; general charge corroborated by official DOJ release"
+    }
+  },
+  {
+    "id": "identity-edge-bendeliani-alleged-owner",
+    "type": "alleged_nominee_owner_of",
+    "source": "identity-person-bendeliani",
+    "target": "identity-org-centennial-med-supply",
+    "status": "allegation",
+    "source_ids": [
+      "identity-src-doj-bendeliani-indictment",
+      "identity-src-doj-nh-2026-06-25"
+    ],
+    "properties": {
+      "alleged_role_start": "2025-06-20",
+      "as_alleged_at": "2026-06-17",
+      "roles": [
+        "sole officer",
+        "manager",
+        "bank signatory"
+      ],
+      "beneficial_ownership_proven": false
+    }
+  },
+  {
+    "id": "identity-edge-danelia-role",
+    "type": "allegedly_assisted_nominee_owner_for",
+    "source": "identity-person-danelia",
+    "target": "identity-org-centennial-med-supply",
+    "status": "allegation",
+    "source_ids": [
+      "identity-src-doj-danelia-affidavit",
+      "identity-src-doj-nh-2026-06-25"
+    ],
+    "properties": {
+      "roles": [
+        "driving",
+        "translation",
+        "financial-transaction assistance"
+      ],
+      "ownership_established": false
+    }
+  },
+  {
+    "id": "identity-edge-centennial-leie",
+    "type": "has_exclusion_listing",
+    "source": "identity-org-centennial-med-supply",
+    "target": "identity-leie-centennial-20260711",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-oig-leie-2026-09",
+      "identity-src-oig-leie-method"
+    ],
+    "properties": {
+      "exact_npi": true,
+      "exclusion_date": "2026-07-11",
+      "snapshot_through": "2026-09-30",
+      "no_guilt_inference": true
+    }
+  },
+  {
+    "id": "identity-edge-nd-leie-query",
+    "type": "has_exact_npi_query_result",
+    "source": "identity-org-nd-medical-solutions",
+    "target": "identity-query-leie-nd-no-exact-match",
+    "status": "documented_fact",
+    "source_ids": [
+      "identity-src-oig-leie-2026-09",
+      "identity-src-oig-leie-method"
+    ],
+    "properties": {
+      "is_clearance": false
+    }
+  },
+  {
+    "id": "identity-edge-nd-controller-unresolved",
+    "type": "beneficial_controller_unresolved",
+    "source": "identity-org-nd-medical-solutions",
+    "target": "identity-unresolved-nd-beneficial-controller",
+    "status": "unknown",
+    "source_ids": [
+      "identity-src-doj-nd-2026-09-04"
+    ],
+    "properties": {}
+  },
+  {
+    "id": "identity-edge-centennial-controller-unresolved",
+    "type": "beneficial_controller_unresolved",
+    "source": "identity-org-centennial-med-supply",
+    "target": "identity-unresolved-centennial-beneficial-controller",
+    "status": "unknown",
+    "source_ids": [
+      "identity-src-doj-nh-2026-06-25",
+      "identity-src-doj-bendeliani-indictment"
+    ],
+    "properties": {}
+  }
+]

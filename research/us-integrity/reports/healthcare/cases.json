@@ -1,0 +1,505 @@
+[
+  {
+    "title": "Eleven DMEPOS suppliers precluded by CMS",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S02"
+    ],
+    "subsector": "dme",
+    "amounts": [
+      {
+        "currency": "USD",
+        "period": "2025-2026",
+        "amount": 3400000000,
+        "measure": "suspected_billed_amount",
+        "collection_verified": false,
+        "comparator": "gt",
+        "precision": "reported_lower_bound",
+        "source_qualifier": "more than"
+      }
+    ],
+    "summary": "CMS announced preclusion of 11 suppliers and described abrupt new billing, services billed for deceased beneficiaries, and movement from revoked Original Medicare participation to Medicare Advantage. The source does not name the eleven suppliers. No entity identification has been inferred.",
+    "entities": [],
+    "locations": [],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C01",
+    "status": "existing_public_record",
+    "legal_status": "administrative_preclusion; suspected_billing_not_adjudicated",
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "2025 National Health Care Fraud Takedown / Operation Gold Rush",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S01"
+    ],
+    "subsector": "dme_telehealth",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 14600000000,
+        "measure": "aggregate_alleged_intended_loss",
+        "collection_verified": false,
+        "comparator": "gt",
+        "precision": "reported_lower_bound",
+        "source_qualifier": "over"
+      }
+    ],
+    "summary": "Nationwide charges concern multiple distinct schemes. Operation Gold Rush illustrates acquired medical supply entities, nominee ownership and anomalous catheter billing. The parent aggregate must not be added to its component amounts. Case material is a historical training reference, not an original lead.",
+    "entities": [],
+    "locations": [],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C02",
+    "status": "existing_public_record",
+    "legal_status": "criminal_charges_alleged; aggregate_not_convictions",
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "Labcorp urine drug test-panel settlement",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S24"
+    ],
+    "subsector": "laboratories",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 14500000,
+        "measure": "settlement_agreed",
+        "collection_verified": false
+      }
+    ],
+    "summary": "DOJ resolved allegations over medical necessity of some urine drug tests. Labcorp accepted specified facts about simultaneous presumptive/definitive testing and billing. Those admissions must not be expanded into findings about all services or affiliates.",
+    "entities": [
+      {
+        "name": "Laboratory Corporation of America",
+        "type": "organization",
+        "role": "settling_entity"
+      }
+    ],
+    "locations": [],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C03",
+    "status": "existing_public_record",
+    "legal_status": "civil_settlement_with_specified_admitted_facts",
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "Aetna risk-adjustment settlement",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S25"
+    ],
+    "subsector": "medicare_advantage",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 117700000,
+        "measure": "settlement_agreed",
+        "collection_verified": false
+      }
+    ],
+    "summary": "DOJ described alleged failure to delete unsupported diagnoses after chart review and alleged inaccurate morbid-obesity diagnoses. The available source supports the settlement and the allegations; it does not independently adjudicate each diagnosis.",
+    "entities": [
+      {
+        "name": "Aetna Inc.",
+        "type": "organization",
+        "role": "settling_entity"
+      }
+    ],
+    "locations": [],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C04",
+    "status": "existing_public_record",
+    "legal_status": "civil_settlement_resolving_allegations",
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "Physicians Toxicology Laboratory and owners",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S26"
+    ],
+    "subsector": "laboratories",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 4425000,
+        "measure": "settlement_agreed",
+        "collection_verified": false
+      }
+    ],
+    "summary": "DOJ resolved alleged unnecessary urine drug/hormone testing. The source expressly identifies Lund Capital Group LLC as PTL\u2019s grandparent, providing an evidenced ownership edge for historical case modelling.",
+    "entities": [
+      {
+        "name": "Physicians Toxicology Laboratory LLC",
+        "type": "organization",
+        "role": "settling_entity"
+      },
+      {
+        "name": "Lund Capital Group LLC",
+        "type": "organization",
+        "role": "grandparent_and_settling_codefendant"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Tampa",
+        "state": "FL",
+        "role": "company_location"
+      }
+    ],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C05",
+    "status": "existing_public_record",
+    "legal_status": "civil_settlement_no_liability_determination",
+    "ownership_claims": [
+      {
+        "subject": "Physicians Toxicology Laboratory LLC",
+        "relation": "has_grandparent",
+        "object": "Lund Capital Group LLC",
+        "source_ids": [
+          "HC-S26"
+        ],
+        "effective_at": "2025-01-03 source publication; historic underlying period requires agreement",
+        "confidence": "explicit_source_statement",
+        "direct_parent_unknown": true
+      }
+    ],
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "Creative Hospice entities referral settlement",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S27"
+    ],
+    "subsector": "hospice",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 9200000,
+        "measure": "settlement_paid_as_reported",
+        "collection_verified": true
+      }
+    ],
+    "summary": "DOJ reported settlement of allegations that medical-director compensation was used to induce patient referrals. Distinguish genuine services at fair-market terms from alleged inducements; contracts and actual work are needed.",
+    "entities": [
+      {
+        "name": "Creative Hospice Care Inc.",
+        "type": "organization",
+        "role": "settling_entity"
+      }
+    ],
+    "locations": [],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C06",
+    "status": "existing_public_record",
+    "legal_status": "civil_settlement_of_allegations",
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "Opnet / P & P Health Care Services owner sentenced",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S28"
+    ],
+    "subsector": "home_health",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 400000,
+        "measure": "billed_amount_over",
+        "collection_verified": false,
+        "comparator": "gt",
+        "precision": "reported_lower_bound",
+        "source_qualifier": "over"
+      },
+      {
+        "currency": "USD",
+        "amount": 360000,
+        "measure": "paid_amount_over",
+        "collection_verified": false,
+        "comparator": "gt",
+        "precision": "reported_lower_bound",
+        "source_qualifier": "over"
+      }
+    ],
+    "summary": "DOJ reported a 75-month sentence following conviction. Trial evidence concerned reused and forged clinical signatures and fabricated records supporting home-health claims.",
+    "entities": [
+      {
+        "name": "Opnet Health Care Services Inc.",
+        "type": "organization",
+        "role": "agency; doing_business_as_P_and_P_Health_Care_Services"
+      },
+      {
+        "name": "Paul Njoku",
+        "type": "person",
+        "role": "owner_CEO_convicted_as_reported"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Houston",
+        "state": "TX",
+        "role": "prosecution_location"
+      }
+    ],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C07",
+    "status": "existing_public_record",
+    "legal_status": "jury_conviction_and_sentence_reported",
+    "ownership_claims": [
+      {
+        "subject": "Paul Njoku",
+        "relation": "owned_and_operated",
+        "object": "Opnet Health Care Services Inc.",
+        "source_ids": [
+          "HC-S28"
+        ],
+        "effective_at": "underlying conduct period; see release",
+        "confidence": "explicit_source_statement"
+      }
+    ],
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "Labelle Home Health owner sentenced",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S29"
+    ],
+    "subsector": "medicaid_home_health",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 5700000,
+        "measure": "restitution_ordered",
+        "collection_verified": false
+      }
+    ],
+    "summary": "DOJ reported inflated hours, billing registered-nurse rates for other staffing, and ineligible/deceased-recipient claims. A 42-month sentence and restitution order were announced; collection of the ordered amount was not established.",
+    "entities": [
+      {
+        "name": "Labelle Home Health",
+        "type": "organization",
+        "role": "businesses_named_in_case"
+      },
+      {
+        "name": "Sally Njume-Tatsing",
+        "type": "person",
+        "role": "owner_convicted_as_reported"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Reynoldsburg",
+        "state": "OH",
+        "role": "business_location"
+      },
+      {
+        "city": "Mt. Vernon",
+        "state": "OH",
+        "role": "business_location"
+      },
+      {
+        "city": "Parma",
+        "state": "OH",
+        "role": "business_location"
+      }
+    ],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C08",
+    "status": "existing_public_record",
+    "legal_status": "jury_conviction_and_sentence_reported",
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "VA Community Care Network outpatient and dental audit",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S23"
+    ],
+    "subsector": "va_community_care",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 108900000,
+        "measure": "questioned_costs_metadata",
+        "collection_verified": false
+      },
+      {
+        "currency": "USD",
+        "amount": 980300000,
+        "measure": "better_use_of_funds_metadata",
+        "collection_verified": false
+      }
+    ],
+    "summary": "VA OIG found most outpatient reimbursements accurate and identified rate overpayments plus dental contract terms that allowed reimbursement above provider invoices. Contract design and administrative payment errors cannot be relabelled criminal fraud.",
+    "entities": [
+      {
+        "name": "Optum",
+        "type": "organization",
+        "role": "third_party_administrator_audited"
+      },
+      {
+        "name": "TriWest",
+        "type": "organization",
+        "role": "third_party_administrator_audited"
+      }
+    ],
+    "locations": [],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C09",
+    "status": "existing_public_record",
+    "legal_status": "audit_control_and_contract_findings_not_fraud_determination",
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  },
+  {
+    "title": "Walgreens controlled-substance settlement",
+    "record_type": "existing_official_case_or_audit",
+    "current_docket_recheck_required": true,
+    "source_ids": [
+      "HC-S30"
+    ],
+    "subsector": "pharmacy",
+    "amounts": [
+      {
+        "currency": "USD",
+        "amount": 300000000,
+        "measure": "base_settlement_agreed",
+        "collection_verified": false
+      },
+      {
+        "currency": "USD",
+        "condition": "sale_merger_or_transfer_before_FY2032",
+        "amount": 50000000,
+        "measure": "conditional_additional_settlement",
+        "collection_verified": false
+      }
+    ],
+    "summary": "DOJ resolved allegations involving invalid controlled-substance prescriptions and federal claims. The release describes an additional contingent payment; the headline ceiling is not the same as a collected award.",
+    "entities": [
+      {
+        "name": "Walgreens Boots Alliance",
+        "type": "organization",
+        "role": "settling_group_as_named_in_2025_source"
+      }
+    ],
+    "locations": [],
+    "new_fraud_discovered": false,
+    "usable_for": [
+      "typology",
+      "detector_backtest",
+      "evidence_model_examples"
+    ],
+    "not_usable_for": [
+      "new_reward_claim",
+      "inference_of_guilt_for_unrelated_entities"
+    ],
+    "id": "HC-C10",
+    "status": "existing_public_record",
+    "legal_status": "civil_settlement_no_liability_determination",
+    "source_accessed_at": "2026-10-29",
+    "legal_status_time_basis": "status stated in cited publication; not a full docket update"
+  }
+]

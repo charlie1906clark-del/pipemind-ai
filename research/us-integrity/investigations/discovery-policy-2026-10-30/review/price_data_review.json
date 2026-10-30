@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-10-30",
+  "passed": true,
+  "method": "Independent rendered-page transcription and separate pdftotext check; producer modules not imported",
+  "visual_pages_reviewed": [
+    7,
+    8
+  ],
+  "current_terms_text_pages_reviewed": [
+    2,
+    9,
+    10
+  ],
+  "summary": {
+    "history_rows": 7,
+    "distinct_contract_keys": 7,
+    "unit_cost_as_printed_min": "0.93000",
+    "unit_cost_as_printed_max": "1.92000",
+    "all_historical_units_unknown": true,
+    "current_quote_blank": true,
+    "comparable_price_pairs": 0,
+    "savings_usd": null,
+    "fraud_finding": false
+  },
+  "input_sha256": {
+    "pricing/snapshots/SPE4A626U3619.pdf": "4a3996d9aca0fac0b32ea1cebfe8833fdbb144de33dc0af2739d0269b037ac51",
+    "pricing/snapshots/selected_evidence.json": "052d394c9aeca30e9220436b70fe40a3518233b1f4aabf36a97dd7c6b9c958d8",
+    "pricing/acquisition_manifest.json": "7cc36a996cb2aa5b998817f9f2dbf94a0e593fde72dd128b6ae7f1c58fc88999",
+    "pricing/eligibility.py": "a2e93c6162c8e8df212e44865360ab7e67567724e59b914b1d534a3906120225",
+    "pricing/reproduce.py": "3e84f6b301584b641c8b7cd5a2368ed9c56ba94a9541bed0fe59db221e7c27fb",
+    "pricing/test_eligibility.py": "4e2b835d528fbdd0410622a18d83a2941b46ee9759e59f607aa0b34f1e575853"
+  },
+  "limits": "Solicitation history is not a paid invoice. No independent historical award, term or payment verification. No estimate of overpricing, loss or recovery."
+}

@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-10-30",
+  "statements": [
+    {
+      "id": "CS01",
+      "date": "2026-01-20",
+      "speaker": "Senator Chuck Grassley",
+      "type": "individual_member_statement",
+      "quote": "The False Claims Act remains the government\u2019s single greatest tool to fight waste.",
+      "source_ids": [
+        "C05"
+      ],
+      "effect": "Support for existing FCA; no new universal one-percent entitlement."
+    },
+    {
+      "id": "CS02",
+      "date": "2025-02-07",
+      "published": "2025-02-11",
+      "speaker": "Senate Judiciary Chairman Chuck Grassley",
+      "type": "oversight_letter",
+      "summary": "Asked Attorney General Bondi to review pending qui tam dismissals.",
+      "source_ids": [
+        "C06"
+      ],
+      "effect": "Oversight request, not enacted amendment."
+    },
+    {
+      "id": "CS03",
+      "date": "2025-09-17",
+      "speaker": "Senators Grassley, Warren, Slotkin, Ernst",
+      "type": "legislative_announcement",
+      "quote": "By requiring a notification for certain price increases",
+      "source_ids": [
+        "C09",
+        "C10"
+      ],
+      "summary": "Proposal for 30-day notifications of covered noncompetitive-contract price increases: 25% versus bid/prior year or 50% versus five-year comparison.",
+      "effect": "Member-announced proposal; bill-number/status link unresolved; not an operational fraud threshold."
+    },
+    {
+      "id": "CS04",
+      "date": "2026-10-20",
+      "published": "2026-10-21",
+      "speaker": "Senators Warren, Grassley, Slotkin, Ernst",
+      "type": "oversight_letter",
+      "summary": "Pressed DoD on August18 supplier cost/pricing transparency directive, vendor refusal, subcontracts, and threshold changes; requested answers by November3.",
+      "source_ids": [
+        "C07",
+        "C08"
+      ],
+      "effect": "Four senators\u2019 questions and recommendations, not findings against a new target; response deadline still future."
+    },
+    {
+      "id": "CS05",
+      "date": "2026-10-29",
+      "speaker": "Representative Ben Cline",
+      "type": "legislative_announcement",
+      "quote": "mandatory minimum sentences for federal benefits fraud and personal liability for state officials",
+      "source_ids": [
+        "C16",
+        "C17"
+      ],
+      "summary": "Announced Fraud Accountability and Mandatory Sentencing Act affecting Medicaid, Medicare and Social Security fraud.",
+      "effect": "Announcement/draft verified; bill number and official introduction/status record unresolved; no enacted status claimed."
+    }
+  ]
+}

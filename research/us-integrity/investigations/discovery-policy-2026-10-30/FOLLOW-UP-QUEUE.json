@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "queue_id": "DISCOVERY-FOLLOWUP-2026-10-30",
+  "state": "finite_reviewable_plan_not_background_execution",
+  "coordinator": "root coordinator; one dispatch record per task",
+  "objective": "Test new public procurement observations while permitting null, disproved and unresolved outcomes; no assumption that fraud must be found.",
+  "sampling": {
+    "method": "Purposive bounded cohort, not a representative national sample",
+    "family": "Non-sensitive common machine-bolt RFQs",
+    "ordering": "Within fixed issue-date window, choose most recent official RFQs first; tie-break by solicitation identifier ascending",
+    "pilot_inclusion": "The acquired SPE4A626U3619 RFQ counts toward 30 only if the fixed selection rule includes it; otherwise it remains calibration",
+    "coverage_claim": "Only the recorded cohort, documents and queries"
+  },
+  "baseline_completed": {
+    "name_awards_union": 150,
+    "dot_query_awards": 12,
+    "name_requests": 19,
+    "distinct_name_ueis": 3,
+    "price_rfqs": 1,
+    "price_history_rows": 7,
+    "eligible_price_pairs": 0,
+    "new_fraud_cases_established": 0,
+    "recoverable_loss": null,
+    "reward_eligibility": "not_assessed"
+  },
+  "tasks": [
+    {
+      "id": "DR-01",
+      "state": "planned_not_started",
+      "role": "official_public_source_acquirer",
+      "question": "Can a declared recent machine-bolt cohort be assembled from official public RFQs?",
+      "depends_on": [],
+      "inputs": [
+        "pricing/REPORT.md",
+        "pricing/source_access_matrix.json",
+        "pricing/agent_contract.json"
+      ],
+      "outputs": [
+        "cohort.json with every selected, excluded, duplicate, failed and empty-history record",
+        "hashed official RFQs and source/access log"
+      ],
+      "limits": {
+        "issue_date_start": "2026-08-02",
+        "issue_date_end": "2026-10-30",
+        "window_days_inclusive": 90,
+        "target_unique_rfqs": 30,
+        "maximum_candidate_urls_examined": 120,
+        "maximum_official_listing_reads": 12,
+        "maximum_requests_per_document": 2,
+        "request_timeout_seconds": 20
+      },
+      "stopping_conditions": [
+        "30 unique qualifying RFQs processed, or 120 candidate URLs / 12 listing reads exhausted",
+        "Document requires unavailable authentication, restricted technical access or an access-control workaround",
+        "Official listing does not support a reproducible population: publish that limitation without substituting an undisclosed convenience sample"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-02",
+      "state": "planned_not_started",
+      "role": "historical_award_and_order_tracer",
+      "question": "Which history keys can be resolved to original priced award/order lines and modifications?",
+      "depends_on": [
+        "DR-01"
+      ],
+      "inputs": [
+        "DR-01/cohort.json",
+        "DR-01/official RFQ history tables",
+        "pricing/snapshots/selected_evidence.json as calibration"
+      ],
+      "outputs": [
+        "dated contract/order/CLIN relationship table",
+        "original document hashes and page locators",
+        "missing-record log distinguishing unavailable from not searched"
+      ],
+      "limits": {
+        "maximum_distinct_historical_contract_keys": 30,
+        "maximum_public_search_requests": 12,
+        "maximum_original_award_order_modification_reads": 60,
+        "selection_order": "Most recent historical award date first, then contract identifier ascending; deduplicate before selection"
+      },
+      "stopping_conditions": [
+        "30 contract keys resolved or explicitly unresolved, or request/read budget exhausted",
+        "A purported order is only a solicitation, mirror or aggregate award record: retain its actual type",
+        "No accessible original priced line: leave price verification false"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-03",
+      "state": "planned_not_started",
+      "role": "item_unit_and_specification_specialist",
+      "question": "Are items, revisions, conditions and purchased units equivalent?",
+      "depends_on": [
+        "DR-01",
+        "DR-02"
+      ],
+      "inputs": [
+        "DR-01 primary RFQs",
+        "DR-02 original award/order/CLIN records"
+      ],
+      "outputs": [
+        "item-equivalence matrix with NSN, part, revision, condition, UI, QUP and conversion evidence",
+        "blocked comparisons with exact missing fields"
+      ],
+      "limits": {
+        "maximum_contract_keys": 30,
+        "maximum_supplementary_official_catalog_reads": 12,
+        "no_sensitive_technical_data_acquisition": true
+      },
+      "stopping_conditions": [
+        "Every retained line classified equivalent, different or unknown",
+        "No evidenced unit conversion: no normalized price",
+        "Restricted or unavailable technical revision: unresolved, not assumed identical"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-04",
+      "state": "planned_not_started",
+      "role": "independent_extraction_and_provenance_checker",
+      "question": "Do original pages support each retained row and amount classification?",
+      "depends_on": [
+        "DR-01",
+        "DR-02"
+      ],
+      "inputs": [
+        "DR-01 source archive",
+        "DR-02 line table and modifications"
+      ],
+      "outputs": [
+        "independent extraction receipt and source hash checks",
+        "duplicate/modification reconciliation",
+        "corrections bound to exact source pages"
+      ],
+      "limits": {
+        "maximum_rfqs": 30,
+        "maximum_order_documents": 60,
+        "all_retained_price_rows_checked": true
+      },
+      "stopping_conditions": [
+        "Every retained row verified or excluded",
+        "Mismatched source hash or unreconciled changed document: block affected record",
+        "No double counting of an IDV and child order, or original and modified line"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-05",
+      "state": "planned_not_started",
+      "role": "price_terms_auditor",
+      "question": "Do fully supported comparable prices retain an unexplained difference?",
+      "depends_on": [
+        "DR-03",
+        "DR-04"
+      ],
+      "inputs": [
+        "DR-03 equivalence and unit matrix",
+        "DR-04 verified lines",
+        "pricing/eligibility.py",
+        "congress/REPORT.md"
+      ],
+      "outputs": [
+        "pair-level comparison table with all blocked pairs",
+        "reviewed adjustment evidence for quantity, date, freight, delivery, warranty, qualification and nonrecurring costs",
+        "up to ten non-accusatory questions for further records work"
+      ],
+      "limits": {
+        "maximum_retained_contract_keys": 30,
+        "maximum_candidate_questions": 10,
+        "money_precision": "Decimal from original strings",
+        "new_search_requests": 0,
+        "all_pairs_within_verified_same_item_groups_considered": true
+      },
+      "stopping_conditions": [
+        "All retained pairs classified eligible or blocked",
+        "Missing term or unauthenticated adjustment flag: comparison remains blocked",
+        "Price gap alone: no fraud label, loss figure or reward estimate"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-06",
+      "state": "planned_not_started",
+      "role": "dated_entity_identity_specialist",
+      "question": "Does a transaction-specific identity discrepancy survive legal-name, alias and role checks?",
+      "depends_on": [
+        "DR-02",
+        "DR-04"
+      ],
+      "inputs": [
+        "DR-02 exact recipient/CAGE/UEI and contract identifiers",
+        "names/REPORT.md",
+        "names/audit_names.py",
+        "names/capture-2026-10-30/manifest.json as calibration"
+      ],
+      "outputs": [
+        "dated identifier/name/profile-level matrix",
+        "source-reported versus independently checked parent/role assertions",
+        "contradiction or benign-explanation record"
+      ],
+      "limits": {
+        "maximum_distinct_recipients": 10,
+        "maximum_public_search_requests": 12,
+        "maximum_public_registry_or_award_reads": 30,
+        "selection_order": "Recipients of the first ten retained contract keys in DR-02 selection order; deduplicate"
+      },
+      "stopping_conditions": [
+        "Ten recipients checked or finite budget exhausted",
+        "Punctuation, a similar name, absent search result or distinct UEI alone: do not escalate",
+        "No public ownership history: mark unknown; do not substitute residential/contact data"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-07",
+      "state": "planned_not_started",
+      "role": "novelty_and_public_case_reviewer",
+      "question": "What does each retained question add to already public enforcement, audits or litigation?",
+      "depends_on": [
+        "DR-05",
+        "DR-06"
+      ],
+      "inputs": [
+        "DR-05 retained questions",
+        "DR-06 exact identifiers",
+        "../dme-catheter-2026-10-29/REPORT.md as known-case calibration",
+        "executive/REPORT.md",
+        "congress/REPORT.md"
+      ],
+      "outputs": [
+        "dated DOJ/OIG/GAO/agency/court query log",
+        "exact known-case matches and differences",
+        "analytical novelty statement and unresolved government-knowledge field"
+      ],
+      "limits": {
+        "maximum_questions": 10,
+        "maximum_queries_per_question": 6,
+        "maximum_public_documents_total": 30
+      },
+      "stopping_conditions": [
+        "Every retained question classified already public, materially distinct, or unresolved",
+        "Known allegation matches: retain calibration status rather than rename a discovery",
+        "Negative public search: say not located within recorded search, never government unaware"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-08",
+      "state": "planned_not_started",
+      "role": "independent_disconfirmation_reviewer",
+      "question": "What evidence would falsify each remaining question, and does that evidence exist?",
+      "depends_on": [
+        "DR-05",
+        "DR-06",
+        "DR-07"
+      ],
+      "inputs": [
+        "comparators and adjustments",
+        "identity/role records",
+        "novelty logs",
+        "review/REPORT.md"
+      ],
+      "outputs": [
+        "separate challenge receipt",
+        "at least two plausible alternatives per retained question",
+        "accept, narrow, reject or unresolved decision with missing discriminating evidence"
+      ],
+      "limits": {
+        "maximum_questions": 10,
+        "maximum_additional_primary_document_reads": 20,
+        "maximum_additional_search_requests": 6
+      },
+      "stopping_conditions": [
+        "Every retained question challenged within budget",
+        "Ordinary explanation resolves pattern: reject or narrow",
+        "No transaction-specific false representation, delivery or billing basis: retain as price/data-quality question"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-09",
+      "state": "planned_not_started",
+      "role": "coordinator_evidence_reviewer",
+      "question": "What reviewable next records step, if any, is justified?",
+      "depends_on": [
+        "DR-08"
+      ],
+      "inputs": [
+        "DR-08 challenge receipts",
+        "full source and exclusion logs",
+        "review/review.json"
+      ],
+      "outputs": [
+        "cohort completion report including null outcomes",
+        "reviewed neutral public graph additions",
+        "separate decision on any concrete records or referral proposal"
+      ],
+      "limits": {
+        "maximum_questions": 10,
+        "automatic_external_messages": 0,
+        "automatic_tips_or_claims": 0,
+        "automatic_public_named_adverse_entries": 0
+      },
+      "stopping_conditions": [
+        "Declared cohort and all finite subwork accounted for",
+        "No supported question survives: close with null result",
+        "Any case-specific external action requires its own concrete reviewed content and applicable authorization"
+      ],
+      "no_positive_finding_required": true
+    },
+    {
+      "id": "DR-10",
+      "state": "planned_not_started",
+      "role": "executive_and_statutory_version_checker",
+      "question": "Can the specific unresolved speech, scope and procurement-rule questions be resolved?",
+      "depends_on": [],
+      "inputs": [
+        "executive/statements.json EX-ST02\u201308 and EX-ST15",
+        "congress/REPORT.md unresolved items",
+        "congress/authority_matrix.json"
+      ],
+      "outputs": [
+        "official audio verification or explicit unresolved status",
+        "dated current authority/deviation version note",
+        "bill-number/action crosswalk where established"
+      ],
+      "limits": {
+        "maximum_official_video_retrieval_attempts": 2,
+        "maximum_search_requests": 8,
+        "maximum_primary_document_reads": 16,
+        "no_new_quote_text_required": true
+      },
+      "stopping_conditions": [
+        "Listed unresolved items checked or budget exhausted",
+        "Official audio unavailable: preserve non-government transcript attribution",
+        "Full applicable deviation unavailable: no procurement-compliance flag",
+        "No enactment evidence: preserve proposal status"
+      ],
+      "no_positive_finding_required": true
+    }
+  ],
+  "external_provider_handoffs": [
+    {
+      "task_id": "CLAUDE-PRICE-001",
+      "task_path": "../../collaboration/tasks/CLAUDE-PRICE-001.json",
+      "state": "queued_not_dispatched",
+      "model_calls_executed": 0,
+      "connection": "blocked; automatic approval review rejected administrator permissions and separate unapproved inference gateway scope",
+      "depends_on": "An explicitly approved appropriate route and verified active connection, or actual manual handoff",
+      "budget_source": "Immutable task packet; at most 12 public searches and 20 document/API reads",
+      "stop": "No verified route/receipt means no dispatch; do not retry authorization through another route under this queue"
+    },
+    {
+      "task_id": "GROK-IDENTITY-001",
+      "task_path": "../../collaboration/tasks/GROK-IDENTITY-001.json",
+      "state": "queued_not_dispatched",
+      "model_calls_executed": 0,
+      "connection": "authorization initiated; awaiting user authorization",
+      "depends_on": "Verified active connection and actual dispatch receipt, or actual manual handoff",
+      "budget_source": "Immutable task packet; at most 12 public searches and 20 document/API reads",
+      "stop": "Pending authorization is not permission or successful execution"
+    }
+  ],
+  "cross_provider_rule": "Provider packets do not automatically execute DR tasks. They return separate bounded results for independent review; avoid duplicate uncontrolled work.",
+  "public_bank_contract": {
+    "include": [
+      "neutral official source records",
+      "source hashes and locators",
+      "published facts with status/date",
+      "coverage and access failures",
+      "methods and tests",
+      "counterevidence and null outcomes"
+    ],
+    "exclude_automatic_publication": [
+      "new named adverse theories",
+      "private candidate dossiers",
+      "personal contact/residential data unrelated to a public official role",
+      "credentials or authorization links"
+    ],
+    "relationships": "Distinguish observed, source-reported, independently verified, proposed, unresolved and rejected; no similarity edge proves fraud."
+  },
+  "global_stopping_conditions": [
+    "Complete finite task budget even if no case is found",
+    "Access denied or unavailable credentials: log and stop that source; no credential guessing or circumvention",
+    "Unresolved unit, revision, amount scope or duplicate relation: block affected inference",
+    "No fraud probability or earned reward from a model score",
+    "No unattended recurring execution installed"
+  ],
+  "source_of_connection_status": "../../collaboration/CONNECTION-STATUS.json",
+  "input_sha256": {
+    "executive/statements.json": "a87b8313539717bf851fbf4bf748c5a48adc052536a194eec3fbf8113184cd9e",
+    "congress/authority_matrix.json": "785b21534332bc0a37afdfe63f3dd747ed30dfa7d191a044722835ba2a781a6b",
+    "names/analysis.json": "a77186c596bdabcb8255cf38ea87a4d530da58ee19a6c48defb4f72b7cf7db15",
+    "pricing/snapshots/selected_evidence.json": "052d394c9aeca30e9220436b70fe40a3518233b1f4aabf36a97dd7c6b9c958d8",
+    "review/review.json": "575e068cf6c5e7c929909c0c0163f6e7e805c0ceaad5fde3cda18aac7353637e"
+  }
+}

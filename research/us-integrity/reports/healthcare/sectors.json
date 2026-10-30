@@ -1,0 +1,460 @@
+[
+  {
+    "id": "HC-01",
+    "title": "Original Medicare Part B and medical practice billing",
+    "priority": "high_public_data_feasibility",
+    "funds_path": [
+      "CMS Medicare trust funds",
+      "Medicare Administrative Contractor",
+      "enrolled billing practitioner/group",
+      "rendering practitioner or downstream laboratory/supplier"
+    ],
+    "buyer_vs_payee": "The federal payer reimburses care; the patient is not the federal procurement buyer. Rendering and billing identities can differ.",
+    "source_ids": [
+      "HC-S05",
+      "HC-S06",
+      "HC-S17",
+      "HC-S18"
+    ],
+    "join_plan": [
+      "Retain NPI as a ten-character string and validate check digit. Keep Type 1 individual and Type 2 organization separate.",
+      "Join NPI to the same observation-period NPPES snapshot; retain taxonomy and professional practice state.",
+      "Compare by HCPCS, place of service, specialty, calendar year, regional payment conditions and available risk/case-mix proxies.",
+      "Resolve group ownership through explicit enrollment/registry evidence; never infer ownership from a shared practice address."
+    ],
+    "hypotheses": [
+      {
+        "signal": "Abrupt rise in units or paid amount for a narrow HCPCS family",
+        "alternatives": [
+          "practice acquisition",
+          "new specialist service",
+          "coding or fee-schedule changes",
+          "demand/case-mix shift"
+        ],
+        "needed": "Prior-year records, dictionary comparability, paid-vs-submitted amount, enrollment history and a validated peer cohort."
+      },
+      {
+        "signal": "Provider appears on exclusion data and billing aggregates",
+        "alternatives": [
+          "same-name different person",
+          "reinstatement",
+          "service dates predate exclusion",
+          "payment adjustment after permitted service"
+        ],
+        "needed": "Exact identity, exclusion effective/reinstatement dates and actual dates of service; annual aggregates alone cannot prove prohibited billing."
+      }
+    ],
+    "blind_spots": [
+      "No patient-level identity or clinical record in public aggregates.",
+      "Part B FFS is not the full US health market.",
+      "Annual aggregates cannot establish impossible daily workloads, forged signatures or deliberate misrepresentation."
+    ],
+    "agent": "Claims-methodology auditor: reject invalid cohorts, enforce amount semantics and flag only reproducible aggregate anomalies."
+  },
+  {
+    "id": "HC-02",
+    "title": "DMEPOS, catheters, orthotics and medical supply distribution",
+    "priority": "first_pilot",
+    "funds_path": [
+      "CMS FFS through MAC OR MA plan",
+      "DMEPOS billing supplier",
+      "commercial wholesaler/distributor",
+      "device manufacturer"
+    ],
+    "buyer_vs_payee": "A billed supplier is not necessarily the manufacturer or federal contract vendor. Reimbursement does not expose its wholesale purchase invoice.",
+    "source_ids": [
+      "HC-S01",
+      "HC-S02",
+      "HC-S03",
+      "HC-S04",
+      "HC-S05",
+      "HC-S06",
+      "HC-S17"
+    ],
+    "join_plan": [
+      "Use supplier NPI + HCPCS + rental indicator + service year as aggregate grain.",
+      "Create separate records for referring-provider and supplier datasets. They are marginal aggregates; shared HCPCS does not establish a direct referrer-to-supplier transaction.",
+      "Use NPI business identity and explicit corporate filings to trace registered entity/parents. Record each unsupported upstream manufacturer or beneficial-owner link as unknown.",
+      "Version enrollment, deactivation, revocation and exclusion as different statuses with effective dates. A billing transition to another payer requires payer-specific data."
+    ],
+    "hypotheses": [
+      {
+        "signal": "New or acquired supplier shows an extreme catheter billing increase relative to peers",
+        "alternatives": [
+          "valid acquisition",
+          "consolidated billing",
+          "coding changes",
+          "new service territory"
+        ],
+        "needed": "Longitudinal supplier rows, valid acquisition source, product mix, beneficiary-count denominator and payer-specific data."
+      },
+      {
+        "signal": "Several suppliers share an officer/address and similar billing shocks",
+        "alternatives": [
+          "legitimate chain",
+          "shared billing service",
+          "mailing office",
+          "registered agent"
+        ],
+        "needed": "Explicit ownership/control records and distinct contemporaneous entities; cluster is a lead, not conspiracy proof."
+      }
+    ],
+    "blind_spots": [
+      "Public aggregate data cannot establish delivery, beneficiary death, consent or medical necessity.",
+      "Commercial supplier-to-wholesaler/manufacturer sales are usually not public.",
+      "2026 suspected billing cannot be confirmed with a 2024 aggregate dataset."
+    ],
+    "agent": "DME coding and network auditor: compare product-specific longitudinal cohorts and distinguish NPI/provider enrollment changes from legal-entity ownership changes."
+  },
+  {
+    "id": "HC-03",
+    "title": "Medicaid/CHIP, managed care, behavioural health and home/community services",
+    "priority": "first_pilot_after_schema_verification",
+    "funds_path": [
+      "Federal/state Medicaid funds",
+      "state Medicaid agency",
+      "FFS provider OR capitated managed-care organization",
+      "billing/servicing provider",
+      "staffing or other subcontractor"
+    ],
+    "buyer_vs_payee": "State expenditure, MCO capitation, provider reimbursement and managed-care encounter value are different measures and must not be summed as independent spending.",
+    "source_ids": [
+      "HC-S11",
+      "HC-S12",
+      "HC-S13",
+      "HC-S17",
+      "HC-S29"
+    ],
+    "join_plan": [
+      "Retrieve HHS HCPCS, NDC and enrollment extracts, schema, suppression and revision documentation before querying.",
+      "Preserve billing NPI, servicing NPI and prescribing NPI as distinct roles. Add state, month and code-system version where fields support it.",
+      "Validate cross-state/method comparability and managed-care encounter amount definitions; do not assume an encounter paid amount equals a state payment.",
+      "Join provider enrollment segments temporally, keeping state-specific enrollment identifiers and spans."
+    ],
+    "hypotheses": [
+      {
+        "signal": "Rapid provider-month growth in behavioural health or personal-care units",
+        "alternatives": [
+          "expanded state eligibility",
+          "rate increase",
+          "new covered benefit",
+          "backlogged submissions",
+          "MCO reporting changes"
+        ],
+        "needed": "State benefit/rate chronology, claim revisions, enrollment spans, code dictionaries and comparable states/regions."
+      },
+      {
+        "signal": "Same provider has apparent high hours per month",
+        "alternatives": [
+          "group NPI billing many staff",
+          "unit duration differs",
+          "institutional bundled payments"
+        ],
+        "needed": "Provider role, unit semantics, staffing evidence and appropriately authorized service records; public aggregate totals cannot prove impossible individual hours."
+      }
+    ],
+    "blind_spots": [
+      "T-MSIS is state-submitted and has completeness/comparability limitations.",
+      "Suppression prevents reconstructing small cells.",
+      "No patient identities; do not attempt reidentification or deceased-beneficiary joins.",
+      "Managed-care subcontract and staffing contracts may be unavailable."
+    ],
+    "agent": "Medicaid state-policy auditor: condition every rule on state, year, programme and payment method; route missing definitions to blocked-data status."
+  },
+  {
+    "id": "HC-04",
+    "title": "Pharmaceutical supply, Part D prescribing, PBMs and rebates",
+    "priority": "medium_public_data_feasibility",
+    "funds_path": [
+      "CMS Part D subsidies and other payer contributions",
+      "Part D plan sponsor",
+      "PBM and affiliated group purchasing organization",
+      "dispensing pharmacy",
+      "wholesaler",
+      "manufacturer"
+    ],
+    "buyer_vs_payee": "Drug acquisition, dispensing reimbursement, prescribing and rebate flows are distinct. Public Part D drug cost is not net federal spending, pharmacy revenue or manufacturer realized price.",
+    "source_ids": [
+      "HC-S13",
+      "HC-S14",
+      "HC-S15",
+      "HC-S16",
+      "HC-S30",
+      "HC-S31"
+    ],
+    "join_plan": [
+      "Use prescribing NPI + brand/generic drug + year for Part D; NDC-bearing Medicaid data has a different grain.",
+      "Preserve NDC format and package/product meaning; do not coerce away leading zeros or infer drug equality from string similarity.",
+      "Use explicit corporate evidence for PBM/plan/pharmacy/manufacturer ownership and effective dates.",
+      "Open Payments linking needs the current file layout and validated recipient crosswalk; do not assume every release exposes NPI. Keep payments, research and ownership as separate relations."
+    ],
+    "hypotheses": [
+      {
+        "signal": "Very high brand share or spend per standardized fill in matched peers",
+        "alternatives": [
+          "specialty patient mix",
+          "clinical contraindication",
+          "formulary requirements",
+          "different dosage/packaging",
+          "gross-vs-net price differences"
+        ],
+        "needed": "Drug identity, days supply, specialty, formulary/year and rebate limitations."
+      },
+      {
+        "signal": "Payment relationship and unusual prescribing co-occur",
+        "alternatives": [
+          "lawful research",
+          "consulting",
+          "education",
+          "common specialty manufacturer relationship"
+        ],
+        "needed": "Actual agreement, timing, services and a legally supported inducement theory. Correlation is insufficient."
+      }
+    ],
+    "blind_spots": [
+      "Manufacturer rebates, PBM spread contracts and net prices often confidential.",
+      "Part D prescriber tables do not identify every dispensing pharmacy transaction.",
+      "FTC competition proceedings are not automatically criminal or FCA findings."
+    ],
+    "agent": "Drug-pricing and formulary auditor: normalize drug/packaging/payment measures and challenge gross-cost versus net-cost mistakes."
+  },
+  {
+    "id": "HC-05",
+    "title": "Clinical laboratories, urine drug tests and genetic testing",
+    "priority": "high",
+    "funds_path": [
+      "CMS/MAC or Medicaid/MCO",
+      "billing laboratory",
+      "ordering practitioner and potential marketer/MSO",
+      "reference lab or testing subcontractor"
+    ],
+    "buyer_vs_payee": "An ordering physician is not automatically an owner or procurement buyer; an advertised test brand does not uniquely identify the billing laboratory.",
+    "source_ids": [
+      "HC-S01",
+      "HC-S18",
+      "HC-S19",
+      "HC-S24",
+      "HC-S26"
+    ],
+    "join_plan": [
+      "Resolve NPI and CLIA certificate separately, using explicit crosswalk or corroborated location/legal name and certificate dates.",
+      "Compare CPT/HCPCS families with site-of-service and year-specific billing rules; preserve modifiers when available.",
+      "Record marketers/MSOs only if documented; never convert a co-located company into a financial intermediary."
+    ],
+    "hypotheses": [
+      {
+        "signal": "High same-family test intensity or spending concentration",
+        "alternatives": [
+          "specialist addiction/toxicology practice",
+          "legitimate confirmatory testing",
+          "reference-lab referrals"
+        ],
+        "needed": "Coverage policy, ordering data, actual test panel, medical record and patient-specific indication under lawful access."
+      },
+      {
+        "signal": "Ownership distributions correlated with referrals",
+        "alternatives": [
+          "bona fide investment returns",
+          "actual services under compliant arrangement"
+        ],
+        "needed": "Contract/distribution/referral evidence and legal review; public association alone cannot establish a kickback."
+      }
+    ],
+    "blind_spots": [
+      "Aggregate NPI/code totals cannot show same-patient same-day testing combinations.",
+      "CLIA certificate quality status is not Medicare billing approval or fraud determination.",
+      "Medical necessity and intent require additional records."
+    ],
+    "agent": "Laboratory coding and CLIA auditor: require precise panel/code/date evidence and separate admitted facts from settlement allegations."
+  },
+  {
+    "id": "HC-06",
+    "title": "Telehealth, lead generation and remote prescribing",
+    "priority": "high_typology_low_transaction_visibility",
+    "funds_path": [
+      "Medicare/Medicaid or plan",
+      "billed practitioner/lab/DME supplier",
+      "telehealth platform",
+      "marketing/lead generation vendor",
+      "owners/management"
+    ],
+    "buyer_vs_payee": "The platform can be a vendor, a clinical group or a billing entity; never assume these roles are interchangeable.",
+    "source_ids": [
+      "HC-S01",
+      "HC-S02",
+      "HC-S06",
+      "HC-S18"
+    ],
+    "join_plan": [
+      "Preserve practitioner NPI, platform legal entity, billed supplier and marketer as distinct nodes.",
+      "Use only explicit contracts/case records to connect lead seller and provider.",
+      "Version telehealth place-of-service/payment rules and distinguish authorized telehealth expansion from misconduct."
+    ],
+    "hypotheses": [
+      {
+        "signal": "DME/lab billing growth accompanies remote ordering concentration",
+        "alternatives": [
+          "lawful remote care programme",
+          "centralized specialty service",
+          "changes to coverage"
+        ],
+        "needed": "Validated ordering linkage, encounter evidence and consent documentation; marginal aggregates cannot prove a path."
+      },
+      {
+        "signal": "Unusual volume associated with a new telehealth group",
+        "alternatives": [
+          "group NPI/many clinicians",
+          "seasonal volume",
+          "acquisition"
+        ],
+        "needed": "Role-correct numerator, denominator and clinician capacity evidence."
+      }
+    ],
+    "blind_spots": [
+      "Call recordings, patient consent, identity theft and AI-generated consent records are not available in public spending tables.",
+      "No scraping patient/social accounts or trying to impersonate beneficiaries."
+    ],
+    "agent": "Telehealth rule and consent-evidence auditor: distinguish legal remote care from source-supported conduct; block unsupported consent conclusions."
+  },
+  {
+    "id": "HC-07",
+    "title": "Hospice, home health and skilled nursing ownership networks",
+    "priority": "high",
+    "funds_path": [
+      "CMS Part A / Medicaid / other programme",
+      "enrolled facility or home-care agency",
+      "staffing/management company",
+      "parent/chain/investor"
+    ],
+    "buyer_vs_payee": "Patient referral, agency enrollment, facility operation and real-estate ownership are separate relations.",
+    "source_ids": [
+      "HC-S07",
+      "HC-S08",
+      "HC-S09",
+      "HC-S10",
+      "HC-S20",
+      "HC-S21",
+      "HC-S27",
+      "HC-S28"
+    ],
+    "join_plan": [
+      "Use ENROLLMENT ID and ASSOCIATE ID to join PECOS ownership rows to the matching enrollment dataset; obtain NPI/CCN from that supported crosswalk.",
+      "Keep owner ASSOCIATE ID distinct from provider ASSOCIATE ID and NPI.",
+      "Represent ownership percentage, role, association date and snapshot date; sum percentages only where ownership layer and definitions permit.",
+      "Recurse through evidenced organization owners; a self-reported intermediate owner is not proven ultimate beneficial ownership."
+    ],
+    "hypotheses": [
+      {
+        "signal": "Rapid facility enrollment or ownership turnover and unusual service patterns",
+        "alternatives": [
+          "legitimate chain acquisition",
+          "corporate restructuring",
+          "expansion to meet demand"
+        ],
+        "needed": "Snapshots/filings, provider operational dates, payment/quality denominators and explicit acquisition evidence."
+      },
+      {
+        "signal": "Hospice and separate provider payments may overlap",
+        "alternatives": [
+          "unrelated condition or permitted separate benefit",
+          "adjustment timing"
+        ],
+        "needed": "Patient/service-level records and hospice coverage rules; aggregate overlap alone is not duplicate billing."
+      }
+    ],
+    "blind_spots": [
+      "Current ownership snapshot can misrepresent the historical owner.",
+      "Self-reported ownership may be incomplete or late.",
+      "Public service aggregates cannot establish terminal prognosis, homebound status, forged signatures or actual staff attendance.",
+      "Enhanced-oversight states are control jurisdictions, not a list of culpable providers."
+    ],
+    "agent": "Post-acute ownership and eligibility auditor: version every ownership edge and require authorized clinical evidence before eligibility conclusions."
+  },
+  {
+    "id": "HC-08",
+    "title": "Medicare Advantage risk adjustment and delegated vendor networks",
+    "priority": "high_materiality_low_public_evidence_completeness",
+    "funds_path": [
+      "CMS risk-adjusted capitation",
+      "Medicare Advantage organization",
+      "delegated provider group / HRA or coding vendor",
+      "corporate parent"
+    ],
+    "buyer_vs_payee": "Capitation is an insurer payment, not reimbursement for one specific billed clinical service; chart review and care delivery can be performed by different entities.",
+    "source_ids": [
+      "HC-S22",
+      "HC-S25"
+    ],
+    "join_plan": [
+      "Keep contract/plan/year and parent organization effective dates; do not infer plan ownership from brand alone.",
+      "Preserve diagnosis submission/deletion, HRA and encounter origins if lawfully available.",
+      "Use public audits/settlements as typology evidence; do not pretend public NPI aggregates include underlying risk adjustment records."
+    ],
+    "hypotheses": [
+      {
+        "signal": "Risk-adjustment payment rises without corresponding service pattern in authorized data",
+        "alternatives": [
+          "true morbidity increase",
+          "benefit/coding/model change",
+          "care underuse",
+          "data incompleteness"
+        ],
+        "needed": "Validated diagnosis encounter histories, HCC model/year, deletion records and clinical documentation."
+      }
+    ],
+    "blind_spots": [
+      "Public sources rarely expose complete enrollee diagnosis chains or HRA-vendor contracts.",
+      "OIG HRA-only payment estimates include alternative care-quality explanations and are not fraud loss estimates."
+    ],
+    "agent": "Risk-adjustment evidence auditor: require correct model/version, supported diagnosis/deletion facts and legal-status precision."
+  },
+  {
+    "id": "HC-09",
+    "title": "VA community care, prosthetics and medical procurement",
+    "priority": "high_for_contract_terms_medium_for_new_fraud",
+    "funds_path": [
+      "VA/VHA",
+      "third-party administrator OR direct procurement vendor",
+      "community care provider / distributor",
+      "medical-device manufacturer / corporate parent"
+    ],
+    "buyer_vs_payee": "CCN claim reimbursement and a VA purchase order are different procurement/payment paths. Contract-compliant margins can be a policy weakness without being fraud.",
+    "source_ids": [
+      "HC-S23"
+    ],
+    "join_plan": [
+      "Identify CCN region, administrator contract, payment period and applicable rate hierarchy.",
+      "Trace actual award identifiers via the procurement system separately from NPI-based community-provider records.",
+      "Keep contract price, provider invoice and VA reimbursement measures separate; source the contract clause governing each."
+    ],
+    "hypotheses": [
+      {
+        "signal": "VA reimbursement exceeds provider invoice",
+        "alternatives": [
+          "contract expressly permits rate-based reimbursement",
+          "administration fees",
+          "different invoice scope"
+        ],
+        "needed": "Executed contract and modifications, governing fee schedule, invoice and payment reconciliation."
+      },
+      {
+        "signal": "Medical procurement price above catalogue/reference price",
+        "alternatives": [
+          "sterility/quality specification",
+          "quantity",
+          "freight",
+          "emergency delivery",
+          "warranty",
+          "different unit"
+        ],
+        "needed": "Item/NSN/UDI if available, comparable terms, quantities and period; no price-only fraud conclusion."
+      }
+    ],
+    "blind_spots": [
+      "Patient-level VA claims and commercial upstream invoices usually restricted.",
+      "Questioned costs and recommendations for better use of funds are not recoveries.",
+      "2025 audit found most outpatient payments accurate; selecting only negative findings would distort evidence."
+    ],
+    "agent": "VA contract-rate auditor: reconstruct the contract/rate hierarchy and challenge false fraud labels for permitted terms."
+  }
+]

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1473</number>
+    <updateDate>2026-05-27T11:22:16Z</updateDate>
+    <updateDateIncludingText>2026-07-18T20:50:40Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2025-04-10</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/senate-bill/1473</legislationUrl>
+    <committees>
+      <item>
+        <systemCode>ssbk00</systemCode>
+        <name>Banking, Housing, and Urban Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2026-05-20T22:00:12Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-04-10T20:16:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Stop Stealing our Chips Act</title>
+        <congress>119</congress>
+        <number>6322</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-04-22</actionDate>
+          <text>Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 1.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-05-21</actionDate>
+        <actionTime>15:30:23</actionTime>
+        <text>Held at the desk.</text>
+        <type>Floor</type>
+        <actionCode>H15000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-21</actionDate>
+        <actionTime>15:18:41</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-21</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent. (text of amendment in the nature of a substitute: CR S2424-2426)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S2424-2426)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <text>Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-04-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-04-10</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>R000605</bioguideId>
+        <fullName>Sen. Rounds, Mike [R-SD]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Rounds</lastName>
+        <party>R</party>
+        <state>SD</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000805</bioguideId>
+        <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Warner</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>R.</middleName>
+        <sponsorshipDate>2025-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Foreign Trade and International Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2026-05-22T19:13:55Z</updateDate>
+        </item>
+        <item>
+          <name>Employment discrimination and employee rights</name>
+          <updateDate>2026-05-22T19:11:01Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-05-22T19:14:06Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2026-05-22T19:14:21Z</updateDate>
+        </item>
+        <item>
+          <name>Internet, web applications, social media</name>
+          <updateDate>2026-05-22T19:14:01Z</updateDate>
+        </item>
+        <item>
+          <name>Right of privacy</name>
+          <updateDate>2026-05-22T19:14:15Z</updateDate>
+        </item>
+        <item>
+          <name>Trade restrictions</name>
+          <updateDate>2026-05-22T19:13:49Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Foreign Trade and International Finance</name>
+        <updateDate>2025-05-27T15:48:00Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-04-10</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2026-02-25T19:13:11Z</updateDate>
+        <text><![CDATA[<p><strong>Stop Stealing our Chips Act</strong></p><p>This bill creates a&nbsp;whistleblower incentive program and establishes whistleblower protections for individuals who provide information to the Department of Commerce's Bureau of Industry and Security (BIS) related to violations of U.S. export control laws.&nbsp;</p><p>Currently, BIS administers and enforces controls on the export of dual-use goods (e.g., items with both civilian and military uses) and certain military parts and components. These export controls are implemented primarily under the Export Control Reform Act of 2018 (ECRA) through the Export Administration Regulations.</p><p>Under the bill, BIS&nbsp;must establish a&nbsp;whistleblower incentive program to reward individuals who voluntarily report original information that results in BIS imposing fines under ECRA&nbsp;on persons that violate, attempt to violate, conspire to violate, or cause a violation of ECRA or any related regulation, order, license, or authorization.</p><p>Additionally, BIS must establish a secure online portal for whistleblowers to report violations of ECRA. The bill outlines requirements for BIS to review, investigate, and provide status updates related to these reports.</p><p>The bill authorizes&nbsp;BIS to pay an award to any whistleblower&nbsp;who voluntarily reported original information that led to the imposition of a fine under&nbsp;ECRA. The bill establishes the Export Compliance Accountability Fund for paying these awards and funding related activities.</p><p>The bill also sets forth&nbsp;whistleblower protections by (1) prohibiting retaliation against individuals who act as&nbsp;whistleblowers, and (2) establishing confidentiality requirements.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Stop Stealing our Chips Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Stop Stealing our Chips Act</title>
+        <updateDate>2026-05-22T19:48:25Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed Senate</titleType>
+        <titleTypeCode>105</titleTypeCode>
+        <title>Stop Stealing our Chips Act</title>
+        <updateDate>2026-05-22T02:38:26Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Engrossed in Senate</billTextVersionName>
+        <billTextVersionCode>ES</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Stop Stealing our Chips Act</title>
+        <updateDate>2025-05-03T03:23:20Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>A bill to amend the Export Control Reform Act of 2018 to establish a whistleblower incentive program and provide protections to whistleblowers.</title>
+        <updateDate>2025-05-03T03:18:28Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>5445</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>In the nature of a substitute.</purpose>
+        <updateDate>2026-05-23T11:08:28Z</updateDate>
+        <latestAction>
+          <actionDate>2026-05-20</actionDate>
+          <text>Amendment SA 5445 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 5445</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/5445</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>R000605</bioguideId>
+            <fullName>Sen. Rounds, Mike [R-SD]</fullName>
+            <firstName>Mike</firstName>
+            <lastName>Rounds</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>B001261</bioguideId>
+            <fullName>Sen. Barrasso, John [R-WY]</fullName>
+            <firstName>John</firstName>
+            <lastName>Barrasso</lastName>
+            <party>R</party>
+            <state>WY</state>
+            <type>Submitted on behalf of</type>
+          </item>
+          <item>
+            <bioguideId>B001261</bioguideId>
+            <fullName>Sen. Barrasso, John [R-WY]</fullName>
+            <firstName>John</firstName>
+            <lastName>Barrasso</lastName>
+            <party>R</party>
+            <state>WY</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <proposedDate>2026-05-20T04:00:00Z</proposedDate>
+        <submittedDate>2026-05-20T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1473</number>
+          <title>Stop Stealing our Chips Act</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2026-05-20</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 5445 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-05-20</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 5445 proposed by Senator Barrasso for Senator Rounds. (consideration: CR S2424)</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-05-20</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-20</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 5445 proposed by Senator Barrasso for Senator Rounds.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-20</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 5445 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-20</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2026-05-20T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s1473es/xml/BILLS-119s1473es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2025-04-10T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s1473is/xml/BILLS-119s1473is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-05-21</actionDate>
+      <text>Held at the desk.</text>
+      <actionTime>15:30:23</actionTime>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

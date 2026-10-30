@@ -39,3 +39,9 @@ secrets/
 
 # Node (if frontend added later)
 node_modules/
+
+# US integrity research: restricted evidence and local coordination state
+research/us-integrity/private/
+research/us-integrity/restricted/
+research/us-integrity/generated/*.sqlite*
+research/us-integrity/generated/exports/graph.json

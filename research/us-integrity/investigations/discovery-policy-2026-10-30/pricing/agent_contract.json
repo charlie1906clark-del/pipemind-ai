@@ -1,0 +1,95 @@
+{
+  "id": "WP-DLA-BOLTS-001",
+  "status": "reviewable_next_work_package_not_executed",
+  "scope": {
+    "family": "non-sensitive common machine bolts",
+    "target_rfqs": 30,
+    "sampling": "purposive recent official public RFQ cohort; 90-day issue-date window fixed before collection",
+    "seed_completed_rfqs": 1,
+    "not_population_estimate": true
+  },
+  "roles": [
+    {
+      "id": "public_source_acquirer",
+      "task": "Acquire official public RFQ and linked award/order documents with hashes and access logs; stop at authentication or access denial",
+      "output": "raw source, source registry, inclusion/exclusion log"
+    },
+    {
+      "id": "item_and_unit_specialist",
+      "task": "Validate NSN, part/revision, condition, UI, QUP and conversion evidence from each historical order independently",
+      "output": "item equivalence and units matrix; null for unknowns"
+    },
+    {
+      "id": "price_terms_auditor",
+      "task": "Distinguish ceiling, obligation, CLIN price, invoice and payment; account for quantity, date, delivery, warranty, quality and nonrecurring costs",
+      "output": "eligibility.py inputs, term adjustments and reviewer evidence"
+    },
+    {
+      "id": "data_integrity_checker",
+      "task": "Independently inspect source pages; reconcile duplicates, split lines, revisions and modifications",
+      "output": "extraction corrections with provenance"
+    },
+    {
+      "id": "alternative_explanations_reviewer",
+      "task": "Try to disprove each price lead using ordinary procurement explanations and missing data",
+      "output": "counterevidence, unresolved facts and rejection reasons"
+    },
+    {
+      "id": "novelty_reviewer",
+      "task": "Search DOJ, DoD/DLA OIG, GAO, agencies and court disclosures by verified identifiers and mechanism",
+      "output": "dated query log; bounded not-found status; known-case matches"
+    },
+    {
+      "id": "human_evidence_reviewer",
+      "task": "Approve evidence completeness and any next records/referral step",
+      "output": "review decision; no automated accusation or referral"
+    }
+  ],
+  "price_gate": "eligibility.py; verified award CLIN or invoice price plus complete unit/item/terms evidence; source history alone cannot pass",
+  "private_candidate_contract": {
+    "public_output": "methods, neutral source evidence, aggregate coverage and missing-data status",
+    "candidate_names_and_allegations": "outside public repository",
+    "public_identifiers_in_pilot": "neutral faithful source transcription only, not candidate ranking"
+  },
+  "claim_ladder": [
+    "source observation",
+    "comparable price difference",
+    "unexplained price-review lead",
+    "corroborated misrepresentation/nonperformance evidence",
+    "reviewed referral; legal determination belongs to competent authority"
+  ],
+  "required_negative_controls": [
+    "No ceiling divided by estimate",
+    "No obligation divided by assumed quantity",
+    "No retail price without equivalent product and terms",
+    "No automatic same-unit assumption",
+    "No high price to fraud inference",
+    "No OIG/DOJ case repackaged as new"
+  ],
+  "acceptance": [
+    "All cohort documents accounted for including failed/empty records",
+    "All retained observations have primary source hash and page",
+    "All comparisons pass eligibility gate or are explicitly blocked",
+    "All candidate claims have alternative explanation and novelty review",
+    "No savings estimated without verified paid quantities and defensible counterfactual",
+    "A null finding completes the work package"
+  ],
+  "stop_conditions": [
+    "30 RFQs processed or documented source-access limit reached",
+    "Missing historical units/terms cannot be resolved from authorized sources",
+    "Authentication, terms restrictions, restricted technical data or unavailable credentials encountered",
+    "No supported lead remains after counterevidence review"
+  ],
+  "external_models": {
+    "Claude": "not invoked by this work package",
+    "Grok": "not invoked by this work package",
+    "exchange": "same source/evidence schema and critic gates; model identity and run provenance required"
+  },
+  "prohibited": [
+    "credential guessing",
+    "access-control circumvention",
+    "sending allegations or agency messages without explicit authorization",
+    "publishing unreviewed candidate dossiers",
+    "claiming exhaustive coverage or undiscovered status from a limited search"
+  ]
+}

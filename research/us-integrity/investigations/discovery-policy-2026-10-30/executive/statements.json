@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "quote_provenance_note": "All four speech excerpts are from EX-S03, a non-government transcript; combined quoted words = 18. No independent audio verification claimed.",
+  "statements": [
+    {
+      "id": "EX-ST01",
+      "speaker_or_issuer": "White House",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Oval Office announcement by Trump and Vance.",
+      "source_ids": [
+        "EX-S01",
+        "EX-S02"
+      ],
+      "locator": "Video date; gallery captions",
+      "authoritative_type": "official_event_record",
+      "status_version": "event_verified",
+      "scope": "Fraud-reporting rewards"
+    },
+    {
+      "id": "EX-ST02",
+      "speaker_or_issuer": "Donald Trump",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Promised an uncapped one-percent commission.",
+      "source_ids": [
+        "EX-S03"
+      ],
+      "locator": "00:55:57\u201300:56:02",
+      "authoritative_type": "attributed_speech",
+      "status_version": "statement_not_operative_entitlement",
+      "scope": "Fraud-reporting rewards",
+      "short_exact_quote": "There's no limit.",
+      "evidence_limits": "Non-government transcription; no corresponding unlimited written WHIP formula located."
+    },
+    {
+      "id": "EX-ST03",
+      "speaker_or_issuer": "Donald Trump",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Described the percentage as contingent on recovered money.",
+      "source_ids": [
+        "EX-S03"
+      ],
+      "locator": "00:56:24\u201300:56:35",
+      "authoritative_type": "attributed_speech",
+      "status_version": "statement_not_operative_entitlement",
+      "scope": "Fraud-reporting rewards",
+      "short_exact_quote": "if we recover the money",
+      "evidence_limits": "Does not establish a percentage of projected savings."
+    },
+    {
+      "id": "EX-ST04",
+      "speaker_or_issuer": "Donald Trump",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Required claimant provenance and acknowledged legal/rule qualifications.",
+      "source_ids": [
+        "EX-S03"
+      ],
+      "locator": "00:06:23\u201300:07:36",
+      "authoritative_type": "attributed_speech",
+      "status_version": "statement_not_operative_entitlement",
+      "scope": "Fraud-reporting rewards"
+    },
+    {
+      "id": "EX-ST05",
+      "speaker_or_issuer": "Donald Trump",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Proposed personally resolving reward disputes and prompt payment.",
+      "source_ids": [
+        "EX-S03"
+      ],
+      "locator": "00:14:19\u201300:15:16",
+      "authoritative_type": "attributed_speech",
+      "status_version": "statement_not_operative_entitlement",
+      "scope": "Fraud-reporting rewards",
+      "short_exact_quote": "binding arbitration",
+      "evidence_limits": "Written WHIP assigns decisions to DOJ, not a presidential arbitration process."
+    },
+    {
+      "id": "EX-ST06",
+      "speaker_or_issuer": "JD Vance",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Described reward scope extending beyond criminal prosecutions.",
+      "source_ids": [
+        "EX-S03"
+      ],
+      "locator": "00:56:35\u201300:56:46",
+      "authoritative_type": "attributed_speech",
+      "status_version": "statement_not_operative_entitlement",
+      "scope": "Fraud-reporting rewards",
+      "short_exact_quote": "not to limit this just to criminal prosecutions",
+      "evidence_limits": "Written WHIP expressly requires criminal charges."
+    },
+    {
+      "id": "EX-ST07",
+      "speaker_or_issuer": "JD Vance",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Asserted that over 99% of fraud being found falls outside the False Claims Act.",
+      "source_ids": [
+        "EX-S03"
+      ],
+      "locator": "00:39:45\u201300:40:07",
+      "authoritative_type": "attributed_speech",
+      "status_version": "statement_not_operative_entitlement",
+      "scope": "Fraud-reporting rewards",
+      "evidence_limits": "Attributed assertion only; no methodology, denominator or statutory coverage analysis supplied here."
+    },
+    {
+      "id": "EX-ST08",
+      "speaker_or_issuer": "Andrew Ferguson",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Described proposed mandatory minimums and state-official civil liability.",
+      "source_ids": [
+        "EX-S03"
+      ],
+      "locator": "00:17:03\u201300:18:32",
+      "authoritative_type": "attributed_speech",
+      "status_version": "statement_not_operative_entitlement",
+      "scope": "Proposed anti-fraud legislation",
+      "evidence_limits": "Speech is not proof of congressional passage; legislative verification delegated to congressional report."
+    },
+    {
+      "id": "EX-ST09",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Launch announcement identifies Treasury commitment of $25 million.",
+      "source_ids": [
+        "EX-S04"
+      ],
+      "locator": "Funding paragraph",
+      "authoritative_type": "official_agency_announcement",
+      "status_version": "announced_commitment",
+      "scope": "Fraud-reporting rewards",
+      "evidence_limits": "Not proof of disbursement or individual eligibility."
+    },
+    {
+      "id": "EX-ST10",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Three-year pilot invokes 28 U.S.C. \u00a7530C(b)(1)(L); rewards remain discretionary.",
+      "source_ids": [
+        "EX-S05"
+      ],
+      "locator": "Introduction",
+      "authoritative_type": "official_agency_guidance_terms",
+      "status_version": "terms_updated_2026-10-20",
+      "scope": "Fraud-reporting rewards",
+      "evidence_limits": "Cited statutory authority needs independent statutory analysis; see congressional report."
+    },
+    {
+      "id": "EX-ST11",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "$10,000\u2013$30,000 per distinct tip, generally following unsealed charges; no conviction or recovery prerequisite.",
+      "source_ids": [
+        "EX-S06"
+      ],
+      "locator": "Q1,Q12,Q13",
+      "authoritative_type": "official_agency_faq",
+      "status_version": "faq_updated_2026-10-20",
+      "scope": "Fraud-reporting rewards",
+      "evidence_limits": "Eligibility is not a payment guarantee; detailed terms allow discretionary pre-unsealing payment."
+    },
+    {
+      "id": "EX-ST12",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "DOJ decides awards; the guidance describes determinations as non-appealable and non-reviewable.",
+      "source_ids": [
+        "EX-S05"
+      ],
+      "locator": "Reward Determinations3",
+      "authoritative_type": "official_agency_guidance_terms",
+      "status_version": "terms_updated_2026-10-20",
+      "scope": "Fraud-reporting rewards"
+    },
+    {
+      "id": "EX-ST13",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-28",
+      "claim_or_paraphrase": "Eligibility requires voluntary, truthful, complete written original information, cooperation and criminal charges.",
+      "source_ids": [
+        "EX-S07"
+      ],
+      "locator": "Basic Eligibility Criteria",
+      "authoritative_type": "official_agency_program_landing_page",
+      "status_version": "landing_updated_2026-10-28",
+      "scope": "Fraud-reporting rewards"
+    },
+    {
+      "id": "EX-ST14",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-28",
+      "claim_or_paraphrase": "Covered areas include health-care offenses and listed agencies\u2019 programs/benefits; priorities include hospice, home health, day care and special services.",
+      "source_ids": [
+        "EX-S07"
+      ],
+      "locator": "Subject Matter Areas",
+      "authoritative_type": "official_agency_program_landing_page",
+      "status_version": "landing_updated_2026-10-28",
+      "scope": "Fraud-reporting rewards",
+      "evidence_limits": "Does not establish coverage of every government procurement transaction."
+    },
+    {
+      "id": "EX-ST15",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Terms introduction omits Department of War, while eligibility\u00a76 includes it.",
+      "source_ids": [
+        "EX-S05"
+      ],
+      "locator": "Introduction versus Eligibility6",
+      "authoritative_type": "official_agency_guidance_terms",
+      "status_version": "unresolved_internal_inconsistency",
+      "scope": "Fraud-reporting rewards",
+      "evidence_limits": "Launch release, FAQ and current landing page also include War; obtain clarification for defense-specific award assumptions."
+    },
+    {
+      "id": "EX-ST16",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Independent analysis may combine public information and collaborators, but must reveal non-general information and materially add to government knowledge.",
+      "source_ids": [
+        "EX-S05"
+      ],
+      "locator": "Eligibility2(a)\u2013(c)",
+      "authoritative_type": "official_agency_guidance_terms",
+      "status_version": "terms_updated_2026-10-20",
+      "scope": "Fraud-reporting rewards",
+      "evidence_limits": "Public-data analysis is not automatically original; government knowledge cannot be inferred solely from public searches."
+    },
+    {
+      "id": "EX-ST17",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Repetition of news or proceedings generally fails originality; identical subsequent tips fail. Only individuals qualify.",
+      "source_ids": [
+        "EX-S06"
+      ],
+      "locator": "Q10,Q14,Q16,Q17",
+      "authoritative_type": "official_agency_faq",
+      "status_version": "faq_updated_2026-10-20",
+      "scope": "Fraud-reporting rewards"
+    },
+    {
+      "id": "EX-ST18",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "No minimum loss is required; unsuccessful schemes can qualify if charges follow.",
+      "source_ids": [
+        "EX-S06"
+      ],
+      "locator": "Q7",
+      "authoritative_type": "official_agency_faq",
+      "status_version": "faq_updated_2026-10-20",
+      "scope": "Fraud-reporting rewards"
+    },
+    {
+      "id": "EX-ST19",
+      "speaker_or_issuer": "DOJ",
+      "date": "2026-10-20",
+      "claim_or_paraphrase": "Portal is preferred; alternate-channel submissions may be rejected. Anonymous tips require counsel; confidentiality has exceptions.",
+      "source_ids": [
+        "EX-S06",
+        "EX-S05"
+      ],
+      "locator": "FAQ Q3,Q19; Additional Considerations anonymity/confidentiality",
+      "authoritative_type": "official_agency_guidance_and_faq",
+      "status_version": "guidance_updated_2026-10-20",
+      "scope": "Fraud-reporting rewards",
+      "evidence_limits": "No submission was made in this research."
+    },
+    {
+      "id": "EX-ST20",
+      "speaker_or_issuer": "Attorney General",
+      "date": "2026-10-01",
+      "claim_or_paraphrase": "Directive prioritizes procurement/contract fraud and orders whistleblower-policy development while cautioning against overbroad enforcement.",
+      "source_ids": [
+        "EX-S08"
+      ],
+      "locator": "III pp3\u20134; IV p5; p2",
+      "authoritative_type": "official_agency_directive",
+      "status_version": "directive_26_12",
+      "scope": "Enforcement priorities",
+      "evidence_limits": "Enforcement jurisdiction is broader than WHIP award eligibility."
+    },
+    {
+      "id": "EX-ST21",
+      "speaker_or_issuer": "President",
+      "date": "2026-03-16",
+      "claim_or_paraphrase": "Order creates task force, promotes preventative controls and private False Claims Act actions.",
+      "source_ids": [
+        "EX-S09"
+      ],
+      "locator": "Sections2,4,6",
+      "authoritative_type": "official_executive_order",
+      "status_version": "EO14395",
+      "scope": "Government fraud policy",
+      "evidence_limits": "No universal 1% reward mechanism identified in the order."
+    },
+    {
+      "id": "EX-ST22",
+      "speaker_or_issuer": "White House",
+      "date": "2026-10-30",
+      "claim_or_paraphrase": "Dashboard distinguishes identified amounts, annualized prevention and enforcement metrics.",
+      "source_ids": [
+        "EX-S10"
+      ],
+      "locator": "Metrics definitions",
+      "authoritative_type": "official_executive_dashboard",
+      "status_version": "retrieved_snapshot",
+      "scope": "Fraud metrics",
+      "evidence_limits": "Enforcement descriptions include indictments and settlements; not a reconciled collected-cash reward base."
+    },
+    {
+      "id": "EX-ST23",
+      "speaker_or_issuer": "Research review of DOJ text",
+      "date": "2026-10-30",
+      "claim_or_paraphrase": "No blanket U.S. citizenship or residence requirement located in reviewed WHIP terms/FAQ. Foreign-government-official and law-enforcement exclusions are explicit.",
+      "source_ids": [
+        "EX-S05",
+        "EX-S06"
+      ],
+      "locator": "Terms Eligibility1(b)\u2013(c); FAQ Q14; entire-page citizenship/residence keyword checks",
+      "authoritative_type": "bounded_textual_review_of_official_guidance",
+      "status_version": "terms_and_faq_updated_2026-10-20",
+      "scope": "Cross-border applicant considerations",
+      "evidence_limits": "Absence in reviewed text does not establish a UK-based person\u2019s eligibility, payment treatment or application to other reward programs."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "filters": {
+    "award_type_codes": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "recipient_search_text": [
+      "Amazon."
+    ],
+    "time_period": [
+      {
+        "start_date": "2025-10-01",
+        "end_date": "2026-09-30"
+      }
+    ]
+  },
+  "fields": [
+    "Award ID",
+    "generated_internal_id",
+    "Recipient Name",
+    "Recipient UEI",
+    "recipient_id",
+    "Awarding Agency",
+    "Awarding Agency Code",
+    "Awarding Sub Agency",
+    "Start Date",
+    "End Date",
+    "Award Amount",
+    "Place of Performance State Code",
+    "PSC"
+  ],
+  "limit": 100,
+  "page": 1,
+  "sort": "Award ID",
+  "order": "asc",
+  "subawards": false
+}

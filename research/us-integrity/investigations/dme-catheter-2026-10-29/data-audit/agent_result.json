@@ -1,0 +1,107 @@
+{
+  "task_id": "dme-catheter-public-data-audit-2026-10-29",
+  "agent_id": "agent-healthcare-dme",
+  "input_commit": "ec341a476bad7cb7771a0133f5ec380bd7420e2c",
+  "cohort": {
+    "years": [
+      2022,
+      2023,
+      2024
+    ],
+    "hcpcs": [
+      "A4351",
+      "A4352",
+      "A4353"
+    ],
+    "supplier_rows": 6870,
+    "national_rows": 9,
+    "exact_key": [
+      "Suplr_NPI",
+      "year",
+      "HCPCS_Cd",
+      "Suplr_Rentl_Ind"
+    ],
+    "population": "all available public supplier rows for each code, not all claims or all suppliers"
+  },
+  "source_ids": [
+    "DME-SUP-2022-A4351",
+    "DME-SUP-2022-A4352",
+    "DME-SUP-2022-A4353",
+    "DME-SUP-2023-A4351",
+    "DME-SUP-2023-A4352",
+    "DME-SUP-2023-A4353",
+    "DME-SUP-2024-A4351",
+    "DME-SUP-2024-A4352",
+    "DME-SUP-2024-A4353",
+    "DME-NAT-2022-A4351",
+    "DME-NAT-2022-A4352",
+    "DME-NAT-2022-A4353",
+    "DME-NAT-2023-A4351",
+    "DME-NAT-2023-A4352",
+    "DME-NAT-2023-A4353",
+    "DME-NAT-2024-A4351",
+    "DME-NAT-2024-A4352",
+    "DME-NAT-2024-A4353",
+    "DME-METHODOLOGY",
+    "DME-DICTIONARY_PDF",
+    "DME-CATALOG"
+  ],
+  "direct_findings": [
+    {
+      "id": "DME-DATA-F01",
+      "type": "calculated_from_official_public_data",
+      "statement": "Supplier-detail A4353 PUF payment reconstruction rises from $39,176,515.57 in 2022 to $3,057,362,798.24 in 2023 and declines to $1,153,543,262.92 in 2024.",
+      "basis": "analysis.json summaries",
+      "measure": "services multiplied by published average Medicare payment; USD; not independently verified cash"
+    },
+    {
+      "id": "DME-DATA-F02",
+      "type": "calculated_from_official_public_data",
+      "statement": "For A4353 2022\u20132023, 83 newly visible exact NPI/code/rental rows contribute $3,017,853,044.53; matched rows contribute a $1,592,634.97 increase; exiting rows had $1,259,396.83.",
+      "basis": "analysis.json comparisons",
+      "measure": "reconstructed PUF payment change; USD"
+    },
+    {
+      "id": "DME-DATA-F03",
+      "type": "calculated_from_official_public_data",
+      "statement": "National A4353 reconstructed PUF payment amounts are $40,876,216.24, $3,059,163,823.61 and $1,155,271,517.52 for 2022\u20132024; supplier detail covers 95.84%, 99.94%, 99.85%.",
+      "basis": "national_reconciliation.json",
+      "measure": "reconstructed PUF payment; USD"
+    },
+    {
+      "id": "DME-DATA-F04",
+      "type": "observed_data_quality",
+      "statement": "4,868 of 6,870 supplier rows have blank beneficiary counts. Every row has at least 11 claims. No key duplicates or missing required monetary/service fields observed.",
+      "basis": "analysis.json missing_fields and validation.json"
+    }
+  ],
+  "inferences": [
+    "Magnitude and exact-entry concentration support prioritising the already documented catheter area for reconciliation.",
+    "A4352 is affected and is unsuitable as a clean negative control."
+  ],
+  "contradictions": [
+    "Methodology suppression wording differs between sections and from dictionary; retain blanks as unknown.",
+    "A processed PUF payment measure is not enough to reconcile released cash under suspension.",
+    "A code-entry cohort is not a list of newly formed or newly acquired companies."
+  ],
+  "benign_alternatives_tested": [
+    "Price-only change: weighted A4353 payment per service increased 9.17%, while units increased 7048.23%.",
+    "Uniform sector demand: A4351 total growth 17.97% and matched A4353 large-base median growth 0.30%, inconsistent with uniform 7704.07% growth.",
+    "Suppression: national table retains the spike; detail coverage quantified.",
+    "Prior product migration: 44 of 83 newly visible 2023 A4353 NPIs were visible in prior-year comparator codes; not all are new to catheter activity.",
+    "Specialisation/acquisitions/referral concentration remain unresolved without dated individual evidence."
+  ],
+  "missing_data": [
+    "Claim-level service dates, modifiers and medical necessity",
+    "Patient consent and delivery",
+    "Cash disbursement, suspension, escrow and recoupment status",
+    "Dated beneficial ownership and actual buyers",
+    "Non-FFS Medicare and other payers",
+    "Suppressed supplier rows and beneficiary fields"
+  ],
+  "method": "audit_catheters.py; Decimal totals; exact NPI/year/code/rental keys; full filtered stats counts plus terminal empty pages; national reconciliation; hashes distinguish selected response from original full source.",
+  "visibility": "public neutral cohort statistics and source records; no novel named suspicion ranking",
+  "legal_status_if_case": "Not a case determination; no new allegation asserted.",
+  "next_step": "Join exact identifiers to dated official ownership/enrolment and documented enforcement; reconcile claim approval to actual cash and secondary-payer exposure where available.",
+  "review_status": "Internal provenance/arithmetic QA passed; independent falsification reviewer is reviewing. No clinical, fraud, or cash determination."
+}

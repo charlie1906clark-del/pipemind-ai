@@ -1,0 +1,142 @@
+{
+  "scope": "Two anonymized NPIs with a current revoked enrollment effective before 2024 and a released 2024 catheter PUF row. Linkage review only, not an allegation.",
+  "review_date": "2026-10-29",
+  "public_status": "unresolved",
+  "source_catalog": "https://data.cms.gov/data.json",
+  "source_methodology": "https://data.cms.gov/sites/default/files/2026-07/PPEF_Data_Guidance.pdf",
+  "source_main_versions": [
+    {
+      "label": "Q1_2026",
+      "data_url": "https://data.cms.gov/data-api/v1/dataset/7fa94d4b-12ec-4a05-a09f-572b94147179/data",
+      "modified": "2026-06-30"
+    },
+    {
+      "label": "Q3_2026",
+      "data_url": "https://data.cms.gov/data-api/v1/dataset/903dcfa5-4924-4775-8676-4fa0f6a8aee9/data",
+      "modified": "2026-07-27"
+    },
+    {
+      "label": "Q4_2026",
+      "data_url": "https://data.cms.gov/data-api/v1/dataset/d94cfc52-f241-4de0-9100-a95c564a5d80/data",
+      "modified": "2026-10-19"
+    }
+  ],
+  "additional_npi_source": "https://data.cms.gov/sites/default/files/2026-09/PPEF_Additional_NPIs_2026.09.29.csv",
+  "query_methods": [
+    "Each version: /data?filter[NPI]=<candidate_npi>&column=NPI,ENRLMT_ID,MULTIPLE_NPI_FLAG,PROVIDER_TYPE_CD,PROVIDER_TYPE_DESC,STATE_CD&size=5000",
+    "Download Q4 additional-NPI file; exact string NPI match; query associated ENRLMT_ID against Q4 main data with the same selected noncontact columns.",
+    "Bounded web search for exact legal/trade names, revocation and site:hhs.gov/about/agencies/dab; no decision matched conclusively. Similar-name results excluded from identity conclusions."
+  ],
+  "candidates": [
+    {
+      "label": "Candidate A",
+      "primary_npi_rows_Q1_Q3_Q4": [
+        0,
+        0,
+        0
+      ],
+      "q4_additional_npi_rows": 1,
+      "approved_enrollment_distinct_from_revoked_enrollment": true,
+      "approved_enrollment_scope": "PART B SUPPLIER - MASS IMMUNIZATION (ROSTER BILLER ONLY)",
+      "approved_enrollment_type": "12-73",
+      "revoked_scope": "DME SUPPLIER - PHARMACY",
+      "interpretation": "Different approved enrollment demonstrated. Its immunization-only scope does not establish DME/catheter permission. This does not determine the enrollment used by 2024 claims.",
+      "historical_2024_enrollment_status": null,
+      "revocation_notice_date": null,
+      "appeal_disposition": null,
+      "released_claim_cash_after_revocation": null,
+      "conclusive_published_enforcement_match": null
+    },
+    {
+      "label": "Candidate B",
+      "primary_npi_rows_Q1_Q3_Q4": [
+        0,
+        0,
+        0
+      ],
+      "q4_additional_npi_rows": 0,
+      "approved_enrollment_distinct_from_revoked_enrollment": null,
+      "approved_enrollment_scope": null,
+      "revoked_scope": "DME SUPPLIER - MEDICAL SUPPLY COMPANY",
+      "interpretation": "No exact hit in the three primary enrollment snapshots or latest companion file. This neither establishes 2024 status nor proves improper billing; retrospective action, different enrollment and correction histories remain untested.",
+      "historical_2024_enrollment_status": null,
+      "revocation_notice_date": null,
+      "appeal_disposition": null,
+      "released_claim_cash_after_revocation": null,
+      "conclusive_published_enforcement_match": null
+    }
+  ],
+  "request_provenance_without_identifiers": [
+    {
+      "source_type": "Q1",
+      "retrieved_at": "2026-10-29T19:22:43.941244+00:00",
+      "status": 200,
+      "wire_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "selected_rows": 0
+    },
+    {
+      "source_type": "Q1",
+      "retrieved_at": "2026-10-29T19:22:43.941907+00:00",
+      "status": 200,
+      "wire_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "selected_rows": 0
+    },
+    {
+      "source_type": "Q3",
+      "retrieved_at": "2026-10-29T19:22:43.942397+00:00",
+      "status": 200,
+      "wire_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "selected_rows": 0
+    },
+    {
+      "source_type": "Q3",
+      "retrieved_at": "2026-10-29T19:22:43.942926+00:00",
+      "status": 200,
+      "wire_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "selected_rows": 0
+    },
+    {
+      "source_type": "Q4",
+      "retrieved_at": "2026-10-29T19:22:43.943360+00:00",
+      "status": 200,
+      "wire_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "selected_rows": 0
+    },
+    {
+      "source_type": "Q4",
+      "retrieved_at": "2026-10-29T19:22:48.141252+00:00",
+      "status": 200,
+      "wire_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "selected_rows": 0
+    },
+    {
+      "source_type": "Q4 additional NPI join",
+      "retrieved_at": "2026-10-29T19:22:48.198785+00:00",
+      "status": 200,
+      "wire_response_sha256": "c8eaec77b2a7918b7d4d954be82ce22b4e4fb54a264686c7dd954520d293d458",
+      "bytes": 3613583,
+      "selected_rows": 1
+    },
+    {
+      "source_type": "Q4 additional NPI join",
+      "retrieved_at": "2026-10-29T19:23:30.915894+00:00",
+      "status": 200,
+      "wire_response_sha256": "c89f933b8782528de8ede586649657aa6f1253e7cacd0eccffb0fd6e26bc4e47",
+      "bytes": 199,
+      "selected_rows": 1
+    }
+  ],
+  "unknowns": [
+    "Historical billed enrollment ID and service dates",
+    "Dates of decision, notice, appeal and any reinstatement",
+    "Cash release, suspension, reversal and recoupment history"
+  ],
+  "disposition": "Retain as anonymous unresolved audit candidates. No fraud finding, loss estimate, owner attribution or payment recovery calculation.",
+  "privacy": "Exact candidate identifiers, filtered query URLs and selected responses are retained outside the public repository. Public enrollment and revocation national snapshots remain official neutral data."
+}

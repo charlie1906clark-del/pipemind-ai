@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "dispatch_authority": "root coordinator",
+  "tasks": [
+    {
+      "task_id": "CLAUDE-PRICE-001",
+      "task_spec_sha256": "849eb61073caffd57570768fd7a004342c1d4f0b99b2a40e61592fa21330695d",
+      "state": "queued_not_dispatched",
+      "provider_response_id": null,
+      "result_sha256": null,
+      "review_receipt_sha256": null,
+      "task_version": 2,
+      "input_commit": "616b90018b4a66dcf3802576fe3cc5ede9434e65",
+      "supersedes_task_spec_sha256": "fb25f6dbbcccdf06cdcb8ae61beda17fcbc6eacdade635f244faa7f2a0249a9e"
+    },
+    {
+      "task_id": "GROK-IDENTITY-001",
+      "task_spec_sha256": "ef9fbaebada9cad5d96d16acfd81b452f39f26a20df5a27abbaecce08ed37a91",
+      "state": "queued_not_dispatched",
+      "provider_response_id": null,
+      "result_sha256": null,
+      "review_receipt_sha256": null,
+      "task_version": 2,
+      "input_commit": "616b90018b4a66dcf3802576fe3cc5ede9434e65",
+      "supersedes_task_spec_sha256": "a94a2c107ecf50d9306cc2e1e1c4d6ec3ad108f8a61e30942580048f32db4b7e"
+    }
+  ],
+  "automatic_execution": false,
+  "input_commit": "616b90018b4a66dcf3802576fe3cc5ede9434e65"
+}

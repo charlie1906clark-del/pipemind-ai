@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-10-30",
+  "scope": "Bounded search of federal reward authority, selected congressional statements and relevant procurement proposals; not exhaustive Congressional Record review.",
+  "method": "Primary-source-first web search and direct official URLs; GovInfo BILLSTATUS XML fallback when Congress.gov was blocked; dates and failed retrievals retained.",
+  "query_families": [
+    {"queries": ["site:congress.gov whistleblower one percent fraud government 2026", "site:congress.gov Trump 1 percent fraud whistleblower", "site:congress.gov whistleblower 1 percent 119th", "site:congress.gov Fraud Whistleblower Incentive", "site:senate.gov 1 percent fraud whistleblower", "site:house.gov 1% fraud whistleblower"], "finding": "No retrieved enacted universal 1% government savings reward or identifiable universal 1% bill; negative result bounded by search coverage."},
+    {"queries": ["site:senate.gov whistleblower October 2026 fraud reward", "site:grassley.senate.gov False Claims 2025 whistleblower", "site:congress.gov/bill/119th-congress False Claims", "site:congress.gov/bill/119th-congress whistleblower reward"], "finding": "FCA statements and sector-specific pending legislation; captured statutory and agency rules separately."},
+    {"queries": ["site:congress.gov Stop Child Care Fraud Act 2026", "site:house.gov fraud mandatory minimum 2026", "Fraud Accountability and Mandatory Sentencing Act", "site:congress.gov state officials fraud 2026 liability"], "finding": "Cline October29 announcement and linked scanned draft; no independently located official bill-number/status record. Older HR7725/7726 distinct."},
+    {"queries": ["site:congress.gov Transparency in Contract Pricing Act 2025", "site:congress.gov Transparency in Contracting Act of 2025", "Transparency in Contract Pricing Act of 2025 bill Senate", "119-60 3702 10000000", "2026-O0048 10 million"], "finding": "September member proposal with blank-number draft; October bipartisan oversight letter; enacted FY26NDAA threshold amendment independently verified."}
+  ],
+  "retrieval_limitations": [
+    "Congress.gov direct bill pages blocked by robots/access control; official GovInfo BILLSTATUS XML used.",
+    "Some current House USCode URLs returned404/503; GPO2024 full text and current House search-index snippets distinguished.",
+    "Official DFARS deviation PDF direct access returned502/503; do not claim full-text or current-revision validation.",
+    "Cline release/PDF unavailable through web open but direct HTTP succeeded; original HTML and scanned PDF saved.",
+    "Latest action date in returned XML is not assumed to equal retrieval date or a complete real-time legislative record."
+  ],
+  "completion_boundary": "Selected statutes, five statements, six bill-status captures and procurement-rule cross-check completed. No claim all congressional remarks or all federal reward authorities were exhaustively searched."
+}

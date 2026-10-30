@@ -1,0 +1,68 @@
+[
+  {
+    "id": "OWN-S001",
+    "title": "RTX Exhibit 21: subsidiary and affiliate listing at 2025-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/exhibit212025-12x3110xk.htm",
+    "publisher": "SEC EDGAR / RTX issuer filing",
+    "published_at": "2026-02-06",
+    "summary": "Raytheon Company appears in the dated issuer subsidiary/affiliate listing; not a full beneficial ownership chain.",
+    "accessed_at": "2026-10-29",
+    "retrieval_status": "web_open",
+    "source_bytes_archived": false
+  },
+  {
+    "id": "OWN-S002",
+    "title": "CVS Health Exhibit 21.1: subsidiaries at 2025-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000010/exhibit211-2025.htm",
+    "publisher": "SEC EDGAR / CVS issuer filing",
+    "published_at": "2026-02-10",
+    "summary": "Aetna Inc. is listed as a CVS Health subsidiary at this date; do not apply to every earlier transaction.",
+    "accessed_at": "2026-10-29",
+    "retrieval_status": "web_open",
+    "source_bytes_archived": false
+  },
+  {
+    "id": "OWN-S003",
+    "title": "RTX FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm",
+    "publisher": "SEC EDGAR / RTX issuer filing",
+    "published_at": "2026-02-06",
+    "summary": "Dated corporate financial-reporting source. No revenue value has been extracted or reconciled to federal awards in this graph.",
+    "accessed_at": "2026-10-29",
+    "retrieval_status": "web_open",
+    "source_bytes_archived": false
+  },
+  {
+    "id": "OWN-S004",
+    "title": "CVS Health FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000010/cvs-20251231.htm",
+    "publisher": "SEC EDGAR / CVS issuer filing",
+    "published_at": "2026-02-10",
+    "summary": "Consolidated/segment accounting source, not a ledger of purchases or complete customer sales.",
+    "accessed_at": "2026-10-29",
+    "retrieval_status": "web_open",
+    "source_bytes_archived": false
+  },
+  {
+    "id": "OWN-S005",
+    "title": "DOJ Raytheon defective-pricing, bribery and export-control resolutions",
+    "url": "https://www.justice.gov/archives/opa/pr/raytheon-company-pay-over-950m-connection-defective-pricing-foreign-bribery-and-export",
+    "publisher": "DOJ",
+    "published_at": "2024-10-16",
+    "summary": "Published DPA and civil resolutions with admitted conduct; not a new lead or a conviction. Identifies Raytheon as RTX subsidiary and DoD procurement counterparty.",
+    "accessed_at": "2026-10-29",
+    "retrieval_status": "web_open",
+    "source_bytes_archived": false
+  },
+  {
+    "id": "OWN-S006",
+    "title": "GAO: limited beneficial ownership information available on awardees",
+    "url": "https://www.gao.gov/products/gao-26-108174",
+    "publisher": "GAO",
+    "published_at": "2026-09-30",
+    "summary": "Federal award and registry ownership information has substantial coverage limitations; listed officers and agents may not be beneficial owners.",
+    "accessed_at": "2026-10-29",
+    "retrieval_status": "web_open",
+    "source_bytes_archived": false
+  }
+]

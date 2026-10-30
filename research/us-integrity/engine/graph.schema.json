@@ -1,0 +1,226 @@
+{
+  "$defs": {
+    "edge": {
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "properties": {
+          "type": "object"
+        },
+        "source": {
+          "$ref": "#/$defs/id"
+        },
+        "source_ids": {
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "status": {
+          "enum": [
+            "allegation",
+            "audit_finding",
+            "closed",
+            "conviction",
+            "disproved",
+            "disputed",
+            "documented_fact",
+            "hypothesis",
+            "planned",
+            "published_case",
+            "settlement",
+            "source",
+            "unknown",
+            "verified"
+          ]
+        },
+        "target": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "source",
+        "target",
+        "status",
+        "source_ids",
+        "properties"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "not": {
+        "pattern": "\\.\\."
+      },
+      "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,159}$",
+      "type": "string"
+    },
+    "node": {
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "source"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "properties": {
+                "properties": {
+                  "accessed_at": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "format": "uri",
+                    "pattern": "^https?://",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "url",
+                  "accessed_at"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "case"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "properties": {
+                "properties": {
+                  "legal_status": {
+                    "enum": [
+                      "acquitted",
+                      "administrative_action",
+                      "allegation",
+                      "audit",
+                      "audit_finding",
+                      "charged",
+                      "civil_settlement",
+                      "complaint",
+                      "convicted",
+                      "conviction",
+                      "dismissed",
+                      "guilty_plea",
+                      "indicted",
+                      "judgment",
+                      "mixed",
+                      "pending",
+                      "published_case",
+                      "sentenced",
+                      "settled",
+                      "settlement",
+                      "unknown"
+                    ]
+                  }
+                },
+                "required": [
+                  "legal_status"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "properties": {
+          "type": "object"
+        },
+        "source_ids": {
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "status": {
+          "enum": [
+            "allegation",
+            "audit_finding",
+            "closed",
+            "conviction",
+            "disproved",
+            "disputed",
+            "documented_fact",
+            "hypothesis",
+            "planned",
+            "published_case",
+            "settlement",
+            "source",
+            "unknown",
+            "verified"
+          ]
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "type": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "title",
+        "status",
+        "source_ids",
+        "properties"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://example.invalid/us-integrity/graph-v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Structural contract. Runtime validation additionally checks source types, endpoint references, legal status conflicts, money, privacy, and publication restrictions. No network retrieval or truth verification is performed.",
+  "properties": {
+    "as_of": {
+      "format": "date",
+      "type": "string"
+    },
+    "edges": {
+      "items": {
+        "$ref": "#/$defs/edge"
+      },
+      "type": "array"
+    },
+    "nodes": {
+      "items": {
+        "$ref": "#/$defs/node"
+      },
+      "type": "array"
+    },
+    "version": {
+      "const": "1.0"
+    }
+  },
+  "required": [
+    "version",
+    "as_of",
+    "nodes",
+    "edges"
+  ],
+  "title": "US Integrity Evidence Graph v1",
+  "type": "object"
+}

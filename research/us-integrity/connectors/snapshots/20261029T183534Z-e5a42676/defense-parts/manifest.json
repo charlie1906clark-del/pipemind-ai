@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "cohort": "defense-parts",
+  "scope": "PSC 1680 contracts awarded by the API's Department of Defense label; no fraud inference.",
+  "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+  "method": "POST",
+  "started_at": "2026-10-29T18:35:34+00:00",
+  "request_file": "request.json",
+  "request_sha256": "aa52e0faf50497acf8b86a1fc998a755d1bf3378cb4de7c2c5193c86188b6d93",
+  "source_contract": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/contracts/v2/search/spending_by_award.md",
+  "source_filters": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+  "api_contract_checked_on": "2026-10-29",
+  "timeout_seconds": 20,
+  "max_response_bytes": 4194304,
+  "request_limit": 20,
+  "pages_requested": [
+    1
+  ],
+  "auto_pagination": false,
+  "automatic_retries": 0,
+  "sampling": "largest_cumulative_award_amount_descending_first_page",
+  "sample_is_random": false,
+  "sample_is_complete_population": false,
+  "truncated_sample": true,
+  "is_fraud_rank": false,
+  "amount_semantics": "Cumulative award-level amount, not spending within the FY filter, not contract ceiling, not a fraud loss or recoverable sum.",
+  "time_filter_semantics": "FY2026 award-search date window; default date_type omitted. It is not an FY2026 transaction-spending aggregate.",
+  "ownership_verified": false,
+  "success": true,
+  "http_status": 200,
+  "response_content_type": "application/json",
+  "response_date_header": "Thu, 29 Oct 2026 18:35:40 GMT",
+  "response_file": "response.json",
+  "response_sha256": "bc9689a53c2bfdcefcc392d6894d78f3d0d4099da977a9173e14a35330f1a21d",
+  "response_bytes": 16038,
+  "warnings": [],
+  "records_returned": 20,
+  "page_metadata": {
+    "page": 1,
+    "hasNext": true,
+    "last_record_unique_id": 298587362,
+    "last_record_sort_value": "30229499404"
+  },
+  "api_messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ],
+  "completed_at": "2026-10-29T18:35:40+00:00"
+}

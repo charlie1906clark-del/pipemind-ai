@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-30",
+  "primary_source_sha256_verified": true,
+  "selected_snapshot_sha256_verified": true,
+  "offline_replay_byte_equal": true,
+  "historical_rows_visually_checked": 7,
+  "historical_pages": [
+    7,
+    8
+  ],
+  "independent_reviewer": "discovery_method_reviewer",
+  "negative_control_tests_passed": 6,
+  "tests": [
+    "ceiling rejected",
+    "missing historical unit rejected",
+    "nonfinite values rejected",
+    "quantity difference requires specific reviewed adjustment",
+    "complete comparable prices still not fraud or savings inference",
+    "all 21 actual historical pairs blocked"
+  ],
+  "json_files_parse": true,
+  "new_fraud_case_claimed": false,
+  "scope_limit": "One RFQ; seven prior-price observations; no actual invoice/payments verified",
+  "packaged_live_replay_hash_matched": true,
+  "packaged_live_replay_selection_byte_equal": true,
+  "extractor_warning": "Poppler reported a PDF form Fields-array warning; text extraction succeeded and history table was visually validated."
+}

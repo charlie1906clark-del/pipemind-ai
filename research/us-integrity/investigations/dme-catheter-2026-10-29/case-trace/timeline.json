@@ -1,0 +1,257 @@
+{
+  "as_of": "2026-10-29",
+  "events": [
+    {
+      "id": "CT-T001",
+      "date": "2022-08",
+      "date_precision": "month",
+      "event": "Original EDNY alleged conduct period begins.",
+      "status": "allegation",
+      "source_ids": [
+        "CT-S003"
+      ]
+    },
+    {
+      "id": "CT-T002",
+      "date": "2023",
+      "date_precision": "year",
+      "event": "CMS detects fifteen-supplier catheter spike.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S004"
+      ]
+    },
+    {
+      "id": "CT-T003",
+      "date": "2024-07-06",
+      "date_precision": "day",
+      "event": "CMS prevented-payment snapshot exceeds4.2bn.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S004"
+      ]
+    },
+    {
+      "id": "CT-T004",
+      "date": "2024-09",
+      "date_precision": "month",
+      "event": "Original EDNY alleged conduct period ends.",
+      "status": "allegation",
+      "source_ids": [
+        "CT-S003"
+      ]
+    },
+    {
+      "id": "CT-T005",
+      "date": "2025-02-18",
+      "date_precision": "day",
+      "event": "ND Medical sale to Gugava alleged.",
+      "status": "allegation",
+      "source_ids": [
+        "CT-S020"
+      ]
+    },
+    {
+      "id": "CT-T006",
+      "date": "2025-06-12",
+      "date_precision": "day",
+      "event": "Centennial sale closes according to former-owner interview.",
+      "status": "allegation",
+      "source_ids": [
+        "CT-S009"
+      ]
+    },
+    {
+      "id": "CT-T007",
+      "date": "2025-06-18",
+      "date_precision": "day",
+      "event": "EDNY Gold Rush indictment filed.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S003"
+      ]
+    },
+    {
+      "id": "CT-T008",
+      "date": "2025-06-20",
+      "date_precision": "day",
+      "event": "Centennial sole-officer/manager change alleged.",
+      "status": "allegation",
+      "source_ids": [
+        "CT-S008"
+      ]
+    },
+    {
+      "id": "CT-T009",
+      "date": "2025-06-30",
+      "date_precision": "day",
+      "event": "Gold Rush national takedown announcement.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S001"
+      ]
+    },
+    {
+      "id": "CT-T010",
+      "date": "2025-06-30",
+      "date_precision": "day",
+      "event": "Centennial emergency payment suspension approximately begins.",
+      "status": "allegation",
+      "source_ids": [
+        "CT-S009"
+      ]
+    },
+    {
+      "id": "CT-T011",
+      "date": "2025-07-09",
+      "date_precision": "day",
+      "event": "ND Medical alleged Gugava ownership period ends.",
+      "status": "allegation",
+      "source_ids": [
+        "CT-S020"
+      ]
+    },
+    {
+      "id": "CT-T012",
+      "date": "2025-12",
+      "date_precision": "month",
+      "event": "CMS sends first suspension report to supplemental payers.",
+      "status": "audit_finding",
+      "source_ids": [
+        "CT-S005"
+      ]
+    },
+    {
+      "id": "CT-T013",
+      "date": "2026-01",
+      "date_precision": "month",
+      "event": "Second suspension report supplied; monthly cadence planned.",
+      "status": "audit_finding",
+      "source_ids": [
+        "CT-S005"
+      ]
+    },
+    {
+      "id": "CT-T014",
+      "date": "2026-02-03",
+      "date_precision": "day",
+      "event": "Abramov guilty plea.",
+      "status": "conviction",
+      "source_ids": [
+        "CT-S015"
+      ]
+    },
+    {
+      "id": "CT-T015",
+      "date": "2026-03-27",
+      "date_precision": "day",
+      "event": "Danelia complaint filed.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S009"
+      ]
+    },
+    {
+      "id": "CT-T016",
+      "date": "2026-03-30",
+      "date_precision": "day",
+      "event": "GAO publishes notification/control findings.",
+      "status": "audit_finding",
+      "source_ids": [
+        "CT-S005"
+      ]
+    },
+    {
+      "id": "CT-T017",
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "event": "Zarbailov sentenced; forfeiture ordered.",
+      "status": "conviction",
+      "source_ids": [
+        "CT-S017"
+      ]
+    },
+    {
+      "id": "CT-T018",
+      "date": "2026-06-17",
+      "date_precision": "day",
+      "event": "Bendeliani indictment signed and filed.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S008"
+      ]
+    },
+    {
+      "id": "CT-T019",
+      "date": "2026-06-25",
+      "date_precision": "day",
+      "event": "DNH announces Gold Rush-linked Centennial charges.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S006"
+      ]
+    },
+    {
+      "id": "CT-T020",
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "event": "Abramov sentenced to18months.",
+      "status": "conviction",
+      "source_ids": [
+        "CT-S016"
+      ]
+    },
+    {
+      "id": "CT-T021",
+      "date": "2026-08-13",
+      "date_precision": "day",
+      "event": "Zarbavel guilty plea.",
+      "status": "conviction",
+      "source_ids": [
+        "CT-S018"
+      ]
+    },
+    {
+      "id": "CT-T022",
+      "date": "2026-08-14",
+      "date_precision": "day",
+      "event": "DOJ reports35 charged/16 convicted to date.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S018"
+      ]
+    },
+    {
+      "id": "CT-T023",
+      "date": "2026-09-03",
+      "date_precision": "day",
+      "event": "Gugava indictment filed.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S011",
+        "CT-S020"
+      ]
+    },
+    {
+      "id": "CT-T024",
+      "date": "2026-09-08",
+      "date_precision": "day",
+      "event": "CMS announces eleven-supplier preclusion.",
+      "status": "documented_fact",
+      "source_ids": [
+        "CT-S012"
+      ]
+    },
+    {
+      "id": "CT-T025",
+      "date": "2026-12-16",
+      "date_precision": "day",
+      "event": "Zarbavel sentencing scheduled; future at research cutoff.",
+      "status": "planned",
+      "source_ids": [
+        "CT-S018"
+      ]
+    }
+  ],
+  "notes": "Publication dates are in source records. Alleged event dates are not adjudicated facts. Scheduled future events are not completed."
+}

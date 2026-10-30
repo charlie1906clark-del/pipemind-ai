@@ -1,0 +1,1082 @@
+{
+  "task_id": "dme-catheter-case-trace-2026-10-29",
+  "agent_id": "catheter_case_tracer",
+  "input_commit": "ec341a476bad7cb7771a0133f5ec380bd7420e2c",
+  "cohort": "Public Gold Rush court/enforcement records, CMS fifteen-supplier2023–24 cohort, later Centennial and ND Medical branches, and CMS eleven-supplier2025–26 action",
+  "source_ids": [
+    "CT-S001",
+    "CT-S002",
+    "CT-S003",
+    "CT-S004",
+    "CT-S005",
+    "CT-S006",
+    "CT-S007",
+    "CT-S008",
+    "CT-S009",
+    "CT-S010",
+    "CT-S011",
+    "CT-S012",
+    "CT-S013",
+    "CT-S014",
+    "CT-S015",
+    "CT-S016",
+    "CT-S017",
+    "CT-S018",
+    "CT-S019",
+    "CT-S020",
+    "CT-S021"
+  ],
+  "sources": [
+    {
+      "id": "CT-S001",
+      "title": "2025 National Health Care Fraud Takedown",
+      "url": "https://www.justice.gov/opa/pr/national-health-care-fraud-takedown-results-324-defendants-charged-connection-over-146",
+      "publisher": "DOJ OPA",
+      "published_at": "2025-06-30",
+      "accessed_at": "2026-10-29",
+      "locator": "Transnational Criminal Organizations, Gold Rush paragraphs; retrieved lines81–87",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Umbrella allegation; intended loss, escrow, payments and seizures are different measures.",
+      "browse_ref": "turn91view0"
+    },
+    {
+      "id": "CT-S002",
+      "title": "11 defendants indicted in Operation Gold Rush",
+      "url": "https://www.justice.gov/usao-edny/pr/11-defendants-indicted-multi-billion-health-care-fraud-scheme-largest-case-loss-amount",
+      "publisher": "DOJ EDNY",
+      "published_at": "2025-06-30",
+      "accessed_at": "2026-10-29",
+      "locator": "Operation Gold Rush section; retrieved lines60–67",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Initial statuses are historical; Eric/Erik spelling differs inside release. Original indictment uses Erik.",
+      "browse_ref": "turn91view1"
+    },
+    {
+      "id": "CT-S003",
+      "title": "United States v. Imam Nakhmatullaev et al., indictment",
+      "url": "https://www.justice.gov/criminal/media/1405326/dl?inline=",
+      "publisher": "EDNY court filing hosted by DOJ",
+      "published_at": "2025-06-18",
+      "accessed_at": "2026-10-29",
+      "locator": "1:25-cr-00203-RPK-JRC, Document4; paragraphs21–45; PDF23pages, docket22pages plus cover",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "original_pdf_bytes_downloaded_to_restricted_scratch",
+      "raw_archived_in_repository": false,
+      "limitations": "Allegations, not findings. Company, billing vendor and registered-agent identities remain placeholders.",
+      "browse_ref": "turn78view2",
+      "sha256": "f1a36b333011afd375905a6d187247bf8b8e914375b686d008244c210811795b",
+      "bytes": 1357953
+    },
+    {
+      "id": "CT-S004",
+      "title": "Urinary Catheter Case Study: CMS Swift Action Saves Billions",
+      "url": "https://www.cms.gov/files/document/cpi-urinary-catheter-case-study.pdf",
+      "publisher": "CMS",
+      "published_at": null,
+      "accessed_at": "2026-10-29",
+      "locator": "PDF p1, Challenge and CMS Actions",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Undated document; financial cutoff explicitly July6,2024. Fifteen supplier names not disclosed.",
+      "browse_ref": "turn87view1"
+    },
+    {
+      "id": "CT-S005",
+      "title": "Medicare: CMS Use of Data Analytics to Identify and Prevent Fraud, GAO-26-107799",
+      "url": "https://files.gao.gov/reports/GAO-26-107799/index.html",
+      "publisher": "GAO",
+      "published_at": "2026-03-30",
+      "accessed_at": "2026-10-29",
+      "locator": "CMS Has Begun to Inform Supplemental Payers of Payment Suspensions; retrieved lines277–285",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Fifteen-provider cohort differs from DOJ umbrella. Private-payer aggregate not known; audit period ends March2026.",
+      "browse_ref": "turn78view0"
+    },
+    {
+      "id": "CT-S006",
+      "title": "New Hampshire and New England Strike Force charges money laundering operation",
+      "url": "https://www.justice.gov/usao-nh/pr/district-new-hampshire-and-new-england-strike-force-charges-money-laundering-operation",
+      "publisher": "DOJ DNH",
+      "published_at": "2026-06-25",
+      "accessed_at": "2026-10-29",
+      "locator": "Paragraphs naming Bendeliani, Danelia, Centennial and Gold Rush; retrieved lines57–65",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Express organizational link; no claim-level overlap schedule.",
+      "browse_ref": "turn64view1"
+    },
+    {
+      "id": "CT-S007",
+      "title": "Four charged in New Hampshire as part of national takedown",
+      "url": "https://www.justice.gov/usao-nh/pr/four-charged-new-hampshire-part-national-health-care-fraud-takedown",
+      "publisher": "DOJ DNH",
+      "published_at": "2026-06-23",
+      "accessed_at": "2026-10-29",
+      "locator": "Bendeliani and Danelia case bullets; official HTML time datetime=2026-06-23T12:00:00Z",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened_and_html_date_verified",
+      "raw_archived_in_repository": false,
+      "limitations": "Bendeliani indicted; Danelia charged by complaint. Cash paid and outgoing wires differ in scope. Publication date rechecked against official HTML after web-tool timeout.",
+      "browse_ref": "turn78view1"
+    },
+    {
+      "id": "CT-S008",
+      "title": "United States v. Kakha Bendeliani, indictment",
+      "url": "https://www.justice.gov/criminal/media/1446896/dl",
+      "publisher": "DNH court filing hosted by DOJ",
+      "published_at": "2026-06-17",
+      "accessed_at": "2026-10-29",
+      "locator": "Printed pp2,8,10–12; paragraphs3,22–29; signed June17,2026",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "original_pdf_bytes_downloaded_to_restricted_scratch",
+      "raw_archived_in_repository": false,
+      "limitations": "Scanned PDF locally OCRed; amounts and ownership date checked against page renders. Caption has incomplete case number, so no number invented.",
+      "browse_ref": "turn87view0",
+      "sha256": "fe9f5f2a8e2f7cb10e94b5e75db145f6c925fcf57b726122dff69c60e65a4554",
+      "bytes": 1479489
+    },
+    {
+      "id": "CT-S009",
+      "title": "United States v. Goga Danelia, complaint and affidavit",
+      "url": "https://www.justice.gov/criminal/media/1446881/dl?inline=",
+      "publisher": "DNH court filing hosted by DOJ",
+      "published_at": "2026-03-27",
+      "accessed_at": "2026-10-29",
+      "locator": "1:26-mj-00089-AJ, Documents1/1-1; affidavit pp7,13,17–20; fn1,fn4,paragraphs45–59",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "original_pdf_bytes_downloaded_to_restricted_scratch",
+      "raw_archived_in_repository": false,
+      "limitations": "Affidavit allegations/probable cause. Unnamed counterparties stay unnamed. Raw personal/contact/bank-account detail omitted.",
+      "browse_ref": "turn77view1",
+      "sha256": "d58595a8920159dc25a95dac2fbe17975240020c8814be96c9572ab8d3f2c312",
+      "bytes": 2807436
+    },
+    {
+      "id": "CT-S010",
+      "title": "Gugava charged over ND Medical proceeds",
+      "url": "https://www.justice.gov/usao-ma/pr/georgian-national-charged-conspiracy-launder-proceeds-13-billion-health-care-fraud",
+      "publisher": "DOJ DMA",
+      "published_at": "2026-09-04",
+      "accessed_at": "2026-10-29",
+      "locator": "Opening and ND Medical paragraphs; retrieved lines49–57",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "One money-laundering-conspiracy count; no conviction established.",
+      "browse_ref": "turn64view0"
+    },
+    {
+      "id": "CT-S011",
+      "title": "Gugava charging announcement, OPA",
+      "url": "https://www.justice.gov/opa/pr/illegal-alien-georgia-charged-conspiracy-launder-proceeds-13b-health-care-fraud-scheme",
+      "publisher": "DOJ OPA",
+      "published_at": "2026-09-04",
+      "accessed_at": "2026-10-29",
+      "locator": "Opening paragraph and ND Medical paragraph",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Parallel government announcement, not independent corroboration. Indictment returned previous day.",
+      "browse_ref": "turn80search0"
+    },
+    {
+      "id": "CT-S012",
+      "title": "CMS action on eleven medical-equipment suppliers",
+      "url": "https://www.cms.gov/newsroom/press-releases/cms-cracks-down-massive-3-4-billion-medical-equipment-supplier-fraud-scheme",
+      "publisher": "CMS",
+      "published_at": "2026-09-08",
+      "accessed_at": "2026-10-29",
+      "locator": "Opening paragraph, supplier characteristics, and examples; retrieved lines47–58",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Names absent; cannot map eleven suppliers to Gold Rush, Centennial, or ND Medical from geography or totals.",
+      "browse_ref": "turn87view2"
+    },
+    {
+      "id": "CT-S013",
+      "title": "White Paper: Nation’s Challenge to Combat DME Fraud, OEI-02-24-00311",
+      "url": "https://oig.hhs.gov/documents/evaluation/11855/OEI-02-24-00311.pdf",
+      "publisher": "HHS-OIG",
+      "published_at": "2026-08",
+      "accessed_at": "2026-10-29",
+      "locator": "Printed pp3–5, Chapter1; AppendixA p16",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Policy analysis; Gold Rush numbers derive from DOJ, not an independent recovery accounting.",
+      "browse_ref": "turn87view3"
+    },
+    {
+      "id": "CT-S014",
+      "title": "Medicare Improperly Paid Suppliers for Intermittent Urinary Catheters",
+      "url": "https://www.oig.hhs.gov/reports/all/2025/medicare-improperly-paid-suppliers-for-intermittent-urinary-catheters/",
+      "publisher": "HHS-OIG",
+      "published_at": "2025",
+      "accessed_at": "2026-10-29",
+      "locator": "What OIG Found and Recommendation Details; retrieved lines97–123",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "July2021–June2022 audit sample. Improper payments are not automatically intentional fraud or the later scheme.",
+      "browse_ref": "turn91view2"
+    },
+    {
+      "id": "CT-S015",
+      "title": "Brooklyn banker pleads guilty",
+      "url": "https://www.justice.gov/opa/pr/brooklyn-banker-pleads-guilty-laundering-proceeds-medicare-fraud-transnational-criminal",
+      "publisher": "DOJ OPA",
+      "published_at": "2026-02-03",
+      "accessed_at": "2026-10-29",
+      "locator": "Opening and plea paragraphs; retrieved lines61–65",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "April20 scheduled sentencing superseded by actual August11 sentence in CT-S016.",
+      "browse_ref": "turn95view0"
+    },
+    {
+      "id": "CT-S016",
+      "title": "Former Brooklyn bank manager sentenced",
+      "url": "https://www.justice.gov/opa/pr/former-brooklyn-bank-manager-sentenced-prison-laundering-proceeds-medicare-fraud",
+      "publisher": "DOJ OPA",
+      "published_at": "2026-08-12",
+      "accessed_at": "2026-10-29",
+      "locator": "Opening, Abramov role, and guilty-plea paragraphs; retrieved lines62–69",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Sentence occurred previous day. Bank not identified; do not generalize liability to all bank staff.",
+      "browse_ref": "turn99view0"
+    },
+    {
+      "id": "CT-S017",
+      "title": "Elnar Zarbailov sentenced",
+      "url": "https://www.justice.gov/opa/pr/new-york-business-owner-sentenced-prison-using-shell-companies-launder-health-care-fraud",
+      "publisher": "DOJ OPA",
+      "published_at": "2026-05-18",
+      "accessed_at": "2026-10-29",
+      "locator": "Opening and final case paragraphs; retrieved lines62–70",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Forfeiture ordered, not proof the money was collected. Five underlying DME companies unnamed here.",
+      "browse_ref": "turn95view1"
+    },
+    {
+      "id": "CT-S018",
+      "title": "Eldar Zarbavel pleads guilty",
+      "url": "https://www.justice.gov/opa/pr/ohio-man-pleads-guilty-laundering-health-care-fraud-proceeds-transnational-criminal",
+      "publisher": "DOJ OPA",
+      "published_at": "2026-08-14",
+      "accessed_at": "2026-10-29",
+      "locator": "Opening, cumulative status, Royce paragraphs; retrieved lines62–71",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "35 charged/16 convicted is dated August14, not a verified current October count. December16 sentencing was scheduled, not completed.",
+      "browse_ref": "turn95view2"
+    },
+    {
+      "id": "CT-S019",
+      "title": "2026 National Health Care Fraud Court Documents",
+      "url": "https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit/2026-national-hcf-court-documents",
+      "publisher": "DOJ",
+      "published_at": "2026",
+      "accessed_at": "2026-10-29",
+      "locator": "NH rows: Danelia complaint and Bendeliani indictment",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Discovery index; not independent case proof.",
+      "browse_ref": "turn92search5"
+    },
+    {
+      "id": "CT-S020",
+      "title": "United States v. Erekle Gugava, indictment, mirrored filed copy",
+      "url": "https://images.universalhub.com/files/attachments/2026/gugava-indictment.pdf",
+      "publisher": "DMA court filing mirrored by Universal Hub",
+      "published_at": "2026-09-03",
+      "accessed_at": "2026-10-29",
+      "locator": "1:26-cr-10243-NMG, Document1; pp3–4 paragraphs14–16; pp8–11 paragraph33",
+      "evidence_tier": "primary_court_filing_third_party_mirror",
+      "retrieval_status": "original_pdf_bytes_downloaded_to_restricted_scratch",
+      "raw_archived_in_repository": false,
+      "limitations": "Web fetch failed; direct public download succeeded. Docket header and key amounts visually checked after local OCR. Official DOJ confirms case and rounded figures; no authenticated court-host copy obtained.",
+      "sha256": "cb5c064f26dd421b56bf9cc8a6ce485d61a34f867cf67a9e4486a18bc0a17c3d",
+      "bytes": 1648148
+    },
+    {
+      "id": "CT-S021",
+      "title": "2025 National Health Care Fraud Court Documents",
+      "url": "https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit/2025-national-hcf-court-documents",
+      "publisher": "DOJ",
+      "published_at": "2025",
+      "accessed_at": "2026-10-29",
+      "locator": "EDNY row: United States v. Imam Nakhmatullaev et al.; retrieved line116",
+      "evidence_tier": "official_primary",
+      "retrieval_status": "web_page_opened",
+      "raw_archived_in_repository": false,
+      "limitations": "Discovery index; not independent case proof.",
+      "browse_ref": "turn77view0"
+    }
+  ],
+  "direct_findings": [
+    {
+      "id": "CT-F001",
+      "status": "allegation",
+      "statement": "2025 Gold Rush umbrella distinguishes bills, scheduled payments, escrow, cash received and seized assets.",
+      "source_ids": [
+        "CT-S001"
+      ],
+      "locator": "Gold Rush paragraphs",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "10600000000",
+          "currency": "USD",
+          "measure": "submitted_claims",
+          "period": "2025-06-30 announcement",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "goldrush_umbrella",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "4450000000",
+          "currency": "USD",
+          "measure": "scheduled_payment",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "goldrush_umbrella",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "4410000000",
+          "currency": "USD",
+          "measure": "escrow_held",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "goldrush_umbrella",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "41000000",
+          "currency": "USD",
+          "measure": "paid_to_suppliers",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "goldrush_umbrella",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "900000000",
+          "currency": "USD",
+          "measure": "paid_to_suppliers",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": "Medicare supplemental",
+          "overlap_group": "goldrush_umbrella",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "27700000",
+          "currency": "USD",
+          "measure": "seized_pending_forfeiture",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": null,
+          "overlap_group": "goldrush_umbrella",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F002",
+      "status": "allegation",
+      "statement": "Original EDNY indictment alleges more than30 suppliers and common billing, registration, courier and pass-through arrangements; unnamed vendors remain placeholders.",
+      "source_ids": [
+        "CT-S003"
+      ],
+      "locator": "paragraphs21–45",
+      "visibility": "public_previously_published",
+      "period": "approximately August2022–September2024",
+      "roles": {
+        "Imam Nakhmatullaev": "supervisor",
+        "Svjatoslav Jakovlev": "nominee owner; later recruiter/supervisor",
+        "Erik Juergens": "nominee owner",
+        "Jaan Juergens": "nominee owner",
+        "Ilja Karunas": "courier",
+        "Juri Karunas": "courier",
+        "Jason Onoufrienko": "nominee owner",
+        "Renek Tiku": "nominee owner",
+        "Vladislav Turaskin": "nominee owner; later recruiter/supervisor",
+        "Kevin Valdhans": "nominee owner",
+        "Vjatseslav Zogolev": "nominee owner"
+      }
+    },
+    {
+      "id": "CT-F003",
+      "status": "documented_fact",
+      "statement": "CMS reported revoking fifteen unnamed recently transferred suppliers and stopping over99% of their payments.",
+      "source_ids": [
+        "CT-S004"
+      ],
+      "locator": "p1, Challenge/CMS Actions",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "4200000000",
+          "currency": "USD",
+          "measure": "prevented_payments",
+          "period": "through 2024-07-06",
+          "qualifier": "greater_than",
+          "payer": "Medicare",
+          "overlap_group": "cms_fifteen",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F004",
+      "status": "audit_finding",
+      "statement": "GAO identified supplemental-payment exposure and documented suspension reports beginning December2025/January2026; total private-payer cash remains unknown.",
+      "source_ids": [
+        "CT-S005"
+      ],
+      "locator": "section CMS Has Begun to Inform Supplemental Payers of Payment Suspensions",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "196000",
+          "currency": "USD",
+          "measure": "cost_sharing_paid",
+          "period": "2023–2024 during Medicare suspensions",
+          "qualifier": "at_least",
+          "payer": "state and federal Medicaid",
+          "overlap_group": "cms_fifteen",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F005",
+      "status": "allegation",
+      "statement": "DOJ expressly links Centennial and ND Medical cases to the Gold Rush organization. Claim-level inclusion in the 2025 aggregate remains unverified.",
+      "source_ids": [
+        "CT-S006",
+        "CT-S010"
+      ],
+      "locator": "Gold Rush linkage paragraphs",
+      "visibility": "public_previously_published",
+      "overlap_resolution": "same_alleged_organization_not_proven_identical_claim_cohort"
+    },
+    {
+      "id": "CT-F006",
+      "status": "allegation",
+      "statement": "Centennial indictment provides distinct billed, Medicare-paid and supplemental-paid totals.",
+      "source_ids": [
+        "CT-S008"
+      ],
+      "locator": "p2 paragraph3; p10 paragraph29(e–f)",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "2939389691",
+          "currency": "USD",
+          "measure": "submitted_claims",
+          "period": "purported ownership beginning June2025",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "centennial",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "1039049.20",
+          "currency": "USD",
+          "measure": "paid_to_supplier",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "centennial",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "11550720.80",
+          "currency": "USD",
+          "measure": "paid_to_supplier",
+          "period": "same",
+          "qualifier": "at_least_approximately",
+          "payer": "Medicare supplemental",
+          "overlap_group": "centennial",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "12589770",
+          "currency": "USD",
+          "measure": "total_paid_to_supplier",
+          "period": "same",
+          "qualifier": "at_least_approximately",
+          "payer": "Medicare and supplemental",
+          "overlap_group": "centennial",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F007",
+      "status": "allegation",
+      "statement": "Bendeliani allegedly became sole officer/manager June20,2025 and sole signatory at six institutions; registration status is distinct from alleged concealed control.",
+      "source_ids": [
+        "CT-S008"
+      ],
+      "locator": "p10 paragraph29(a–d)",
+      "visibility": "public_previously_published",
+      "entity": "Centennial Med Supply LLC"
+    },
+    {
+      "id": "CT-F008",
+      "status": "allegation",
+      "statement": "Centennial claims data showing $1.2bn paid largely represented escrow after June30,2025 suspension; the suspension did not itself cover private insurers.",
+      "source_ids": [
+        "CT-S009"
+      ],
+      "locator": "affidavit p7 fn1",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "1200000000",
+          "currency": "USD",
+          "measure": "claims_system_paid_including_escrow",
+          "period": "as of February2026",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "centennial",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F009",
+      "status": "allegation",
+      "statement": "Centennial had two unnamed DME counterparties whose transfer purpose remained under investigation.",
+      "source_ids": [
+        "CT-S009"
+      ],
+      "locator": "affidavit p18 paragraph47",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "477807",
+          "currency": "USD",
+          "measure": "inbound_five_checks",
+          "period": "October–December2025",
+          "qualifier": "approximately",
+          "payer": "unnamed DME counterparty",
+          "overlap_group": "centennial_intercompany",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "284000",
+          "currency": "USD",
+          "measure": "outbound_three_checks",
+          "period": "December2025–January2026",
+          "qualifier": "approximately",
+          "payer": null,
+          "overlap_group": "centennial_intercompany",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F010",
+      "status": "allegation",
+      "statement": "Affidavit documents CHAMPVA claims; the cited amount is billing, not payment.",
+      "source_ids": [
+        "CT-S009"
+      ],
+      "locator": "affidavit p13 paragraph36 fn4",
+      "visibility": "public_previously_published",
+      "claim_count": 4873,
+      "amounts": [
+        {
+          "amount": "10900000",
+          "currency": "USD",
+          "measure": "submitted_claims",
+          "period": "as of late January2026",
+          "qualifier": "approximately",
+          "payer": "CHAMPVA",
+          "overlap_group": "centennial",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F011",
+      "status": "allegation",
+      "statement": "Danelia allegedly assisted account opening and transfers; overseas wires differ from insurer receipts.",
+      "source_ids": [
+        "CT-S007",
+        "CT-S009"
+      ],
+      "locator": "Danelia case bullet; affidavit p18 paragraph49",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "13000000",
+          "currency": "USD",
+          "measure": "outgoing_overseas_wires",
+          "period": "investigated period through early2026",
+          "qualifier": "at_least_approximately",
+          "payer": null,
+          "overlap_group": "centennial",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F012",
+      "status": "allegation",
+      "statement": "ND Medical indictment separates billed claims from Medicare and other-insurer cash.",
+      "source_ids": [
+        "CT-S020"
+      ],
+      "locator": "p4 paragraph15",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "1317921030",
+          "currency": "USD",
+          "measure": "submitted_claims",
+          "period": "2025-02-18 through 2025-07-09",
+          "qualifier": "approximately",
+          "payer": "Medicare and supplemental",
+          "overlap_group": "nd_medical",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "566882",
+          "currency": "USD",
+          "measure": "paid_to_supplier",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "nd_medical",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "5945442",
+          "currency": "USD",
+          "measure": "paid_to_supplier",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": "supplemental, employer-sponsored and other insurers",
+          "overlap_group": "nd_medical",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "6512324",
+          "currency": "USD",
+          "measure": "total_paid_to_supplier",
+          "period": "same",
+          "qualifier": "approximately",
+          "payer": "all listed insurers",
+          "overlap_group": "nd_medical",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F013",
+      "status": "allegation",
+      "statement": "Gugava purportedly owned ND Medical from February18 through July9,2025; underlying beneficial control remains alleged.",
+      "source_ids": [
+        "CT-S020"
+      ],
+      "locator": "p3 paragraph14",
+      "visibility": "public_previously_published",
+      "entity": "ND Medical Solutions LLC",
+      "period": "2025-02-18/2025-07-09"
+    },
+    {
+      "id": "CT-F014",
+      "status": "documented_fact",
+      "statement": "Gugava was indicted September3,2026 on one count of money laundering conspiracy; no disposition beyond that established here.",
+      "source_ids": [
+        "CT-S010",
+        "CT-S011"
+      ],
+      "locator": "opening and charging paragraphs",
+      "visibility": "public_previously_published",
+      "legal_status": "charged_not_convicted_in_reviewed_record"
+    },
+    {
+      "id": "CT-F015",
+      "status": "documented_fact",
+      "statement": "CMS precluded eleven unnamed 2025–26 suppliers; four had moved from revoked Original Medicare billing to Medicare Advantage.",
+      "source_ids": [
+        "CT-S012"
+      ],
+      "locator": "opening and supplier-characteristics paragraphs",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "3400000000",
+          "currency": "USD",
+          "measure": "suspected_submitted_claims",
+          "period": "2025–2026",
+          "qualifier": "greater_than",
+          "payer": "Medicare",
+          "overlap_group": "cms_eleven",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F016",
+      "status": "audit_finding",
+      "statement": "OIG identifies ownership verification, ordering-document and beneficiary-identifier weaknesses; these are control risks, not proof against an uncharged supplier.",
+      "source_ids": [
+        "CT-S013"
+      ],
+      "locator": "Chapters1–3",
+      "visibility": "public_previously_published",
+      "novel_named_suspicion": false
+    },
+    {
+      "id": "CT-F017",
+      "status": "audit_finding",
+      "statement": "Earlier catheter audit estimated improper payments; documentation deficiencies do not themselves establish deliberate fraud.",
+      "source_ids": [
+        "CT-S014"
+      ],
+      "locator": "What OIG Found",
+      "visibility": "public_previously_published",
+      "amounts": [
+        {
+          "amount": "35100000",
+          "currency": "USD",
+          "measure": "estimated_improper_payments",
+          "period": "July2021–June2022",
+          "qualifier": "approximately",
+          "payer": "Medicare",
+          "overlap_group": "oig_2021_22_sample",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F018",
+      "status": "conviction",
+      "statement": "Renat Abramov pleaded guilty February3,2026 and was sentenced August11,2026 to18months for money laundering conspiracy.",
+      "source_ids": [
+        "CT-S015",
+        "CT-S016"
+      ],
+      "locator": "opening/plea/sentencing paragraphs",
+      "visibility": "public_previously_published",
+      "legal_status": "sentenced",
+      "amounts": [
+        {
+          "amount": "8000000",
+          "currency": "USD",
+          "measure": "proceeds_through_accounts",
+          "period": "convicted conduct; source does not state complete range",
+          "qualifier": "greater_than",
+          "payer": null,
+          "overlap_group": "goldrush_abramov",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F019",
+      "status": "conviction",
+      "statement": "Elnar Zarbailov was sentenced May18,2026 to37months; forfeiture was ordered, not verified collected.",
+      "source_ids": [
+        "CT-S017"
+      ],
+      "locator": "opening and final case paragraphs",
+      "visibility": "public_previously_published",
+      "legal_status": "sentenced",
+      "amounts": [
+        {
+          "amount": "1457898",
+          "currency": "USD",
+          "measure": "forfeiture_order",
+          "period": "2026-05-18",
+          "qualifier": "ordered_exact",
+          "payer": null,
+          "overlap_group": "goldrush_zarbailov",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F020",
+      "status": "conviction",
+      "statement": "Eldar Zarbavel pleaded guilty August13,2026. DOJ named Royce Medical Supply LLC and scheduled sentencing for December16.",
+      "source_ids": [
+        "CT-S018"
+      ],
+      "locator": "opening and Royce/plea paragraphs",
+      "visibility": "public_previously_published",
+      "legal_status": "guilty_plea_sentencing_scheduled",
+      "entity": "Royce Medical Supply LLC",
+      "amounts": [
+        {
+          "amount": "1420000000",
+          "currency": "USD",
+          "measure": "alleged_submitted_claims",
+          "period": "July2022–July2024",
+          "qualifier": "approximately",
+          "payer": "Medicare and other insurers",
+          "overlap_group": "goldrush_royce",
+          "do_not_sum_across_measures": true
+        },
+        {
+          "amount": "3400000",
+          "currency": "USD",
+          "measure": "laundered_proceeds",
+          "period": "June–July2024",
+          "qualifier": "approximately",
+          "payer": null,
+          "overlap_group": "goldrush_royce",
+          "do_not_sum_across_measures": true
+        }
+      ]
+    },
+    {
+      "id": "CT-F021",
+      "status": "documented_fact",
+      "statement": "DOJ reported35 charged and16 convicted in Gold Rush as of August14,2026; this is not an October census.",
+      "source_ids": [
+        "CT-S018"
+      ],
+      "locator": "paragraph reporting cumulative statuses",
+      "visibility": "public_previously_published",
+      "effective_date": "2026-08-14"
+    }
+  ],
+  "inferences": [
+    {
+      "id": "CT-I001",
+      "status": "hypothesis",
+      "statement": "Evaluate secondary-payer notification coverage, delay and post-suspension cash rather than assume claims marked paid were disbursed.",
+      "source_ids": [
+        "CT-S005",
+        "CT-S008",
+        "CT-S009",
+        "CT-S020"
+      ]
+    },
+    {
+      "id": "CT-I002",
+      "status": "unknown",
+      "statement": "Fifteen CMS suppliers, more-than30 EDNY suppliers, eleven CMS2026 suppliers, and later company branches cannot be merged without exact identifiers and dates.",
+      "source_ids": [
+        "CT-S003",
+        "CT-S004",
+        "CT-S012"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "CT-X001",
+      "issue": "Centennial paid label versus cash",
+      "resolution": "Claims-system paid includes escrow; cash totals must use bank/disbursement evidence.",
+      "source_ids": [
+        "CT-S008",
+        "CT-S009"
+      ]
+    },
+    {
+      "id": "CT-X002",
+      "issue": "GAO private-payer tens-of-millions estimate versus DOJ approximately900m",
+      "resolution": "Different disclosed cohorts, periods and methods; no verified reconciliation or contradiction established.",
+      "source_ids": [
+        "CT-S001",
+        "CT-S005"
+      ]
+    },
+    {
+      "id": "CT-X003",
+      "issue": "Centennial 12.59m receipts versus13m wires",
+      "resolution": "Different monetary measures; intercompany transfers and timing are potential explanations, not an unexplained loss amount.",
+      "source_ids": [
+        "CT-S007",
+        "CT-S008",
+        "CT-S009"
+      ]
+    },
+    {
+      "id": "CT-X004",
+      "issue": "Abramov April20 scheduled sentence",
+      "resolution": "Superseded by actual August11 sentence; retain scheduled event as historical.",
+      "source_ids": [
+        "CT-S015",
+        "CT-S016"
+      ]
+    }
+  ],
+  "benign_alternatives_tested": [
+    {
+      "test": "High claims-system paid means stolen cash",
+      "result": "Rejected: affidavit expressly identifies escrow.",
+      "source_ids": [
+        "CT-S009"
+      ]
+    },
+    {
+      "test": "Same sector/geography means same scheme or owner",
+      "result": "Not established; no exact supplier crosswalk for unnamed cohorts.",
+      "source_ids": [
+        "CT-S004",
+        "CT-S012"
+      ]
+    },
+    {
+      "test": "Shared bank, billing platform or registered agent proves culpability",
+      "result": "Not established; ordinary service-provider relationships can be lawful. Unnamed intermediaries not deanonymized.",
+      "source_ids": [
+        "CT-S003"
+      ]
+    },
+    {
+      "test": "Documentation error proves intentional fraud",
+      "result": "Not established; earlier OIG audit concerns compliance requirements.",
+      "source_ids": [
+        "CT-S014"
+      ]
+    },
+    {
+      "test": "All Gold Rush participants remain unconvicted",
+      "result": "Rejected for individually documented pleas/sentences; preserve other defendants allegation status.",
+      "source_ids": [
+        "CT-S016",
+        "CT-S017",
+        "CT-S018"
+      ]
+    }
+  ],
+  "missing_data": [
+    "Authenticated court-host Gugava PDF and live docket status; mirrored filed copy corroborated only at case/rounded-amount level by DOJ.",
+    "Current complete docket dispositions for EDNY eleven, Gugava, Bendeliani and Danelia. Search absence is not proof no later event occurred.",
+    "Exact identifiers/claim sets linking CMS fifteen, DOJ more-than30, CMS eleven and later branches.",
+    "Insurer-level post-notification cash, reversals, recovered amounts and notification receipt timestamps.",
+    "Unredacted identities/purpose for complaint paragraph47 counterparties; no de-anonymization attempted.",
+    "True beneficial ownership of unnamed organization/controller entities; nominee roles are not ultimate-owner proof."
+  ],
+  "method": [
+    "Opened21 source records; three official original PDFs and one third-party mirror downloaded to scratch and hashed.",
+    "Scanned Bendeliani and Gugava bodies OCRed locally; key monetary pages visually checked.",
+    "Kept overlapping source families and monetary measures separate; no grand total calculated.",
+    "Searched DOJ for later plea/sentencing updates through cutoff; no PACER account, paid service or contact used.",
+    "Raw filings remain outside repository because they contain irrelevant personal and bank-account detail; repository stores provenance and minimal paraphrases."
+  ],
+  "visibility": "public_previously_published_evidence_only",
+  "legal_status_if_case": [
+    {
+      "case": "EDNY Nakhmatullaev et al.",
+      "status": "indicted; individual current dispositions not exhaustively verified",
+      "as_of_source": "2025-06-30",
+      "source_ids": [
+        "CT-S002",
+        "CT-S003"
+      ]
+    },
+    {
+      "case": "Kakha Bendeliani",
+      "status": "indicted",
+      "as_of_source": "2026-06-17",
+      "source_ids": [
+        "CT-S008"
+      ]
+    },
+    {
+      "case": "Goga Danelia",
+      "status": "charged_by_complaint",
+      "as_of_source": "2026-03-27",
+      "source_ids": [
+        "CT-S009"
+      ]
+    },
+    {
+      "case": "Erekle Gugava",
+      "status": "indicted",
+      "as_of_source": "2026-09-03",
+      "source_ids": [
+        "CT-S010",
+        "CT-S011",
+        "CT-S020"
+      ]
+    },
+    {
+      "case": "Renat Abramov",
+      "status": "sentenced",
+      "as_of_source": "2026-08-11",
+      "source_ids": [
+        "CT-S016"
+      ]
+    },
+    {
+      "case": "Elnar Zarbailov",
+      "status": "sentenced",
+      "as_of_source": "2026-05-18",
+      "source_ids": [
+        "CT-S017"
+      ]
+    },
+    {
+      "case": "Eldar Zarbavel",
+      "status": "pleaded_guilty; sentencing scheduled2026-12-16",
+      "as_of_source": "2026-08-13",
+      "source_ids": [
+        "CT-S018"
+      ]
+    }
+  ],
+  "next_step": [
+    {
+      "id": "CT-N001",
+      "priority": 1,
+      "question": "Did suspension reports stop secondary payments after December2025?",
+      "required_evidence": "Dated suspension/preclusion notices, insurer receipt/implementation logs, actual paid and reversal ledgers; public extracts first, authorized nonpublic records only if separately lawfully supplied.",
+      "success": "Net unrecovered cash and delay can be computed at claim level; otherwise report unknown."
+    },
+    {
+      "id": "CT-N002",
+      "priority": 2,
+      "question": "What explains Centennial paragraph47 intercompany transfers?",
+      "required_evidence": "Later unsealed filings naming counterparties and commercial purpose; do not infer identity from public-address or dollar similarities.",
+      "success": "Corroborated relationship or explicit unresolved state."
+    },
+    {
+      "id": "CT-N003",
+      "priority": 3,
+      "question": "Which actual claims belong to each published cohort?",
+      "required_evidence": "NPI/PTAN identifiers plus service/adjudication/ownership/suspension dates; duplicate and reversal flags.",
+      "success": "Deduplicated claim-level cohort mapping without adding umbrella and branch totals."
+    },
+    {
+      "id": "CT-N004",
+      "priority": 4,
+      "question": "How much CHAMPVA or other secondary money was actually disbursed and recovered?",
+      "required_evidence": "Public judicial/audit payment findings; billing totals cannot answer this.",
+      "success": "Separate gross paid, reversals, recoveries, and outstanding amounts."
+    }
+  ],
+  "review_status": "ready_for_independent_review; no_new_fraud_discovery_claim"
+}

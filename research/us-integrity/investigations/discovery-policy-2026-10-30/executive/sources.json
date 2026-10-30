@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "scope": "Executive statements and operative WHIP policy; bounded source review",
+  "sources": [
+    {
+      "id": "EX-S01",
+      "title": "President Trump and Vice President JD Vance Make an Announcement",
+      "url": "https://www.whitehouse.gov/videos/president-trump-and-vice-president-jd-vance-make-an-announcement/",
+      "publication_or_update_date": "2026-10-20",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_video_page",
+      "locator": "Page date and link103; embedded video IQKChHxD9e8",
+      "evidence_limits": "Page retrieved; embedded YouTube fetch throttled; audio/captions not independently verified.",
+      "web_reference_ids": [
+        "turn178view1",
+        "turn131view0"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S02",
+      "title": "President Donald J. Trump and Vice President JD Vance Announce the Fraud Whistleblower Incentive Program",
+      "url": "https://www.whitehouse.gov/gallery/president-donald-j-trump-and-vice-president-jd-vance-announce-the-fraud-whistleblower-incentive-program/",
+      "publication_or_update_date": "2026-10-20",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_photo_caption",
+      "locator": "Gallery event captions",
+      "evidence_limits": "Supports event identity, date and Oval Office setting, not a verbatim transcript.",
+      "web_reference_ids": [
+        "turn127search0"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S03",
+      "title": "Remarks: Donald Trump Announces a Fraud Whistleblower Initiative",
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fraud-whistleblower-initiative-october-20-2026/",
+      "publication_or_update_date": "2026-10-20",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "non_government_transcript",
+      "locator": "Timestamped speaker turns; specific locators in statements.json",
+      "evidence_limits": "Roll Call Factba.se transcription; not a government-certified transcript and not independently checked against audio here.",
+      "web_reference_ids": [
+        "turn129view2",
+        "turn172view0",
+        "turn172view1",
+        "turn131view2",
+        "turn131view3"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S04",
+      "title": "Justice Department Announces Innovative Whistleblower Rewards Program to Combat Fraud",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-innovative-whistleblower-rewards-program-combat-fraud",
+      "publication_or_update_date": "2026-10-20",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_agency_announcement",
+      "locator": "Press Release26-1231; program and funding paragraphs",
+      "evidence_limits": "Announcement is not legislation or evidence of a paid award.",
+      "web_reference_ids": [
+        "turn149view0"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S05",
+      "title": "National Fraud Enforcement Division Criminal Tip Rewards Pilot Program",
+      "url": "https://www.justice.gov/fraud/national-fraud-enforcement-division-criminal-tip-rewards-pilot-program",
+      "publication_or_update_date": "2026-10-20",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_agency_guidance_terms",
+      "locator": "Introduction; Eligibility1\u20137; Additional Considerations; Reward Determinations; Endnotes",
+      "evidence_limits": "Website says Updated October 20,2026; preserves internal agency-list inconsistency. No archived-byte snapshot was captured.",
+      "web_reference_ids": [
+        "turn178view3",
+        "turn129view3",
+        "turn157view3",
+        "turn187view0",
+        "turn187view1"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S06",
+      "title": "Criminal Tip Rewards Pilot Program FAQs",
+      "url": "https://www.justice.gov/fraud/criminal-tip-rewards-pilot-program-faqs",
+      "publication_or_update_date": "2026-10-20",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_agency_faq",
+      "locator": "Questions1\u201319",
+      "evidence_limits": "Website says Updated October 20,2026; explanatory guidance, not a statute.",
+      "web_reference_ids": [
+        "turn149view2",
+        "turn151view2",
+        "turn187view2",
+        "turn187view3"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S07",
+      "title": "Fraud Whistleblower Incentive Program (WHIP)",
+      "url": "https://www.justice.gov/fraud/whistleblower",
+      "publication_or_update_date": "2026-10-28",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_agency_program_landing_page",
+      "locator": "Basic Eligibility Criteria; Subject Matter Areas; final updated date",
+      "evidence_limits": "Updated October 28,2026; this date differs from launch and detailed terms.",
+      "web_reference_ids": [
+        "turn178view2"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S08",
+      "title": "Attorney General Directive26-12",
+      "url": "https://www.justice.gov/opa/media/1463571/dl",
+      "publication_or_update_date": "2026-10-01",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_agency_directive",
+      "locator": "PDF5pages; III pp3\u20134; IV p5; enforcement limitations p2",
+      "evidence_limits": "Internal enforcement priorities and program-design direction are distinct from claimant eligibility.",
+      "web_reference_ids": [
+        "turn149view3",
+        "turn151view1"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S09",
+      "title": "Executive Order14395: Establishing the Task Force To Eliminate Fraud",
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600181/pdf/DCPD-202600181.pdf",
+      "publication_or_update_date": "2026-03-16",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_executive_order",
+      "locator": "Sections2,4,6 and general provisions; DCPD202600181",
+      "evidence_limits": "Executive order; not an act of Congress. No universal 1% award mechanism located in this order.",
+      "web_reference_ids": [
+        "turn151view3",
+        "turn140search6"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S10",
+      "title": "White House Fraud Task Force dashboard",
+      "url": "https://www.whitehouse.gov/fraud/",
+      "publication_or_update_date": null,
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_executive_dashboard",
+      "locator": "Methodological descriptions following headline metrics",
+      "evidence_limits": "Open result rendered headline values as dashes; search index exposed numbers. Do not treat indexed values as a current cash ledger.",
+      "web_reference_ids": [
+        "turn157view0",
+        "turn127search4"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S11",
+      "title": "Report fraud",
+      "url": "https://america.gov/fraud",
+      "publication_or_update_date": null,
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_portal_index_only",
+      "locator": "Indexed routing headings",
+      "evidence_limits": "Direct fetch403; current indexed excerpt routes benefits and voter-fraud reports. Full reward wording not verified.",
+      "web_reference_ids": [
+        "turn173search2",
+        "turn171view0"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S12",
+      "title": "Task Force to Eliminate Fraud",
+      "url": "https://america.gov/benefits-fraud",
+      "publication_or_update_date": null,
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_portal_index_only",
+      "locator": "Indexed metrics table and source note",
+      "evidence_limits": "Direct fetch403; indexed table attributes figures to September 24,2026 White House ledger. Not independently reconciled.",
+      "web_reference_ids": [
+        "turn173search0",
+        "turn178view0"
+      ],
+      "raw_bytes_archived": false
+    },
+    {
+      "id": "EX-S13",
+      "title": "The Fraud Whistleblower Incentive Program: Seek Out, Report, and Eliminate Fraud in Our Communities",
+      "url": "https://www.whitehouse.gov/videos/the-fraud-whistleblower-incentive-program-seek-out-report-and-eliminate-fraud-in-our-communities/",
+      "publication_or_update_date": "2026-10-20",
+      "accessed_on": "2026-10-30",
+      "authoritative_type": "official_video_page",
+      "locator": "Page date and embedded video rAg8C8mP-rU",
+      "evidence_limits": "Embedded video fetch throttled; no transcript independently verified.",
+      "web_reference_ids": [
+        "turn129view1",
+        "turn131view1"
+      ],
+      "raw_bytes_archived": false
+    }
+  ]
+}

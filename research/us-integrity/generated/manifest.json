@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-10-30",
+  "edges": 2348,
+  "graph_sha256": "4951333d469aee5721cb58f9ceafbd3f159de595a0306741cb077a55fcd1f70f",
+  "hash_scope": "canonical supplied JSON, not downloaded source content",
+  "nodes": 1020,
+  "obsidian_notes": 1020,
+  "public_export": true,
+  "sources": 294,
+  "tasks_imported": 24,
+  "version": "1.0"
+}

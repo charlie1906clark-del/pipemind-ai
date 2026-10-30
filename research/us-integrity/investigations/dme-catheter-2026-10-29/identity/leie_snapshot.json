@@ -1,0 +1,22 @@
+{
+  "source_url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
+  "sha256_original": "7483d47bc48734f7955095d51d13dd1111b11cc8a60f54ebe894806e6c293c03",
+  "byte_length": 10802977,
+  "retrieved": "2026-10-29",
+  "rows_scanned": 84093,
+  "matches": [
+    {
+      "BUSNAME": "CENTENNIAL MED SUPPLY LLC",
+      "GENERAL": "DME COMPANY",
+      "SPECIALTY": "DME - GENERAL",
+      "UPIN": "",
+      "NPI": "1609626167",
+      "STATE": "CO",
+      "EXCLTYPE": "1128Aa",
+      "EXCLDATE": "20260711",
+      "REINDATE": "0",
+      "WAIVERDATE": "0",
+      "WVRSTATE": ""
+    }
+  ]
+}

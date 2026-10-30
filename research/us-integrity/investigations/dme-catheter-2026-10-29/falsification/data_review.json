@@ -1,0 +1,229 @@
+{
+  "review_date": "2026-10-29",
+  "scope": "Independent reconstruction from saved CMS snapshots including final cross-code entry controls and national reconciliation; no new network acquisition",
+  "analysis_sha256": "bd80f038af8bc49b22f39957d6072b7b7749e50f23940e0d0fb5be1ed92e17b5",
+  "script_reviewed_sha256": "7b462762ce6a580e6e6e36e9a6ea615d1373d971e71bed1c077a970cf5996037",
+  "snapshot_sha256": {
+    "data-audit/snapshots/suppliers_2022_A4351.json": "1efd4c53de117089f7f47ec43ead51e272634b5810223c78effb516d56ea0860",
+    "data-audit/snapshots/suppliers_2022_A4352.json": "a7ddd5ca537c9d082656f4aeffcd671728e6f2e9f2cdb61c122e1103bdde55f8",
+    "data-audit/snapshots/suppliers_2022_A4353.json": "dd7d5cedfa9d160dde10ac5bfc999af01c540cb06e9e5d9d15c79a3b3afd44b1",
+    "data-audit/snapshots/suppliers_2023_A4351.json": "09bacddc9472e38934f3c81787b51c9bf515b5fe56d559516efa55626b403063",
+    "data-audit/snapshots/suppliers_2023_A4352.json": "ed518fed359be3b20b529dddd2e19f66ab26d50ea9dcbe61e41b89357f07f891",
+    "data-audit/snapshots/suppliers_2023_A4353.json": "16b75bd7d611dbb3c067ad2dde56d27027ad179bd27b758323d44c584d069d1e",
+    "data-audit/snapshots/suppliers_2024_A4351.json": "fc9f23b0aee3de42889120080b60a71bbd6158faad9c5930f407895f738168f7",
+    "data-audit/snapshots/suppliers_2024_A4352.json": "daaff223e13d0a499a89dbce13fa9c971d5985b0c9df567b91f8cd2331c22625",
+    "data-audit/snapshots/suppliers_2024_A4353.json": "228793c093d4bd6587db97d321887f907c04d673f12bdabb92198be197aafdfb"
+  },
+  "checks": [
+    {
+      "year": 2022,
+      "code": "A4351",
+      "rows": 1483,
+      "payment_recomputed": "114823304.02",
+      "top10_share_recomputed_pct": "60.91",
+      "checks_passed": true
+    },
+    {
+      "year": 2022,
+      "code": "A4352",
+      "rows": 567,
+      "payment_recomputed": "265584824.84",
+      "top10_share_recomputed_pct": "80.03",
+      "checks_passed": true
+    },
+    {
+      "year": 2022,
+      "code": "A4353",
+      "rows": 322,
+      "payment_recomputed": "39176515.57",
+      "top10_share_recomputed_pct": "46.88",
+      "checks_passed": true
+    },
+    {
+      "year": 2023,
+      "code": "A4351",
+      "rows": 1382,
+      "payment_recomputed": "135455220.92",
+      "top10_share_recomputed_pct": "63.35",
+      "checks_passed": true
+    },
+    {
+      "year": 2023,
+      "code": "A4352",
+      "rows": 586,
+      "payment_recomputed": "705045365.12",
+      "top10_share_recomputed_pct": "90.51",
+      "checks_passed": true
+    },
+    {
+      "year": 2023,
+      "code": "A4353",
+      "rows": 332,
+      "payment_recomputed": "3057362798.24",
+      "top10_share_recomputed_pct": "92.65",
+      "checks_passed": true
+    },
+    {
+      "year": 2024,
+      "code": "A4351",
+      "rows": 1297,
+      "payment_recomputed": "120819435.24",
+      "top10_share_recomputed_pct": "61.80",
+      "checks_passed": true
+    },
+    {
+      "year": 2024,
+      "code": "A4352",
+      "rows": 569,
+      "payment_recomputed": "188687884.04",
+      "top10_share_recomputed_pct": "68.28",
+      "checks_passed": true
+    },
+    {
+      "year": 2024,
+      "code": "A4353",
+      "rows": 332,
+      "payment_recomputed": "1153543262.92",
+      "top10_share_recomputed_pct": "96.88",
+      "checks_passed": true
+    }
+  ],
+  "comparison_checks": [
+    {
+      "before": 2022,
+      "after": 2023,
+      "code": "A4351",
+      "decomposition_verified": true,
+      "matched_keys": 1197,
+      "newly_observed_keys": 185,
+      "no_longer_observed_keys": 286
+    },
+    {
+      "before": 2022,
+      "after": 2023,
+      "code": "A4352",
+      "decomposition_verified": true,
+      "matched_keys": 468,
+      "newly_observed_keys": 118,
+      "no_longer_observed_keys": 99
+    },
+    {
+      "before": 2022,
+      "after": 2023,
+      "code": "A4353",
+      "decomposition_verified": true,
+      "matched_keys": 249,
+      "newly_observed_keys": 83,
+      "no_longer_observed_keys": 73
+    },
+    {
+      "before": 2023,
+      "after": 2024,
+      "code": "A4351",
+      "decomposition_verified": true,
+      "matched_keys": 1126,
+      "newly_observed_keys": 171,
+      "no_longer_observed_keys": 256
+    },
+    {
+      "before": 2023,
+      "after": 2024,
+      "code": "A4352",
+      "decomposition_verified": true,
+      "matched_keys": 460,
+      "newly_observed_keys": 109,
+      "no_longer_observed_keys": 126
+    },
+    {
+      "before": 2023,
+      "after": 2024,
+      "code": "A4353",
+      "decomposition_verified": true,
+      "matched_keys": 277,
+      "newly_observed_keys": 55,
+      "no_longer_observed_keys": 55
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "Upstream source correctness and cash disbursement not independently verified",
+    "Current 2024 data cannot observe 2025\u20132026 new billing",
+    "Newly observed means code/rental PUF visibility, not business formation or Medicare enrollment",
+    "Beneficiary totals not additive across suppliers/codes",
+    "A4352 is also affected by known SAHS activity and is not an unaffected control"
+  ],
+  "national_snapshot_sha256": "fcc60611e71fe823c47cc18a4cd6a6e168c2a76923409ce8b05a9cbaafd34a70",
+  "national_reconciliation_sha256": "32a5d03e5302108591b71ffbe84206ac1bef06cdae01985edf2772362fcf82dd",
+  "cross_code_checks": [
+    {
+      "before": 2022,
+      "after": 2023,
+      "cross_code_entry_control_verified": true,
+      "newly_visible_A4353_npis": 83,
+      "previously_visible_other_code_npis": 44
+    },
+    {
+      "before": 2023,
+      "after": 2024,
+      "cross_code_entry_control_verified": true,
+      "newly_visible_A4353_npis": 55,
+      "previously_visible_other_code_npis": 33
+    }
+  ],
+  "national_checks": [
+    {
+      "year": 2022,
+      "code": "A4351",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "99.06"
+    },
+    {
+      "year": 2022,
+      "code": "A4352",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "99.22"
+    },
+    {
+      "year": 2022,
+      "code": "A4353",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "95.84"
+    },
+    {
+      "year": 2023,
+      "code": "A4351",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "99.11"
+    },
+    {
+      "year": 2023,
+      "code": "A4352",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "99.69"
+    },
+    {
+      "year": 2023,
+      "code": "A4353",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "99.94"
+    },
+    {
+      "year": 2024,
+      "code": "A4351",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "99.03"
+    },
+    {
+      "year": 2024,
+      "code": "A4352",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "98.82"
+    },
+    {
+      "year": 2024,
+      "code": "A4353",
+      "reconciliation_verified": true,
+      "detail_payment_coverage_pct": "99.85"
+    }
+  ]
+}

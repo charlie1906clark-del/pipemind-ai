@@ -1,0 +1,362 @@
+{
+  "review_date": "2026-10-29",
+  "status": "no_new_fraud_established",
+  "reviewer_role": "independent_falsification_and_methodology",
+  "sources": {
+    "S1": {
+      "title": "GAO-26-107799 Medicare: CMS\u2019s Use of Data Analytics to Identify and Prevent Fraud",
+      "url": "https://files.gao.gov/reports/GAO-26-107799/index.html",
+      "date": "2026-04-21",
+      "date_basis": "public release"
+    },
+    "S2": {
+      "title": "CMS-1799-F final rule",
+      "url": "https://public-inspection.federalregister.gov/2024-22054.pdf",
+      "date": "2024-09-27",
+      "date_basis": "Federal Register publication"
+    },
+    "S3": {
+      "title": "Urinary Catheter Case Study: CMS Swift Action Saves Billions",
+      "url": "https://www.cms.gov/files/document/cpi-urinary-catheter-case-study.pdf",
+      "date": null,
+      "date_basis": "Amounts current as of 2024-07-06; publication date not established"
+    },
+    "S4": {
+      "title": "OIG OEI-02-24-00311 DME fraud white paper",
+      "url": "https://oig.hhs.gov/documents/evaluation/11855/OEI-02-24-00311.pdf",
+      "date": "2026-08",
+      "date_basis": "document month"
+    },
+    "S5": {
+      "title": "CMS Cracks Down on Massive $3.4 Billion Medical Equipment Supplier Fraud Scheme",
+      "url": "https://www.cms.gov/newsroom/press-releases/cms-cracks-down-massive-3-4-billion-medical-equipment-supplier-fraud-scheme",
+      "date": "2026-09-08",
+      "date_basis": "release date"
+    },
+    "S6": {
+      "title": "CMS Preclusion List Frequently Asked Questions",
+      "url": "https://www.cms.gov/medicare/provider-enrollment-and-certification/medicareprovidersupenroll/downloads/preclusion_list_faqs.pdf",
+      "date": "2025-03-21",
+      "date_basis": "document update"
+    },
+    "S7": {
+      "title": "OIG Medicare Improperly Paid Suppliers for Intermittent Urinary Catheters",
+      "url": "https://oig.hhs.gov/reports/all/2025/medicare-improperly-paid-suppliers-for-intermittent-urinary-catheters/",
+      "date": "2025",
+      "date_basis": "report year"
+    },
+    "S8": {
+      "title": "CMS Medicare Durable Medical Equipment, Devices & Supplies Methodology",
+      "url": "https://data.cms.gov/sites/default/files/2025-06/a837dcf7-3d06-4c1f-8d4a-82ee737b7932/MUP_DME_RY25_Methodology_20250617_508.pdf",
+      "date": "2025-06",
+      "date_basis": "document month; linked in current 2024 dataset"
+    },
+    "S9": {
+      "title": "CMS DME supplier and service Data Dictionary",
+      "url": "https://data.cms.gov/sites/default/files/2025-06/9d983215-a36b-4089-9683-c50b150dfef2/MUP_DME_RY25_Data-Dictionary_20250617_suphpr_508.pdf",
+      "date": "2025-06-18",
+      "date_basis": "document footer"
+    },
+    "S10": {
+      "title": "HHS-OIG A-02-24-01013 preclusion data brief",
+      "url": "https://oig.hhs.gov/documents/audit/11934/A-02-24-01013.pdf",
+      "date": "2026-09",
+      "date_basis": "report month"
+    }
+  },
+  "evidence_records": [
+    {
+      "id": "DME-FALS-01",
+      "source_id": "S1",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107799/index.html",
+      "locator": "CMS Has Begun to Inform Supplemental Payers of Payment Suspensions, paragraph beginning According to CMS officials, when providers",
+      "claim": "Suspended claims can be processed as approved while Medicare withholds payment.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Does not establish how each published PUF row handles suspension, refund or cash settlement.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-02",
+      "source_id": "S1",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107799/index.html",
+      "locator": "Same section, opening paragraph",
+      "claim": "CMS supplied suspension reports in December 2025 and January 2026.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Historical failure does not prove a continuing October 2026 failure; reporting does not itself prove effectiveness.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-03",
+      "source_id": "S1",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107799/index.html",
+      "locator": "Same section, paragraph beginning In addition, based on our analysis",
+      "claim": "GAO identifies at least $196,000 Medicaid cost-sharing paid during 2023\u20132024 suspensions.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Includes federal and state shares; not all federal loss, not a complete total.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding",
+      "money": {
+        "amount_usd": 196000,
+        "qualifier": "at_least",
+        "basis": "combined federal/state Medicaid cost-sharing paid",
+        "period": "2023\u20132024",
+        "federal_share_known": false,
+        "cash_recovery_status": "not established in this record"
+      }
+    },
+    {
+      "id": "DME-FALS-04",
+      "source_id": "S2",
+      "source_url": "https://public-inspection.federalregister.gov/2024-22054.pdf",
+      "locator": "PDF p.5 footnotes 1\u20132",
+      "claim": "Final rule corrected prior recoupment wording because payments were stopped.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Specific correction does not imply all unrelated fraud cases had zero losses.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-05",
+      "source_id": "S2",
+      "source_url": "https://public-inspection.federalregister.gov/2024-22054.pdf",
+      "locator": "PDF p.32 response to across all suppliers; final \u00a7425.670(c)\u2013(e)",
+      "claim": "Selected CY2023 ACO calculations exclude A4352/A4353 amounts across all suppliers.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Code-wide adjustment is not a supplier guilt list or a stated PUF deletion policy.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-06",
+      "source_id": "S3",
+      "source_url": "https://www.cms.gov/files/document/cpi-urinary-catheter-case-study.pdf",
+      "locator": "PDF p.1 payment stops, revocations; p.2 beneficiary complaints",
+      "claim": "CMS had already acted against fifteen suppliers in the historical catheter episode.",
+      "finding_type": "source_fact",
+      "legal_status": "administrative_action",
+      "inference_limit": "Detecting its known aggregate spike again is not original discovery.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-07",
+      "source_id": "S4",
+      "source_url": "https://oig.hhs.gov/documents/evaluation/11855/OEI-02-24-00311.pdf",
+      "locator": "Chapter 1 printed pp.4\u20135; PDF pp.5\u20136",
+      "claim": "OIG describes incomplete ownership verification and unreported changes.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "A missing public ownership record is not proof of a straw owner.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-08",
+      "source_id": "S4",
+      "source_url": "https://oig.hhs.gov/documents/evaluation/11855/OEI-02-24-00311.pdf",
+      "locator": "Appendix A printed p.16; PDF p.18",
+      "claim": "Gold Rush allegations cover $941 million received from Medicare and secondary payers.",
+      "finding_type": "source_fact",
+      "legal_status": "allegation",
+      "inference_limit": "The whole sum cannot be labelled federal loss or added to overlapping case totals.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding",
+      "money": {
+        "amount_usd": 941000000,
+        "qualifier": "reported",
+        "basis": "alleged receipts from Medicare plus secondary payers",
+        "payer_split_known": false,
+        "cash_recovery_status": "not established in this record"
+      }
+    },
+    {
+      "id": "DME-FALS-09",
+      "source_id": "S5",
+      "source_url": "https://www.cms.gov/newsroom/press-releases/cms-cracks-down-massive-3-4-billion-medical-equipment-supplier-fraud-scheme",
+      "locator": "First two substantive paragraphs and Florida example",
+      "claim": "Eleven suppliers are described without names; cited billing is in 2025\u20132026.",
+      "finding_type": "source_fact",
+      "legal_status": "administrative_action",
+      "inference_limit": "The 2024 supplier file cannot identify their later claims from geography/amount resemblance.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-10",
+      "source_id": "S6",
+      "source_url": "https://www.cms.gov/medicare/provider-enrollment-and-certification/medicareprovidersupenroll/downloads/preclusion_list_faqs.pdf",
+      "locator": "Q44; compare Q34 and Q36",
+      "claim": "CMS states the Preclusion List is not public.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Does not mean no public revocation dataset exists; LEIE, revocations and preclusion are distinct.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-11",
+      "source_id": "S7",
+      "source_url": "https://oig.hhs.gov/reports/all/2025/medicare-improperly-paid-suppliers-for-intermittent-urinary-catheters/",
+      "locator": "What OIG Found",
+      "claim": "The earlier catheter audit found both compliant and noncompliant sample items.",
+      "finding_type": "source_fact",
+      "legal_status": "audit_finding",
+      "inference_limit": "Improper payment and deficient documentation do not independently establish deceptive intent.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-12",
+      "source_id": "S8",
+      "source_url": "https://data.cms.gov/sites/default/files/2025-06/a837dcf7-3d06-4c1f-8d4a-82ee737b7932/MUP_DME_RY25_Methodology_20250617_508.pdf",
+      "locator": "p.3 \u00a7\u00a71\u20133; p.4 \u00a74.1; pp.5\u20136 \u00a75",
+      "claim": "Data cover final-action FFS DME-MAC line items; supplier and referrer files are separately aggregated.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "No patient-level join, individual order/delivery proof, Medicare Advantage or secondary-payer cash trail.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-13",
+      "source_id": "S8",
+      "source_url": "https://data.cms.gov/sites/default/files/2025-06/a837dcf7-3d06-4c1f-8d4a-82ee737b7932/MUP_DME_RY25_Methodology_20250617_508.pdf",
+      "locator": "p.3 Key Data Sources",
+      "claim": "NPPES demographics are extracted at the end of the year after the reporting year.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Do not backdate current owners, contacts or addresses to each date of service.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-14",
+      "source_id": "S8",
+      "source_url": "https://data.cms.gov/sites/default/files/2025-06/a837dcf7-3d06-4c1f-8d4a-82ee737b7932/MUP_DME_RY25_Methodology_20250617_508.pdf",
+      "locator": "p.3 Population; p.6 Data Limitations",
+      "claim": "Methodology describes small-cell suppression with inconsistent claims/beneficiaries wording.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Absent row is not zero; use observed dictionary and nulls and preserve uncertainty.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-15",
+      "source_id": "S9",
+      "source_url": "https://data.cms.gov/sites/default/files/2025-06/9d983215-a36b-4089-9683-c50b150dfef2/MUP_DME_RY25_Data-Dictionary_20250617_suphpr_508.pdf",
+      "locator": "p.3 monetary variables and services count",
+      "claim": "Monetary totals are reconstructed by multiplying the per-service average by services.",
+      "finding_type": "source_fact",
+      "legal_status": "official_finding",
+      "inference_limit": "Do not multiply by claims; charge, allowed, payment and standardized amounts have different meanings.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-16",
+      "source_id": "S9",
+      "source_url": "https://data.cms.gov/sites/default/files/2025-06/9d983215-a36b-4089-9683-c50b150dfef2/MUP_DME_RY25_Data-Dictionary_20250617_suphpr_508.pdf",
+      "locator": "pp.1\u20133 complete field list",
+      "claim": "Public supplier/service schema has no owner, payment-suspension or cash-recovery field.",
+      "finding_type": "schema_inference",
+      "legal_status": "official_finding",
+      "inference_limit": "Ownership and disbursed unrecovered fraud loss require separate evidence.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding"
+    },
+    {
+      "id": "DME-FALS-17",
+      "source_id": "local-data-audit",
+      "source_url": null,
+      "locator": "../data-audit/analysis.json and snapshots/suppliers_{year}_{code}.json; hashes in data_review.json",
+      "claim": "Independent recalculation confirms nine cohort results, six entry/matched/exit decompositions, two cross-code entry controls and nine national payment reconciliations.",
+      "finding_type": "independently_reproduced_analysis",
+      "legal_status": "not_an_allegation",
+      "inference_limit": "Validates arithmetic over snapshots, not source truth, cash release, fraud intent or original discovery.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_aggregate_analysis"
+    },
+    {
+      "id": "DME-FALS-18",
+      "source_id": "local-data-audit",
+      "source_url": null,
+      "locator": "../data-audit/analysis.json comparisons, A4353 2022\u20132023; independent data_review.json",
+      "claim": "Most 2023 A4353 cohort increase belongs to newly visible exact NPI/code/rental rows rather than growth of matched rows.",
+      "finding_type": "independently_reproduced_analysis",
+      "legal_status": "not_an_allegation",
+      "inference_limit": "Newly visible row does not mean newly formed business, newly enrolled supplier or fraud; A4352 is also affected and not an unaffected control.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_aggregate_analysis"
+    },
+    {
+      "id": "DME-FALS-19",
+      "source_id": "S10",
+      "source_url": "https://oig.hhs.gov/documents/audit/11934/A-02-24-01013.pdf",
+      "locator": "Printed p.7 payment table (PDF p.9); printed p.6 methods and p.8 footnote32",
+      "claim": "The $72,004,603 preclusion-vulnerability total includes $42,021,169 of pharmacy payments not prohibited by the described preclusion rules.",
+      "finding_type": "source_fact",
+      "legal_status": "audit_finding",
+      "inference_limit": "Do not label all $72 million established fraud or impermissible payments; this is a separate 2022\u20132024 cohort, not the eleven DME suppliers.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_methodology_or_attributed_official_finding",
+      "money": {
+        "total_usd": 72004603,
+        "pharmacy_category_usd": 42021169,
+        "basis": "plan Part C and Part D payments associated with revoked NPIs",
+        "period": "2022\u20132024",
+        "recoverable_fraud_loss_established": false
+      }
+    },
+    {
+      "id": "DME-FALS-20",
+      "source_id": "local-data-audit",
+      "source_url": null,
+      "locator": "../data-audit/analysis.json cross_code_entry_controls; independently checked in data_review.json",
+      "claim": "44 of 83 NPIs newly visible for A4353 in 2023 already appeared in the prior A4351/A4352 cohort; 33 of 55 in 2024 did likewise.",
+      "finding_type": "independently_reproduced_analysis",
+      "legal_status": "not_an_allegation",
+      "inference_limit": "Directly disproves equating new code rows with new businesses. Prior activity outside the three codes and suppressed activity remain unknown.",
+      "retrieved_at": "2026-10-29",
+      "publication_status": "public_aggregate_analysis"
+    }
+  ],
+  "avenue_scores": [
+    {
+      "avenue": "eleven_suppliers_precluded_2026",
+      "specificity": 3,
+      "public_observability": 1,
+      "novelty": 1,
+      "actionability": 2
+    },
+    {
+      "avenue": "supplier_2023_2024_with_2022_baseline",
+      "specificity": 3,
+      "public_observability": 5,
+      "novelty": 2,
+      "actionability": 4
+    },
+    {
+      "avenue": "published_gold_rush_secondary_payer_network",
+      "specificity": 5,
+      "public_observability": 3,
+      "novelty": 1,
+      "actionability": 3
+    }
+  ],
+  "score_definition": "Ordinal 1 weak to 5 strong research judgments; not fraud probabilities. Novelty is prospect of a new supportable fact, not claim of discovery.",
+  "publication_constraints": [
+    "No beneficiary identities",
+    "No inferred ownership from registered agents or addresses",
+    "No named novel suspicion from outliers",
+    "No conflation of charges, allowed amounts, claim payment measures, released cash, recoveries, prevented payments or federal share",
+    "No assertion current secondary-payer sharing failure without post-implementation evidence"
+  ]
+}

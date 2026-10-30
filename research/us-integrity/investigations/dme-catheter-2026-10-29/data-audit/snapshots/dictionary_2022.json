@@ -1,0 +1,168 @@
+{
+  "identifier": "a73de283-60c2-49da-a0c8-c2a0fe41bf57",
+  "data": {
+    "title": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service Data Dictionary",
+    "fields": [
+      {
+        "name": "Suplr_NPI",
+        "label": "Supplier NPI",
+        "description": "National Provider Identifier (NPI) for the supplying provider on the DMEPOS claim."
+      },
+      {
+        "name": "Suplr_Prvdr_Last_Name_Org",
+        "label": "Supplier Provider Last Name / Organization Name",
+        "description": "When the supplier is registered in NPPES as an individual (entity type code=’I’), this is the supplier’s last name. When the supplier is registered as an organization (entity type code = ‘O’), this is the organization name."
+      },
+      {
+        "name": "Suplr_Prvdr_First_Name",
+        "label": "Supplier Provider First Name",
+        "description": "When the supplier is registered in NPPES as an individual (entity type code=’I’), this is the supplier’s first name. When the supplier is registered as an organization (entity type code = ‘O’), this will be blank."
+      },
+      {
+        "name": "Suplr_Prvdr_MI",
+        "label": "Supplier Provider Middle Initial",
+        "description": "When the supplier is registered in NPPES as an individual (entity type code=’I’), this is the supplier’s middle initial. When the supplier is registered as an organization (entity type code = ‘O’), this will be blank."
+      },
+      {
+        "name": "Suplr_Prvdr_Crdntls",
+        "label": "Supplier Credentials",
+        "description": "When the supplier is registered in NPPES as an individual (entity type code=’I’), these are the supplier’s credentials. When the supplier is registered as an organization (entity type code = ‘O’), this will be blank."
+      },
+      {
+        "name": "Suplr_Prvdr_Ent_Cd",
+        "label": "Supplier Entity Code",
+        "description": "Type of entity reported in NPPES. An entity code of ‘I’ identifies suppliers registered as individuals and an entity type code of ‘O’ identifies suppliers registered as organizations."
+      },
+      {
+        "name": "Suplr_Prvdr_St1",
+        "label": "Supplier Provider Street 1",
+        "description": "The first line of the supplier’s street address, as reported in NPPES."
+      },
+      {
+        "name": "Suplr_Prvdr_St2",
+        "label": "Supplier Provider Street 2",
+        "description": "The second line of the supplier’s street address, as reported in NPPES."
+      },
+      {
+        "name": "Suplr_Prvdr_City",
+        "label": "Supplier Provider City",
+        "description": "The city where the supplier is located, as reported in NPPES."
+      },
+      {
+        "name": "Suplr_Prvdr_State_Abrvtn",
+        "label": "Supplier Provider State",
+        "description": "The state where the supplier is located, as reported in NPPES. The fifty U.S. states and the District of Columbia are reported by the state postal abbreviation. The following values are used for other areas:\n\n'XX' = 'Unknown', 'AA' = 'Armed Forces Central/South America', 'AE' = 'Armed Forces Europe', 'AP' = 'Armed Forces Pacific'\n'AS' = 'American Samoa', 'GU' = 'Guam', 'MP' = 'North Mariana Islands', 'PR' = 'Puerto Rico', 'VI' = 'Virgin Islands'\n'ZZ' = 'Foreign Country'"
+      },
+      {
+        "name": "Suplr_Prvdr_State_FIPS",
+        "label": "Supplier Provider State FIPS Code",
+        "description": "FIPS code for suppliers state."
+      },
+      {
+        "name": "Suplr_Prvdr_Zip5",
+        "label": "Supplier Provider ZIP",
+        "description": "The supplier’s ZIP code, as reported in NPPES."
+      },
+      {
+        "name": "Suplr_Prvdr_RUCA_CAT",
+        "label": "Supplier Provider RUCA Category",
+        "description": "Urban-rural designation based on RUCA codes."
+      },
+      {
+        "name": "Suplr_Prvdr_RUCA",
+        "label": "Supplier Provider RUCA",
+        "description": "Rural-Urban Commuting Area Codes (RUCAs), are a Census tract-based classification scheme that utilizes the standard Bureau of Census Urbanized Area and Urban Cluster definitions in combination with work commuting information to characterize all of the nation's Census tracts regarding their rural and urban status and relationships. The supplier ZIP code was cross walked to the United States Department of Agriculture (USDA) 2010 Rural-Urban Commuting Area Codes (https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes…)."
+      },
+      {
+        "name": "Suplr_Prvdr_RUCA_Desc",
+        "label": "Supplier Provider RUCA Description",
+        "description": "Description of Rural-Urban Commuting Area (RUCA) Code"
+      },
+      {
+        "name": "Suplr_Prvdr_Cntry",
+        "label": "Supplier Provider Country",
+        "description": "The country where the supplier is located, as reported in NPPES. The country code will be ‘US’ for any state or U.S. possession."
+      },
+      {
+        "name": "Suplr_Prvdr_Spclty_Cd",
+        "label": "Supplier Provider Specialty Code",
+        "description": "Derived from the Medicare provider/supplier specialty code reported on all of the NPI's Part B non-institutional claims (DMEPOS &amp; non-DMEPOS). For suppliers that have more than one Medicare specialty code reported on their claims, the Medicare specialty code associated with the largest number of services was used. Where a prescriber's NPI did not have associated Part B claims, the taxonomy code associated with the NPI in NPPES was mapped to a Medicare specialty code using an external crosswalk published here: https://data.cms.gov/beta/provider-characteristics/medicare-provider-su…. For any taxonomy codes that could not be mapped to a Medicare specialty code, the taxonomy classification description was used."
+      },
+      {
+        "name": "Suplr_Prvdr_Spclty_Desc",
+        "label": "Supplier Provider Specialty Description",
+        "description": "Description for Rfrg_Prvdr_Spclty_Cd."
+      },
+      {
+        "name": "Suplr_Prvdr_Spclty_Srce",
+        "label": "Supplier Provider Specialty Source",
+        "description": "A variable that indicates the source of the supplier Specialty.  The values are claims-specialty or NPPES-specialty"
+      },
+      {
+        "name": "RBCS_Lvl",
+        "label": "RBCS Level",
+        "description": "High level grouping of the Restructured BETOS Classification System (RBCS) identifier into three groups including Durable Medical Equipment, Prosthetic and Orthotic Devices, and Drugs and Nutritional Products."
+      },
+      {
+        "name": "RBCS_Id",
+        "label": "RBCS ID",
+        "description": "RBCS identifier which is comprised of 6 characters. The first character identifies the category; the second character identifies the subcategory; the third, fourth, and fifth characters identify the family, and the sixth character identifies whether the service is a major procedure."
+      },
+      {
+        "name": "RBCS_Desc",
+        "label": "RBCS Description",
+        "description": "A concatenation of the RBCS category and RBCS subcategory description."
+      },
+      {
+        "name": "HCPCS_CD",
+        "label": "HCPCS Code",
+        "description": "HCPCS code for the specific product or service furnished by the DMEPOS supplier. Beginning with calendar year 2015 data, oral cancer drugs billed by providers using the national drug code (NDC) and previously identified with HCPCS codes beginning with ‘WW’ have been re-classified to the appropriate corresponding HCPCS code beginning with ‘J’. For additional information on HCPCS codes, please visit: https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets/Alpha-Numeric-…."
+      },
+      {
+        "name": "HCPCS_Desc",
+        "label": "HCPCS Description",
+        "description": "Description of the HCPCS code for the specific product or service furnished by the DMEPOS supplier."
+      },
+      {
+        "name": "Suplr_Rentl_Ind",
+        "label": "Supplier Rental Indicator",
+        "description": "Identifies whether the DMEPOS product/service submitted on the supplier's claim is rental or non-rental. A value of ‘Y’ indicates rental. A value of ‘N’ indicates non-rental. The indicator is derived from either the first or second HCPCS modifier on the supplier’s claim line item having a value of ‘RR’."
+      },
+      {
+        "name": "Tot_Suplr_Benes",
+        "label": "Number of Supplier Beneficiaries",
+        "description": "Number of beneficiaries associated with the supplier DMEPOS products/services ordered by the supplier. Beneficiary counts fewer than 11 have been suppressed to protect the privacy of Medicare beneficiaries."
+      },
+      {
+        "name": "Tot_Suplr_Clms",
+        "label": "Number of Supplier Claims",
+        "description": "Number of DMEPOS claims submitted by the supplier, reflecting products/services ordered by the supplier. Aggregated records based on Tot_Suplr_Clms fewer than 11 are not included in the data file."
+      },
+      {
+        "name": "Tot_Suplr_Srvcs",
+        "label": "Number of Supplier Services",
+        "description": "Number of DMEPOS products/services rendered by the supplier; note that the metrics used to count the number provided can vary from service to service."
+      },
+      {
+        "name": "Avg_Suplr_Sbmtd_Chrg",
+        "label": "Average Supplier Submitted Charges",
+        "description": "Average of the charges that suppliers submit for DMEPOS products/services. Total submitted charges can be calculated by multiplying the Avg_Suplr_Sbmtd_Chrg byTot_Suplr_Srvcs."
+      },
+      {
+        "name": "Avg_Suplr_Mdcr_Alowd_Amt",
+        "label": "Average Supplier Medicare Allowed Amount",
+        "description": "Average Medicare allowed amounts for the DMEPOS product/service rendered by suppliers. Medicare allowed amounts includes the amount Medicare pays, the deductible and coinsurance amounts that the beneficiary is responsible for paying, and any amounts that a third party is responsible for paying. Total Medicare allowed amounts can be calculated by multiplying the Avg_Suplr_Mdcr_Alowd_Amt by Tot_Suplr_Srvcs."
+      },
+      {
+        "name": "Avg_Suplr_Mdcr_Pymt_Amt",
+        "label": "Average Supplier Medicare Payment Amount",
+        "description": "Average amount that Medicare paid suppliers after deductible and coinsurance amounts have been deducted for the line item DMEPOS product/service. Total Medicare payment amounts can be calculated by multiplying the Avg_Suplr_Mdcr_Pymt_Amt by Tot_Suplr_Srvcs."
+      },
+      {
+        "name": "Avg_Suplr_Mdcr_Stdzd_Amt",
+        "label": "Average Supplier Medicare Standard Payment Amount",
+        "description": "Average amount that Medicare paid after beneficiary deductible and coinsurance amounts have been deducted for the line item DMEPOS product/service and after standardization of the Medicare payment has been applied. Standardization removes geographic differences in payment rates for individual product/services and makes Medicare payments across geographic areas comparable. Note: This variable is available starting with the calendar year 2014 data."
+      }
+    ]
+  }
+}

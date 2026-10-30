@@ -1,0 +1,140 @@
+{
+  "catalog_request": {
+    "url": "https://data.cms.gov/data.json",
+    "retrieved_at": "2026-10-29T19:17:40.676281+00:00",
+    "status": 200,
+    "wire_response_sha256": "7a7f15e332fdf225c7d8db74dd26aff58cf4dde7f2b04980fa8c3810618f4cf9",
+    "bytes": 18002305,
+    "content_type": "application/json",
+    "last_modified": "Thu, 29 Oct 2026 17:51:48 GMT"
+  },
+  "title": "Revoked Medicare Providers and Suppliers : 2026-09-01",
+  "modified": "2026-10-21",
+  "temporal": [
+    {
+      "@type": "PeriodOfTime",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30"
+    }
+  ],
+  "immutable_data_root": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93",
+  "series_data_url": "https://data.cms.gov/data-api/v1/dataset/a6496a7d-4e19-479a-a9ad-d4c0a49e07c3/data",
+  "resource_request": {
+    "url": "https://data.cms.gov/data-api/v1/dataset-resources/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93",
+    "retrieved_at": "2026-10-29T19:17:45.595964+00:00",
+    "status": 200,
+    "wire_response_sha256": "c739ae983eea83c02b6c613982b12b99184ccf5388057ed468106573491fd7e2",
+    "bytes": 1099,
+    "content_type": "application/json",
+    "last_modified": "Thu, 29 Oct 2026 19:17:50 GMT"
+  },
+  "dictionary_request": {
+    "url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/dictionary",
+    "retrieved_at": "2026-10-29T19:17:50.587282+00:00",
+    "status": 200,
+    "wire_response_sha256": "b13c2734e25503cb906a91fa866209928f2401fa30f412e2b6adb956c70c0e9d",
+    "bytes": 2035,
+    "content_type": "application/json",
+    "last_modified": "Thu, 29 Oct 2026 19:17:54 GMT"
+  },
+  "stats": {
+    "found_rows": 8620,
+    "total_rows": 8620
+  },
+  "stats_request": {
+    "url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data/stats",
+    "retrieved_at": "2026-10-29T19:17:55.122516+00:00",
+    "status": 200,
+    "wire_response_sha256": "fdf2e6c70ae656f2c719b1bcf731c4597332cf72b6be093971a471522f50bd8c",
+    "bytes": 37,
+    "content_type": "application/json",
+    "last_modified": "Tue, 27 Oct 2026 23:36:20 GMT"
+  },
+  "main_pages": [
+    {
+      "url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data?column=ENRLMT_ID%2CNPI%2CMULTIPLE_NPI_FLAG%2CSTATE_CD%2CPROVIDER_TYPE_DESC%2CREVOCATION_RSN%2CREVOCATION_EFCTV_DT%2CREENROLLMENT_BAR_EXPRTN_DT&sort=ENRLMT_ID&size=5000&offset=0",
+      "retrieved_at": "2026-10-29T19:18:00.362417+00:00",
+      "status": 200,
+      "wire_response_sha256": "783a2725d555216dc0297f51bcd55f9a2ff5000af117a2c7cd8c00a05a35e2ca",
+      "bytes": 1555750,
+      "content_type": "application/json",
+      "last_modified": "Thu, 29 Oct 2026 19:18:04 GMT",
+      "returned_rows": 5000,
+      "offset": 0
+    },
+    {
+      "url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data?column=ENRLMT_ID%2CNPI%2CMULTIPLE_NPI_FLAG%2CSTATE_CD%2CPROVIDER_TYPE_DESC%2CREVOCATION_RSN%2CREVOCATION_EFCTV_DT%2CREENROLLMENT_BAR_EXPRTN_DT&sort=ENRLMT_ID&size=5000&offset=5000",
+      "retrieved_at": "2026-10-29T19:18:05.266517+00:00",
+      "status": 200,
+      "wire_response_sha256": "4c61298d402f9e6704b4b993b4fc7f2e256d3e205c86d6374b2f9c7c8e3fcffa",
+      "bytes": 1117645,
+      "content_type": "application/json",
+      "last_modified": "Thu, 29 Oct 2026 19:18:09 GMT",
+      "returned_rows": 3620,
+      "offset": 5000
+    },
+    {
+      "url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data?column=ENRLMT_ID%2CNPI%2CMULTIPLE_NPI_FLAG%2CSTATE_CD%2CPROVIDER_TYPE_DESC%2CREVOCATION_RSN%2CREVOCATION_EFCTV_DT%2CREENROLLMENT_BAR_EXPRTN_DT&sort=ENRLMT_ID&size=5000&offset=8620",
+      "retrieved_at": "2026-10-29T19:18:10.143062+00:00",
+      "status": 200,
+      "wire_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "content_type": "application/json",
+      "last_modified": "Thu, 29 Oct 2026 19:18:14 GMT",
+      "returned_rows": 0,
+      "offset": 8620
+    }
+  ],
+  "selected_columns": [
+    "ENRLMT_ID",
+    "NPI",
+    "MULTIPLE_NPI_FLAG",
+    "STATE_CD",
+    "PROVIDER_TYPE_DESC",
+    "REVOCATION_RSN",
+    "REVOCATION_EFCTV_DT",
+    "REENROLLMENT_BAR_EXPRTN_DT"
+  ],
+  "additional_request": {
+    "url": "https://data.cms.gov/sites/default/files/2026-10/Revo_Additional_NPIs_2026.10.21.csv",
+    "retrieved_at": "2026-10-29T19:18:14.720307+00:00",
+    "status": 200,
+    "wire_response_sha256": "123f1fdbfe570e07fd63399ade1d36bdb385286c792894987fc950906907fb61",
+    "bytes": 2647,
+    "content_type": "text/csv",
+    "last_modified": "Wed, 21 Oct 2026 14:51:25 GMT"
+  },
+  "known_case_requests": {
+    "nd_medical": {
+      "url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data?filter%5BNPI%5D=1790533503&column=ENRLMT_ID%2CNPI%2CMULTIPLE_NPI_FLAG%2CSTATE_CD%2CPROVIDER_TYPE_DESC%2CREVOCATION_RSN%2CREVOCATION_EFCTV_DT%2CREENROLLMENT_BAR_EXPRTN_DT%2CORG_NAME&size=5000",
+      "retrieved_at": "2026-10-29T19:18:18.946533+00:00",
+      "status": 200,
+      "wire_response_sha256": "0fe3831a35f76198b2fe8a8cd52875397655615902a06bc95046b29a87c61bd7",
+      "bytes": 378,
+      "content_type": "application/json",
+      "last_modified": "Thu, 29 Oct 2026 19:18:23 GMT"
+    },
+    "centennial": {
+      "url": "https://data.cms.gov/data-api/v1/dataset/66acd4b6-e9ca-47bb-a7d6-fbd7c2f56e93/data?filter%5BNPI%5D=1609626167&column=ENRLMT_ID%2CNPI%2CMULTIPLE_NPI_FLAG%2CSTATE_CD%2CPROVIDER_TYPE_DESC%2CREVOCATION_RSN%2CREVOCATION_EFCTV_DT%2CREENROLLMENT_BAR_EXPRTN_DT%2CORG_NAME&size=5000",
+      "retrieved_at": "2026-10-29T19:18:23.637481+00:00",
+      "status": 200,
+      "wire_response_sha256": "ba4cb77f8e0fa97197a86c11494043762d59427df1c520521161eb39cb89f5b2",
+      "bytes": 355,
+      "content_type": "application/json",
+      "last_modified": "Thu, 29 Oct 2026 19:18:28 GMT"
+    }
+  },
+  "snapshots": {
+    "snapshots/revoked_selected.json": {
+      "sha256": "80f97bfa7cbd348016e346514437420eb9aa0fc3966ac6aadde8a925c50a1e38"
+    },
+    "snapshots/additional_npis.json": {
+      "sha256": "b72adeec1f64005bb1615e9abfe79cf51a3891d10c24644c576bcedc8ea2ebda"
+    },
+    "snapshots/known_case_matches.json": {
+      "sha256": "1dd76e56161cb43bc7a1e0fc13e35b832b99c5ab0182bafbd1f12e6661d101b6"
+    }
+  },
+  "hash_scope": "Wire hashes cover exact fetched responses, including API column projection; snapshot hashes cover saved JSON transformation. Catalog hash covers full source while catalog_selected.json contains only the selected dataset.",
+  "freshness_limit": "Publication metadata and a quarterly extract; neither real-time PECOS status nor a claim-level payment ledger."
+}

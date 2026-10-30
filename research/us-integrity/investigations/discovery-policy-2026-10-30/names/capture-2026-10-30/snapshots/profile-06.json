@@ -1,0 +1,26 @@
+{
+  "name": "AMAZON WEB SERVICES, INC.",
+  "alternate_names": [
+    "AMAZON WEB SERVICES  INC.",
+    "AMAZON WEB SERVICES LLC"
+  ],
+  "duns": "965048981",
+  "uei": "NQEWN6C1LSU5",
+  "recipient_id": "645df5f2-66e3-8d2b-a612-3bff6ed3da30-P",
+  "recipient_level": "P",
+  "parent_id": "645df5f2-66e3-8d2b-a612-3bff6ed3da30-P",
+  "parent_name": "AMAZON WEB SERVICES, INC.",
+  "parent_duns": "965048981",
+  "parent_uei": "NQEWN6C1LSU5",
+  "business_types": [
+    "category_business",
+    "corporate_entity_not_tax_exempt",
+    "other_than_small_business",
+    "special_designations",
+    "us_owned_business"
+  ],
+  "location": {
+    "state_code": "WA",
+    "country_code": "USA"
+  }
+}

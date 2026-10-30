@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-10-29T19:18:15.096009+00:00",
+  "status": "pass",
+  "cohorts": [
+    {
+      "year": 2022,
+      "code": "A4351",
+      "rows": 1483,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    },
+    {
+      "year": 2022,
+      "code": "A4352",
+      "rows": 567,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    },
+    {
+      "year": 2022,
+      "code": "A4353",
+      "rows": 322,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    },
+    {
+      "year": 2023,
+      "code": "A4351",
+      "rows": 1382,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    },
+    {
+      "year": 2023,
+      "code": "A4352",
+      "rows": 586,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    },
+    {
+      "year": 2023,
+      "code": "A4353",
+      "rows": 332,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    },
+    {
+      "year": 2024,
+      "code": "A4351",
+      "rows": 1297,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    },
+    {
+      "year": 2024,
+      "code": "A4352",
+      "rows": 569,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    },
+    {
+      "year": 2024,
+      "code": "A4353",
+      "rows": 332,
+      "snapshot_hash": "pass",
+      "canonical_hash": "pass",
+      "stats_count": "pass",
+      "exact_key_uniqueness": "pass",
+      "selected_non_contact_schema": "pass",
+      "minimum_11_claims": "pass",
+      "terminal_page": "pass"
+    }
+  ],
+  "total_supplier_rows": 6870,
+  "national_snapshot_hash": "pass",
+  "limitations": "Validates provenance and calculations, not clinical necessity, ownership, fraud, released cash, or suppressed individual records."
+}

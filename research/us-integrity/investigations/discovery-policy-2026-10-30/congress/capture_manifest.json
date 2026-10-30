@@ -1,0 +1,126 @@
+[
+  {
+    "id": "hr7725",
+    "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7725.xml",
+    "accessed": "2026-10-30",
+    "bytes": 10088,
+    "sha256": "f60eb718fde714670c5b97221422bb6db0ae82930c639f10cf6839d7983e3295",
+    "file": "captures/hr7725.xml",
+    "title": "Stop Child Care Fraud Act of 2026",
+    "update_date": "2026-06-11T23:41:32Z",
+    "introduced": "2026-02-26",
+    "latest_action": {
+      "actionDate": "2026-04-06",
+      "text": "Placed on the Union Calendar, Calendar No. 511."
+    },
+    "laws": []
+  },
+  {
+    "id": "hr7726",
+    "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7726.xml",
+    "accessed": "2026-10-30",
+    "bytes": 27993,
+    "sha256": "3c057620319d58edff830b7da7dc202cfa6788dccc229d6558f9cb60654a2548",
+    "file": "captures/hr7726.xml",
+    "title": "Stop Child Care Scams Act of 2026",
+    "update_date": "2026-07-23T23:06:21Z",
+    "introduced": "2026-02-26",
+    "latest_action": {
+      "actionDate": "2026-06-04",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+    },
+    "laws": []
+  },
+  {
+    "id": "s1473",
+    "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1473.xml",
+    "accessed": "2026-10-30",
+    "bytes": 17466,
+    "sha256": "7018aeabf0f21ed0dc22a70bd1c123b8de1946ae2e2178e323c81fd027f90202",
+    "file": "captures/s1473.xml",
+    "title": "Stop Stealing our Chips Act",
+    "update_date": "2026-05-27T11:22:16Z",
+    "introduced": "2025-04-10",
+    "latest_action": {
+      "actionDate": "2026-05-21",
+      "text": "Held at the desk.",
+      "actionTime": "15:30:23"
+    },
+    "laws": []
+  },
+  {
+    "id": "hr4646",
+    "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4646.xml",
+    "accessed": "2026-10-30",
+    "bytes": 24526,
+    "sha256": "701ac42be036b732808f426b7c3905adbf0138dc476aa0098bf235ebe0703de9",
+    "file": "captures/hr4646.xml",
+    "title": "Whistleblower Protection Act of 2025",
+    "update_date": "2026-09-19T01:38:23Z",
+    "introduced": "2025-07-23",
+    "latest_action": {
+      "actionDate": "2026-09-16",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+    },
+    "laws": []
+  },
+  {
+    "id": "hr10792",
+    "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10792.xml",
+    "accessed": "2026-10-30",
+    "bytes": 9419,
+    "sha256": "81bfb97bd7681f9a9e20b64b19a9423565fb90384e946f574c0dca7fdb69fee8",
+    "file": "captures/hr10792.xml",
+    "title": "FTC Whistleblower Act of 2026",
+    "update_date": "2026-10-20T16:40:15Z",
+    "introduced": "2026-10-09",
+    "latest_action": {
+      "actionDate": "2026-10-09",
+      "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "laws": []
+  },
+  {
+    "id": "ndaa2026",
+    "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1071.xml",
+    "accessed": "2026-10-30",
+    "bytes": 179481,
+    "sha256": "cb262b2d10d632a71289851666de5838eb922cecd070ab0d767cd4a99c96eeac",
+    "file": "captures/ndaa2026.xml",
+    "title": "National Defense Authorization Act for Fiscal Year 2026",
+    "update_date": "2026-10-08T15:33:28Z",
+    "introduced": "2025-03-14",
+    "latest_action": {
+      "actionDate": "2025-12-18",
+      "text": "Became Public Law No: 119-60."
+    },
+    "laws": [
+      "<laws>\n      <item>\n        <type>Public Law</type>\n        <number>119-60</number>\n      </item>\n    </laws>\n    "
+    ]
+  },
+  {
+    "id": "cline_oct29",
+    "url": "https://cline.house.gov/news/documentsingle.aspx?DocumentID=2708",
+    "accessed": "2026-10-30",
+    "bytes": 26115,
+    "sha256": "86a6ee08bd711e13b14e48c6f38c38a663f33771d7a0a5606a7dc830c36598f7",
+    "file": "captures/cline_oct29.html",
+    "pdf_links": [
+      "https://cline.house.gov/UploadedFiles/Signed_Bill-Mandatory_Min_Fraud.pdf"
+    ]
+  },
+  {
+    "id": "dfars_2026_o0048",
+    "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-215/2026-O0048_TAB_A_Deviation_Memo_Part_215.pdf",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "id": "cline_proposal",
+    "url": "https://cline.house.gov/UploadedFiles/Signed_Bill-Mandatory_Min_Fraud.pdf",
+    "accessed": "2026-10-30",
+    "bytes": 326291,
+    "sha256": "cf5dc42fb75b153450a020ebab7039d087803eca7453dc44cc321abdaaba37e0",
+    "file": "captures/cline_proposal.pdf",
+    "verification": "Page1 visually checked; blank bill number, date and referral fields; footerOctober28,2026"
+  }
+]

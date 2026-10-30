@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-10-30",
+  "status": "passed",
+  "test_counts": {
+    "engine_tests": 35,
+    "connector_tests": 8,
+    "assembly_tests": 9,
+    "extension_tests": 14,
+    "catheter_tests": 6,
+    "name_tests": 16,
+    "pricing_tests": 6,
+    "collaboration_tests": 17
+  },
+  "total_tests": 111,
+  "graph": {
+    "as_of": "2026-10-30",
+    "edges": 2348,
+    "graph_sha256": "4951333d469aee5721cb58f9ceafbd3f159de595a0306741cb077a55fcd1f70f",
+    "hash_scope": "canonical supplied JSON, not downloaded source content",
+    "nodes": 1020,
+    "obsidian_notes": 1020,
+    "public_export": true,
+    "sources": 294,
+    "tasks_imported": 24,
+    "version": "1.0"
+  },
+  "unchanged_preexisting_nodes": 829,
+  "preexisting_relationships_preserved": 1861,
+  "missing_obsidian_wikilinks": 0,
+  "independent_checks": [
+    "review/verify_names.py",
+    "review/verify_price.py"
+  ],
+  "new_fraud_established": false,
+  "loss_or_reward_calculated": false,
+  "external_model_calls": 0,
+  "review_sha256": "575e068cf6c5e7c929909c0c0163f6e7e805c0ceaad5fde3cda18aac7353637e",
+  "limits": "Tests establish software and retained-evidence consistency, not correctness of every source, fraud, government knowledge or reward eligibility."
+}

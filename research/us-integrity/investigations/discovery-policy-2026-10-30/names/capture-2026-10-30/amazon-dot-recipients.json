@@ -1,0 +1,18 @@
+[
+  {
+    "id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-P",
+    "duns": "128990418",
+    "uei": "TMKBFBRHFKH3",
+    "name": "AMAZON.COM SERVICES LLC",
+    "recipient_level": "P",
+    "amount": 287562.09
+  },
+  {
+    "id": "06d55b8d-0bcb-c654-8213-1001f38dd3d2-C",
+    "duns": "128990418",
+    "uei": "TMKBFBRHFKH3",
+    "name": "AMAZON.COM SERVICES LLC",
+    "recipient_level": "C",
+    "amount": 287562.09
+  }
+]

@@ -1,0 +1,563 @@
+[
+  {
+    "id": "agent-procurement_universe",
+    "mode": "specification_not_deployed",
+    "mission": "Build denominator and coverage manifest",
+    "inputs": [
+      "agency_code",
+      "office_code",
+      "PIID",
+      "parent_PIID",
+      "action_date",
+      "UEI",
+      "PSC",
+      "NAICS"
+    ],
+    "required_checks": [
+      "separate IDV ceilings from order obligations",
+      "signed obligations retain deobligations",
+      "record delayed/unlinked/deleted records"
+    ],
+    "benign_alternatives": [
+      "agency reorganizations",
+      "legacy identifier changes",
+      "classification and threshold exclusions"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-defense_spares",
+    "mode": "specification_not_deployed",
+    "mission": "Compare identical or technically matched parts",
+    "inputs": [
+      "NSN",
+      "NIIN",
+      "part_number",
+      "manufacturer_CAGE",
+      "quantity",
+      "unit_of_issue",
+      "contract_terms"
+    ],
+    "required_checks": [
+      "require specification revision and item condition",
+      "normalize freight warranty urgency lot size and date",
+      "reject unmatched or proprietary item comparison"
+    ],
+    "benign_alternatives": [
+      "low production volume",
+      "qualification testing",
+      "obsolescence",
+      "supply-chain disruption"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-aerospace_pricing",
+    "mode": "specification_not_deployed",
+    "mission": "Review published pricing and cost-data concerns",
+    "inputs": [
+      "contract_clause",
+      "proposal_date",
+      "cost_pricing_data",
+      "modification",
+      "BOM"
+    ],
+    "required_checks": [
+      "distinguish defective pricing from poor negotiation",
+      "separate commercial and certified-data rules",
+      "require document-level evidence for knowingly false submission"
+    ],
+    "benign_alternatives": [
+      "different configurations",
+      "data not reasonably available at negotiation",
+      "approved contract changes"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-construction_integrity",
+    "mode": "specification_not_deployed",
+    "mission": "Analyze lot-level bidding and scope changes",
+    "inputs": [
+      "solicitation",
+      "lot",
+      "bidder",
+      "bid_price",
+      "subcontract",
+      "change_order",
+      "schedule"
+    ],
+    "required_checks": [
+      "scope-equivalent cohorts",
+      "separate original scope and approved changes",
+      "repeated cover-bid indicators require underlying bids"
+    ],
+    "benign_alternatives": [
+      "regional specialization",
+      "shared estimators",
+      "weather",
+      "unforeseen ground conditions",
+      "lawful teaming"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-cyber_contract_compliance",
+    "mode": "specification_not_deployed",
+    "mission": "Audit public representations against incorporated clauses",
+    "inputs": [
+      "award",
+      "effective_clause",
+      "representation",
+      "assessment_date",
+      "remediation_date"
+    ],
+    "required_checks": [
+      "documents only; no security scanning",
+      "technical control gap alone is not FCA scienter/materiality",
+      "internal evidence absence is a limitation"
+    ],
+    "benign_alternatives": [
+      "clause not incorporated",
+      "approved remediation",
+      "assessment date mismatch",
+      "entity-wide versus enclave scope"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-services_labor",
+    "mode": "specification_not_deployed",
+    "mission": "Review labor categories, rates and delivery evidence",
+    "inputs": [
+      "task_order",
+      "labor_category",
+      "hours",
+      "rate",
+      "deliverable",
+      "acceptance"
+    ],
+    "required_checks": [
+      "public staffing claims are hypothesis inputs",
+      "no location-based assumption of hours worked",
+      "invoice-level evidence required for billing conclusion"
+    ],
+    "benign_alternatives": [
+      "authorized remote work",
+      "fixed-price deliverable contracts",
+      "multiple shifts",
+      "approved overtime"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-set_aside_control",
+    "mode": "specification_not_deployed",
+    "mission": "Check historical eligibility and actual performance",
+    "inputs": [
+      "UEI",
+      "CAGE",
+      "award_date",
+      "certification_period",
+      "NAICS",
+      "teaming_terms"
+    ],
+    "required_checks": [
+      "current certification is not historical proof",
+      "mentor-protege and joint venture rules are time-specific",
+      "independent evidence for actual control"
+    ],
+    "benign_alternatives": [
+      "approved joint ventures",
+      "eligible acquisition transition",
+      "lawful subcontracting",
+      "administrative lag"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-logistics_fuel",
+    "mode": "specification_not_deployed",
+    "mission": "Review moving/freight/fuel allocation and delivery",
+    "inputs": [
+      "shipment_or_lot",
+      "route",
+      "capacity",
+      "surcharge",
+      "fuel_spec",
+      "performance_score"
+    ],
+    "required_checks": [
+      "normalize route distance capacity season and emergency terms",
+      "performance-score manipulation needs source records",
+      "public aggregate awards do not show delivered quantity"
+    ],
+    "benign_alternatives": [
+      "spot market movement",
+      "remote routes",
+      "hazardous cargo",
+      "service constraints"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-foreign_assistance_chain",
+    "mode": "specification_not_deployed",
+    "mission": "Trace implementers and documented subawards",
+    "inputs": [
+      "award",
+      "grant_or_contract",
+      "prime_UEI",
+      "subrecipient",
+      "country",
+      "period",
+      "audit"
+    ],
+    "required_checks": [
+      "contract/grant thresholds differ",
+      "reported contract volume not loss",
+      "separate aid to recipient from payment to implementer"
+    ],
+    "benign_alternatives": [
+      "security access limits",
+      "subrecipient privacy",
+      "currency movement",
+      "local subcontract reporting gaps"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-ownership_temporal",
+    "mode": "specification_not_deployed",
+    "mission": "Resolve public corporate relationships",
+    "inputs": [
+      "UEI",
+      "CAGE",
+      "registry_id",
+      "SEC_CIK",
+      "as_of_date",
+      "relationship_type"
+    ],
+    "required_checks": [
+      "never treat registered agent or officer as beneficial owner",
+      "keep unverified name matches separate",
+      "store mergers and former owners as dated edges"
+    ],
+    "benign_alternatives": [
+      "shared corporate services",
+      "registered-agent address",
+      "franchise or brand alias",
+      "separate facilities"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  },
+  {
+    "id": "agent-procurement_skeptic",
+    "mode": "specification_not_deployed",
+    "mission": "Try to disprove every proposed anomaly",
+    "inputs": [
+      "evidence_ids",
+      "comparison_cohort",
+      "coverage_manifest",
+      "benign_alternatives"
+    ],
+    "required_checks": [
+      "reproduce query and totals",
+      "challenge entity resolution and missing-data assumptions",
+      "reject unsupported fraud or reward labels"
+    ],
+    "benign_alternatives": [
+      "data correction",
+      "reporting lag",
+      "scope mismatch",
+      "valid contractual exception"
+    ],
+    "output_schema": [
+      "question",
+      "source_ids",
+      "queries",
+      "facts",
+      "inferences",
+      "contradictions",
+      "missing_evidence",
+      "next_verification",
+      "status",
+      "reviewer"
+    ],
+    "allowed_statuses": [
+      "context",
+      "anomaly",
+      "disconfirmed",
+      "needs_evidence",
+      "ready_for_human_review"
+    ],
+    "forbidden_actions": [
+      "contact_subject",
+      "file_report",
+      "declare_fraud",
+      "estimate_reward_entitlement",
+      "access_nonpublic_or_controlled_data"
+    ],
+    "handoff": "independent evidence review; no model may approve its own lead"
+  }
+]

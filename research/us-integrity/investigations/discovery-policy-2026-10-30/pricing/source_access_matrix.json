@@ -1,0 +1,81 @@
+{
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "source_id": "DLA-SPE4A626U3619",
+      "data_kind": "RFQ plus disclosed history",
+      "attempted": true,
+      "actual_status": "200 PDF after ordinary DoD notice consent",
+      "rows_acquired": 7,
+      "usable_for": "neutral source history and current requirements",
+      "not_usable_for": "invoice verification, payment, proven comparable price, fraud"
+    },
+    {
+      "source_id": "DIBBS-HISTORICAL-AWARDS",
+      "url": "https://www.dibbs.bsm.dla.mil/",
+      "data_kind": "prior award and CLIN documents",
+      "attempted": false,
+      "actual_status": "not acquired",
+      "rows_acquired": 0,
+      "usable_for": "next-step document discovery only",
+      "not_usable_for": "assuming unit prices or all records are publicly downloadable"
+    },
+    {
+      "source_id": "DLA-FLIS-READING-ROOM",
+      "data_kind": "catalog and packaging references",
+      "attempted": true,
+      "actual_status": "official search index available; direct requests 403",
+      "rows_acquired": 0,
+      "usable_for": "catalog-file discovery",
+      "not_usable_for": "verified bulk award history; History.zip means catalog history"
+    },
+    {
+      "source_id": "DLA-FEDMALL-SALES",
+      "parent_source_id": "DLA-FLIS-READING-ROOM",
+      "data_kind": "monthly sales workbook",
+      "attempted": false,
+      "actual_status": "file names identified in official index only",
+      "rows_acquired": 0,
+      "usable_for": "potential next acquisition",
+      "not_usable_for": "price calculations before schema and rows acquired"
+    },
+    {
+      "source_id": "SAM-CONTRACT-AWARDS-API",
+      "data_kind": "contract award/action metadata",
+      "attempted": true,
+      "actual_status": "documentation public; API call not attempted without API key",
+      "rows_acquired": 0,
+      "usable_for": "API access planning; eventual recipient and award joins",
+      "not_usable_for": "invoice or CLIN price inferred from obligated totals",
+      "requires": "legitimate SAM API key; public DoD revealed-data restrictions apply"
+    },
+    {
+      "source_id": "USASPENDING-ABOUT-DATA",
+      "data_kind": "award and financial context",
+      "attempted": true,
+      "actual_status": "documentation read; existing connector separately available",
+      "rows_acquired": 0,
+      "usable_for": "cohort selection and obligations context",
+      "not_usable_for": "unit-price or quantity invented from award totals"
+    },
+    {
+      "source_id": "VA-FSS",
+      "data_kind": "schedule and pharmaceutical catalog pricing",
+      "attempted": false,
+      "actual_status": "current official page identified only",
+      "rows_acquired": 0,
+      "usable_for": "next-step catalog comparison pathway",
+      "not_usable_for": "claiming actual paid prices or identical pack sizes"
+    },
+    {
+      "source_id": "DLA-FOIA",
+      "data_kind": "potential original records",
+      "attempted": false,
+      "actual_status": "records pathway identified; no submission",
+      "rows_acquired": 0,
+      "usable_for": "define missing-record request if separately authorized",
+      "not_usable_for": "assuming exempt, proprietary or nonpublic records are public"
+    }
+  ],
+  "no_restricted_access_attempted": true
+}
