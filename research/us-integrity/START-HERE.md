@@ -2,11 +2,15 @@
 
 Research updated **30 October 2026**, in a separate domain of PipeMind. This is a source-led research bank with real data captures, completed catheter and discovery-method investigations, and executable local tools. It does not identify a newly proved fraud case or promise a reward.
 
+## Current focused investigation
+
+The user reports assigning Claude the prepared pricing task. Codex is working alongside that manual session on **DLA machine bolts, NSN5306016864912**: seven historical awards, five supplier CAGE identifiers, and the newer contract/order chain. See [shared ownership and exchange instructions](collaboration/ADJACENT-WORK.md). A Claude result has not yet been independently received or verified. This is an evidence-led cohort selection, not a claim that fraud is likely in these purchases.
+
 ## Latest completed investigation
 
 Read the [reward authority, supplier-name and procurement-price investigation](investigations/discovery-policy-2026-10-30/REPORT.md). Parallel specialists separated Trump's attributed remarks from written DOJ policy and congressional law/proposals, executed an Amazon/Amazon. control on **150 unique public awards**, and acquired an original DLA solicitation with **seven historical price rows**. Independent review reproduced the name results and price extraction. Neither test establishes a new fraud case. The next defined discovery cohort is 30 DLA bolt RFQs followed into original award and order terms.
 
-The evidence bank now contains **1,020 nodes, 2,348 edges and 294 source records**. Each source retains its date, retrieval limitations and actual archive status. [Claude/Grok task packets](collaboration/README.md) support a concrete repository exchange, but neither external model has executed a task: Grok authorization remains pending and Claude connection routes were rejected by automatic approval review. These states are separate from the specialist workers that ran in this session.
+The evidence bank now contains **1,020 nodes, 2,348 edges and 294 source records**. Each source retains its date, retrieval limitations and actual archive status. [Claude/Grok task packets](collaboration/README.md) support a concrete repository exchange, with the latest manual-dispatch state in the coordination note above. Grok authorization remains pending; no external model result has been received by this coordinator. These states are separate from the specialist workers that ran in this session.
 
 ## Earlier completed investigation
 
