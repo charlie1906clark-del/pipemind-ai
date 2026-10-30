@@ -4,6 +4,21 @@ Research updated: 30 October 2026. These notes record evidence and planning; no 
 
 Open the built-in graph, or use these indexes. Source details and legal status are in each note.
 
+## Targeted price agents and new federal pilot
+
+- [[PA-SYSTEM-20261030|Targeted investigation system and reviewed implementation]]
+- [[PA-WAVE-20261030-01|Twenty current tasks and dependency gates]]
+- [[FPP-COHORT-20261030|Thirty observed DLA, VA and HHS awards with incomplete coverage]]
+- [[FPP-ORDERED-VALUE-SPE4A626PW775-0001|New special-bolt production line and ordered value]]
+- [[FPP-ORDERED-VALUE-SPE4A626PW775-0002|Separate first-article test value]]
+- [[PA-RUN-LOCAL-20261030|Actual local task run: four accepted, five blocked, eleven queued]]
+- [[PA-SPEC-FOLLOWUP-20261030|Prior bolt's primary specification remains unresolved]]
+- [[PA-TRACER-LIVE-20261030|Standalone attachment tracer live access result]]
+- [[PA-RECURRENCE-ACTUAL-BLOCKED|Actual recurring-premium comparison remains blocked]]
+- [[PA-RECURRENCE-SYNTHETIC|Synthetic repeated-premium method demonstration]]
+
+The new $272.99 special engine-mount item is a different NSN from the earlier $0.91 bolt. Its separate $3,500 test requirement is not an unexplained invoice excess. No qualified independent benchmark or buyer benefit is established. Task acceptance means the observations are supported as worded; later waves and queued roles have not thereby executed.
+
 ## DLA prices and buyer independence
 
 - [[BOLT-TRACE-20261030|One-area investigation and completed evidence trace]]

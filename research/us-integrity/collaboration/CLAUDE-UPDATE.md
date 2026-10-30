@@ -4,6 +4,14 @@ Updated 30 October 2026. The user reports your task is running. The coordinator 
 
 Read the Codex branch **research/us-integrity-dla-bolt-trace-2026-10-30**, draft PR20. Record the exact commit you inspect. Your immutable v2 task still pins 616b90018b4a66dcf3802576fe3cc5ede9434e65; identify this later material separately rather than pretending it existed at that baseline.
 
+## Current adjacent assignment
+
+The [price-agent supplement](../price-agents/plans/claude-supplemental-assignment.json) assigns actual bid abstracts and price-reasonableness decisions for the prior common-bolt instruments, followed by narrowly supported professional decision roles. Codex has separately acquired a new 30-award DLA/VA/HHS pilot and implemented local queue/tracing/recurrence tools. Avoid duplicating those acquisitions. A prepared assignment is not a provider dispatch receipt; return an exact inspected commit and result commit/path under the existing result contract.
+
+The [new pilot](../investigations/federal-price-pilot-2026-10-30/REPORT.md) acquired orderSPE4A626PW775 for **NSN5306004457358**, a different special engine-mount bolt: 2,243EA at $272.99, with a separate $3,500 first-article test. No independent priced benchmark has been qualified. Do not compare it to the earlier $0.91 NSN merely because both are bolts. The [new system report](../investigations/price-agent-system-2026-10-30/REPORT.md) identifies the live evidence gaps and actual local task state.
+
+The supplemental plan baseline is d535e545adf362c17e43337e1147a0b2f6c7c18a; record the later commit you actually inspect. The original v2 input remains unchanged. Separate local databases do not share leases: coordinate task ownership through the repository and preserve independent review. No authenticated external-model result was observed in the latest bounded branch inventory.
+
 ## Evidence that closes earlier gaps
 
 - `investigations/dla-bolt-trace-2026-10-30/current/observations.json`: original parent CLIN USD 0.91/EA and original child order906 EA/$824.46; payment is unverified.

@@ -1,0 +1,2520 @@
+{
+  "schema_version": "1.0",
+  "status": {
+    "schema_version": "1.0",
+    "tasks": [
+      {
+        "task_id": "PA-W1-BENEFIT-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-BENEFIT",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 6,
+        "evidence_count": 0,
+        "dependency_blockers": [
+          "PA-W1-ROLE-BOLT",
+          "PA-W1-ENTITY-BOLT"
+        ],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-BIDS-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-COMPETE",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 10,
+        "evidence_count": 0,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": true,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-COHORT-DLA",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-ACQUIRE",
+        "status": "accepted",
+        "owner": "codex-evidence-coordinator",
+        "lease_active": false,
+        "claim_count": 1,
+        "reopen_count": 0,
+        "attempts": 1,
+        "local_capture_reuse_attempts": 1,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 5,
+        "evidence_count": 1,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "accepted",
+        "required_record": null,
+        "current_result_id": "PA-W1-COHORT-DLA-RESULT-01"
+      },
+      {
+        "task_id": "PA-W1-COHORT-HHS",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-ACQUIRE",
+        "status": "accepted",
+        "owner": "codex-evidence-coordinator",
+        "lease_active": false,
+        "claim_count": 1,
+        "reopen_count": 0,
+        "attempts": 1,
+        "local_capture_reuse_attempts": 1,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 5,
+        "evidence_count": 1,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "accepted",
+        "required_record": null,
+        "current_result_id": "PA-W1-COHORT-HHS-RESULT-01"
+      },
+      {
+        "task_id": "PA-W1-COHORT-VA",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-ACQUIRE",
+        "status": "accepted",
+        "owner": "codex-evidence-coordinator",
+        "lease_active": false,
+        "claim_count": 1,
+        "reopen_count": 0,
+        "attempts": 1,
+        "local_capture_reuse_attempts": 1,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 5,
+        "evidence_count": 1,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "accepted",
+        "required_record": null,
+        "current_result_id": "PA-W1-COHORT-VA-RESULT-01"
+      },
+      {
+        "task_id": "PA-W1-CURATE",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-GRAPH",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 4,
+        "evidence_count": 0,
+        "dependency_blockers": [
+          "PA-W1-LINE-VA",
+          "PA-W1-LINE-HHS",
+          "PA-W1-NOVELTY-BOLT",
+          "PA-W1-PRICE-DLA-PILOT"
+        ],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-ENTITY-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-ENTITY",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 8,
+        "evidence_count": 0,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": true,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-LINE-DLA",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-TRACE",
+        "status": "accepted",
+        "owner": "codex-evidence-coordinator",
+        "lease_active": false,
+        "claim_count": 1,
+        "reopen_count": 0,
+        "attempts": 3,
+        "local_capture_reuse_attempts": 3,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 7,
+        "evidence_count": 3,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "accepted",
+        "required_record": null,
+        "current_result_id": "PA-W1-LINE-DLA-RESULT-01"
+      },
+      {
+        "task_id": "PA-W1-LINE-HHS",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-TRACE",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 10,
+        "evidence_count": 0,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": true,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-LINE-VA",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-TRACE",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 10,
+        "evidence_count": 0,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": true,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-MARKET-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-MARKET",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 8,
+        "evidence_count": 0,
+        "dependency_blockers": [
+          "PA-W1-SPEC-BOLT"
+        ],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-MARKET-DLA-PILOT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-MARKET",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 8,
+        "evidence_count": 0,
+        "dependency_blockers": [
+          "PA-W1-SPEC-DLA-PILOT"
+        ],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-NOVELTY-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-NOVELTY",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 6,
+        "evidence_count": 0,
+        "dependency_blockers": [
+          "PA-W1-REVIEW-BOLT"
+        ],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-PAYMENT-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-PAYMENT",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 6,
+        "evidence_count": 0,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": true,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-PRICE-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-PRICE",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 4,
+        "evidence_count": 0,
+        "dependency_blockers": [
+          "PA-W1-MARKET-BOLT"
+        ],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-PRICE-DLA-PILOT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-PRICE",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 4,
+        "evidence_count": 0,
+        "dependency_blockers": [
+          "PA-W1-MARKET-DLA-PILOT"
+        ],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-REVIEW-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-FALSIFY",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 8,
+        "evidence_count": 0,
+        "dependency_blockers": [
+          "PA-W1-PRICE-BOLT",
+          "PA-W1-BIDS-BOLT",
+          "PA-W1-BENEFIT-BOLT",
+          "PA-W1-PAYMENT-BOLT"
+        ],
+        "budget_exhausted": false,
+        "available": false,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-ROLE-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-DECISION",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 8,
+        "evidence_count": 0,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": true,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-SPEC-BOLT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-SPEC",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 12,
+        "evidence_count": 0,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": true,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      },
+      {
+        "task_id": "PA-W1-SPEC-DLA-PILOT",
+        "plan_id": "PA-WAVE-20261030-01",
+        "agent_role": "PA-ROLE-SPEC",
+        "status": "queued",
+        "owner": null,
+        "lease_active": false,
+        "claim_count": 0,
+        "reopen_count": 0,
+        "attempts": 0,
+        "local_capture_reuse_attempts": 0,
+        "remote_attempt_reservations": 0,
+        "attempts_remaining": 10,
+        "evidence_count": 0,
+        "dependency_blockers": [],
+        "budget_exhausted": false,
+        "available": true,
+        "available_work_mode": "research",
+        "effective_status": "queued",
+        "required_record": null,
+        "current_result_id": null
+      }
+    ],
+    "model_execution": "not_provided_by_this_runtime",
+    "distributed_lock": false
+  },
+  "graph_promotion": "requires_separate_publication_review",
+  "truth_authentication": "not_provided",
+  "tables": {
+    "plans": [
+      {
+        "id": "PA-WAVE-20261030-01",
+        "sha256": "d5250560cbb288716eac810ac282f25d58ee8574fa4cd1e1bc536eee885767c9",
+        "payload": {
+          "as_of": "2026-10-30",
+          "base_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+          "base_commit_scope": "Published starting code/evidence commit. New acquisitions made after that commit are separately hash-pinned; no claim that they existed at the baseline.",
+          "case_priority": "New pilot CLIN0001 provides larger exact priced evidence for targeted follow-through; original NSN5306016864912 stays open as the prior control/specification question.",
+          "definition_revision_note": "Unpublished draft refined before root real-run import to admit two observed exact-part seller sources; earlier scratch validation ledgers are disposable validation instances, not a silently mutated operational plan.",
+          "evidence_mode": "public",
+          "national_coverage_claim": false,
+          "plan_id": "PA-WAVE-20261030-01",
+          "runtime_scope": "Local shared SQLite coordination; separate machines require a coordinator and exact commit receipts. Import does not start a model, background service or network acquisition.",
+          "schema_version": "1.0",
+          "source_budget_semantics": "Per-task runtime attempts must record every remote request, including failures and redirects. Tracer has its own stricter request cap. This plan does not claim an additional automatically enforced cross-session global budget.",
+          "status": "operator_dispatched_bounded_plan",
+          "task_acceptance_semantics": "Accepted means the bounded research packet is supported as worded, including unresolved results. Every dependent worker must independently enforce its technical and monetary gates.",
+          "tasks": [
+            {
+              "agent_role": "PA-ROLE-ACQUIRE",
+              "allowed_source_hosts": [
+                "api.usaspending.gov",
+                "www.usaspending.gov"
+              ],
+              "depends_on": [],
+              "disconfirmation_tests": [
+                "A purported repeated pattern disappears after duplicate/modification reconciliation.",
+                "The sample is too incomplete for the proposed population claim."
+              ],
+              "expected_output": [
+                "request/response hashes",
+                "unique award keys",
+                "coverage and truncation",
+                "included/excluded/failed rows"
+              ],
+              "id": "PA-W1-COHORT-DLA",
+              "independent_review_required": true,
+              "invalid_inference": "Do not turn cumulative obligations into line prices or annual paid spend.",
+              "max_attempts": 6,
+              "max_evidence": 12,
+              "max_reopens": 2,
+              "question": "Can the declared request be reproduced with exact keys and honest coverage? ",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "agency": "Defense Logistics Agency",
+                "agency_level": "subtier",
+                "artifact_root": "investigations/federal-price-pilot-2026-10-30/",
+                "claim": "No company is designated suspect by selection.",
+                "coverage": "bounded first-page sample; not random or complete",
+                "date_type": "new_awards_only",
+                "end_date": "2026-07-31",
+                "limit": 10,
+                "maximum_deep_trace_records": 1,
+                "page": 1,
+                "psc": "5306",
+                "reuse_existing_captures_before_network": true,
+                "sort": "Award Amount descending",
+                "start_date": "2026-07-03"
+              },
+              "stop_and_reopen": "Stop at declared page/request limits; reopen with an identified missing page or corrected query, never a new hidden selection.",
+              "title": "DLA finite official award sample"
+            },
+            {
+              "agent_role": "PA-ROLE-TRACE",
+              "allowed_source_hosts": [
+                "api.usaspending.gov",
+                "www.usaspending.gov",
+                "dibbs2.bsm.dla.mil",
+                "www.dla.mil",
+                "sam.gov"
+              ],
+              "depends_on": [
+                "PA-W1-COHORT-DLA"
+              ],
+              "disconfirmation_tests": [
+                "The linked document belongs to another award, time, item or superseded revision.",
+                "The apparent price comes from a ceiling, estimate or duplicate snapshot."
+              ],
+              "expected_output": [
+                "URL frontier with parent and relationship",
+                "original line/CLIN locators",
+                "amendment chronology",
+                "inaccessible record ledger"
+              ],
+              "id": "PA-W1-LINE-DLA",
+              "independent_review_required": true,
+              "invalid_inference": "Never invent document URLs or treat a search result as acquired content.",
+              "max_attempts": 10,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "Does one source-available selected award expose a priced line, exact item and applicable order terms?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "access_scope": "Public records only; no login/key recovery or external requests.",
+                "agency": "Defense Logistics Agency",
+                "agency_level": "subtier",
+                "artifact_root": "investigations/federal-price-pilot-2026-10-30/",
+                "claim": "No company is designated suspect by selection.",
+                "coverage": "bounded first-page sample; not random or complete",
+                "date_type": "new_awards_only",
+                "end_date": "2026-07-31",
+                "limit": 10,
+                "line_limit": 3,
+                "maximum_deep_trace_records": 1,
+                "page": 1,
+                "psc": "5306",
+                "required_join": [
+                  "agency namespace",
+                  "PIID",
+                  "parent/order",
+                  "modification",
+                  "CLIN",
+                  "source locator"
+                ],
+                "reuse_existing_captures_before_network": true,
+                "selection": "Use pilot documented deterministic source-availability selection; disclose every skipped candidate.",
+                "sort": "Award Amount descending",
+                "start_date": "2026-07-03",
+                "tracer_contract": "../tracing/"
+              },
+              "stop_and_reopen": "Stop at host/path/request limits or access controls; reopen on an actual published relevant URL or new public version.",
+              "title": "DLA original transaction-line trace"
+            },
+            {
+              "agent_role": "PA-ROLE-ACQUIRE",
+              "allowed_source_hosts": [
+                "api.usaspending.gov",
+                "www.usaspending.gov"
+              ],
+              "depends_on": [],
+              "disconfirmation_tests": [
+                "A purported repeated pattern disappears after duplicate/modification reconciliation.",
+                "The sample is too incomplete for the proposed population claim."
+              ],
+              "expected_output": [
+                "request/response hashes",
+                "unique award keys",
+                "coverage and truncation",
+                "included/excluded/failed rows"
+              ],
+              "id": "PA-W1-COHORT-VA",
+              "independent_review_required": true,
+              "invalid_inference": "Do not turn cumulative obligations into line prices or annual paid spend.",
+              "max_attempts": 6,
+              "max_evidence": 12,
+              "max_reopens": 2,
+              "question": "Can the declared request be reproduced with exact keys and honest coverage? ",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "agency": "Department of Veterans Affairs",
+                "agency_level": "toptier",
+                "artifact_root": "investigations/federal-price-pilot-2026-10-30/",
+                "claim": "No company is designated suspect by selection.",
+                "coverage": "bounded first-page sample; not random or complete",
+                "date_type": "new_awards_only",
+                "end_date": "2026-07-31",
+                "limit": 10,
+                "maximum_deep_trace_records": 1,
+                "page": 1,
+                "psc": "6515",
+                "reuse_existing_captures_before_network": true,
+                "sort": "Award Amount descending",
+                "start_date": "2026-07-03"
+              },
+              "stop_and_reopen": "Stop at declared page/request limits; reopen with an identified missing page or corrected query, never a new hidden selection.",
+              "title": "VA finite official award sample"
+            },
+            {
+              "agent_role": "PA-ROLE-TRACE",
+              "allowed_source_hosts": [
+                "api.usaspending.gov",
+                "www.usaspending.gov",
+                "sam.gov",
+                "www.vendorportal.ecms.va.gov",
+                "department.va.gov"
+              ],
+              "depends_on": [
+                "PA-W1-COHORT-VA"
+              ],
+              "disconfirmation_tests": [
+                "The linked document belongs to another award, time, item or superseded revision.",
+                "The apparent price comes from a ceiling, estimate or duplicate snapshot."
+              ],
+              "expected_output": [
+                "URL frontier with parent and relationship",
+                "original line/CLIN locators",
+                "amendment chronology",
+                "inaccessible record ledger"
+              ],
+              "id": "PA-W1-LINE-VA",
+              "independent_review_required": true,
+              "invalid_inference": "Never invent document URLs or treat a search result as acquired content.",
+              "max_attempts": 10,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "Does one source-available selected award expose a priced line, exact item and applicable order terms?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "access_scope": "Public records only; no login/key recovery or external requests.",
+                "agency": "Department of Veterans Affairs",
+                "agency_level": "toptier",
+                "artifact_root": "investigations/federal-price-pilot-2026-10-30/",
+                "claim": "No company is designated suspect by selection.",
+                "coverage": "bounded first-page sample; not random or complete",
+                "date_type": "new_awards_only",
+                "end_date": "2026-07-31",
+                "limit": 10,
+                "line_limit": 3,
+                "maximum_deep_trace_records": 1,
+                "page": 1,
+                "psc": "6515",
+                "required_join": [
+                  "agency namespace",
+                  "PIID",
+                  "parent/order",
+                  "modification",
+                  "CLIN",
+                  "source locator"
+                ],
+                "reuse_existing_captures_before_network": true,
+                "selection": "Use pilot documented deterministic source-availability selection; disclose every skipped candidate.",
+                "sort": "Award Amount descending",
+                "start_date": "2026-07-03",
+                "tracer_contract": "../tracing/"
+              },
+              "stop_and_reopen": "Stop at host/path/request limits or access controls; reopen on an actual published relevant URL or new public version.",
+              "title": "VA original transaction-line trace"
+            },
+            {
+              "agent_role": "PA-ROLE-ACQUIRE",
+              "allowed_source_hosts": [
+                "api.usaspending.gov",
+                "www.usaspending.gov"
+              ],
+              "depends_on": [],
+              "disconfirmation_tests": [
+                "A purported repeated pattern disappears after duplicate/modification reconciliation.",
+                "The sample is too incomplete for the proposed population claim."
+              ],
+              "expected_output": [
+                "request/response hashes",
+                "unique award keys",
+                "coverage and truncation",
+                "included/excluded/failed rows"
+              ],
+              "id": "PA-W1-COHORT-HHS",
+              "independent_review_required": true,
+              "invalid_inference": "Do not turn cumulative obligations into line prices or annual paid spend.",
+              "max_attempts": 6,
+              "max_evidence": 12,
+              "max_reopens": 2,
+              "question": "Can the declared request be reproduced with exact keys and honest coverage? ",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "agency": "Department of Health and Human Services",
+                "agency_level": "toptier",
+                "artifact_root": "investigations/federal-price-pilot-2026-10-30/",
+                "claim": "No company is designated suspect by selection.",
+                "coverage": "bounded first-page sample; not random or complete",
+                "date_type": "new_awards_only",
+                "end_date": "2026-07-31",
+                "limit": 10,
+                "maximum_deep_trace_records": 1,
+                "page": 1,
+                "psc": "6515",
+                "reuse_existing_captures_before_network": true,
+                "sort": "Award Amount descending",
+                "start_date": "2026-07-03"
+              },
+              "stop_and_reopen": "Stop at declared page/request limits; reopen with an identified missing page or corrected query, never a new hidden selection.",
+              "title": "HHS finite official award sample"
+            },
+            {
+              "agent_role": "PA-ROLE-TRACE",
+              "allowed_source_hosts": [
+                "api.usaspending.gov",
+                "www.usaspending.gov",
+                "sam.gov",
+                "www.hhs.gov"
+              ],
+              "depends_on": [
+                "PA-W1-COHORT-HHS"
+              ],
+              "disconfirmation_tests": [
+                "The linked document belongs to another award, time, item or superseded revision.",
+                "The apparent price comes from a ceiling, estimate or duplicate snapshot."
+              ],
+              "expected_output": [
+                "URL frontier with parent and relationship",
+                "original line/CLIN locators",
+                "amendment chronology",
+                "inaccessible record ledger"
+              ],
+              "id": "PA-W1-LINE-HHS",
+              "independent_review_required": true,
+              "invalid_inference": "Never invent document URLs or treat a search result as acquired content.",
+              "max_attempts": 10,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "Does one source-available selected award expose a priced line, exact item and applicable order terms?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "access_scope": "Public records only; no login/key recovery or external requests.",
+                "agency": "Department of Health and Human Services",
+                "agency_level": "toptier",
+                "artifact_root": "investigations/federal-price-pilot-2026-10-30/",
+                "claim": "No company is designated suspect by selection.",
+                "coverage": "bounded first-page sample; not random or complete",
+                "date_type": "new_awards_only",
+                "end_date": "2026-07-31",
+                "limit": 10,
+                "line_limit": 3,
+                "maximum_deep_trace_records": 1,
+                "page": 1,
+                "psc": "6515",
+                "required_join": [
+                  "agency namespace",
+                  "PIID",
+                  "parent/order",
+                  "modification",
+                  "CLIN",
+                  "source locator"
+                ],
+                "reuse_existing_captures_before_network": true,
+                "selection": "Use pilot documented deterministic source-availability selection; disclose every skipped candidate.",
+                "sort": "Award Amount descending",
+                "start_date": "2026-07-03",
+                "tracer_contract": "../tracing/"
+              },
+              "stop_and_reopen": "Stop at host/path/request limits or access controls; reopen on an actual published relevant URL or new public version.",
+              "title": "HHS original transaction-line trace"
+            },
+            {
+              "agent_role": "PA-ROLE-SPEC",
+              "allowed_source_hosts": [
+                "www.dla.mil",
+                "publogstorage.blob.core.windows.net",
+                "dibbs2.bsm.dla.mil"
+              ],
+              "depends_on": [],
+              "disconfirmation_tests": [
+                "A material grade, finish, certification, traceability, pack or revision mismatch invalidates comparison.",
+                "The catalog product lacks the required condition or configuration."
+              ],
+              "expected_output": [
+                "attribute-by-attribute match matrix",
+                "critical mismatch list",
+                "revision applicability",
+                "qualified/rejected/unresolved match"
+              ],
+              "id": "PA-W1-SPEC-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "A similar product description or generic standard is not an exact NSN match.",
+              "max_attempts": 12,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "Can authoritative NIIN characteristics and relevant revision establish the retail item match?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "followup_artifact_root": "investigations/bolt-spec-followup-2026-10-30/",
+                "max_selected_items": 1,
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "requirement": "Use actual published public record routes; record missing critical fields."
+              },
+              "stop_and_reopen": "Stop comparison on unresolved critical fields; reopen with authoritative characteristics or a reviewed crosswalk.",
+              "title": "Resolve the exact primary bolt specification"
+            },
+            {
+              "agent_role": "PA-ROLE-MARKET",
+              "allowed_source_hosts": [
+                "www.fastenersuperstore.com",
+                "www.mfsupply.com",
+                "aspdotnetstorefront.coxhardware.com",
+                "dibbs2.bsm.dla.mil"
+              ],
+              "depends_on": [
+                "PA-W1-SPEC-BOLT"
+              ],
+              "disconfirmation_tests": [
+                "The low price is a test page, obsolete offer, unavailable stock or inaccessible quantity tier.",
+                "Necessary services and accepted conditions differ materially."
+              ],
+              "expected_output": [
+                "seller-specific price tiers",
+                "full-pack outlay",
+                "stock/date/terms",
+                "source-independence groups",
+                "benchmark interval and exclusions"
+              ],
+              "id": "PA-W1-MARKET-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "Seller profit disclosure is not mandatory; do not infer a fair price by assuming a markup.",
+              "max_attempts": 8,
+              "max_evidence": 16,
+              "max_reopens": 2,
+              "question": "Which prior seller candidates, if any, satisfy exact item, quantity, date and government supply terms?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "maximum_sellers": 3,
+                "need": "Feasible full-order outlay, source grouping, date/stock/terms; no supplier contacts.",
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "reuse": "Read the three prior captures; Cox test-site/stock exclusion remains unless new evidence changes it."
+              },
+              "stop_and_reopen": "Stop at bounded seller/source search; reopen with dated acceptable terms or an actually available independent offer.",
+              "title": "Qualify independent bolt offers"
+            },
+            {
+              "agent_role": "PA-ROLE-PRICE",
+              "allowed_source_hosts": [
+                "dibbs2.bsm.dla.mil",
+                "www.fastenersuperstore.com",
+                "www.mfsupply.com"
+              ],
+              "depends_on": [
+                "PA-W1-MARKET-BOLT"
+              ],
+              "disconfirmation_tests": [
+                "Material term adjustments explain the difference.",
+                "Cheaper lines, credits, changed mix or full-pack outlay remove the pattern."
+              ],
+              "expected_output": [
+                "input hashes",
+                "signed per-line differences",
+                "quantity-weighted totals",
+                "base and gross denominators",
+                "eligible/blocked coverage",
+                "period and sensitivity"
+              ],
+              "id": "PA-W1-PRICE-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "A price difference is not a kickback or loss; preserve negative differences and never annualize estimates.",
+              "max_attempts": 4,
+              "max_evidence": 12,
+              "max_reopens": 2,
+              "question": "Is there any qualified price comparison; if not, which exact gate prevents the calculation?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "calculator": "investigations/dla-bolt-trace-2026-10-30/price-controls/premium_audit.py",
+                "data_origin": "public_observation",
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "null_policy": "An accepted unresolved upstream packet does not qualify a benchmark.",
+                "order": "SPE4A627F0588",
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "recurring_pattern": "No recurring result until distinct comparable transactions and a predeclared universe exist."
+              },
+              "stop_and_reopen": "Stop with null comparison when qualification fails; reopen after a new qualified source or corrected calculation.",
+              "title": "Test actual and repeated price differences"
+            },
+            {
+              "agent_role": "PA-ROLE-COMPETE",
+              "allowed_source_hosts": [
+                "api.usaspending.gov",
+                "www.usaspending.gov",
+                "dibbs2.bsm.dla.mil",
+                "www.dla.mil",
+                "sam.gov",
+                "www.acquisition.gov"
+              ],
+              "depends_on": [],
+              "disconfirmation_tests": [
+                "Independent dated competitive quotations and documented acceptability explain selection.",
+                "Apparent rotation vanishes after lot, capacity, eligibility or specialization controls."
+              ],
+              "expected_output": [
+                "bid prices and timestamps",
+                "withdrawals/exclusions",
+                "winner sequence with denominator",
+                "common-template/upstream alternatives"
+              ],
+              "id": "PA-W1-BIDS-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "Prior winners are not automatically losing bidders and reported offers do not prove independence.",
+              "max_attempts": 10,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "Do released quote or evaluation records explain the actual price selection independently of offer counts?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "historical_scope": "Seven exact PIIDs and associated solicitations in prior awards/observations.json",
+                "niin": "016864912",
+                "no_submission": "Only search already public records; prepare precise missing-record descriptions, do not send requests.",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "records": [
+                  "quote abstract",
+                  "technical acceptability",
+                  "award rationale",
+                  "price-reasonableness determination"
+                ]
+              },
+              "stop_and_reopen": "Stop if only an offer count is available; reopen with an actual bid record.",
+              "title": "Recover actual competition and selection evidence"
+            },
+            {
+              "agent_role": "PA-ROLE-ENTITY",
+              "allowed_source_hosts": [
+                "cage.dla.mil",
+                "sam.gov",
+                "www.sec.gov",
+                "data.sec.gov",
+                "api.usaspending.gov"
+              ],
+              "depends_on": [],
+              "disconfirmation_tests": [
+                "A supposed shell or alias is an ordinary legal name/DBA or separate valid entity.",
+                "A registered agent or reported parent does not support the claimed owner relationship."
+              ],
+              "expected_output": [
+                "exact and unresolved identity edges",
+                "legal entity/DBA/parent roles",
+                "ownership evidence and effective dates",
+                "missing beneficial-owner fields"
+              ],
+              "id": "PA-W1-ENTITY-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "Current registrations and securities holdings do not establish historical beneficial ownership.",
+              "max_attempts": 8,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "Which historical supplier/control assertions can be supported by exact identifiers and dated public filings?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "historical_cages": [
+                  "6ZF42",
+                  "0NFB8",
+                  "7W108",
+                  "8A1E8",
+                  "51Y73"
+                ],
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "ownership_unknown_is_valid": true,
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "reuse": "Five official current crosswalks already verified; do not reacquire without discrepancy.",
+                "state_registry_gate": "A specific observed state-registry URL/host needs a reviewed successor task; no wildcard domain grant."
+              },
+              "stop_and_reopen": "Stop a join on ambiguous names or unsupported control; reopen on authoritative identifier/ownership evidence.",
+              "title": "Resolve dated business control without speculative merges"
+            },
+            {
+              "agent_role": "PA-ROLE-DECISION",
+              "allowed_source_hosts": [
+                "dibbs2.bsm.dla.mil",
+                "www.dla.mil",
+                "sam.gov",
+                "www.gao.gov",
+                "www.oversight.gov"
+              ],
+              "depends_on": [],
+              "disconfirmation_tests": [
+                "The named signatory only processed or witnessed the document.",
+                "A different official, office or effective period made the relevant choice."
+              ],
+              "expected_output": [
+                "role-to-decision evidence",
+                "signatory versus decision-maker distinction",
+                "event/effective/observation dates",
+                "unresolved authority edges"
+              ],
+              "id": "PA-W1-ROLE-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "No family, residence, social-friendship or surname profiling; a signature does not establish improper influence.",
+              "max_attempts": 8,
+              "max_evidence": 16,
+              "max_reopens": 2,
+              "question": "Which released record actually attributes the relevant supplier/price decision to an office or professional role?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "maximum_relevant_professional_roles": 3,
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "prohibited": "No residential, personal-contact, family or speculative friendship investigation.",
+                "required": [
+                  "documented role",
+                  "specific decision",
+                  "effective/event dates",
+                  "source locator"
+                ]
+              },
+              "stop_and_reopen": "Stop person linkage without dated professional evidence; reopen with the specific decision/assignment record.",
+              "title": "Trace a documented professional decision role"
+            },
+            {
+              "agent_role": "PA-ROLE-BENEFIT",
+              "allowed_source_hosts": [
+                "www.justice.gov",
+                "www.gao.gov",
+                "www.oversight.gov",
+                "www.dla.mil"
+              ],
+              "depends_on": [
+                "PA-W1-ROLE-BOLT",
+                "PA-W1-ENTITY-BOLT"
+              ],
+              "disconfirmation_tests": [
+                "The relationship is disclosed ordinary employment or another supported non-procurement event.",
+                "The source does not identify a benefit or connect it to the decision."
+              ],
+              "expected_output": [
+                "benefit event and recipient if established",
+                "source-stated nexus",
+                "alternative explanation",
+                "allegation/admission/finding distinction"
+              ],
+              "id": "PA-W1-BENEFIT-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "Neither price premium nor business proximity establishes agreement, intent or personal benefit.",
+              "max_attempts": 6,
+              "max_evidence": 12,
+              "max_reopens": 2,
+              "question": "Does any authoritative released record establish a benefit or improper influence tied to the documented procurement decision?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "current_evidence": "No cohort-specific benefit evidence.",
+                "dependency_meaning": "An accepted unresolved role result is not proof of a named decision maker.",
+                "do_not_do": "No bank/payroll/private communications access, named guilt scoring, or inference from a premium.",
+                "maximum_relevant_events": 3,
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established"
+              },
+              "stop_and_reopen": "Stop at absent or nonpublic financial evidence; reopen only on newly released, lawfully usable evidence.",
+              "title": "Assess the separate benefit and influence question"
+            },
+            {
+              "agent_role": "PA-ROLE-PAYMENT",
+              "allowed_source_hosts": [
+                "api.usaspending.gov",
+                "www.usaspending.gov",
+                "dibbs2.bsm.dla.mil",
+                "www.dla.mil",
+                "sam.gov"
+              ],
+              "depends_on": [],
+              "disconfirmation_tests": [
+                "A credit, quantity adjustment or cancelled order removes the supposed excess.",
+                "The recorded value is an obligation or order rather than disbursed cash."
+              ],
+              "expected_output": [
+                "separate amount-basis ledger",
+                "quantity reconciliation",
+                "credits/returns/cancellations",
+                "payment-to-line match and gaps"
+              ],
+              "id": "PA-W1-PAYMENT-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "No assumption that an order was paid or that a contract maximum was spent.",
+              "max_attempts": 6,
+              "max_evidence": 12,
+              "max_reopens": 2,
+              "question": "Can released transaction records establish any net paid line amount for the current order?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "amount_bases": [
+                  "ordered_value",
+                  "invoiced_value",
+                  "paid_cash"
+                ],
+                "award_parent": "SPE4A626D61WS",
+                "current_state": "Delivery requirement is2027-01-04; actual delivery/payment unverified as of2026-10-30.",
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "public_record_only": true,
+                "unknown_is_not_zero": true
+              },
+              "stop_and_reopen": "Stop at absent invoice/payment records; reopen on a released specific transaction document.",
+              "title": "Separate order, delivery, invoice and payment"
+            },
+            {
+              "agent_role": "PA-ROLE-FALSIFY",
+              "allowed_source_hosts": [
+                "www.acquisition.gov",
+                "www.justice.gov",
+                "www.gao.gov",
+                "www.oversight.gov",
+                "dibbs2.bsm.dla.mil"
+              ],
+              "depends_on": [
+                "PA-W1-PRICE-BOLT",
+                "PA-W1-BIDS-BOLT",
+                "PA-W1-BENEFIT-BOLT",
+                "PA-W1-PAYMENT-BOLT"
+              ],
+              "disconfirmation_tests": [
+                "The claim cannot be reproduced or is contradicted by the original source.",
+                "Selection bias, duplicated transactions or an ineligible comparator explains it."
+              ],
+              "expected_output": [
+                "accept/narrow/reject/unresolved decisions",
+                "independent arithmetic",
+                "at least two applicable ordinary alternatives",
+                "limits and failed replications"
+              ],
+              "id": "PA-W1-REVIEW-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "A producer cannot approve its own evidence; software checks do not authenticate upstream truth.",
+              "max_attempts": 8,
+              "max_evidence": 24,
+              "max_reopens": 2,
+              "question": "Do the exact sourced claims survive independent reconstruction and ordinary alternatives?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "positive_finding_required": false,
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "reviewer_must_differ_from_all_relevant_producers": true,
+                "scope": "Review all material price, identity, decision and benefit claims, including unresolved outcomes."
+              },
+              "stop_and_reopen": "Stop promotion until material errors are resolved; new evidence creates a new versioned review.",
+              "title": "Review price and benefit conclusions independently"
+            },
+            {
+              "agent_role": "PA-ROLE-NOVELTY",
+              "allowed_source_hosts": [
+                "www.acquisition.gov",
+                "www.justice.gov",
+                "www.gao.gov",
+                "www.oversight.gov",
+                "www.dla.mil"
+              ],
+              "depends_on": [
+                "PA-W1-REVIEW-BOLT"
+              ],
+              "disconfirmation_tests": [
+                "A matching prior case/audit already discloses the asserted novelty.",
+                "The alleged legal outcome is merely a charge, not a finding."
+              ],
+              "expected_output": [
+                "query ledger",
+                "matching/nonmatching disclosures",
+                "source-stated legal status/date",
+                "coverage and uncertainty"
+              ],
+              "id": "PA-W1-NOVELTY-BOLT",
+              "independent_review_required": true,
+              "invalid_inference": "No public result does not prove that government investigators lack knowledge or establish reward eligibility.",
+              "max_attempts": 6,
+              "max_evidence": 12,
+              "max_reopens": 2,
+              "question": "Does a matching published case/audit already disclose any surviving precisely stated transaction question?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "award_parent": "SPE4A626D61WS",
+                "government_knowledge": "unknown",
+                "maximum_exact_queries": 6,
+                "niin": "016864912",
+                "nsn": "5306016864912",
+                "order": "SPE4A627F0588",
+                "prior_evidence": "investigations/dla-bolt-trace-2026-10-30/",
+                "prior_state": "0.91USD perEA ×906EA is documented ordered value; no qualified benchmark, actual payment or benefit established",
+                "search_scope": "Exact PIID/NSN and sourced legal-entity identifiers; official published cases/audits.",
+                "skip_rule": "If no supported new transaction question survives, return not-applicable with evidence, rather than inventing one."
+              },
+              "stop_and_reopen": "Stop at declared search limits; reopen on a new exact identifier or release.",
+              "title": "Check bounded prior disclosure without claiming government ignorance"
+            },
+            {
+              "agent_role": "PA-ROLE-SPEC",
+              "allowed_source_hosts": [
+                "dibbs2.bsm.dla.mil",
+                "www.dla.mil",
+                "publogstorage.blob.core.windows.net",
+                "www.boeing.com"
+              ],
+              "depends_on": [
+                "PA-W1-LINE-DLA"
+              ],
+              "disconfirmation_tests": [
+                "A material grade, finish, certification, traceability, pack or revision mismatch invalidates comparison.",
+                "The catalog product lacks the required condition or configuration."
+              ],
+              "expected_output": [
+                "attribute-by-attribute match matrix",
+                "critical mismatch list",
+                "revision applicability",
+                "qualified/rejected/unresolved match"
+              ],
+              "id": "PA-W1-SPEC-DLA-PILOT",
+              "independent_review_required": true,
+              "invalid_inference": "A similar product description or generic standard is not an exact NSN match.",
+              "max_attempts": 10,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "What authoritative unrestricted attributes, approved source/part requirements and applicable revisions define CLIN0001?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "PIID": "SPE4A626PW775",
+                "acquired_line": "2,243 EA at USD272.99, extended612316.57; separately priced first-article test CLIN0002 is3500.00.",
+                "benchmark_status": "No qualified benchmark supplied by the acquisition pilot.",
+                "clin": "0001",
+                "comparison_boundary": "Exact listed part/drawing revisions, origin inspection/acceptance, packaging and first-article scope must be considered. Do not use generic commercial bolts.",
+                "economic_priority": "Larger documented priced line, not a fraud likelihood assessment.",
+                "manufacturer_part": "39-8820-501",
+                "new_host_gate": "Current host scope permits the primary record and official manufacturer information. A specific new seller domain needs a coordinated versioned successor task before acquisition.",
+                "nsn": "5306004457358",
+                "selected_primary_artifacts": [
+                  "investigations/federal-price-pilot-2026-10-30/selected/dla-award-page4.txt",
+                  "investigations/federal-price-pilot-2026-10-30/selected/dla-award-page5-selected.txt",
+                  "investigations/federal-price-pilot-2026-10-30/selected_manifest.json"
+                ],
+                "source_discovery": "Search for precise public sources, preserve candidate URLs, and qualify them before adding source-host access.",
+                "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+                "timing": "Required delivery2028-04-10; no payment conclusion."
+              },
+              "stop_and_reopen": "Stop comparison on unresolved critical fields; reopen with authoritative characteristics or a reviewed crosswalk.",
+              "title": "Resolve exact pilot bolt specification and supply scope"
+            },
+            {
+              "agent_role": "PA-ROLE-MARKET",
+              "allowed_source_hosts": [
+                "dibbs2.bsm.dla.mil",
+                "www.dla.mil",
+                "publogstorage.blob.core.windows.net",
+                "www.boeing.com",
+                "aerobasegroup.com",
+                "www.aehiinc.com"
+              ],
+              "depends_on": [
+                "PA-W1-SPEC-DLA-PILOT"
+              ],
+              "disconfirmation_tests": [
+                "The low price is a test page, obsolete offer, unavailable stock or inaccessible quantity tier.",
+                "Necessary services and accepted conditions differ materially."
+              ],
+              "expected_output": [
+                "seller-specific price tiers",
+                "full-pack outlay",
+                "stock/date/terms",
+                "source-independence groups",
+                "benchmark interval and exclusions"
+              ],
+              "id": "PA-W1-MARKET-DLA-PILOT",
+              "independent_review_required": true,
+              "invalid_inference": "Seller profit disclosure is not mandatory; do not infer a fair price by assuming a markup.",
+              "max_attempts": 8,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "Is a dated compliant offer available for exact part39-8820-501 and feasible quantity, with first-article and quality scope resolved?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "PIID": "SPE4A626PW775",
+                "acquired_line": "2,243 EA at USD272.99, extended612316.57; separately priced first-article test CLIN0002 is3500.00.",
+                "admission_is_not_qualification": "No qualified quote has been obtained: Aerobase direct opens timed out twice; AEHI is a historical indexed catalog pointer. Exact technical, quantity, date, first-article and procurement-term gates remain unchanged.",
+                "benchmark_status": "No qualified benchmark supplied by the acquisition pilot.",
+                "clin": "0001",
+                "comparison_boundary": "Exact listed part/drawing revisions, origin inspection/acceptance, packaging and first-article scope must be considered. Do not use generic commercial bolts.",
+                "economic_priority": "Larger documented priced line, not a fraud likelihood assessment.",
+                "host_admission_record": "price-agents/plans/host-admissions.json",
+                "manufacturer_part": "39-8820-501",
+                "new_host_gate": "The two exact seller hosts in host-admissions.json are admitted for the observed exact-part sources. Unlisted hosts require a recorded coordinator admission and, after import, a new immutable plan/task version. No wildcard crawling.",
+                "nsn": "5306004457358",
+                "selected_primary_artifacts": [
+                  "investigations/federal-price-pilot-2026-10-30/selected/dla-award-page4.txt",
+                  "investigations/federal-price-pilot-2026-10-30/selected/dla-award-page5-selected.txt",
+                  "investigations/federal-price-pilot-2026-10-30/selected_manifest.json"
+                ],
+                "seller_source_budget": "Market task: at most two requests per admitted seller host and four combined within its existing eight-attempt cap, including redirects/retries. Price task reuses accepted market artifacts; any fresh verification still counts against its existing four-attempt cap and needs a separately bounded tracer input.",
+                "source_discovery": "Use the recorded exact URLs and the preserved search/source lineage. These are candidate seller sources, not asserted approved-source, price, inventory or equivalence evidence.",
+                "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+                "timing": "Required delivery2028-04-10; no payment conclusion."
+              },
+              "stop_and_reopen": "Stop at bounded seller/source search; reopen with dated acceptable terms or an actually available independent offer.",
+              "title": "Find an independently evidenced equivalent pilot-part offer"
+            },
+            {
+              "agent_role": "PA-ROLE-PRICE",
+              "allowed_source_hosts": [
+                "dibbs2.bsm.dla.mil",
+                "www.dla.mil",
+                "publogstorage.blob.core.windows.net",
+                "www.boeing.com",
+                "aerobasegroup.com",
+                "www.aehiinc.com"
+              ],
+              "depends_on": [
+                "PA-W1-MARKET-DLA-PILOT"
+              ],
+              "disconfirmation_tests": [
+                "Material term adjustments explain the difference.",
+                "Cheaper lines, credits, changed mix or full-pack outlay remove the pattern."
+              ],
+              "expected_output": [
+                "input hashes",
+                "signed per-line differences",
+                "quantity-weighted totals",
+                "base and gross denominators",
+                "eligible/blocked coverage",
+                "period and sensitivity"
+              ],
+              "id": "PA-W1-PRICE-DLA-PILOT",
+              "independent_review_required": true,
+              "invalid_inference": "A price difference is not a kickback or loss; preserve negative differences and never annualize estimates.",
+              "max_attempts": 4,
+              "max_evidence": 20,
+              "max_reopens": 2,
+              "question": "Does an independently accepted benchmark support a signed price comparison while keeping the separate first-article line and payment status explicit?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "PIID": "SPE4A626PW775",
+                "acquired_line": "2,243 EA at USD272.99, extended612316.57; separately priced first-article test CLIN0002 is3500.00.",
+                "admission_is_not_qualification": "No qualified quote has been obtained: Aerobase direct opens timed out twice; AEHI is a historical indexed catalog pointer. Exact technical, quantity, date, first-article and procurement-term gates remain unchanged.",
+                "benchmark_status": "No qualified benchmark supplied by the acquisition pilot.",
+                "clin": "0001",
+                "comparison_boundary": "Exact listed part/drawing revisions, origin inspection/acceptance, packaging and first-article scope must be considered. Do not use generic commercial bolts.",
+                "economic_priority": "Larger documented priced line, not a fraud likelihood assessment.",
+                "host_admission_record": "price-agents/plans/host-admissions.json",
+                "manufacturer_part": "39-8820-501",
+                "new_host_gate": "The two exact seller hosts in host-admissions.json are admitted for the observed exact-part sources. Unlisted hosts require a recorded coordinator admission and, after import, a new immutable plan/task version. No wildcard crawling.",
+                "nsn": "5306004457358",
+                "selected_primary_artifacts": [
+                  "investigations/federal-price-pilot-2026-10-30/selected/dla-award-page4.txt",
+                  "investigations/federal-price-pilot-2026-10-30/selected/dla-award-page5-selected.txt",
+                  "investigations/federal-price-pilot-2026-10-30/selected_manifest.json"
+                ],
+                "seller_source_budget": "Market task: at most two requests per admitted seller host and four combined within its existing eight-attempt cap, including redirects/retries. Price task reuses accepted market artifacts; any fresh verification still counts against its existing four-attempt cap and needs a separately bounded tracer input.",
+                "source_discovery": "Use the recorded exact URLs and the preserved search/source lineage. These are candidate seller sources, not asserted approved-source, price, inventory or equivalence evidence.",
+                "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+                "timing": "Required delivery2028-04-10; no payment conclusion."
+              },
+              "stop_and_reopen": "Stop with null comparison when qualification fails; reopen after a new qualified source or corrected calculation.",
+              "title": "Review the pilot line against any qualified benchmark"
+            },
+            {
+              "agent_role": "PA-ROLE-GRAPH",
+              "allowed_source_hosts": [
+                "github.com",
+                "www.usaspending.gov",
+                "www.acquisition.gov"
+              ],
+              "depends_on": [
+                "PA-W1-LINE-DLA",
+                "PA-W1-LINE-VA",
+                "PA-W1-LINE-HHS",
+                "PA-W1-NOVELTY-BOLT",
+                "PA-W1-PRICE-DLA-PILOT"
+              ],
+              "disconfirmation_tests": [
+                "A source lacks the necessary locator or record hash scope.",
+                "A named adverse claim, private field or synthetic value would be promoted improperly."
+              ],
+              "expected_output": [
+                "additive digest-pinned extension",
+                "Obsidian notes",
+                "typed money/temporal edges",
+                "immutable earlier evidence",
+                "handoff receipt"
+              ],
+              "id": "PA-W1-CURATE",
+              "independent_review_required": true,
+              "invalid_inference": "Repository artifacts are not a live cross-model connection or global distributed lock.",
+              "max_attempts": 4,
+              "max_evidence": 32,
+              "max_reopens": 2,
+              "question": "Can accepted public packets be integrated without losing provenance, unknowns or monetary distinctions?",
+              "result_contract": "role-contracts.json#common_contract",
+              "scope": {
+                "destination": "research/us-integrity/",
+                "external_submission": false,
+                "graph_policy": "Add a separate reviewed extension; never mutate prior captured evidence.",
+                "input_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+                "source_hash_scope": "Selected extracts, original bytes and canonical graph hashes remain distinct."
+              },
+              "stop_and_reopen": "Stop graph promotion on missing review/provenance; reopen after a corrected reviewed packet.",
+              "title": "Publish reviewed outcomes and the next evidence frontier"
+            }
+          ]
+        }
+      }
+    ],
+    "attempts": [
+      {
+        "id": "PA-W1-COHORT-DLA-E1-REUSE",
+        "task_id": "PA-W1-COHORT-DLA",
+        "owner": "codex-evidence-coordinator",
+        "at": 1793364659.5354085,
+        "sha256": "8ac9f0ce74dbb98f8a3911d6a31508963188521fa4f71988f63ad12c887394f7",
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-DLA-E1-REUSE",
+          "method": "LOCAL_CAPTURE_REUSE",
+          "new_network_requests": 0,
+          "original_capture": {
+            "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/dla-bolts.json",
+            "hash_scope": "selected_extract",
+            "observed_at": "2026-10-30T12:25:50.052961+00:00",
+            "provenance_note": "Local replay of previously acquired selected public evidence; original retrieval remains in the pilot manifest. No new download.",
+            "sha256": "b38dbb196a14eaf81586da82c792331916671be803fe40837c6abde01390037f"
+          },
+          "purpose": "Verify retained bytes and reuse them under this task",
+          "task_id": "PA-W1-COHORT-DLA",
+          "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+        }
+      },
+      {
+        "id": "PA-W1-COHORT-VA-E1-REUSE",
+        "task_id": "PA-W1-COHORT-VA",
+        "owner": "codex-evidence-coordinator",
+        "at": 1793364659.5455983,
+        "sha256": "d0109d63b0689f58b1d9c6f0052116f24e3c1a41ae9c205f7260bf75aba4b1d6",
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-VA-E1-REUSE",
+          "method": "LOCAL_CAPTURE_REUSE",
+          "new_network_requests": 0,
+          "original_capture": {
+            "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/va-medical.json",
+            "hash_scope": "selected_extract",
+            "observed_at": "2026-10-30T12:25:58.847745+00:00",
+            "provenance_note": "Local replay of previously acquired selected public evidence; original retrieval remains in the pilot manifest. No new download.",
+            "sha256": "92c973079abd00806e728f54e83266fd82642a3a20c3d41db25a6ee94409a680"
+          },
+          "purpose": "Verify retained bytes and reuse them under this task",
+          "task_id": "PA-W1-COHORT-VA",
+          "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+        }
+      },
+      {
+        "id": "PA-W1-COHORT-HHS-E1-REUSE",
+        "task_id": "PA-W1-COHORT-HHS",
+        "owner": "codex-evidence-coordinator",
+        "at": 1793364659.5555336,
+        "sha256": "585fec69246ccd7b2fa9556092f401a8e6bb061a02717d3b989d20fe3e3440f4",
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-HHS-E1-REUSE",
+          "method": "LOCAL_CAPTURE_REUSE",
+          "new_network_requests": 0,
+          "original_capture": {
+            "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/hhs-medical.json",
+            "hash_scope": "selected_extract",
+            "observed_at": "2026-10-30T12:26:05.675491+00:00",
+            "provenance_note": "Local replay of previously acquired selected public evidence; original retrieval remains in the pilot manifest. No new download.",
+            "sha256": "74e893736436e33e9c646d50abd0120524409e7f89f91a4693d512f189d0a4ee"
+          },
+          "purpose": "Verify retained bytes and reuse them under this task",
+          "task_id": "PA-W1-COHORT-HHS",
+          "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+        }
+      },
+      {
+        "id": "PA-W1-LINE-DLA-E1-REUSE",
+        "task_id": "PA-W1-LINE-DLA",
+        "owner": "codex-evidence-coordinator",
+        "at": 1793364784.3376992,
+        "sha256": "12c705542852f97931fe34342882b178c56342aeba3f88118299e810f315a9b1",
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E1-REUSE",
+          "method": "LOCAL_CAPTURE_REUSE",
+          "new_network_requests": 0,
+          "original_capture": {
+            "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page2.txt",
+            "hash_scope": "selected_extract",
+            "observed_at": "2026-10-30T12:28:29.392645+00:00",
+            "provenance_note": "Local replay of previously acquired selected public evidence; original retrieval remains in the pilot manifest. No new download.",
+            "sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff"
+          },
+          "purpose": "Verify retained bytes and reuse them under this task",
+          "task_id": "PA-W1-LINE-DLA",
+          "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF"
+        }
+      },
+      {
+        "id": "PA-W1-LINE-DLA-E2-REUSE",
+        "task_id": "PA-W1-LINE-DLA",
+        "owner": "codex-evidence-coordinator",
+        "at": 1793364784.3449721,
+        "sha256": "1ada07dd66ff58eae6bc6a1fd84de0991b0bb08eb67351e0f40f77873c5dc35f",
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E2-REUSE",
+          "method": "LOCAL_CAPTURE_REUSE",
+          "new_network_requests": 0,
+          "original_capture": {
+            "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page4.txt",
+            "hash_scope": "selected_extract",
+            "observed_at": "2026-10-30T12:28:29.392645+00:00",
+            "provenance_note": "Local replay of previously acquired selected public evidence; original retrieval remains in the pilot manifest. No new download.",
+            "sha256": "2a4198fba2fed895b47fa557d763af8beb819f915b8ed875fd849ea2e6500d9b"
+          },
+          "purpose": "Verify retained bytes and reuse them under this task",
+          "task_id": "PA-W1-LINE-DLA",
+          "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF"
+        }
+      },
+      {
+        "id": "PA-W1-LINE-DLA-E3-REUSE",
+        "task_id": "PA-W1-LINE-DLA",
+        "owner": "codex-evidence-coordinator",
+        "at": 1793364784.353195,
+        "sha256": "9d81318d05a58abae60946cae7ce598c2a1f331696f9c1461afd74813e93b6df",
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E3-REUSE",
+          "method": "LOCAL_CAPTURE_REUSE",
+          "new_network_requests": 0,
+          "original_capture": {
+            "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page5-selected.txt",
+            "hash_scope": "selected_extract",
+            "observed_at": "2026-10-30T12:28:29.392645+00:00",
+            "provenance_note": "Local replay of previously acquired selected public evidence; original retrieval remains in the pilot manifest. No new download.",
+            "sha256": "264772e6c86d41d608cf76c57c11cd3cb7344ad55ef80dc0f8b8a54791fbb857"
+          },
+          "purpose": "Verify retained bytes and reuse them under this task",
+          "task_id": "PA-W1-LINE-DLA",
+          "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF"
+        }
+      }
+    ],
+    "attempt_finishes": [
+      {
+        "attempt_id": "PA-W1-COHORT-DLA-E1-REUSE",
+        "at": 1793364659.5370069,
+        "sha256": "6f099e57df34327f5bd6eccb87ddc5e6717c509d924e18564d991256915e720d",
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-DLA-E1-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "attempt_id": "PA-W1-COHORT-VA-E1-REUSE",
+        "at": 1793364659.54708,
+        "sha256": "ec54ca99b14659cc15ccb4a00a081528a05da61ca94087a79c0ed1775131d086",
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-VA-E1-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "attempt_id": "PA-W1-COHORT-HHS-E1-REUSE",
+        "at": 1793364659.5572186,
+        "sha256": "07921d513d0d5799bb5f2a6c3d0e47e0c429c3c27328a0fbb5eb881df6c91557",
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-HHS-E1-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "attempt_id": "PA-W1-LINE-DLA-E1-REUSE",
+        "at": 1793364784.3394454,
+        "sha256": "4344c0a1b8f1dcf1790f0a58658da27f3fce0728aba62a61a46db4b16a05b452",
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E1-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "attempt_id": "PA-W1-LINE-DLA-E2-REUSE",
+        "at": 1793364784.3473613,
+        "sha256": "38a1990d33070573832b65ebf1b1de1a2dbe8ab516ba47d632e40e2fee6a28d0",
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E2-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "attempt_id": "PA-W1-LINE-DLA-E3-REUSE",
+        "at": 1793364784.354752,
+        "sha256": "0321e1195a3414447ea3962c8ca78f1a1eec0b7f7e51d61890c369139e67d0b8",
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E3-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "id": "PA-W1-COHORT-DLA-E1",
+        "task_id": "PA-W1-COHORT-DLA",
+        "attempt_id": "PA-W1-COHORT-DLA-E1-REUSE",
+        "sha256": "6ee1c58cc40c53d3f8ba29ad416c5c73ca7860daca715fb61439d162dee9d161",
+        "payload": {
+          "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/dla-bolts.json",
+          "attempt_id": "PA-W1-COHORT-DLA-E1-REUSE",
+          "claim_scope": "Ten selected award summaries; first page has further results",
+          "event_date": null,
+          "hash_scope": "selected_extract",
+          "id": "PA-W1-COHORT-DLA-E1",
+          "locator": "results and page_metadata",
+          "observed_at": "2026-10-30T12:25:50.052961+00:00",
+          "sha256": "b38dbb196a14eaf81586da82c792331916671be803fe40837c6abde01390037f",
+          "source_kind": "selected_public_record",
+          "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "synthetic": false,
+          "task_id": "PA-W1-COHORT-DLA",
+          "visibility": "public"
+        }
+      },
+      {
+        "id": "PA-W1-COHORT-VA-E1",
+        "task_id": "PA-W1-COHORT-VA",
+        "attempt_id": "PA-W1-COHORT-VA-E1-REUSE",
+        "sha256": "a3efc822bcfd79174a430ee0ee4b5f06b91390113984c301066fa0b82552a765",
+        "payload": {
+          "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/va-medical.json",
+          "attempt_id": "PA-W1-COHORT-VA-E1-REUSE",
+          "claim_scope": "Ten selected award summaries; first page has further results",
+          "event_date": null,
+          "hash_scope": "selected_extract",
+          "id": "PA-W1-COHORT-VA-E1",
+          "locator": "results and page_metadata",
+          "observed_at": "2026-10-30T12:25:58.847745+00:00",
+          "sha256": "92c973079abd00806e728f54e83266fd82642a3a20c3d41db25a6ee94409a680",
+          "source_kind": "selected_public_record",
+          "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "synthetic": false,
+          "task_id": "PA-W1-COHORT-VA",
+          "visibility": "public"
+        }
+      },
+      {
+        "id": "PA-W1-COHORT-HHS-E1",
+        "task_id": "PA-W1-COHORT-HHS",
+        "attempt_id": "PA-W1-COHORT-HHS-E1-REUSE",
+        "sha256": "81febf129b44ec17d073ecd0a7ecd95dff9f9518d294963f5c3efae1213c3ac2",
+        "payload": {
+          "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/hhs-medical.json",
+          "attempt_id": "PA-W1-COHORT-HHS-E1-REUSE",
+          "claim_scope": "Ten selected award summaries; first page has further results",
+          "event_date": null,
+          "hash_scope": "selected_extract",
+          "id": "PA-W1-COHORT-HHS-E1",
+          "locator": "results and page_metadata",
+          "observed_at": "2026-10-30T12:26:05.675491+00:00",
+          "sha256": "74e893736436e33e9c646d50abd0120524409e7f89f91a4693d512f189d0a4ee",
+          "source_kind": "selected_public_record",
+          "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "synthetic": false,
+          "task_id": "PA-W1-COHORT-HHS",
+          "visibility": "public"
+        }
+      },
+      {
+        "id": "PA-W1-LINE-DLA-E1",
+        "task_id": "PA-W1-LINE-DLA",
+        "attempt_id": "PA-W1-LINE-DLA-E1-REUSE",
+        "sha256": "6b697fc1d21bc676956be1c5c514516071d3e2ad6c2d883ab25648e0140f81ca",
+        "payload": {
+          "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page2.txt",
+          "attempt_id": "PA-W1-LINE-DLA-E1-REUSE",
+          "claim_scope": "Selected text from original award SPE4A626PW775; original PDF is not publicly archived",
+          "event_date": "2026-07-09",
+          "hash_scope": "selected_extract",
+          "id": "PA-W1-LINE-DLA-E1",
+          "locator": "dla-award-page2.txt",
+          "observed_at": "2026-10-30T12:28:29.392645+00:00",
+          "sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff",
+          "source_kind": "selected_public_record",
+          "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+          "synthetic": false,
+          "task_id": "PA-W1-LINE-DLA",
+          "visibility": "public"
+        }
+      },
+      {
+        "id": "PA-W1-LINE-DLA-E2",
+        "task_id": "PA-W1-LINE-DLA",
+        "attempt_id": "PA-W1-LINE-DLA-E2-REUSE",
+        "sha256": "6896c1feac5608d5654248d9a7e7c6abf41d5fe85d32dc93b1e864c7f9052abe",
+        "payload": {
+          "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page4.txt",
+          "attempt_id": "PA-W1-LINE-DLA-E2-REUSE",
+          "claim_scope": "Selected text from original award SPE4A626PW775; original PDF is not publicly archived",
+          "event_date": "2026-07-09",
+          "hash_scope": "selected_extract",
+          "id": "PA-W1-LINE-DLA-E2",
+          "locator": "dla-award-page4.txt",
+          "observed_at": "2026-10-30T12:28:29.392645+00:00",
+          "sha256": "2a4198fba2fed895b47fa557d763af8beb819f915b8ed875fd849ea2e6500d9b",
+          "source_kind": "selected_public_record",
+          "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+          "synthetic": false,
+          "task_id": "PA-W1-LINE-DLA",
+          "visibility": "public"
+        }
+      },
+      {
+        "id": "PA-W1-LINE-DLA-E3",
+        "task_id": "PA-W1-LINE-DLA",
+        "attempt_id": "PA-W1-LINE-DLA-E3-REUSE",
+        "sha256": "4108e285d54ef562e9e0f9e99214145eab81d81ee172cfe64002050edbdfcbaa",
+        "payload": {
+          "artifact_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page5-selected.txt",
+          "attempt_id": "PA-W1-LINE-DLA-E3-REUSE",
+          "claim_scope": "Selected text from original award SPE4A626PW775; original PDF is not publicly archived",
+          "event_date": "2026-07-09",
+          "hash_scope": "selected_extract",
+          "id": "PA-W1-LINE-DLA-E3",
+          "locator": "dla-award-page5-selected.txt",
+          "observed_at": "2026-10-30T12:28:29.392645+00:00",
+          "sha256": "264772e6c86d41d608cf76c57c11cd3cb7344ad55ef80dc0f8b8a54791fbb857",
+          "source_kind": "selected_public_record",
+          "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+          "synthetic": false,
+          "task_id": "PA-W1-LINE-DLA",
+          "visibility": "public"
+        }
+      }
+    ],
+    "results": [
+      {
+        "id": "PA-W1-COHORT-DLA-RESULT-01",
+        "task_id": "PA-W1-COHORT-DLA",
+        "producer": "codex-evidence-coordinator",
+        "sha256": "0340a6667cf0763c36a55bfd54554fb8f2d14852ac15a76adaade011d22db4f9",
+        "payload": {
+          "benefit_evidence": {
+            "evidence_ids": [],
+            "reason": "These source selections do not establish buyer influence or a personal benefit",
+            "status": "unresolved"
+          },
+          "candidate_signals": [],
+          "conclusion": "Narrow public observations only. A completed and accepted packet does not establish price fairness, buyer independence, loss or fraud.",
+          "data_origin": "public",
+          "evidence_ids": [
+            "PA-W1-COHORT-DLA-E1"
+          ],
+          "facts": [
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-DLA-E1"
+              ],
+              "id": "PA-W1-COHORT-DLA-FACT-1",
+              "statement": "The declared July3–31,2026 new-awards query retained ten unique award summaries for this stratum."
+            },
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-DLA-E1"
+              ],
+              "id": "PA-W1-COHORT-DLA-FACT-2",
+              "statement": "The response reports hasNext:true; this is an incomplete first-page sample sorted by cumulative award amount, not a random or nationwide cohort."
+            },
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-DLA-E1"
+              ],
+              "id": "PA-W1-COHORT-DLA-FACT-3",
+              "statement": "Cumulative obligations are not unit prices, period spending or paid cash."
+            }
+          ],
+          "input_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+          "next_record": "Original priced line and applicable procurement terms for the selected exact award.",
+          "ordinary_alternatives": [
+            "Award summaries and source availability do not indicate misconduct; supply terms and separately priced services can explain differences."
+          ],
+          "outcome": "observations",
+          "pricing_eligibility": {
+            "evidence_ids": [
+              "PA-W1-COHORT-DLA-E1"
+            ],
+            "reason": "No independently qualified equivalent benchmark or complete paid-value evidence",
+            "status": "unqualified"
+          },
+          "producer": "codex-evidence-coordinator",
+          "result_id": "PA-W1-COHORT-DLA-RESULT-01",
+          "schema_version": "1.0",
+          "supplemental_input_scope": "New source selections acquired after the plan base commit, identified by evidence hashes; not represented as existing at that baseline.",
+          "task_id": "PA-W1-COHORT-DLA",
+          "unknowns": [
+            "Original priced lines are not established by these summary rows.",
+            "Full population coverage and payment are not established."
+          ]
+        }
+      },
+      {
+        "id": "PA-W1-COHORT-VA-RESULT-01",
+        "task_id": "PA-W1-COHORT-VA",
+        "producer": "codex-evidence-coordinator",
+        "sha256": "ab30f52fc729e86e301abe588119af17021e75c33570a3fd873f78e2c1f40227",
+        "payload": {
+          "benefit_evidence": {
+            "evidence_ids": [],
+            "reason": "These source selections do not establish buyer influence or a personal benefit",
+            "status": "unresolved"
+          },
+          "candidate_signals": [],
+          "conclusion": "Narrow public observations only. A completed and accepted packet does not establish price fairness, buyer independence, loss or fraud.",
+          "data_origin": "public",
+          "evidence_ids": [
+            "PA-W1-COHORT-VA-E1"
+          ],
+          "facts": [
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-VA-E1"
+              ],
+              "id": "PA-W1-COHORT-VA-FACT-1",
+              "statement": "The declared July3–31,2026 new-awards query retained ten unique award summaries for this stratum."
+            },
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-VA-E1"
+              ],
+              "id": "PA-W1-COHORT-VA-FACT-2",
+              "statement": "The response reports hasNext:true; this is an incomplete first-page sample sorted by cumulative award amount, not a random or nationwide cohort."
+            },
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-VA-E1"
+              ],
+              "id": "PA-W1-COHORT-VA-FACT-3",
+              "statement": "Cumulative obligations are not unit prices, period spending or paid cash."
+            }
+          ],
+          "input_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+          "next_record": "Original priced line and applicable procurement terms for the selected exact award.",
+          "ordinary_alternatives": [
+            "Award summaries and source availability do not indicate misconduct; supply terms and separately priced services can explain differences."
+          ],
+          "outcome": "observations",
+          "pricing_eligibility": {
+            "evidence_ids": [
+              "PA-W1-COHORT-VA-E1"
+            ],
+            "reason": "No independently qualified equivalent benchmark or complete paid-value evidence",
+            "status": "unqualified"
+          },
+          "producer": "codex-evidence-coordinator",
+          "result_id": "PA-W1-COHORT-VA-RESULT-01",
+          "schema_version": "1.0",
+          "supplemental_input_scope": "New source selections acquired after the plan base commit, identified by evidence hashes; not represented as existing at that baseline.",
+          "task_id": "PA-W1-COHORT-VA",
+          "unknowns": [
+            "Original priced lines are not established by these summary rows.",
+            "Full population coverage and payment are not established."
+          ]
+        }
+      },
+      {
+        "id": "PA-W1-COHORT-HHS-RESULT-01",
+        "task_id": "PA-W1-COHORT-HHS",
+        "producer": "codex-evidence-coordinator",
+        "sha256": "1f404321d538321f0f0e8bfea2e5d948e02c7b7f595e3f9b561268ce39c4d8a8",
+        "payload": {
+          "benefit_evidence": {
+            "evidence_ids": [],
+            "reason": "These source selections do not establish buyer influence or a personal benefit",
+            "status": "unresolved"
+          },
+          "candidate_signals": [],
+          "conclusion": "Narrow public observations only. A completed and accepted packet does not establish price fairness, buyer independence, loss or fraud.",
+          "data_origin": "public",
+          "evidence_ids": [
+            "PA-W1-COHORT-HHS-E1"
+          ],
+          "facts": [
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-HHS-E1"
+              ],
+              "id": "PA-W1-COHORT-HHS-FACT-1",
+              "statement": "The declared July3–31,2026 new-awards query retained ten unique award summaries for this stratum."
+            },
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-HHS-E1"
+              ],
+              "id": "PA-W1-COHORT-HHS-FACT-2",
+              "statement": "The response reports hasNext:true; this is an incomplete first-page sample sorted by cumulative award amount, not a random or nationwide cohort."
+            },
+            {
+              "evidence_ids": [
+                "PA-W1-COHORT-HHS-E1"
+              ],
+              "id": "PA-W1-COHORT-HHS-FACT-3",
+              "statement": "Cumulative obligations are not unit prices, period spending or paid cash."
+            }
+          ],
+          "input_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+          "next_record": "Original priced line and applicable procurement terms for the selected exact award.",
+          "ordinary_alternatives": [
+            "Award summaries and source availability do not indicate misconduct; supply terms and separately priced services can explain differences."
+          ],
+          "outcome": "observations",
+          "pricing_eligibility": {
+            "evidence_ids": [
+              "PA-W1-COHORT-HHS-E1"
+            ],
+            "reason": "No independently qualified equivalent benchmark or complete paid-value evidence",
+            "status": "unqualified"
+          },
+          "producer": "codex-evidence-coordinator",
+          "result_id": "PA-W1-COHORT-HHS-RESULT-01",
+          "schema_version": "1.0",
+          "supplemental_input_scope": "New source selections acquired after the plan base commit, identified by evidence hashes; not represented as existing at that baseline.",
+          "task_id": "PA-W1-COHORT-HHS",
+          "unknowns": [
+            "Original priced lines are not established by these summary rows.",
+            "Full population coverage and payment are not established."
+          ]
+        }
+      },
+      {
+        "id": "PA-W1-LINE-DLA-RESULT-01",
+        "task_id": "PA-W1-LINE-DLA",
+        "producer": "codex-evidence-coordinator",
+        "sha256": "9a6eaf7badeaeed189a639841c2295fc0c69badce592c83bfb3db27745254c9e",
+        "payload": {
+          "benefit_evidence": {
+            "evidence_ids": [],
+            "reason": "These source selections do not establish buyer influence or a personal benefit",
+            "status": "unresolved"
+          },
+          "candidate_signals": [],
+          "conclusion": "Narrow public observations only. A completed and accepted packet does not establish price fairness, buyer independence, loss or fraud.",
+          "data_origin": "public",
+          "evidence_ids": [
+            "PA-W1-LINE-DLA-E1",
+            "PA-W1-LINE-DLA-E2",
+            "PA-W1-LINE-DLA-E3"
+          ],
+          "facts": [
+            {
+              "evidence_ids": [
+                "PA-W1-LINE-DLA-E1",
+                "PA-W1-LINE-DLA-E2",
+                "PA-W1-LINE-DLA-E3"
+              ],
+              "id": "PA-W1-LINE-DLA-FACT-1",
+              "statement": "Order SPE4A626PW775 prices NSN5306004457358, part39-8820-501, at USD272.99 per EA for2243EA: USD612316.57."
+            },
+            {
+              "evidence_ids": [
+                "PA-W1-LINE-DLA-E1",
+                "PA-W1-LINE-DLA-E2",
+                "PA-W1-LINE-DLA-E3"
+              ],
+              "id": "PA-W1-LINE-DLA-FACT-2",
+              "statement": "A separate government first-article-test line is USD3500.00. The two lines sum to USD615816.57; they are different priced deliverables."
+            },
+            {
+              "evidence_ids": [
+                "PA-W1-LINE-DLA-E1",
+                "PA-W1-LINE-DLA-E2",
+                "PA-W1-LINE-DLA-E3"
+              ],
+              "id": "PA-W1-LINE-DLA-FACT-3",
+              "statement": "The contract names dealer Don Industrial Group LLC, CAGE745V4, and intended approved manufacturer SPS Technologies LLC, CAGE27624. This is not verification of actual delivery, invoices or payment."
+            }
+          ],
+          "input_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+          "next_record": "Dated exact-part compliant offer and actual bid/price-reasonableness records for SPE4A626Q0688.",
+          "ordinary_alternatives": [
+            "Award summaries and source availability do not indicate misconduct; supply terms and separately priced services can explain differences."
+          ],
+          "outcome": "observations",
+          "pricing_eligibility": {
+            "evidence_ids": [
+              "PA-W1-LINE-DLA-E1",
+              "PA-W1-LINE-DLA-E2",
+              "PA-W1-LINE-DLA-E3"
+            ],
+            "reason": "No independently qualified equivalent benchmark or complete paid-value evidence",
+            "status": "unqualified"
+          },
+          "producer": "codex-evidence-coordinator",
+          "result_id": "PA-W1-LINE-DLA-RESULT-01",
+          "schema_version": "1.0",
+          "supplemental_input_scope": "New source selections acquired after the plan base commit, identified by evidence hashes; not represented as existing at that baseline.",
+          "task_id": "PA-W1-LINE-DLA",
+          "unknowns": [
+            "No independent equivalent market price has been qualified.",
+            "Actual receipt, payment, bid prices and buyer-benefit evidence remain unverified."
+          ]
+        }
+      }
+    ],
+    "reviews": [
+      {
+        "id": "PA-W1-COHORT-DLA-REVIEW-REDTEAM-01",
+        "result_id": "PA-W1-COHORT-DLA-RESULT-01",
+        "reviewer": "price-agents-redteam",
+        "sha256": "d0ba66def5dc68169891e0daf24491d7bb9339d1ee78ba888f34acc55e766d43",
+        "payload": {
+          "checks": {
+            "alternative_explanations": "First-page descending-obligation selection, express-report aggregation and unavailable documents cannot establish misconduct or prevalence.",
+            "amount_basis": "All monetary values are cumulative reported award obligations; no unit price, July spending, invoice, paid cash or loss inferred.",
+            "comparability": "Summary observations only; pricing eligibility remains unqualified and no exact-item benchmark is established.",
+            "privacy": "Selected public business/award fields; no personal contact, residential address, private financial data or natural-person wrongdoing assertion.",
+            "provenance": "Selected source SHA and original acquisition timestamp match the retained API manifest; independent offline reconciliation checked exact request hash, ten unique IDs, base dates and hasNext. Reuse records zero new HTTP requests."
+          },
+          "decision": "accepted",
+          "reason": "Accept the accurately limited DLA cohort packet and permit dependent document work. This does not qualify a price comparison or authenticate all source assertions.",
+          "result_id": "PA-W1-COHORT-DLA-RESULT-01",
+          "result_sha256": "0340a6667cf0763c36a55bfd54554fb8f2d14852ac15a76adaade011d22db4f9",
+          "review_id": "PA-W1-COHORT-DLA-REVIEW-REDTEAM-01",
+          "reviewer": "price-agents-redteam"
+        }
+      },
+      {
+        "id": "PA-W1-COHORT-VA-REVIEW-REDTEAM-01",
+        "result_id": "PA-W1-COHORT-VA-RESULT-01",
+        "reviewer": "price-agents-redteam",
+        "sha256": "0f65ff9c9f68dabc9f9e1f12a1b62829e1418d9090fc5af5df092abd3bc7f7c1",
+        "payload": {
+          "checks": {
+            "alternative_explanations": "First-page descending-obligation selection, express-report aggregation and unavailable documents cannot establish misconduct or prevalence.",
+            "amount_basis": "All monetary values are cumulative reported award obligations; no unit price, July spending, invoice, paid cash or loss inferred.",
+            "comparability": "Summary observations only; pricing eligibility remains unqualified and no exact-item benchmark is established.",
+            "privacy": "Selected public business/award fields; no personal contact, residential address, private financial data or natural-person wrongdoing assertion.",
+            "provenance": "Selected source SHA and original acquisition timestamp match the retained API manifest; independent offline reconciliation checked exact request hash, ten unique IDs, base dates and hasNext. Reuse records zero new HTTP requests."
+          },
+          "decision": "accepted",
+          "reason": "Accept the accurately limited VA cohort packet and permit dependent document work. This does not qualify a price comparison or authenticate all source assertions.",
+          "result_id": "PA-W1-COHORT-VA-RESULT-01",
+          "result_sha256": "ab30f52fc729e86e301abe588119af17021e75c33570a3fd873f78e2c1f40227",
+          "review_id": "PA-W1-COHORT-VA-REVIEW-REDTEAM-01",
+          "reviewer": "price-agents-redteam"
+        }
+      },
+      {
+        "id": "PA-W1-COHORT-HHS-REVIEW-REDTEAM-01",
+        "result_id": "PA-W1-COHORT-HHS-RESULT-01",
+        "reviewer": "price-agents-redteam",
+        "sha256": "887fc04cea228bd20da7f957544a693600d7d38ed136e6c1cc8ab16546a9d2a1",
+        "payload": {
+          "checks": {
+            "alternative_explanations": "First-page descending-obligation selection, express-report aggregation and unavailable documents cannot establish misconduct or prevalence.",
+            "amount_basis": "All monetary values are cumulative reported award obligations; no unit price, July spending, invoice, paid cash or loss inferred.",
+            "comparability": "Summary observations only; pricing eligibility remains unqualified and no exact-item benchmark is established.",
+            "privacy": "Selected public business/award fields; no personal contact, residential address, private financial data or natural-person wrongdoing assertion.",
+            "provenance": "Selected source SHA and original acquisition timestamp match the retained API manifest; independent offline reconciliation checked exact request hash, ten unique IDs, base dates and hasNext. Reuse records zero new HTTP requests."
+          },
+          "decision": "accepted",
+          "reason": "Accept the accurately limited HHS cohort packet and permit dependent document work. This does not qualify a price comparison or authenticate all source assertions.",
+          "result_id": "PA-W1-COHORT-HHS-RESULT-01",
+          "result_sha256": "1f404321d538321f0f0e8bfea2e5d948e02c7b7f595e3f9b561268ce39c4d8a8",
+          "review_id": "PA-W1-COHORT-HHS-REVIEW-REDTEAM-01",
+          "reviewer": "price-agents-redteam"
+        }
+      },
+      {
+        "id": "PA-W1-LINE-DLA-REVIEW-REDTEAM-01",
+        "result_id": "PA-W1-LINE-DLA-RESULT-01",
+        "reviewer": "price-agents-redteam",
+        "sha256": "588cb08905e840706bee400eb164b54669c014175570eed16b389bd66f2dcbda",
+        "payload": {
+          "checks": {
+            "alternative_explanations": "The3500-dollar difference is the explicit separate test line; technical/quality/delivery obligations remain material. No fairness or wrongdoing inference follows from price level or named supplier alone.",
+            "amount_basis": "2243EA times272.99 equals612316.57; separate3500test requirement gives615816.57. This is awarded contract value, not paid cash, supplier cost, excess, buyer benefit or loss.",
+            "comparability": "Exact NSN5306004457358 and PN39-8820-501 observed. Production and test requirement remain separate; no equivalent external offer qualified. The earlier0.91-dollar NSN is a different item.",
+            "privacy": "Selected technical/business records omit contact/address blocks. Intended supplier identity is not a payee assertion; no individual benefit or misconduct is claimed.",
+            "provenance": "All three selected source artifacts match the original-document selection manifest and original retrieval timestamp. Page4 image and page5 first-article crop were independently visually inspected; page2 selected source text supports intended dealer/manufacturer. Local reuse adds zero HTTP calls."
+          },
+          "decision": "accepted",
+          "reason": "Accept the exact awarded-line and contractually intended supplier observations. Keep pricing unqualified and benefit unresolved; acceptance permits exact-item specification/benchmark work only.",
+          "result_id": "PA-W1-LINE-DLA-RESULT-01",
+          "result_sha256": "9a6eaf7badeaeed189a639841c2295fc0c69badce592c83bfb3db27745254c9e",
+          "review_id": "PA-W1-LINE-DLA-REVIEW-REDTEAM-01",
+          "reviewer": "price-agents-redteam"
+        }
+      }
+    ],
+    "reopens": [],
+    "events": [
+      {
+        "sequence": 1,
+        "task_id": null,
+        "action": "plan_imported",
+        "actor": "coordinator",
+        "at": 1793364659.5308394,
+        "payload": {
+          "plan_id": "PA-WAVE-20261030-01",
+          "sha256": "d5250560cbb288716eac810ac282f25d58ee8574fa4cd1e1bc536eee885767c9"
+        }
+      },
+      {
+        "sequence": 2,
+        "task_id": "PA-W1-COHORT-DLA",
+        "action": "claimed",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.533574,
+        "payload": {
+          "claim_number": 1,
+          "lease_until": 1793366459.533574
+        }
+      },
+      {
+        "sequence": 3,
+        "task_id": "PA-W1-COHORT-DLA",
+        "action": "attempt_reserved",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5354085,
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-DLA-E1-REUSE"
+        }
+      },
+      {
+        "sequence": 4,
+        "task_id": "PA-W1-COHORT-DLA",
+        "action": "attempt_finished",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5370069,
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-DLA-E1-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "sequence": 5,
+        "task_id": "PA-W1-COHORT-DLA",
+        "action": "evidence_appended",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.538183,
+        "payload": {
+          "artifact_sha256": "b38dbb196a14eaf81586da82c792331916671be803fe40837c6abde01390037f",
+          "evidence_id": "PA-W1-COHORT-DLA-E1"
+        }
+      },
+      {
+        "sequence": 6,
+        "task_id": "PA-W1-COHORT-DLA",
+        "action": "result_submitted",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5407798,
+        "payload": {
+          "result_id": "PA-W1-COHORT-DLA-RESULT-01",
+          "sha256": "0340a6667cf0763c36a55bfd54554fb8f2d14852ac15a76adaade011d22db4f9"
+        }
+      },
+      {
+        "sequence": 7,
+        "task_id": "PA-W1-COHORT-VA",
+        "action": "claimed",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5438955,
+        "payload": {
+          "claim_number": 1,
+          "lease_until": 1793366459.5438955
+        }
+      },
+      {
+        "sequence": 8,
+        "task_id": "PA-W1-COHORT-VA",
+        "action": "attempt_reserved",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5455983,
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-VA-E1-REUSE"
+        }
+      },
+      {
+        "sequence": 9,
+        "task_id": "PA-W1-COHORT-VA",
+        "action": "attempt_finished",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.54708,
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-VA-E1-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "sequence": 10,
+        "task_id": "PA-W1-COHORT-VA",
+        "action": "evidence_appended",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5482607,
+        "payload": {
+          "artifact_sha256": "92c973079abd00806e728f54e83266fd82642a3a20c3d41db25a6ee94409a680",
+          "evidence_id": "PA-W1-COHORT-VA-E1"
+        }
+      },
+      {
+        "sequence": 11,
+        "task_id": "PA-W1-COHORT-VA",
+        "action": "result_submitted",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.550278,
+        "payload": {
+          "result_id": "PA-W1-COHORT-VA-RESULT-01",
+          "sha256": "ab30f52fc729e86e301abe588119af17021e75c33570a3fd873f78e2c1f40227"
+        }
+      },
+      {
+        "sequence": 12,
+        "task_id": "PA-W1-COHORT-HHS",
+        "action": "claimed",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5529644,
+        "payload": {
+          "claim_number": 1,
+          "lease_until": 1793366459.5529644
+        }
+      },
+      {
+        "sequence": 13,
+        "task_id": "PA-W1-COHORT-HHS",
+        "action": "attempt_reserved",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5555336,
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-HHS-E1-REUSE"
+        }
+      },
+      {
+        "sequence": 14,
+        "task_id": "PA-W1-COHORT-HHS",
+        "action": "attempt_finished",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5572186,
+        "payload": {
+          "attempt_id": "PA-W1-COHORT-HHS-E1-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "sequence": 15,
+        "task_id": "PA-W1-COHORT-HHS",
+        "action": "evidence_appended",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.558346,
+        "payload": {
+          "artifact_sha256": "74e893736436e33e9c646d50abd0120524409e7f89f91a4693d512f189d0a4ee",
+          "evidence_id": "PA-W1-COHORT-HHS-E1"
+        }
+      },
+      {
+        "sequence": 16,
+        "task_id": "PA-W1-COHORT-HHS",
+        "action": "result_submitted",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364659.5602221,
+        "payload": {
+          "result_id": "PA-W1-COHORT-HHS-RESULT-01",
+          "sha256": "1f404321d538321f0f0e8bfea2e5d948e02c7b7f595e3f9b561268ce39c4d8a8"
+        }
+      },
+      {
+        "sequence": 17,
+        "task_id": "PA-W1-COHORT-DLA",
+        "action": "reviewed",
+        "actor": "price-agents-redteam",
+        "at": 1793364784.2469132,
+        "payload": {
+          "decision": "accepted",
+          "review_id": "PA-W1-COHORT-DLA-REVIEW-REDTEAM-01"
+        }
+      },
+      {
+        "sequence": 18,
+        "task_id": "PA-W1-COHORT-VA",
+        "action": "reviewed",
+        "actor": "price-agents-redteam",
+        "at": 1793364784.250843,
+        "payload": {
+          "decision": "accepted",
+          "review_id": "PA-W1-COHORT-VA-REVIEW-REDTEAM-01"
+        }
+      },
+      {
+        "sequence": 19,
+        "task_id": "PA-W1-COHORT-HHS",
+        "action": "reviewed",
+        "actor": "price-agents-redteam",
+        "at": 1793364784.253559,
+        "payload": {
+          "decision": "accepted",
+          "review_id": "PA-W1-COHORT-HHS-REVIEW-REDTEAM-01"
+        }
+      },
+      {
+        "sequence": 20,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "claimed",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.335152,
+        "payload": {
+          "claim_number": 1,
+          "lease_until": 1793366584.335152
+        }
+      },
+      {
+        "sequence": 21,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "attempt_reserved",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.3376992,
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E1-REUSE"
+        }
+      },
+      {
+        "sequence": 22,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "attempt_finished",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.3394454,
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E1-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "sequence": 23,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "evidence_appended",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.3415806,
+        "payload": {
+          "artifact_sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff",
+          "evidence_id": "PA-W1-LINE-DLA-E1"
+        }
+      },
+      {
+        "sequence": 24,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "attempt_reserved",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.3449721,
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E2-REUSE"
+        }
+      },
+      {
+        "sequence": 25,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "attempt_finished",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.3473613,
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E2-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "sequence": 26,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "evidence_appended",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.3496614,
+        "payload": {
+          "artifact_sha256": "2a4198fba2fed895b47fa557d763af8beb819f915b8ed875fd849ea2e6500d9b",
+          "evidence_id": "PA-W1-LINE-DLA-E2"
+        }
+      },
+      {
+        "sequence": 27,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "attempt_reserved",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.353195,
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E3-REUSE"
+        }
+      },
+      {
+        "sequence": 28,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "attempt_finished",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.354752,
+        "payload": {
+          "attempt_id": "PA-W1-LINE-DLA-E3-REUSE",
+          "detail": "Retained selected bytes revalidated locally; no network request",
+          "new_network_requests": 0,
+          "outcome": "success"
+        }
+      },
+      {
+        "sequence": 29,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "evidence_appended",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.356425,
+        "payload": {
+          "artifact_sha256": "264772e6c86d41d608cf76c57c11cd3cb7344ad55ef80dc0f8b8a54791fbb857",
+          "evidence_id": "PA-W1-LINE-DLA-E3"
+        }
+      },
+      {
+        "sequence": 30,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "result_submitted",
+        "actor": "codex-evidence-coordinator",
+        "at": 1793364784.3592055,
+        "payload": {
+          "result_id": "PA-W1-LINE-DLA-RESULT-01",
+          "sha256": "9a6eaf7badeaeed189a639841c2295fc0c69badce592c83bfb3db27745254c9e"
+        }
+      },
+      {
+        "sequence": 31,
+        "task_id": "PA-W1-LINE-DLA",
+        "action": "reviewed",
+        "actor": "price-agents-redteam",
+        "at": 1793364844.5257127,
+        "payload": {
+          "decision": "accepted",
+          "review_id": "PA-W1-LINE-DLA-REVIEW-REDTEAM-01"
+        }
+      }
+    ]
+  }
+}

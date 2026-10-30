@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "review_id": "PA-GRAPH-INTEGRATION-20261030-01",
+  "reviewed_on": "2026-10-30",
+  "reviewer": "price-agents-redteam",
+  "decision": "accepted_for_public_graph",
+  "scope": "Independent review of this exact candidate projection and current human overview; canonical registry edit, assembly, full regression and publication remain separate coordinator actions. Not certification of price fairness or misconduct.",
+  "original_review_preserved": {
+    "path": "research/us-integrity/price-agents/review/review.json",
+    "sha256": "9dd1c94239e77725da5ba1ce453a31a0d0cc072dacf151fb36cf97292c28ca35",
+    "input_artifacts_unchanged": 151
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "research/us-integrity/investigations/price-agent-system-2026-10-30/graph-extension.json",
+      "sha256": "ba9d8ce06c56de9e9fd6607827ec5f6ec13bb017fd663938009853bdc8dee2e2",
+      "bytes": 517450
+    },
+    {
+      "path": "research/us-integrity/investigations/price-agent-system-2026-10-30/build_graph_extension.py",
+      "sha256": "aba9e5b62bacee8f697c83658c98e038b82f567886e9fbb500c1e002340e7bdc",
+      "bytes": 29904
+    },
+    {
+      "path": "research/us-integrity/investigations/price-agent-system-2026-10-30/REPORT.md",
+      "sha256": "ae27e452f45f70289d845cc2ea878c416d23e3674032376eb958b67e5e8d9605",
+      "bytes": 6295
+    },
+    {
+      "path": "research/us-integrity/investigations/price-agent-system-2026-10-30/RUN-LEDGER.md",
+      "sha256": "0b0a0de08c88615d93f1b3b8768472fa416180e52f262c0d4b5022f2cdd00dcc",
+      "bytes": 3806
+    },
+    {
+      "path": "research/us-integrity/START-HERE.md",
+      "sha256": "d2e904b4c7fc8562c12b993da8d28613552e152eccc857ba650ee50909e7864b",
+      "bytes": 13395
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/review.json",
+      "sha256": "9dd1c94239e77725da5ba1ce453a31a0d0cc072dacf151fb36cf97292c28ca35",
+      "bytes": 42797
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/REPORT.md",
+      "sha256": "bc3cdaca78625dfe03b9a2bfbc9c2f9294b80c542048430a40d748b619910624",
+      "bytes": 10034
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/check_graph_integration.py",
+      "sha256": "db44bc3e98a636f220fa08f1ed15b4dadade433e501718b0bdbf155b90560551",
+      "bytes": 8803
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/graph-integration-checks.json",
+      "sha256": "e9b9260f1e0024bd1cd3e6ba1faa612a580595cb393beb3a604fd2171ad2bc72",
+      "bytes": 1295
+    },
+    {
+      "path": "research/us-integrity/engine/integrity.py",
+      "sha256": "9113141a4ce4feb504b08426f10684569a100e074a19652ff6944c95ad1a4277",
+      "bytes": 27478
+    },
+    {
+      "path": "research/us-integrity/tools/investigation_extensions.py",
+      "sha256": "de95a8b02c6d654743a68de430d30756dbf6b60374adfac5a947f7af46fb9851",
+      "bytes": 4886
+    }
+  ],
+  "checks": {
+    "schema_version": "1.0",
+    "checked_on": "2026-10-30",
+    "scope": "Read-only prepublication mapping and schema check",
+    "graph_sha256": "ba9d8ce06c56de9e9fd6607827ec5f6ec13bb017fd663938009853bdc8dee2e2",
+    "input_pins_verified": 156,
+    "source_nodes_checked": 57,
+    "original_review_sha256": "9dd1c94239e77725da5ba1ce453a31a0d0cc072dacf151fb36cf97292c28ca35",
+    "original_review_input_pins_unchanged": 151,
+    "baseline_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+    "baseline_graph_sha256": "2ef0f2029a01d7985c06c6f5cdbb099728ceecb440a0058dc36cbf4312d5a90a",
+    "prior_id_collisions": 0,
+    "standalone_schema": {
+      "nodes": 239,
+      "edges": 264,
+      "sources": 57
+    },
+    "combined_schema": {
+      "nodes": 1458,
+      "edges": 3412,
+      "sources": 424
+    },
+    "exact_mappings": {
+      "sampled_awards": 30,
+      "parent_references_separately_typed": 3,
+      "original_priced_lines": 2,
+      "cumulative_obligation_measures": 30,
+      "ordered_line_measures": 2,
+      "rejected_comparators": 2,
+      "party_nodes": 15,
+      "party_edges": 9,
+      "professional_person_nodes": 1,
+      "role_contracts": 14,
+      "planned_task_definitions": 20,
+      "separate_actual_task_states": 20,
+      "accepted_packets": 4
+    },
+    "new_network_requests": 0,
+    "canonical_approval_or_assembly_performed": false
+  },
+  "decisions": [
+    {
+      "subject": "source lineage",
+      "decision": "accepted",
+      "reason": "All156direct input digests and retained source snapshots verify. Locally produced repository artifacts explicitly deny inferred network retrieval; original PDFs and selected excerpts retain different hash scopes."
+    },
+    {
+      "subject": "identifiers and baseline",
+      "decision": "accepted",
+      "reason": "No candidate node or edge ID collides with the committed preintegration graph. Standalone and baseline-plus-candidate schema/provenance checks pass. Three parent references are separately typed from30sampled awards."
+    },
+    {
+      "subject": "amounts",
+      "decision": "accepted_limited_measures",
+      "reason": "Exactly30cumulative-award-obligation measures and2awarded-line-value measures match retained observations. Production612316.57plus separate testing3500.00equals615816.57. Measures explicitly prohibit aggregation and deny verified paid cash; buyer benefit and recoverable loss remain null. Two medical catalog entries remain excluded as wrong products."
+    },
+    {
+      "subject": "parties and professional role",
+      "decision": "accepted_limited_roles",
+      "reason": "All15party nodes and9edges preserve reviewed properties, dates, exact identifiers and source mappings. The single professional person is instrument-specific. Printed role is not price-selection/payment authority; reported parent is not beneficial owner, intended manufacturer is not a verified supplier payment. Unmerged state-filing candidate is absent."
+    },
+    {
+      "subject": "execution and plans",
+      "decision": "accepted_limited_execution",
+      "reason": "14role contracts and20task definitions remain planned and separate from20exact local-state observations. Four accepted packets preserve unqualified pricing and unresolved benefit. Six capture reuses,zero newHTTP,5blocked/11queued match final ledger. No model/provider deployment is inferred."
+    },
+    {
+      "subject": "screens and access gaps",
+      "decision": "accepted_limits_preserved",
+      "reason": "Synthetic12percent calibration contributes no real transactions or money measure. Actual recurrence remains blocked; prior exactNIIN rows remain absent. Direct tracer has zero acquired documents and no runtime reservation bridge."
+    },
+    {
+      "subject": "REPORT,RUN-LEDGER,START",
+      "decision": "accepted_current_prose",
+      "reason": "Read the full new overview and ledger plus START diff. Amounts, scope, unknowns, source-role limits and actual run states agree with reviewed artifacts. Future root VALIDATION.json is intentionally outside this receipt to avoid a circular dependency."
+    }
+  ],
+  "validation_command": {
+    "command": "python research/us-integrity/price-agents/review/check_graph_integration.py",
+    "exit_code": 0,
+    "network_requests": 0
+  },
+  "coordinator_validation_scope": "Root reports223preintegration tests. This receipt does not relabel them as independently rerun tests; canonical rebuild, fresh-export replay and final regression belong in coordinator VALIDATION.json.",
+  "known_limits": [
+    "The candidate remains a projection of selected public observations, not independent source authentication or exhaustive coverage.",
+    "No qualified independent benchmark,payment,buyer benefit,kickback,loss,new fraud case or bounty eligibility established.",
+    "Reviewer actor labels are not authenticated people and this is not a human or agency audit.",
+    "Review checks the source excerpt for the professional role; no independent full-page visual was added in this integration pass.",
+    "Future acquisitions, changed inputs, approval-registry bytes, generated exports and publication are outside these artifact hashes."
+  ],
+  "pending_coordinator_steps": [
+    "Approve this exact graph digest with this review path/digest.",
+    "Assemble canonical graph and generated Obsidian artifacts; verify prior records remain unchanged.",
+    "Write linked system VALIDATION.json after final regression and clean Git-export checks."
+  ],
+  "blockers": []
+}

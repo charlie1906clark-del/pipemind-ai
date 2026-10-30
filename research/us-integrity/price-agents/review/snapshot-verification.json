@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-30",
+  "network_requests": 0,
+  "scope": "Offline retained-byte and arithmetic checks; not source authentication",
+  "pilot": {
+    "unique_sample_rows": 30,
+    "strata": [
+      {
+        "stratum": "dla-bolts",
+        "rows": 10,
+        "has_next_page": true,
+        "sum_cumulative_obligations_usd": "2006327.90"
+      },
+      {
+        "stratum": "va-medical",
+        "rows": 10,
+        "has_next_page": true,
+        "sum_cumulative_obligations_usd": "119368989.65"
+      },
+      {
+        "stratum": "hhs-medical",
+        "rows": 10,
+        "has_next_page": true,
+        "sum_cumulative_obligations_usd": "11768165.65"
+      }
+    ],
+    "population_complete": false,
+    "selected_source_files_hash_checked": 10,
+    "line_sum_usd": "615816.57",
+    "qualified_benchmarks": 0,
+    "actual_payment_verified": false,
+    "fraud_established": false,
+    "bundle_artifact_hashes_checked": 45
+  },
+  "independent_official_rechecks": {
+    "requests": 2,
+    "successes": 2,
+    "fields_per_record": 10,
+    "all_match": true
+  },
+  "demonstrations": {
+    "runtime_byte_exact_replay": true,
+    "tracer_semantic_replay": true,
+    "tracer_excluded_dynamic_fields": [
+      "started_at",
+      "finished_at",
+      "observed_at",
+      "completed_at"
+    ],
+    "real_network_or_model_calls_in_replays": 0
+  },
+  "current_wave": {
+    "tasks": 20,
+    "fresh_import_and_identical_reimport": true,
+    "sha256": "ccb2b4645c1b9ad57db41b1bccc457f4d7cfb68d6aadec7252789bbf0738001f"
+  },
+  "actual_retained_evidence_run": {
+    "state_counts": {
+      "accepted": 4,
+      "blocked": 5,
+      "queued": 11,
+      "claimed": 0,
+      "awaiting_review": 0
+    },
+    "local_reuse_attempts": 6,
+    "new_network_requests": 0,
+    "exact_review_receipts_ingested": 4,
+    "all_accepted_packets_price_unqualified": true,
+    "active_leases": 0,
+    "reopens_in_actual_run": 0,
+    "resume_reopen_proof_scope": "Separate synthetic runtime demonstration",
+    "export_sha256": "e721b82774f096ed3ea5b382394c3f10964cc0789412d5c7ead25fe59646d1dc"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "data_origin": "public_observation",
+  "lines": [
+    {
+      "line_id": "DLA-SPE4A627F0588-0001",
+      "supplier_identifier": "CAGE:8A1E8",
+      "purchasing_office_identifier": "PIID-prefix:SPE4A6",
+      "item_stratum": "NSN:5306016864912"
+    }
+  ],
+  "input_canonical_sha256": "90994c9f78408c10718c002b5cbee295a2ad5c6a294ce1a5b1a151ca49748e3d",
+  "plan_canonical_sha256": "8ec5bdbd0fbc1d5f40cefe6481f952fbc39888ec2d235fde4e761497ba704f0b"
+}

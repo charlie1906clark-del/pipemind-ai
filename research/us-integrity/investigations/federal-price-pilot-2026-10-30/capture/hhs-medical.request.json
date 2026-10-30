@@ -1,0 +1,56 @@
+{
+  "filters": {
+    "award_type_codes": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "time_period": [
+      {
+        "start_date": "2026-07-03",
+        "end_date": "2026-07-31",
+        "date_type": "new_awards_only"
+      }
+    ],
+    "psc_codes": [
+      "6515"
+    ],
+    "agencies": [
+      {
+        "type": "awarding",
+        "tier": "toptier",
+        "name": "Department of Health and Human Services"
+      }
+    ]
+  },
+  "fields": [
+    "Award ID",
+    "generated_internal_id",
+    "Recipient Name",
+    "Recipient UEI",
+    "recipient_id",
+    "Awarding Agency",
+    "Awarding Agency Code",
+    "Awarding Sub Agency",
+    "Awarding Sub Agency Code",
+    "Funding Agency",
+    "Funding Sub Agency",
+    "Start Date",
+    "Base Obligation Date",
+    "End Date",
+    "Award Amount",
+    "Total Outlays",
+    "Description",
+    "Place of Performance State Code",
+    "PSC",
+    "NAICS",
+    "Contract Award Type",
+    "Last Modified Date"
+  ],
+  "limit": 10,
+  "page": 1,
+  "sort": "Award Amount",
+  "order": "desc",
+  "subawards": false
+}

@@ -1,0 +1,85 @@
+{
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "id": "BSF-S01",
+      "url": "https://www.dla.mil/Information-Operations/FLIS-Data-Electronic-Reading-Room/PUBLOGFLISSearchDownloadInstr/",
+      "source_kind": "official_webpage_indexed_text",
+      "observed_on": "2026-10-30",
+      "retrieval_depth": "Search-index text only; no downloaded HTML, CSV URL or NIIN row acquired",
+      "web_refs": [
+        "turn245search0",
+        "turn246search0"
+      ],
+      "supported_facts": [
+        "Characteristics and Reference CSV products advertised",
+        "monthly release description",
+        "indexed update dates are August2026, not independently asserted current"
+      ]
+    },
+    {
+      "id": "BSF-S02",
+      "url": "https://www.dla.mil/Portals/104/Documents/InformationOperations/LogisticsInformationServices/FOIA/PUBLOG/Characteristics%20FOIA%20Layout.pdf?ver=5V2FBD90HKVqCMMpG8_NUA%3D%3D",
+      "source_kind": "official_pdf_indexed_text",
+      "observed_on": "2026-10-30",
+      "retrieval_depth": "Indexed text plus failed direct open403; original PDF not archived",
+      "web_refs": [
+        "turn245search4",
+        "turn254view1"
+      ],
+      "supported_facts": [
+        "V_CHARACTERISTICS.CSV fields NIIN,MRC,REQUIREMENTS_STATEMENT,CLEAR_TEXT_REPLY",
+        "NIIN length9; MRC length4; text maximum lengths as dated layout"
+      ]
+    },
+    {
+      "id": "BSF-S03",
+      "url": "https://www.dla.mil/Portals/104/Documents/InformationOperations/LogisticsInformationServices/FOIA/PUBLOG/Reference%20FOIA%20Layout.pdf?ver=RpQOpGaWxcFx_o6dpxRYrA%3D%3D",
+      "source_kind": "official_pdf_indexed_text",
+      "observed_on": "2026-10-30",
+      "retrieval_depth": "Indexed text plus failed direct open403; original PDF not archived",
+      "web_refs": [
+        "turn245search5",
+        "turn254view0"
+      ],
+      "supported_facts": [
+        "V_FLIS_PART.CSV fields NIIN,PART_NUMBER,CAGE_CODE,CAGE_STATUS,RNCC,RNVC,DAC,RNAAC,RNFC,RNSC,RNJC,SADC,HCC,MSDS,MEDALS",
+        "Reference qualifiers must be preserved; presence of CAGE/part row is not approved-source or actual-manufacturer proof"
+      ]
+    },
+    {
+      "id": "BSF-S04",
+      "url": "https://www.dla.mil/Information-Operations/Services/Applications/PUB-LOG/ProceduresManuals/",
+      "source_kind": "official_webpage_indexed_text",
+      "observed_on": "2026-10-30",
+      "retrieval_depth": "Indexed official description only in this follow-up",
+      "web_refs": [
+        "turn250search0"
+      ],
+      "supported_facts": [
+        "Published public PublogDVD.zip URL",
+        "Public data does not require subscription/CAC",
+        "CHAR and MCRD components described",
+        "Batch export is documented in installed manual"
+      ]
+    },
+    {
+      "id": "BSF-S05",
+      "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+      "source_kind": "prior_pinned_official_archive_observation",
+      "observed_on": "2026-10-30",
+      "retrieval_depth": "Reuse prior metadata and selected DECOMP instructions; no new archive download in this follow-up",
+      "local_paths": [
+        "../dla-bolt-trace-2026-10-30/specification/archive-directory.json",
+        "../dla-bolt-trace-2026-10-30/specification/archive-metadata-access.json",
+        "../dla-bolt-trace-2026-10-30/specification/archive-tools-readme-selected.txt",
+        "../dla-bolt-trace-2026-10-30/specification/member-format-inspection.json"
+      ],
+      "supported_facts": [
+        "Official archive member names and native binary format",
+        "DECOMP CLI supports table SQL filtering",
+        "No compatible Windows reader available in this execution environment"
+      ]
+    }
+  ]
+}

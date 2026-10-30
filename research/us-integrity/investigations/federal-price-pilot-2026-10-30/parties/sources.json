@@ -1,0 +1,94 @@
+{
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "id": "TP-S-ORDER-ROLE",
+      "title": "DLA original order page 1 printed officer role",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../selected/dla-award-page1-role-selected.txt",
+      "snapshot_sha256": "a1357e85137b2c5d7b6f76753d7c38dbe828e6ac8139949f2c4a9b017377dc42",
+      "snapshot_scope": "Official DD1155 page 1 block 24 area; selected printed professional name, role and date only; not independently authenticated signature or price-selection/payment authority",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "TP-S-ORDER",
+      "title": "DLA original order page 2",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../selected/dla-award-page2.txt",
+      "snapshot_sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff",
+      "snapshot_scope": "Official contract; selected page-2 text; stated intended source, not proof of delivery",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "TP-S-AWARD",
+      "title": "USAspending exact award",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626PW775_9700_-NONE-_-NONE-/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "../detail-capture/detail-SPE4A626PW775.json",
+      "snapshot_sha256": "ac43b78c6d6fca871417142aeddef27144905131323a27d73c5c887675713638",
+      "snapshot_scope": "Official award selected fields; obligations and recipient, not payment ledger",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "TP-S-CAGE-DON",
+      "title": "DLA CAGE exact search 745V4",
+      "url": "https://cage.dla.mil/Search",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "cage-745V4-selected.json",
+      "snapshot_sha256": "e3707acdfed07469aaba2040ed49828fbf736c88a2e965f730bab4baaaf93614",
+      "snapshot_scope": "Exact CAGE/name/UEI strings returned together in a single-result search; registration-status detail page not read",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "TP-S-CAGE-SPS",
+      "title": "DLA CAGE exact search 27624",
+      "url": "https://cage.dla.mil/Search",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "cage-27624-selected.json",
+      "snapshot_sha256": "a3c914973ba7c302de56bd9baf179000c3a46453dcbaddb2fae565f35bef6622",
+      "snapshot_scope": "Exact CAGE/name/UEI strings returned together in a single-result search; registration-status detail page not read",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "TP-S-PROFILE-DON",
+      "title": "USAspending Don child recipient profile",
+      "url": "https://api.usaspending.gov/api/v2/recipient/516cae19-6195-34c1-0e8f-71a1fd4f3702-C/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "profile-745V4-selected.json",
+      "snapshot_sha256": "1e7b12a70c69f9a142ece1f4237bac981e22bce973112a349a1d90a8e114d234",
+      "snapshot_scope": "Selected public business identifiers, federal reported parent, state and country",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "TP-S-QUERY-SPS",
+      "title": "USAspending exact UEI recipient query",
+      "url": "https://api.usaspending.gov/api/v2/recipient/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "sps-recipient-query.json",
+      "snapshot_sha256": "1e885d825e28e3cab5f115773cfe95cd866ca255a80f3a5cf1728a024d05fe96",
+      "snapshot_scope": "POST keyword E6KFWWNKEQ49; one exact UEI child result; query payload reproduced in acquire_parties.py",
+      "original_wire_bytes_archived": false
+    },
+    {
+      "id": "TP-S-PROFILE-SPS",
+      "title": "USAspending SPS child recipient profile",
+      "url": "https://api.usaspending.gov/api/v2/recipient/1929fdbf-6f79-2f71-1ac1-d95e6ea952f5-C/",
+      "accessed_on": "2026-10-30",
+      "authority": "official_public_record",
+      "snapshot_path": "profile-27624-selected.json",
+      "snapshot_sha256": "9c12e57077d99d96aaf713c9d967380b96fd9dbad9886ee0214cafa42a834ae5",
+      "snapshot_scope": "Selected public business identifiers, federal reported parent, state and country",
+      "original_wire_bytes_archived": false
+    }
+  ],
+  "source_hash_note": "Snapshot SHA-256 values authenticate retained selected extracts only. Original-wire hashes for direct registry requests are in acquisition_log.json; wire bytes are not archived. Original order hash is in ../selected_manifest.json."
+}

@@ -1,0 +1,385 @@
+{
+  "version": "1.0",
+  "as_of": "2026-10-30",
+  "nodes": [
+    {
+      "id": "TP-S-ORDER-ROLE",
+      "type": "source",
+      "title": "DLA original order page 1 printed officer role",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+        "accessed_at": "2026-10-30",
+        "snapshot_path": "../selected/dla-award-page1-role-selected.txt",
+        "snapshot_sha256": "a1357e85137b2c5d7b6f76753d7c38dbe828e6ac8139949f2c4a9b017377dc42"
+      }
+    },
+    {
+      "id": "TP-S-ORDER",
+      "type": "source",
+      "title": "DLA original order page 2",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+        "accessed_at": "2026-10-30",
+        "snapshot_path": "../selected/dla-award-page2.txt",
+        "snapshot_sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff"
+      }
+    },
+    {
+      "id": "TP-S-AWARD",
+      "type": "source",
+      "title": "USAspending exact award",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626PW775_9700_-NONE-_-NONE-/",
+        "accessed_at": "2026-10-30",
+        "snapshot_path": "../detail-capture/detail-SPE4A626PW775.json",
+        "snapshot_sha256": "ac43b78c6d6fca871417142aeddef27144905131323a27d73c5c887675713638"
+      }
+    },
+    {
+      "id": "TP-S-CAGE-DON",
+      "type": "source",
+      "title": "DLA CAGE exact search 745V4",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://cage.dla.mil/Search",
+        "accessed_at": "2026-10-30",
+        "snapshot_path": "cage-745V4-selected.json",
+        "snapshot_sha256": "e3707acdfed07469aaba2040ed49828fbf736c88a2e965f730bab4baaaf93614"
+      }
+    },
+    {
+      "id": "TP-S-CAGE-SPS",
+      "type": "source",
+      "title": "DLA CAGE exact search 27624",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://cage.dla.mil/Search",
+        "accessed_at": "2026-10-30",
+        "snapshot_path": "cage-27624-selected.json",
+        "snapshot_sha256": "a3c914973ba7c302de56bd9baf179000c3a46453dcbaddb2fae565f35bef6622"
+      }
+    },
+    {
+      "id": "TP-S-PROFILE-DON",
+      "type": "source",
+      "title": "USAspending Don child recipient profile",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://api.usaspending.gov/api/v2/recipient/516cae19-6195-34c1-0e8f-71a1fd4f3702-C/",
+        "accessed_at": "2026-10-30",
+        "snapshot_path": "profile-745V4-selected.json",
+        "snapshot_sha256": "1e7b12a70c69f9a142ece1f4237bac981e22bce973112a349a1d90a8e114d234"
+      }
+    },
+    {
+      "id": "TP-S-QUERY-SPS",
+      "type": "source",
+      "title": "USAspending exact UEI recipient query",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://api.usaspending.gov/api/v2/recipient/",
+        "accessed_at": "2026-10-30",
+        "snapshot_path": "sps-recipient-query.json",
+        "snapshot_sha256": "1e885d825e28e3cab5f115773cfe95cd866ca255a80f3a5cf1728a024d05fe96"
+      }
+    },
+    {
+      "id": "TP-S-PROFILE-SPS",
+      "type": "source",
+      "title": "USAspending SPS child recipient profile",
+      "status": "source",
+      "source_ids": [],
+      "properties": {
+        "url": "https://api.usaspending.gov/api/v2/recipient/1929fdbf-6f79-2f71-1ac1-d95e6ea952f5-C/",
+        "accessed_at": "2026-10-30",
+        "snapshot_path": "profile-27624-selected.json",
+        "snapshot_sha256": "9c12e57077d99d96aaf713c9d967380b96fd9dbad9886ee0214cafa42a834ae5"
+      }
+    },
+    {
+      "id": "TP-AWARD-W775",
+      "type": "award",
+      "title": "DLA purchase order SPE4A626PW775",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-ORDER",
+        "TP-S-AWARD"
+      ],
+      "properties": {
+        "piid": "SPE4A626PW775",
+        "signed_date": "2026-07-09",
+        "solicitation_identifier": "SPE4A626Q0688",
+        "actual_payee": null,
+        "delivery_verified": false,
+        "fraud_conclusion": null
+      }
+    },
+    {
+      "id": "TP-ORG-DON",
+      "type": "organization",
+      "title": "DON INDUSTRIAL GROUP LLC",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-CAGE-DON",
+        "TP-S-PROFILE-DON"
+      ],
+      "properties": {
+        "cage": "745V4",
+        "uei": "XN9HKU6LUM59",
+        "recipient_id": "516cae19-6195-34c1-0e8f-71a1fd4f3702-C",
+        "alternate_names": [],
+        "profile_location": {
+          "state_code": "TX",
+          "country_code": "USA"
+        },
+        "profile_observed_on": "2026-10-30",
+        "location_scope": "Recipient profile state/country; not delivery, production origin, or individual residence",
+        "beneficial_owner": null
+      }
+    },
+    {
+      "id": "TP-ORG-SPS",
+      "type": "organization",
+      "title": "SPS TECHNOLOGIES LLC",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-CAGE-SPS",
+        "TP-S-PROFILE-SPS"
+      ],
+      "properties": {
+        "cage": "27624",
+        "uei": "E6KFWWNKEQ49",
+        "recipient_id": "1929fdbf-6f79-2f71-1ac1-d95e6ea952f5-C",
+        "alternate_names": [
+          "SPS TECHNOLOGIES, LLC"
+        ],
+        "profile_location": {
+          "state_code": "CA",
+          "country_code": "USA"
+        },
+        "profile_observed_on": "2026-10-30",
+        "location_scope": "Recipient profile state/country; not delivery, production origin, or individual residence",
+        "beneficial_owner": null
+      }
+    },
+    {
+      "id": "TP-ORG-BERKSHIRE",
+      "type": "organization",
+      "title": "BERKSHIRE HATHAWAY INC.",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-PROFILE-SPS"
+      ],
+      "properties": {
+        "uei": "UU26FKF1MML6",
+        "role": "reported parent in SPS federal recipient profile",
+        "observed_on": "2026-10-30",
+        "ownership_percentage": null,
+        "beneficial_owner": null
+      }
+    },
+    {
+      "id": "TP-OFFICE-DLA-AVIATION",
+      "type": "government_office",
+      "title": "DLA AVIATION",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-AWARD"
+      ],
+      "properties": {
+        "subtier_name": "Defense Logistics Agency",
+        "subtier_code": "97AS",
+        "toptier_name": "Department of Defense",
+        "toptier_code": "097",
+        "individual_buyer": null
+      }
+    },
+    {
+      "id": "TP-PERSON-OFFICER-W775",
+      "type": "person",
+      "title": "Joseph Felhauer — printed contracting/ordering officer",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-ORDER-ROLE"
+      ],
+      "properties": {
+        "public_record": true,
+        "professional_role": "CONTRACTING/ORDERING OFFICER",
+        "role_date": "2026-07-09",
+        "identity_scope": "Printed name on this instrument only; no cross-record or same-name person merge",
+        "signature_execution_authenticated": false,
+        "price_selection_authority_verified": false,
+        "payment_authority_verified": false,
+        "personal_benefit": null
+      }
+    },
+    {
+      "id": "TP-PART-39-8820-501",
+      "type": "part",
+      "title": "P/N 39-8820-501",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-ORDER"
+      ],
+      "properties": {
+        "part_number": "39-8820-501",
+        "technical_equivalence_to_other_parts": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "TP-E-PRINTED-OFFICER",
+      "type": "printed_contracting_ordering_officer",
+      "source": "TP-AWARD-W775",
+      "target": "TP-PERSON-OFFICER-W775",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-ORDER-ROLE"
+      ],
+      "properties": {
+        "effective_date": "2026-07-09",
+        "document_locator": "DD1155 page 1 block 24 area",
+        "signature_execution_authenticated": false,
+        "price_selection_authority_verified": false,
+        "payment_authority_verified": false,
+        "personal_benefit": null
+      }
+    },
+    {
+      "id": "TP-E-DEALER",
+      "type": "named_dealer",
+      "source": "TP-AWARD-W775",
+      "target": "TP-ORG-DON",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-ORDER"
+      ],
+      "properties": {
+        "effective_date": "2026-07-09",
+        "role_scope": "Contract names dealer; does not establish actual disbursement"
+      }
+    },
+    {
+      "id": "TP-E-RECIPIENT",
+      "type": "public_award_recipient",
+      "source": "TP-AWARD-W775",
+      "target": "TP-ORG-DON",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-AWARD",
+        "TP-S-CAGE-DON"
+      ],
+      "properties": {
+        "effective_date": "2026-07-09",
+        "recipient_uei": "XN9HKU6LUM59",
+        "actual_payee_verified": false
+      }
+    },
+    {
+      "id": "TP-E-MANUFACTURER",
+      "type": "contractually_intended_manufacturer",
+      "source": "TP-AWARD-W775",
+      "target": "TP-ORG-SPS",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-ORDER",
+        "TP-S-CAGE-SPS"
+      ],
+      "properties": {
+        "effective_date": "2026-07-09",
+        "part_number": "39-8820-501",
+        "delivery_verified": false,
+        "supplier_invoice_verified": false
+      }
+    },
+    {
+      "id": "TP-E-SUPPLY",
+      "type": "contractually_intended_supply_from",
+      "source": "TP-ORG-DON",
+      "target": "TP-ORG-SPS",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-ORDER"
+      ],
+      "properties": {
+        "award": "SPE4A626PW775",
+        "effective_date": "2026-07-09",
+        "part_number": "39-8820-501",
+        "actual_commercial_transaction_verified": false
+      }
+    },
+    {
+      "id": "TP-E-PART",
+      "type": "stated_material",
+      "source": "TP-AWARD-W775",
+      "target": "TP-PART-39-8820-501",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-ORDER"
+      ],
+      "properties": {
+        "effective_date": "2026-07-09"
+      }
+    },
+    {
+      "id": "TP-E-OFFICE",
+      "type": "awarding_and_funding_office",
+      "source": "TP-AWARD-W775",
+      "target": "TP-OFFICE-DLA-AVIATION",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-AWARD"
+      ],
+      "properties": {
+        "individual_price_selector": null,
+        "individual_signatory": null,
+        "payment_authorizer": null
+      }
+    },
+    {
+      "id": "TP-E-PARENT-SPS",
+      "type": "federally_reported_parent",
+      "source": "TP-ORG-SPS",
+      "target": "TP-ORG-BERKSHIRE",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-PROFILE-SPS"
+      ],
+      "properties": {
+        "observed_on": "2026-10-30",
+        "effective_start": null,
+        "effective_end": null,
+        "ownership_percentage": null,
+        "beneficial_ownership_verified": false,
+        "direct_intermediate_chain_verified": false
+      }
+    },
+    {
+      "id": "TP-E-PARENT-DON",
+      "type": "federally_reported_self_parent",
+      "source": "TP-ORG-DON",
+      "target": "TP-ORG-DON",
+      "status": "documented_fact",
+      "source_ids": [
+        "TP-S-PROFILE-DON"
+      ],
+      "properties": {
+        "observed_on": "2026-10-30",
+        "ownership_percentage": null,
+        "beneficial_ownership_verified": false,
+        "interpretation": "Self-parent reporting does not identify natural-person owners or show absence of affiliates."
+      }
+    }
+  ]
+}

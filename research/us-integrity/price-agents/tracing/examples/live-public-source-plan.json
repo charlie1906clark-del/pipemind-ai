@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "case_id": "PUBLIC-TRACE-PROOF-20261030",
+  "allowed_hosts": ["www.usaspending.gov", "dibbs2.bsm.dla.mil", "raw.githubusercontent.com"],
+  "allowed_query_keys": {},
+  "seeds": [
+    {
+      "url": "https://www.usaspending.gov/data/about-the-data-download.pdf",
+      "kind": "source_documentation",
+      "identifiers": []
+    },
+    {
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+      "kind": "award",
+      "identifiers": ["SPE4A626D61WS", "5306016864912"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+      "kind": "source_documentation",
+      "identifiers": []
+    }
+  ],
+  "limits": {
+    "max_requests": 8,
+    "max_pages": 3,
+    "max_depth": 1,
+    "max_redirects": 2,
+    "max_bytes_per_response": 2000000,
+    "max_total_bytes": 6000000,
+    "timeout_seconds": 6,
+    "max_retries": 0,
+    "max_links_per_page": 100
+  }
+}

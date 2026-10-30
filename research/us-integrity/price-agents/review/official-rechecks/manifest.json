@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626PW775_9700_-NONE-_-NONE-/",
+    "method": "GET",
+    "observed_at": "2026-10-30T12:28:22.139242+00:00",
+    "success": true,
+    "original_response_archived": false,
+    "request_scope": "Independent exact-key public award check; no search or population-completeness claim",
+    "http_status": 200,
+    "final_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626PW775_9700_-NONE-_-NONE-/",
+    "wire_sha256": "e5fe62925d5b38c93e3d594b0f2ea192d9a5734df3892ccb01b05c667bfbc23b",
+    "wire_bytes": 6073,
+    "selected_file": "spotcheck-SPE4A626PW775.json",
+    "selected_sha256": "c88c9c53652a60a9b5e66c9792bfc8aab0536547ec59f0d597b79bae986bf85a",
+    "hash_scope": "selected normalized independent JSON; raw bytes hashed but not retained",
+    "field_matches": {
+      "generated_unique_award_id": true,
+      "piid": true,
+      "date_signed": true,
+      "total_obligation_usd": true,
+      "recipient_uei": true,
+      "awarding_toptier_code": true,
+      "awarding_subtier_code": true,
+      "psc": true,
+      "solicitation_identifier": true,
+      "parent_piid": true
+    },
+    "all_selected_fields_match": true,
+    "amount_basis": "Cumulative reported obligation, not unit price, monthly spend, invoice or paid cash"
+  },
+  {
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_75N98026F00268_7529_36F79720D0041_3600/",
+    "method": "GET",
+    "observed_at": "2026-10-30T12:28:27.124889+00:00",
+    "success": true,
+    "original_response_archived": false,
+    "request_scope": "Independent exact-key public award check; no search or population-completeness claim",
+    "http_status": 200,
+    "final_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_75N98026F00268_7529_36F79720D0041_3600/",
+    "wire_sha256": "54e998915e36ac54f306f01b1a71d78d26e503a76193c952e302de069b2168fb",
+    "wire_bytes": 6711,
+    "selected_file": "spotcheck-75N98026F00268.json",
+    "selected_sha256": "2e9de4c643e537a9ead7748f243c12cb23a6b0c2a280eb848cae2877de5e1f88",
+    "hash_scope": "selected normalized independent JSON; raw bytes hashed but not retained",
+    "field_matches": {
+      "generated_unique_award_id": true,
+      "piid": true,
+      "date_signed": true,
+      "total_obligation_usd": true,
+      "recipient_uei": true,
+      "awarding_toptier_code": true,
+      "awarding_subtier_code": true,
+      "psc": true,
+      "solicitation_identifier": true,
+      "parent_piid": true
+    },
+    "all_selected_fields_match": true,
+    "amount_basis": "Cumulative reported obligation, not unit price, monthly spend, invoice or paid cash"
+  }
+]

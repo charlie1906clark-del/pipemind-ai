@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "checked_on": "2026-10-30",
+  "checks": [
+    "8 selected source hashes and graph references",
+    "two single-result exact CAGE/UEI joins",
+    "award recipient and intended-manufacturer contract tokens",
+    "unknown payee/price/benefit and person-role boundaries",
+    "public request budget",
+    "repository engine public graph validation",
+    "all local artifact manifest hashes"
+  ],
+  "negative_controls": [
+    {
+      "mutation": "printed officer asserted as price selector",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong manufacturer UEI",
+      "rejected": true
+    },
+    {
+      "mutation": "recipient asserted as payee",
+      "rejected": true
+    },
+    {
+      "mutation": "reported parent asserted beneficial owner",
+      "rejected": true
+    }
+  ],
+  "truth_limit": "Offline checks establish internal source lineage and semantic boundaries, not that official source assertions are complete or that misconduct is present."
+}

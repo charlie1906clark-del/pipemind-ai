@@ -1,0 +1,25 @@
+{
+  "validated_at_utc": "2026-10-30T12:51:24.561166+00:00",
+  "offline_tests": 11,
+  "offline_tests_passed": 11,
+  "cohort_rows": 30,
+  "unique_exact_award_ids": 30,
+  "graph_nodes": 65,
+  "graph_edges": 42,
+  "graph_endpoint_and_source_validation": "pass",
+  "individual_award_notes": 0,
+  "selected_original_document_artifacts": 10,
+  "network_requests_during_validation": 0,
+  "research_search_queries": 12,
+  "research_api_or_document_operations": 23,
+  "limitations": [
+    "No matched independent price benchmark",
+    "No actual invoice/payment/delivery acceptance acquired",
+    "No supplier cost, markup, benefit or loss established",
+    "No nationwide sampling completeness",
+    "Raw original PDF and API wire bytes not public archived",
+    "One secondary discovery URL not preserved; no finding relies on it"
+  ],
+  "scope": "Pilot only; excludes separately owned parties package.",
+  "note_output": "Parent integration uses canonical graph/Obsidian exporter; local duplicate notes removed before freeze."
+}

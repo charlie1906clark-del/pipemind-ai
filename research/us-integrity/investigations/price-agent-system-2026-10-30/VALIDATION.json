@@ -1,0 +1,135 @@
+{
+  "independent_review_pins_verified": 151,
+  "previous_nodes_preserved": 1219,
+  "previous_semantic_edges_preserved": 3148,
+  "previous_extension_bytes_preserved": 3,
+  "actual_runtime_fresh_replay": "passed",
+  "replayed_result_packets_identical": 4,
+  "final_state_counts": {
+    "queued": 11,
+    "blocked": 5,
+    "accepted": 4
+  },
+  "runtime_new_network_requests": 0,
+  "graph_nodes": 1458,
+  "graph_edges": 3662,
+  "graph_sources": 424,
+  "formatted_graph_file_sha256": "b287df79d4541044c9cc85091a19f2f064a23d1eb745af4a03ff3c39ccb83de8",
+  "canonical_graph_sha256": "9ab2c7279ac86b3bbfaf555777fa2b2bc7e700e9cb331d1f8a357733b1b1d43d",
+  "checked_on": "2026-10-30",
+  "tests_passed": 223,
+  "scope": "Executable research workflow and selected public evidence, not fraud detection accuracy or national coverage",
+  "clean_public_git_export": "passed",
+  "new_extension": {
+    "nodes": 239,
+    "explicit_edges": 264,
+    "sources": 57,
+    "input_artifacts": 156,
+    "sha256": "ba9d8ce06c56de9e9fd6607827ec5f6ec13bb017fd663938009853bdc8dee2e2"
+  },
+  "no_new_fraud_established": true,
+  "model_service_activated": false,
+  "tracer_runtime_request_bridge": false,
+  "clean_export_tested_tree": "a5ff4faba204c7adf2370330a0874db0217bc84f",
+  "tested_tree_scope": "Reviewed code, evidence, graph and task replay exported from the staged Git tree; final validation receipt and count-only review metadata are written after checks. No new ignored current PDF or operational database is required. Two earlier intentionally tracked primary PDFs remain available.",
+  "test_groups": [
+    {
+      "path": "research/us-integrity/collaboration",
+      "tests": 17,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/connectors",
+      "tests": 8,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/engine",
+      "tests": 35,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30",
+      "tests": 11,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names",
+      "tests": 16,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing",
+      "tests": 6,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/awards",
+      "tests": 7,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/identity",
+      "tests": 4,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls",
+      "tests": 12,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/review",
+      "tests": 7,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dme-catheter-2026-10-29/data-audit",
+      "tests": 6,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+      "tests": 11,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis",
+      "tests": 12,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/price-agents/review",
+      "tests": 9,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime",
+      "tests": 21,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing",
+      "tests": 16,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/tools",
+      "tests": 25,
+      "exit_code": 0
+    }
+  ],
+  "deterministic_reassembly": true,
+  "wiki_links": "passed",
+  "vault_notes_including_navigation": 1459,
+  "public_graph_validation": "passed",
+  "retained_source_hash_scope": "Exact archived selections or local artifacts as individually declared, not all original web bytes",
+  "scoped_test_limit": "Tests verify implemented conditions and supplied records, not independence of all actors or accuracy on undiscovered fraud.",
+  "independent_integration_review": {
+    "path": "price-agents/review/graph-integration-review-v2.json",
+    "sha256": "f517edeaeb80ac9837540c668452c8815f8b3c5549556f37dc92d86155140ef6",
+    "reviewed_artifact_pins_verified": 11,
+    "prior_receipt": "graph-integration-review.json remains a superseded historical review; v2 binds the final count-only START change"
+  },
+  "changed_markdown_relative_links": "passed"
+}

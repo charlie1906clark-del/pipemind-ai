@@ -1,0 +1,101 @@
+{
+  "id": "BSF-EXACT-NIIN-EXPORT-001",
+  "status": "ready_for_actual_source_acquisition_not_executed",
+  "nsn": "5306016864912",
+  "niin": "016864912",
+  "source_route": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+  "alternative_route": "Use the actual Characteristics.zip and Reference.zip links from the official reading-room page when available; these specific URLs were not retrieved in this session. Do not construct them from guessed paths.",
+  "prerequisites": [
+    "Current official PUB LOG installation or authentic official CSV files",
+    "Record source URL, retrieval date, release label/date and source file hashes",
+    "Use the documented supplied reader; native TAB bytes must not be interpreted as CSV",
+    "Verify reader table/column names against its actual schema before running the proposed queries"
+  ],
+  "suggested_work_packages": [
+    {
+      "id": "BSF-CHAR-001",
+      "role": "Technical equivalence source acquisition",
+      "table": "V_CHARACTERISTICS",
+      "required_fields": [
+        "NIIN",
+        "MRC",
+        "REQUIREMENTS_STATEMENT",
+        "CLEAR_TEXT_REPLY"
+      ],
+      "predicate": "NIIN='016864912'",
+      "proposed_query": "select NIIN,MRC,REQUIREMENTS_STATEMENT,CLEAR_TEXT_REPLY from V_CHARACTERISTICS where NIIN='016864912'",
+      "query_status": "Proposed from documented SQL filtering form and dated official CSV layout; not executed or verified against the installed reader",
+      "expected_output": "CSV or pipe-delimited text with a header and all selected target rows",
+      "comparison_fields_to_resolve": [
+        "diameter",
+        "thread pitch/series/class",
+        "length",
+        "head geometry",
+        "material/grade",
+        "finish/coating specification",
+        "dimensional tolerances",
+        "special/critical requirements"
+      ]
+    },
+    {
+      "id": "BSF-REF-001",
+      "role": "Part-reference qualification acquisition",
+      "table": "V_FLIS_PART",
+      "required_fields": [
+        "NIIN",
+        "PART_NUMBER",
+        "CAGE_CODE",
+        "CAGE_STATUS",
+        "RNCC",
+        "RNVC",
+        "DAC",
+        "RNAAC",
+        "RNFC",
+        "RNSC",
+        "RNJC",
+        "SADC",
+        "HCC",
+        "MSDS",
+        "MEDALS"
+      ],
+      "predicate": "NIIN='016864912'",
+      "proposed_query": "select NIIN,PART_NUMBER,CAGE_CODE,CAGE_STATUS,RNCC,RNVC,DAC,RNAAC,RNFC,RNSC,RNJC,SADC,HCC,MSDS,MEDALS from V_FLIS_PART where NIIN='016864912'",
+      "query_status": "Proposed from documented SQL filtering form and dated official CSV layout; not executed or verified against the installed reader",
+      "expected_output": "CSV or pipe-delimited text, preserving every qualification code and all returned references",
+      "comparison_fields_to_resolve": [
+        "candidate AEB02F375750WA6DG1 association if present",
+        "dated reference qualification meanings",
+        "applicable standard/revision",
+        "reference role rather than assumed manufacturer identity"
+      ]
+    }
+  ],
+  "receipt_required": [
+    "source_id",
+    "table",
+    "origin",
+    "source_kind",
+    "source_url",
+    "release_label",
+    "release_date",
+    "retrieved_on",
+    "retrieval_method",
+    "export_query",
+    "source_scope",
+    "scope",
+    "file_sha256"
+  ],
+  "acceptance": [
+    "Exact NIIN match; no numeric conversion that loses leading zero",
+    "Hash binds received text to actual recorded export",
+    "Full selected row set and qualifiers preserved; no silent row dropping",
+    "Source authenticity independently checked against acquisition log",
+    "Release applicability reconciled to17September parent and19October order dates",
+    "Separate engineering review of commercial product match",
+    "Government quantity, quality, packaging, traceability, availability, freight and other terms still evaluated"
+  ],
+  "blocking_result": "No target rows in a selected export means no target rows in that supplied file only. It does not prove that the record is absent from the public catalog.",
+  "external_contacts_sent": 0,
+  "restricted_access_used": false,
+  "exact_records_currently_acquired": false
+}

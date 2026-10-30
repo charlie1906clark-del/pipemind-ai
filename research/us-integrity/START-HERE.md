@@ -2,13 +2,21 @@
 
 Research updated **30 October 2026**, in a separate domain of PipeMind. This is a source-led research bank with real data captures, completed catheter and discovery-method investigations, and executable local tools. It does not identify a newly proved fraud case or promise a reward.
 
-## Current focused investigation
+## Current targeted price agents and actual pilot
+
+Start with the [targeted price-agent system](price-agents/README.md) and [latest investigation report](investigations/price-agent-system-2026-10-30/REPORT.md). Seven specialist workers built and reviewed an executable local runtime, attachment tracer and recurrence screen. Fourteen role contracts and twenty current tasks separate exact transactions, comparable prices, purchasing decisions, business relationships, professional roles, actual payments and benefit evidence. Eight later sector waves remain gated plans.
+
+The [new federal pilot](investigations/federal-price-pilot-2026-10-30/REPORT.md) acquired 30 official DLA/VA/HHS award summaries and traced three selected instruments. An original DLA order prices **2,243 special engine-mount bolts at $272.99 each**, plus a separate **$3,500 first-article test**, totaling **$615,816.57 ordered**. The intended dealer/manufacturer chain and narrowly supported professional role are retained. No independently qualified benchmark, excessive premium, cash payment or buyer benefit has been established. This is a different item from the earlier $0.91 bolt.
+
+The [actual retained-evidence run](price-agents/runs/README.md) has four independently accepted observation packets, five explicit missing-record blocks and eleven queued tasks. It records six local capture revalidations and zero new downloads. The standalone tracer's direct-network trial stopped at DNS; successful pilot acquisitions used separately logged routes. These are working local tools and completed bounded research, not a continuously running national agent fleet. Read the [independent review](price-agents/review/REPORT.md) before relying on the results.
+
+## Earlier focused bolt investigation
 
 Read the [DLA bolt price and buyer-independence investigation](investigations/dla-bolt-trace-2026-10-30/REPORT.md). Specialists traced seven historical awards and five supplier identifiers, acquired original newer contract/order lines, and independently reviewed market offers and a repeated-premium calculator. The actual order is **906 EA at USD 0.91**, totaling **$824.46 ordered**. Retail offers around $0.30 per piece warrant a specification and procurement-term challenge; **no qualified benchmark, excess amount or buyer benefit is established**.
 
 The user reports assigning Claude the prepared pricing task. The [shared ownership note](collaboration/ADJACENT-WORK.md) and [updated Claude handoff](collaboration/CLAUDE-UPDATE.md) keep both sessions in this one area, with exact source and commit receipts. No Claude result has yet been received or authenticated. Grok's external route remains pending; specialist workers executing in this session are separate from those external-model states.
 
-The evidence bank contains **1,219 nodes, 3,148 edges and 367 source records**, with details in [coverage-summary.json](data/coverage-summary.json). Each source preserves its actual archive scope. The Obsidian vault includes separate market candidates, buyer-benefit questions, evidence requests and synthetic 12% controls. A real supplier and a reconciled invoice do not establish reasonable pricing or independent procurement.
+The evidence bank contains **1,458 nodes, 3,662 edges and 424 source records**, with details in [coverage-summary.json](data/coverage-summary.json). Each source preserves its actual archive scope. The Obsidian vault includes separate market candidates, buyer-benefit questions, evidence requests and synthetic 12% controls. A real supplier and a reconciled invoice do not establish reasonable pricing or independent procurement.
 
 ## Reward authority and earlier discovery controls
 

@@ -1,0 +1,344 @@
+{
+  "results": [
+    {
+      "internal_id": 363273903,
+      "Award ID": "SPE4A626PW775",
+      "generated_internal_id": "CONT_AWD_SPE4A626PW775_9700_-NONE-_-NONE-",
+      "Recipient Name": "DON INDUSTRIAL GROUP LLC",
+      "Recipient UEI": "XN9HKU6LUM59",
+      "recipient_id": "516cae19-6195-34c1-0e8f-71a1fd4f3702-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-09",
+      "Base Obligation Date": "2026-07-09",
+      "End Date": "2028-04-10",
+      "Award Amount": 615816.57,
+      "Total Outlays": null,
+      "Description": "8512215906!BOLT,EXTERNALLY REL",
+      "Place of Performance State Code": "TX",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "332722",
+        "description": "BOLT, NUT, SCREW, RIVET, AND WASHER MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-07-09 10:12:18",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363521783,
+      "Award ID": "SPE4A026F0098",
+      "generated_internal_id": "CONT_AWD_SPE4A026F0098_9700_SPRPA121GCF01_9700",
+      "Recipient Name": "BELL BOEING JOINT PROJECT OFFICE",
+      "Recipient UEI": "JHFZTG8ZC9V2",
+      "recipient_id": "846d3ff4-b2cb-3924-018c-2dee1e0259b7-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-21",
+      "Base Obligation Date": "2026-07-21",
+      "End Date": "2027-06-30",
+      "Award Amount": 302600.0,
+      "Total Outlays": null,
+      "Description": "8512241954!BOLT,SHEAR",
+      "Place of Performance State Code": "TX",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "336411",
+        "description": "AIRCRAFT MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-21 11:10:06",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363369793,
+      "Award ID": "SPE4A626PX773",
+      "generated_internal_id": "CONT_AWD_SPE4A626PX773_9700_-NONE-_-NONE-",
+      "Recipient Name": "ACTION MANUFACTURED PRODUCTS",
+      "Recipient UEI": "GMZLYNC8RMC7",
+      "recipient_id": "41df2050-2e84-24fa-f9f3-be9bd26cf3c1-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-14",
+      "Base Obligation Date": "2026-07-14",
+      "End Date": "2026-09-02",
+      "Award Amount": 213598.5,
+      "Total Outlays": null,
+      "Description": "8512235512!BOLT,SHOULDER",
+      "Place of Performance State Code": "WA",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "332722",
+        "description": "BOLT, NUT, SCREW, RIVET, AND WASHER MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-09-12 16:52:16",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363369774,
+      "Award ID": "SPE4A626PX452",
+      "generated_internal_id": "CONT_AWD_SPE4A626PX452_9700_-NONE-_-NONE-",
+      "Recipient Name": "ADEPT FASTENERS INC",
+      "Recipient UEI": "MJFQFA5HK449",
+      "recipient_id": "c3ab6693-fdac-0596-321a-0b6fc55e340d-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-14",
+      "Base Obligation Date": "2026-07-14",
+      "End Date": "2027-06-04",
+      "Award Amount": 191100.0,
+      "Total Outlays": null,
+      "Description": "8512229370!BOLT,INTERNAL WRENC",
+      "Place of Performance State Code": "CA",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "332722",
+        "description": "BOLT, NUT, SCREW, RIVET, AND WASHER MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-07-14 09:51:22",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363429954,
+      "Award ID": "SPE4A226FZ109",
+      "generated_internal_id": "CONT_AWD_SPE4A226FZ109_9700_SPE4AX24D9410_9700",
+      "Recipient Name": "LOCKHEED MARTIN CORPORATION",
+      "Recipient UEI": "KDT2YLB34NT6",
+      "recipient_id": "ea75ddee-2d00-ac7f-5e72-6f42d7c88c8c-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-16",
+      "Base Obligation Date": "2026-07-16",
+      "End Date": "2026-12-17",
+      "Award Amount": 170553.6,
+      "Total Outlays": null,
+      "Description": "4572399244!BOLT,SHOULDER",
+      "Place of Performance State Code": "FL",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "336412",
+        "description": "AIRCRAFT ENGINE AND ENGINE PARTS MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-16 10:37:01",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363238853,
+      "Award ID": "SPE4A626PX136",
+      "generated_internal_id": "CONT_AWD_SPE4A626PX136_9700_-NONE-_-NONE-",
+      "Recipient Name": "ARES FIRE AND SAFETY SYSTEMS LLC",
+      "Recipient UEI": "L7XXY95GEBB3",
+      "recipient_id": "2d634846-5973-22ec-640f-020f451a2fb6-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-08",
+      "Base Obligation Date": "2026-07-08",
+      "End Date": "2027-01-14",
+      "Award Amount": 133149.38,
+      "Total Outlays": null,
+      "Description": "8512223768!BOLT,INTERNAL WRENC",
+      "Place of Performance State Code": null,
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "332722",
+        "description": "BOLT, NUT, SCREW, RIVET, AND WASHER MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-07-13 12:33:32",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363530370,
+      "Award ID": "SPRMM126PMC61",
+      "generated_internal_id": "CONT_AWD_SPRMM126PMC61_9700_-NONE-_-NONE-",
+      "Recipient Name": "ASRC FEDERAL FACILITIES LOGISTICS, LLC",
+      "Recipient UEI": "MA1VZ6667CB1",
+      "recipient_id": "bf9cd280-b7a0-642a-5795-f5156204f71a-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Department of the Navy",
+      "Start Date": "2026-07-21",
+      "Base Obligation Date": "2026-07-21",
+      "End Date": "2027-08-20",
+      "Award Amount": 132339.6,
+      "Total Outlays": null,
+      "Description": "BOLT,MACHINE",
+      "Place of Performance State Code": "NJ",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "332722",
+        "description": "BOLT, NUT, SCREW, RIVET, AND WASHER MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-07-22 07:10:35",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363430117,
+      "Award ID": "SPE4A526F7347",
+      "generated_internal_id": "CONT_AWD_SPE4A526F7347_9700_SPE4A122G0014_9700",
+      "Recipient Name": "HONEYWELL INTERNATIONAL INC.",
+      "Recipient UEI": "ZLHMCNLMEYK1",
+      "recipient_id": "62c486be-b101-ea2f-e0c1-4f3bf00a305b-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-16",
+      "Base Obligation Date": "2026-07-16",
+      "End Date": "2027-12-14",
+      "Award Amount": 91284.75,
+      "Total Outlays": null,
+      "Description": "8512198871!BOLT,CLOSE TOLERANC",
+      "Place of Performance State Code": "AZ",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "336413",
+        "description": "OTHER AIRCRAFT PARTS AND AUXILIARY EQUIPMENT MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-16 11:00:25",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363236089,
+      "Award ID": "SPE4A026P2111",
+      "generated_internal_id": "CONT_AWD_SPE4A026P2111_9700_-NONE-_-NONE-",
+      "Recipient Name": "ADEPT FASTENERS INC",
+      "Recipient UEI": "MJFQFA5HK449",
+      "recipient_id": "c3ab6693-fdac-0596-321a-0b6fc55e340d-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-08",
+      "Base Obligation Date": "2026-07-08",
+      "End Date": "2026-08-07",
+      "Award Amount": 90650.0,
+      "Total Outlays": null,
+      "Description": "8512223930!BOLT,INTERNAL WRENCHING",
+      "Place of Performance State Code": "CA",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "332722",
+        "description": "BOLT, NUT, SCREW, RIVET, AND WASHER MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-09-12 21:51:09",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    },
+    {
+      "internal_id": 363590702,
+      "Award ID": "SPE4A626F266Y",
+      "generated_internal_id": "CONT_AWD_SPE4A626F266Y_9700_SPE4A626D0111_9700",
+      "Recipient Name": "KSD GOVCON LLC",
+      "Recipient UEI": "W4JZZG6NE6Y6",
+      "recipient_id": "0a01a6ab-afbf-9797-c12a-3278aa99d902-C",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Agency Code": "097",
+      "Awarding Sub Agency": "Defense Logistics Agency",
+      "Awarding Sub Agency Code": "97AS",
+      "Funding Agency": "Department of Defense",
+      "Funding Sub Agency": "Defense Logistics Agency",
+      "Start Date": "2026-07-22",
+      "Base Obligation Date": "2026-07-22",
+      "End Date": "2027-03-05",
+      "Award Amount": 65235.5,
+      "Total Outlays": null,
+      "Description": "8512255138!BOLT,SHEAR",
+      "Place of Performance State Code": "IN",
+      "PSC": {
+        "code": "5306",
+        "description": "BOLTS"
+      },
+      "NAICS": {
+        "code": "332722",
+        "description": "BOLT, NUT, SCREW, RIVET, AND WASHER MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-22 10:22:54",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": true,
+    "last_record_unique_id": 363590702,
+    "last_record_sort_value": "6523550"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ],
+  "limit": 10
+}

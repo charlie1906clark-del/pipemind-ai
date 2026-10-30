@@ -1,0 +1,945 @@
+{
+  "schema_version": "1.0",
+  "review_id": "PA-REVIEW-20261030-01",
+  "reviewed_on": "2026-10-30",
+  "reviewer": "price-agents-redteam",
+  "independence_scope": "Separate agent lane from producers; not a human, agency, authenticated-person or security certification",
+  "status": "accepted_for_limited_research_use_with_explicit_limits",
+  "base_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+  "hash_scope": "Exact retained file bytes; paths repository-relative. Pins identify this snapshot, not source truth or blanket approval of future output.",
+  "reviewed_input_artifacts": [
+    {
+      "path": "research/us-integrity/engine/integrity.py",
+      "sha256": "9113141a4ce4feb504b08426f10684569a100e074a19652ff6944c95ad1a4277",
+      "bytes": 27478
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/REPORT.md",
+      "sha256": "075b209ec95c40d2dbbee8916d2c83fdc6099f8fb8658591c024d05c86fb4159",
+      "bytes": 5765
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/VALIDATION.json",
+      "sha256": "228f9265a4f8017f1de1390846d85dc619cdd14585524cc0e49749d49617a40a",
+      "bytes": 1670
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/export-packet.json",
+      "sha256": "631bc01edb433c7b47d7a23804aefc1240cb392bc18b415fe056658ad0289fcf",
+      "bytes": 4154
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/observations.json",
+      "sha256": "c6e6ef1550e0dfca2c6522b362241ba15f81d8da1758628bfd370fc5fc360281",
+      "bytes": 1623
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/parse_publog_export.py",
+      "sha256": "e1d5eee9356504a0271bc9baa958a9affeaa7a776217ec9b1c95f7e023226f50",
+      "bytes": 11086
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/prior-inputs.json",
+      "sha256": "946daa9dcb0b15e9d6ed87e10820d627bbb3bea621b5d4ced6d7f1fdf86d2294",
+      "bytes": 1601
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/query_log.json",
+      "sha256": "c4f6f3f3cbf6172d866274a56fbeaef8c2597a6f5fee3b39da68be09a69b1208",
+      "bytes": 4356
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/sources.json",
+      "sha256": "d0de0e9bc21a9fea19dbb3ae293faf166186217429527ec6fccd76b05e6364d1",
+      "bytes": 3695
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/test_publog_export.py",
+      "sha256": "f3717dd9a0e3fb57e2fa9c6de4c7f6ed16d479ddab920431eed1f8e419f9c424",
+      "bytes": 6984
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/REPORT.md",
+      "sha256": "366a10e2c65cbd5a7346e3af192c74367d566d4227dc9709811ae9308c43d9ab",
+      "bytes": 8995
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/SELECTION_PROTOCOL.md",
+      "sha256": "a8f4f4108c9d5e68de02fd74f771fa26cc5870b9c88f344bc62f17ec426e1ca8",
+      "bytes": 6369
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/VALIDATION.md",
+      "sha256": "3770ead97d1d1802b7f574a415ae3c5bf4ef5ddc0e62eb9e382bbf3561e82764",
+      "bytes": 3604
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/acquire.py",
+      "sha256": "34afaa31917d79161198a955112569e3a564852493c7b4861a89079fcb634e7f",
+      "bytes": 7397
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/acquire_dla_document.py",
+      "sha256": "31880aba76aaeed7d1a60fd21a94f00e6eef85213344149744345ec30e60a3f4",
+      "bytes": 3456
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/analyze.py",
+      "sha256": "de97f97db975a94647f293595b2423800bf9386fd1cb36bf797621891078c513",
+      "bytes": 12209
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/bundle_manifest.json",
+      "sha256": "35563279f3c6b878385671c09ce33640ddc32fae085449bfdf5c6a823509afc6",
+      "bytes": 7435
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/dla-bolts.json",
+      "sha256": "b38dbb196a14eaf81586da82c792331916671be803fe40837c6abde01390037f",
+      "bytes": 13071
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/dla-bolts.request.json",
+      "sha256": "eeed072856f328840c6e739be7363e4d3bb4ca72679ce14f41183036e8d28eef",
+      "bytes": 1095
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/hhs-medical.json",
+      "sha256": "74e893736436e33e9c646d50abd0120524409e7f89f91a4693d512f189d0a4ee",
+      "bytes": 14654
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/hhs-medical.request.json",
+      "sha256": "9d9713606884a4c5980a8c575e592e7f98a8044df4e55597f62875da0cc80575",
+      "bytes": 1061
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/manifest.json",
+      "sha256": "cfba7e6f66a3a8f6e74c9c0464fda406d7ed703b00f2703c91e20e16ebdbdc1e",
+      "bytes": 2946
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/va-medical.json",
+      "sha256": "92c973079abd00806e728f54e83266fd82642a3a20c3d41db25a6ee94409a680",
+      "bytes": 14359
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/capture/va-medical.request.json",
+      "sha256": "6b1b10d4c58364f25968d117fdb2aa538b793c41d94981133c2e6635b8253ab1",
+      "bytes": 1052
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/coverage.json",
+      "sha256": "4f933e8301749af078600b9e07bf81a2f1f999aabf02ec90fa25fef2db672564",
+      "bytes": 1124
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/detail-capture/detail-36C79126F0030.json",
+      "sha256": "37256c9c87447b649b01f1eba90d2d9b68832c6039484c9fdfce33efb0d60bea",
+      "bytes": 3039
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/detail-capture/detail-75N98026F00268.json",
+      "sha256": "533fd57d983ca645a533502f48df537134ba6bad969a3dbcf063a7c03ea9e2e2",
+      "bytes": 2949
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/detail-capture/detail-SPE4A626PW775.json",
+      "sha256": "ac43b78c6d6fca871417142aeddef27144905131323a27d73c5c887675713638",
+      "bytes": 2407
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/detail-capture/manifest.json",
+      "sha256": "fd76bd4f4415193ab3890916fc140e97bb292d73b842c328f1f702d7d1a85077",
+      "bytes": 2754
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/detail-selection.json",
+      "sha256": "d6abbf369aa2946bc17bf5d56238573bfb0b77f118b47766357100b3a400dc58",
+      "bytes": 803
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/dla-document-attempt.json",
+      "sha256": "17eb18627234a94eb4c394b095ce16592c72157bfb82b6c7088f6d3669015796",
+      "bytes": 1079
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/document_links.json",
+      "sha256": "b361797117526d59050a0752a27c64a927a4d733ec04f49d698aed46f10c0763",
+      "bytes": 2537
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/follow_up_tasks.json",
+      "sha256": "2fb96dbe6aaec275200a6c6ac52d674bf3d2c425cd02aa62b6758061feb1dd59",
+      "bytes": 12883
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/line_observations.json",
+      "sha256": "b0a05a27a790214832aea4fe3800489badb120637b2955e418115d9076413c87",
+      "bytes": 4643
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/missingness.json",
+      "sha256": "30012f14df6cd907dbc3a5ba917b9674414bde0e37273443eee152e48113f66f",
+      "bytes": 1245
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/observations.json",
+      "sha256": "2909754680a7c46e425d14d49ceb0ab9fcf9dab1b8c359fa5d0af3b3879ff35f",
+      "bytes": 77100
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parent-capture/manifest.json",
+      "sha256": "48437dac27446f496009e9f79b9b534274475f6c48e5d963e18c74524a15ed22",
+      "bytes": 884
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parent-capture/parent-36C79123A0003.json",
+      "sha256": "662c43b5b7bc32572d6f76f65fe663029bd6f0f409a08cdbfbf37e6b511118cf",
+      "bytes": 2971
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/REPORT.md",
+      "sha256": "306d89544144c3fac6d13d8a6af1ee5771d7a2a8d768b190d82388642ceba191",
+      "bytes": 3824
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/acquire_parties.py",
+      "sha256": "2f34356030d611a32d64f30c86e69eb5b35413124616f9a51aa16dd9e62cfddd",
+      "bytes": 5122
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/acquisition_log.json",
+      "sha256": "d68d58f77fc8f36981542ffbc3d3d66b9bc220e9d3bf7f0f2f3d44c1bc74695e",
+      "bytes": 3370
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/build_bundle.py",
+      "sha256": "1c417e421b12fc102e8a334860c60d28b9376bc7844e7ad444850f70916cba73",
+      "bytes": 22884
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/cage-27624-selected.json",
+      "sha256": "a3c914973ba7c302de56bd9baf179000c3a46453dcbaddb2fae565f35bef6622",
+      "bytes": 509
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/cage-745V4-selected.json",
+      "sha256": "e3707acdfed07469aaba2040ed49828fbf736c88a2e965f730bab4baaaf93614",
+      "bytes": 514
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/context-notes.json",
+      "sha256": "2f78b8f6b8dc21a36c45d6dc35a0a3a1bcf8c364f2e74fa603d48df0643dcd89",
+      "bytes": 2867
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/finding.json",
+      "sha256": "d0fa3bdbb8c72a1a9e4cc51c4319493e439c5d287004963859579790047f2289",
+      "bytes": 2458
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/graph.json",
+      "sha256": "17b7621a1519a2c2fabb58e90c7457d4d5fa878bcfe8ea0f67abdc96bbd92648",
+      "bytes": 11646
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/identity-decisions.json",
+      "sha256": "bdfa5bc7d6c2e81a605d90732dcd7c176bb6ac06115ffdd3d9ccebc49dc78bf3",
+      "bytes": 1705
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/manifest.json",
+      "sha256": "970f27d4a6068aca3d8ac7613b3592775dc73806bf968f5f73e1885388ad4b3d",
+      "bytes": 3409
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/profile-27624-selected.json",
+      "sha256": "9c12e57077d99d96aaf713c9d967380b96fd9dbad9886ee0214cafa42a834ae5",
+      "bytes": 408
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/profile-745V4-selected.json",
+      "sha256": "1e7b12a70c69f9a142ece1f4237bac981e22bce973112a349a1d90a8e114d234",
+      "bytes": 382
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/research-budget.json",
+      "sha256": "73f90305ffa841d0a1e709f1e8ca25c0e8f6414abea1c3c6eb59add4bfb66c00",
+      "bytes": 2272
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/sources.json",
+      "sha256": "d447e1197b7ceb77ac33178f509c9330afdea5f7e4afb6e6547c9626b9fb0aca",
+      "bytes": 4925
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/sps-recipient-query.json",
+      "sha256": "1e885d825e28e3cab5f115773cfe95cd866ca255a80f3a5cf1728a024d05fe96",
+      "bytes": 317
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/timeline.json",
+      "sha256": "b1befc92b5fa7c4853b8025cc477ffa4d30e6c4ca61fcb60c62affcfb4797032",
+      "bytes": 1298
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/unresolved.json",
+      "sha256": "f542b589a7154c8ebe76a42f0fdf6a48470cf6b155a1d6dc3ba6e6fc75b68274",
+      "bytes": 1885
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/validate_parties.py",
+      "sha256": "d0457074cf95ce3b04987e2b9ed0b71e6f8e3cda8af6269c24b1cd77778207c0",
+      "bytes": 5469
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/validation.json",
+      "sha256": "67eef09749b0c5171043ddb5657291602e5a75ef210ed58a582d5d3a7ab6688e",
+      "bytes": 984
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/rejected_comparators.json",
+      "sha256": "88de962fb4bf609a9549746ac6341a63b96b20fe06d5a24890ed040590df3aa6",
+      "bytes": 2757
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/request_ledger.json",
+      "sha256": "9c2668941111446e23f1f6fbdbbe8052cc0e02081e01cf6dcea067b6f7ba2894",
+      "bytes": 6729
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/schedule-document-attempts.json",
+      "sha256": "dc483600f97ee7f24ad7f9113a1a3863049b8e30a7575b03ee8f538400f75b6a",
+      "bytes": 708
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page1-role-selected.txt",
+      "sha256": "a1357e85137b2c5d7b6f76753d7c38dbe828e6ac8139949f2c4a9b017377dc42",
+      "bytes": 500
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page11-first-article-selected.txt",
+      "sha256": "2451f6b224338a33b745a5fa89e370dcea592a90e04105e59212e40586c1da0e",
+      "bytes": 1673
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page2.txt",
+      "sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff",
+      "bytes": 1117
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page3.txt",
+      "sha256": "ea890b6d25f7ff983162d71de16b265ba4fa88ea9c627b673d7e41ae99e95beb",
+      "bytes": 3070
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page4.png",
+      "sha256": "7eb1aa24722bdbafb88bfa50d11dbcedf618fc926fe43d9aeae797b74d3bc8c2",
+      "bytes": 172815
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page4.txt",
+      "sha256": "2a4198fba2fed895b47fa557d763af8beb819f915b8ed875fd849ea2e6500d9b",
+      "bytes": 2504
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page5-first-article.png",
+      "sha256": "a784840e7e08d47d7e2e9756cf4bd728e558660c59924d559d058216aefb2c3a",
+      "bytes": 21579
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page5-selected.txt",
+      "sha256": "264772e6c86d41d608cf76c57c11cd3cb7344ad55ef80dc0f8b8a54791fbb857",
+      "bytes": 1172
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page6.txt",
+      "sha256": "285b5ec67cc5a099e9fc1cd8e9b30f044c21c29271aa0f6e94c6e2bbcd56380c",
+      "bytes": 1059
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected/dla-award-page7-e08-selected.txt",
+      "sha256": "106ec6568b641ed27f8435dbf7c3a56a00be6352433c0d576002e6a28c59c700",
+      "bytes": 1529
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/selected_manifest.json",
+      "sha256": "b7bf46a2070c3b6b455c74164bc966eb90f8158a5ada3e27ce85ba72c536159c",
+      "bytes": 3004
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/sources.json",
+      "sha256": "705d5deb265e77bbc5ec18c69e90deb309f4f5b175662dbf3e7b1dd20d7e448c",
+      "bytes": 6903
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/test_pilot.py",
+      "sha256": "7060a4c4f0b5c7eb6749f69e60ae9150e1996c5efa22ad45b06551a58cb4ecfe",
+      "bytes": 4957
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/transaction_links.json",
+      "sha256": "3803fe9ba60eae77d25c39c42308e20b924737877a48c9018eec20f09c4ad2a6",
+      "bytes": 24748
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/validation.json",
+      "sha256": "52d41ed1391e69d3b9263601db5daaf51f60a44f49f36193c30c41addfb5f652",
+      "bytes": 1022
+    },
+    {
+      "path": "research/us-integrity/price-agents/ARCHITECTURE.md",
+      "sha256": "acda6f763de9a9119f5e6bfa6d5139ecbe26aa855698b3b3e3e947821f163f40",
+      "bytes": 12771
+    },
+    {
+      "path": "research/us-integrity/price-agents/README.md",
+      "sha256": "dc781540384cdb6516b181b1f67f34b48b3814210f7f8f38672c7ec7a17c6c5a",
+      "bytes": 6874
+    },
+    {
+      "path": "research/us-integrity/price-agents/SOURCE-MAP.md",
+      "sha256": "062ccf664eee4e871bc6afdfc3b060e022bade073f6f5f5c9f64a3b65687ffeb",
+      "bytes": 6810
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/README.md",
+      "sha256": "50158a0e818e0d981453144acbdd785ac52b44dd44e9629ad7cd7799cd607548",
+      "bytes": 3890
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/examples/actual-blocked-input.json",
+      "sha256": "87b32320d35bae4381de252a4f05f7c57d35539235491cc29f85827a31e3304d",
+      "bytes": 2386
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/examples/actual-blocked-metadata.json",
+      "sha256": "93c1104f2da3a8b375aada4452b7cf375977f04c588eacbb6a2b2bee563543cd",
+      "bytes": 478
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/examples/actual-blocked-plan.json",
+      "sha256": "92a9e0976e1bdba0bd58bb32c7110e52bea8b5aeb7ad5f4120d620c11a3ae618",
+      "bytes": 567
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/examples/actual-blocked-result.json",
+      "sha256": "e5cfed5ced0d272f97d3d547de0251c96cd34b639c37c6d2f945f0d081c0c8ce",
+      "bytes": 3550
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/examples/exploratory-plan.json",
+      "sha256": "364288e3b186c8205a04dacda0936917f67568a21374d243cc5defd6bd30d630",
+      "bytes": 491
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/examples/synthetic-input.json",
+      "sha256": "bde75faba113b36e525406272e13b8813dc3d9baf714be1930eb3a9204b9259e",
+      "bytes": 13835
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/examples/synthetic-metadata.json",
+      "sha256": "40cb83ab0c81fe6eb44cc7594209c6acee6f3bbef35f1841f5f0ee545d761ddb",
+      "bytes": 1499
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/examples/synthetic-result.json",
+      "sha256": "4f94c7e84268f089bfd0918478a13ae4f22be94223e8a1fc4489b63edf04a83e",
+      "bytes": 4546
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/recurrence.py",
+      "sha256": "9c64b73d1de93fffab112e271b1ff6d1c9eaf521de6b25a4e578d42c447286c4",
+      "bytes": 11734
+    },
+    {
+      "path": "research/us-integrity/price-agents/analysis/test_recurrence.py",
+      "sha256": "1fa21f3417eb9828423f196cea24977dd52b69bf63b8a3ac90b38deed12ff7f6",
+      "bytes": 6836
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/VALIDATION.json",
+      "sha256": "ea41f77a936254dcd0055502a9616771fbbbf72920817d6221c45c42b3764b66",
+      "bytes": 2969
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/claude-supplemental-assignment.json",
+      "sha256": "3a2a78d113598bd829fd99c6a3698722e9e8154f908c7a3b56f08b55f977eefd",
+      "bytes": 2826
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/current-wave.json",
+      "sha256": "ccb2b4645c1b9ad57db41b1bccc457f4d7cfb68d6aadec7252789bbf0738001f",
+      "bytes": 47109
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/host-admissions.json",
+      "sha256": "f92c5f7451c7f396b6d8954de4532e4dfbb80e08f428fb3387b7c896f2afa3e0",
+      "bytes": 5149
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/later-waves.json",
+      "sha256": "e1e10d1b7da6c1d6938c8089667c2acc52c3b0cc5aeaffa923515a782553f7dd",
+      "bytes": 5972
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/record-contracts.json",
+      "sha256": "8239ccfa0c5c9b9dced533d063b9eba2206d617eff1c1908ad09f3cf5d50ffe5",
+      "bytes": 4272
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/research-log.json",
+      "sha256": "6aef44da52e98b07d7b22a7c7824c5ad7868ed0e0916b87530ab152d6e646015",
+      "bytes": 2306
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/role-contracts.json",
+      "sha256": "13052bd06b1f9e7ff9bc73250d21d5b5b2ab9ba5768873bd6d0c29eec5618c66",
+      "bytes": 16794
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/source-observations.json",
+      "sha256": "4675febb57df16ca6b1f619c429e8f92fb6980aab64ee4ea55ea60e283030bae",
+      "bytes": 6403
+    },
+    {
+      "path": "research/us-integrity/price-agents/research-market/REPORT.md",
+      "sha256": "1fe1d9958bf11fa29026af655a53132340f426331596defdb28877751a6a5cd4",
+      "bytes": 1727
+    },
+    {
+      "path": "research/us-integrity/price-agents/research-market/observations.json",
+      "sha256": "d90f7bf47e776927d7051104aba9f63410eef9e4db8af80ebf1eb4aa864f305c",
+      "bytes": 1072
+    },
+    {
+      "path": "research/us-integrity/price-agents/research-market/query_log.json",
+      "sha256": "1d9d206b09fbd6a409067b36ad27f1b4564296fdcdeb985cd1f450b29fc94dff",
+      "bytes": 2153
+    },
+    {
+      "path": "research/us-integrity/price-agents/research-market/sources.json",
+      "sha256": "9838b3f9995b1a55ca6015945f1c15d527a724a08fa43f40488e7ba74cedf8f1",
+      "bytes": 1435
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/REPORT.md",
+      "sha256": "bc3cdaca78625dfe03b9a2bfbc9c2f9294b80c542048430a40d748b619910624",
+      "bytes": 10034
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/REVIEW-SCOPE.md",
+      "sha256": "6e189b246dd32a6b1ed23b543c5dc1dcbe52f58f75961be12b5d27917eb9785f",
+      "bytes": 2577
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/cohort-receipts.json",
+      "sha256": "3f53e73758cad8ddc9507fc7be0fe3af359429462ef7751d694fe9efa6d0aa46",
+      "bytes": 4510
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/line-receipts.json",
+      "sha256": "a85d86204944800d09128fea406bb83a26617a788c66815e602144fd68f18141",
+      "bytes": 2029
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/official-rechecks/manifest.json",
+      "sha256": "96b694e55d39653af7a9afde2eec0bfe7e3cb14e421052155bcef36d04353827",
+      "bytes": 2652
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/official-rechecks/spotcheck-75N98026F00268.json",
+      "sha256": "2e9de4c643e537a9ead7748f243c12cb23a6b0c2a280eb848cae2877de5e1f88",
+      "bytes": 382
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/official-rechecks/spotcheck-SPE4A626PW775.json",
+      "sha256": "c88c9c53652a60a9b5e66c9792bfc8aab0536547ec59f0d597b79bae986bf85a",
+      "bytes": 366
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/official_spotchecks.py",
+      "sha256": "7bec31f738378276a578cefb368b66a2e8b0edee8a6a3266be401d024e74a62d",
+      "bytes": 3539
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/runtime-demo-replay.json",
+      "sha256": "5d996e15264c12e3047e25f44a266a2dd58153a1fb2b133dd08c9d93279d2f73",
+      "bytes": 14324
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/snapshot-verification.json",
+      "sha256": "cf660a0492c63ab40953aba788fbaf5ae368337d4562f1b70ac88b2b313e4d4b",
+      "bytes": 2104
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/test_adversarial.py",
+      "sha256": "8afb44b069f6ec0ecb3c0d217241dd6e6ffc7df2d9f3a7213eef58d0c1a2a7f6",
+      "bytes": 14498
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/tracer-demo-replay.json",
+      "sha256": "421710d2b94cff567ae698f41a425e1ed337ab674e85233b3136c01acab2612f",
+      "bytes": 8723
+    },
+    {
+      "path": "research/us-integrity/price-agents/review/verify_snapshot.py",
+      "sha256": "d449b721e0eef73ec39f50369c9d5c2f605dd0ebd9696d5f67975c0d4f1feb0c",
+      "bytes": 8610
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/README.md",
+      "sha256": "37ccb4627a3d0540464f14d8b4207aac02cbd3edebd6759c2536d9f36889bc44",
+      "bytes": 3055
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/block-known-gaps-state.json",
+      "sha256": "e721b82774f096ed3ea5b382394c3f10964cc0789412d5c7ead25fe59646d1dc",
+      "bytes": 121111
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/cohorts-state.json",
+      "sha256": "753d83ffa45d56f6fcfa850d5fa38815f0796e96b8243fb6277587ce2918f613",
+      "bytes": 92791
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/export-state.json",
+      "sha256": "e721b82774f096ed3ea5b382394c3f10964cc0789412d5c7ead25fe59646d1dc",
+      "bytes": 121111
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/line-state.json",
+      "sha256": "6d9314ef3f0d7e452a0aa84754bd8e0814ac3da5d2860ce883db5a8c6bcb9e5d",
+      "bytes": 114194
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/results/PA-W1-COHORT-DLA.json",
+      "sha256": "99dda1971e249c4b2e9bd8cf8f7940db0d364e6796452a1cc3492f64c857ca6b",
+      "bytes": 2243
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/results/PA-W1-COHORT-HHS.json",
+      "sha256": "7957324fc18b18e58fc98b0678eaf7f537f1c3d7a0325d8dc074ea818d86ea89",
+      "bytes": 2243
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/results/PA-W1-COHORT-VA.json",
+      "sha256": "363fe1d7dc5a46e886b97d5c1b2d9dc90e13d9aa0773f6985bcc435a3a561c65",
+      "bytes": 2233
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/results/PA-W1-LINE-DLA.json",
+      "sha256": "ba2b1697534421d6ebe3541baafa6cb161869bcbb0af8036bfe1ca1235f00068",
+      "bytes": 2652
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/review-cohort-receipts-state.json",
+      "sha256": "72ff6bb57b1dbcb7527f8e345953136c7d2ad9fa07bf989e671be7f7cdb05963",
+      "bytes": 98673
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/current-run/review-line-receipts-state.json",
+      "sha256": "3893db6477b52f9c9b0e378790150c7ecd03996034f54252b2d3ac6adc29a713",
+      "bytes": 116423
+    },
+    {
+      "path": "research/us-integrity/price-agents/runs/replay_pilot.py",
+      "sha256": "cd69f926145ef7db281a78c90cddb3f67590a90e65838e8a4435fd0f3398c8ec",
+      "bytes": 9792
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/README.md",
+      "sha256": "a72fe4bb386d28eb47001ec5dce647bef0ac9dc29bfa73e712605a721dd77024",
+      "bytes": 13912
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/VALIDATION.json",
+      "sha256": "999e9872764479c881bf44eac71eb33e79f4dd13edf48eee5f95543e5e4d7925",
+      "bytes": 1679
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/agent_runtime.py",
+      "sha256": "dead4047f1740a5a913eb07d801964d8a84e587f762f08e83f2868b23dbcfc83",
+      "bytes": 37112
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/demo-output.json",
+      "sha256": "5d996e15264c12e3047e25f44a266a2dd58153a1fb2b133dd08c9d93279d2f73",
+      "bytes": 14324
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/demo.py",
+      "sha256": "087817b870f3bcc524a246b786c51a08956a1b3786e5fb238542da2fe4b59705",
+      "bytes": 6575
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/fixtures/initial.txt",
+      "sha256": "61da4216f9e748c99e933070574831f187abf8b008c9199e67dbc6ffaa9571a3",
+      "bytes": 143
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/fixtures/later.txt",
+      "sha256": "dc4aa37e472ffd1b979f7625315eebe7b149f94c13c89bcc0b08288461dbb802",
+      "bytes": 146
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/fixtures/plan.json",
+      "sha256": "9aeb0413601aadfd32610def32da5f43d10646b5eb192e1894d32a34b83624d1",
+      "bytes": 1134
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/price_check.py",
+      "sha256": "d032a7f02099bf9bdc972de1fdf4d4617abc0acb942c7ff40bd5152f6a2aeda1",
+      "bytes": 1576
+    },
+    {
+      "path": "research/us-integrity/price-agents/runtime/test_agent_runtime.py",
+      "sha256": "072d5387ba58145daaca70a95869fcd6f566e21687349dce81eebfda38e69c1e",
+      "bytes": 17455
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/README.md",
+      "sha256": "4f3b5d1ede4e79dbe971117550c5a40f07d3630ca95a247683470af27287c2d5",
+      "bytes": 9711
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/demo_trace.py",
+      "sha256": "3a695eaf419726134c4121271ae39d0708cb7e6076925e52d3c9eb047a873be1",
+      "bytes": 2405
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/examples/live-public-source-plan.json",
+      "sha256": "a984db159360e17cabb20888527fc64f8de8f342ba1861f18543eca7164c77e8",
+      "bytes": 1019
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/runs/dns-diagnostic.json",
+      "sha256": "0e63d65b599944428b35cedf909d7895022466d5dadeea47f08c51ddaff929a8",
+      "bytes": 396
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/runs/live-public-source-proof-final.json",
+      "sha256": "dd8b5d15fbb923e3e3505c9e184cf1ccc6c8243f5cb5ce7e7e81f540831d9770",
+      "bytes": 4782
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/runs/live-public-source-proof.json",
+      "sha256": "41d038174a31cc2f5dea4b7c3f4205702864693dfb2c5187f13de54cdebb9612",
+      "bytes": 4782
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/runs/synthetic-link-trace-final.json",
+      "sha256": "8b04dd55a51829a988a1690cc5884876fb19b7d5a6c738f5145754369e1eb4de",
+      "bytes": 8723
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/runs/synthetic-link-trace.json",
+      "sha256": "a0a6a10080c4b14fcf60a23d47da32a61a14b7a797e630c74c7da93cf7f91815",
+      "bytes": 8468
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/test_trace_links.py",
+      "sha256": "664166725398cd835d24b4fe97b3ed2863c1224cfe9c09f9c23d99ca4dc36a1e",
+      "bytes": 10320
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/trace_links.py",
+      "sha256": "d3943be50ff269902940d6ebd23e1c4b9ca6aafa79b982bc76399d55adc0436d",
+      "bytes": 25917
+    },
+    {
+      "path": "research/us-integrity/price-agents/tracing/validation.json",
+      "sha256": "b617ff03002c6d6c060f53193c98a273cff9d154e7c6cdbf492a33f83b4c388c",
+      "bytes": 2532
+    },
+    {
+      "path": "research/us-integrity/tools/investigation_extensions.py",
+      "sha256": "de95a8b02c6d654743a68de430d30756dbf6b60374adfac5a947f7af46fb9851",
+      "bytes": 4886
+    },
+    {
+      "path": "research/us-integrity/tools/test_investigations.py",
+      "sha256": "d326a26b0f81e4abe5d867834d66c930a6321a316c8b9e83d29cd189eb7c801c",
+      "bytes": 7304
+    }
+  ],
+  "decisions": [
+    {
+      "id": "RUNTIME",
+      "decision": "accepted_with_limits",
+      "artifact": "research/us-integrity/price-agents/runtime/agent_runtime.py",
+      "reason": "Durable local orchestration, charged attempts, leases, immutable results, artifact checks and independent-labelled review function as tested. Not authenticated independent people, LLM execution, distributed service or global external-request enforcement."
+    },
+    {
+      "id": "TRACER",
+      "decision": "accepted_with_limits",
+      "artifact": "research/us-integrity/price-agents/tracing/trace_links.py",
+      "reason": "Bounded URL/redirect/DNS/TLS/robots policies and synthetic traversal tested. Final live run failed at DNS: zero HTTP and zero documents. No runtime reservation bridge exists."
+    },
+    {
+      "id": "RECURRENCE",
+      "decision": "accepted_with_limits",
+      "artifact": "research/us-integrity/price-agents/analysis/recurrence.py",
+      "reason": "Exploratory qualified-line screen; independent exact arithmetic and negative-net counterexample passed. Declared source independence and identity require review. No real repeated premium or causal inference."
+    },
+    {
+      "id": "PILOT",
+      "decision": "accepted_limited_observations",
+      "artifact": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/line_observations.json",
+      "reason": "30 incomplete sampled awards and two original DLA CLINs retained. Exact two-record official spotchecks match. DLA line math reconciles; no independent comparator, invoice/payment or benefit established."
+    },
+    {
+      "id": "PARTIES",
+      "decision": "accepted_limited_observations",
+      "artifact": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/parties/graph.json",
+      "reason": "Exact CAGE/UEI joins and intended manufacturer scope preserved; dated reported parent is not beneficial ownership. Printed officer role restricted to one instrument; price selection/payment/benefit unknown. Same-name state candidate remains unmerged."
+    },
+    {
+      "id": "SPEC",
+      "decision": "accepted_adapter_acquisition_unresolved",
+      "artifact": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/parse_publog_export.py",
+      "reason": "URL privacy defect corrected and regression passed. Parser retains exact NIIN/reference qualifiers but cannot authenticate sources or qualify prices. Zero exact actual official rows acquired; proposed export query unexecuted."
+    },
+    {
+      "id": "ACTUAL_RUN",
+      "decision": "accepted_limited_local_reuse",
+      "artifact": "research/us-integrity/price-agents/runs/current-run/export-state.json",
+      "reason": "Six local reuse attempts, zero new network calls, four independently reviewed accepted packets, five declared blocked tasks and eleven queued tasks. Original capture hashes/times preserved; no actual-run reopen or deployed worker claim."
+    },
+    {
+      "id": "PLAN_AND_EXTENSION",
+      "decision": "accepted_with_limits",
+      "artifact": "research/us-integrity/price-agents/plans/current-wave.json",
+      "reason": "20-task import/reimport succeeds. Explicit host admission and source contracts reviewed; model assignments/later waves remain plans. Loader only adds price-agents as an approved digest-pinned dependency root; extensions remain under investigations."
+    }
+  ],
+  "validation": {
+    "unit_tests_passed": 96,
+    "groups": [
+      {
+        "group": "runtime",
+        "tests_passed": 21,
+        "exit_code": 0,
+        "command": "python -m unittest discover -s research/us-integrity/price-agents/runtime -p 'test*.py' -v"
+      },
+      {
+        "group": "tracer",
+        "tests_passed": 16,
+        "exit_code": 0,
+        "command": "python -m unittest discover -s research/us-integrity/price-agents/tracing -p 'test*.py' -v"
+      },
+      {
+        "group": "recurrence",
+        "tests_passed": 12,
+        "exit_code": 0,
+        "command": "python -m unittest discover -s research/us-integrity/price-agents/analysis -p 'test*.py' -v"
+      },
+      {
+        "group": "pilot",
+        "tests_passed": 11,
+        "exit_code": 0,
+        "command": "python -m unittest discover -s research/us-integrity/investigations/federal-price-pilot-2026-10-30 -p 'test*.py' -v"
+      },
+      {
+        "group": "specification_adapter",
+        "tests_passed": 11,
+        "exit_code": 0,
+        "command": "python -m unittest discover -s research/us-integrity/investigations/bolt-spec-followup-2026-10-30 -p 'test*.py' -v"
+      },
+      {
+        "group": "independent_adversarial",
+        "tests_passed": 9,
+        "exit_code": 0,
+        "command": "python -m unittest discover -s research/us-integrity/price-agents/review -p 'test*.py' -v"
+      },
+      {
+        "group": "graph_extension",
+        "tests_passed": 16,
+        "exit_code": 0,
+        "command": "python -m unittest discover -s research/us-integrity/tools -p test_investigations.py -v"
+      }
+    ],
+    "independent_snapshot_check": "research/us-integrity/price-agents/review/snapshot-verification.json",
+    "party_negative_controls_rejected": 4,
+    "party_source_and_manifest_hash_checks": "passed",
+    "actual_source_visual_checks": [
+      "selected DLA page4 image",
+      "selected DLA page5 first-article crop"
+    ],
+    "role_source_review_depth": "Selected DD1155 page1 professional-role plain text only; no independent full-page visual",
+    "independent_public_requests_used": 2,
+    "independent_public_request_limit": 6,
+    "official_records_rechecked": 2,
+    "fields_matched_per_official_record": 10,
+    "runtime_demo_byte_exact_replay": true,
+    "tracer_demo_semantic_replay": true
+  },
+  "failure_and_correction_history": [
+    {
+      "issue": "Spec public receipt retained unsafe URL forms",
+      "observed_failure": "Independent ninth test failed five synthetic URL subcases: empty userinfo, token, signature, sessionid and newline. Eight prior independent tests still passed.",
+      "before_parser_sha256": "6fd18c361bb54a35bed865000556ea8bac3d1dab52264a6f25cd4d81f5ebf7d9",
+      "resolution": "Producer hardened original and repeatedly decoded URL syntax/query keys; benign ver retained. Eleven producer and nine reviewer tests pass.",
+      "after_parser_sha256": "e1d5eee9356504a0271bc9baa958a9affeaa7a776217ec9b1c95f7e023226f50",
+      "status": "resolved"
+    },
+    {
+      "issue": "Reviewer initially compared real tracer clock timestamps byte-for-byte",
+      "observed_failure": "verify_snapshot.py rejected otherwise semantically equal offline tracer replays because their actual run timestamps differed.",
+      "resolution": "Comparator now removes only started_at,finished_at,observed_at,completed_at recursively; all remaining structure and values match. Original receipts retained.",
+      "status": "reviewer_checker_corrected"
+    },
+    {
+      "issue": "Runtime exhausted interrupted request could not close out; reopen artifact drift and receipt URL gaps",
+      "resolution": "Producer implemented bounded closeout-only claim, export trigger revalidation and URL hardening; producer and stateful independent tests pass.",
+      "status": "resolved_no_vulnerable_implementation_archived"
+    },
+    {
+      "issue": "Tracer nested URL/action boundaries, exact numeric-ID matching and incomplete frontier/request semantics",
+      "resolution": "Producer corrected nested decoding, exact matching before redaction, failed-frontier state and pre-HTTP counters; synthetic mixed-boundary and producer tests pass.",
+      "status": "resolved_no_vulnerable_implementation_archived"
+    },
+    {
+      "issue": "Pilot original-award line check allowed two negative OCR values to cancel",
+      "resolution": "Producer rejects nonpositive quantities and negative prices/amounts; retained real values positive and reconciliation unchanged.",
+      "status": "resolved"
+    },
+    {
+      "issue": "Live direct acquisition failure",
+      "resolution": "Preserved final DNS failures and zero HTTP/document outcome without relabeling other acquisition code as tracer success.",
+      "status": "retained_operational_limit"
+    }
+  ],
+  "unresolved_code_blockers_for_scoped_use": [],
+  "substantive_evidence_gaps": [
+    "No exact independent qualified market price for either bolt case",
+    "No actual supplier invoice/cost, government invoice, receiving/acceptance or cash payment verified",
+    "No actual bid abstract or price-reasonableness decision acquired for the selected DLA case",
+    "No buyer influence, personal benefit or kickback established",
+    "Prior bolt NIIN016864912 exact official export not acquired",
+    "VA and HHS exact ordered device lines remain unacquired",
+    "No nationwide completeness, disclosure novelty or bounty entitlement established"
+  ],
+  "operational_limits": [
+    "No unattended LLM/provider service deployed; no verified Claude/Grok dispatch or result",
+    "No tracer/runtime per-request reservation bridge or global cross-session budget",
+    "Direct tracer live trial acquired zero documents after DNS failure",
+    "Actor/reviewer labels are not authenticated distinct people",
+    "Source documents and declared evidence remain untrusted inputs; file hashes cannot authenticate truth",
+    "Actual run is local capture reuse; resume/reopen behavior demonstrated separately with synthetic data"
+  ],
+  "conclusion": {
+    "fraud_established": false,
+    "real_repeated_premium_established": false,
+    "actual_buyer_benefit": null,
+    "recoverable_loss": null,
+    "reasonable_price_established": false,
+    "remaining_unknowns_do_not_prove_absence_of_misconduct": true
+  },
+  "exclusions": [
+    "Operational SQLite databases, raw original documents, credentials and caches",
+    "Future graph/nav changes and future acquisitions not pinned here",
+    "Legal determination of reward eligibility or fraud liability"
+  ]
+}

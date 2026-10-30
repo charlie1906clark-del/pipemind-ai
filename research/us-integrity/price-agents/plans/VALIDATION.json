@@ -1,0 +1,85 @@
+{
+  "as_of": "2026-10-30",
+  "scope": "Plans, source map and specialized role architecture; no new model/runtime execution claim",
+  "current_wave_task_count": 20,
+  "specialist_role_contract_count": 14,
+  "later_sector_wave_count": 8,
+  "official_source_observation_count": 12,
+  "checks": {
+    "all_json_parse": true,
+    "role_references": true,
+    "task_dependency_ids_unique_and_valid": true,
+    "runtime_init_import": {
+      "tasks": 20,
+      "passed": true
+    },
+    "runtime_identical_reimport": {
+      "idempotent": true,
+      "passed": true
+    },
+    "relative_markdown_links": true,
+    "all_tasks_have_disconfirmation_and_stop_reopen_rules": true
+  },
+  "source_research": {
+    "queries": 10,
+    "document_reads_or_attempts_including_find": 14,
+    "raw_webpage_bytes_archived": false
+  },
+  "execution_limit": "Only plan import and validation were exercised by this lane. Acquisition/runtime run receipts are separate and owned by root/pilot agents.",
+  "input_artifacts": [
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "acda6f763de9a9119f5e6bfa6d5139ecbe26aa855698b3b3e3e947821f163f40"
+    },
+    {
+      "path": "SOURCE-MAP.md",
+      "sha256": "062ccf664eee4e871bc6afdfc3b060e022bade073f6f5f5c9f64a3b65687ffeb"
+    },
+    {
+      "path": "plans/claude-supplemental-assignment.json",
+      "sha256": "3a2a78d113598bd829fd99c6a3698722e9e8154f908c7a3b56f08b55f977eefd"
+    },
+    {
+      "path": "plans/current-wave.json",
+      "sha256": "ccb2b4645c1b9ad57db41b1bccc457f4d7cfb68d6aadec7252789bbf0738001f"
+    },
+    {
+      "path": "plans/host-admissions.json",
+      "sha256": "f92c5f7451c7f396b6d8954de4532e4dfbb80e08f428fb3387b7c896f2afa3e0"
+    },
+    {
+      "path": "plans/later-waves.json",
+      "sha256": "e1e10d1b7da6c1d6938c8089667c2acc52c3b0cc5aeaffa923515a782553f7dd"
+    },
+    {
+      "path": "plans/record-contracts.json",
+      "sha256": "8239ccfa0c5c9b9dced533d063b9eba2206d617eff1c1908ad09f3cf5d50ffe5"
+    },
+    {
+      "path": "plans/research-log.json",
+      "sha256": "6aef44da52e98b07d7b22a7c7824c5ad7868ed0e0916b87530ab152d6e646015"
+    },
+    {
+      "path": "plans/role-contracts.json",
+      "sha256": "13052bd06b1f9e7ff9bc73250d21d5b5b2ab9ba5768873bd6d0c29eec5618c66"
+    },
+    {
+      "path": "plans/source-observations.json",
+      "sha256": "4675febb57df16ca6b1f619c429e8f92fb6980aab64ee4ea55ea60e283030bae"
+    }
+  ],
+  "host_admission": {
+    "record": "host-admissions.json",
+    "approved_exact_seller_hosts": 2,
+    "affected_tasks": [
+      "PA-W1-MARKET-DLA-PILOT",
+      "PA-W1-PRICE-DLA-PILOT"
+    ],
+    "no_new_network_requests_by_this_lane": true,
+    "fresh_validation_ledger_import_passed": true,
+    "identical_reimport_idempotent": true,
+    "changed_definition_rejected_in_prior_validation_ledger": true,
+    "path_and_per_host_subbudgets_require_explicit_tracer_configuration": true
+  },
+  "current_plan_sha256": "ccb2b4645c1b9ad57db41b1bccc457f4d7cfb68d6aadec7252789bbf0738001f"
+}

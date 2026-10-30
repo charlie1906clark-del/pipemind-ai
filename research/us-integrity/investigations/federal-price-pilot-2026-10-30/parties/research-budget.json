@@ -1,0 +1,50 @@
+{
+  "as_of": "2026-10-30",
+  "web_queries": [
+    "\"745V4\" \"Don Industrial\" official",
+    "\"27624\" \"SPS\" site:precast.com OR site:pccfasteners.com OR site:sec.gov",
+    "\"SPS Technologies\" \"Precision Castparts\" site:pccfasteners.com",
+    "\"PB Fasteners\" site:pccfasteners.com",
+    "\"SPS Technologies\" \"subsidiaries\" site:sec.gov/Archives/edgar/data",
+    "\"Don Industrial Group\" \"owner\"",
+    "\"DON INDUSTRIAL GROUP LLC\" site:search.sunbiz.org",
+    "\"Precision Castparts\" site:berkshirehathaway.com/2025ar"
+  ],
+  "web_query_count": 8,
+  "web_open_attempts": [
+    {
+      "url": "https://donindustrialgroup.com/about",
+      "result": "opened; selected paraphrase retained"
+    },
+    {
+      "url": "https://www.pccfasteners.com/companies/sps-technologies.php",
+      "result": "inaccessible; no fact adopted"
+    },
+    {
+      "url": "https://www.spsfasteners.com/about/",
+      "result": "timeout; no current ownership fact adopted"
+    },
+    {
+      "url": "https://www.pccfasteners.com/companies/pcc-fasteners/pb-fasteners.html",
+      "result": "opened; selected paraphrase retained"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/79958/000119312510130580/dex21.htm",
+      "result": "opened; target fact not inspected in rendered excerpt; no ownership fact adopted"
+    },
+    {
+      "url": "https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l10000120053-f1f6ee9a-e912-456e-8731-47dcc778c29f&directionType=ForwardList&inquirytype=EntityName&listNameOrder=DONIM+S545370&searchNameOrder=DONINDUSTRIALGROUP+L100001200530&searchTerm=DONIS+TRANSPORT+INC.",
+      "result": "open requested; output unavailable after truncation; official search-index observation only"
+    },
+    {
+      "url": "https://www.berkshirehathaway.com/subs/sublinks.html",
+      "result": "open requested; output unavailable after truncation; official search-index observation only"
+    }
+  ],
+  "web_open_count": 7,
+  "direct_requests": 8,
+  "public_read_attempt_count": 15,
+  "max_web_queries": 8,
+  "max_public_reads": 15,
+  "counting_note": "Includes failed opens and ordinary CAGE consent/form requests. Existing parent local captures are reused without new public reads. No automatic retries."
+}

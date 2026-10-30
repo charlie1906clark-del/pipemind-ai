@@ -1,0 +1,20 @@
+[
+  {
+    "stratum": "dla-bolts",
+    "piid": "SPE4A626PW775",
+    "generated_award_id": "CONT_AWD_SPE4A626PW775_9700_-NONE-_-NONE-",
+    "selection_reason": "Largest sampled ordinary bolt purchase; no source unit price implied."
+  },
+  {
+    "stratum": "va-medical",
+    "piid": "36C79126F0030",
+    "generated_award_id": "CONT_AWD_36C79126F0030_3600_36C79123A0003_3600",
+    "selection_reason": "Largest sampled non-express-report medical-device order, PAP devices/accessories."
+  },
+  {
+    "stratum": "hhs-medical",
+    "piid": "75N98026F00268",
+    "generated_award_id": "CONT_AWD_75N98026F00268_7529_36F79720D0041_3600",
+    "selection_reason": "Discrete defibrillator goods with FSS parent route; custom freezer system and generic supply funding excluded from this document-priority pass."
+  }
+]

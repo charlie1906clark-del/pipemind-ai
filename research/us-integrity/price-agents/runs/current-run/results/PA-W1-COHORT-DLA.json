@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "result_id": "PA-W1-COHORT-DLA-RESULT-01",
+  "task_id": "PA-W1-COHORT-DLA",
+  "producer": "codex-evidence-coordinator",
+  "input_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+  "data_origin": "public",
+  "outcome": "observations",
+  "evidence_ids": [
+    "PA-W1-COHORT-DLA-E1"
+  ],
+  "facts": [
+    {
+      "id": "PA-W1-COHORT-DLA-FACT-1",
+      "statement": "The declared July3–31,2026 new-awards query retained ten unique award summaries for this stratum.",
+      "evidence_ids": [
+        "PA-W1-COHORT-DLA-E1"
+      ]
+    },
+    {
+      "id": "PA-W1-COHORT-DLA-FACT-2",
+      "statement": "The response reports hasNext:true; this is an incomplete first-page sample sorted by cumulative award amount, not a random or nationwide cohort.",
+      "evidence_ids": [
+        "PA-W1-COHORT-DLA-E1"
+      ]
+    },
+    {
+      "id": "PA-W1-COHORT-DLA-FACT-3",
+      "statement": "Cumulative obligations are not unit prices, period spending or paid cash.",
+      "evidence_ids": [
+        "PA-W1-COHORT-DLA-E1"
+      ]
+    }
+  ],
+  "candidate_signals": [],
+  "pricing_eligibility": {
+    "status": "unqualified",
+    "reason": "No independently qualified equivalent benchmark or complete paid-value evidence",
+    "evidence_ids": [
+      "PA-W1-COHORT-DLA-E1"
+    ]
+  },
+  "benefit_evidence": {
+    "status": "unresolved",
+    "reason": "These source selections do not establish buyer influence or a personal benefit",
+    "evidence_ids": []
+  },
+  "unknowns": [
+    "Original priced lines are not established by these summary rows.",
+    "Full population coverage and payment are not established."
+  ],
+  "ordinary_alternatives": [
+    "Award summaries and source availability do not indicate misconduct; supply terms and separately priced services can explain differences."
+  ],
+  "conclusion": "Narrow public observations only. A completed and accepted packet does not establish price fairness, buyer independence, loss or fraud.",
+  "next_record": "Original priced line and applicable procurement terms for the selected exact award.",
+  "supplemental_input_scope": "New source selections acquired after the plan base commit, identified by evidence hashes; not represented as existing at that baseline."
+}

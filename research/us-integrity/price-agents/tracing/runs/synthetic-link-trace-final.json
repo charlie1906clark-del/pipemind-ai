@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "adapter": "pipemind-public-transaction-tracer",
+  "case_id": "SYNTHETIC-TRACE-001",
+  "completed_at": "2026-10-30T12:41:09.295971+00:00",
+  "plan": {
+    "schema_version": "1.0",
+    "case_id": "SYNTHETIC-TRACE-001",
+    "allowed_hosts": [
+      "example.org"
+    ],
+    "allowed_query_keys": {},
+    "limits": {
+      "max_requests": 6,
+      "max_pages": 3,
+      "max_depth": 2,
+      "max_redirects": 3,
+      "max_bytes_per_response": 2000000,
+      "max_total_bytes": 8000000,
+      "timeout_seconds": 10,
+      "max_retries": 0,
+      "max_links_per_page": 200
+    },
+    "seeds": [
+      {
+        "url": "https://example.org/awards/SYNTH-ORDER-001.html",
+        "kind": "order",
+        "identifiers": [
+          "SYNTH-ORDER-001",
+          "SYNTH-ITEM-001"
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt_id": "TRACE-0001",
+      "url": "https://example.org/robots.txt",
+      "parent_url": null,
+      "relationship": "robots_policy",
+      "started_at": "2026-10-30T12:41:09.294869+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "network_attempted": true,
+      "http_request_sent": true,
+      "body_bytes_retained": false,
+      "resolved_public_addresses": [
+        "93.184.215.14"
+      ],
+      "pinned_address": "93.184.215.14",
+      "received_bytes": 22,
+      "response_body_sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a",
+      "hash_scope": "complete_received_body",
+      "response_complete": true,
+      "content_type": "text/plain",
+      "content_encoding": "identity",
+      "status": "received",
+      "finished_at": "2026-10-30T12:41:09.294981+00:00"
+    },
+    {
+      "attempt_id": "TRACE-0002",
+      "url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "parent_url": null,
+      "relationship": "declared_seed",
+      "started_at": "2026-10-30T12:41:09.295151+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "network_attempted": true,
+      "http_request_sent": true,
+      "body_bytes_retained": false,
+      "resolved_public_addresses": [
+        "93.184.215.14"
+      ],
+      "pinned_address": "93.184.215.14",
+      "received_bytes": 273,
+      "response_body_sha256": "b2dd8144bc5bbea74061c0042e14c909c0c4997117430718b5dbbe6b73c7bdfc",
+      "hash_scope": "complete_received_body",
+      "response_complete": true,
+      "content_type": "text/html",
+      "content_encoding": "identity",
+      "status": "acquired_metadata_only",
+      "finished_at": "2026-10-30T12:41:09.295211+00:00",
+      "kind": "order",
+      "depth": 0,
+      "anchor": null,
+      "redirect_chain": [],
+      "retry_index": 0,
+      "expected_record_identity_authenticated": false,
+      "link_limit_reached": false
+    },
+    {
+      "attempt_id": "TRACE-0003",
+      "url": "https://example.org/awards/SYNTH-ORDER-001.pdf",
+      "parent_url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "relationship": "exact_identifier",
+      "started_at": "2026-10-30T12:41:09.295857+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "network_attempted": true,
+      "http_request_sent": true,
+      "body_bytes_retained": false,
+      "resolved_public_addresses": [
+        "93.184.215.14"
+      ],
+      "pinned_address": "93.184.215.14",
+      "received_bytes": 54,
+      "response_body_sha256": "a443b2181990453d1112b05ff0c778ed156e9c188a32f714a36e789cf5b73235",
+      "hash_scope": "complete_received_body",
+      "response_complete": true,
+      "content_type": "application/pdf",
+      "content_encoding": "identity",
+      "status": "acquired_metadata_only",
+      "finished_at": "2026-10-30T12:41:09.295903+00:00",
+      "kind": "order",
+      "depth": 1,
+      "anchor": "Order attachment",
+      "redirect_chain": [],
+      "retry_index": 0,
+      "expected_record_identity_authenticated": false
+    },
+    {
+      "attempt_id": "TRACE-0004",
+      "url": "https://example.org/awards/SYNTH-ITEM-001.pdf",
+      "parent_url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "relationship": "exact_identifier",
+      "started_at": "2026-10-30T12:41:09.295928+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "network_attempted": true,
+      "http_request_sent": true,
+      "body_bytes_retained": false,
+      "resolved_public_addresses": [
+        "93.184.215.14"
+      ],
+      "pinned_address": "93.184.215.14",
+      "received_bytes": 52,
+      "response_body_sha256": "d72abf8325e5657eaba5383f4640db990fde20dd6843ddc29544fd1acfc5e799",
+      "hash_scope": "complete_received_body",
+      "response_complete": true,
+      "content_type": "application/pdf",
+      "content_encoding": "identity",
+      "status": "acquired_metadata_only",
+      "finished_at": "2026-10-30T12:41:09.295966+00:00",
+      "kind": "order",
+      "depth": 1,
+      "anchor": "Item specification",
+      "redirect_chain": [],
+      "retry_index": 0,
+      "expected_record_identity_authenticated": false
+    }
+  ],
+  "link_decisions": [
+    {
+      "parent_url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "observed_at": "2026-10-30T12:41:09.295211+00:00",
+      "anchor": "Order attachment",
+      "element": "a",
+      "decision": "follow",
+      "relationship": "exact_identifier",
+      "target_url": "https://example.org/awards/SYNTH-ORDER-001.pdf",
+      "reason": "exact_identifier",
+      "exact_identifier": "SYNTH-ORDER-001"
+    },
+    {
+      "parent_url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "observed_at": "2026-10-30T12:41:09.295211+00:00",
+      "anchor": "Item specification",
+      "element": "a",
+      "decision": "follow",
+      "relationship": "exact_identifier",
+      "target_url": "https://example.org/awards/SYNTH-ITEM-001.pdf",
+      "reason": "exact_identifier",
+      "exact_identifier": "SYNTH-ITEM-001"
+    },
+    {
+      "parent_url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "observed_at": "2026-10-30T12:41:09.295211+00:00",
+      "anchor": "Duplicate order",
+      "element": "a",
+      "decision": "exclude",
+      "relationship": "exact_identifier",
+      "target_url": "https://example.org/awards/SYNTH-ORDER-001.pdf",
+      "reason": "duplicate_url",
+      "exact_identifier": "SYNTH-ORDER-001"
+    },
+    {
+      "parent_url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "observed_at": "2026-10-30T12:41:09.295211+00:00",
+      "anchor": "Home",
+      "element": "a",
+      "decision": "exclude",
+      "relationship": "no_exact_transaction_or_relevant_attachment_link",
+      "target_url": "https://example.org/home",
+      "reason": "no_exact_transaction_or_relevant_attachment_link",
+      "exact_identifier": null
+    },
+    {
+      "parent_url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "observed_at": "2026-10-30T12:41:09.295211+00:00",
+      "anchor": "Contact",
+      "element": "a",
+      "decision": "exclude",
+      "relationship": "unclassified_link",
+      "reason": "account_action_or_unsafe_path"
+    },
+    {
+      "parent_url": "https://example.org/awards/SYNTH-ORDER-001.html",
+      "observed_at": "2026-10-30T12:41:09.295211+00:00",
+      "anchor": "Unapproved site",
+      "element": "a",
+      "decision": "exclude",
+      "relationship": "unclassified_link",
+      "reason": "host_or_port_not_approved"
+    }
+  ],
+  "outstanding": [],
+  "coverage": {
+    "logical_attempts": 4,
+    "network_attempts": 4,
+    "http_requests_sent_confirmed": 4,
+    "acquired_documents": 3,
+    "received_body_bytes": 401,
+    "declared_seed_count": 1,
+    "frontier_complete": true,
+    "failed_or_incomplete_attempts": 0,
+    "complete_procurement_universe": false
+  },
+  "evidence_review_required": true,
+  "scope": "Offline control for link scheduling, duplicate rejection and URL policy. Not procurement evidence.",
+  "retrieved_text_handling": "Untrusted data only; no code, browser scripts, instructions, forms, cookies or account actions executed.",
+  "runtime_import": "Completed audited run may be imported honestly; this adapter does not reserve runtime attempts or claim runtime budget enforcement.",
+  "data_origin": "synthetic_calibration",
+  "synthetic": true,
+  "network_used": false,
+  "government_transaction": false,
+  "synthetic_notice": "URLs, transport, resolver answers and body content are fabricated test inputs; no external request made. Fixture MIME does not authenticate a PDF.",
+  "coverage_counter_scope": "Simulated transport calls only; zero actual DNS/HTTP calls",
+  "logical_fixture_calls": [
+    "https://example.org/robots.txt",
+    "https://example.org/awards/SYNTH-ORDER-001.html",
+    "https://example.org/awards/SYNTH-ORDER-001.pdf",
+    "https://example.org/awards/SYNTH-ITEM-001.pdf"
+  ]
+}

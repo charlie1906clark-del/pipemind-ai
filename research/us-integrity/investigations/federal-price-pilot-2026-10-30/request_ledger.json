@@ -1,0 +1,227 @@
+{
+  "observed_date": "2026-10-30",
+  "scope": "This subtask only; independent reviewer and parent work have separate logs. Counts are issued API/document retrieval operations, including failed operations and repeated web opens. Search backend transport and automatic redirect counts are not exposed.",
+  "limits": {
+    "api_or_document_operations": 30,
+    "search_queries": 12
+  },
+  "used": {
+    "api_or_document_operations": 23,
+    "search_queries": 12
+  },
+  "search_queries": [
+    {
+      "sequence": 1,
+      "query": "\"SPE4A626PW775\""
+    },
+    {
+      "sequence": 2,
+      "query": "\"36C79126F0030\""
+    },
+    {
+      "sequence": 3,
+      "query": "\"75N98026F00268\""
+    },
+    {
+      "sequence": 4,
+      "query": "\"SPE4A626PW775\" site:dibbs2.bsm.dla.mil"
+    },
+    {
+      "sequence": 5,
+      "query": "\"75N98026F00268\" site:sam.gov"
+    },
+    {
+      "sequence": 6,
+      "query": "\"36C79126F0030\" site:va.gov"
+    },
+    {
+      "sequence": 7,
+      "query": "\"SPE4A626Q0688\" DLA PDF"
+    },
+    {
+      "sequence": 8,
+      "query": "\"RFQ1821947\" defibrillators"
+    },
+    {
+      "sequence": 9,
+      "query": "\"36C79123A0003\" price contract"
+    },
+    {
+      "sequence": 10,
+      "query": "\"36F79720D0041\" price pdf"
+    },
+    {
+      "sequence": 11,
+      "query": "\"36C79122Q0026\" attachments price"
+    },
+    {
+      "sequence": 12,
+      "query": "\"36F79719D0027\" price filetype:pdf"
+    }
+  ],
+  "api_or_document_operations": [
+    {
+      "sequence": 1,
+      "id": "official-search-filter-doc",
+      "method": "web_open",
+      "source_or_manifest": "api-date-filter-doc",
+      "outcome": "read"
+    },
+    {
+      "sequence": 2,
+      "id": "official-search-award-doc",
+      "method": "web_open",
+      "source_or_manifest": "api-award-search-doc",
+      "outcome": "read"
+    },
+    {
+      "sequence": 3,
+      "id": "sample-dla",
+      "method": "POST",
+      "source_or_manifest": "capture/manifest.json",
+      "outcome": "200"
+    },
+    {
+      "sequence": 4,
+      "id": "sample-va",
+      "method": "POST",
+      "source_or_manifest": "capture/manifest.json",
+      "outcome": "200"
+    },
+    {
+      "sequence": 5,
+      "id": "sample-hhs",
+      "method": "POST",
+      "source_or_manifest": "capture/manifest.json",
+      "outcome": "200"
+    },
+    {
+      "sequence": 6,
+      "id": "detail-dla",
+      "method": "GET",
+      "source_or_manifest": "detail-capture/manifest.json",
+      "outcome": "200"
+    },
+    {
+      "sequence": 7,
+      "id": "detail-va",
+      "method": "GET",
+      "source_or_manifest": "detail-capture/manifest.json",
+      "outcome": "200"
+    },
+    {
+      "sequence": 8,
+      "id": "detail-hhs",
+      "method": "GET",
+      "source_or_manifest": "detail-capture/manifest.json",
+      "outcome": "200"
+    },
+    {
+      "sequence": 9,
+      "id": "fbodaily",
+      "method": "web_open",
+      "source_or_manifest": "https://www.fbodaily.com/archive/2026/07-July/11-Jul-2026/53-awd.htm",
+      "outcome": "502; secondary list not acquired"
+    },
+    {
+      "sequence": 10,
+      "id": "nsnexplorer",
+      "method": "web_open",
+      "source_or_manifest": "https://nsnexplorer.com/nsn/5306-00-445-7358/",
+      "outcome": "retrieval failed; no content adopted"
+    },
+    {
+      "sequence": 11,
+      "id": "govtribe",
+      "method": "web_open",
+      "source_or_manifest": "https://govtribe.com/award/federal-contract-award/purchase-order-spe4a626pw775",
+      "outcome": "secondary award pointer read; no AI narrative adopted"
+    },
+    {
+      "sequence": 12,
+      "id": "sam-notice",
+      "method": "web_open",
+      "source_or_manifest": "https://sam.gov/opp/608918984f884356a70aa205469ea738/view",
+      "outcome": "JS shell only; original attachments not acquired"
+    },
+    {
+      "sequence": 13,
+      "id": "sam-directory-company",
+      "method": "web_open",
+      "source_or_manifest": "secondary company directory",
+      "outcome": "read; primary award superseded lead; no contact/address/person fields retained",
+      "locator_limit": "Exact URL not preserved in this selected log; used only as an unadopted discovery pointer, superseded by original award. No finding depends on it."
+    },
+    {
+      "sequence": 14,
+      "id": "dla-notice-get",
+      "method": "GET",
+      "source_or_manifest": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+      "outcome": "200 public notice"
+    },
+    {
+      "sequence": 15,
+      "id": "dla-notice-post",
+      "method": "POST",
+      "source_or_manifest": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+      "outcome": "200 PDF after ordinary public notice consent"
+    },
+    {
+      "sequence": 16,
+      "id": "trillamed-price-list",
+      "method": "GET",
+      "source_or_manifest": "schedule-document-attempts.json",
+      "outcome": "404"
+    },
+    {
+      "sequence": 17,
+      "id": "firstnation-price-list",
+      "method": "GET",
+      "source_or_manifest": "schedule-document-attempts.json",
+      "outcome": "404"
+    },
+    {
+      "sequence": 18,
+      "id": "va-bpa-parent",
+      "method": "GET",
+      "source_or_manifest": "parent-capture/manifest.json",
+      "outcome": "200"
+    },
+    {
+      "sequence": 19,
+      "id": "trillamed-price-list-retry",
+      "method": "web_open",
+      "source_or_manifest": "schedule-document-attempts.json:trillamed-fss",
+      "outcome": "404; one alternate retrieval attempt then stopped"
+    },
+    {
+      "sequence": 20,
+      "id": "va-catalog-9104886-initial",
+      "method": "web_open",
+      "source_or_manifest": "va-catalog-9104886",
+      "outcome": "read; output truncated before price/product fields"
+    },
+    {
+      "sequence": 21,
+      "id": "va-catalog-9104938-initial",
+      "method": "web_open",
+      "source_or_manifest": "va-catalog-9104938",
+      "outcome": "read; output truncated before price/product fields"
+    },
+    {
+      "sequence": 22,
+      "id": "va-catalog-9104886-lines",
+      "method": "web_open",
+      "source_or_manifest": "va-catalog-9104886",
+      "outcome": "read; wrong item for selected defibrillator order"
+    },
+    {
+      "sequence": 23,
+      "id": "va-catalog-9104938-lines",
+      "method": "web_open",
+      "source_or_manifest": "va-catalog-9104938",
+      "outcome": "read; wrong item for selected defibrillator order"
+    }
+  ],
+  "stopping_rule": "No further search queries after 12. Three samples and three candidate traces fixed. Stop blocked sources after one route plus at most one alternate retrieval; preserve named missing-record tasks. Two catalog reads repeated solely to inspect relevant lines. No nationwide completeness or absence-of-issue inference."
+}

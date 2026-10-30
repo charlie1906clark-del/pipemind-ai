@@ -1,0 +1,103 @@
+{
+  "as_of": "2026-10-30",
+  "queries": [
+    {
+      "sequence": 1,
+      "query": "\"Characteristics.zip\" \"publog\"",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 2,
+      "query": "\"Reference.zip\" \"publogstorage\"",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 3,
+      "query": "site:dla.mil \"Characteristics.zip\" download",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 4,
+      "query": "\"Characteristics.zip\" \"blob.core.windows.net\"",
+      "engine": "system2",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 5,
+      "query": "\"Reference.zip\" \"dla.mil\"",
+      "engine": "system2",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 6,
+      "query": "\"V_CHARACTERISTICS.CSV\" download",
+      "engine": "system2",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 7,
+      "query": "\"016864912\" site:mil",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 8,
+      "query": "\"5306016864912\" site:gov",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 9,
+      "query": "\"PUB LOG\" \"CSV\" \"https\" \"download\"",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 10,
+      "query": "\"Characteristics.zip\" \"download\" \"DLA\" -site:dla.mil",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 11,
+      "query": "\"publogstorage.blob.core.windows.net\" -PublogDVD.zip",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    },
+    {
+      "sequence": 12,
+      "query": "\"Reference.zip\" \"https\" \"FLIS\"",
+      "engine": "system1",
+      "result_scope": "No exact official selected NIIN record or observed CSV file download URL acquired. Official route/layout results retained; nonmatching results excluded."
+    }
+  ],
+  "document_open_attempts": [
+    {
+      "source": "BSF-S03",
+      "http_status": 403,
+      "ref": "turn254view0"
+    },
+    {
+      "source": "BSF-S02",
+      "http_status": 403,
+      "ref": "turn254view1"
+    }
+  ],
+  "search_queries_used": 12,
+  "search_query_limit": 12,
+  "new_document_reads_or_attempts": 2,
+  "document_limit": 20,
+  "bulk_archive_bytes_downloaded": 0,
+  "new_software_installed": false,
+  "executables_run": false,
+  "guessed_download_urls_used": false,
+  "site_access_bypass_attempted": false,
+  "environment_check": {
+    "wine_available": false,
+    "wine64_available": false
+  },
+  "conclusion_scope": "Bounded unsuccessful acquisition; no assertion that the public record does not exist or is unavailable to other clients."
+}

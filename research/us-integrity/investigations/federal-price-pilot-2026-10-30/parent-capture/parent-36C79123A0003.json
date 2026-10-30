@@ -1,0 +1,88 @@
+{
+  "id": 350981346,
+  "generated_unique_award_id": "CONT_IDV_36C79123A0003_3600",
+  "piid": "36C79123A0003",
+  "category": "idv",
+  "type": "IDV_E",
+  "type_description": "BPA",
+  "description": "POSITIVE AIRWAY PRESSURE (PAP) DEVICES AND ACCESSORIES FOR PATIENT ISSUANCE.",
+  "date_signed": "2022-11-18",
+  "total_obligation": 0.0,
+  "total_outlay": null,
+  "period_of_performance": {
+    "start_date": "2022-12-01",
+    "end_date": "2026-11-30",
+    "last_modified_date": "2026-05-28",
+    "potential_end_date": null
+  },
+  "awarding_agency": {
+    "id": 561,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Veterans Affairs",
+      "code": "036",
+      "abbreviation": "VA",
+      "slug": "department-of-veterans-affairs"
+    },
+    "subtier_agency": {
+      "name": "Department of Veterans Affairs",
+      "code": "3600",
+      "abbreviation": "VA"
+    },
+    "office_agency_name": "COMMODITIES & SERVICES ACQUISITION SERVICE (36C791)"
+  },
+  "funding_agency": {
+    "id": 561,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Veterans Affairs",
+      "code": "036",
+      "abbreviation": "VA",
+      "slug": "department-of-veterans-affairs"
+    },
+    "subtier_agency": {
+      "name": "Department of Veterans Affairs",
+      "code": "3600",
+      "abbreviation": "VA"
+    },
+    "office_agency_name": "COMMODITIES & SERVICES ACQUISITION SERVICE (36C791)"
+  },
+  "parent_award": {
+    "agency_id": 561,
+    "agency_name": "Department of Veterans Affairs",
+    "agency_slug": "department-of-veterans-affairs",
+    "sub_agency_id": "3600",
+    "sub_agency_name": "Department of Veterans Affairs",
+    "award_id": 350982242,
+    "generated_unique_award_id": "CONT_IDV_36F79719D0027_3600",
+    "idv_type_description": "FSS",
+    "multiple_or_single_aw_desc": "MULTIPLE AWARD",
+    "piid": "36F79719D0027",
+    "type_of_idc_description": null
+  },
+  "recipient": {
+    "recipient_hash": "48b0e8ee-5d59-6197-6d43-8871927ecab0-C",
+    "recipient_name": "FIRST NATION GROUP LLC",
+    "recipient_uei": "Z3BPH2N9K1L9",
+    "recipient_unique_id": null,
+    "parent_recipient_name": "FIRST NATION GROUP LLC",
+    "parent_recipient_uei": "Z3BPH2N9K1L9",
+    "parent_recipient_unique_id": null
+  },
+  "latest_transaction_contract_data": {
+    "solicitation_identifier": "36C79122Q0026",
+    "solicitation_procedures": "MAFO",
+    "number_of_offers_received": "3",
+    "extent_competed": "A",
+    "type_set_aside": null,
+    "type_set_aside_description": null,
+    "product_or_service_code": "6515",
+    "naics_description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING",
+    "cost_or_pricing_data": null,
+    "type_of_contract_pricing": "J",
+    "solicitation_procedures_description": "SUBJECT TO MULTIPLE AWARD FAIR OPPORTUNITY",
+    "extent_competed_description": "FULL AND OPEN COMPETITION",
+    "cost_or_pricing_data_description": null,
+    "type_of_contract_pricing_description": "FIRM FIXED PRICE"
+  }
+}

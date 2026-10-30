@@ -21,6 +21,21 @@
       "review_status": "accepted_for_public_graph",
       "reviewed_at": "2026-10-30",
       "review_note": "Independent reviews accept the bounded neutral trace and expanded price-fairness challenge. Seven historical PIIDs, five dated CAGE\u2013UEI links and one current priced order remain distinct from market fairness and buyer independence, which are unresolved. Three provisional catalog candidates yield zero qualified comparators and no premium, payment, loss or benefit estimate. Synthetic calculator scenarios have no money-export fields. Partial public catalog metadata and selected readme bytes establish an accessible reader route, not an extracted exact NIIN record. Source digests distinguish selected facts/renders from unarchived original bytes. The two full current PDFs remain excluded. Existing evidence captures and prior review receipts are unchanged; no new fraud finding or external-model execution is asserted."
+    },
+    {
+      "path": "investigations/price-agent-system-2026-10-30/graph-extension.json",
+      "sha256": "ba9d8ce06c56de9e9fd6607827ec5f6ec13bb017fd663938009853bdc8dee2e2",
+      "review_status": "accepted_for_public_graph",
+      "reviewed_at": "2026-10-30",
+      "review_note": "Root review and independent integration checks accept narrowly scoped public observations and executable local workflow. Thirty incomplete sampled awards, two original awarded lines, contractual supplier roles, one instrument-scoped professional role and four accepted observation packets remain distinct from qualified price benchmarks, actual payments, buyer benefit and fraud. All 156 dependency pins and prior 151 independent review pins verified. Synthetic recurrence examples have no actual-money fields. Direct tracer trial acquired no documents; local replay made no new HTTP requests. Plans, later waves and external-model assignments are not represented as executed. Existing three extension bytes are unchanged.",
+      "integration_checks": {
+        "path": "price-agents/review/graph-integration-checks.json",
+        "sha256": "e9b9260f1e0024bd1cd3e6ba1faa612a580595cb393beb3a604fd2171ad2bc72"
+      },
+      "independent_review": {
+        "path": "price-agents/review/graph-integration-review-v2.json",
+        "sha256": "f517edeaeb80ac9837540c668452c8815f8b3c5549556f37dc92d86155140ef6"
+      }
     }
   ]
 }

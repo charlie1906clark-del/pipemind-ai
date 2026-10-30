@@ -1,0 +1,49 @@
+[
+  {
+    "id": "TP-COMPANY-DON",
+    "url": "https://donindustrialgroup.com/about",
+    "publisher": "Don Industrial Group",
+    "retrieval_scope": "Full page opened; analyst-selected paraphrase only",
+    "accessed_on": "2026-10-30",
+    "selected_facts": [
+      "Site displays CAGE 745V4 and describes distribution of aerospace/defense parts, custom packaging and long-term fixed prices."
+    ],
+    "limits": "Company marketing does not establish supplier cost, discount or shipment on this order."
+  },
+  {
+    "id": "TP-COMPANY-PB",
+    "url": "https://www.pccfasteners.com/companies/pcc-fasteners/pb-fasteners.html",
+    "publisher": "PCC Fasteners",
+    "retrieval_scope": "Full page opened; analyst-selected paraphrase only",
+    "accessed_on": "2026-10-30",
+    "selected_facts": [
+      "PCC Fasteners lists PB Fasteners as a company and describes airframe structural nuts and bolts in Gardena, California."
+    ],
+    "limits": "No CAGE on the retained page observation; PB Fasteners has not been joined into the award graph by a unique identifier."
+  },
+  {
+    "id": "TP-CANDIDATE-FL",
+    "url": "https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l10000120053-f1f6ee9a-e912-456e-8731-47dcc778c29f&directionType=ForwardList&inquirytype=EntityName&listNameOrder=DONIM+S545370&searchNameOrder=DONINDUSTRIALGROUP+L100001200530&searchTerm=DONIS+TRANSPORT+INC.",
+    "publisher": "Florida Division of Corporations",
+    "retrieval_scope": "Official search-index extract used; subsequent open response not used for facts because the tool output was unavailable after truncation",
+    "accessed_on": "2026-10-30",
+    "selected_facts": [
+      "Florida document L10000120053 names DON INDUSTRIAL GROUP LLC.",
+      "Filing and effective date 2010-11-18; name-change event 2016-06-23.",
+      "Search-index extract shows active status and annual report dates 2024-04-25, 2025-04-29 and 2026-04-30.",
+      "Public authorized-person role: REINIER HERNANDEZ, title MGR."
+    ],
+    "limits": "Candidate state-filing entity remains separate. No retained official federal-ID/state-document crosswalk. Manager is not asserted to be owner, buyer, signatory, price evaluator or beneficiary. Role start/end and role at 2026-07-09 are unknown. No personal contact or address fields retained."
+  },
+  {
+    "id": "TP-COMPANY-BERKSHIRE",
+    "url": "https://www.berkshirehathaway.com/subs/sublinks.html",
+    "publisher": "Berkshire Hathaway",
+    "retrieval_scope": "Official search-index extract used; subsequent open response not used after output truncation",
+    "accessed_on": "2026-10-30",
+    "selected_facts": [
+      "The issuer subsidiary directory lists Precision Castparts Corp."
+    ],
+    "limits": "Not used to fill missing SPS-to-PCC legal-chain edges or to assert any percentage ownership on the award date."
+  }
+]

@@ -1,0 +1,344 @@
+{
+  "results": [
+    {
+      "internal_id": 360627338,
+      "Award ID": "36C10X26K0383",
+      "generated_internal_id": "CONT_AWD_36C10X26K0383_3600_36C10X23D0032_3600",
+      "Recipient Name": "MEDLINE INDUSTRIES, LP",
+      "Recipient UEI": "DMPAKJ9N9K66",
+      "recipient_id": "e69126ba-ae4e-13a4-4552-7eae9f4ad09d-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-06-01",
+      "Base Obligation Date": "2026-07-20",
+      "End Date": "2026-06-30",
+      "Award Amount": 80581144.0,
+      "Total Outlays": null,
+      "Description": "EXPRESS REPORT: MEDICAL SURGICAL PRIME VENDOR EXPENDITURES FOR THE MONTH OF JUNE 2026",
+      "Place of Performance State Code": "IL",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "423450",
+        "description": "MEDICAL, DENTAL, AND HOSPITAL EQUIPMENT AND SUPPLIES MERCHANT WHOLESALERS"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-20 11:42:59",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360447295,
+      "Award ID": "36C79126F0030",
+      "generated_internal_id": "CONT_AWD_36C79126F0030_3600_36C79123A0003_3600",
+      "Recipient Name": "FIRST NATION GROUP LLC",
+      "Recipient UEI": "Z3BPH2N9K1L9",
+      "recipient_id": "48b0e8ee-5d59-6197-6d43-8871927ecab0-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-07-17",
+      "Base Obligation Date": "2026-07-17",
+      "End Date": "2026-08-17",
+      "Award Amount": 10601525.7,
+      "Total Outlays": 10601525.7,
+      "Description": "POSITIVE AIRWAY PRESSURE (PAP) DEVICES AND ACCESSORIES FOR PATIENT ISSUANCE FSS, JULY BPA TASK ORDER",
+      "Place of Performance State Code": null,
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339112",
+        "description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "BPA CALL",
+      "Last Modified Date": "2026-09-28 13:43:25",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360627339,
+      "Award ID": "36C10X26K0384",
+      "generated_internal_id": "CONT_AWD_36C10X26K0384_3600_36C10X23D0030_3600",
+      "Recipient Name": "CONCORDANCE HEALTHCARE SOLUTIONS LLC",
+      "Recipient UEI": "P97LZ4HFWSA6",
+      "recipient_id": "483fcd36-7ef2-ce58-3713-54a7bbd458f8-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-06-01",
+      "Base Obligation Date": "2026-07-20",
+      "End Date": "2026-06-30",
+      "Award Amount": 5852398.0,
+      "Total Outlays": null,
+      "Description": "EXPRESS REPORT: MEDICAL SURGICAL PRIME VENDOR EXPENDITURES FOR THE MONTH OF JUNE 2026",
+      "Place of Performance State Code": "OH",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "423450",
+        "description": "MEDICAL, DENTAL, AND HOSPITAL EQUIPMENT AND SUPPLIES MERCHANT WHOLESALERS"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-20 11:49:29",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360985107,
+      "Award ID": "36C26326F0110",
+      "generated_internal_id": "CONT_AWD_36C26326F0110_3600_HHSN316201500032W_7529",
+      "Recipient Name": "ALVAREZ LLC",
+      "Recipient UEI": "Y928UVG75CT6",
+      "recipient_id": "d55dabdb-0c89-b6e8-e4f5-5817d2be7b63-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-07-31",
+      "Base Obligation Date": "2026-07-31",
+      "End Date": "2026-12-01",
+      "Award Amount": 4268159.9,
+      "Total Outlays": null,
+      "Description": "CARE FUSION PYXIS UPGRADE FOR MINN MN AND OMAHA NE",
+      "Place of Performance State Code": "MN",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "541519",
+        "description": "OTHER COMPUTER RELATED SERVICES"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-31 11:59:10",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360903015,
+      "Award ID": "36C10X26K0376",
+      "generated_internal_id": "CONT_AWD_36C10X26K0376_3600_36C10G22D0031_3600",
+      "Recipient Name": "TRILLAMED LLC",
+      "Recipient UEI": "GW9FLBWB5625",
+      "recipient_id": "45e59e37-b289-1207-3481-6c9bea251dd8-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-06-01",
+      "Base Obligation Date": "2026-07-28",
+      "End Date": "2026-06-30",
+      "Award Amount": 4222996.17,
+      "Total Outlays": null,
+      "Description": "EXPRESS REPORT: NX ORDERS PLACED FOR THE MONTH OF JUNE 2026",
+      "Place of Performance State Code": "MI",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "334510",
+        "description": "ELECTROMEDICAL AND ELECTROTHERAPEUTIC APPARATUS MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-09-16 11:54:06",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360959858,
+      "Award ID": "36C24626F0162",
+      "generated_internal_id": "CONT_AWD_36C24626F0162_3600_NNG15SD19B_8000",
+      "Recipient Name": "ALVAREZ LLC",
+      "Recipient UEI": "Y928UVG75CT6",
+      "recipient_id": "d55dabdb-0c89-b6e8-e4f5-5817d2be7b63-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-07-30",
+      "Base Obligation Date": "2026-07-30",
+      "End Date": "2027-01-30",
+      "Award Amount": 3331969.42,
+      "Total Outlays": null,
+      "Description": "TELEMETRY PATIENT MONITOR UPGRADE",
+      "Place of Performance State Code": "VA",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "541519",
+        "description": "OTHER COMPUTER RELATED SERVICES"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-30 16:47:35",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360208699,
+      "Award ID": "36C79126F0029",
+      "generated_internal_id": "CONT_AWD_36C79126F0029_3600_36C79123A0002_3600",
+      "Recipient Name": "MEDICAL PLACE INC",
+      "Recipient UEI": "YNMDHJ4MWM98",
+      "recipient_id": "78ae7b8d-4fea-93a6-9e16-b31d62927309-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-07-15",
+      "Base Obligation Date": "2026-07-14",
+      "End Date": "2026-08-14",
+      "Award Amount": 3282473.8,
+      "Total Outlays": 3282473.8,
+      "Description": "POSITIVE AIRWAY PRESSURE (PAP) DEVICES AND ACCESSORIES BPA - JULY BPA TASK ORDER",
+      "Place of Performance State Code": null,
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339112",
+        "description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "BPA CALL",
+      "Last Modified Date": "2026-09-28 13:45:09",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360928998,
+      "Award ID": "36C26126F0310",
+      "generated_internal_id": "CONT_AWD_36C26126F0310_3600_36F79720D0041_3600",
+      "Recipient Name": "TRILLAMED LLC",
+      "Recipient UEI": "GW9FLBWB5625",
+      "recipient_id": "45e59e37-b289-1207-3481-6c9bea251dd8-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-07-29",
+      "Base Obligation Date": "2026-07-29",
+      "End Date": "2026-12-28",
+      "Award Amount": 2941141.36,
+      "Total Outlays": null,
+      "Description": "INSTALLATION OF 22 SURGICAL BOOMS. EO 14398",
+      "Place of Performance State Code": "NV",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339113",
+        "description": "SURGICAL APPLIANCE AND SUPPLIES MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-29 16:19:32",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360903016,
+      "Award ID": "36C10X26K0377",
+      "generated_internal_id": "CONT_AWD_36C10X26K0377_3600_36C10G23D0031_3600",
+      "Recipient Name": "WELCH ALLYN, INC.",
+      "Recipient UEI": "DB5HN4VWDBU5",
+      "recipient_id": "b4f701b0-228a-65f1-6d13-b5e3225f057f-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-06-01",
+      "Base Obligation Date": "2026-07-28",
+      "End Date": "2026-06-30",
+      "Award Amount": 2236874.48,
+      "Total Outlays": null,
+      "Description": "EXPRESS REPORT: NX ORDERS PLACED FOR THE MONTH OF JUNE 2026",
+      "Place of Performance State Code": "NY",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339112",
+        "description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-09-16 11:53:02",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    },
+    {
+      "internal_id": 360985149,
+      "Award ID": "36C79126K0111",
+      "generated_internal_id": "CONT_AWD_36C79126K0111_3600_36C79123D0005_3600",
+      "Recipient Name": "ADCO MEDICAL SUPPLIERS, LLC",
+      "Recipient UEI": "UUEHQ6N4GG25",
+      "recipient_id": "5167c4d1-437d-9757-cb79-fdb466e54bc0-C",
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Agency Code": "036",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency Code": "3600",
+      "Funding Agency": "Department of Veterans Affairs",
+      "Funding Sub Agency": "Department of Veterans Affairs",
+      "Start Date": "2026-03-01",
+      "Base Obligation Date": "2026-07-31",
+      "End Date": "2026-06-30",
+      "Award Amount": 2050306.82,
+      "Total Outlays": null,
+      "Description": "EXPRESS REPORT MARCH-JUNE 2026",
+      "Place of Performance State Code": "CO",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "334510",
+        "description": "ELECTROMEDICAL AND ELECTROTHERAPEUTIC APPARATUS MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-31 14:35:45",
+      "awarding_agency_id": 561,
+      "agency_slug": "department-of-veterans-affairs"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": true,
+    "last_record_unique_id": 360985149,
+    "last_record_sort_value": "205030682"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ],
+  "limit": 10
+}

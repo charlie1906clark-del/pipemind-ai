@@ -1,0 +1,73 @@
+{
+  "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+  "original_pdf_sha256": "737e8d1eb1b78d2d8a9d02ec81dc49d9a0e56182b7f0aceb48f2e61fb88a3759",
+  "original_bytes": 88522,
+  "original_archived_in_public_repo": false,
+  "source_pages_visual_checked": [
+    4,
+    5,
+    11
+  ],
+  "selected_artifacts": [
+    {
+      "path": "selected/dla-award-page1-role-selected.txt",
+      "sha256": "a1357e85137b2c5d7b6f76753d7c38dbe828e6ac8139949f2c4a9b017377dc42",
+      "bytes": 500,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page11-first-article-selected.txt",
+      "sha256": "2451f6b224338a33b745a5fa89e370dcea592a90e04105e59212e40586c1da0e",
+      "bytes": 1673,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page2.txt",
+      "sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff",
+      "bytes": 1117,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page3.txt",
+      "sha256": "ea890b6d25f7ff983162d71de16b265ba4fa88ea9c627b673d7e41ae99e95beb",
+      "bytes": 3070,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page4.png",
+      "sha256": "7eb1aa24722bdbafb88bfa50d11dbcedf618fc926fe43d9aeae797b74d3bc8c2",
+      "bytes": 172815,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page4.txt",
+      "sha256": "2a4198fba2fed895b47fa557d763af8beb819f915b8ed875fd849ea2e6500d9b",
+      "bytes": 2504,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page5-first-article.png",
+      "sha256": "a784840e7e08d47d7e2e9756cf4bd728e558660c59924d559d058216aefb2c3a",
+      "bytes": 21579,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page5-selected.txt",
+      "sha256": "264772e6c86d41d608cf76c57c11cd3cb7344ad55ef80dc0f8b8a54791fbb857",
+      "bytes": 1172,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page6.txt",
+      "sha256": "285b5ec67cc5a099e9fc1cd8e9b30f044c21c29271aa0f6e94c6e2bbcd56380c",
+      "bytes": 1059,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    },
+    {
+      "path": "selected/dla-award-page7-e08-selected.txt",
+      "sha256": "106ec6568b641ed27f8435dbf7c3a56a00be6352433c0d576002e6a28c59c700",
+      "bytes": 1529,
+      "scope": "Selected source text or rendered source page/crop; not complete original PDF"
+    }
+  ]
+}

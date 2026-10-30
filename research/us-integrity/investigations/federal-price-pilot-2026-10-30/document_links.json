@@ -1,0 +1,55 @@
+{
+  "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+  "extraction_scope": "HTTP(S) URLs visible in full15-page PDF text, with wrapped unit-workbook URL joined. Not a crawl of external sites or all nested links.",
+  "links": [
+    {
+      "url": "http://www.dla.mil/aviation/business/industryresources/dlaresourcesforsuppliers/daans.aspx",
+      "page": 2,
+      "role": "Incorporated DLA Aviation notices",
+      "status": "not_fetched_in_bounded_pass; governing notice versions needed for full terms replay"
+    },
+    {
+      "url": "http://www.dla.mil/HQ/Acquisition/Offers/eProcurement.aspx",
+      "page": 3,
+      "role": "DLA master technical and quality requirements",
+      "status": "not_fetched_in_bounded_pass; revision depends on solicitation/award rules stated in source"
+    },
+    {
+      "url": "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.dla.mil%2FPortals%2F104%2FDocuments%2FDLMS%2FeApplications%2FLogDataAdmin%2FUnit_of_Issue_and_Purchase_Unit.xlsx&wdOrigin=BROWSELINK",
+      "page": 4,
+      "role": "DLA-to-ANSI unit-of-issue mapping workbook viewer",
+      "status": "not_fetched; exact source line unit EA already legible; no conversion performed"
+    },
+    {
+      "url": "https://www.sam.gov",
+      "page": 9,
+      "role": "General contractor registration instruction",
+      "status": "not_award_specific_transaction_link; no account operation"
+    },
+    {
+      "url": "https://wawf.eb.mil/",
+      "page": 9,
+      "role": "General invoice/receiving report submission system instruction",
+      "status": "no access attempted; clause is not evidence that a payment or receiving report was filed"
+    },
+    {
+      "url": "https://www.acquisition.gov/?q=browsefar",
+      "page": 15,
+      "role": "General FAR incorporated-clause reference",
+      "status": "not_fetched; contract-specific inserted52.209-4 text read on page11"
+    },
+    {
+      "url": "https://www.acq.osd.mil/dpap/dars/dfarspgi/current/index.html",
+      "page": 15,
+      "role": "General DFARS reference",
+      "status": "not_fetched; not award-specific payment data"
+    },
+    {
+      "url": "http://www.dla.mil/HQ/Acquisition/Offers/DLAD.aspx",
+      "page": 15,
+      "role": "General DLA acquisition clauses reference",
+      "status": "not_fetched; not award-specific payment data"
+    }
+  ],
+  "non_url_references": "Drawing/QAP identifiers on page4 retained as specification references. Technical data packages and restricted drawings were not acquired."
+}

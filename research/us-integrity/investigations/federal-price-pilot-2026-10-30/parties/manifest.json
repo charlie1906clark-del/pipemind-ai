@@ -1,0 +1,110 @@
+{
+  "as_of": "2026-10-30",
+  "hash_scope": "Exact bytes of retained local artifacts, not a claim to archive full websites or original PDF",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "sha256": "306d89544144c3fac6d13d8a6af1ee5771d7a2a8d768b190d82388642ceba191",
+      "bytes": 3824
+    },
+    {
+      "path": "acquire_parties.py",
+      "sha256": "2f34356030d611a32d64f30c86e69eb5b35413124616f9a51aa16dd9e62cfddd",
+      "bytes": 5122
+    },
+    {
+      "path": "acquisition_log.json",
+      "sha256": "d68d58f77fc8f36981542ffbc3d3d66b9bc220e9d3bf7f0f2f3d44c1bc74695e",
+      "bytes": 3370
+    },
+    {
+      "path": "build_bundle.py",
+      "sha256": "1c417e421b12fc102e8a334860c60d28b9376bc7844e7ad444850f70916cba73",
+      "bytes": 22884
+    },
+    {
+      "path": "cage-27624-selected.json",
+      "sha256": "a3c914973ba7c302de56bd9baf179000c3a46453dcbaddb2fae565f35bef6622",
+      "bytes": 509
+    },
+    {
+      "path": "cage-745V4-selected.json",
+      "sha256": "e3707acdfed07469aaba2040ed49828fbf736c88a2e965f730bab4baaaf93614",
+      "bytes": 514
+    },
+    {
+      "path": "context-notes.json",
+      "sha256": "2f78b8f6b8dc21a36c45d6dc35a0a3a1bcf8c364f2e74fa603d48df0643dcd89",
+      "bytes": 2867
+    },
+    {
+      "path": "finding.json",
+      "sha256": "d0fa3bdbb8c72a1a9e4cc51c4319493e439c5d287004963859579790047f2289",
+      "bytes": 2458
+    },
+    {
+      "path": "graph.json",
+      "sha256": "17b7621a1519a2c2fabb58e90c7457d4d5fa878bcfe8ea0f67abdc96bbd92648",
+      "bytes": 11646
+    },
+    {
+      "path": "identity-decisions.json",
+      "sha256": "bdfa5bc7d6c2e81a605d90732dcd7c176bb6ac06115ffdd3d9ccebc49dc78bf3",
+      "bytes": 1705
+    },
+    {
+      "path": "profile-27624-selected.json",
+      "sha256": "9c12e57077d99d96aaf713c9d967380b96fd9dbad9886ee0214cafa42a834ae5",
+      "bytes": 408
+    },
+    {
+      "path": "profile-745V4-selected.json",
+      "sha256": "1e7b12a70c69f9a142ece1f4237bac981e22bce973112a349a1d90a8e114d234",
+      "bytes": 382
+    },
+    {
+      "path": "research-budget.json",
+      "sha256": "73f90305ffa841d0a1e709f1e8ca25c0e8f6414abea1c3c6eb59add4bfb66c00",
+      "bytes": 2272
+    },
+    {
+      "path": "sources.json",
+      "sha256": "d447e1197b7ceb77ac33178f509c9330afdea5f7e4afb6e6547c9626b9fb0aca",
+      "bytes": 4925
+    },
+    {
+      "path": "sps-recipient-query.json",
+      "sha256": "1e885d825e28e3cab5f115773cfe95cd866ca255a80f3a5cf1728a024d05fe96",
+      "bytes": 317
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "b1befc92b5fa7c4853b8025cc477ffa4d30e6c4ca61fcb60c62affcfb4797032",
+      "bytes": 1298
+    },
+    {
+      "path": "unresolved.json",
+      "sha256": "f542b589a7154c8ebe76a42f0fdf6a48470cf6b155a1d6dc3ba6e6fc75b68274",
+      "bytes": 1885
+    },
+    {
+      "path": "validate_parties.py",
+      "sha256": "d0457074cf95ce3b04987e2b9ed0b71e6f8e3cda8af6269c24b1cd77778207c0",
+      "bytes": 5469
+    }
+  ],
+  "upstream_source_files": [
+    {
+      "path": "../selected/dla-award-page1-role-selected.txt",
+      "sha256": "a1357e85137b2c5d7b6f76753d7c38dbe828e6ac8139949f2c4a9b017377dc42"
+    },
+    {
+      "path": "../selected/dla-award-page2.txt",
+      "sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff"
+    },
+    {
+      "path": "../detail-capture/detail-SPE4A626PW775.json",
+      "sha256": "ac43b78c6d6fca871417142aeddef27144905131323a27d73c5c887675713638"
+    }
+  ]
+}

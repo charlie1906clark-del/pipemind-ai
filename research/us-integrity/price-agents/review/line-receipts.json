@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-30",
+  "scope": "Independent agent-lane review of this exact packet; no agency certification",
+  "state_file": "research/us-integrity/price-agents/runs/current-run/line-state.json",
+  "state_sha256": "6d9314ef3f0d7e452a0aa84754bd8e0814ac3da5d2860ce883db5a8c6bcb9e5d",
+  "receipts": [
+    {
+      "review_id": "PA-W1-LINE-DLA-REVIEW-REDTEAM-01",
+      "result_id": "PA-W1-LINE-DLA-RESULT-01",
+      "reviewer": "price-agents-redteam",
+      "result_sha256": "9a6eaf7badeaeed189a639841c2295fc0c69badce592c83bfb3db27745254c9e",
+      "decision": "accepted",
+      "checks": {
+        "provenance": "All three selected source artifacts match the original-document selection manifest and original retrieval timestamp. Page4 image and page5 first-article crop were independently visually inspected; page2 selected source text supports intended dealer/manufacturer. Local reuse adds zero HTTP calls.",
+        "comparability": "Exact NSN5306004457358 and PN39-8820-501 observed. Production and test requirement remain separate; no equivalent external offer qualified. The earlier0.91-dollar NSN is a different item.",
+        "alternative_explanations": "The3500-dollar difference is the explicit separate test line; technical/quality/delivery obligations remain material. No fairness or wrongdoing inference follows from price level or named supplier alone.",
+        "amount_basis": "2243EA times272.99 equals612316.57; separate3500test requirement gives615816.57. This is awarded contract value, not paid cash, supplier cost, excess, buyer benefit or loss.",
+        "privacy": "Selected technical/business records omit contact/address blocks. Intended supplier identity is not a payee assertion; no individual benefit or misconduct is claimed."
+      },
+      "reason": "Accept the exact awarded-line and contractually intended supplier observations. Keep pricing unqualified and benefit unresolved; acceptance permits exact-item specification/benchmark work only."
+    }
+  ]
+}

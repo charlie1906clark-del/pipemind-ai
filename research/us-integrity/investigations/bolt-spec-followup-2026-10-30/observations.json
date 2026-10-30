@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-10-30",
+  "nsn": "5306016864912",
+  "niin": "016864912",
+  "actual_primary_characteristic_rows_acquired": 0,
+  "actual_primary_reference_rows_acquired": 0,
+  "exact_specification_match": null,
+  "price_comparison_qualified": false,
+  "price_premium": null,
+  "buyer_benefit": null,
+  "observations": [
+    {
+      "id": "BSF-OBS-01",
+      "status": "source_reported_schema",
+      "fact": "Official dated CSV layouts identify the exact target table fields and reference qualifiers.",
+      "sources": [
+        "BSF-S02",
+        "BSF-S03"
+      ],
+      "limits": "Layout source is indexed text; original PDFs returned403. Schema is not an item record or proof of current release contents."
+    },
+    {
+      "id": "BSF-OBS-02",
+      "status": "documented_prior_route",
+      "fact": "The prior public archive capture includes native V_CHARACTERISTICS.TAB and V_FLIS_PART.TAB and supplied DECOMP extraction instructions.",
+      "sources": [
+        "BSF-S05"
+      ],
+      "limits": "No selected NIIN export performed; a compatible runtime is absent here."
+    },
+    {
+      "id": "BSF-OBS-03",
+      "status": "implemented_control",
+      "fact": "Strict offline parser accepts authentic supplied CSV/pipe exports through hash-bound declared receipts, preserving exact NIIN and reference qualifiers.",
+      "artifact": "parse_publog_export.py",
+      "limits": "Parser validates syntax and declared provenance, not source authenticity, historical applicability or technical equivalence."
+    }
+  ],
+  "next_tasks": [
+    "BSF-CHAR-001",
+    "BSF-REF-001"
+  ],
+  "new_fraud_established": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "SPS TECHNOLOGIES LLC",
+  "alternate_names": [
+    "SPS TECHNOLOGIES, LLC"
+  ],
+  "uei": "E6KFWWNKEQ49",
+  "recipient_id": "1929fdbf-6f79-2f71-1ac1-d95e6ea952f5-C",
+  "recipient_level": "C",
+  "parent_id": "46e3660a-8440-e814-ec44-942a16dba54f-P",
+  "parent_name": "BERKSHIRE HATHAWAY INC.",
+  "parent_uei": "UU26FKF1MML6",
+  "location": {
+    "state_code": "CA",
+    "country_code": "USA"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "checked_on": "2026-10-30",
+  "hostname": "www.usaspending.gov",
+  "operation": "system socket.getaddrinfo",
+  "outcome": "gaierror",
+  "errno": -3,
+  "message": "Temporary failure in name resolution",
+  "http_requests": 0,
+  "meaning": "Independent direct-system DNS diagnostic confirms this environment did not resolve the public host; no conclusion about source availability elsewhere."
+}
