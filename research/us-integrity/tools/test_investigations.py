@@ -95,6 +95,30 @@ class InvestigationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "reviewed input changed"):
             self.load()
 
+    def test_agent_code_pin_is_verified_without_broadening_to_arbitrary_files(self):
+        p = self.root / "price-agents/runtime/worker.py"
+        p.parent.mkdir(parents=True)
+        p.write_text('VERSION = 1\n')
+        self.extension["input_artifacts"] = [dict(path="price-agents/runtime/worker.py",
+            sha256=hashlib.sha256(p.read_bytes()).hexdigest())]
+        self.approve()
+        self.assertEqual(self.load()[0]["nodes"], 1)
+        p.write_text('VERSION = 2\n')
+        with self.assertRaisesRegex(ValueError, "reviewed input changed"):
+            self.load()
+
+    def test_agent_code_symlink_cannot_escape_approved_roots(self):
+        p = self.root / "price-agents/elsewhere.txt"
+        p.parent.mkdir()
+        outside = self.root / "data/not-evidence.txt"
+        outside.write_text('not an approved evidence/code input')
+        p.symlink_to(outside)
+        self.extension["input_artifacts"] = [dict(path="price-agents/elsewhere.txt",
+            sha256=hashlib.sha256(outside.read_bytes()).hexdigest())]
+        self.approve()
+        with self.assertRaisesRegex(ValueError, "escapes approved"):
+            self.load()
+
     def test_dangling_provenance_fails_without_partial_append(self):
         self.record["source_ids"] = ["missing-source"]
         self.approve()

@@ -1,0 +1,64 @@
+{
+  "as_of": "2026-10-30",
+  "queries": [
+    {
+      "query": "\"SPE4A626V138W\"",
+      "engine": "system2",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "\"SPE4A626P5931\"",
+      "engine": "system2",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "\"SPE4A625V346U\"",
+      "engine": "system2",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "\"SPE4A625V252D\"",
+      "engine": "system2",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "\"SPE4A625V208Q\"",
+      "engine": "system2",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "\"SPE4A625PK654\"",
+      "engine": "system2",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "\"SPE4A625V4508\"",
+      "engine": "system2",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "site.dibbs.bsm.dla.mil awards awdrec contract number pdf award download DLA",
+      "engine": "system1",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "site.dibbs2.bsm.dla.mil \"Downloads/Awards\"",
+      "engine": "system1",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "site.dibbs.bsm.dla.mil \"120 days\" awards",
+      "engine": "system1",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    },
+    {
+      "query": "site.dibbs.bsm.dla.mil \"SPE4A626V138W\"",
+      "engine": "system1",
+      "purpose": "Source discovery; secondary pages not promoted to authoritative award facts"
+    }
+  ],
+  "search_count": 11,
+  "secondary_source_status": "URLs and keys discovered only; no mirror-generated award, ownership, payment, duration or fraud claim accepted as fact.",
+  "novelty_search_completed": false,
+  "scope": "Exact seven-key public record trace, not comprehensive fraud-enforcement search."
+}

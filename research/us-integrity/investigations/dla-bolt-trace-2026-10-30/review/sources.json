@@ -1,0 +1,123 @@
+{
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "id": "BR-S01",
+      "title": "Original DLA RFQ SPE4A6-26-U-3619",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/RFQ/9/SPE4A626U3619.PDF",
+      "publication_date": "2026-09-03",
+      "accessed_at": "2026-10-30",
+      "authority": "official_agency_solicitation",
+      "path": "../../discovery-policy-2026-10-30/pricing/snapshots/SPE4A626U3619.pdf",
+      "sha256": "4a3996d9aca0fac0b32ea1cebfe8833fdbb144de33dc0af2739d0269b037ac51",
+      "bytes_archived": true,
+      "locators": [
+        "p2: maximum and estimated quantity; unilateral IDC formation",
+        "pp7\u20138: seven procurement-history rows",
+        "p8: current FDT / FOB origin",
+        "p9: standard reference, technical requirements, blank current prices",
+        "p10: current delivery, inspection and packaging"
+      ],
+      "verification": "Independently rendered and visually inspected pages7\u201310; separately extracted page2 text; full PDF SHA checked",
+      "limits": "Solicitation, not award, invoice or proof of actual receipt/payment; does not supply historical CLIN terms"
+    },
+    {
+      "id": "BR-S02",
+      "title": "NSN Explorer secondary listing for 5306-01-686-4912",
+      "url": "https://nsnexplorer.com/nsn/5306-01-686-4912/",
+      "accessed_at": "2026-10-30",
+      "authority": "secondary_listing",
+      "bytes_archived": false,
+      "web_ref": "turn200view0",
+      "locators": [
+        "Price table and related contract actions",
+        "Manufacturer part numbers / listed-source display"
+      ],
+      "permitted_use": "Evaluate displayed claims and discover official keys, not authenticate prices or source eligibility",
+      "limits": "Displayed $157.5867 matches ceiling divided by non-firm estimate; ASME standard cross-reference is presented as manufacturer/listed source; underlying source-eligibility semantics unverified"
+    },
+    {
+      "id": "BR-S03",
+      "title": "FAR15.404-1 Proposal analysis techniques",
+      "url": "https://www.acquisition.gov/far/15.404-1",
+      "accessed_at": "2026-10-30",
+      "authority": "official_regulatory_text",
+      "displayed_version": "FAC2026-01 effective2026-03-13",
+      "bytes_archived": false,
+      "web_ref": "turn200view1",
+      "locators": [
+        "15.404-1(b)(2)(ii)(A)\u2013(C)"
+      ],
+      "scope": "Prior prices require validity and adjustment for material quantity, terms and economic differences",
+      "limits": "General methodology, not a finding that all cited FAR provisions apply to each specific simplified-acquisition award; contract rules/version still require checking"
+    },
+    {
+      "id": "BR-S04",
+      "title": "ASME Product Standardization and Specifications \u2014 B18",
+      "url": "https://www.asme.org/codes-standards/about-standards/technology-highlights/product-standardization-and-specifications",
+      "accessed_at": "2026-10-30",
+      "authority": "standards_issuer",
+      "bytes_archived": false,
+      "web_ref": "turn202search0",
+      "locator": "Standards recently completed: ASME B18.24\u20132023",
+      "scope": "Identifies B18.24 as Part Identifying Number Code System Standard for B18 Fastener Products",
+      "limits": "Does not authenticate any awarded supplier, delivered item, license or source approval"
+    },
+    {
+      "id": "BR-S05",
+      "title": "ASME B18.24\u20132023 table of contents / title-page excerpt",
+      "url": "https://www.asme.org/getmedia/a4338640-c127-46a5-b1cd-a853b794c4c2/b18-24_2023_toc.pdf",
+      "accessed_at": "2026-10-30",
+      "authority": "standards_issuer",
+      "bytes_archived": false,
+      "web_ref": "turn202search12",
+      "locator": "Indexed title page",
+      "scope": "Corroborates the standard title and issuer; full paid standard was not acquired",
+      "limits": "Search-indexed excerpt only; no independent full PDF visual verification in this review"
+    },
+    {
+      "id": "BR-S06",
+      "title": "Original DLA parent contract SPE4A6-26-D-61WS",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+      "accessed_at": "2026-10-30",
+      "authority": "official_award_or_order_document",
+      "bytes_archived": false,
+      "locators": [
+        "pp2,5\u20136: ceiling, estimated quantity, USD unit price, current terms"
+      ],
+      "verification": "Independently rendered selected pages and checked against text extraction and Decimal arithmetic",
+      "limits": "No actual delivery, acceptance or cash payment established; completeness of subsequent modifications unknown",
+      "original_sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0",
+      "public_archive_scope": "Selected neutral pages/text supplied by coordinator; original full PDF retained locally only and not published",
+      "replay": "Acquire original through normal public DLA route or use optional local source directory"
+    },
+    {
+      "id": "BR-S07",
+      "title": "Original DLA delivery order SPE4A6-27-F-0588 under SPE4A6-26-D-61WS",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/19OCT26/SPE4A626D61WSSPE4A627F0588.PDF",
+      "accessed_at": "2026-10-30",
+      "authority": "official_award_or_order_document",
+      "bytes_archived": false,
+      "locators": [
+        "p1: order identity,date,total, blank acceptance/payment blocks; p2: orderedCLIN,unit,price,quantity,delivery"
+      ],
+      "verification": "Independently rendered selected pages and checked against text extraction and Decimal arithmetic",
+      "limits": "No actual delivery, acceptance or cash payment established; completeness of subsequent modifications unknown",
+      "original_sha256": "3360e103d973fd70d38d2baebc1aa47644cd3806822bc8393fb5db99bcbbc4ef",
+      "public_archive_scope": "Selected neutral pages/text supplied by coordinator; original full PDF retained locally only and not published",
+      "replay": "Acquire original through normal public DLA route or use optional local source directory"
+    },
+    {
+      "id": "BR-S08",
+      "title": "USAspending account-profile display notice",
+      "url": "https://www.usaspending.gov/federal_account/097-3999",
+      "accessed_at": "2026-10-30",
+      "authority": "official_data_portal",
+      "bytes_archived": false,
+      "web_ref": "turn211search0",
+      "locator": "Note beneath Spending by Prime Award",
+      "scope": "Describes90-day delay in displaying DOD contract award, subcontract and FileC data",
+      "limits": "Official search-indexed text; plausible missing-current-record explanation, not proof why a particular query returned no rows"
+    }
+  ]
+}

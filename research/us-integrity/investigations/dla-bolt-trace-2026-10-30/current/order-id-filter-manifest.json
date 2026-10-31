@@ -1,0 +1,9 @@
+{
+  "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+  "accessed_at": "2026-10-30T11:30:08.638239+00:00",
+  "request_sha256": "ee2888497a0c1ebab7d6c9f816ef3101cb6df10f3f466ab4a7dbd3aa7379620b",
+  "selection_rule": "Unquoted award_ids documented as fuzzy; returned PIID must be exact before retention",
+  "status": 200,
+  "response_sha256": "4541bad5c1e19f669aebe673e33107ea6bd826fe38d0c2494438498e3d303483",
+  "source_bytes_archived": true
+}

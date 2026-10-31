@@ -1,0 +1,90 @@
+{
+  "as_of": "2026-10-30",
+  "scope": "Architecture and source availability, not acquisition of individual new transactions",
+  "queries": [
+    {
+      "index": 1,
+      "query": "site.usaspending.gov contract 90-day Data",
+      "engine": "system2"
+    },
+    {
+      "index": 2,
+      "query": "site.sam.gov Contract Opportunities public",
+      "engine": "system2"
+    },
+    {
+      "index": 3,
+      "query": "site.acquisition.gov far 13.106-3 fair reasonable price quotations",
+      "engine": "system2"
+    },
+    {
+      "index": 4,
+      "query": "site.fincen.gov beneficial ownership information access not public",
+      "engine": "system2"
+    },
+    {
+      "index": 5,
+      "query": "site.usaspending.gov About the Data contracts90days",
+      "engine": "system1"
+    },
+    {
+      "index": 6,
+      "query": "site.open.gsa.gov api get opportunities public API key",
+      "engine": "system1"
+    },
+    {
+      "index": 7,
+      "query": "site.gsa.gov CALC labor ceiling rates not actual prices",
+      "engine": "system1"
+    },
+    {
+      "index": 8,
+      "query": "site.va.gov national acquisition center contract catalog search tool medical prices",
+      "engine": "system1"
+    },
+    {
+      "index": 9,
+      "query": "site.sec.gov developer data submissions API EDGAR JSON access",
+      "engine": "system1"
+    },
+    {
+      "index": 10,
+      "query": "site.justice.gov antitrust red flags collusion procurement similarities bids",
+      "engine": "system1"
+    }
+  ],
+  "document_reads_or_attempts": 14,
+  "reads_include_find_operations": true,
+  "sources": "source-observations.json",
+  "document_outcomes": {
+    "successful_full_page_opens": 9,
+    "successful_find_operations": 2,
+    "page_shell": 1,
+    "http403": 1,
+    "successful_current_FAQ_notice": 1
+  },
+  "all_read_refs": [
+    "turn251view0",
+    "turn251view1",
+    "turn251view2",
+    "turn251view3",
+    "turn252view0",
+    "turn252view1",
+    "turn252view2",
+    "turn252view3",
+    "turn252view4",
+    "turn252view5",
+    "turn252view6",
+    "turn252view7",
+    "turn253view0",
+    "turn253view1"
+  ],
+  "budget": {
+    "max_queries": 10,
+    "used_queries": 10,
+    "max_document_reads": 15,
+    "used_document_reads": 14
+  },
+  "external_messages_or_submissions": 0,
+  "raw_webpage_archive": false
+}

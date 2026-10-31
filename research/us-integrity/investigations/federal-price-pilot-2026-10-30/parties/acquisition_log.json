@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-10-30",
+  "max_requests": 10,
+  "requests": [
+    {
+      "url": "https://cage.dla.mil/Home/UsageAgree",
+      "method": "GET",
+      "accessed_at": "2026-10-30T12:34:46.611317+00:00",
+      "raw_archived": false,
+      "status": 200,
+      "wire_sha256": "7fc70a85037fc552c1bc06bdcff724975e4d7be79633bbf62079081c6ee9861a",
+      "bytes": 7112
+    },
+    {
+      "url": "https://cage.dla.mil/Home/UsageAgree",
+      "method": "POST",
+      "accessed_at": "2026-10-30T12:34:52.054978+00:00",
+      "raw_archived": false,
+      "status": 200,
+      "wire_sha256": "dd07d5f815b604d1df26a7c672817d29c073b8aec529ff60fe7bba0cb40e80b7",
+      "bytes": 10750
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "GET",
+      "accessed_at": "2026-10-30T12:35:02.763851+00:00",
+      "raw_archived": false,
+      "status": 200,
+      "wire_sha256": "354ad47a91177e9798d55bcab3a9254bdca7e95b4fde72ec201c72a5e4b4d885",
+      "bytes": 7232
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "POST",
+      "accessed_at": "2026-10-30T12:35:06.866833+00:00",
+      "raw_archived": false,
+      "status": 200,
+      "wire_sha256": "09ffeb74207c6c512ed22adfa8ab80912598917474e0c354d072c59d3f20c3a8",
+      "bytes": 8206
+    },
+    {
+      "url": "https://cage.dla.mil/Search",
+      "method": "POST",
+      "accessed_at": "2026-10-30T12:35:18.615374+00:00",
+      "raw_archived": false,
+      "status": 200,
+      "wire_sha256": "c0a6ffcbcd9806200e1e4d74ed1bb48559e0ec700c61f64a97928842a2a6bfb5",
+      "bytes": 8201
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/recipient/",
+      "method": "POST",
+      "accessed_at": "2026-10-30T12:35:29.384131+00:00",
+      "raw_archived": false,
+      "status": 200,
+      "wire_sha256": "750d2f37b9a89b9085b8d19313bf319f1d77b87ec3a3b8d2d561e95f96195985",
+      "bytes": 279
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/recipient/516cae19-6195-34c1-0e8f-71a1fd4f3702-C/",
+      "method": "GET",
+      "accessed_at": "2026-10-30T12:35:35.351900+00:00",
+      "raw_archived": false,
+      "status": 200,
+      "wire_sha256": "9e21c558d9878386be6c116f56c925db8e9466b1b119eac2794f7490582d451c",
+      "bytes": 1197
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/recipient/1929fdbf-6f79-2f71-1ac1-d95e6ea952f5-C/",
+      "method": "GET",
+      "accessed_at": "2026-10-30T12:35:46.017559+00:00",
+      "raw_archived": false,
+      "status": 200,
+      "wire_sha256": "e634477f05f387a698782d5878586a8819113411db506f721b974daa333f10b8",
+      "bytes": 1104
+    }
+  ],
+  "captures": [
+    {
+      "path": "cage-745V4-selected.json",
+      "sha256": "e3707acdfed07469aaba2040ed49828fbf736c88a2e965f730bab4baaaf93614"
+    },
+    {
+      "path": "cage-27624-selected.json",
+      "sha256": "a3c914973ba7c302de56bd9baf179000c3a46453dcbaddb2fae565f35bef6622"
+    },
+    {
+      "path": "sps-recipient-query.json",
+      "sha256": "1e885d825e28e3cab5f115773cfe95cd866ca255a80f3a5cf1728a024d05fe96"
+    },
+    {
+      "path": "profile-745V4-selected.json",
+      "sha256": "1e7b12a70c69f9a142ece1f4237bac981e22bce973112a349a1d90a8e114d234"
+    },
+    {
+      "path": "profile-27624-selected.json",
+      "sha256": "9c12e57077d99d96aaf713c9d967380b96fd9dbad9886ee0214cafa42a834ae5"
+    }
+  ],
+  "automatic_retries": 0,
+  "session_values_archived": false
+}

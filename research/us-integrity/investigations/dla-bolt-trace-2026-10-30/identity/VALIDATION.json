@@ -1,0 +1,35 @@
+{
+  "as_of": "2026-10-30",
+  "status": "passed",
+  "unit_tests": 4,
+  "summary": {
+    "entities": 5,
+    "cages": 5,
+    "ueis": 5,
+    "historical_award_joins": 7,
+    "current_cage_registry_matches": 5,
+    "recipient_query_profiles": 9,
+    "aliases": 12,
+    "unresolved_beneficial_ownership_records": 5,
+    "identifier_mismatches_observed": 0,
+    "new_fraud_findings": 0,
+    "money_aggregation_performed": false
+  },
+  "checks": [
+    "API request/snapshot hash verification",
+    "Current CAGE selected-snapshot hashes",
+    "Producer award-snapshot hash verification",
+    "Exact code+UEI+name in one CAGE registry result",
+    "Profile/query binding and terminal-page/count agreement",
+    "Seven exact PIID+date+UEI joins",
+    "No contacts, street addresses or demographic fields in selected profiles",
+    "All JSON parses and local report links resolve"
+  ],
+  "source_read_budget": 33,
+  "logical_source_reads_used": 31,
+  "search_query_budget": 10,
+  "search_queries_used": 10,
+  "entity_records_sha256": "bf6e0fa95b2371545d02991b1a40e5f1d76f610f0e195088c42e84e70bbbf0d7",
+  "relationships_sha256": "f552180310cf0b2c9aa94026c133ef910ed514b9aba47441a2519a10273ba910",
+  "new_fraud_findings": 0
+}

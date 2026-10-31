@@ -1,0 +1,39 @@
+{
+  "beneficial_ownership": {
+    "don": null,
+    "sps": null,
+    "reason": "Self-parent and federal reported-parent fields do not disclose a complete beneficial-owner chain or ownership percentages."
+  },
+  "actual_payee": null,
+  "actual_supplier_invoice_party": null,
+  "actual_manufacturing_site": null,
+  "actual_delivery_location": null,
+  "invoice_unit_cost": null,
+  "credits_rebates_discounts": null,
+  "shipping_and_insurance_cost": null,
+  "gross_margin": null,
+  "kickback_or_personal_benefit": null,
+  "printed_officer_role": "Joseph Felhauer, CONTRACTING/ORDERING OFFICER, printed date 2026-07-09; source TP-S-ORDER-ROLE; signature execution and price/payment authority unknown",
+  "buyer_employee": null,
+  "contract_signatory": null,
+  "price_evaluator": null,
+  "payment_authorizer": null,
+  "required_to_test_cost_markup": [
+    "Contemporaneous dealer purchase order and supplier invoice tied to the part, revision and order",
+    "Quantity/lead-time/first-article/packaging/freight reconciliation",
+    "Credits, returns and rebates tied to the same purchase",
+    "Government invoice, receiving/acceptance and payment records",
+    "Documented professional decision authority only if needed to interpret actual approvals"
+  ],
+  "state_filing_candidate": {
+    "document_number": "L10000120053",
+    "status": "not_merged",
+    "reason": "Exact name is insufficient without a retained authoritative state-to-federal identifier crosswalk. Profile state TX and candidate state filing FL are different scopes and not an identity contradiction or fraud signal."
+  },
+  "unsupported_conclusions": [
+    "No proven 12% markup",
+    "No proven overpayment",
+    "No proof of kickback, fabricated supplier, impersonation or personal benefit",
+    "Printed professional officer role creates no allegation, price-selection inference or personal-benefit association"
+  ]
+}

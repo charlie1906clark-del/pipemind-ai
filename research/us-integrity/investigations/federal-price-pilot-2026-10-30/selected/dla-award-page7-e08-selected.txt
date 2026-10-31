@@ -1,0 +1,13 @@
+[Selected paragraphs (1)-(3) from source page7; later paragraphs omitted]
+E08 FIRST ARTICLE TESTING REQUIREMENTS (MAR 2025)
+(1) If there is not a separate contract line item number (CLIN) for FAT, the offeror shall include all costs and risk associated with completion of the FAT
+requirement in the production CLIN price.
+(2) If there is a separate FAT CLIN, the offeror shall include all costs and risk associated with completion of the FAT requirement in the FAT CLIN price.
+The unit of issue for the FAT CLIN, EACH, is equal to one First Article Test (1EA=1FAT). To receive payment for any costs associated with FAT, the
+offeror shall propose costs associated with FAT on a separate CLIN. The offeror shall base the production CLIN price solely on all costs associated with
+completion of the production units and shall exclude all FAT-related costs.
+(3) The contracting officer will use the total award price in selecting the best value offer from among all eligible offerors. However, for an offeror to be
+eligible for award, the contracting officer must determine that the FAT CLIN price (unless FAT is waived) and the production CLIN price are fair and
+reasonable; and, if set-aside under FAR Part 19, a fair market price. The offeror shall not propose a FAT CLIN price that is materially unbalanced in relation
+to the production CLIN price. In the event an offeror receives a waiver of the FAT requirement, the contracting officer will deduct the FAT CLIN price for
+the waived source in determining the total award price.

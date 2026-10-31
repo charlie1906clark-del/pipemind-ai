@@ -1,0 +1,41 @@
+{
+  "strata": [
+    {
+      "stratum": "dla-bolts",
+      "sample_rows": 10,
+      "has_next_page": true,
+      "sum_cumulative_sample_award_obligations_usd": "2006327.90",
+      "not_period_spending": true,
+      "not_population_total": true
+    },
+    {
+      "stratum": "va-medical",
+      "sample_rows": 10,
+      "has_next_page": true,
+      "sum_cumulative_sample_award_obligations_usd": "119368989.65",
+      "not_period_spending": true,
+      "not_population_total": true
+    },
+    {
+      "stratum": "hhs-medical",
+      "sample_rows": 10,
+      "has_next_page": true,
+      "sum_cumulative_sample_award_obligations_usd": "11768165.65",
+      "not_period_spending": true,
+      "not_population_total": true
+    }
+  ],
+  "sample_size": 30,
+  "deep_trace_awards": 3,
+  "original_order_awards_acquired": 1,
+  "priced_original_clins": 2,
+  "production_clins": 1,
+  "first_article_test_clins": 1,
+  "independent_matched_price_comparators": 0,
+  "cash_payments_verified": 0,
+  "express_reports": 5,
+  "fraud_established": false,
+  "loss_established": false,
+  "novelty_verified": false,
+  "population_complete": false
+}

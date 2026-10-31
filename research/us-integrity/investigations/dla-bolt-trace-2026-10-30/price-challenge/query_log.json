@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "scope": "price-challenge primary methods and known-case calibration, including delegated work",
+  "search_queries_used": 5,
+  "primary_document_reads_used": 12,
+  "maximum_search_queries": 6,
+  "maximum_primary_document_reads": 12,
+  "queries": [
+    {
+      "query": "site.acquisition.gov FAR 15.404-1 historical prices quantities terms conditions price analysis",
+      "usable_result": false,
+      "reason": "Combined search output truncated before usable source refs; counted, no claim derived."
+    },
+    {
+      "query": "site.dla.mil Inspector General procurement fraud indicators bids prices kickbacks contracting",
+      "usable_result": false,
+      "reason": "Combined search output truncated before usable source refs; counted, no claim derived."
+    },
+    {
+      "query": "site.justice.gov purchasing official vendor inflated prices kickbacks military quotes sentenced",
+      "owner": "kickback_mechanism_sources",
+      "usable_result": false
+    },
+    {
+      "query": "site.justice.gov procurement official kickbacks percentage inflated invoices supplier sentenced",
+      "owner": "kickback_mechanism_sources",
+      "usable_result": false
+    },
+    {
+      "query": "site.justice.gov atr price fixing bid rigging market allocation schemes what they are look for",
+      "usable_result": true,
+      "source_ref": "turn231search0"
+    }
+  ],
+  "reads": [
+    {
+      "url": "https://www.acquisition.gov/far/13.106-3",
+      "owner": "reviewer"
+    },
+    {
+      "url": "https://www.acquisition.gov/far/15.404-1",
+      "owner": "reviewer"
+    },
+    {
+      "url": "https://www.justice.gov/atr/red-flags-collusion",
+      "owner": "reviewer"
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/usaid-official-and-three-corporate-executives-plead-guilty-decade-long-bribery-scheme",
+      "owner": "kickback_mechanism_sources"
+    },
+    {
+      "url": "https://oig.usaid.gov/node/7877",
+      "owner": "kickback_mechanism_sources"
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/usaid-official-and-three-corporate-executives-plead-guilty-decade-long-bribery-scheme",
+      "owner": "reviewer",
+      "purpose": "independent corroboration"
+    },
+    {
+      "url": "https://oig.usaid.gov/node/7877",
+      "owner": "reviewer",
+      "purpose": "independent corroboration"
+    },
+    {
+      "url": "https://aspdotnetstorefront.coxhardware.com/product/713/38-24-hex-bolts-grade-8",
+      "web_ref": "turn235view0",
+      "owner": "reviewer",
+      "purpose": "independent market verification",
+      "status": "success"
+    },
+    {
+      "url": "https://www.fastenersuperstore.com/products/191377/hex-cap-screws",
+      "web_ref": "turn235view1",
+      "owner": "reviewer",
+      "purpose": "independent market verification",
+      "status": "success"
+    },
+    {
+      "url": "https://www.mfsupply.com/product_p/hh38fx3-fslash-4g8zy.htm",
+      "web_ref": "turn235view2",
+      "owner": "reviewer",
+      "purpose": "independent market verification",
+      "status": "failed"
+    },
+    {
+      "url": "https://www.mfsupply.com/productdetails.php?ProductCode=HH38FX3%2F4G8ZY",
+      "web_ref": "turn240view0",
+      "owner": "reviewer",
+      "purpose": "independent market verification",
+      "status": "success"
+    },
+    {
+      "url": "https://www.mfsupply.com/terms.php",
+      "web_ref": "turn241view0",
+      "owner": "reviewer",
+      "purpose": "independent market verification",
+      "status": "success"
+    }
+  ],
+  "exclusions": "Local producer-artifact review and other agents' separately budgeted market acquisition are not counted as this lane's public document acquisition.",
+  "successful_document_reads": 11,
+  "failed_document_attempts": 1
+}

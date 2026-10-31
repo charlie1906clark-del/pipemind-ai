@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-10-30",
+  "focus": "DLA machine bolt NSN5306016864912",
+  "user_reported_claude_assignment": true,
+  "claude_result_verified": false,
+  "claude_provider_calls_by_coordinator": 0,
+  "workers": [
+    {
+      "worker": "bolt_award_order_tracer",
+      "owned_path": "awards/",
+      "completed": "Seven historical exact-key award joins and33logicalpublicreads;7tests"
+    },
+    {
+      "worker": "bolt_supplier_identity",
+      "owned_path": "identity/",
+      "completed": "Five officialCAGEcrosswalks,7historicaljoins,31logicalpublicreads;4tests"
+    },
+    {
+      "worker": "bolt_comparison_reviewer",
+      "owned_path": "review/",
+      "completed": "Independent4replaychecks,10findings,74publicinputpins,7tests"
+    },
+    {
+      "worker": "root",
+      "owned_path": "current/ and coordination",
+      "completed": "FiveAPIqueryattempts,2originalDLApublicdocuments,selectedevidence/replay;branchownershipandmanualdispatchstate"
+    },
+    {
+      "worker": "catheter_graph_integrator",
+      "owned_path": "graph-extension.json",
+      "completed": "Reviewedprojectionwithpublicselectedbytesandsource-specificscope"
+    },
+    {
+      "worker": "bolt_market_price_auditor with primary_nsn_spec_crosswalk",
+      "owned_path": "market/",
+      "completed": "Three seller-owned product-page candidates, terms/specification controls, ten queries and22web document attempts; no qualified benchmark."
+    },
+    {
+      "worker": "bolt_comparison_reviewer with kickback_mechanism_sources",
+      "owned_path": "price-challenge/",
+      "completed": "Separate independent price and buyer-benefit evidence gates; known-case calibration kept apart from this DLA question."
+    },
+    {
+      "worker": "price_premium_engine",
+      "owned_path": "price-controls/",
+      "completed": "Offline Decimal weighted-premium engine and12meaningful tests; synthetic scenario separated from blocked real comparison."
+    },
+    {
+      "worker": "root specification follow-up",
+      "owned_path": "specification/",
+      "completed": "Verified public DLA archive HEAD and ZIP directory metadata; documented DECOMP route and binary table format. Exact NIIN record not extracted. No executable run."
+    }
+  ],
+  "external_actions": {
+    "supplier_or_agency_contacts": 0,
+    "tips_or_claims_submitted": 0,
+    "background_workers_activated": 0
+  },
+  "query_and_document_limits": "See individual acquisition manifests; failed requests and selected-response scopes are preserved.",
+  "user_steering": "Investigate persistent unit-price excess and possible buyer/supplier benefit even when suppliers and invoices are legitimate.",
+  "coordination_check": {
+    "checked_on": "2026-10-30",
+    "visible_repository_branch_count": 9,
+    "claude_result_branch_observed": false,
+    "scope": "GitHub repository branch inventory; not proof that the user-operated Claude session is inactive."
+  }
+}

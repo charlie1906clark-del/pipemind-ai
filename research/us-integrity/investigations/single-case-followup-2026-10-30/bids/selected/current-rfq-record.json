@@ -1,0 +1,40 @@
+{
+  "source_kind": "selected public original DIBBS RFQ record",
+  "solicitation": "SPE4A626U3619",
+  "status": "Awarded",
+  "issue_date": "2026-09-03",
+  "return_by_date": "2026-09-17",
+  "nsn": "5306016864912",
+  "nomenclature": "BOLT, MACHINE",
+  "purchase_request": "1000241595",
+  "rfq_quantity_as_displayed": "2221",
+  "quantity_is_paid_or_ordered": false,
+  "awardee_cage": "8A1E8",
+  "contract": "SPE4A626D61WS",
+  "award_date": "2026-09-17",
+  "rfq_attachment_label": "No Attachments",
+  "tech_docs_link_present": true,
+  "competing_quote_prices_on_selected_record": false,
+  "links": [
+    {
+      "relation": "solicitation_pdf",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/RFQ/9/SPE4A626U3619.PDF",
+      "action": "Prior source already acquired; not downloaded again by this lane"
+    },
+    {
+      "relation": "technical_documents",
+      "url": "https://tdmt.dla.mil/tdmt/Client/?StartItem=DSP_TDP_Acquisition_Doc%3AbySolicitation%3ASPE4A626U3619",
+      "action": "Forwarded to separate specification specialist; no acquisition claimed here"
+    },
+    {
+      "relation": "award_record",
+      "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRec.aspx?contract=SPE4A626D61WS&dlv=",
+      "action": "Followed in separately logged bounded read"
+    }
+  ],
+  "limits": [
+    "Display confirms solicitation-to-award link, not actual bid prices, bid independence, signed decision rationale, delivery or payment.",
+    "The RFQ quantity is not a purchased quantity; prior parent identifies it as estimated annual demand.",
+    "The displayed No Attachments label does not negate the separate Tech Docs link or prove that no internal evaluation record exists."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "observed_on": "2026-10-30",
+  "base_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "scope": "Coordinator source checks; other worker logs remain separate",
+  "searches": [
+    {"query": "site.sba.gov \"more than $200 billion\" \"potentially fraudulent\"", "engine": "system1", "recency_days": 1460, "purpose": "Resolve the stated national figure"},
+    {"query": "site.gao.gov \"2025\" \"186 billion\" improper payments", "engine": "system1", "recency_days": 365, "purpose": "Check current government-wide improper-payment measure"},
+    {"query": "\"5306016864912\" fraud", "engine": "system2", "purpose": "Bounded exact-identifier prior-disclosure check", "result_scope": "Returned procurement listings; no acquired exact official case match; novelty not established"},
+    {"query": "\"SPE4A626D61WS\" investigation", "engine": "system2", "purpose": "Bounded exact-award prior-disclosure check", "result_scope": "Returned procurement listings; no acquired exact official case match; novelty not established"}
+  ],
+  "source_opens": [
+    {"url": "https://legacy.sba.gov/article/2026/10/27/sba-asks-public-report-suspected-pandemic-era-fraud-through-doj-whistleblower-portal", "result": "read_official_page", "reference": "turn282view0"},
+    {"url": "https://www.gao.gov/products/gao-26-108694", "result": "read_official_page", "reference": "turn282view1"},
+    {"url": "https://www.nationwideindustrialsupply.com/departments/grade-8-cap-screws/fine-thread-hex-cap-screw-grade-8-zinc-yellow/3812CH8O/", "result": "read_seller_page", "reference": "turn295view0", "scope": "Printed product, carton, case-price and availability fields; no form submitted"},
+    {"url": "https://www.dla.mil/Working-With-DLA/Applications/Details/Article/4567728/tdmt-technical-data-management-transformation/", "result": "403_failed_open", "reference": "turn295view1", "scope": "No body acquired through this coordinator open; worker policy evidence is separately labeled indexed text"}
+  ],
+  "historical_opener_operations": {"count": 4, "receipt": "history/acquisition.json"},
+  "historical_web_opens": {"count": 2, "receipt": "history/additional-route-checks.json"},
+  "local_reuse": {"path": "../dla-bolt-trace-2026-10-30/current/document-attempts/SPE4A626D61WS.pdf", "new_network_requests": 0, "scope": "Local text check of H06 and packaging/technical references; original complete PDF remains excluded from publication"},
+  "no_original_web_bytes_claimed_archived": true,
+  "official_case_absence_or_originality_inferred": false
+}

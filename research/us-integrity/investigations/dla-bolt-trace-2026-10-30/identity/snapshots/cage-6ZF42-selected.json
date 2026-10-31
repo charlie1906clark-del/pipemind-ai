@@ -1,0 +1,48 @@
+{
+  "source_url": "https://cage.dla.mil/Search/Results?q=6ZF42&page=1",
+  "query": "6ZF42",
+  "selected_text": [
+    "CAGE or UEI",
+    "Legal Name",
+    "CAGE",
+    "UEI",
+    "Legal Business Name",
+    "6ZF42",
+    "GWEEKJ2PNL45",
+    "BUTT FAREED AHMAD",
+    "CAGE Public version 6 \u00b7 For Official Use Only",
+    "CAGE",
+    "UEI"
+  ],
+  "result_links": [
+    {
+      "href": "/Search/Results?q=6ZF42&sort=CAGE&sortdir=ASC",
+      "text": "CAGE"
+    },
+    {
+      "href": "/Search/Results?q=6ZF42&sort=UEI&sortdir=ASC",
+      "text": "UEI"
+    },
+    {
+      "href": "/Search/Results?q=6ZF42&sort=Legal&sortdir=DESC",
+      "text": "Legal Business Name"
+    },
+    {
+      "href": "/Search/Results?q=6ZF42&sort=City&sortdir=ASC",
+      "text": "City"
+    },
+    {
+      "href": "/Search/Results?q=6ZF42&sort=State&sortdir=ASC",
+      "text": "State/Prov."
+    },
+    {
+      "href": "/Search/Results?q=6ZF42&sort=Postal&sortdir=ASC",
+      "text": "Zip/Postal"
+    },
+    {
+      "href": "/Search/Details?id=3611387",
+      "text": "Details"
+    }
+  ],
+  "selection": "Only identifier/name/status labels and result links; no addresses or contacts; raw content not archived."
+}

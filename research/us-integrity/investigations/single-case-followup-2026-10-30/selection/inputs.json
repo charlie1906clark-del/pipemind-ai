@@ -1,0 +1,31 @@
+{
+  "base_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "scope": "Exact retained inputs read for selection; no modification to earlier evidence",
+  "artifacts": [
+    {
+      "path": "investigations/dla-bolt-trace-2026-10-30/REPORT.md",
+      "sha256": "6c61c1559ea390fa8a0eabc5259799b609006af373f88f80778840a506041409",
+      "bytes": 11682
+    },
+    {
+      "path": "investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+      "sha256": "950757e36f73f46cface12a7c3536aedd8ca856a37ffdfb6f23be2a6fd5410d5",
+      "bytes": 11540
+    },
+    {
+      "path": "investigations/dme-catheter-2026-10-29/REPORT.md",
+      "sha256": "1fc265b37317347630971118bd09ccd486c7ef3c153e329b74f795d7e1b071a4",
+      "bytes": 17089
+    },
+    {
+      "path": "investigations/federal-price-pilot-2026-10-30/REPORT.md",
+      "sha256": "366a10e2c65cbd5a7346e3af192c74367d566d4227dc9709811ae9308c43d9ab",
+      "bytes": 8995
+    },
+    {
+      "path": "investigations/federal-price-pilot-2026-10-30/observations.json",
+      "sha256": "2909754680a7c46e425d14d49ceb0ab9fcf9dab1b8c359fa5d0af3b3879ff35f",
+      "bytes": 77100
+    }
+  ]
+}

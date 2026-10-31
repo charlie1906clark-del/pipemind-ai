@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-30",
+  "status": "passed_scoped_consistency_checks",
+  "producer_manifest_pin_counts": {
+    "bids": 15,
+    "market-terms": 6,
+    "spec": 11,
+    "selection": 5
+  },
+  "prior_input_pins_checked_with_repeats": 19,
+  "bids_selected_artifact_hashes_verified": 4,
+  "spec_selected_artifact_hashes_verified": 3,
+  "declared_archive_range_bytes_reconciled": 10412003,
+  "independent_fraction_checks": {
+    "full_carton_scenarios": 4,
+    "counterfactual_allowances": 2
+  },
+  "negative_controls_rejected": [
+    "premature_qualified_comparator",
+    "premature_government_equivalence",
+    "claimed_loss_from_catalog",
+    "fractional_carton_for_906",
+    "round_down_annual_cartons",
+    "nominal_stock_treated_reserved"
+  ],
+  "qualified_benchmarks": 0,
+  "network_requests": 0,
+  "scope_limit": "Checks retained records and exact arithmetic; does not reauthenticate original pages, independence, technical equivalence or source completeness."
+}

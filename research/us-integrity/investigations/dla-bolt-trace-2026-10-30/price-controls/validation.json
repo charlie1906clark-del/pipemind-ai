@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-10-30",
+  "test_command": "python -m unittest discover -s research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls -p 'test_*.py' -v",
+  "tests_passed": 12,
+  "deterministic_cli_outputs_verified": [
+    "uniform-12-percent",
+    "weighted-mix",
+    "dla-current-no-qualified-benchmark",
+    "annual-12-percent-illustration"
+  ],
+  "network_used": false,
+  "scope": "Only price-controls implementation and samples; flags and source authenticity are not independently authenticated by calculator",
+  "sha256": {
+    "README.md": "d94aeb254e49dbac18c111700e002160b64291dc607834eb5bf55bea9c770f7e",
+    "outputs/annual-12-percent-illustration.json": "890c260b49424bc0375a1c5b66446c76f2be69e0b0b9064e64c226ad495b3fcc",
+    "outputs/dla-current-no-qualified-benchmark.json": "825c33c033edca30443a5a1fc713bc56bdd38b3e670ad9a12de07ec4bc649d53",
+    "outputs/uniform-12-percent.json": "4feb7e5a671cdae9833b000c72e857e77fd31b4d61da7c949b3734dad1b53f95",
+    "outputs/weighted-mix.json": "e38ed0c6f9c7f82974787244612053d8d17a1503f2f4f39a17a8c0e9ef3f41ab",
+    "premium_audit.py": "7aed71b71b47c0940b0c07fd1239c64bb70817be506204b3ac3de366d9dcfde2",
+    "scenarios/dla-current-no-qualified-benchmark.json": "87b32320d35bae4381de252a4f05f7c57d35539235491cc29f85827a31e3304d",
+    "scenarios/uniform-12-percent.json": "7b5e606c04e661fd9048bcc9688fe48f2f3a93c2f914c250f011a11722b1d641",
+    "scenarios/weighted-mix.json": "ea40415a73b259211b1ffce5a4d54b9e97188c90b49e6e02c05f78fe0923ee2e",
+    "test_premium_audit.py": "c65a73a210deb2446e5dbbff5ad83bf5f7eee30755cb4ab96db3522e2baae97c"
+  }
+}

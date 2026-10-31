@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "result_id": "PA-W1-LINE-DLA-RESULT-01",
+  "task_id": "PA-W1-LINE-DLA",
+  "producer": "codex-evidence-coordinator",
+  "input_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+  "data_origin": "public",
+  "outcome": "observations",
+  "evidence_ids": [
+    "PA-W1-LINE-DLA-E1",
+    "PA-W1-LINE-DLA-E2",
+    "PA-W1-LINE-DLA-E3"
+  ],
+  "facts": [
+    {
+      "id": "PA-W1-LINE-DLA-FACT-1",
+      "statement": "Order SPE4A626PW775 prices NSN5306004457358, part39-8820-501, at USD272.99 per EA for2243EA: USD612316.57.",
+      "evidence_ids": [
+        "PA-W1-LINE-DLA-E1",
+        "PA-W1-LINE-DLA-E2",
+        "PA-W1-LINE-DLA-E3"
+      ]
+    },
+    {
+      "id": "PA-W1-LINE-DLA-FACT-2",
+      "statement": "A separate government first-article-test line is USD3500.00. The two lines sum to USD615816.57; they are different priced deliverables.",
+      "evidence_ids": [
+        "PA-W1-LINE-DLA-E1",
+        "PA-W1-LINE-DLA-E2",
+        "PA-W1-LINE-DLA-E3"
+      ]
+    },
+    {
+      "id": "PA-W1-LINE-DLA-FACT-3",
+      "statement": "The contract names dealer Don Industrial Group LLC, CAGE745V4, and intended approved manufacturer SPS Technologies LLC, CAGE27624. This is not verification of actual delivery, invoices or payment.",
+      "evidence_ids": [
+        "PA-W1-LINE-DLA-E1",
+        "PA-W1-LINE-DLA-E2",
+        "PA-W1-LINE-DLA-E3"
+      ]
+    }
+  ],
+  "candidate_signals": [],
+  "pricing_eligibility": {
+    "status": "unqualified",
+    "reason": "No independently qualified equivalent benchmark or complete paid-value evidence",
+    "evidence_ids": [
+      "PA-W1-LINE-DLA-E1",
+      "PA-W1-LINE-DLA-E2",
+      "PA-W1-LINE-DLA-E3"
+    ]
+  },
+  "benefit_evidence": {
+    "status": "unresolved",
+    "reason": "These source selections do not establish buyer influence or a personal benefit",
+    "evidence_ids": []
+  },
+  "unknowns": [
+    "No independent equivalent market price has been qualified.",
+    "Actual receipt, payment, bid prices and buyer-benefit evidence remain unverified."
+  ],
+  "ordinary_alternatives": [
+    "Award summaries and source availability do not indicate misconduct; supply terms and separately priced services can explain differences."
+  ],
+  "conclusion": "Narrow public observations only. A completed and accepted packet does not establish price fairness, buyer independence, loss or fraud.",
+  "next_record": "Dated exact-part compliant offer and actual bid/price-reasonableness records for SPE4A626Q0688.",
+  "supplemental_input_scope": "New source selections acquired after the plan base commit, identified by evidence hashes; not represented as existing at that baseline."
+}

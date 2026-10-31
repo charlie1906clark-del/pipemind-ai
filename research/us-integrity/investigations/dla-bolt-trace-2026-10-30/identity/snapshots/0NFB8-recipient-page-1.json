@@ -1,0 +1,29 @@
+{
+  "page_metadata": {
+    "page": 1,
+    "total": 2,
+    "limit": 1000,
+    "next": null,
+    "previous": null,
+    "hasNext": false,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "id": "646c7184-b1bf-d4f5-fb0c-db4c899c87da-P",
+      "duns": "609005350",
+      "uei": "JEJSN59MQVK3",
+      "name": "DIALOGIC CORP",
+      "recipient_level": "P",
+      "amount": 2707329.94
+    },
+    {
+      "id": "646c7184-b1bf-d4f5-fb0c-db4c899c87da-C",
+      "duns": "609005350",
+      "uei": "JEJSN59MQVK3",
+      "name": "DIALOGIC CORP",
+      "recipient_level": "C",
+      "amount": 2707329.94
+    }
+  ]
+}

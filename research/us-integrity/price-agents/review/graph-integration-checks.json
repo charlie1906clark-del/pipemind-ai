@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-30",
+  "scope": "Read-only prepublication mapping and schema check",
+  "graph_sha256": "ba9d8ce06c56de9e9fd6607827ec5f6ec13bb017fd663938009853bdc8dee2e2",
+  "input_pins_verified": 156,
+  "source_nodes_checked": 57,
+  "original_review_sha256": "9dd1c94239e77725da5ba1ce453a31a0d0cc072dacf151fb36cf97292c28ca35",
+  "original_review_input_pins_unchanged": 151,
+  "baseline_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+  "baseline_graph_sha256": "2ef0f2029a01d7985c06c6f5cdbb099728ceecb440a0058dc36cbf4312d5a90a",
+  "prior_id_collisions": 0,
+  "standalone_schema": {
+    "nodes": 239,
+    "edges": 264,
+    "sources": 57
+  },
+  "combined_schema": {
+    "nodes": 1458,
+    "edges": 3412,
+    "sources": 424
+  },
+  "exact_mappings": {
+    "sampled_awards": 30,
+    "parent_references_separately_typed": 3,
+    "original_priced_lines": 2,
+    "cumulative_obligation_measures": 30,
+    "ordered_line_measures": 2,
+    "rejected_comparators": 2,
+    "party_nodes": 15,
+    "party_edges": 9,
+    "professional_person_nodes": 1,
+    "role_contracts": 14,
+    "planned_task_definitions": 20,
+    "separate_actual_task_states": 20,
+    "accepted_packets": 4
+  },
+  "new_network_requests": 0,
+  "canonical_approval_or_assembly_performed": false
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "decision": "join",
+    "keys": [
+      "CAGE 745V4",
+      "UEI XN9HKU6LUM59"
+    ],
+    "basis": [
+      "TP-S-ORDER",
+      "TP-S-CAGE-DON",
+      "TP-S-AWARD",
+      "TP-S-PROFILE-DON"
+    ],
+    "limit": "Role is named dealer and public award recipient, not proven payment recipient."
+  },
+  {
+    "decision": "join",
+    "keys": [
+      "CAGE 27624",
+      "UEI E6KFWWNKEQ49"
+    ],
+    "basis": [
+      "TP-S-ORDER",
+      "TP-S-CAGE-SPS",
+      "TP-S-QUERY-SPS",
+      "TP-S-PROFILE-SPS"
+    ],
+    "limit": "Intended manufacturer for this order. Do not substitute another SPS site/CAGE."
+  },
+  {
+    "decision": "preserve_reported_relation",
+    "keys": [
+      "E6KFWWNKEQ49",
+      "UU26FKF1MML6"
+    ],
+    "basis": [
+      "TP-S-PROFILE-SPS"
+    ],
+    "limit": "Federal reported parent observed 2026-10-30, not beneficial-owner or payment-flow conclusion."
+  },
+  {
+    "decision": "do_not_merge",
+    "keys": [
+      "Florida L10000120053",
+      "CAGE 745V4"
+    ],
+    "basis": [
+      "context-notes.json TP-CANDIDATE-FL"
+    ],
+    "limit": "State filing remains candidate; no person from it is inserted into the award graph."
+  },
+  {
+    "decision": "do_not_merge",
+    "keys": [
+      "PB Fasteners",
+      "CAGE 27624"
+    ],
+    "basis": [
+      "context-notes.json TP-COMPANY-PB"
+    ],
+    "limit": "Issuer product/brand page lacks a retained identifier crosswalk; marketing name is not a substitute for contract identity."
+  },
+  {
+    "decision": "do_not_infer_ownership",
+    "keys": [
+      "DON INDUSTRIAL GROUP LLC",
+      "XN9HKU6LUM59"
+    ],
+    "basis": [
+      "TP-S-PROFILE-DON"
+    ],
+    "limit": "Self-parent does not identify beneficial owners."
+  }
+]

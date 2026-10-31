@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "data_origin": "illustrative_user_scenario",
+  "evidence_kind": "synthetic_calibration",
+  "dataset_scope": "Algebraic illustration of the user-described 12% and 100000 example; no actual transaction evidence",
+  "currency": "unspecified",
+  "assumptions": [
+    "100000 is the total price increment, not gross annual purchasing",
+    "12% is a uniform markup on the comparable underlying cost",
+    "No legitimate extra costs or tax differences are modeled",
+    "No government transaction or personal benefit is established"
+  ],
+  "increment": "100000.00",
+  "markup_against_reference_percent": "12.000000",
+  "implied_reference_annual_cost_rounded": "833333.33",
+  "implied_gross_annual_value_rounded": "933333.33",
+  "increment_as_percent_of_gross": "10.714286",
+  "rounding_note": "Exact underlying divisions repeat; monetary illustrations are rounded to 2 places only."
+}

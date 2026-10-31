@@ -1,0 +1,114 @@
+{
+  "test_groups": [
+    {
+      "path": "research/us-integrity/collaboration",
+      "tests": 17,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/connectors",
+      "tests": 8,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/engine",
+      "tests": 35,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/names",
+      "tests": 16,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/discovery-policy-2026-10-30/pricing",
+      "tests": 6,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/awards",
+      "tests": 7,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/identity",
+      "tests": 4,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls",
+      "tests": 12,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/review",
+      "tests": 7,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/investigations/dme-catheter-2026-10-29/data-audit",
+      "tests": 6,
+      "exit_code": 0
+    },
+    {
+      "path": "research/us-integrity/tools",
+      "tests": 23,
+      "exit_code": 0
+    }
+  ],
+  "tests_passed": 141,
+  "graph_sha256": "2ef0f2029a01d7985c06c6f5cdbb099728ceecb440a0058dc36cbf4312d5a90a",
+  "public_graph_validation": "passed",
+  "reassembly_deterministic": true,
+  "wiki_links": "passed",
+  "vault_note_count": 1220,
+  "validation_scope": "Clean exported Git tree, no ignored original current PDFs or local databases",
+  "checked_on": "2026-10-30",
+  "graph_sha256_hash_scope": "Exact formatted data/graph.json file bytes",
+  "canonical_graph_sha256": "f9fab2edf7ed8624cc24e89b30f56210a43d421a3bd935ab46f9416964d7ac5b",
+  "canonical_graph_hash_scope": "canonical supplied JSON, not downloaded source content",
+  "graph_counts": {
+    "nodes": 1219,
+    "edges": 3148,
+    "sources": 367
+  },
+  "preservation": {
+    "old_nodes_preserved": 1020,
+    "old_semantic_edges_preserved": 2348,
+    "graph_sha256": "2ef0f2029a01d7985c06c6f5cdbb099728ceecb440a0058dc36cbf4312d5a90a",
+    "node_count": 1219,
+    "edge_count": 3148,
+    "source_count": 367
+  },
+  "extension": {
+    "sha256": "5f49198f14326873418039fd418867fe447d736ccf86a360a2ffa34db219faa8",
+    "nodes": 199,
+    "explicit_edges": 229,
+    "input_artifacts": 129
+  },
+  "independent_replays": [
+    "review/verify_pdf.py",
+    "review/verify_awards.py",
+    "review/verify_identity.py",
+    "review/verify_current.py"
+  ],
+  "price_reviewer": {
+    "receipt": "price-challenge/market_review.json",
+    "sha256": "4d5d78f0a2d1dde0440bdac3825191fc2db6779c2681c927a2aa19075f0eb585",
+    "decisions": 12,
+    "input_pins": 34,
+    "saved_output_replays": 4
+  },
+  "test_environment_note": "Git-exported working files with local Git history objects available for immutable prior-commit checks. Initial bare export lacked history and the historical-input check correctly failed; no application change was required. All141tests then passed without ignored current PDFs.",
+  "scope_limits": {
+    "qualified_market_benchmarks": 0,
+    "actual_price_premium": null,
+    "buyer_benefit": null,
+    "actual_paid_value": null,
+    "new_fraud_established": false,
+    "original_current_pdfs_publicly_archived": false,
+    "synthetic_examples_in_real_money_export": false,
+    "external_submissions": 0,
+    "claude_result_authenticated": false
+  }
+}

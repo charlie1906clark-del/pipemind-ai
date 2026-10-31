@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "data_origin": "public_observation",
+  "evidence_kind": "documented_contract_observation_with_unresolved_comparison",
+  "dataset_scope": "One inspected DLA ordered line, not a payment, independent market benchmark or complete award population",
+  "input_source": {
+    "path": "../current/observations.json",
+    "sha256": "76c3978c4d9cff03bfcbbadc019fd27699761ef0b0833a8df3e065026f21b401"
+  },
+  "lines": [
+    {
+      "line_id": "DLA-SPE4A627F0588-0001",
+      "analyst_id": "codex-price-controls",
+      "key": {
+        "agency_code": "DLA",
+        "piid": "SPE4A626D61WS",
+        "order_id": "SPE4A627F0588",
+        "clin": "0001"
+      },
+      "currency": "USD",
+      "value_basis": "ordered_value",
+      "quantity": "906.000",
+      "contract": {
+        "unit_price": "0.9100",
+        "line_total": "824.46",
+        "price_measure": "ordered_unit_price",
+        "quantity_measure": "ordered_quantity",
+        "source": {
+          "source_id": "BOLT-CUR-S02",
+          "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/19OCT26/SPE4A626D61WSSPE4A627F0588.PDF",
+          "locator": "Page2 priced CLIN; linked parent page5 for currency and QUP",
+          "scope": "Ordered value only; original PDFs visually checked, selected public excerpts retained separately",
+          "source_kind": "agency_award_line",
+          "observed_on": "2026-10-30"
+        },
+        "terms": {
+          "item_identifier": "5306016864912",
+          "revision": "TDP Rev A Gen1; ASMEB18.24 dated10/16/2023",
+          "unit_of_issue": "EA",
+          "pack_size": "1",
+          "quantity": "906.000",
+          "price_date": "2026-10-19",
+          "delivery": "2027-01-04",
+          "condition": null,
+          "quality": "Specified DLA technical/quality clauses; no commercial equivalence verified",
+          "traceability": null,
+          "freight": "FOB origin; government payment method",
+          "warranty": null,
+          "included_scope": "Original ordered bolt line; landed cost not established"
+        }
+      },
+      "reference": null,
+      "comparison_review": {
+        "decision": "not_ready",
+        "reviewer_id": "pending-new-comparator-review",
+        "reviewed_on": "2026-10-30",
+        "evidence_note": "No qualified independently verified market comparator, full term match or landed-cost basis"
+      }
+    }
+  ]
+}

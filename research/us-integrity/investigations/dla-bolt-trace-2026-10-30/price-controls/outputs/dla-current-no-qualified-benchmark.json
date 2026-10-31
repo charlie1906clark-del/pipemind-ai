@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "data_origin": "public_observation",
+  "evidence_kind": "documented_contract_observation_with_unresolved_comparison",
+  "dataset_scope": "One inspected DLA ordered line, not a payment, independent market benchmark or complete award population",
+  "submitted_lines": 1,
+  "lines": [
+    {
+      "line_id": "DLA-SPE4A627F0588-0001",
+      "key": {
+        "agency_code": "DLA",
+        "piid": "SPE4A626D61WS",
+        "order_id": "SPE4A627F0588",
+        "clin": "0001"
+      },
+      "status": "blocked",
+      "data_origin": "public_observation",
+      "reason": "contract.terms.condition: missing nonempty text",
+      "reference_status": "not_supplied",
+      "adjusted_reference_unit_price": null,
+      "premium_against_reference_percent": null,
+      "difference_exact": null
+    }
+  ],
+  "eligible_lines": 0,
+  "blocked_lines": 1,
+  "coverage_complete_for_submitted_lines": false,
+  "aggregates": [],
+  "interpretation": "Differences against supplied reviewed references, not a misconduct or recoverability finding.",
+  "authentication_limit": "This calculator validates declared fields and arithmetic. It cannot authenticate sources, reviewer identity, availability, independence, payments or concealed benefits. Inspect the underlying evidence.",
+  "rounding": "Decimal precision 80; totals aggregate unrounded values; display uses half-up 2 decimal amounts and 6 decimal percentage points. No FX or automatic unit conversion.",
+  "input_snapshot": {
+    "file_name": "dla-current-no-qualified-benchmark.json",
+    "sha256": "87b32320d35bae4381de252a4f05f7c57d35539235491cc29f85827a31e3304d"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "source_bytes_archived": false,
+  "sources": [
+    {
+      "id": "PA-SOURCE-USASPENDING",
+      "url": "https://www.usaspending.gov/federal-spending-guide",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Official indexed guide; direct open yielded page shell",
+      "supports": "Award summary and transaction downloads are distinct; public API documentation route exists.",
+      "limitations": "Not a line-item invoice/payment database; no contents hash captured.",
+      "web_refs": [
+        "turn248search2",
+        "turn252view3"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-SAM",
+      "url": "https://open.gsa.gov/api/get-opportunities-public-api/",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official documentation",
+      "supports": "Public Opportunities API requires API key, pagination and latest-active-version handling.",
+      "limitations": "No account or API key configured by this lane.",
+      "web_refs": [
+        "turn251view1"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-FAR13",
+      "url": "https://www.acquisition.gov/far/13.106-3",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official text",
+      "supports": "Simplified acquisition price-reasonableness and quotation-record guidance.",
+      "limitations": "Applicability/deviations must be checked for each action; not proof of breach.",
+      "web_refs": [
+        "turn251view0"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-VA-CCST",
+      "url": "https://www.vendorportal.ecms.va.gov/nac/",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official page and found pricing limitation",
+      "supports": "Public viewing/download of catalog product/contract information; catalog is reference data.",
+      "limitations": "Price discrepancies require authorized list; no particular order/payment established.",
+      "web_refs": [
+        "turn251view2",
+        "turn252view7"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-GSA",
+      "url": "https://www.gsa.gov/buy-through-us/products-and-services/professional-services/buy-services/oasis-plus/buyers-guide/buyers-guide-printable",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official May12,2026 guide and pricing section",
+      "supports": "Labor ceiling data and restricted Prices Paid are different tools.",
+      "limitations": "No restricted access; ceiling prices cannot become actual paid-rate observations.",
+      "web_refs": [
+        "turn252view4",
+        "turn253view1"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-SEC-API",
+      "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official documentation",
+      "supports": "Public submissions/XBRL data APIs do not require authentication or API keys.",
+      "limitations": "Filing facts do not establish every sale or beneficial-owner chain.",
+      "web_refs": [
+        "turn252view0"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-SEC-ACCESS",
+      "url": "https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official guidance",
+      "supports": "Fair-access guidance includes declared user-agent and request-rate limits.",
+      "limitations": "Use targeted requests; recheck policy before a new automated run.",
+      "web_refs": [
+        "turn252view1"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-FINCEN-CURRENT",
+      "url": "https://www.fincen.gov/boi/beneficial-ownership-information-frequently-asked-questions",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened current official notice",
+      "supports": "Page reports August11,2026 final rule changing BOI reporting scope.",
+      "limitations": "Only used to prevent an assumption of complete domestic reporting; no entity eligibility judgment.",
+      "web_refs": [
+        "turn251view3"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-FINCEN-ACCESS",
+      "url": "https://www.fincen.gov/news/news-releases/fact-sheet-beneficial-ownership-information-access-and-safeguards-final-rule",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official access framework with update caveat",
+      "supports": "BOI confidentiality/access categories; not a public research lookup.",
+      "limitations": "Historical fact sheet has reporting-scope caveats; current FAQ controls current reporting summary.",
+      "web_refs": [
+        "turn253view0"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-DOJ-COLLUSION",
+      "url": "https://www.justice.gov/atr/red-flags-collusion",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official guidance",
+      "supports": "Actual proposal similarities, award patterns and benefit/coordination evidence can inform inquiry.",
+      "limitations": "Investigative indicators are not legal findings; no report submitted.",
+      "web_refs": [
+        "turn252view2"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-FOIA",
+      "url": "https://www.foia.gov/faq.html",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Opened official guidance",
+      "supports": "Search released records first; precise agency-record requests may be possible.",
+      "limitations": "Exemptions apply and agencies need not create records/analyses; no request submitted.",
+      "web_refs": [
+        "turn252view5"
+      ],
+      "content_sha256": null
+    },
+    {
+      "id": "PA-SOURCE-DLA-ROUTE",
+      "url": "https://www.dla.mil/Information-Operations/Services/Applications/PUB-LOG/ProceduresManuals/",
+      "retrieved_at": "2026-10-30",
+      "retrieval_depth": "Attempted open returned403; prior repo route reused",
+      "supports": "Prior inspected public archive route recorded in the bolt investigation.",
+      "limitations": "No exact primary item record acquired by this architecture lane.",
+      "web_refs": [
+        "turn252view6"
+      ],
+      "content_sha256": null
+    }
+  ]
+}

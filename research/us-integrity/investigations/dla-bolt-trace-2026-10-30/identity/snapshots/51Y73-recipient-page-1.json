@@ -1,0 +1,21 @@
+{
+  "page_metadata": {
+    "page": 1,
+    "total": 1,
+    "limit": 1000,
+    "next": null,
+    "previous": null,
+    "hasNext": false,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "id": "3f90f59d-d2b0-8b9b-23c5-c23a0e3de900-C",
+      "duns": "868217647",
+      "uei": "US4BABY42KV8",
+      "name": "CASCADE NUT & BOLT, INC",
+      "recipient_level": "C",
+      "amount": -3534.61
+    }
+  ]
+}

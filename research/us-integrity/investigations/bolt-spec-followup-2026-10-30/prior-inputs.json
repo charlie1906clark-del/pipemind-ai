@@ -1,0 +1,35 @@
+{
+  "baseline_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+  "inputs": [
+    {
+      "path": "../dla-bolt-trace-2026-10-30/specification/archive-directory.json",
+      "sha256": "42652d47b841d5babe39bb6f4982e1a304c7328852098e7d53e436882d813114",
+      "scope": "Reused prior frozen artifact; no new retrieval claimed"
+    },
+    {
+      "path": "../dla-bolt-trace-2026-10-30/specification/archive-metadata-access.json",
+      "sha256": "f2c86bd49139894e55b163d8bf9f36008f628f73e2a82841e22382b20bf141d9",
+      "scope": "Reused prior frozen artifact; no new retrieval claimed"
+    },
+    {
+      "path": "../dla-bolt-trace-2026-10-30/specification/archive-tools-readme-selected.txt",
+      "sha256": "821a3ab3a7ce0773a897ed66a3828e736f40ae9d7be393968e6b86d76b8c03ef",
+      "scope": "Reused prior frozen artifact; no new retrieval claimed"
+    },
+    {
+      "path": "../dla-bolt-trace-2026-10-30/specification/member-format-inspection.json",
+      "sha256": "6efacdf006c82e36d495167a6f0ec514c6ddad0a03d5080a96b14c0ec953c57e",
+      "scope": "Reused prior frozen artifact; no new retrieval claimed"
+    },
+    {
+      "path": "../dla-bolt-trace-2026-10-30/current/observations.json",
+      "sha256": "76c3978c4d9cff03bfcbbadc019fd27699761ef0b0833a8df3e065026f21b401",
+      "scope": "Reused prior frozen artifact; no new retrieval claimed"
+    },
+    {
+      "path": "../dla-bolt-trace-2026-10-30/market/spec-crosswalk.json",
+      "sha256": "eac94abc0f42f7c07766d650a282dd7a45972e99f97c03e705fcac45805cd81c",
+      "scope": "Reused prior frozen artifact; no new retrieval claimed"
+    }
+  ]
+}

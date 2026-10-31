@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-30",
+  "capture_status": "Official pages opened and read through web retrieval. Original HTTP response bytes are not archived. Locators and concise source summaries are preserved; these are not forensic copies of the webpages.",
+  "sources": [
+    {
+      "id": "PC-METHOD-S01",
+      "publisher": "Acquisition.gov",
+      "title": "FAR 13.106-3 Award and documentation",
+      "url": "https://www.acquisition.gov/far/13.106-3",
+      "web_ref": "turn229view0",
+      "accessed_at": "2026-10-30",
+      "version": "FAC 2026-01, effective 2026-03-13",
+      "locator": "13.106-3(a)(1)-(3), (b)(1)-(3)",
+      "primary": true,
+      "source_claim": "Simplified-acquisition awards require a fair-and-reasonable-price determination. Competitive quotations are preferred where possible. Catalog inclusion alone does not establish reasonableness; supporting records can include supplier, price, delivery and other terms.",
+      "application": "Relevant framework for the seven reported simplified-acquisition purchase orders. Determine the governing solicitation clauses, deviations and version for each action before alleging noncompliance."
+    },
+    {
+      "id": "PC-METHOD-S02",
+      "publisher": "Acquisition.gov",
+      "title": "FAR 15.404-1 Proposal analysis techniques",
+      "url": "https://www.acquisition.gov/far/15.404-1",
+      "web_ref": "turn229view1",
+      "accessed_at": "2026-10-30",
+      "version": "FAC 2026-01, effective 2026-03-13",
+      "locator": "15.404-1(b)(1)-(2)(ii), (b)(2)(iv)-(vi), (e)",
+      "primary": true,
+      "source_claim": "Price analysis examines total price without evaluating individual cost elements or profit. Historical comparisons need a valid prior price and adjustments for material quantity, terms, item and market differences. Technical advice may be needed.",
+      "application": "Analytical guidance only here; do not infer that Part 15 procedures or certified cost or pricing data are mandatory for these simplified acquisitions."
+    },
+    {
+      "id": "PC-METHOD-S03",
+      "publisher": "United States Department of Justice, Antitrust Division",
+      "title": "Red Flags Of Collusion",
+      "url": "https://www.justice.gov/atr/red-flags-collusion",
+      "web_ref": "turn232view0",
+      "accessed_at": "2026-10-30",
+      "updated_at": "2015-06-25",
+      "locator": "Market, applications, patterns, suspicious behavior",
+      "primary": true,
+      "source_claim": "DOJ describes market concentration, shared proposal irregularities, repeat winner patterns, subcontracting to losing bidders and advance knowledge of competitors' bids as reasons to investigate possible collusion.",
+      "application": "Screening framework, not proof or a rule that any particular offer count establishes independent competition. Shared upstream products and common form templates require ordinary-explanation checks."
+    }
+  ],
+  "independent_mechanism_review": {
+    "path": "mechanism_sources.json",
+    "doj_web_ref": "turn232view1",
+    "oig_web_ref": "turn232view2",
+    "decision": "accept_as_known_case_calibration_only",
+    "reason": "The reviewer independently opened both official sources. The summary preserves dated pleas/admissions and separates contract volume from loss and alleged benefit amounts."
+  }
+}

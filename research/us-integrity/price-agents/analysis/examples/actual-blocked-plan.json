@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "ACTUAL-BOLT-BLOCKED-SCREEN",
+  "design_status": "exploratory_retrospective",
+  "analysis_scope": "One retained current order; PIID prefix is a grouping key, not verified individual buyer identity",
+  "scope_kind": "declared_sample",
+  "period_start": "2026-01-01",
+  "period_end": "2026-10-30",
+  "target_percent": "12",
+  "tolerance_percentage_points": "1",
+  "minimum_in_band_fraction": "0.75",
+  "maximum_blocked_fraction": "0.25",
+  "minimum_solicitations": 3,
+  "minimum_months": 2,
+  "minimum_benchmark_families": 2
+}

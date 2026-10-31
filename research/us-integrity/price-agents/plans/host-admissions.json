@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "record_id": "PA-HOST-ADMISSION-20261030-01",
+  "reviewed_on": "2026-10-30",
+  "reviewed_by": "root coordinator",
+  "review_basis": "Explicit coordinator instruction during the authorized public procurement research, followed by inspection of the existing source and request logs. This is routine scope control, not a new user-approval gate.",
+  "plan_id": "PA-WAVE-20261030-01",
+  "affected_tasks": [
+    "PA-W1-MARKET-DLA-PILOT",
+    "PA-W1-PRICE-DLA-PILOT"
+  ],
+  "operational_import_state_at_change": "Root confirms current plan not yet imported for the real run. Earlier architect imports were isolated scratch validation.",
+  "immutable_change_rule": "Once any operational ledger has imported this definition, new access scope requires a new plan and task version/ID. Never edit the imported definition in place or silently extend an active claim.",
+  "observation_inputs": [
+    {
+      "path": "price-agents/research-market/sources.json",
+      "sha256": "9838b3f9995b1a55ca6015945f1c15d527a724a08fa43f40488e7ba74cedf8f1"
+    },
+    {
+      "path": "price-agents/research-market/query_log.json",
+      "sha256": "1d9d206b09fbd6a409067b36ad27f1b4564296fdcdeb985cd1f450b29fc94dff"
+    }
+  ],
+  "parent_transaction": {
+    "PIID": "SPE4A626PW775",
+    "nsn": "5306004457358",
+    "part_number": "39-8820-501",
+    "primary_source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+    "relationship_limit": "Seller URLs were discovered by exact-part public searches, not hyperlinks asserted to appear in the award. No sale, supply-chain membership or approved-source relationship is inferred."
+  },
+  "admissions": [
+    {
+      "host": "aerobasegroup.com",
+      "exact_seed_url": "https://aerobasegroup.com/part-number/39-8820-501_00-445-7358",
+      "source_id": "PA-MKT-NEW-BOLT-01",
+      "discovery_parent": "Exact part/NSN search results recorded in research-market/query_log.json",
+      "observed_refs": [
+        "turn261search2",
+        "turn262view0",
+        "turn269view0"
+      ],
+      "business_domain_basis": "Seller-owned public product page, observed in the source index; no account-only service is requested.",
+      "relevance": "URL and indexed fields match part39-8820-501 and NSN5306004457358.",
+      "current_evidence": "Two direct opens timed out. Indexed36units with a2025date do not establish current2243unit availability. No price acquired.",
+      "read_only_request_limit_per_market_run": 2,
+      "allowed_paths": [
+        "/part-number/39-8820-501_00-445-7358"
+      ],
+      "additional_path_rule": "Only a newly observed exact-part document URL may become a seed after coordinator relevance review; do not infer paths.",
+      "price_qualification": "unqualified"
+    },
+    {
+      "host": "www.aehiinc.com",
+      "exact_seed_url": "https://www.aehiinc.com/documents/AEHIpartscatalog.pdf",
+      "source_id": "PA-MKT-NEW-BOLT-02",
+      "discovery_parent": "Exact-part seller-catalog search results recorded in research-market/sources.json",
+      "observed_refs": [
+        "turn261search27",
+        "turn262search4"
+      ],
+      "business_domain_basis": "Seller-owned public document host observed in an indexed catalog pointer; no private financial or customer data requested.",
+      "relevance": "Indexed catalog pointer matches the same exact part and NSN.",
+      "current_evidence": "Historical indexed pointer only; original catalog, price, current date and quantity availability not acquired.",
+      "read_only_request_limit_per_market_run": 2,
+      "allowed_paths": [
+        "/documents/AEHIpartscatalog.pdf"
+      ],
+      "additional_path_rule": "No general site crawl; any new item-specific URL needs recorded relevance before use.",
+      "price_qualification": "unqualified"
+    }
+  ],
+  "common_limits": {
+    "method": "HTTPS GET or HEAD only",
+    "max_requests_combined_per_market_run": 4,
+    "counting": "Failures, retries and redirects count; these caps are inside existing task limits, not additional allowances.",
+    "maximum_bytes_per_response": 8388608,
+    "maximum_total_bytes": 16777216,
+    "timeout_seconds": 20,
+    "max_redirects": 1,
+    "max_retries": 0,
+    "query_keys": [],
+    "exclude": [
+      "login/account routes",
+      "forms or quote requests",
+      "purchases or supplier contact",
+      "social/profile/navigation links",
+      "personal or residential records",
+      "unapproved redirect hosts",
+      "guessed URLs",
+      "bulk customer or price-list enumeration unrelated to the exact part"
+    ]
+  },
+  "implementation_limit": "Exact host names are imported into the runtime plan. Path and per-host byte/request caps must be applied in each bounded tracer input and reviewed manifest; the runtime host list alone does not enforce them. The tracer does not yet reserve the runtime ledger budget, so count actual manifest attempts in the coordinator record.",
+  "price_analysis_limit": "Admission grants read-only source scope only; it does not establish independence, authentic historical terms, equivalent specification, executable price, payment, overcharge or buyer benefit."
+}

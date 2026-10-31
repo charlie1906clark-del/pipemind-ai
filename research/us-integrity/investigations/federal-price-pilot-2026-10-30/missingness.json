@@ -1,0 +1,51 @@
+{
+  "scope": "missing from this captured evidence, not necessarily absent from government records",
+  "by_field": {
+    "original_order_lines": {
+      "acquired_two_clins": 1,
+      "not_acquired": 29
+    },
+    "exact_production_item_and_unit": {
+      "observed_on_original_award": 1,
+      "not_acquired": 29
+    },
+    "awarding_office": {
+      "observed": 3,
+      "detail_not_requested": 27
+    },
+    "date_signed": {
+      "observed": 3,
+      "detail_not_requested": 27
+    },
+    "parent_award": {
+      "null_in_detail_response": 1,
+      "detail_not_requested": 27,
+      "observed": 2
+    },
+    "solicitation": {
+      "observed": 2,
+      "detail_not_requested": 27,
+      "null_in_detail_response": 1
+    },
+    "cash_payment_or_invoice": {
+      "not_acquired": 30
+    },
+    "delivery_acceptance": {
+      "not_acquired": 30
+    },
+    "independent_like_for_like_price": {
+      "not_acquired": 30
+    },
+    "supplier_cost_or_markup": {
+      "not_acquired": 30
+    },
+    "buyer_benefit_or_kickback": {
+      "not_acquired": 30
+    },
+    "individual_price_selection_decision_maker": {
+      "not_established_by_professional_officer_role": 1,
+      "not_identified": 29
+    }
+  },
+  "per_award_path": "observations.json"
+}

@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-10-30",
+  "passed": true,
+  "method": "Selected-public-artifact digest and text/Decimal replay of independent visual transcription; no producer modules",
+  "original_pdfs_replayed_this_run": false,
+  "original_pdf_bytes_archived_in_public_repository": false,
+  "selected_manifest_sha256": "4cb576afaab6e73ec77b13c55f25b14c7946701033f2c21d94e5c2234e80a5eb",
+  "observations_sha256": "76c3978c4d9cff03bfcbbadc019fd27699761ef0b0833a8df3e065026f21b401",
+  "structured_observations_checked_against_source": true,
+  "documents": {
+    "parent": {
+      "filename": "SPE4A626D61WS.pdf",
+      "sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0"
+    },
+    "child": {
+      "filename": "SPE4A626D61WSSPE4A627F0588.pdf",
+      "sha256": "3360e103d973fd70d38d2baebc1aa47644cd3806822bc8393fb5db99bcbbc4ef"
+    }
+  },
+  "visual_pages": {
+    "parent": [
+      2,
+      5
+    ],
+    "child": [
+      1,
+      2
+    ]
+  },
+  "additional_text_pages": {
+    "parent": [
+      1,
+      6
+    ]
+  },
+  "parent_contract": "SPE4A626D61WS",
+  "child_order": "SPE4A627F0588",
+  "nsn": "5306016864912",
+  "parent_clin": "0001",
+  "order_clin": "0001",
+  "unit": "EA",
+  "currency": "USD",
+  "awarded_unit_price": "0.91000",
+  "ordered_quantity": "906.000",
+  "ordered_unit_price": "0.9100",
+  "ordered_line_amount_usd": "824.46",
+  "order_arithmetic_matches": true,
+  "order_date": "2026-10-19",
+  "required_delivery_date": "2027-01-04",
+  "parent_ceiling_usd": "350000.00",
+  "estimated_annual_quantity": "2221.000",
+  "current_order_minimum_ea": "1",
+  "rfq_order_minimum_ea": "555",
+  "current_parent_delivery_days": "76",
+  "rfq_delivery_days": "78",
+  "current_line_price_verified": true,
+  "secondary_displayed_unit_price_valid": false,
+  "inspection_receipt_acceptance_payment_blocks_on_order_form": "blank in inspected original",
+  "actual_delivery_verified": false,
+  "cash_payment_verified": false,
+  "contract_document_completeness_all_modifications": "not_established",
+  "historical_like_for_like_comparison_approved": false,
+  "new_fraud_established": false,
+  "limits": "Confirms actual document price and quantity fields, not whether later modifications, shipment, acceptance or payment occurred."
+}

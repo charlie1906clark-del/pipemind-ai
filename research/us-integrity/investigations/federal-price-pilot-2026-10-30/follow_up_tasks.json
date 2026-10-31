@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "federal-price-pilot-2026-10-30-v1",
+  "base_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+  "evidence_mode": "public",
+  "task_execution_status": "Definitions only. Initial pilot research is saved separately; this file does not claim these tasks have run.",
+  "tasks": [
+    {
+      "id": "FPP-DLA-SPEC",
+      "title": "Freeze exact DLA commodity and contractual scope",
+      "agent_role": "specification_reviewer",
+      "question": "Can an independent reviewer reproduce both original CLINs and distinguish production quantity, first-article testing, drawing/QAP requirements, freight and future delivery?",
+      "scope": {
+        "pilot_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+        "observation_date": "2026-10-30",
+        "price_basis_rule": "Never divide an award obligation by a guessed quantity. An invoice/payment is separate from an award line. Unknown is an allowed terminal result.",
+        "public_evidence_only": true,
+        "exclude_contact_street_and_private_personal_data": true,
+        "piid": "SPE4A626PW775",
+        "nsn": "5306004457358",
+        "part_number": "39-8820-501",
+        "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+        "line_observation_ids": [
+          "SPE4A626PW775-0001",
+          "SPE4A626PW775-0002"
+        ],
+        "required_outputs": [
+          "verified exact item and unit",
+          "production/test separation",
+          "scope matrix",
+          "source contradiction log"
+        ]
+      },
+      "depends_on": [],
+      "allowed_source_hosts": [
+        "dibbs2.bsm.dla.mil",
+        "www.dla.mil"
+      ],
+      "max_attempts": 6,
+      "max_evidence": 8,
+      "max_reopens": 1
+    },
+    {
+      "id": "FPP-DLA-BENCHMARK",
+      "title": "Acquire exact-item comparable prices",
+      "agent_role": "independent_market_price_researcher",
+      "question": "Is there a dated independent price for the same approved-manufacturer part, quantity and delivery/test/quality scope, and can legitimate scope differences explain any spread?",
+      "scope": {
+        "pilot_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+        "observation_date": "2026-10-30",
+        "price_basis_rule": "Never divide an award obligation by a guessed quantity. An invoice/payment is separate from an award line. Unknown is an allowed terminal result.",
+        "public_evidence_only": true,
+        "exclude_contact_street_and_private_personal_data": true,
+        "piid": "SPE4A626PW775",
+        "nsn": "5306004457358",
+        "part_number": "39-8820-501",
+        "unit": "EA",
+        "quantity": "2243.000",
+        "awarded_production_unit_price_usd": "272.99",
+        "test_charge_usd": "3500.00",
+        "delivery_due": "2028-04-10",
+        "required_records": [
+          "public exact-item past award line",
+          "dated manufacturer/distributor posted offer or already authorized quote",
+          "freight/test/quality/packaging and volume terms"
+        ],
+        "missing_record_outcome": "stop_unresolved_no_benchmark; quote-request forms do not supply price"
+      },
+      "depends_on": [
+        "FPP-DLA-SPEC"
+      ],
+      "allowed_source_hosts": [
+        "dibbs2.bsm.dla.mil",
+        "www.dla.mil",
+        "api.usaspending.gov",
+        "www.usaspending.gov",
+        "aerobasegroup.com",
+        "www.spstech.com",
+        "www.sps-tech.com",
+        "sam.gov"
+      ],
+      "max_attempts": 6,
+      "max_evidence": 8,
+      "max_reopens": 1
+    },
+    {
+      "id": "FPP-DLA-BASIS",
+      "title": "Trace actual purchase support and price reasonableness",
+      "agent_role": "procurement_record_tracer",
+      "question": "Do public bid abstract, price determination, modifications, invoices or acceptance records establish evaluated bids, later price changes, payment, origin or delivery?",
+      "scope": {
+        "pilot_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+        "observation_date": "2026-10-30",
+        "price_basis_rule": "Never divide an award obligation by a guessed quantity. An invoice/payment is separate from an award line. Unknown is an allowed terminal result.",
+        "public_evidence_only": true,
+        "exclude_contact_street_and_private_personal_data": true,
+        "piid": "SPE4A626PW775",
+        "solicitation": "SPE4A626Q0688",
+        "reported_offers": "4",
+        "required_records": [
+          "bid abstract and same-scope offers",
+          "price reasonableness determination",
+          "modifications",
+          "invoice and payment identity if public",
+          "delivery acceptance when due"
+        ],
+        "missing_record_outcome": "named missing-record task; a four-offer count does not establish independent bids"
+      },
+      "depends_on": [],
+      "allowed_source_hosts": [
+        "sam.gov",
+        "dibbs2.bsm.dla.mil",
+        "www.dla.mil",
+        "api.usaspending.gov"
+      ],
+      "max_attempts": 6,
+      "max_evidence": 8,
+      "max_reopens": 1
+    },
+    {
+      "id": "FPP-VA-ORDER",
+      "title": "Acquire VA PAP order lines and governing schedule version",
+      "agent_role": "medical_order_line_researcher",
+      "question": "Which exact devices/accessories, quantities, units and per-line prices make up 36C79126F0030, and what approved schedule/BPA prices applied on 2026-07-17?",
+      "scope": {
+        "pilot_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+        "observation_date": "2026-10-30",
+        "price_basis_rule": "Never divide an award obligation by a guessed quantity. An invoice/payment is separate from an award line. Unknown is an allowed terminal result.",
+        "public_evidence_only": true,
+        "exclude_contact_street_and_private_personal_data": true,
+        "piid": "36C79126F0030",
+        "parent_bpa": "36C79123A0003",
+        "parent_fss": "36F79719D0027",
+        "date_signed": "2026-07-17",
+        "required_records": [
+          "signed order with CLINs",
+          "device manufacturer/model",
+          "accessory and service breakdown",
+          "BPA price terms",
+          "authorized FSS price list effective at order date"
+        ],
+        "known_blocker": "Indexed GSA price-list URL returned 404; order CLINs not acquired. No total/quantity inference."
+      },
+      "depends_on": [],
+      "allowed_source_hosts": [
+        "api.usaspending.gov",
+        "www.usaspending.gov",
+        "sam.gov",
+        "www.va.gov",
+        "www.vendorportal.ecms.va.gov",
+        "www.gsaadvantage.gov"
+      ],
+      "max_attempts": 6,
+      "max_evidence": 8,
+      "max_reopens": 1
+    },
+    {
+      "id": "FPP-HHS-ORDER",
+      "title": "Acquire NIH defibrillator order and quotation lines",
+      "agent_role": "medical_order_line_researcher",
+      "question": "Which exact defibrillator models, options, accessories, quantities, warranty/service and line prices appear in 75N98026F00268 and RFQ1821947?",
+      "scope": {
+        "pilot_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+        "observation_date": "2026-10-30",
+        "price_basis_rule": "Never divide an award obligation by a guessed quantity. An invoice/payment is separate from an award line. Unknown is an allowed terminal result.",
+        "public_evidence_only": true,
+        "exclude_contact_street_and_private_personal_data": true,
+        "piid": "75N98026F00268",
+        "solicitation": "RFQ1821947",
+        "parent_fss": "36F79720D0041",
+        "date_signed": "2026-07-27",
+        "required_records": [
+          "signed order CLINs",
+          "RFQ and awarded quote",
+          "model and accessory bundle",
+          "authorized FSS price list effective at order date"
+        ],
+        "known_blocker": "Exact RFQ search yielded no document; indexed GSA PDF returned 404 twice. Two accessible same-FSS catalog items were wrong products and rejected."
+      },
+      "depends_on": [],
+      "allowed_source_hosts": [
+        "api.usaspending.gov",
+        "www.usaspending.gov",
+        "sam.gov",
+        "www.nih.gov",
+        "olao.od.nih.gov",
+        "www.vendorportal.ecms.va.gov",
+        "www.gsaadvantage.gov"
+      ],
+      "max_attempts": 6,
+      "max_evidence": 8,
+      "max_reopens": 1
+    },
+    {
+      "id": "FPP-VA-PRICE",
+      "title": "Independently compare VA exact medical lines",
+      "agent_role": "medical_price_reviewer",
+      "question": "After order acquisition, do exact item, quantity, unit, bundle, delivery and date match an independent price sufficiently to calculate a justified spread?",
+      "scope": {
+        "pilot_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+        "observation_date": "2026-10-30",
+        "price_basis_rule": "Never divide an award obligation by a guessed quantity. An invoice/payment is separate from an award line. Unknown is an allowed terminal result.",
+        "public_evidence_only": true,
+        "exclude_contact_street_and_private_personal_data": true,
+        "piid": "36C79126F0030",
+        "required_outputs": [
+          "inclusion and rejection matrix",
+          "bundle/pack normalization",
+          "observed spread with uncertainty or unresolved result"
+        ],
+        "forbidden_inference": "No award-total-as-unit-price, guaranteed recovery, or buyer-benefit claim."
+      },
+      "depends_on": [
+        "FPP-VA-ORDER"
+      ],
+      "allowed_source_hosts": [
+        "www.vendorportal.ecms.va.gov",
+        "www.gsaadvantage.gov",
+        "sam.gov",
+        "api.usaspending.gov"
+      ],
+      "max_attempts": 6,
+      "max_evidence": 8,
+      "max_reopens": 1
+    },
+    {
+      "id": "FPP-HHS-PRICE",
+      "title": "Independently compare NIH exact medical lines",
+      "agent_role": "medical_price_reviewer",
+      "question": "After order acquisition, do exact item, quantity, unit, bundle, delivery and date match an independent price sufficiently to calculate a justified spread?",
+      "scope": {
+        "pilot_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+        "observation_date": "2026-10-30",
+        "price_basis_rule": "Never divide an award obligation by a guessed quantity. An invoice/payment is separate from an award line. Unknown is an allowed terminal result.",
+        "public_evidence_only": true,
+        "exclude_contact_street_and_private_personal_data": true,
+        "piid": "75N98026F00268",
+        "excluded_catalog_items": [
+          "240031300",
+          "P1806UD"
+        ],
+        "required_outputs": [
+          "inclusion and rejection matrix",
+          "bundle/pack normalization",
+          "observed spread with uncertainty or unresolved result"
+        ],
+        "forbidden_inference": "Same FSS and contractor is insufficient to match surgical displays/software to defibrillators."
+      },
+      "depends_on": [
+        "FPP-HHS-ORDER"
+      ],
+      "allowed_source_hosts": [
+        "www.vendorportal.ecms.va.gov",
+        "www.gsaadvantage.gov",
+        "sam.gov",
+        "api.usaspending.gov"
+      ],
+      "max_attempts": 6,
+      "max_evidence": 8,
+      "max_reopens": 1
+    },
+    {
+      "id": "FPP-INDEPENDENT-REVIEW",
+      "title": "Review evidence sufficiency across all three candidate traces",
+      "agent_role": "adversarial_evidence_reviewer",
+      "question": "What findings survive independent arithmetic, provenance, date, comparability and alternative-explanation checks, and which exact records remain missing?",
+      "scope": {
+        "pilot_path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30",
+        "observation_date": "2026-10-30",
+        "price_basis_rule": "Never divide an award obligation by a guessed quantity. An invoice/payment is separate from an award line. Unknown is an allowed terminal result.",
+        "public_evidence_only": true,
+        "exclude_contact_street_and_private_personal_data": true,
+        "piids": [
+          "SPE4A626PW775",
+          "36C79126F0030",
+          "75N98026F00268"
+        ],
+        "required_outputs": [
+          "source-ledger verification",
+          "supported observation versus unresolved lead",
+          "no unsupported individual accusation",
+          "explicit novelty uncertainty",
+          "no benefits or kickbacks inferred from a price spread"
+        ]
+      },
+      "depends_on": [
+        "FPP-DLA-BENCHMARK",
+        "FPP-DLA-BASIS",
+        "FPP-VA-PRICE",
+        "FPP-HHS-PRICE"
+      ],
+      "allowed_source_hosts": [
+        "api.usaspending.gov",
+        "dibbs2.bsm.dla.mil",
+        "www.vendorportal.ecms.va.gov",
+        "www.gsaadvantage.gov",
+        "sam.gov"
+      ],
+      "max_attempts": 6,
+      "max_evidence": 8,
+      "max_reopens": 1
+    }
+  ]
+}

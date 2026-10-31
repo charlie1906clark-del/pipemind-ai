@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-30",
+  "tests_passed": 21,
+  "test_command": "python -m unittest discover -s research/us-integrity/price-agents/runtime -p 'test_*.py'",
+  "deterministic_demo_replay": "passed",
+  "demo_scope": "Synthetic workflow only; 3 ledger connections; no network/model calls; no government transaction",
+  "actual_current_wave_import": {
+    "tasks": 20,
+    "identical_reimport": "idempotent"
+  },
+  "price_adapter": "Existing reviewed premium engine SHA pinned; actual DLA comparison remains blocked; synthetic uniform12 percent preserved",
+  "independent_review": "Separate price_agents_redteam reported stateful adversarial checks passed; final receipt is owned by that reviewer",
+  "hash_scope": "Exact retained artifact bytes",
+  "sha256": {
+    ".gitignore": "49cb98ac180f66a701946467e849fc2b825d3f14968197a455726096e78a9ada",
+    "README.md": "a72fe4bb386d28eb47001ec5dce647bef0ac9dc29bfa73e712605a721dd77024",
+    "agent_runtime.py": "dead4047f1740a5a913eb07d801964d8a84e587f762f08e83f2868b23dbcfc83",
+    "demo-output.json": "5d996e15264c12e3047e25f44a266a2dd58153a1fb2b133dd08c9d93279d2f73",
+    "demo.py": "087817b870f3bcc524a246b786c51a08956a1b3786e5fb238542da2fe4b59705",
+    "fixtures/initial.txt": "61da4216f9e748c99e933070574831f187abf8b008c9199e67dbc6ffaa9571a3",
+    "fixtures/later.txt": "dc4aa37e472ffd1b979f7625315eebe7b149f94c13c89bcc0b08288461dbb802",
+    "fixtures/plan.json": "9aeb0413601aadfd32610def32da5f43d10646b5eb192e1894d32a34b83624d1",
+    "price_check.py": "d032a7f02099bf9bdc972de1fdf4d4617abc0acb942c7ff40bd5152f6a2aeda1",
+    "test_agent_runtime.py": "072d5387ba58145daaca70a95869fcd6f566e21687349dce81eebfda38e69c1e"
+  }
+}

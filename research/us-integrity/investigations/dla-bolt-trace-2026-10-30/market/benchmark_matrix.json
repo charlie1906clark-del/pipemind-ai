@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "investigation": "dla-bolt-trace-2026-10-30",
+  "purpose": "Market price challenge independent of entity identity and CLIN arithmetic",
+  "current_government_reference": {
+    "nsn": "5306016864912",
+    "parent_award": "SPE4A626D61WS",
+    "order": "SPE4A627F0588",
+    "unit_price_usd": "0.9100",
+    "ordered_quantity": 906,
+    "unit": "EA",
+    "line_total_usd": "824.46",
+    "order_date": "2026-10-19",
+    "parent_award_date": "2026-09-17",
+    "delivery_due": "2027-01-04",
+    "fob": "ORIGIN",
+    "freight_payment_method": "GOVERNMENT",
+    "qup": "001",
+    "inspection": "DESTINATION",
+    "acceptance": "DESTINATION",
+    "source_paths": [
+      "../current/observations.json",
+      "../current/snapshots/parent-page5.txt",
+      "../current/snapshots/order-page2.txt"
+    ],
+    "paid_status": "not_verified",
+    "minimum_contract_order_quantity": 1
+  },
+  "candidate_spec_origin": "Secondary NSNExplorer claim; exact primary NSN/spec association not acquired. See spec-crosswalk.json.",
+  "qualified_comparison": {
+    "eligible": false,
+    "eligible_comparator_count": 0,
+    "price_premium": null,
+    "overcharge_amount": null,
+    "kickback_amount": null,
+    "loss_amount": null,
+    "reason": "Primary NSN/specification crosswalk and comparable accepted supply conditions are missing."
+  },
+  "candidates": [
+    {
+      "id": "MKT-COX-HB8F38-34",
+      "seller": "Cox Hardware and Lumber",
+      "source_id": "MKT-SRC-COX",
+      "sku": "HB8F38.34",
+      "manufacturer_part_as_displayed": "COX-111449",
+      "upstream_manufacturer_unverified": null,
+      "specifications": {
+        "diameter_in": 0.375,
+        "threads_per_inch": 24,
+        "length_in": 0.75,
+        "head_style": "hex",
+        "grade": "8",
+        "material": "steel",
+        "finish": "yellow zinc",
+        "nsn_crosswalk_primary": false,
+        "thread_series": "fine/UNF suggested by 3/8-24; not universally explicit",
+        "thread_class": null,
+        "thread_direction": null,
+        "finish_standard": null,
+        "finish_thickness": null,
+        "country_of_manufacture": null,
+        "government_packaging_compliance": null,
+        "lot_traceability_included": null,
+        "certification_included": null,
+        "full_thread": null
+      },
+      "price": {
+        "currency_display": "$",
+        "currency_interpretation": "USD inferred from US merchant; ISO currency not explicit",
+        "selling_uom": "EA",
+        "pack_quantity": null,
+        "tiers": [
+          {
+            "minimum_units": 1,
+            "maximum_units": 99,
+            "price_per_unit": "0.590"
+          },
+          {
+            "minimum_units": 100,
+            "maximum_units": 499,
+            "price_per_unit": "0.413"
+          },
+          {
+            "minimum_units": 500,
+            "maximum_units": null,
+            "price_per_unit": "0.384"
+          }
+        ],
+        "freight_included": null,
+        "tax_included": null,
+        "price_as_of": "2026-10-30",
+        "publication_date": null
+      },
+      "availability": {
+        "available_units": 62,
+        "on_order_units": 0,
+        "item_specific": true,
+        "units_906_available": false
+      },
+      "offer_status": "test_site_catalog_reference_only",
+      "qualification_status": "excluded_from_transactable_quote_set",
+      "limitations": [
+        "Header identifies site as a test site.",
+        "Opened page shows 62 units; search-index version showed18, so neither is an executable906-unit quote.",
+        "500+ price must not be applied as an executable906-unit offer.",
+        "The full-box discount note does not explicitly establish pack size.",
+        "No primary NSN match; no accepted government terms."
+      ]
+    },
+    {
+      "id": "MKT-FSS-191377",
+      "seller": "Fastener SuperStore",
+      "source_id": "MKT-SRC-FSS",
+      "sku": "191377",
+      "manufacturer_part_as_displayed": "Kanebridge3812CH8O",
+      "upstream_manufacturer_unverified": "Kanebridge; seller cross-reference only",
+      "specifications": {
+        "diameter_in": 0.375,
+        "threads_per_inch": 24,
+        "length_in": 0.75,
+        "head_style": "hex",
+        "grade": "8",
+        "material": "steel",
+        "finish": "yellow zinc",
+        "nsn_crosswalk_primary": false,
+        "thread_series": "fine/UNF suggested by 3/8-24; not universally explicit",
+        "thread_class": null,
+        "thread_direction": null,
+        "finish_standard": null,
+        "finish_thickness": null,
+        "country_of_manufacture": null,
+        "government_packaging_compliance": null,
+        "lot_traceability_included": null,
+        "certification_included": null,
+        "full_thread": true,
+        "width_across_flats_in": 0.5625,
+        "dimensional_standard": "ASME B18.2.1-2012 via generic linked specification"
+      },
+      "price": {
+        "currency_display": "$",
+        "currency_interpretation": "USD inferred from US merchant; ISO currency not explicit",
+        "selling_uom": "carton",
+        "pack_quantity": 1100,
+        "tiers": [
+          {
+            "minimum_cartons": 1,
+            "maximum_cartons": 2,
+            "price_per_carton": "342.62",
+            "displayed_unit_price": "0.31147",
+            "normalized_unit_price": "0.3114727272727273"
+          },
+          {
+            "minimum_cartons": 3,
+            "maximum_cartons": 4,
+            "price_per_carton": "322.47",
+            "displayed_unit_price": "0.29315",
+            "normalized_unit_price": "0.2931545454545455"
+          },
+          {
+            "minimum_cartons": 5,
+            "maximum_cartons": null,
+            "price_per_carton": "304.55",
+            "displayed_unit_price": "0.27686",
+            "normalized_unit_price": "0.2768636363636364"
+          }
+        ],
+        "freight_included": false,
+        "tax_included": null,
+        "price_as_of": "2026-10-30",
+        "publication_date": null
+      },
+      "availability": {
+        "available_units": null,
+        "item_specific": false,
+        "generic_site_statement": "More than98% of listed items immediately available; not a stock confirmation for this SKU."
+      },
+      "terms_source_ids": [
+        "MKT-SRC-FSS-FAQ",
+        "MKT-SRC-FSS-TERMS"
+      ],
+      "offer_status": "posted_bulk_catalog_offer_not_accepted_quote",
+      "qualification_status": "provisional_product_comparator",
+      "limitations": [
+        "Minimum advertised carton1100 exceeds observed906-unit government order; lower3+/5+ carton prices require3300+/5500+ units.",
+        "Generic stock and shipping statements do not guarantee this item, quantity or delivery.",
+        "Freight varies by weight/destination; FOB seller warehouses.",
+        "No primary NSN match; generic spec PDFs are not lot certificates.",
+        "RoHS status is on request, not confirmed.",
+        "Shared3812CH8O reference with MF Supply means upstream independence is not established."
+      ]
+    },
+    {
+      "id": "MKT-MF-HH38FX3-4G8ZY",
+      "seller": "MF Supply",
+      "source_id": "MKT-SRC-MF",
+      "sku": "HH38FX3/4G8ZY",
+      "manufacturer_part_as_displayed": "3812CH8O",
+      "upstream_manufacturer_unverified": null,
+      "specifications": {
+        "diameter_in": 0.375,
+        "threads_per_inch": 24,
+        "length_in": 0.75,
+        "head_style": "hex",
+        "grade": "8",
+        "material": "steel",
+        "finish": "yellow zinc",
+        "nsn_crosswalk_primary": false,
+        "thread_series": "fine/UNF suggested by 3/8-24; not universally explicit",
+        "thread_class": null,
+        "thread_direction": null,
+        "finish_standard": null,
+        "finish_thickness": null,
+        "country_of_manufacture": null,
+        "government_packaging_compliance": null,
+        "lot_traceability_included": null,
+        "certification_included": null,
+        "full_thread": null,
+        "dimensional_standard": "ASME B18.2.1",
+        "material_standard": "SAE J429"
+      },
+      "price": {
+        "currency_display": "$",
+        "currency_interpretation": "USD inferred from US merchant and US-only online shipping; ISO currency not explicit",
+        "selling_uom": "box",
+        "pack_quantity": null,
+        "displayed_box_price": "328.91",
+        "displayed_piece_price": "0.29901",
+        "normalized_unit_price": null,
+        "freight_included": null,
+        "tax_included": null,
+        "price_as_of": "2026-10-30",
+        "publication_date": null
+      },
+      "availability": {
+        "available_boxes": 7,
+        "item_specific": true,
+        "units_906_available": null
+      },
+      "terms_source_ids": [
+        "MKT-SRC-MF-SHIPPING",
+        "MKT-SRC-MF-TERMS"
+      ],
+      "offer_status": "posted_catalog_offer_subject_to_seller_acceptance",
+      "qualification_status": "provisional_product_comparator",
+      "limitations": [
+        "Box quantity is not explicit in opened page. Do not infer it from price or weight ratios.",
+        "Displayed per-piece price is not proof that a single unit or906 units can be ordered.",
+        "Seven available boxes are not proof of906 units until pack size is verified.",
+        "Orders and pricing subject to acceptance; stock may change.",
+        "Certifications, testing, inspection and QA conditions require disclosure and written acceptance under merchant terms.",
+        "Shared3812CH8O reference with FSS means upstream independence is not established.",
+        "No primary NSN crosswalk or accepted government-compliant quote."
+      ]
+    }
+  ],
+  "screened_out": [
+    {
+      "seller": "Bolt Depot",
+      "sku": "743",
+      "url": "https://boltdepot.com/Product-Details?product=743",
+      "reason": "Search index exposes price/specs; opened detail and catalog pages returned403. Not verified as an opened catalog quote."
+    },
+    {
+      "seller": "Fasteners Direct",
+      "sku": "F-44161",
+      "url": "https://ecommerce.fastenersdirect.com/details/item?itemid=F-44161",
+      "reason": "Search index exposes prices; own-page access failed/redirect inaccessible. Not an opened-page quote."
+    },
+    {
+      "seller": "Menards",
+      "sku": "00856",
+      "url": "https://www.menards.com/main/hardware/fasteners-connectors/bolts/cap-screws-hex-bolts/midwest-fastener-reg-3-8-24-x-3-4-yellow-zinc-grade-8-hex-cap-screw-50-count/00856/p-1444439626722-c-8730.htm",
+      "reason": "Opened page returned navigation only, no visible price. Search-only rebate was expired on observation date; neither price nor rebate adopted."
+    }
+  ],
+  "required_gates": [
+    "Official exact NSN-to-characteristics and accepted reference-part relationship",
+    "Same dimensions, thread series/class/hand, grade, finish/thickness and head form",
+    "Same country-of-origin restrictions and authorized supply chain where applicable",
+    "Unit/pack/tier and order quantity reconciliation",
+    "Item-specific stock, delivery date, quote validity and currency",
+    "Freight allocation and taxes",
+    "QUP001 packaging, bare marking, sampling, inspection, testing/certificates and traceability requirements",
+    "Comparable date, contract terms and documented additional services/cost adjustments where material; seller margin itself is not a mandatory input to price analysis.",
+    "Actual invoice, acceptance, payment and refunds/credits before loss quantification"
+  ],
+  "conclusion": "Further price research is warranted; no fraud, improper margin or buyer-side payment established."
+}

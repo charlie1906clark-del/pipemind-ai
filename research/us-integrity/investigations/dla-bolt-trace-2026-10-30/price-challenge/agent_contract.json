@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "PC-AGENT-CONTRACT-2026-10-30",
+  "scope": "DLA machine-bolt pricing and buyer-supplier integrity challenge, NSN 5306016864912",
+  "status": "research_protocol_not_autonomous_accusation_or_enforcement",
+  "principle": "Persistent falsifiable inquiry: finding an ordinary explanation or no support is a successful result.",
+  "current_evidence_state": {
+    "document_price": "verified current 0.9100 USD per EA; 906 EA; ordered amount 824.46 USD",
+    "historical_summary": "seven exact awards and record arithmetic reconciled; prior terms incomplete",
+    "market_fairness": "unresolved",
+    "buyer_independence": "unresolved",
+    "buyer_benefit": "unresolved; no cohort-specific supporting evidence",
+    "new_fraud_finding": false
+  },
+  "shared_input_contract": {
+    "source_required": [
+      "url or exact public artifact path",
+      "date and locator",
+      "saved artifact digest and hash scope",
+      "primary/secondary/synthetic label",
+      "source claim separate from inference"
+    ],
+    "finding_required": [
+      "test_id",
+      "input artifact hashes",
+      "field-level comparability matrix",
+      "ordinary alternatives",
+      "decision accept/narrow/reject/unresolved",
+      "next discriminating record",
+      "payment and loss basis",
+      "independent reviewer"
+    ],
+    "unknown_policy": "Null and unresolved; never turn missing evidence into false, zero or proof of concealment.",
+    "privacy": "Keep professional roles and business identifiers relevant to procurement. Exclude personal contact, residential, family, private financial data and inferred personal profiles."
+  },
+  "agents": [
+    {
+      "id": "PC-A01",
+      "role": "Technical equivalence auditor",
+      "inputs": [
+        "unrestricted official NSN/specification records",
+        "seller part datasheets"
+      ],
+      "work": "Resolve physical attributes, revision, materials, thread, finish, origin, sampling, traceability and certificate requirements.",
+      "output": "Field-level qualified/rejected/unresolved product match.",
+      "stop": "No primary specification or unresolved critical mismatch; ask for the exact missing public record rather than substitute a generic bolt."
+    },
+    {
+      "id": "PC-A02",
+      "role": "Independent market quote auditor",
+      "inputs": [
+        "qualified product record",
+        "dated public catalogs and executable offers if already available"
+      ],
+      "work": "Capture seller terms, pack units, quantity tiers, available quantity, delivery, freight, currency, certification acceptance and upstream source.",
+      "output": "Benchmark intervals and exclusion reasons with independent-source grouping.",
+      "stop": "Test-site, unavailable quantity, unconfirmed pack, generic shipment claim or unaccepted compliance terms cannot become a qualified benchmark."
+    },
+    {
+      "id": "PC-A03",
+      "role": "Price normalization analyst",
+      "inputs": [
+        "qualified product/offer rows",
+        "actual CLIN quantities",
+        "source-backed adjustments"
+      ],
+      "work": "Normalize landed unit and full feasible order cost; compute amount-weighted differences by ordered/invoiced/paid basis and uncertainty.",
+      "output": "Reproducible numbers or blocked result with exact failed fields.",
+      "stop": "Never infer price from ceiling/estimated volume or cash payment from obligation/order. No arbitrary freight or compliance-cost adjustment."
+    },
+    {
+      "id": "PC-A04",
+      "role": "Competition reconstruction analyst",
+      "inputs": [
+        "full bid abstracts or actual bids",
+        "dated supplier identity joins",
+        "evaluation records"
+      ],
+      "work": "Reconstruct bid spreads, acceptability, withdrawals, submissions and repeated outcomes. Test common templates/upstream supply and legitimate specialization before concern escalation.",
+      "output": "Documented patterns, eligible denominator and alternative explanations.",
+      "stop": "Offers count alone cannot prove or disprove independence. Do not infer losing bidders from prior winners."
+    },
+    {
+      "id": "PC-A05",
+      "role": "Buyer-role and decision analyst",
+      "inputs": [
+        "public official role assignments",
+        "dated procurement decision records",
+        "complete declared cohort"
+      ],
+      "work": "Separate procurement roles; link actual decisions to the right office/person as of the event. Test before/after and cross-office patterns with item/terms controls.",
+      "output": "Dated role-to-decision facts, not speculative influence links.",
+      "stop": "No adverse label based on signatory, surname, shared geography or later employment alone; no personal or residential investigation."
+    },
+    {
+      "id": "PC-A06",
+      "role": "Corruption-mechanism reviewer",
+      "inputs": [
+        "authoritative released evidence",
+        "documented decisions",
+        "known-case calibration"
+      ],
+      "work": "Evaluate whether actual benefit/influence evidence exists and whether a procurement nexus is supported. Date legal status and distinguish allegation from finding.",
+      "output": "Evidence status with alternative explanations; no numeric kickback unless the source establishes it.",
+      "stop": "Pricing residuals and public business links alone do not establish benefit, agreement, intent or crime. Nonpublic records require an independently authorized lawful process."
+    },
+    {
+      "id": "PC-A07",
+      "role": "Independent falsification reviewer",
+      "inputs": [
+        "all producer artifacts",
+        "source selections",
+        "calculation code"
+      ],
+      "work": "Reconstruct arithmetic, inspect source locations, challenge quote selection and model assumptions, run meaningful mutation tests.",
+      "output": "Accept/narrow/reject/unresolved per claim plus hash-pinned review.",
+      "stop": "No producer can approve its own qualified premium. Reject conclusions that outrun sources; preserve valid narrow facts."
+    },
+    {
+      "id": "PC-A08",
+      "role": "Repository and handoff curator",
+      "inputs": [
+        "independently reviewed artifacts"
+      ],
+      "work": "Publish separate fact, hypothesis, benchmark and known-case nodes; pin exact inputs and preserve old review. Provide Claude a bounded record-acquisition task and return schema.",
+      "output": "Reviewable repository handoff with explicit pending gates.",
+      "stop": "No automatic complaints, emails, purchases, submissions or publication outside the authorized repository."
+    }
+  ],
+  "workflow": [
+    {
+      "stage": 1,
+      "owners": [
+        "PC-A01",
+        "PC-A02"
+      ],
+      "gate": "Exact technical/commercial qualification before market premium calculation."
+    },
+    {
+      "stage": 2,
+      "owners": [
+        "PC-A03",
+        "PC-A04",
+        "PC-A05"
+      ],
+      "gate": "Run price and decision branches independently; neither branch requires assuming wrongdoing."
+    },
+    {
+      "stage": 3,
+      "owners": [
+        "PC-A06",
+        "PC-A07"
+      ],
+      "gate": "Separate economic difference, evidence of improper influence, and legal findings; independent falsification."
+    },
+    {
+      "stage": 4,
+      "owners": [
+        "PC-A08"
+      ],
+      "gate": "Publish only reviewed claims with provenance and unresolved fields intact."
+    }
+  ],
+  "bounded_persistence": {
+    "declared_universe": "Seven historical PIIDs plus current parent/order; expansions must specify NSN, office, dates and complete retrieval/coverage rules.",
+    "current_methods_budget": {
+      "max_queries": 6,
+      "max_document_reads": 12,
+      "used_queries": 5,
+      "used_document_reads": 12,
+      "document_read_count_includes_failed_attempts": true
+    },
+    "rerun_condition": "New discriminating source, corrected extraction or failed test; not repeated searching until an accusation appears.",
+    "unproductive_stop": "After the declared acquisition budget, save inaccessible/missing records and the exact next obtainable record. Do not convert public record absence into a finding.",
+    "renewal": "Future work may expand a specified cohort or record type under the root's coordinated scope."
+  },
+  "claude_handoff": {
+    "suggested_task": "Acquire/review unrestricted primary item specifications and the actual quoted-price/evaluation record for the seven named solicitations; preserve technical and bid gaps. Do not duplicate catalog discovery or infer a kickback.",
+    "required_return": [
+      "retrieval log and coverage",
+      "source artifact hashes and minimal public snapshots",
+      "field-level match decisions",
+      "new observations separated from interpretations",
+      "ordinary alternatives and unresolved records"
+    ],
+    "coordination": "The root owns repository communication. This file does not claim Claude or another external model was contacted by this agent."
+  }
+}

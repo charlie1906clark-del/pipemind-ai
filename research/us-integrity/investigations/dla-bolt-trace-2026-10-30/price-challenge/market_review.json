@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0",
+  "review_id": "BOLT-PRICE-CHALLENGE-REVIEW-2026-10-30",
+  "reviewed_at": "2026-10-30",
+  "status": "frozen_independent_review",
+  "scope": "Market and buyer-independence challenge; prior document review unchanged.",
+  "reviewer": "bolt_comparison_reviewer",
+  "input_artifacts": [
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/awards/observations.json",
+      "sha256": "90a2a69d999028899a86737857cac308e78633ab4963190e7c41b66550f7f22d",
+      "bytes": 16581,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/observations.json",
+      "sha256": "76c3978c4d9cff03bfcbbadc019fd27699761ef0b0833a8df3e065026f21b401",
+      "bytes": 3517,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/selected_manifest.json",
+      "sha256": "4cb576afaab6e73ec77b13c55f25b14c7946701033f2c21d94e5c2234e80a5eb",
+      "bytes": 2661,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/snapshots/order-page2.txt",
+      "sha256": "34f802ee0b549dba5eea5d63fecb96f7593d16466aca2a6f47334a5a5d49ebea",
+      "bytes": 2006,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/snapshots/parent-page5.txt",
+      "sha256": "e551d347f7dc7abe51e52351b6ea4dbaa70d97c88ebbeeb447e71f42aa26d9dd",
+      "bytes": 2638,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/REPORT.md",
+      "sha256": "fd31c334fc5fb9218ae0490cc582ee96fba9e9bde665ef925c35acc592cfdd02",
+      "bytes": 7082,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/SPEC-NOTE.md",
+      "sha256": "faf6748ff2bc7e672209fc595e6e8ed83cbbbba0c18633c9ad9c5cd8876e9720",
+      "bytes": 4652,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+      "sha256": "950757e36f73f46cface12a7c3536aedd8ca856a37ffdfb6f23be2a6fd5410d5",
+      "bytes": 11540,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/capture_manifest.json",
+      "sha256": "91b432154019cbedffc1dd2b4f226ad45cc6d1db6999b5a94a2b57bf54807fc2",
+      "bytes": 1056,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/captures/mkt-cox-hb8f38-34.json",
+      "sha256": "149d528699cbc4ad24d8309be56764635d78579b570c3e02f3992955962c96b1",
+      "bytes": 1725,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/captures/mkt-fss-191377.json",
+      "sha256": "ee1f1cd9eb5d171be498964a36134db4d8521424677dcf8ea4c8ad76588f908f",
+      "bytes": 2227,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/captures/mkt-mf-hh38fx3-4g8zy.json",
+      "sha256": "7312757069d7a12afcdcbbe5b85bcb47e310ae7f9072b259da0b36595e958d2b",
+      "bytes": 1577,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/query_log.json",
+      "sha256": "3790591e3ea7354fe56eb5682a0e7219309e059eddaa2c56ab3d2dd5b94d85e4",
+      "bytes": 5639,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/sources.json",
+      "sha256": "277df83ab8f6610984ed80f39d07024e754bde0e58f953acdb8f51855afcbcec",
+      "bytes": 4649,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/spec-crosswalk.json",
+      "sha256": "eac94abc0f42f7c07766d650a282dd7a45972e99f97c03e705fcac45805cd81c",
+      "bytes": 7592,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/REPORT.md",
+      "sha256": "73e5840febcbb31f3c4bb865982be750d451ea4ab07cf4a9fe66a29d7427cb6f",
+      "bytes": 11894,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/agent_contract.json",
+      "sha256": "f061f61f864da0822d0fdcea84f07238d88f509a0f2aa3fc9f3a24c6f6124c80",
+      "bytes": 8981,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/evidence_requirements.json",
+      "sha256": "8cde5815c5d4ab898e22eaedeb20ebacfbcbf1f54839973d7c41e70ee1edec45",
+      "bytes": 19300,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/independent_market_observations.json",
+      "sha256": "29b9589d43095a48131d032a4aa4fe64ee9f0801627544490c4c198326aaecbb",
+      "bytes": 3726,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/mechanism_sources.json",
+      "sha256": "062231d84cddba99a8a1bf64f1391ace43e1a422d9517006677720145c286b90",
+      "bytes": 6143,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/method_sources.json",
+      "sha256": "2a015dc816b53c7ea6a9cc17f7327a1a8368ea0f40bc3d6e1545567a5d697ac3",
+      "bytes": 3332,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/query_log.json",
+      "sha256": "0044f228cc6711b749d584f97af024536525389c8f8e58473b3905da6d6628d1",
+      "bytes": 3739,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/README.md",
+      "sha256": "d94aeb254e49dbac18c111700e002160b64291dc607834eb5bf55bea9c770f7e",
+      "bytes": 10415,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/annual-12-percent-illustration.json",
+      "sha256": "890c260b49424bc0375a1c5b66446c76f2be69e0b0b9064e64c226ad495b3fcc",
+      "bytes": 910,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/dla-current-no-qualified-benchmark.json",
+      "sha256": "825c33c033edca30443a5a1fc713bc56bdd38b3e670ad9a12de07ec4bc649d53",
+      "bytes": 1638,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/uniform-12-percent.json",
+      "sha256": "4feb7e5a671cdae9833b000c72e857e77fd31b4d61da7c949b3734dad1b53f95",
+      "bytes": 3487,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/weighted-mix.json",
+      "sha256": "e38ed0c6f9c7f82974787244612053d8d17a1503f2f4f39a17a8c0e9ef3f41ab",
+      "bytes": 3424,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/premium_audit.py",
+      "sha256": "7aed71b71b47c0940b0c07fd1239c64bb70817be506204b3ac3de366d9dcfde2",
+      "bytes": 18881,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/scenarios/dla-current-no-qualified-benchmark.json",
+      "sha256": "87b32320d35bae4381de252a4f05f7c57d35539235491cc29f85827a31e3304d",
+      "bytes": 2386,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/scenarios/uniform-12-percent.json",
+      "sha256": "7b5e606c04e661fd9048bcc9688fe48f2f3a93c2f914c250f011a11722b1d641",
+      "bytes": 7025,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/scenarios/weighted-mix.json",
+      "sha256": "ea40415a73b259211b1ffce5a4d54b9e97188c90b49e6e02c05f78fe0923ee2e",
+      "bytes": 6996,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/test_premium_audit.py",
+      "sha256": "c65a73a210deb2446e5dbbff5ad83bf5f7eee30755cb4ab96db3522e2baae97c",
+      "bytes": 10714,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/validation.json",
+      "sha256": "57d2f8c241b565c3816c103a37a0689d7a51c6eaf60fc00823e5cf1b8cbb9167",
+      "bytes": 1621,
+      "hash_scope": "exact retained public repository artifact bytes"
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/review/review.json",
+      "sha256": "aa7274b257e7d01a4bdf6cfca16e6e556477ec8fb2b772e1f92a0f1a65109e44",
+      "bytes": 21968,
+      "hash_scope": "exact retained public repository artifact bytes"
+    }
+  ],
+  "findings": [
+    {
+      "id": "PCR-F01",
+      "decision": "narrow",
+      "claim": "Current order quantity, price and amount reconcile; those facts do not establish market fairness, bidder independence or lack of improper benefit.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/observations.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/snapshots/order-page2.txt",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/review/review.json"
+      ],
+      "source_ids": [],
+      "limits": [
+        "824.46 USD is ordered value; no payment or loss inference."
+      ]
+    },
+    {
+      "id": "PCR-F02",
+      "decision": "reject",
+      "claim": "Cox's test-site listing is excluded as an executable 906-unit quote.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/captures/mkt-cox-hb8f38-34.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/independent_market_observations.json"
+      ],
+      "source_ids": [
+        "PC-MKT-S01"
+      ],
+      "limits": [
+        "Its displayed facts can be retained as a catalog observation; 62 units and a test-site header do not support the advertised 500+ tier as an available 906-unit purchase."
+      ]
+    },
+    {
+      "id": "PCR-F03",
+      "decision": "narrow",
+      "claim": "Fastener SuperStore's carton prices and pack arithmetic are supported, but the product is only a provisional comparator.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/captures/mkt-fss-191377.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/independent_market_observations.json"
+      ],
+      "source_ids": [
+        "PC-MKT-S02"
+      ],
+      "limits": [
+        "Full carton outlay differs from a prorated 906-piece value.",
+        "Quantity capacity, delivery and full technical/compliance equivalence unresolved."
+      ]
+    },
+    {
+      "id": "PCR-F04",
+      "decision": "narrow",
+      "claim": "MF Supply's displayed box/piece prices and seven-box stock are supported; pack normalization remains unresolved.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/captures/mkt-mf-hh38fx3-4g8zy.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/independent_market_observations.json"
+      ],
+      "source_ids": [
+        "PC-MKT-S03",
+        "PC-MKT-S04"
+      ],
+      "limits": [
+        "Do not infer pack count from price or weight ratios.",
+        "Orders and special conditions require seller acceptance; no government-compliant executable quote established."
+      ]
+    },
+    {
+      "id": "PCR-F05",
+      "decision": "unresolved",
+      "claim": "The exact authoritative NSN-to-characteristics/revision crosswalk has not been acquired.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/spec-crosswalk.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/snapshots/parent-page5.txt"
+      ],
+      "source_ids": [],
+      "limits": [
+        "ASME B18.24 reference and a blank part-number field do not establish the secondary catalog's full product description.",
+        "Failed public retrieval does not prove no public record exists."
+      ]
+    },
+    {
+      "id": "PCR-F06",
+      "decision": "accept",
+      "claim": "Zero qualified comparators and null market premium/overcharge/loss/kickback outputs are appropriate for the current evidence.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/dla-current-no-qualified-benchmark.json"
+      ],
+      "source_ids": [],
+      "limits": [
+        "A blocked comparison is not a finding of fair pricing or innocence.",
+        "No source supports a recurring 12 percent premium or buyer benefit for this cohort."
+      ]
+    },
+    {
+      "id": "PCR-F07",
+      "decision": "narrow",
+      "claim": "Reported three-to-five-offer counts are insufficient to test bid spread or independence; actual bid/evaluation records are the discriminating next evidence.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/awards/observations.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/evidence_requirements.json"
+      ],
+      "source_ids": [
+        "PC-METHOD-S01",
+        "PC-METHOD-S03"
+      ],
+      "limits": [
+        "Distinct CAGE/UEI identities and shared upstream part references prove neither collusion nor independence.",
+        "A signing official is not assumed to be the person who selected the vendor or price."
+      ]
+    },
+    {
+      "id": "PCR-F08",
+      "decision": "accept",
+      "claim": "The offline calculator reproduces the declared arithmetic and blocks the actual DLA comparison; its flags cannot authenticate the evidence.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/premium_audit.py",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/test_premium_audit.py",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/README.md",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/dla-current-no-qualified-benchmark.json"
+      ],
+      "source_ids": [],
+      "limits": [
+        "Independent review identified order-to-invoice source relabeling; producer corrected the source-kind gate and regression coverage passed.",
+        "Public source URLs, availability, independence and reviewer identities remain declared evidence requiring human/source review."
+      ]
+    },
+    {
+      "id": "PCR-F09",
+      "decision": "accept",
+      "claim": "The anonymous annual illustration is algebraically correct and synthetic: increment 100000 at 12 percent implies baseline 2500000/3, gross 2800000/3 and 75/7 percent of gross.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/annual-12-percent-illustration.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/uniform-12-percent.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls/outputs/weighted-mix.json"
+      ],
+      "source_ids": [],
+      "limits": [
+        "Currency unspecified; no actual transaction, payment, loss or buyer benefit.",
+        "Unequal line weights produce 2 percent in the separate fixture, not an unweighted 10 percent."
+      ]
+    },
+    {
+      "id": "PCR-F10",
+      "decision": "accept",
+      "claim": "DOJ/OIG known-case evidence illustrates why actual contractors and correct records cannot exclude bribery; it is calibration only.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/mechanism_sources.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/method_sources.json"
+      ],
+      "source_ids": [
+        "PC-MECH-S01",
+        "PC-MECH-S02"
+      ],
+      "limits": [
+        "Status is dated to the official releases, not asserted current.",
+        "No participants or conduct linked to the DLA bolt cohort.",
+        "Contract volume is not loss and no per-unit 12 percent mechanism is established."
+      ]
+    },
+    {
+      "id": "PCR-F11",
+      "decision": "reject",
+      "claim": "Catalog differences cannot be converted into a kickback, recoverable loss or price-fairness finding under the present evidence.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/evidence_requirements.json"
+      ],
+      "source_ids": [
+        "PC-METHOD-S01",
+        "PC-METHOD-S02"
+      ],
+      "limits": [
+        "Economic comparison and improper-benefit nexus require separate evidence.",
+        "No inference of novelty from absence of public enforcement."
+      ]
+    },
+    {
+      "id": "PCR-F12",
+      "decision": "narrow",
+      "claim": "Seller margin itself is not a mandatory input to a price comparison; documented material service/term adjustments may be needed.",
+      "evidence_paths": [
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+        "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/method_sources.json"
+      ],
+      "source_ids": [
+        "PC-METHOD-S02"
+      ],
+      "limits": [
+        "The matrix gate was corrected accordingly; no cost-or-profit disclosure requirement imposed on these simplified acquisitions."
+      ]
+    }
+  ],
+  "verification": {
+    "producer_unit_tests": {
+      "passed": 12,
+      "command": "python -m unittest discover -s . -p 'test_*.py' -v",
+      "cwd": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-controls",
+      "rerun_after_final_precision_update": true
+    },
+    "saved_cli_output_replays": {
+      "matched": 4,
+      "files": [
+        "uniform-12-percent",
+        "weighted-mix",
+        "dla-current-no-qualified-benchmark",
+        "annual-12-percent-illustration"
+      ]
+    },
+    "independent_reconstruction": {
+      "method": "Manual fresh-page checks and separate Python Fraction/Decimal arithmetic, without using the producer's formulas as the expected answer.",
+      "checks": [
+        "Three derivative market captures match manifest byte counts and SHA256 hashes and matrix fields.",
+        "All three FSS displayed unit prices agree with independent carton division to displayed precision; normalized values agree within 1e-15.",
+        "Fresh Cox row confirms test-site/stock exclusion.",
+        "Fresh MF redirected page confirms displayed prices, seven boxes and no explicit pack count; terms confirm acceptance condition.",
+        "Uniform fixture independently reconstructed B=200000, A=224000, E=24000, markup 12 percent.",
+        "Unequal-weight fixture independently reconstructed 20/1000=2 percent.",
+        "Annual example independently reconstructed exact fractions 2500000/3, 2800000/3 and 75/7 percent.",
+        "Actual DLA output has zero eligible lines, no aggregates and null comparison amount.",
+        "Prior review.json SHA256 remains aa7274b257e7d01a4bdf6cfca16e6e556477ec8fb2b772e1f92a0f1a65109e44."
+      ]
+    },
+    "public_acquisition_budget": {
+      "queries": 5,
+      "document_attempts": 12,
+      "successful_document_reads": 11,
+      "includes_delegated_known_case_work": true
+    },
+    "artifact_limit": "Digests of selected factual extractions prove retained-byte integrity, not authenticity of original website bytes. Full current PDFs remain unarchived in the public repository."
+  },
+  "conclusions": {
+    "document_arithmetic": "verified_with_scope",
+    "market_fairness": "unresolved",
+    "buyer_independence": "unresolved",
+    "buyer_benefit": "unresolved_no_cohort_specific_evidence",
+    "qualified_comparator_count": 0,
+    "premium_amount": null,
+    "paid_amount": null,
+    "loss_amount": null,
+    "kickback_amount": null,
+    "new_fraud_finding_established": false
+  },
+  "next_discriminating_records": [
+    "Unrestricted primary NSN characteristics and relevant revision/reference qualifiers.",
+    "Dated accepted equivalent offer at feasible quantity with freight, certificates and delivery.",
+    "Actual quote abstract, evaluation rationale and price-reasonableness record.",
+    "Dated role-to-decision evidence and, separately, actual evidence of improper benefit if it exists in lawfully available records."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-30",
+  "scope": "Independent agent-lane review, not a human audit or independent identity authentication",
+  "state_file": "research/us-integrity/price-agents/runs/current-run/cohorts-state.json",
+  "state_sha256": "753d83ffa45d56f6fcfa850d5fa38815f0796e96b8243fb6277587ce2918f613",
+  "receipts": [
+    {
+      "review_id": "PA-W1-COHORT-DLA-REVIEW-REDTEAM-01",
+      "result_id": "PA-W1-COHORT-DLA-RESULT-01",
+      "reviewer": "price-agents-redteam",
+      "result_sha256": "0340a6667cf0763c36a55bfd54554fb8f2d14852ac15a76adaade011d22db4f9",
+      "decision": "accepted",
+      "checks": {
+        "provenance": "Selected source SHA and original acquisition timestamp match the retained API manifest; independent offline reconciliation checked exact request hash, ten unique IDs, base dates and hasNext. Reuse records zero new HTTP requests.",
+        "comparability": "Summary observations only; pricing eligibility remains unqualified and no exact-item benchmark is established.",
+        "alternative_explanations": "First-page descending-obligation selection, express-report aggregation and unavailable documents cannot establish misconduct or prevalence.",
+        "amount_basis": "All monetary values are cumulative reported award obligations; no unit price, July spending, invoice, paid cash or loss inferred.",
+        "privacy": "Selected public business/award fields; no personal contact, residential address, private financial data or natural-person wrongdoing assertion."
+      },
+      "reason": "Accept the accurately limited DLA cohort packet and permit dependent document work. This does not qualify a price comparison or authenticate all source assertions."
+    },
+    {
+      "review_id": "PA-W1-COHORT-VA-REVIEW-REDTEAM-01",
+      "result_id": "PA-W1-COHORT-VA-RESULT-01",
+      "reviewer": "price-agents-redteam",
+      "result_sha256": "ab30f52fc729e86e301abe588119af17021e75c33570a3fd873f78e2c1f40227",
+      "decision": "accepted",
+      "checks": {
+        "provenance": "Selected source SHA and original acquisition timestamp match the retained API manifest; independent offline reconciliation checked exact request hash, ten unique IDs, base dates and hasNext. Reuse records zero new HTTP requests.",
+        "comparability": "Summary observations only; pricing eligibility remains unqualified and no exact-item benchmark is established.",
+        "alternative_explanations": "First-page descending-obligation selection, express-report aggregation and unavailable documents cannot establish misconduct or prevalence.",
+        "amount_basis": "All monetary values are cumulative reported award obligations; no unit price, July spending, invoice, paid cash or loss inferred.",
+        "privacy": "Selected public business/award fields; no personal contact, residential address, private financial data or natural-person wrongdoing assertion."
+      },
+      "reason": "Accept the accurately limited VA cohort packet and permit dependent document work. This does not qualify a price comparison or authenticate all source assertions."
+    },
+    {
+      "review_id": "PA-W1-COHORT-HHS-REVIEW-REDTEAM-01",
+      "result_id": "PA-W1-COHORT-HHS-RESULT-01",
+      "reviewer": "price-agents-redteam",
+      "result_sha256": "1f404321d538321f0f0e8bfea2e5d948e02c7b7f595e3f9b561268ce39c4d8a8",
+      "decision": "accepted",
+      "checks": {
+        "provenance": "Selected source SHA and original acquisition timestamp match the retained API manifest; independent offline reconciliation checked exact request hash, ten unique IDs, base dates and hasNext. Reuse records zero new HTTP requests.",
+        "comparability": "Summary observations only; pricing eligibility remains unqualified and no exact-item benchmark is established.",
+        "alternative_explanations": "First-page descending-obligation selection, express-report aggregation and unavailable documents cannot establish misconduct or prevalence.",
+        "amount_basis": "All monetary values are cumulative reported award obligations; no unit price, July spending, invoice, paid cash or loss inferred.",
+        "privacy": "Selected public business/award fields; no personal contact, residential address, private financial data or natural-person wrongdoing assertion."
+      },
+      "reason": "Accept the accurately limited HHS cohort packet and permit dependent document work. This does not qualify a price comparison or authenticate all source assertions."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "scope": "Exact retained public selected facts and authored analysis, not original website bytes",
+  "artifacts": [
+    {
+      "path": "REPORT.md",
+      "sha256": "07293664002fc775512c87d80a2df58391d38383f2c94f4017367a5b1c76b7b0",
+      "bytes": 6746
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "9c3693305e315f313d255b93eddfd623ca763f3d161475f8e4c83b8f9d48b2d5",
+      "bytes": 726
+    },
+    {
+      "path": "observations.json",
+      "sha256": "7556e452fb2b6034523fdad602c08256d8f7ae1e60e9ac13430066959681de47",
+      "bytes": 8389
+    },
+    {
+      "path": "prior-inputs.json",
+      "sha256": "0388163e6aef12c90abffa19a06fb7c8e6dabe2e876bb310f4b34d340b4f0202",
+      "bytes": 1102
+    },
+    {
+      "path": "request-ledger.json",
+      "sha256": "e252ddcba0755ed57176282f1c9854f7c435788255d811fafe57f9fe42e9ee46",
+      "bytes": 3379
+    },
+    {
+      "path": "sources.json",
+      "sha256": "686af2b6fa42362c1b0c2100878c70e7f804a96cd74ec1e37631caa5d7fb3ffc",
+      "bytes": 6674
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-10-30",
+  "unit_tests": 16,
+  "unit_test_status": "passed",
+  "test_command": "python -m unittest discover -s research/us-integrity/price-agents/tracing -p 'test_*.py'",
+  "independent_review": "price_agents_redteam reported no remaining blocking defect after adversarial mixed-boundary tests; external receipt in ../review/",
+  "live_final_manifest": "runs/live-public-source-proof-final.json",
+  "live_actual_outcome": {
+    "logical_attempts_final_run": 3,
+    "network_attempts": 0,
+    "confirmed_http_requests": 0,
+    "acquired_documents": 0,
+    "failure": "direct system DNS unavailable",
+    "frontier_complete": false
+  },
+  "cumulative_live_proof_scope": {
+    "acquisition_logical_attempts_two_runs": 6,
+    "separate_system_DNS_diagnostic": 1,
+    "HTTP_requests": 0,
+    "provider_documentation_reads": 3
+  },
+  "synthetic_final_manifest": "runs/synthetic-link-trace-final.json",
+  "synthetic_is_government_evidence": false,
+  "runtime_attempt_reservation_integrated": false,
+  "limits": [
+    "No successful direct HTTP acquisition was demonstrated in this environment.",
+    "Response metadata cannot authenticate the expected award/item or support a price/ownership conclusion.",
+    "No raw page/PDF bytes retained; manifest hashes and transient response hashes have different scopes.",
+    "Cross-process runtime reservation/import bridge is not implemented.",
+    "Complex robots policies defer for review rather than pretending complete REP support."
+  ],
+  "sha256": {
+    "README.md": "4f3b5d1ede4e79dbe971117550c5a40f07d3630ca95a247683470af27287c2d5",
+    "demo_trace.py": "3a695eaf419726134c4121271ae39d0708cb7e6076925e52d3c9eb047a873be1",
+    "examples/live-public-source-plan.json": "a984db159360e17cabb20888527fc64f8de8f342ba1861f18543eca7164c77e8",
+    "runs/dns-diagnostic.json": "0e63d65b599944428b35cedf909d7895022466d5dadeea47f08c51ddaff929a8",
+    "runs/live-public-source-proof-final.json": "dd8b5d15fbb923e3e3505c9e184cf1ccc6c8243f5cb5ce7e7e81f540831d9770",
+    "runs/live-public-source-proof.json": "41d038174a31cc2f5dea4b7c3f4205702864693dfb2c5187f13de54cdebb9612",
+    "runs/synthetic-link-trace-final.json": "8b04dd55a51829a988a1690cc5884876fb19b7d5a6c738f5145754369e1eb4de",
+    "runs/synthetic-link-trace.json": "a0a6a10080c4b14fcf60a23d47da32a61a14b7a797e630c74c7da93cf7f91815",
+    "test_trace_links.py": "664166725398cd835d24b4fe97b3ed2863c1224cfe9c09f9c23d99ca4dc36a1e",
+    "trace_links.py": "d3943be50ff269902940d6ebd23e1c4b9ca6aafa79b982bc76399d55adc0436d"
+  }
+}

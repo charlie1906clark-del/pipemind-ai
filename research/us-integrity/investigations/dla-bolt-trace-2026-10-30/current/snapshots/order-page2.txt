@@ -1,0 +1,85 @@
+ CONTINUATION SHEET               REFERENCE NO. OF DOCUMENT BEING CONTINUED:               PAGE 2 OF 3 PAGES
+                                       SPE4A6-26-D-61WS-SPE4A6-27-F-0588
+
+
+                                                    SECTION B
+DO Counter: 000001
+
+PR: 7018682603
+SUPPLIES/SERVICES:
+5306016864912
+SEE BASIC
+
+BOLT,MACHINE
+
+
+
+DLA issues this document using the DoD authorized unit of issue, please refer to the following URL to determine
+the corresponding ANSI X12 unit of issue.
+
+https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.dla.mil%2FPortals%2F104%2FDocuments%2FDLMS%
+2FeApplications%2FLogDataAdmin%2FUnit_of_Issue_and_Purchase_Unit.xlsx&wdOrigin=BROWSELINK
+
+
+
+CLIN   BASIC            QUANTITY UI    UNIT PRICE       DOLLAR VALUE    DELIVERY
+       REF                                                              DATE
+       CLIN                                                                           .
+
+
+
+
+0001   0001             906.000   EA           0.9100            824.46 2027 JAN 04
+
+QTY VARIANCE: PLUS 0.00% MINUS 0.00%
+
+INSPECTION POINT: DESTINATION
+
+ACCEPTANCE POINT: DESTINATION
+
+DELIVER FOB: ORIGIN
+
+FOB PAYMENT METHOD:    GOVERNMENT
+
+PARCEL POST ADDRESS:
+
+W25G1U
+
+W1A8 DLA DISTRIBUTION
+DDSP NEW CUMBERLAND FACILITY
+2083 NORMANDY DRIVE DOOR 113 TO 134
+NEW CUMBERLAND PA 17070-5002
+US
+
+
+FOR TRANSPORTATION SEE DLAD DLAD PROC NOTE C19. FOR FIRST DESTINATION TRANSPORTATION SEE DLAD PROC NOTE C20 AND
+CONTRACT
+
+FREIGHT SHIPPING ADDRESS:
+
+W25G1U
+
+W1A8 DLA DISTRIBUTION
+DDSP NEW CUMBERLAND FACILITY
+2083 NORMANDY DRIVE DOOR 113 TO 134
+NEW CUMBERLAND PA 17070-5002
+US
+
+
+Administration Office for Supplies: SPE4A5
+DLA WEAPONS SUPPORT
+ASC SUPPLIER OPER OEM DIVISION
+6090 STRATHMORE ROAD
+RICHMOND VA 23237
+USA
+
+Administration Office for Packaging: SPE4A5
+DLA WEAPONS SUPPORT
+ASC SUPPLIER OPER OEM DIVISION
+6090 STRATHMORE ROAD
+RICHMOND VA 23237
+USA
+
+
+
+                                                                                   CONTINUED ON NEXT PAGE

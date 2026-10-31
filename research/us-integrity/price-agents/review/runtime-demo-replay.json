@@ -1,0 +1,432 @@
+{
+  "demonstration": {
+    "accepted_packet_pricing_eligibility": "blocked",
+    "blocked_before_new_artifact": true,
+    "continuing_task": "DEMO-PRICE",
+    "dependency_blocked_before_review": true,
+    "ledger_connections": 3,
+    "model_calls": 0,
+    "network_requests": 0,
+    "new_lease_fenced_old_worker": true,
+    "persistent_service_deployed": false,
+    "simulated_clock": true,
+    "synthetic": true
+  },
+  "graph_promotion": "requires_separate_publication_review",
+  "schema_version": "1.0",
+  "status": {
+    "distributed_lock": false,
+    "model_execution": "not_provided_by_this_runtime",
+    "schema_version": "1.0",
+    "tasks": [
+      {
+        "agent_role": "Technical equivalence auditor",
+        "attempts": 0,
+        "attempts_remaining": 3,
+        "available": true,
+        "available_work_mode": "research",
+        "budget_exhausted": false,
+        "claim_count": 0,
+        "current_result_id": null,
+        "dependency_blockers": [],
+        "effective_status": "queued",
+        "evidence_count": 0,
+        "lease_active": false,
+        "local_capture_reuse_attempts": 0,
+        "owner": null,
+        "plan_id": "DEMO-PRICE-WORKFLOW-V1",
+        "remote_attempt_reservations": 0,
+        "reopen_count": 0,
+        "required_record": null,
+        "status": "queued",
+        "task_id": "DEMO-PRICE"
+      },
+      {
+        "agent_role": "Technical equivalence auditor",
+        "attempts": 2,
+        "attempts_remaining": 1,
+        "available": false,
+        "available_work_mode": "research",
+        "budget_exhausted": false,
+        "claim_count": 2,
+        "current_result_id": "DEMO-RESULT-1",
+        "dependency_blockers": [],
+        "effective_status": "accepted",
+        "evidence_count": 1,
+        "lease_active": false,
+        "local_capture_reuse_attempts": 0,
+        "owner": "demo-producer",
+        "plan_id": "DEMO-PRICE-WORKFLOW-V1",
+        "remote_attempt_reservations": 2,
+        "reopen_count": 1,
+        "required_record": null,
+        "status": "accepted",
+        "task_id": "DEMO-SPEC"
+      }
+    ]
+  },
+  "tables": {
+    "attempt_finishes": [
+      {
+        "at": 1003.0,
+        "attempt_id": "DEMO-ATTEMPT-1",
+        "payload": {
+          "attempt_id": "DEMO-ATTEMPT-1",
+          "detail": "Simulated missing record; no website contacted",
+          "outcome": "unavailable"
+        },
+        "sha256": "43830e41bb1c4c7ae056ee7f6405078e9d26ad41cda51f29304ad014e2aec87b"
+      },
+      {
+        "at": 1013.0,
+        "attempt_id": "DEMO-ATTEMPT-2",
+        "payload": {
+          "attempt_id": "DEMO-ATTEMPT-2",
+          "detail": "Local invented fixture read; no external source authenticated",
+          "outcome": "success"
+        },
+        "sha256": "69ebd4176d90e86d88fd37271e79ea4ad7e57e0815bdd9980f0a1218ff2878af"
+      }
+    ],
+    "attempts": [
+      {
+        "at": 1002.0,
+        "id": "DEMO-ATTEMPT-1",
+        "owner": "demo-producer",
+        "payload": {
+          "attempt_id": "DEMO-ATTEMPT-1",
+          "method": "PUBLIC_TOOL_READ",
+          "purpose": "Simulated failed acquisition; no network call",
+          "task_id": "DEMO-SPEC",
+          "url": "https://example.invalid/mock-specification"
+        },
+        "sha256": "c86e64df6c23f1b77d999fffb2542982663d5150977ee201bf08752f4c955117",
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "at": 1012.0,
+        "id": "DEMO-ATTEMPT-2",
+        "owner": "demo-producer",
+        "payload": {
+          "attempt_id": "DEMO-ATTEMPT-2",
+          "method": "PUBLIC_TOOL_READ",
+          "purpose": "Read local synthetic fixture; no network call",
+          "task_id": "DEMO-SPEC",
+          "url": "https://example.invalid/mock-specification"
+        },
+        "sha256": "f2fe9823f252da2dede500d8ace359108f31c5d0c6e2daab783437fdaf7cba13",
+        "task_id": "DEMO-SPEC"
+      }
+    ],
+    "events": [
+      {
+        "action": "plan_imported",
+        "actor": "coordinator",
+        "at": 1000.0,
+        "payload": {
+          "plan_id": "DEMO-PRICE-WORKFLOW-V1",
+          "sha256": "a479529f1630826714082ff45d56694f86bed6eac73954c3978840f4be2c883c"
+        },
+        "sequence": 1,
+        "task_id": null
+      },
+      {
+        "action": "claimed",
+        "actor": "demo-producer",
+        "at": 1001.0,
+        "payload": {
+          "claim_number": 1,
+          "lease_until": 2801
+        },
+        "sequence": 2,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "attempt_reserved",
+        "actor": "demo-producer",
+        "at": 1002.0,
+        "payload": {
+          "attempt_id": "DEMO-ATTEMPT-1"
+        },
+        "sequence": 3,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "attempt_finished",
+        "actor": "demo-producer",
+        "at": 1003.0,
+        "payload": {
+          "attempt_id": "DEMO-ATTEMPT-1",
+          "detail": "Simulated missing record; no website contacted",
+          "outcome": "unavailable"
+        },
+        "sequence": 4,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "blocked",
+        "actor": "demo-producer",
+        "at": 1004.0,
+        "payload": {
+          "reason": "Simulated unavailable source",
+          "required_record": "Exact mock specification export",
+          "status": "blocked"
+        },
+        "sequence": 5,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "reopened",
+        "actor": "demo-coordinator",
+        "at": 1010.0,
+        "payload": {
+          "artifact_sha256": "dc4aa37e472ffd1b979f7625315eebe7b149f94c13c89bcc0b08288461dbb802",
+          "reopen_id": "DEMO-REOPEN-1",
+          "trigger_evidence_id": "DEMO-TRIGGER-1"
+        },
+        "sequence": 6,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "claimed",
+        "actor": "demo-producer",
+        "at": 1011.0,
+        "payload": {
+          "claim_number": 2,
+          "lease_until": 2811
+        },
+        "sequence": 7,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "attempt_reserved",
+        "actor": "demo-producer",
+        "at": 1012.0,
+        "payload": {
+          "attempt_id": "DEMO-ATTEMPT-2"
+        },
+        "sequence": 8,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "attempt_finished",
+        "actor": "demo-producer",
+        "at": 1013.0,
+        "payload": {
+          "attempt_id": "DEMO-ATTEMPT-2",
+          "detail": "Local invented fixture read; no external source authenticated",
+          "outcome": "success"
+        },
+        "sequence": 9,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "evidence_appended",
+        "actor": "demo-producer",
+        "at": 1014.0,
+        "payload": {
+          "artifact_sha256": "dc4aa37e472ffd1b979f7625315eebe7b149f94c13c89bcc0b08288461dbb802",
+          "evidence_id": "DEMO-EVIDENCE-1"
+        },
+        "sequence": 10,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "result_submitted",
+        "actor": "demo-producer",
+        "at": 1015.0,
+        "payload": {
+          "result_id": "DEMO-RESULT-1",
+          "sha256": "e339f40ad27e9c6d3ed53f4b5484ce6ade16dc9f3b73d53b95bae8961adbb9de"
+        },
+        "sequence": 11,
+        "task_id": "DEMO-SPEC"
+      },
+      {
+        "action": "reviewed",
+        "actor": "demo-reviewer",
+        "at": 1020.0,
+        "payload": {
+          "decision": "accepted",
+          "review_id": "DEMO-REVIEW-1"
+        },
+        "sequence": 12,
+        "task_id": "DEMO-SPEC"
+      }
+    ],
+    "evidence": [
+      {
+        "attempt_id": "DEMO-ATTEMPT-2",
+        "id": "DEMO-EVIDENCE-1",
+        "payload": {
+          "artifact_path": "research/us-integrity/price-agents/runtime/fixtures/later.txt",
+          "attempt_id": "DEMO-ATTEMPT-2",
+          "claim_scope": "Workflow demonstration only; contains no actual product characteristics",
+          "event_date": null,
+          "hash_scope": "synthetic_fixture",
+          "id": "DEMO-EVIDENCE-1",
+          "locator": "entire invented fixture",
+          "observed_at": "2026-10-30",
+          "sha256": "dc4aa37e472ffd1b979f7625315eebe7b149f94c13c89bcc0b08288461dbb802",
+          "source_kind": "synthetic",
+          "source_url": "https://example.invalid/mock-specification",
+          "synthetic": true,
+          "task_id": "DEMO-SPEC",
+          "visibility": "public"
+        },
+        "sha256": "daed1d901d0b613dc53bccc6f251dcf10f63ee0ed7f884dd65247b78469535f5",
+        "task_id": "DEMO-SPEC"
+      }
+    ],
+    "plans": [
+      {
+        "id": "DEMO-PRICE-WORKFLOW-V1",
+        "payload": {
+          "base_commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "evidence_mode": "synthetic",
+          "plan_id": "DEMO-PRICE-WORKFLOW-V1",
+          "schema_version": "1.0",
+          "tasks": [
+            {
+              "agent_role": "Technical equivalence auditor",
+              "allowed_source_hosts": [
+                "example.invalid"
+              ],
+              "depends_on": [],
+              "id": "DEMO-SPEC",
+              "max_attempts": 3,
+              "max_evidence": 3,
+              "max_reopens": 1,
+              "question": "Can the exact missing mock record be obtained?",
+              "scope": {
+                "data": "synthetic workflow only; no government transaction"
+              },
+              "title": "Resolve mock specification"
+            },
+            {
+              "agent_role": "Technical equivalence auditor",
+              "allowed_source_hosts": [
+                "example.invalid"
+              ],
+              "depends_on": [
+                "DEMO-SPEC"
+              ],
+              "id": "DEMO-PRICE",
+              "max_attempts": 3,
+              "max_evidence": 3,
+              "max_reopens": 1,
+              "question": "Can the exact missing mock record be obtained?",
+              "scope": {
+                "data": "synthetic workflow only; no government transaction"
+              },
+              "title": "Check mock comparison gates"
+            }
+          ]
+        },
+        "sha256": "a479529f1630826714082ff45d56694f86bed6eac73954c3978840f4be2c883c"
+      }
+    ],
+    "reopens": [
+      {
+        "actor": "demo-coordinator",
+        "artifact_sha256": "dc4aa37e472ffd1b979f7625315eebe7b149f94c13c89bcc0b08288461dbb802",
+        "id": "DEMO-REOPEN-1",
+        "payload": {
+          "addresses_required_record": "Exact mock specification export",
+          "evidence": {
+            "artifact_path": "research/us-integrity/price-agents/runtime/fixtures/later.txt",
+            "attempt_id": "DEMO-ATTEMPT-2",
+            "claim_scope": "Workflow demonstration only; contains no actual product characteristics",
+            "event_date": null,
+            "hash_scope": "synthetic_fixture",
+            "id": "DEMO-TRIGGER-1",
+            "locator": "entire invented fixture",
+            "observed_at": "2026-10-30",
+            "sha256": "dc4aa37e472ffd1b979f7625315eebe7b149f94c13c89bcc0b08288461dbb802",
+            "source_kind": "synthetic",
+            "source_url": "https://example.invalid/mock-specification",
+            "synthetic": true,
+            "task_id": "DEMO-SPEC",
+            "visibility": "public"
+          },
+          "reason": "A distinct mock record is supplied",
+          "reopen_id": "DEMO-REOPEN-1"
+        },
+        "sha256": "301dd250dc5bc0a866b7d928ef187006d3e85638fcf2f0e2eb62e7e1dc332d0d",
+        "task_id": "DEMO-SPEC"
+      }
+    ],
+    "results": [
+      {
+        "id": "DEMO-RESULT-1",
+        "payload": {
+          "benefit_evidence": {
+            "evidence_ids": [],
+            "reason": "No real procurement or benefit evidence exists in this demonstration",
+            "status": "unresolved"
+          },
+          "candidate_signals": [],
+          "conclusion": "Workflow demonstrated; no procurement conclusion",
+          "data_origin": "synthetic",
+          "evidence_ids": [
+            "DEMO-EVIDENCE-1"
+          ],
+          "facts": [
+            {
+              "evidence_ids": [
+                "DEMO-EVIDENCE-1"
+              ],
+              "id": "DEMO-FACT-1",
+              "statement": "An explicitly invented local fixture was read"
+            }
+          ],
+          "input_commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "next_record": "An actual independently reviewed primary item record",
+          "ordinary_alternatives": [
+            "Any apparent price difference could reflect ordinary supply terms; no actual difference was computed"
+          ],
+          "outcome": "unresolved",
+          "pricing_eligibility": {
+            "evidence_ids": [],
+            "reason": "Synthetic fixture does not establish any real product equivalence",
+            "status": "blocked"
+          },
+          "producer": "demo-producer",
+          "result_id": "DEMO-RESULT-1",
+          "schema_version": "1.0",
+          "task_id": "DEMO-SPEC",
+          "unknowns": [
+            "Actual specifications, market prices and buyer decisions"
+          ]
+        },
+        "producer": "demo-producer",
+        "sha256": "e339f40ad27e9c6d3ed53f4b5484ce6ade16dc9f3b73d53b95bae8961adbb9de",
+        "task_id": "DEMO-SPEC"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "DEMO-REVIEW-1",
+        "payload": {
+          "checks": {
+            "alternative_explanations": "Ordinary terms remain an alternative; no real price residual",
+            "amount_basis": "No government monetary measure is present",
+            "comparability": "No actual benchmark eligible; blocked state preserved",
+            "privacy": "Invented names and .invalid source; no personal data",
+            "provenance": "Mock artifact bytes match; source is explicitly synthetic"
+          },
+          "decision": "accepted",
+          "reason": "Accept the correctly limited demonstration packet, not any product or financial claim",
+          "result_id": "DEMO-RESULT-1",
+          "result_sha256": "e339f40ad27e9c6d3ed53f4b5484ce6ade16dc9f3b73d53b95bae8961adbb9de",
+          "review_id": "DEMO-REVIEW-1",
+          "reviewer": "demo-reviewer"
+        },
+        "result_id": "DEMO-RESULT-1",
+        "reviewer": "demo-reviewer",
+        "sha256": "9ba9500fa658a69dbcac9d5498a0210fb6235ddf3b05daa80ce6d376fdede037"
+      }
+    ]
+  },
+  "truth_authentication": "not_provided"
+}

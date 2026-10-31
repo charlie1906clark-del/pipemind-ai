@@ -13,7 +13,10 @@
     "admin_connector": "automatic_approval_review_rejected_excess_organizational_permissions",
     "inference_gateway": "automatic_approval_review_rejected_unapproved_Vercel_routing_account_and_billing_scope",
     "further_auth_attempts": "not_authorized_by_this_packet",
-    "manual_existing_chat_handoff": "ready_but_not_dispatched"
+    "manual_existing_chat_handoff": "user_reported_in_progress_result_not_verified",
+    "user_reported_manual_dispatch_on": "2026-10-30",
+    "api_calls_executed_by_this_coordinator": 0,
+    "external_manual_calls": "unknown"
   },
   "grok": {
     "discovered_inference_tool": "GROK_CREATE_RESPONSE",
@@ -28,7 +31,7 @@
     "No model weights or provider memory have been trained by these files"
   ],
   "auth_material_saved": false,
-  "followup_required": "Root must verify active authorization and actual response receipt before recording a provider task as dispatched or complete.",
+  "followup_required": "Inspect Claude repository result and independently verify it; the user-operated manual route does not require reopening blocked API authorization.",
   "inspected_repository_surfaces": [
     {
       "branch": "research/us-integrity-foundation-2026-10-29",

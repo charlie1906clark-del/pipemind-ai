@@ -1,0 +1,8 @@
+{
+  "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+  "accessed_at": "2026-10-30T11:25:15.476441+00:00",
+  "status": 200,
+  "request_sha256": "76af6b1c6b6b214c83a6b6e90fece04913165b5c4578fe7c9e5090ded0a68215",
+  "response_sha256": "4541bad5c1e19f669aebe673e33107ea6bd826fe38d0c2494438498e3d303483",
+  "source_bytes_archived": true
+}

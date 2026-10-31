@@ -1,0 +1,81 @@
+{
+  "as_of": "2026-10-30",
+  "scope": "Exact common-bolt instruments and primary public-source routes; no people searches",
+  "query_count": 12,
+  "queries": [
+    {
+      "id": "SCB-Q01",
+      "engine": "system2",
+      "q": "\"SPE4A626D61WS\" bids award",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q02",
+      "engine": "system2",
+      "q": "\"SPE4A626U3619\" quotes award",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q03",
+      "engine": "system2",
+      "q": "\"SPE4A625T131Y\" \"SPE4A625V4508\"",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q04",
+      "engine": "system1",
+      "q": "site.dla.mil DIBBS quotes public bid abstract price evaluation awards",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q05",
+      "engine": "system1",
+      "q": "\"SPE4A626U3619\" site:dibbs.bsm.dla.mil",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q06",
+      "engine": "system1",
+      "q": "\"SPE4A625V4508\"",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q07",
+      "engine": "system2",
+      "q": "\"SPE4A626U3619\" \"bid\" \"abstract\"",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q08",
+      "engine": "system2",
+      "q": "\"SPE4A626V138W\" \"SPE4A625V208Q\"",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q09",
+      "engine": "system2",
+      "q": "site.dla.mil DIBBS \"quotes\" \"public\" \"price\"",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q10",
+      "engine": "system1",
+      "q": "site.dla.mil \"DIBBS\" \"quotes\" \"disclosed\"",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q11",
+      "engine": "system1",
+      "q": "site.dla.mil \"DIBBS\" \"quote history\"",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    },
+    {
+      "id": "SCB-Q12",
+      "engine": "system1",
+      "q": "\"SPE4A626T52U3\" \"bid\"",
+      "outcome": "No acquired original competing-quote, bid-abstract or price-decision record; search results are not a complete search universe"
+    }
+  ],
+  "search_index_scope": "Indexed primary and secondary pointers. Secondary pages not accepted as bid-price evidence; search absence is not proof of nonexistence.",
+  "query_syntax_limit": "Some DLA-focused queries used the literal string site.dla.mil rather than an enforced domains filter or site: operator. Only identified primary records support facts; no claim of exhaustive government-only search."
+}

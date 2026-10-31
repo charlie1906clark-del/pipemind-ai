@@ -1,0 +1,3983 @@
+{
+  "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+  "accessed_at": "2026-10-30T11:55:53.361532+00:00",
+  "status": "central_directory_read",
+  "archive_bytes": 1617404308,
+  "entry_count": 493,
+  "entries": [
+    {
+      "name": "AUTORUN.EXE",
+      "compressed_bytes": 1517051,
+      "uncompressed_bytes": 3412856,
+      "header_offset": 0,
+      "compression_type": 8,
+      "crc32": "7eff9365"
+    },
+    {
+      "name": "CHANGES/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 1517245,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "CHANGES/CAGE.zip",
+      "compressed_bytes": 13129472,
+      "uncompressed_bytes": 27540954,
+      "header_offset": 1517436,
+      "compression_type": 8,
+      "crc32": "4ff11447"
+    },
+    {
+      "name": "CHANGES/NIIN.zip",
+      "compressed_bytes": 10403389,
+      "uncompressed_bytes": 11667597,
+      "header_offset": 14647107,
+      "compression_type": 8,
+      "crc32": "9a794f75"
+    },
+    {
+      "name": "CUSTOMER.BMP",
+      "compressed_bytes": 71572,
+      "uncompressed_bytes": 123704,
+      "header_offset": 25050695,
+      "compression_type": 8,
+      "crc32": "e584b5e7"
+    },
+    {
+      "name": "DEFAULT.JPG",
+      "compressed_bytes": 37020,
+      "uncompressed_bytes": 38885,
+      "header_offset": 25122462,
+      "compression_type": 8,
+      "crc32": "a979aedb"
+    },
+    {
+      "name": "DELTA.EXE",
+      "compressed_bytes": 5969555,
+      "uncompressed_bytes": 18762104,
+      "header_offset": 25159676,
+      "compression_type": 8,
+      "crc32": "1348a2fd"
+    },
+    {
+      "name": "FLIS_VOLUMES/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 31129423,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "FLIS_VOLUMES/FLIS_VOLUME_10.docx",
+      "compressed_bytes": 1319382,
+      "uncompressed_bytes": 1330994,
+      "header_offset": 31129619,
+      "compression_type": 8,
+      "crc32": "e81736ce"
+    },
+    {
+      "name": "FLIS_VOLUMES/FLIS_VOLUME_12.docx",
+      "compressed_bytes": 2315445,
+      "uncompressed_bytes": 2376197,
+      "header_offset": 32449216,
+      "compression_type": 8,
+      "crc32": "ba29cfa5"
+    },
+    {
+      "name": "GRAPHICS/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 34764876,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "GRAPHICS/FEDMALL.BMP",
+      "compressed_bytes": 11618,
+      "uncompressed_bytes": 280040,
+      "header_offset": 34765068,
+      "compression_type": 8,
+      "crc32": "78f57ae7"
+    },
+    {
+      "name": "GRAPHICS/gsa.bmp",
+      "compressed_bytes": 4359,
+      "uncompressed_bytes": 242134,
+      "header_offset": 34776889,
+      "compression_type": 8,
+      "crc32": "20024aa5"
+    },
+    {
+      "name": "GRAPHICS/HMIRS.jpg",
+      "compressed_bytes": 14402,
+      "uncompressed_bytes": 16058,
+      "header_offset": 34781447,
+      "compression_type": 8,
+      "crc32": "6c22df7d"
+    },
+    {
+      "name": "GRAPHICS/IGC.jpg",
+      "compressed_bytes": 7238,
+      "uncompressed_bytes": 7412,
+      "header_offset": 34796050,
+      "compression_type": 8,
+      "crc32": "a93c91af"
+    },
+    {
+      "name": "GRAPHICS/MEDALS.JPG",
+      "compressed_bytes": 12517,
+      "uncompressed_bytes": 12779,
+      "header_offset": 34803487,
+      "compression_type": 8,
+      "crc32": "0b58b56e"
+    },
+    {
+      "name": "GRAPHICS/search.jpg",
+      "compressed_bytes": 448,
+      "uncompressed_bytes": 615,
+      "header_offset": 34816206,
+      "compression_type": 8,
+      "crc32": "7574f505"
+    },
+    {
+      "name": "GRAPHICS/specs.gif",
+      "compressed_bytes": 5194,
+      "uncompressed_bytes": 5343,
+      "header_offset": 34816856,
+      "compression_type": 8,
+      "crc32": "27bccdaa"
+    },
+    {
+      "name": "GRAPHICS/tree.JPG",
+      "compressed_bytes": 950,
+      "uncompressed_bytes": 1109,
+      "header_offset": 34822251,
+      "compression_type": 8,
+      "crc32": "e50102ed"
+    },
+    {
+      "name": "HTML5/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 34823401,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "HTML5/css/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 34823590,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "HTML5/css/bootstrap.min.css",
+      "compressed_bytes": 17089,
+      "uncompressed_bytes": 105356,
+      "header_offset": 34823783,
+      "compression_type": 8,
+      "crc32": "32108064"
+    },
+    {
+      "name": "HTML5/css/font-awesome.min.css",
+      "compressed_bytes": 6930,
+      "uncompressed_bytes": 31000,
+      "header_offset": 34841082,
+      "compression_type": 8,
+      "crc32": "02f538dc"
+    },
+    {
+      "name": "HTML5/css/print.css",
+      "compressed_bytes": 342,
+      "uncompressed_bytes": 992,
+      "header_offset": 34848225,
+      "compression_type": 8,
+      "crc32": "fbd27da6"
+    },
+    {
+      "name": "HTML5/css/styles.css",
+      "compressed_bytes": 3345,
+      "uncompressed_bytes": 16872,
+      "header_offset": 34848769,
+      "compression_type": 8,
+      "crc32": "ad535f38"
+    },
+    {
+      "name": "HTML5/img/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 34852317,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "HTML5/img/background.jpg",
+      "compressed_bytes": 78290,
+      "uncompressed_bytes": 89056,
+      "header_offset": 34852510,
+      "compression_type": 8,
+      "crc32": "7d727da3"
+    },
+    {
+      "name": "HTML5/img/COUNTRY.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 34931007,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYAFGHANISTAN.SVG",
+      "compressed_bytes": 662,
+      "uncompressed_bytes": 1468,
+      "header_offset": 34931996,
+      "compression_type": 8,
+      "crc32": "4ef94009"
+    },
+    {
+      "name": "HTML5/img/COUNTRYALAND ISLANDS.SVG",
+      "compressed_bytes": 823,
+      "uncompressed_bytes": 1728,
+      "header_offset": 34932873,
+      "compression_type": 8,
+      "crc32": "d7b20621"
+    },
+    {
+      "name": "HTML5/img/COUNTRYALBANIA.SVG",
+      "compressed_bytes": 660,
+      "uncompressed_bytes": 1330,
+      "header_offset": 34933913,
+      "compression_type": 8,
+      "crc32": "fdac0590"
+    },
+    {
+      "name": "HTML5/img/COUNTRYALGERIA.SVG",
+      "compressed_bytes": 643,
+      "uncompressed_bytes": 1321,
+      "header_offset": 34934784,
+      "compression_type": 8,
+      "crc32": "ae8bc127"
+    },
+    {
+      "name": "HTML5/img/COUNTRYAMERICAN SAMOA.SVG",
+      "compressed_bytes": 758,
+      "uncompressed_bytes": 1552,
+      "header_offset": 34935638,
+      "compression_type": 8,
+      "crc32": "d3f63de9"
+    },
+    {
+      "name": "HTML5/img/COUNTRYANDORRA.SVG",
+      "compressed_bytes": 927,
+      "uncompressed_bytes": 2009,
+      "header_offset": 34936614,
+      "compression_type": 8,
+      "crc32": "fc4fb006"
+    },
+    {
+      "name": "HTML5/img/COUNTRYANGOLA.SVG",
+      "compressed_bytes": 804,
+      "uncompressed_bytes": 1589,
+      "header_offset": 34937752,
+      "compression_type": 8,
+      "crc32": "1fab33d7"
+    },
+    {
+      "name": "HTML5/img/COUNTRYANGUILLA.SVG",
+      "compressed_bytes": 1258,
+      "uncompressed_bytes": 2935,
+      "header_offset": 34938766,
+      "compression_type": 8,
+      "crc32": "b1b4490d"
+    },
+    {
+      "name": "HTML5/img/COUNTRYANTARCTICA.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 34940236,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYANTIGUA AND BARBUDA.SVG",
+      "compressed_bytes": 671,
+      "uncompressed_bytes": 1424,
+      "header_offset": 34941235,
+      "compression_type": 8,
+      "crc32": "6ace7c5f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYARGENTINA.SVG",
+      "compressed_bytes": 582,
+      "uncompressed_bytes": 1197,
+      "header_offset": 34942129,
+      "compression_type": 8,
+      "crc32": "2ed98af8"
+    },
+    {
+      "name": "HTML5/img/COUNTRYARMENIA.SVG",
+      "compressed_bytes": 495,
+      "uncompressed_bytes": 1009,
+      "header_offset": 34942924,
+      "compression_type": 8,
+      "crc32": "df67cfe8"
+    },
+    {
+      "name": "HTML5/img/COUNTRYARUBA.SVG",
+      "compressed_bytes": 658,
+      "uncompressed_bytes": 1392,
+      "header_offset": 34943630,
+      "compression_type": 8,
+      "crc32": "4ee1b134"
+    },
+    {
+      "name": "HTML5/img/COUNTRYAUSTRALIA.SVG",
+      "compressed_bytes": 1258,
+      "uncompressed_bytes": 3034,
+      "header_offset": 34944497,
+      "compression_type": 8,
+      "crc32": "cbe02b6f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYAUSTRIA.SVG",
+      "compressed_bytes": 496,
+      "uncompressed_bytes": 1023,
+      "header_offset": 34945968,
+      "compression_type": 8,
+      "crc32": "8e44a029"
+    },
+    {
+      "name": "HTML5/img/COUNTRYAZERBAIJAN.SVG",
+      "compressed_bytes": 770,
+      "uncompressed_bytes": 1667,
+      "header_offset": 34946675,
+      "compression_type": 8,
+      "crc32": "714f1cb0"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBAHAMAS.SVG",
+      "compressed_bytes": 502,
+      "uncompressed_bytes": 1025,
+      "header_offset": 34947659,
+      "compression_type": 8,
+      "crc32": "0cebb7f4"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBAHRAIN.SVG",
+      "compressed_bytes": 442,
+      "uncompressed_bytes": 902,
+      "header_offset": 34948372,
+      "compression_type": 8,
+      "crc32": "3b4e63e2"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBANGLADESH.SVG",
+      "compressed_bytes": 318,
+      "uncompressed_bytes": 657,
+      "header_offset": 34949025,
+      "compression_type": 8,
+      "crc32": "8e4e5780"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBARBADOS.SVG",
+      "compressed_bytes": 696,
+      "uncompressed_bytes": 1441,
+      "header_offset": 34949557,
+      "compression_type": 8,
+      "crc32": "03281217"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBELARUS.SVG",
+      "compressed_bytes": 705,
+      "uncompressed_bytes": 1644,
+      "header_offset": 34950465,
+      "compression_type": 8,
+      "crc32": "849a0ca6"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBELGIUM.SVG",
+      "compressed_bytes": 491,
+      "uncompressed_bytes": 984,
+      "header_offset": 34951381,
+      "compression_type": 8,
+      "crc32": "d5e43eb3"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBELIZE.SVG",
+      "compressed_bytes": 662,
+      "uncompressed_bytes": 1463,
+      "header_offset": 34952083,
+      "compression_type": 8,
+      "crc32": "e4c704bd"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBENIN.SVG",
+      "compressed_bytes": 456,
+      "uncompressed_bytes": 933,
+      "header_offset": 34952955,
+      "compression_type": 8,
+      "crc32": "84bb2d1b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBERMUDA.SVG",
+      "compressed_bytes": 900,
+      "uncompressed_bytes": 2121,
+      "header_offset": 34953620,
+      "compression_type": 8,
+      "crc32": "479e0737"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBHUTAN.SVG",
+      "compressed_bytes": 838,
+      "uncompressed_bytes": 1762,
+      "header_offset": 34954731,
+      "compression_type": 8,
+      "crc32": "3be0fe5e"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBOLIVIA.SVG",
+      "compressed_bytes": 495,
+      "uncompressed_bytes": 1009,
+      "header_offset": 34955779,
+      "compression_type": 8,
+      "crc32": "8153ac7f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBONAIRE, SINT EUSTATIUS, AND SABA.SVG",
+      "compressed_bytes": 417,
+      "uncompressed_bytes": 839,
+      "header_offset": 34956485,
+      "compression_type": 8,
+      "crc32": "aae5e992"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBOSNIA AND HERZEGOVINA.SVG",
+      "compressed_bytes": 799,
+      "uncompressed_bytes": 2083,
+      "header_offset": 34957139,
+      "compression_type": 8,
+      "crc32": "af9df418"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBOTSWANA.SVG",
+      "compressed_bytes": 615,
+      "uncompressed_bytes": 1279,
+      "header_offset": 34958164,
+      "compression_type": 8,
+      "crc32": "4e7d3bd8"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBOUVET ISLAND.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 34958991,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBRAZIL.SVG",
+      "compressed_bytes": 608,
+      "uncompressed_bytes": 1231,
+      "header_offset": 34959993,
+      "compression_type": 8,
+      "crc32": "ada6a9d1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBRITISH INDIAN OCEAN TERRITORY.SVG",
+      "compressed_bytes": 2451,
+      "uncompressed_bytes": 8368,
+      "header_offset": 34960811,
+      "compression_type": 8,
+      "crc32": "0d1240f4"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBRUNEI DARUSSALAM.SVG",
+      "compressed_bytes": 897,
+      "uncompressed_bytes": 2118,
+      "header_offset": 34963496,
+      "compression_type": 8,
+      "crc32": "2d638e1b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBULGARIA.SVG",
+      "compressed_bytes": 494,
+      "uncompressed_bytes": 1009,
+      "header_offset": 34964614,
+      "compression_type": 8,
+      "crc32": "c32bb7dd"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBURKINA FASO.SVG",
+      "compressed_bytes": 472,
+      "uncompressed_bytes": 953,
+      "header_offset": 34965320,
+      "compression_type": 8,
+      "crc32": "e5ba5efe"
+    },
+    {
+      "name": "HTML5/img/COUNTRYBURUNDI.SVG",
+      "compressed_bytes": 732,
+      "uncompressed_bytes": 1910,
+      "header_offset": 34966008,
+      "compression_type": 8,
+      "crc32": "a4786480"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCAMBODIA.SVG",
+      "compressed_bytes": 627,
+      "uncompressed_bytes": 1373,
+      "header_offset": 34966951,
+      "compression_type": 8,
+      "crc32": "56972a56"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCAMEROON.SVG",
+      "compressed_bytes": 593,
+      "uncompressed_bytes": 1212,
+      "header_offset": 34967790,
+      "compression_type": 8,
+      "crc32": "1080826f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCANADA.SVG",
+      "compressed_bytes": 555,
+      "uncompressed_bytes": 1214,
+      "header_offset": 34968595,
+      "compression_type": 8,
+      "crc32": "b2d61170"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCAPE VERDE.SVG",
+      "compressed_bytes": 1176,
+      "uncompressed_bytes": 3128,
+      "header_offset": 34969360,
+      "compression_type": 8,
+      "crc32": "8e183ca0"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCAYMAN ISLANDS.SVG",
+      "compressed_bytes": 1023,
+      "uncompressed_bytes": 2792,
+      "header_offset": 34970750,
+      "compression_type": 8,
+      "crc32": "2d7a55be"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCENTRAL AFRICAN REPUBLIC.SVG",
+      "compressed_bytes": 793,
+      "uncompressed_bytes": 1889,
+      "header_offset": 34971991,
+      "compression_type": 8,
+      "crc32": "4c930f76"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCHAD.SVG",
+      "compressed_bytes": 499,
+      "uncompressed_bytes": 1011,
+      "header_offset": 34973012,
+      "compression_type": 8,
+      "crc32": "40a308eb"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCHILE.SVG",
+      "compressed_bytes": 492,
+      "uncompressed_bytes": 1025,
+      "header_offset": 34973719,
+      "compression_type": 8,
+      "crc32": "194ac6b3"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCHINA.SVG",
+      "compressed_bytes": 682,
+      "uncompressed_bytes": 1280,
+      "header_offset": 34974420,
+      "compression_type": 8,
+      "crc32": "42a875f4"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCHRISTMAS ISLAND.SVG",
+      "compressed_bytes": 1269,
+      "uncompressed_bytes": 2949,
+      "header_offset": 34975311,
+      "compression_type": 8,
+      "crc32": "bedf95b0"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCOCOS (KEELING) ISLAND.SVG",
+      "compressed_bytes": 1192,
+      "uncompressed_bytes": 2766,
+      "header_offset": 34976800,
+      "compression_type": 8,
+      "crc32": "910f99ce"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCOLOMBIA.SVG",
+      "compressed_bytes": 449,
+      "uncompressed_bytes": 903,
+      "header_offset": 34978218,
+      "compression_type": 8,
+      "crc32": "175fa08e"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCOMOROS.SVG",
+      "compressed_bytes": 993,
+      "uncompressed_bytes": 2436,
+      "header_offset": 34978879,
+      "compression_type": 8,
+      "crc32": "6be27dbb"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCONGO,THE DEMOCRATIC REPUBLIC OF THE.SVG",
+      "compressed_bytes": 759,
+      "uncompressed_bytes": 1617,
+      "header_offset": 34980083,
+      "compression_type": 8,
+      "crc32": "b18414fa"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCONGO.SVG",
+      "compressed_bytes": 527,
+      "uncompressed_bytes": 1074,
+      "header_offset": 34981082,
+      "compression_type": 8,
+      "crc32": "fc328812"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCOOK ISLANDS.SVG",
+      "compressed_bytes": 1160,
+      "uncompressed_bytes": 3252,
+      "header_offset": 34981818,
+      "compression_type": 8,
+      "crc32": "64c36ce9"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCOSTA RICA.SVG",
+      "compressed_bytes": 498,
+      "uncompressed_bytes": 1043,
+      "header_offset": 34983194,
+      "compression_type": 8,
+      "crc32": "d18fd992"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCOTE D'IVOIRE.SVG",
+      "compressed_bytes": 492,
+      "uncompressed_bytes": 1009,
+      "header_offset": 34983906,
+      "compression_type": 8,
+      "crc32": "c62503ef"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCROATIA.SVG",
+      "compressed_bytes": 1031,
+      "uncompressed_bytes": 3150,
+      "header_offset": 34984615,
+      "compression_type": 8,
+      "crc32": "7de34b85"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCUBA.SVG",
+      "compressed_bytes": 713,
+      "uncompressed_bytes": 1569,
+      "header_offset": 34985857,
+      "compression_type": 8,
+      "crc32": "34c476e2"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCURACAO.SVG",
+      "compressed_bytes": 629,
+      "uncompressed_bytes": 1318,
+      "header_offset": 34986778,
+      "compression_type": 8,
+      "crc32": "4cdcc7c4"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCYPRUS.SVG",
+      "compressed_bytes": 636,
+      "uncompressed_bytes": 1332,
+      "header_offset": 34987618,
+      "compression_type": 8,
+      "crc32": "e5c0ac66"
+    },
+    {
+      "name": "HTML5/img/COUNTRYCZECH REPUBLIC.SVG",
+      "compressed_bytes": 454,
+      "uncompressed_bytes": 895,
+      "header_offset": 34988464,
+      "compression_type": 8,
+      "crc32": "18a1242a"
+    },
+    {
+      "name": "HTML5/img/COUNTRYDENMARK.SVG",
+      "compressed_bytes": 549,
+      "uncompressed_bytes": 1167,
+      "header_offset": 34989136,
+      "compression_type": 8,
+      "crc32": "5e246ae9"
+    },
+    {
+      "name": "HTML5/img/COUNTRYDJIBOUTI.SVG",
+      "compressed_bytes": 573,
+      "uncompressed_bytes": 1205,
+      "header_offset": 34989896,
+      "compression_type": 8,
+      "crc32": "3907a553"
+    },
+    {
+      "name": "HTML5/img/COUNTRYDOMINICA.SVG",
+      "compressed_bytes": 1636,
+      "uncompressed_bytes": 4573,
+      "header_offset": 34990681,
+      "compression_type": 8,
+      "crc32": "95b7a17f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYDOMINICAN REPUBLIC.SVG",
+      "compressed_bytes": 596,
+      "uncompressed_bytes": 1480,
+      "header_offset": 34992529,
+      "compression_type": 8,
+      "crc32": "b3412166"
+    },
+    {
+      "name": "HTML5/img/COUNTRYECUADOR.SVG",
+      "compressed_bytes": 661,
+      "uncompressed_bytes": 1546,
+      "header_offset": 34993347,
+      "compression_type": 8,
+      "crc32": "400ef8ce"
+    },
+    {
+      "name": "HTML5/img/COUNTRYEGYPT.SVG",
+      "compressed_bytes": 538,
+      "uncompressed_bytes": 1209,
+      "header_offset": 34994219,
+      "compression_type": 8,
+      "crc32": "1c2d98b7"
+    },
+    {
+      "name": "HTML5/img/COUNTRYEL SALVADOR.SVG",
+      "compressed_bytes": 668,
+      "uncompressed_bytes": 1440,
+      "header_offset": 34994966,
+      "compression_type": 8,
+      "crc32": "804ce870"
+    },
+    {
+      "name": "HTML5/img/COUNTRYEQUATORIAL GUINEA.SVG",
+      "compressed_bytes": 693,
+      "uncompressed_bytes": 1539,
+      "header_offset": 34995849,
+      "compression_type": 8,
+      "crc32": "895e44da"
+    },
+    {
+      "name": "HTML5/img/COUNTRYERITREA.SVG",
+      "compressed_bytes": 682,
+      "uncompressed_bytes": 1507,
+      "header_offset": 34996763,
+      "compression_type": 8,
+      "crc32": "cfac0c29"
+    },
+    {
+      "name": "HTML5/img/COUNTRYESTONIA.SVG",
+      "compressed_bytes": 488,
+      "uncompressed_bytes": 982,
+      "header_offset": 34997656,
+      "compression_type": 8,
+      "crc32": "02f182cb"
+    },
+    {
+      "name": "HTML5/img/COUNTRYETHIOPIA.SVG",
+      "compressed_bytes": 772,
+      "uncompressed_bytes": 1588,
+      "header_offset": 34998355,
+      "compression_type": 8,
+      "crc32": "27ab305a"
+    },
+    {
+      "name": "HTML5/img/COUNTRYFALKLAND ISLANDS (MALVINAS).SVG",
+      "compressed_bytes": 905,
+      "uncompressed_bytes": 2549,
+      "header_offset": 34999339,
+      "compression_type": 8,
+      "crc32": "93968577"
+    },
+    {
+      "name": "HTML5/img/COUNTRYFAROE ISLANDS.SVG",
+      "compressed_bytes": 735,
+      "uncompressed_bytes": 1478,
+      "header_offset": 35000475,
+      "compression_type": 8,
+      "crc32": "68e17fa9"
+    },
+    {
+      "name": "HTML5/img/COUNTRYFIJI.SVG",
+      "compressed_bytes": 881,
+      "uncompressed_bytes": 2063,
+      "header_offset": 35001427,
+      "compression_type": 8,
+      "crc32": "a097fd2d"
+    },
+    {
+      "name": "HTML5/img/COUNTRYFINLAND.SVG",
+      "compressed_bytes": 493,
+      "uncompressed_bytes": 942,
+      "header_offset": 35002516,
+      "compression_type": 8,
+      "crc32": "1f06568d"
+    },
+    {
+      "name": "HTML5/img/COUNTRYFRANCE.SVG",
+      "compressed_bytes": 421,
+      "uncompressed_bytes": 841,
+      "header_offset": 35003220,
+      "compression_type": 8,
+      "crc32": "14b2aa19"
+    },
+    {
+      "name": "HTML5/img/COUNTRYFRENCH GUIANA.SVG",
+      "compressed_bytes": 421,
+      "uncompressed_bytes": 841,
+      "header_offset": 35003851,
+      "compression_type": 8,
+      "crc32": "14b2aa19"
+    },
+    {
+      "name": "HTML5/img/COUNTRYFRENCH POLYNESIA.SVG",
+      "compressed_bytes": 577,
+      "uncompressed_bytes": 1407,
+      "header_offset": 35004489,
+      "compression_type": 8,
+      "crc32": "40769902"
+    },
+    {
+      "name": "HTML5/img/COUNTRYFRENCH SOUTHERN TERRITORIES.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35005286,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGABON.SVG",
+      "compressed_bytes": 493,
+      "uncompressed_bytes": 1010,
+      "header_offset": 35006302,
+      "compression_type": 8,
+      "crc32": "301a3d15"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGAMBIA.SVG",
+      "compressed_bytes": 499,
+      "uncompressed_bytes": 1025,
+      "header_offset": 35007004,
+      "compression_type": 8,
+      "crc32": "bad39ead"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGAZA STRIP.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35007713,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGEORGIA.SVG",
+      "compressed_bytes": 678,
+      "uncompressed_bytes": 1975,
+      "header_offset": 35008712,
+      "compression_type": 8,
+      "crc32": "e90f3b8c"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGERMANY.SVG",
+      "compressed_bytes": 489,
+      "uncompressed_bytes": 984,
+      "header_offset": 35009601,
+      "compression_type": 8,
+      "crc32": "215dfeff"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGHANA.SVG",
+      "compressed_bytes": 579,
+      "uncompressed_bytes": 1187,
+      "header_offset": 35010301,
+      "compression_type": 8,
+      "crc32": "a1a33440"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGIBRALTAR.SVG",
+      "compressed_bytes": 772,
+      "uncompressed_bytes": 1895,
+      "header_offset": 35011089,
+      "compression_type": 8,
+      "crc32": "be5afba1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGREECE.SVG",
+      "compressed_bytes": 644,
+      "uncompressed_bytes": 1353,
+      "header_offset": 35012074,
+      "compression_type": 8,
+      "crc32": "8efa35de"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGREENLAND.SVG",
+      "compressed_bytes": 432,
+      "uncompressed_bytes": 940,
+      "header_offset": 35012928,
+      "compression_type": 8,
+      "crc32": "d3c89043"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGRENADA.SVG",
+      "compressed_bytes": 1195,
+      "uncompressed_bytes": 3280,
+      "header_offset": 35013573,
+      "compression_type": 8,
+      "crc32": "abf52694"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGUADELOUPE.SVG",
+      "compressed_bytes": 421,
+      "uncompressed_bytes": 841,
+      "header_offset": 35014979,
+      "compression_type": 8,
+      "crc32": "14b2aa19"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGUAM.SVG",
+      "compressed_bytes": 876,
+      "uncompressed_bytes": 1963,
+      "header_offset": 35015614,
+      "compression_type": 8,
+      "crc32": "88a6f225"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGUATEMALA.SVG",
+      "compressed_bytes": 718,
+      "uncompressed_bytes": 1505,
+      "header_offset": 35016698,
+      "compression_type": 8,
+      "crc32": "9090b829"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGUERNSEY.SVG",
+      "compressed_bytes": 593,
+      "uncompressed_bytes": 1332,
+      "header_offset": 35017629,
+      "compression_type": 8,
+      "crc32": "9d4939d7"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGUINEA-BISSAU.SVG",
+      "compressed_bytes": 598,
+      "uncompressed_bytes": 1286,
+      "header_offset": 35018434,
+      "compression_type": 8,
+      "crc32": "0fd4a0b7"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGUINEA.SVG",
+      "compressed_bytes": 513,
+      "uncompressed_bytes": 1027,
+      "header_offset": 35019249,
+      "compression_type": 8,
+      "crc32": "2790d4cc"
+    },
+    {
+      "name": "HTML5/img/COUNTRYGUYANA.SVG",
+      "compressed_bytes": 732,
+      "uncompressed_bytes": 1513,
+      "header_offset": 35019972,
+      "compression_type": 8,
+      "crc32": "e9c37557"
+    },
+    {
+      "name": "HTML5/img/COUNTRYHAITI.SVG",
+      "compressed_bytes": 556,
+      "uncompressed_bytes": 1272,
+      "header_offset": 35020914,
+      "compression_type": 8,
+      "crc32": "a255c09f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYHEARD AND MCDONALD ISLANDS.SVG",
+      "compressed_bytes": 1258,
+      "uncompressed_bytes": 3034,
+      "header_offset": 35021679,
+      "compression_type": 8,
+      "crc32": "cbe02b6f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYHOLY SEE (VATICAN CITY STATE).SVG",
+      "compressed_bytes": 804,
+      "uncompressed_bytes": 1725,
+      "header_offset": 35023167,
+      "compression_type": 8,
+      "crc32": "81bf23cd"
+    },
+    {
+      "name": "HTML5/img/COUNTRYHONDURAS.SVG",
+      "compressed_bytes": 729,
+      "uncompressed_bytes": 1880,
+      "header_offset": 35024204,
+      "compression_type": 8,
+      "crc32": "1d6017eb"
+    },
+    {
+      "name": "HTML5/img/COUNTRYHONG KONG.SVG",
+      "compressed_bytes": 825,
+      "uncompressed_bytes": 1740,
+      "header_offset": 35025145,
+      "compression_type": 8,
+      "crc32": "bdf62f8f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYHUNGARY.SVG",
+      "compressed_bytes": 493,
+      "uncompressed_bytes": 1008,
+      "header_offset": 35026183,
+      "compression_type": 8,
+      "crc32": "671707d3"
+    },
+    {
+      "name": "HTML5/img/COUNTRYICELAND.SVG",
+      "compressed_bytes": 708,
+      "uncompressed_bytes": 1463,
+      "header_offset": 35026887,
+      "compression_type": 8,
+      "crc32": "e0617a6d"
+    },
+    {
+      "name": "HTML5/img/COUNTRYINDIA.SVG",
+      "compressed_bytes": 533,
+      "uncompressed_bytes": 1182,
+      "header_offset": 35027806,
+      "compression_type": 8,
+      "crc32": "29467d99"
+    },
+    {
+      "name": "HTML5/img/COUNTRYINDONESIA.SVG",
+      "compressed_bytes": 335,
+      "uncompressed_bytes": 678,
+      "header_offset": 35028548,
+      "compression_type": 8,
+      "crc32": "aeda0685"
+    },
+    {
+      "name": "HTML5/img/COUNTRYIRAN, ISLAMIC REPUBLIC OF.SVG",
+      "compressed_bytes": 705,
+      "uncompressed_bytes": 1618,
+      "header_offset": 35029096,
+      "compression_type": 8,
+      "crc32": "3659b7db"
+    },
+    {
+      "name": "HTML5/img/COUNTRYIRAQ.SVG",
+      "compressed_bytes": 701,
+      "uncompressed_bytes": 1539,
+      "header_offset": 35030030,
+      "compression_type": 8,
+      "crc32": "af37e1e6"
+    },
+    {
+      "name": "HTML5/img/COUNTRYIRELAND.SVG",
+      "compressed_bytes": 422,
+      "uncompressed_bytes": 839,
+      "header_offset": 35030939,
+      "compression_type": 8,
+      "crc32": "bc66cd80"
+    },
+    {
+      "name": "HTML5/img/COUNTRYISLE OF MAN.SVG",
+      "compressed_bytes": 524,
+      "uncompressed_bytes": 1008,
+      "header_offset": 35031572,
+      "compression_type": 8,
+      "crc32": "90d68634"
+    },
+    {
+      "name": "HTML5/img/COUNTRYISRAEL.SVG",
+      "compressed_bytes": 677,
+      "uncompressed_bytes": 1514,
+      "header_offset": 35032311,
+      "compression_type": 8,
+      "crc32": "019c235c"
+    },
+    {
+      "name": "HTML5/img/COUNTRYITALY.SVG",
+      "compressed_bytes": 421,
+      "uncompressed_bytes": 841,
+      "header_offset": 35033198,
+      "compression_type": 8,
+      "crc32": "19d355b2"
+    },
+    {
+      "name": "HTML5/img/COUNTRYJAMAICA.SVG",
+      "compressed_bytes": 510,
+      "uncompressed_bytes": 1111,
+      "header_offset": 35033828,
+      "compression_type": 8,
+      "crc32": "f674f095"
+    },
+    {
+      "name": "HTML5/img/COUNTRYJAPAN.SVG",
+      "compressed_bytes": 311,
+      "uncompressed_bytes": 653,
+      "header_offset": 35034549,
+      "compression_type": 8,
+      "crc32": "a6fe1abf"
+    },
+    {
+      "name": "HTML5/img/COUNTRYJERSEY.SVG",
+      "compressed_bytes": 666,
+      "uncompressed_bytes": 1437,
+      "header_offset": 35035069,
+      "compression_type": 8,
+      "crc32": "e46959ac"
+    },
+    {
+      "name": "HTML5/img/COUNTRYJORDAN.SVG",
+      "compressed_bytes": 619,
+      "uncompressed_bytes": 1276,
+      "header_offset": 35035945,
+      "compression_type": 8,
+      "crc32": "d9f53160"
+    },
+    {
+      "name": "HTML5/img/COUNTRYKAZAKHSTAN.SVG",
+      "compressed_bytes": 631,
+      "uncompressed_bytes": 1400,
+      "header_offset": 35036774,
+      "compression_type": 8,
+      "crc32": "5d7f2215"
+    },
+    {
+      "name": "HTML5/img/COUNTRYKENYA.SVG",
+      "compressed_bytes": 882,
+      "uncompressed_bytes": 2015,
+      "header_offset": 35037619,
+      "compression_type": 8,
+      "crc32": "784ca5df"
+    },
+    {
+      "name": "HTML5/img/COUNTRYKIRIBATI.SVG",
+      "compressed_bytes": 1461,
+      "uncompressed_bytes": 5112,
+      "header_offset": 35038710,
+      "compression_type": 8,
+      "crc32": "096efd47"
+    },
+    {
+      "name": "HTML5/img/COUNTRYKOREA, DEMOCRATIC PEOPLE'S REPUBLIC.SVG",
+      "compressed_bytes": 611,
+      "uncompressed_bytes": 1319,
+      "header_offset": 35040383,
+      "compression_type": 8,
+      "crc32": "fe4de789"
+    },
+    {
+      "name": "HTML5/img/COUNTRYKOREA, REPUBLIC OF.SVG",
+      "compressed_bytes": 911,
+      "uncompressed_bytes": 3242,
+      "header_offset": 35041233,
+      "compression_type": 8,
+      "crc32": "d525bdbe"
+    },
+    {
+      "name": "HTML5/img/COUNTRYKOSOVO.SVG",
+      "compressed_bytes": 852,
+      "uncompressed_bytes": 2114,
+      "header_offset": 35042366,
+      "compression_type": 8,
+      "crc32": "8ba5772c"
+    },
+    {
+      "name": "HTML5/img/COUNTRYKUWAIT.SVG",
+      "compressed_bytes": 538,
+      "uncompressed_bytes": 1134,
+      "header_offset": 35043428,
+      "compression_type": 8,
+      "crc32": "f68f9b83"
+    },
+    {
+      "name": "HTML5/img/COUNTRYKYRGYZSTAN.SVG",
+      "compressed_bytes": 859,
+      "uncompressed_bytes": 1859,
+      "header_offset": 35044176,
+      "compression_type": 8,
+      "crc32": "6424fca0"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLAO PEOPLE'S DEMOCRATIC REPUBLIC.SVG",
+      "compressed_bytes": 516,
+      "uncompressed_bytes": 1093,
+      "header_offset": 35045249,
+      "compression_type": 8,
+      "crc32": "0801a1f1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLATVIA.SVG",
+      "compressed_bytes": 419,
+      "uncompressed_bytes": 850,
+      "header_offset": 35046001,
+      "compression_type": 8,
+      "crc32": "4384c596"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLEBANON.SVG",
+      "compressed_bytes": 491,
+      "uncompressed_bytes": 1003,
+      "header_offset": 35046630,
+      "compression_type": 8,
+      "crc32": "6d6e3c0d"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLESOTHO.SVG",
+      "compressed_bytes": 565,
+      "uncompressed_bytes": 1158,
+      "header_offset": 35047332,
+      "compression_type": 8,
+      "crc32": "067ef905"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLIBERIA.SVG",
+      "compressed_bytes": 1088,
+      "uncompressed_bytes": 2566,
+      "header_offset": 35048108,
+      "compression_type": 8,
+      "crc32": "2b89dd7b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLIBYAN ARAB JAMAHIRIYA.SVG",
+      "compressed_bytes": 761,
+      "uncompressed_bytes": 1580,
+      "header_offset": 35049407,
+      "compression_type": 8,
+      "crc32": "4dda5ea6"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLIECHTENSTEIN.SVG",
+      "compressed_bytes": 536,
+      "uncompressed_bytes": 1134,
+      "header_offset": 35050394,
+      "compression_type": 8,
+      "crc32": "ce1be041"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLITHUANIA.SVG",
+      "compressed_bytes": 485,
+      "uncompressed_bytes": 1012,
+      "header_offset": 35051147,
+      "compression_type": 8,
+      "crc32": "522840fa"
+    },
+    {
+      "name": "HTML5/img/COUNTRYLUXEMBOURG.SVG",
+      "compressed_bytes": 416,
+      "uncompressed_bytes": 839,
+      "header_offset": 35051845,
+      "compression_type": 8,
+      "crc32": "744752e0"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMACAO.SVG",
+      "compressed_bytes": 1074,
+      "uncompressed_bytes": 2419,
+      "header_offset": 35052475,
+      "compression_type": 8,
+      "crc32": "160d4f6b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMACEDONIA, THE FORMER YUGOSLAV.SVG",
+      "compressed_bytes": 622,
+      "uncompressed_bytes": 1670,
+      "header_offset": 35053758,
+      "compression_type": 8,
+      "crc32": "a85c64bc"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMADAGASCAR.SVG",
+      "compressed_bytes": 443,
+      "uncompressed_bytes": 879,
+      "header_offset": 35054614,
+      "compression_type": 8,
+      "crc32": "e7871341"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMALAWI.SVG",
+      "compressed_bytes": 586,
+      "uncompressed_bytes": 1187,
+      "header_offset": 35055271,
+      "compression_type": 8,
+      "crc32": "c892c355"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMALAYSIA.SVG",
+      "compressed_bytes": 854,
+      "uncompressed_bytes": 1843,
+      "header_offset": 35056067,
+      "compression_type": 8,
+      "crc32": "3ed066a2"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMALDIVES.SVG",
+      "compressed_bytes": 511,
+      "uncompressed_bytes": 1027,
+      "header_offset": 35057133,
+      "compression_type": 8,
+      "crc32": "854690b1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMALI.SVG",
+      "compressed_bytes": 495,
+      "uncompressed_bytes": 1006,
+      "header_offset": 35057856,
+      "compression_type": 8,
+      "crc32": "e35a5ea5"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMALTA.SVG",
+      "compressed_bytes": 432,
+      "uncompressed_bytes": 919,
+      "header_offset": 35058559,
+      "compression_type": 8,
+      "crc32": "2640e8a7"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMARSHALL ISLANDS.SVG",
+      "compressed_bytes": 681,
+      "uncompressed_bytes": 1459,
+      "header_offset": 35059200,
+      "compression_type": 8,
+      "crc32": "13cedcb5"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMARTINIQUE.SVG",
+      "compressed_bytes": 904,
+      "uncompressed_bytes": 3328,
+      "header_offset": 35060101,
+      "compression_type": 8,
+      "crc32": "b41002b3"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMAURITANIA.SVG",
+      "compressed_bytes": 541,
+      "uncompressed_bytes": 1079,
+      "header_offset": 35061219,
+      "compression_type": 8,
+      "crc32": "60de4f72"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMAURITIUS.SVG",
+      "compressed_bytes": 517,
+      "uncompressed_bytes": 1111,
+      "header_offset": 35061974,
+      "compression_type": 8,
+      "crc32": "68e8c54b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMAYOTE.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35062704,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMEXICO.SVG",
+      "compressed_bytes": 591,
+      "uncompressed_bytes": 1376,
+      "header_offset": 35063699,
+      "compression_type": 8,
+      "crc32": "1f04d33f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMICRONESIA, FEDERATED STATES OF.SVG",
+      "compressed_bytes": 574,
+      "uncompressed_bytes": 1432,
+      "header_offset": 35064500,
+      "compression_type": 8,
+      "crc32": "40016003"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMOLDOVA, REPUBLIC OF.SVG",
+      "compressed_bytes": 797,
+      "uncompressed_bytes": 1712,
+      "header_offset": 35065309,
+      "compression_type": 8,
+      "crc32": "c7e1730b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMONACO.SVG",
+      "compressed_bytes": 336,
+      "uncompressed_bytes": 678,
+      "header_offset": 35066330,
+      "compression_type": 8,
+      "crc32": "82a4ace3"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMONGOLIA.SVG",
+      "compressed_bytes": 703,
+      "uncompressed_bytes": 1709,
+      "header_offset": 35066876,
+      "compression_type": 8,
+      "crc32": "b56301e4"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMONTENEGRO.SVG",
+      "compressed_bytes": 924,
+      "uncompressed_bytes": 1917,
+      "header_offset": 35067791,
+      "compression_type": 8,
+      "crc32": "34880db0"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMONTSERRAT.SVG",
+      "compressed_bytes": 790,
+      "uncompressed_bytes": 1913,
+      "header_offset": 35068929,
+      "compression_type": 8,
+      "crc32": "810aabc6"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMOROCCO.SVG",
+      "compressed_bytes": 583,
+      "uncompressed_bytes": 1191,
+      "header_offset": 35069933,
+      "compression_type": 8,
+      "crc32": "e618d8bd"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMOZAMBIQUE.SVG",
+      "compressed_bytes": 797,
+      "uncompressed_bytes": 1693,
+      "header_offset": 35070727,
+      "compression_type": 8,
+      "crc32": "6b73bebe"
+    },
+    {
+      "name": "HTML5/img/COUNTRYMYANMAR.SVG",
+      "compressed_bytes": 559,
+      "uncompressed_bytes": 1200,
+      "header_offset": 35071738,
+      "compression_type": 8,
+      "crc32": "afa01503"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNAMIBIA.SVG",
+      "compressed_bytes": 730,
+      "uncompressed_bytes": 1524,
+      "header_offset": 35072508,
+      "compression_type": 8,
+      "crc32": "290bc9b2"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNAURU.SVG",
+      "compressed_bytes": 597,
+      "uncompressed_bytes": 1273,
+      "header_offset": 35073449,
+      "compression_type": 8,
+      "crc32": "66a749a0"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNEPAL.SVG",
+      "compressed_bytes": 859,
+      "uncompressed_bytes": 1877,
+      "header_offset": 35074255,
+      "compression_type": 8,
+      "crc32": "6a717d60"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNETHERLANDS ANTILLES.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35075323,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNETHERLANDS.SVG",
+      "compressed_bytes": 417,
+      "uncompressed_bytes": 839,
+      "header_offset": 35076332,
+      "compression_type": 8,
+      "crc32": "aae5e992"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNEW CALEDONIA.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35076964,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNEW ZEALAND.SVG",
+      "compressed_bytes": 958,
+      "uncompressed_bytes": 2267,
+      "header_offset": 35077966,
+      "compression_type": 8,
+      "crc32": "75fa9264"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNICARAGUA.SVG",
+      "compressed_bytes": 639,
+      "uncompressed_bytes": 1468,
+      "header_offset": 35079139,
+      "compression_type": 8,
+      "crc32": "e34a2329"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNIGER.SVG",
+      "compressed_bytes": 521,
+      "uncompressed_bytes": 1083,
+      "header_offset": 35079991,
+      "compression_type": 8,
+      "crc32": "f8079d79"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNIGERIA.SVG",
+      "compressed_bytes": 421,
+      "uncompressed_bytes": 852,
+      "header_offset": 35080721,
+      "compression_type": 8,
+      "crc32": "68ee9674"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNIUE.SVG",
+      "compressed_bytes": 1131,
+      "uncompressed_bytes": 2589,
+      "header_offset": 35081353,
+      "compression_type": 8,
+      "crc32": "d0b6bb2b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNORFOLK ISLAND.SVG",
+      "compressed_bytes": 551,
+      "uncompressed_bytes": 1180,
+      "header_offset": 35082692,
+      "compression_type": 8,
+      "crc32": "48974c2c"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNORTHERN MARIANA ISLANDS.SVG",
+      "compressed_bytes": 1872,
+      "uncompressed_bytes": 4073,
+      "header_offset": 35083461,
+      "compression_type": 8,
+      "crc32": "02bed9ae"
+    },
+    {
+      "name": "HTML5/img/COUNTRYNORWAY.SVG",
+      "compressed_bytes": 706,
+      "uncompressed_bytes": 1464,
+      "header_offset": 35085561,
+      "compression_type": 8,
+      "crc32": "df6e6312"
+    },
+    {
+      "name": "HTML5/img/COUNTRYOMAN.SVG",
+      "compressed_bytes": 678,
+      "uncompressed_bytes": 1413,
+      "header_offset": 35086477,
+      "compression_type": 8,
+      "crc32": "e107d4fa"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPAKISTAN.SVG",
+      "compressed_bytes": 770,
+      "uncompressed_bytes": 1522,
+      "header_offset": 35087363,
+      "compression_type": 8,
+      "crc32": "b99f19dc"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPALAU.SVG",
+      "compressed_bytes": 318,
+      "uncompressed_bytes": 657,
+      "header_offset": 35088345,
+      "compression_type": 8,
+      "crc32": "0f714a3b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPALESTINIAN TERRITORY, OCCUPIED.SVG",
+      "compressed_bytes": 494,
+      "uncompressed_bytes": 1010,
+      "header_offset": 35088872,
+      "compression_type": 8,
+      "crc32": "2913d4f8"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPANAMA.SVG",
+      "compressed_bytes": 560,
+      "uncompressed_bytes": 1225,
+      "header_offset": 35089601,
+      "compression_type": 8,
+      "crc32": "ef6fdaab"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPAPUA NEW GUINEA.SVG",
+      "compressed_bytes": 1208,
+      "uncompressed_bytes": 2768,
+      "header_offset": 35090371,
+      "compression_type": 8,
+      "crc32": "8da889fd"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPARAGUAY.SVG",
+      "compressed_bytes": 663,
+      "uncompressed_bytes": 1418,
+      "header_offset": 35091799,
+      "compression_type": 8,
+      "crc32": "818d8000"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPERU.SVG",
+      "compressed_bytes": 424,
+      "uncompressed_bytes": 852,
+      "header_offset": 35092674,
+      "compression_type": 8,
+      "crc32": "c4caf3c9"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPHILIPPINES.SVG",
+      "compressed_bytes": 844,
+      "uncompressed_bytes": 1856,
+      "header_offset": 35093306,
+      "compression_type": 8,
+      "crc32": "4c47a001"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPITCAIRN.SVG",
+      "compressed_bytes": 920,
+      "uncompressed_bytes": 2078,
+      "header_offset": 35094365,
+      "compression_type": 8,
+      "crc32": "bfc302da"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPOLAND.SVG",
+      "compressed_bytes": 346,
+      "uncompressed_bytes": 680,
+      "header_offset": 35095497,
+      "compression_type": 8,
+      "crc32": "79d8ba7f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPORTUGAL.SVG",
+      "compressed_bytes": 589,
+      "uncompressed_bytes": 1234,
+      "header_offset": 35096053,
+      "compression_type": 8,
+      "crc32": "06a99ea8"
+    },
+    {
+      "name": "HTML5/img/COUNTRYPUERTO RICO.SVG",
+      "compressed_bytes": 652,
+      "uncompressed_bytes": 1377,
+      "header_offset": 35096854,
+      "compression_type": 8,
+      "crc32": "f4374692"
+    },
+    {
+      "name": "HTML5/img/COUNTRYQATAR.SVG",
+      "compressed_bytes": 461,
+      "uncompressed_bytes": 979,
+      "header_offset": 35097721,
+      "compression_type": 8,
+      "crc32": "42beb7e1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYREUNION.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35098391,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYROMANIA.SVG",
+      "compressed_bytes": 523,
+      "uncompressed_bytes": 1063,
+      "header_offset": 35099387,
+      "compression_type": 8,
+      "crc32": "ad486c21"
+    },
+    {
+      "name": "HTML5/img/COUNTRYRUSSIAN FEDERATION.SVG",
+      "compressed_bytes": 470,
+      "uncompressed_bytes": 926,
+      "header_offset": 35100121,
+      "compression_type": 8,
+      "crc32": "3ab46a8a"
+    },
+    {
+      "name": "HTML5/img/COUNTRYRWANDA.SVG",
+      "compressed_bytes": 652,
+      "uncompressed_bytes": 1379,
+      "header_offset": 35100813,
+      "compression_type": 8,
+      "crc32": "00d74a02"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAINT HELENA.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35101675,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAINT KITTS AND NEVIS.SVG",
+      "compressed_bytes": 761,
+      "uncompressed_bytes": 1594,
+      "header_offset": 35102676,
+      "compression_type": 8,
+      "crc32": "5b925e83"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAINT LUCIA.SVG",
+      "compressed_bytes": 387,
+      "uncompressed_bytes": 850,
+      "header_offset": 35103662,
+      "compression_type": 8,
+      "crc32": "86cb6084"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAINT PIERRE AND MIQUELON.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35104264,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAINT VINCENT AND THE GRENADINES.SVG",
+      "compressed_bytes": 605,
+      "uncompressed_bytes": 1331,
+      "header_offset": 35105278,
+      "compression_type": 8,
+      "crc32": "5dc5cd68"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAMOA.SVG",
+      "compressed_bytes": 791,
+      "uncompressed_bytes": 1836,
+      "header_offset": 35106119,
+      "compression_type": 8,
+      "crc32": "96b20d61"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAN MARINO.SVG",
+      "compressed_bytes": 911,
+      "uncompressed_bytes": 2091,
+      "header_offset": 35107119,
+      "compression_type": 8,
+      "crc32": "8dda2fd9"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAO TOME AND PRINCIPE.SVG",
+      "compressed_bytes": 654,
+      "uncompressed_bytes": 1406,
+      "header_offset": 35108244,
+      "compression_type": 8,
+      "crc32": "3682286e"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSAUDI ARABIA.SVG",
+      "compressed_bytes": 705,
+      "uncompressed_bytes": 1772,
+      "header_offset": 35109123,
+      "compression_type": 8,
+      "crc32": "1dc33e69"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSENEGAL.SVG",
+      "compressed_bytes": 601,
+      "uncompressed_bytes": 1227,
+      "header_offset": 35110044,
+      "compression_type": 8,
+      "crc32": "91507b9f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSERBIA.SVG",
+      "compressed_bytes": 893,
+      "uncompressed_bytes": 2008,
+      "header_offset": 35110856,
+      "compression_type": 8,
+      "crc32": "86278359"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSEYCHELLES.SVG",
+      "compressed_bytes": 619,
+      "uncompressed_bytes": 1237,
+      "header_offset": 35111959,
+      "compression_type": 8,
+      "crc32": "3116a1e2"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSIERRA LEONE.SVG",
+      "compressed_bytes": 490,
+      "uncompressed_bytes": 1006,
+      "header_offset": 35112792,
+      "compression_type": 8,
+      "crc32": "2f3b460b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSINGAPORE.SVG",
+      "compressed_bytes": 825,
+      "uncompressed_bytes": 2003,
+      "header_offset": 35113498,
+      "compression_type": 8,
+      "crc32": "f75f262b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSLOVAKIA.SVG",
+      "compressed_bytes": 885,
+      "uncompressed_bytes": 1998,
+      "header_offset": 35114536,
+      "compression_type": 8,
+      "crc32": "39ea6219"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSLOVENIA.SVG",
+      "compressed_bytes": 548,
+      "uncompressed_bytes": 1154,
+      "header_offset": 35115633,
+      "compression_type": 8,
+      "crc32": "f4aeda2d"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSOLOMON ISLANDS.SVG",
+      "compressed_bytes": 879,
+      "uncompressed_bytes": 2164,
+      "header_offset": 35116393,
+      "compression_type": 8,
+      "crc32": "ec4c6929"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSOMALIA.SVG",
+      "compressed_bytes": 399,
+      "uncompressed_bytes": 787,
+      "header_offset": 35117491,
+      "compression_type": 8,
+      "crc32": "292e16a2"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSOUTH AFRICA.SVG",
+      "compressed_bytes": 725,
+      "uncompressed_bytes": 1500,
+      "header_offset": 35118101,
+      "compression_type": 8,
+      "crc32": "b6fb41b1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSOUTH GEORGIA AND SOUTH SANDWICH.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35119042,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSOUTH SUDAN.SVG",
+      "compressed_bytes": 697,
+      "uncompressed_bytes": 1426,
+      "header_offset": 35120063,
+      "compression_type": 8,
+      "crc32": "620efd9f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSPAIN.SVG",
+      "compressed_bytes": 488,
+      "uncompressed_bytes": 1016,
+      "header_offset": 35120975,
+      "compression_type": 8,
+      "crc32": "df02b216"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSRI LANKA.SVG",
+      "compressed_bytes": 847,
+      "uncompressed_bytes": 1783,
+      "header_offset": 35121672,
+      "compression_type": 8,
+      "crc32": "ed013d4e"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSUDAN.SVG",
+      "compressed_bytes": 552,
+      "uncompressed_bytes": 1129,
+      "header_offset": 35122732,
+      "compression_type": 8,
+      "crc32": "85fd75e1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSURINAME.SVG",
+      "compressed_bytes": 597,
+      "uncompressed_bytes": 1281,
+      "header_offset": 35123493,
+      "compression_type": 8,
+      "crc32": "1be8b455"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSVALBARD AND JAN MAYAN ISLANDS.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35124302,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSWAZILAND.SVG",
+      "compressed_bytes": 777,
+      "uncompressed_bytes": 1912,
+      "header_offset": 35125321,
+      "compression_type": 8,
+      "crc32": "2235765b"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSWEDEN.SVG",
+      "compressed_bytes": 553,
+      "uncompressed_bytes": 1167,
+      "header_offset": 35126311,
+      "compression_type": 8,
+      "crc32": "5c16e050"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSWITZERLAND.SVG",
+      "compressed_bytes": 375,
+      "uncompressed_bytes": 829,
+      "header_offset": 35127074,
+      "compression_type": 8,
+      "crc32": "ef39d958"
+    },
+    {
+      "name": "HTML5/img/COUNTRYSYRIAN ARAB REPUBLIC.SVG",
+      "compressed_bytes": 582,
+      "uncompressed_bytes": 1247,
+      "header_offset": 35127664,
+      "compression_type": 8,
+      "crc32": "245c3eb3"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTAIWAN, PROVINCE OF CHINA.SVG",
+      "compressed_bytes": 664,
+      "uncompressed_bytes": 1440,
+      "header_offset": 35128470,
+      "compression_type": 8,
+      "crc32": "50eb2869"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTAJIKISTAN.SVG",
+      "compressed_bytes": 1036,
+      "uncompressed_bytes": 2626,
+      "header_offset": 35129363,
+      "compression_type": 8,
+      "crc32": "61f05461"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTANZANIA, UNITED REPUBLIC OF.SVG",
+      "compressed_bytes": 564,
+      "uncompressed_bytes": 1132,
+      "header_offset": 35130613,
+      "compression_type": 8,
+      "crc32": "955309d6"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTHAILAND.SVG",
+      "compressed_bytes": 498,
+      "uncompressed_bytes": 1043,
+      "header_offset": 35131409,
+      "compression_type": 8,
+      "crc32": "a60fa433"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTIMOR-LESTE.SVG",
+      "compressed_bytes": 579,
+      "uncompressed_bytes": 1111,
+      "header_offset": 35132119,
+      "compression_type": 8,
+      "crc32": "48c251a1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTOGO.SVG",
+      "compressed_bytes": 637,
+      "uncompressed_bytes": 1326,
+      "header_offset": 35132913,
+      "compression_type": 8,
+      "crc32": "35643a81"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTOKELAU.SVG",
+      "compressed_bytes": 804,
+      "uncompressed_bytes": 1779,
+      "header_offset": 35133758,
+      "compression_type": 8,
+      "crc32": "858b96f9"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTONGA.SVG",
+      "compressed_bytes": 457,
+      "uncompressed_bytes": 996,
+      "header_offset": 35134773,
+      "compression_type": 8,
+      "crc32": "87e32c51"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTRINIDAD AND TOBAGO.SVG",
+      "compressed_bytes": 662,
+      "uncompressed_bytes": 1377,
+      "header_offset": 35135439,
+      "compression_type": 8,
+      "crc32": "9c9597b2"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTUNISIA.SVG",
+      "compressed_bytes": 584,
+      "uncompressed_bytes": 1226,
+      "header_offset": 35136324,
+      "compression_type": 8,
+      "crc32": "7f1e7755"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTURKEY.SVG",
+      "compressed_bytes": 581,
+      "uncompressed_bytes": 1160,
+      "header_offset": 35137119,
+      "compression_type": 8,
+      "crc32": "bcd3e475"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTURKMENISTAN.SVG",
+      "compressed_bytes": 1629,
+      "uncompressed_bytes": 4394,
+      "header_offset": 35137910,
+      "compression_type": 8,
+      "crc32": "af346ec9"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTURKS AND CAICOS ISLANDS.SVG",
+      "compressed_bytes": 1001,
+      "uncompressed_bytes": 2346,
+      "header_offset": 35139755,
+      "compression_type": 8,
+      "crc32": "87bdf81c"
+    },
+    {
+      "name": "HTML5/img/COUNTRYTUVALU.SVG",
+      "compressed_bytes": 1435,
+      "uncompressed_bytes": 3572,
+      "header_offset": 35140984,
+      "compression_type": 8,
+      "crc32": "0e514461"
+    },
+    {
+      "name": "HTML5/img/COUNTRYUGANDA.SVG",
+      "compressed_bytes": 926,
+      "uncompressed_bytes": 1986,
+      "header_offset": 35142629,
+      "compression_type": 8,
+      "crc32": "f55838ec"
+    },
+    {
+      "name": "HTML5/img/COUNTRYUKRAINE.SVG",
+      "compressed_bytes": 339,
+      "uncompressed_bytes": 678,
+      "header_offset": 35143765,
+      "compression_type": 8,
+      "crc32": "6f644456"
+    },
+    {
+      "name": "HTML5/img/COUNTRYUNITED ARAB EMIRATES.SVG",
+      "compressed_bytes": 466,
+      "uncompressed_bytes": 988,
+      "header_offset": 35144315,
+      "compression_type": 8,
+      "crc32": "c6e09f71"
+    },
+    {
+      "name": "HTML5/img/COUNTRYUNITED KINGDOM.SVG",
+      "compressed_bytes": 931,
+      "uncompressed_bytes": 2599,
+      "header_offset": 35145005,
+      "compression_type": 8,
+      "crc32": "0cc2a176"
+    },
+    {
+      "name": "HTML5/img/COUNTRYUNITED STATES MINOR OUTLYING ISLANDS.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35146154,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYUNITED STATES.SVG",
+      "compressed_bytes": 904,
+      "uncompressed_bytes": 2295,
+      "header_offset": 35147179,
+      "compression_type": 8,
+      "crc32": "bb36de71"
+    },
+    {
+      "name": "HTML5/img/COUNTRYURUGUAY.SVG",
+      "compressed_bytes": 741,
+      "uncompressed_bytes": 1636,
+      "header_offset": 35148300,
+      "compression_type": 8,
+      "crc32": "2ec78903"
+    },
+    {
+      "name": "HTML5/img/COUNTRYUZBEKISTAN.SVG",
+      "compressed_bytes": 1397,
+      "uncompressed_bytes": 4227,
+      "header_offset": 35149252,
+      "compression_type": 8,
+      "crc32": "ea1a961f"
+    },
+    {
+      "name": "HTML5/img/COUNTRYVANUATU.SVG",
+      "compressed_bytes": 1695,
+      "uncompressed_bytes": 4189,
+      "header_offset": 35150863,
+      "compression_type": 8,
+      "crc32": "8b4be7bb"
+    },
+    {
+      "name": "HTML5/img/COUNTRYVENEZUELA.SVG",
+      "compressed_bytes": 1192,
+      "uncompressed_bytes": 2679,
+      "header_offset": 35152769,
+      "compression_type": 8,
+      "crc32": "a53e534d"
+    },
+    {
+      "name": "HTML5/img/COUNTRYVIET NAM.SVG",
+      "compressed_bytes": 400,
+      "uncompressed_bytes": 787,
+      "header_offset": 35154174,
+      "compression_type": 8,
+      "crc32": "69723888"
+    },
+    {
+      "name": "HTML5/img/COUNTRYVIRGIN ISLANDS, BRITISH.SVG",
+      "compressed_bytes": 938,
+      "uncompressed_bytes": 2567,
+      "header_offset": 35154786,
+      "compression_type": 8,
+      "crc32": "c9aae110"
+    },
+    {
+      "name": "HTML5/img/COUNTRYVIRGIN ISLANDS, U.S..SVG",
+      "compressed_bytes": 849,
+      "uncompressed_bytes": 1934,
+      "header_offset": 35155951,
+      "compression_type": 8,
+      "crc32": "38ec049e"
+    },
+    {
+      "name": "HTML5/img/COUNTRYWALLIS AND FUTUNA.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35157024,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYWEST BANK.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35158030,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYWESTERN SAHARA.SVG",
+      "compressed_bytes": 765,
+      "uncompressed_bytes": 1629,
+      "header_offset": 35159028,
+      "compression_type": 8,
+      "crc32": "d6c9e108"
+    },
+    {
+      "name": "HTML5/img/COUNTRYYEMEN.SVG",
+      "compressed_bytes": 414,
+      "uncompressed_bytes": 817,
+      "header_offset": 35160011,
+      "compression_type": 8,
+      "crc32": "51ad8fe3"
+    },
+    {
+      "name": "HTML5/img/COUNTRYZAIRE.svg",
+      "compressed_bytes": 785,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35160634,
+      "compression_type": 8,
+      "crc32": "3d2a2492"
+    },
+    {
+      "name": "HTML5/img/COUNTRYZAMBIA.SVG",
+      "compressed_bytes": 574,
+      "uncompressed_bytes": 1287,
+      "header_offset": 35161628,
+      "compression_type": 8,
+      "crc32": "11d51ff1"
+    },
+    {
+      "name": "HTML5/img/COUNTRYZIMBABWE.SVG",
+      "compressed_bytes": 1179,
+      "uncompressed_bytes": 2516,
+      "header_offset": 35162412,
+      "compression_type": 8,
+      "crc32": "fc6c8fdf"
+    },
+    {
+      "name": "HTML5/img/footer.png",
+      "compressed_bytes": 5039,
+      "uncompressed_bytes": 5039,
+      "header_offset": 35163803,
+      "compression_type": 0,
+      "crc32": "47b98b30"
+    },
+    {
+      "name": "HTML5/img/FSC.svg",
+      "compressed_bytes": 787,
+      "uncompressed_bytes": 1597,
+      "header_offset": 35169045,
+      "compression_type": 8,
+      "crc32": "ee9201a5"
+    },
+    {
+      "name": "HTML5/img/FSC10.svg",
+      "compressed_bytes": 2182,
+      "uncompressed_bytes": 5677,
+      "header_offset": 35170032,
+      "compression_type": 8,
+      "crc32": "627956df"
+    },
+    {
+      "name": "HTML5/img/FSC11.svg",
+      "compressed_bytes": 748,
+      "uncompressed_bytes": 1490,
+      "header_offset": 35172416,
+      "compression_type": 8,
+      "crc32": "474aed1d"
+    },
+    {
+      "name": "HTML5/img/FSC12.svg",
+      "compressed_bytes": 1033,
+      "uncompressed_bytes": 2025,
+      "header_offset": 35173366,
+      "compression_type": 8,
+      "crc32": "176b793b"
+    },
+    {
+      "name": "HTML5/img/FSC13.svg",
+      "compressed_bytes": 653,
+      "uncompressed_bytes": 1578,
+      "header_offset": 35174601,
+      "compression_type": 8,
+      "crc32": "4ad266e8"
+    },
+    {
+      "name": "HTML5/img/FSC14.svg",
+      "compressed_bytes": 791,
+      "uncompressed_bytes": 1421,
+      "header_offset": 35175456,
+      "compression_type": 8,
+      "crc32": "07b66188"
+    },
+    {
+      "name": "HTML5/img/FSC15.svg",
+      "compressed_bytes": 805,
+      "uncompressed_bytes": 1497,
+      "header_offset": 35176449,
+      "compression_type": 8,
+      "crc32": "8f551de6"
+    },
+    {
+      "name": "HTML5/img/FSC16.svg",
+      "compressed_bytes": 1249,
+      "uncompressed_bytes": 2470,
+      "header_offset": 35177456,
+      "compression_type": 8,
+      "crc32": "48e8def4"
+    },
+    {
+      "name": "HTML5/img/FSC17.svg",
+      "compressed_bytes": 892,
+      "uncompressed_bytes": 1966,
+      "header_offset": 35178907,
+      "compression_type": 8,
+      "crc32": "7fac7a03"
+    },
+    {
+      "name": "HTML5/img/FSC18.svg",
+      "compressed_bytes": 2089,
+      "uncompressed_bytes": 7431,
+      "header_offset": 35180001,
+      "compression_type": 8,
+      "crc32": "a7075abf"
+    },
+    {
+      "name": "HTML5/img/FSC19.svg",
+      "compressed_bytes": 804,
+      "uncompressed_bytes": 1664,
+      "header_offset": 35182292,
+      "compression_type": 8,
+      "crc32": "dd252c4f"
+    },
+    {
+      "name": "HTML5/img/FSC20.svg",
+      "compressed_bytes": 2683,
+      "uncompressed_bytes": 5899,
+      "header_offset": 35183298,
+      "compression_type": 8,
+      "crc32": "8c25d497"
+    },
+    {
+      "name": "HTML5/img/FSC22.svg",
+      "compressed_bytes": 6104,
+      "uncompressed_bytes": 21556,
+      "header_offset": 35186183,
+      "compression_type": 8,
+      "crc32": "4b062076"
+    },
+    {
+      "name": "HTML5/img/FSC23.svg",
+      "compressed_bytes": 1701,
+      "uncompressed_bytes": 4372,
+      "header_offset": 35192489,
+      "compression_type": 8,
+      "crc32": "c9acedec"
+    },
+    {
+      "name": "HTML5/img/FSC24.svg",
+      "compressed_bytes": 1823,
+      "uncompressed_bytes": 4201,
+      "header_offset": 35194392,
+      "compression_type": 8,
+      "crc32": "e0466754"
+    },
+    {
+      "name": "HTML5/img/FSC25.svg",
+      "compressed_bytes": 863,
+      "uncompressed_bytes": 1873,
+      "header_offset": 35196417,
+      "compression_type": 8,
+      "crc32": "34ecd01c"
+    },
+    {
+      "name": "HTML5/img/FSC26.svg",
+      "compressed_bytes": 846,
+      "uncompressed_bytes": 1691,
+      "header_offset": 35197482,
+      "compression_type": 8,
+      "crc32": "37f5871c"
+    },
+    {
+      "name": "HTML5/img/FSC28.svg",
+      "compressed_bytes": 995,
+      "uncompressed_bytes": 2159,
+      "header_offset": 35198530,
+      "compression_type": 8,
+      "crc32": "29a3b762"
+    },
+    {
+      "name": "HTML5/img/FSC29.svg",
+      "compressed_bytes": 925,
+      "uncompressed_bytes": 1781,
+      "header_offset": 35199727,
+      "compression_type": 8,
+      "crc32": "2854b838"
+    },
+    {
+      "name": "HTML5/img/FSC30.svg",
+      "compressed_bytes": 3671,
+      "uncompressed_bytes": 11602,
+      "header_offset": 35200854,
+      "compression_type": 8,
+      "crc32": "15924bf1"
+    },
+    {
+      "name": "HTML5/img/FSC31.svg",
+      "compressed_bytes": 2462,
+      "uncompressed_bytes": 5706,
+      "header_offset": 35204727,
+      "compression_type": 8,
+      "crc32": "95d14566"
+    },
+    {
+      "name": "HTML5/img/FSC32.svg",
+      "compressed_bytes": 1410,
+      "uncompressed_bytes": 2919,
+      "header_offset": 35207391,
+      "compression_type": 8,
+      "crc32": "8dfc142c"
+    },
+    {
+      "name": "HTML5/img/FSC34.svg",
+      "compressed_bytes": 724,
+      "uncompressed_bytes": 1295,
+      "header_offset": 35209003,
+      "compression_type": 8,
+      "crc32": "618b2139"
+    },
+    {
+      "name": "HTML5/img/FSC35.svg",
+      "compressed_bytes": 793,
+      "uncompressed_bytes": 1551,
+      "header_offset": 35209929,
+      "compression_type": 8,
+      "crc32": "79ba62ec"
+    },
+    {
+      "name": "HTML5/img/FSC36.svg",
+      "compressed_bytes": 1662,
+      "uncompressed_bytes": 4423,
+      "header_offset": 35210924,
+      "compression_type": 8,
+      "crc32": "1dda066b"
+    },
+    {
+      "name": "HTML5/img/FSC37.svg",
+      "compressed_bytes": 1028,
+      "uncompressed_bytes": 2179,
+      "header_offset": 35212788,
+      "compression_type": 8,
+      "crc32": "ad5c51f5"
+    },
+    {
+      "name": "HTML5/img/FSC38.svg",
+      "compressed_bytes": 1128,
+      "uncompressed_bytes": 3304,
+      "header_offset": 35214018,
+      "compression_type": 8,
+      "crc32": "a99a99f6"
+    },
+    {
+      "name": "HTML5/img/FSC39.svg",
+      "compressed_bytes": 929,
+      "uncompressed_bytes": 1770,
+      "header_offset": 35215348,
+      "compression_type": 8,
+      "crc32": "fa5e8ba2"
+    },
+    {
+      "name": "HTML5/img/FSC40.svg",
+      "compressed_bytes": 7989,
+      "uncompressed_bytes": 18987,
+      "header_offset": 35216479,
+      "compression_type": 8,
+      "crc32": "2e14ff9b"
+    },
+    {
+      "name": "HTML5/img/FSC41.svg",
+      "compressed_bytes": 1116,
+      "uncompressed_bytes": 2298,
+      "header_offset": 35224670,
+      "compression_type": 8,
+      "crc32": "63fda39e"
+    },
+    {
+      "name": "HTML5/img/FSC42.svg",
+      "compressed_bytes": 1316,
+      "uncompressed_bytes": 2724,
+      "header_offset": 35225988,
+      "compression_type": 8,
+      "crc32": "4bb5b88d"
+    },
+    {
+      "name": "HTML5/img/FSC43.svg",
+      "compressed_bytes": 1616,
+      "uncompressed_bytes": 3504,
+      "header_offset": 35227506,
+      "compression_type": 8,
+      "crc32": "0aa32757"
+    },
+    {
+      "name": "HTML5/img/FSC44.svg",
+      "compressed_bytes": 1664,
+      "uncompressed_bytes": 3797,
+      "header_offset": 35229324,
+      "compression_type": 8,
+      "crc32": "5c1eae54"
+    },
+    {
+      "name": "HTML5/img/FSC45.svg",
+      "compressed_bytes": 624,
+      "uncompressed_bytes": 1143,
+      "header_offset": 35231190,
+      "compression_type": 8,
+      "crc32": "b623fc30"
+    },
+    {
+      "name": "HTML5/img/FSC46.svg",
+      "compressed_bytes": 1289,
+      "uncompressed_bytes": 8933,
+      "header_offset": 35232016,
+      "compression_type": 8,
+      "crc32": "ab5dfd36"
+    },
+    {
+      "name": "HTML5/img/FSC47.svg",
+      "compressed_bytes": 579,
+      "uncompressed_bytes": 1105,
+      "header_offset": 35233507,
+      "compression_type": 8,
+      "crc32": "a1d6c8a1"
+    },
+    {
+      "name": "HTML5/img/FSC48.svg",
+      "compressed_bytes": 853,
+      "uncompressed_bytes": 1822,
+      "header_offset": 35234288,
+      "compression_type": 8,
+      "crc32": "d58d1654"
+    },
+    {
+      "name": "HTML5/img/FSC49.svg",
+      "compressed_bytes": 843,
+      "uncompressed_bytes": 1996,
+      "header_offset": 35235343,
+      "compression_type": 8,
+      "crc32": "b81b372b"
+    },
+    {
+      "name": "HTML5/img/FSC51.svg",
+      "compressed_bytes": 871,
+      "uncompressed_bytes": 1607,
+      "header_offset": 35236388,
+      "compression_type": 8,
+      "crc32": "ce98572b"
+    },
+    {
+      "name": "HTML5/img/FSC52.svg",
+      "compressed_bytes": 3063,
+      "uncompressed_bytes": 7350,
+      "header_offset": 35237461,
+      "compression_type": 8,
+      "crc32": "c43f6da1"
+    },
+    {
+      "name": "HTML5/img/FSC53.svg",
+      "compressed_bytes": 1965,
+      "uncompressed_bytes": 4417,
+      "header_offset": 35240726,
+      "compression_type": 8,
+      "crc32": "ad35dfdb"
+    },
+    {
+      "name": "HTML5/img/FSC54.svg",
+      "compressed_bytes": 736,
+      "uncompressed_bytes": 2145,
+      "header_offset": 35242893,
+      "compression_type": 8,
+      "crc32": "f275610a"
+    },
+    {
+      "name": "HTML5/img/FSC55.svg",
+      "compressed_bytes": 1415,
+      "uncompressed_bytes": 2860,
+      "header_offset": 35243831,
+      "compression_type": 8,
+      "crc32": "f7a38b0d"
+    },
+    {
+      "name": "HTML5/img/FSC56.svg",
+      "compressed_bytes": 1559,
+      "uncompressed_bytes": 4391,
+      "header_offset": 35245448,
+      "compression_type": 8,
+      "crc32": "46219cc2"
+    },
+    {
+      "name": "HTML5/img/FSC58.svg",
+      "compressed_bytes": 867,
+      "uncompressed_bytes": 1936,
+      "header_offset": 35247209,
+      "compression_type": 8,
+      "crc32": "2f15e6e4"
+    },
+    {
+      "name": "HTML5/img/FSC59.svg",
+      "compressed_bytes": 1364,
+      "uncompressed_bytes": 2865,
+      "header_offset": 35248278,
+      "compression_type": 8,
+      "crc32": "dcd424bd"
+    },
+    {
+      "name": "HTML5/img/FSC60.svg",
+      "compressed_bytes": 2134,
+      "uncompressed_bytes": 4743,
+      "header_offset": 35249844,
+      "compression_type": 8,
+      "crc32": "e5282892"
+    },
+    {
+      "name": "HTML5/img/FSC61.svg",
+      "compressed_bytes": 770,
+      "uncompressed_bytes": 1384,
+      "header_offset": 35252180,
+      "compression_type": 8,
+      "crc32": "1ec894f0"
+    },
+    {
+      "name": "HTML5/img/FSC62.svg",
+      "compressed_bytes": 1718,
+      "uncompressed_bytes": 3900,
+      "header_offset": 35253152,
+      "compression_type": 8,
+      "crc32": "50bb59a7"
+    },
+    {
+      "name": "HTML5/img/FSC63.svg",
+      "compressed_bytes": 803,
+      "uncompressed_bytes": 1570,
+      "header_offset": 35255072,
+      "compression_type": 8,
+      "crc32": "a84b947b"
+    },
+    {
+      "name": "HTML5/img/FSC65.svg",
+      "compressed_bytes": 622,
+      "uncompressed_bytes": 1141,
+      "header_offset": 35256077,
+      "compression_type": 8,
+      "crc32": "42677341"
+    },
+    {
+      "name": "HTML5/img/FSC66.svg",
+      "compressed_bytes": 1683,
+      "uncompressed_bytes": 3529,
+      "header_offset": 35256901,
+      "compression_type": 8,
+      "crc32": "7f5a7227"
+    },
+    {
+      "name": "HTML5/img/FSC67.svg",
+      "compressed_bytes": 754,
+      "uncompressed_bytes": 1485,
+      "header_offset": 35258786,
+      "compression_type": 8,
+      "crc32": "6684f81a"
+    },
+    {
+      "name": "HTML5/img/FSC68.svg",
+      "compressed_bytes": 929,
+      "uncompressed_bytes": 1776,
+      "header_offset": 35259742,
+      "compression_type": 8,
+      "crc32": "a0415e2d"
+    },
+    {
+      "name": "HTML5/img/FSC69.svg",
+      "compressed_bytes": 1388,
+      "uncompressed_bytes": 3009,
+      "header_offset": 35260873,
+      "compression_type": 8,
+      "crc32": "a8cc1620"
+    },
+    {
+      "name": "HTML5/img/FSC70.svg",
+      "compressed_bytes": 1061,
+      "uncompressed_bytes": 2120,
+      "header_offset": 35262463,
+      "compression_type": 8,
+      "crc32": "010ce853"
+    },
+    {
+      "name": "HTML5/img/FSC71.svg",
+      "compressed_bytes": 1830,
+      "uncompressed_bytes": 4035,
+      "header_offset": 35263726,
+      "compression_type": 8,
+      "crc32": "056e2cd8"
+    },
+    {
+      "name": "HTML5/img/FSC72.svg",
+      "compressed_bytes": 672,
+      "uncompressed_bytes": 1137,
+      "header_offset": 35265758,
+      "compression_type": 8,
+      "crc32": "0fedf2dc"
+    },
+    {
+      "name": "HTML5/img/FSC73.svg",
+      "compressed_bytes": 1161,
+      "uncompressed_bytes": 2279,
+      "header_offset": 35266632,
+      "compression_type": 8,
+      "crc32": "d3181d10"
+    },
+    {
+      "name": "HTML5/img/FSC74.svg",
+      "compressed_bytes": 852,
+      "uncompressed_bytes": 1989,
+      "header_offset": 35267995,
+      "compression_type": 8,
+      "crc32": "a547f255"
+    },
+    {
+      "name": "HTML5/img/FSC75.svg",
+      "compressed_bytes": 830,
+      "uncompressed_bytes": 1522,
+      "header_offset": 35269049,
+      "compression_type": 8,
+      "crc32": "99c3e8b9"
+    },
+    {
+      "name": "HTML5/img/FSC76.svg",
+      "compressed_bytes": 1143,
+      "uncompressed_bytes": 2165,
+      "header_offset": 35270081,
+      "compression_type": 8,
+      "crc32": "40a13917"
+    },
+    {
+      "name": "HTML5/img/FSC77.svg",
+      "compressed_bytes": 2460,
+      "uncompressed_bytes": 5881,
+      "header_offset": 35271426,
+      "compression_type": 8,
+      "crc32": "31d8f727"
+    },
+    {
+      "name": "HTML5/img/FSC78.svg",
+      "compressed_bytes": 544,
+      "uncompressed_bytes": 1517,
+      "header_offset": 35274088,
+      "compression_type": 8,
+      "crc32": "8a5a82dc"
+    },
+    {
+      "name": "HTML5/img/FSC79.svg",
+      "compressed_bytes": 1228,
+      "uncompressed_bytes": 2420,
+      "header_offset": 35274834,
+      "compression_type": 8,
+      "crc32": "f5c21f6c"
+    },
+    {
+      "name": "HTML5/img/FSC80.svg",
+      "compressed_bytes": 1075,
+      "uncompressed_bytes": 2094,
+      "header_offset": 35276264,
+      "compression_type": 8,
+      "crc32": "82c07fd0"
+    },
+    {
+      "name": "HTML5/img/FSC81.svg",
+      "compressed_bytes": 946,
+      "uncompressed_bytes": 1937,
+      "header_offset": 35277541,
+      "compression_type": 8,
+      "crc32": "ddd03d00"
+    },
+    {
+      "name": "HTML5/img/FSC83.svg",
+      "compressed_bytes": 529,
+      "uncompressed_bytes": 862,
+      "header_offset": 35278689,
+      "compression_type": 8,
+      "crc32": "5ffa16b9"
+    },
+    {
+      "name": "HTML5/img/FSC84.svg",
+      "compressed_bytes": 1186,
+      "uncompressed_bytes": 2408,
+      "header_offset": 35279420,
+      "compression_type": 8,
+      "crc32": "9538c5ce"
+    },
+    {
+      "name": "HTML5/img/FSC85.svg",
+      "compressed_bytes": 1212,
+      "uncompressed_bytes": 2330,
+      "header_offset": 35280808,
+      "compression_type": 8,
+      "crc32": "eb5c8c25"
+    },
+    {
+      "name": "HTML5/img/FSC87.svg",
+      "compressed_bytes": 979,
+      "uncompressed_bytes": 1820,
+      "header_offset": 35282222,
+      "compression_type": 8,
+      "crc32": "f3c6253c"
+    },
+    {
+      "name": "HTML5/img/FSC88.svg",
+      "compressed_bytes": 909,
+      "uncompressed_bytes": 1755,
+      "header_offset": 35283403,
+      "compression_type": 8,
+      "crc32": "52bc0660"
+    },
+    {
+      "name": "HTML5/img/FSC89.svg",
+      "compressed_bytes": 1552,
+      "uncompressed_bytes": 3165,
+      "header_offset": 35284514,
+      "compression_type": 8,
+      "crc32": "73cc942d"
+    },
+    {
+      "name": "HTML5/img/FSC91.svg",
+      "compressed_bytes": 934,
+      "uncompressed_bytes": 1819,
+      "header_offset": 35286268,
+      "compression_type": 8,
+      "crc32": "1f1d068e"
+    },
+    {
+      "name": "HTML5/img/FSC93.svg",
+      "compressed_bytes": 7100,
+      "uncompressed_bytes": 20009,
+      "header_offset": 35287404,
+      "compression_type": 8,
+      "crc32": "c237c8ce"
+    },
+    {
+      "name": "HTML5/img/FSC94.svg",
+      "compressed_bytes": 591,
+      "uncompressed_bytes": 1040,
+      "header_offset": 35294706,
+      "compression_type": 8,
+      "crc32": "2d24ee2c"
+    },
+    {
+      "name": "HTML5/img/FSC95.svg",
+      "compressed_bytes": 682,
+      "uncompressed_bytes": 1200,
+      "header_offset": 35295499,
+      "compression_type": 8,
+      "crc32": "942df3d5"
+    },
+    {
+      "name": "HTML5/img/FSC96.svg",
+      "compressed_bytes": 869,
+      "uncompressed_bytes": 2252,
+      "header_offset": 35296383,
+      "compression_type": 8,
+      "crc32": "2a5df69d"
+    },
+    {
+      "name": "HTML5/img/FSC99.svg",
+      "compressed_bytes": 927,
+      "uncompressed_bytes": 1920,
+      "header_offset": 35297454,
+      "compression_type": 8,
+      "crc32": "441e69f2"
+    },
+    {
+      "name": "HTML5/img/imd.png",
+      "compressed_bytes": 84786,
+      "uncompressed_bytes": 84866,
+      "header_offset": 35298583,
+      "compression_type": 8,
+      "crc32": "fa109078"
+    },
+    {
+      "name": "HTML5/img/moe.png",
+      "compressed_bytes": 48534,
+      "uncompressed_bytes": 48727,
+      "header_offset": 35383569,
+      "compression_type": 8,
+      "crc32": "d3526791"
+    },
+    {
+      "name": "HTML5/img/moeda.png",
+      "compressed_bytes": 53928,
+      "uncompressed_bytes": 54075,
+      "header_offset": 35432303,
+      "compression_type": 8,
+      "crc32": "627f2821"
+    },
+    {
+      "name": "HTML5/img/moedf.png",
+      "compressed_bytes": 45008,
+      "uncompressed_bytes": 45290,
+      "header_offset": 35486433,
+      "compression_type": 8,
+      "crc32": "b3d2e988"
+    },
+    {
+      "name": "HTML5/img/moedm.png",
+      "compressed_bytes": 44525,
+      "uncompressed_bytes": 44672,
+      "header_offset": 35531643,
+      "compression_type": 8,
+      "crc32": "a8c27e31"
+    },
+    {
+      "name": "HTML5/img/moedn.png",
+      "compressed_bytes": 51021,
+      "uncompressed_bytes": 51127,
+      "header_offset": 35576370,
+      "compression_type": 8,
+      "crc32": "364f998d"
+    },
+    {
+      "name": "HTML5/img/moeds.png",
+      "compressed_bytes": 10718,
+      "uncompressed_bytes": 10718,
+      "header_offset": 35627593,
+      "compression_type": 0,
+      "crc32": "114f19bc"
+    },
+    {
+      "name": "HTML5/img/moe__all.png",
+      "compressed_bytes": 11175,
+      "uncompressed_bytes": 11175,
+      "header_offset": 35638513,
+      "compression_type": 0,
+      "crc32": "4d5949d1"
+    },
+    {
+      "name": "HTML5/img/moe__default.png",
+      "compressed_bytes": 12939,
+      "uncompressed_bytes": 26243,
+      "header_offset": 35649893,
+      "compression_type": 8,
+      "crc32": "03ceb7f2"
+    },
+    {
+      "name": "HTML5/js/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 35663041,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "HTML5/js/bootstrap.min.js",
+      "compressed_bytes": 11613,
+      "uncompressed_bytes": 44735,
+      "header_offset": 35663233,
+      "compression_type": 8,
+      "crc32": "0bf3ef78"
+    },
+    {
+      "name": "HTML5/js/Chart.min.js",
+      "compressed_bytes": 40356,
+      "uncompressed_bytes": 148696,
+      "header_offset": 35675054,
+      "compression_type": 8,
+      "crc32": "b274e7b3"
+    },
+    {
+      "name": "HTML5/js/jquery-3.1.1.min.js",
+      "compressed_bytes": 29905,
+      "uncompressed_bytes": 86709,
+      "header_offset": 35715614,
+      "compression_type": 8,
+      "crc32": "efe4997e"
+    },
+    {
+      "name": "HTML5/js/tether.min.js",
+      "compressed_bytes": 7378,
+      "uncompressed_bytes": 24632,
+      "header_offset": 35745730,
+      "compression_type": 8,
+      "crc32": "d7ecc147"
+    },
+    {
+      "name": "IMD.BMP",
+      "compressed_bytes": 229576,
+      "uncompressed_bytes": 359696,
+      "header_offset": 35753313,
+      "compression_type": 8,
+      "crc32": "3f73c766"
+    },
+    {
+      "name": "IMD.DEF",
+      "compressed_bytes": 6517,
+      "uncompressed_bytes": 48087,
+      "header_offset": 35983079,
+      "compression_type": 8,
+      "crc32": "0451aa28"
+    },
+    {
+      "name": "IMD.EXE",
+      "compressed_bytes": 2121716,
+      "uncompressed_bytes": 6741368,
+      "header_offset": 35989786,
+      "compression_type": 8,
+      "crc32": "6e8568e0"
+    },
+    {
+      "name": "IMD.LST",
+      "compressed_bytes": 285,
+      "uncompressed_bytes": 853,
+      "header_offset": 38111692,
+      "compression_type": 8,
+      "crc32": "1d53667c"
+    },
+    {
+      "name": "IMD2.EXE",
+      "compressed_bytes": 126770,
+      "uncompressed_bytes": 250744,
+      "header_offset": 38112167,
+      "compression_type": 8,
+      "crc32": "c831c631"
+    },
+    {
+      "name": "IMD2_DPI.DLL",
+      "compressed_bytes": 75359,
+      "uncompressed_bytes": 151736,
+      "header_offset": 38239128,
+      "compression_type": 8,
+      "crc32": "04dd89eb"
+    },
+    {
+      "name": "IMD2_HTML.DLL",
+      "compressed_bytes": 94749,
+      "uncompressed_bytes": 194936,
+      "header_offset": 38314682,
+      "compression_type": 8,
+      "crc32": "469496bd"
+    },
+    {
+      "name": "IMD64.EXE",
+      "compressed_bytes": 2676299,
+      "uncompressed_bytes": 7750008,
+      "header_offset": 38409627,
+      "compression_type": 8,
+      "crc32": "ed6f65a1"
+    },
+    {
+      "name": "IMDSETUP.EXE",
+      "compressed_bytes": 1517049,
+      "uncompressed_bytes": 3412856,
+      "header_offset": 41086118,
+      "compression_type": 8,
+      "crc32": "c01b5be9"
+    },
+    {
+      "name": "IMDSETUP64.EXE",
+      "compressed_bytes": 2037283,
+      "uncompressed_bytes": 4135288,
+      "header_offset": 42603362,
+      "compression_type": 8,
+      "crc32": "2a4eb178"
+    },
+    {
+      "name": "IMD_1OF1.TXT",
+      "compressed_bytes": 67,
+      "uncompressed_bytes": 67,
+      "header_offset": 44640842,
+      "compression_type": 0,
+      "crc32": "908b4a01"
+    },
+    {
+      "name": "MANUAL.PDF",
+      "compressed_bytes": 2190439,
+      "uncompressed_bytes": 2775675,
+      "header_offset": 44641104,
+      "compression_type": 8,
+      "crc32": "a1389356"
+    },
+    {
+      "name": "MSVCP140.DLL",
+      "compressed_bytes": 199493,
+      "uncompressed_bytes": 633152,
+      "header_offset": 46831736,
+      "compression_type": 8,
+      "crc32": "58de3dc7"
+    },
+    {
+      "name": "MSVCR110.DLL",
+      "compressed_bytes": 403977,
+      "uncompressed_bytes": 849360,
+      "header_offset": 47031424,
+      "compression_type": 8,
+      "crc32": "387f1523"
+    },
+    {
+      "name": "MSVCR71.DLL",
+      "compressed_bytes": 181145,
+      "uncompressed_bytes": 348160,
+      "header_offset": 47435596,
+      "compression_type": 8,
+      "crc32": "35563170"
+    },
+    {
+      "name": "POPUP.PDF",
+      "compressed_bytes": 237100,
+      "uncompressed_bytes": 331031,
+      "header_offset": 47616935,
+      "compression_type": 8,
+      "crc32": "6e9cae54"
+    },
+    {
+      "name": "PREVIOUS/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 47854227,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "PREVIOUS/Alter.exe",
+      "compressed_bytes": 81323,
+      "uncompressed_bytes": 150904,
+      "header_offset": 47854419,
+      "compression_type": 8,
+      "crc32": "6372266d"
+    },
+    {
+      "name": "PREVIOUS/AUTORUN.EXE",
+      "compressed_bytes": 163841,
+      "uncompressed_bytes": 497528,
+      "header_offset": 47935943,
+      "compression_type": 8,
+      "crc32": "f5334ba6"
+    },
+    {
+      "name": "PREVIOUS/Decomp.exe",
+      "compressed_bytes": 40604,
+      "uncompressed_bytes": 93048,
+      "header_offset": 48099987,
+      "compression_type": 8,
+      "crc32": "32e6527b"
+    },
+    {
+      "name": "PREVIOUS/DELTA.EXE",
+      "compressed_bytes": 3312019,
+      "uncompressed_bytes": 10013560,
+      "header_offset": 48140793,
+      "compression_type": 8,
+      "crc32": "ef89094f"
+    },
+    {
+      "name": "PREVIOUS/Filter.exe",
+      "compressed_bytes": 80343,
+      "uncompressed_bytes": 147832,
+      "header_offset": 51453013,
+      "compression_type": 8,
+      "crc32": "ce9d5984"
+    },
+    {
+      "name": "PREVIOUS/IMD2_HTML.DLL",
+      "compressed_bytes": 95196,
+      "uncompressed_bytes": 195960,
+      "header_offset": 51533558,
+      "compression_type": 8,
+      "crc32": "e1cdb4c7"
+    },
+    {
+      "name": "PREVIOUS/IMD64.EXE",
+      "compressed_bytes": 2676293,
+      "uncompressed_bytes": 7750008,
+      "header_offset": 51628959,
+      "compression_type": 8,
+      "crc32": "ad614b04"
+    },
+    {
+      "name": "PREVIOUS/IMDSETUP.EXE",
+      "compressed_bytes": 163842,
+      "uncompressed_bytes": 497528,
+      "header_offset": 54305453,
+      "compression_type": 8,
+      "crc32": "5b46f83f"
+    },
+    {
+      "name": "PREVIOUS/SETUP.EXE",
+      "compressed_bytes": 163846,
+      "uncompressed_bytes": 497528,
+      "header_offset": 54469499,
+      "compression_type": 8,
+      "crc32": "3dc5e89b"
+    },
+    {
+      "name": "PRINTING.AVI",
+      "compressed_bytes": 674,
+      "uncompressed_bytes": 3584,
+      "header_offset": 54633546,
+      "compression_type": 8,
+      "crc32": "b4e1a6fe"
+    },
+    {
+      "name": "P_CAGE.TAB",
+      "compressed_bytes": 138312590,
+      "uncompressed_bytes": 218685568,
+      "header_offset": 54634415,
+      "compression_type": 8,
+      "crc32": "0c46c4b9"
+    },
+    {
+      "name": "P_CHARACTERISTICS_PICK.TAB",
+      "compressed_bytes": 278107461,
+      "uncompressed_bytes": 556707952,
+      "header_offset": 192947198,
+      "compression_type": 8,
+      "crc32": "4065ee77"
+    },
+    {
+      "name": "P_FLIS_NSN.TAB",
+      "compressed_bytes": 100768004,
+      "uncompressed_bytes": 194494576,
+      "header_offset": 471054868,
+      "compression_type": 8,
+      "crc32": "ecc64b82"
+    },
+    {
+      "name": "P_H2_PICK.TAB",
+      "compressed_bytes": 19765,
+      "uncompressed_bytes": 131152,
+      "header_offset": 571823069,
+      "compression_type": 8,
+      "crc32": "b8b5cedd"
+    },
+    {
+      "name": "P_H3_PICK.TAB",
+      "compressed_bytes": 82958,
+      "uncompressed_bytes": 327776,
+      "header_offset": 571843030,
+      "compression_type": 8,
+      "crc32": "b23f865b"
+    },
+    {
+      "name": "P_H6_PICK.TAB",
+      "compressed_bytes": 1296384,
+      "uncompressed_bytes": 2326608,
+      "header_offset": 571926184,
+      "compression_type": 8,
+      "crc32": "beb91084"
+    },
+    {
+      "name": "P_HELP.TAB",
+      "compressed_bytes": 1180460,
+      "uncompressed_bytes": 3039296,
+      "header_offset": 573222764,
+      "compression_type": 8,
+      "crc32": "67bf3ed4"
+    },
+    {
+      "name": "P_HISTORY_PICK.TAB",
+      "compressed_bytes": 47523549,
+      "uncompressed_bytes": 116424832,
+      "header_offset": 574403417,
+      "compression_type": 8,
+      "crc32": "a2d543e4"
+    },
+    {
+      "name": "P_PART_PICK.TAB",
+      "compressed_bytes": 303729892,
+      "uncompressed_bytes": 501260400,
+      "header_offset": 621927167,
+      "compression_type": 8,
+      "crc32": "7cfc4223"
+    },
+    {
+      "name": "QUICKSTARTGUIDE.PDF",
+      "compressed_bytes": 456255,
+      "uncompressed_bytes": 617615,
+      "header_offset": 925657257,
+      "compression_type": 8,
+      "crc32": "ba2088ae"
+    },
+    {
+      "name": "QUICKSTARTGUIDE2.PDF",
+      "compressed_bytes": 748991,
+      "uncompressed_bytes": 967671,
+      "header_offset": 926113714,
+      "compression_type": 8,
+      "crc32": "6f2b6a89"
+    },
+    {
+      "name": "RELNOTES.TXT",
+      "compressed_bytes": 1965,
+      "uncompressed_bytes": 12401,
+      "header_offset": 926862908,
+      "compression_type": 8,
+      "crc32": "3c26eef7"
+    },
+    {
+      "name": "RUNNING.AVI",
+      "compressed_bytes": 2080,
+      "uncompressed_bytes": 22017,
+      "header_offset": 926865068,
+      "compression_type": 8,
+      "crc32": "db7ea70d"
+    },
+    {
+      "name": "SETUP.EXE",
+      "compressed_bytes": 1517054,
+      "uncompressed_bytes": 3412856,
+      "header_offset": 926867342,
+      "compression_type": 8,
+      "crc32": "95d56340"
+    },
+    {
+      "name": "TOOLS/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928384588,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/JAVA/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928384777,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/JAVA/com/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928384971,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/JAVA/com/VitalAxiom/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928385169,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/JAVA/com/VitalAxiom/IMD/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928385378,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/JAVA/com/VitalAxiom/IMD/com_VitalAxiom_IMD_imd.h",
+      "compressed_bytes": 325,
+      "uncompressed_bytes": 975,
+      "header_offset": 928385591,
+      "compression_type": 8,
+      "crc32": "ec8d0ddd"
+    },
+    {
+      "name": "TOOLS/JAVA/com/VitalAxiom/IMD/IMD.CLASS",
+      "compressed_bytes": 672,
+      "uncompressed_bytes": 1190,
+      "header_offset": 928386153,
+      "compression_type": 8,
+      "crc32": "b1cbb043"
+    },
+    {
+      "name": "TOOLS/JAVA/com/VitalAxiom/IMD/IMD.dll",
+      "compressed_bytes": 40324,
+      "uncompressed_bytes": 95920,
+      "header_offset": 928387047,
+      "compression_type": 8,
+      "crc32": "8f810140"
+    },
+    {
+      "name": "TOOLS/JAVA/com/VitalAxiom/IMD/IMD.H",
+      "compressed_bytes": 324,
+      "uncompressed_bytes": 966,
+      "header_offset": 928427591,
+      "compression_type": 8,
+      "crc32": "e62b4682"
+    },
+    {
+      "name": "TOOLS/JAVA/com/VitalAxiom/IMD/IMD.JAVA",
+      "compressed_bytes": 471,
+      "uncompressed_bytes": 1097,
+      "header_offset": 928428133,
+      "compression_type": 8,
+      "crc32": "ad231428"
+    },
+    {
+      "name": "TOOLS/MS12/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928428825,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/MS12/Decomp.h",
+      "compressed_bytes": 1021,
+      "uncompressed_bytes": 5165,
+      "header_offset": 928429019,
+      "compression_type": 8,
+      "crc32": "1dfc07c0"
+    },
+    {
+      "name": "TOOLS/MS12/Decomp64.lib",
+      "compressed_bytes": 29095,
+      "uncompressed_bytes": 106568,
+      "header_offset": 928430242,
+      "compression_type": 8,
+      "crc32": "9043dfa8"
+    },
+    {
+      "name": "TOOLS/MS12/DecompDl64.dll",
+      "compressed_bytes": 193991,
+      "uncompressed_bytes": 697520,
+      "header_offset": 928459543,
+      "compression_type": 8,
+      "crc32": "4cf59a3c"
+    },
+    {
+      "name": "TOOLS/MS12/decompvb64.dll",
+      "compressed_bytes": 61844,
+      "uncompressed_bytes": 117936,
+      "header_offset": 928653742,
+      "compression_type": 8,
+      "crc32": "f9d741a0"
+    },
+    {
+      "name": "TOOLS/MS12/Sample.c",
+      "compressed_bytes": 590,
+      "uncompressed_bytes": 1306,
+      "header_offset": 928715794,
+      "compression_type": 8,
+      "crc32": "a3180611"
+    },
+    {
+      "name": "TOOLS/MS12/Sample.vb",
+      "compressed_bytes": 669,
+      "uncompressed_bytes": 2052,
+      "header_offset": 928716586,
+      "compression_type": 8,
+      "crc32": "c5ae7ca8"
+    },
+    {
+      "name": "TOOLS/MS12/sampleDLL64.c",
+      "compressed_bytes": 769,
+      "uncompressed_bytes": 1991,
+      "header_offset": 928717458,
+      "compression_type": 8,
+      "crc32": "f5c517b0"
+    },
+    {
+      "name": "TOOLS/MS6/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928718434,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/MS6/Decomp.h",
+      "compressed_bytes": 1021,
+      "uncompressed_bytes": 5165,
+      "header_offset": 928718627,
+      "compression_type": 8,
+      "crc32": "1dfc07c0"
+    },
+    {
+      "name": "TOOLS/MS6/Decomp32.lib",
+      "compressed_bytes": 26427,
+      "uncompressed_bytes": 78762,
+      "header_offset": 928719849,
+      "compression_type": 8,
+      "crc32": "6446867f"
+    },
+    {
+      "name": "TOOLS/MS6/DecompDl.dll",
+      "compressed_bytes": 40015,
+      "uncompressed_bytes": 95920,
+      "header_offset": 928746481,
+      "compression_type": 8,
+      "crc32": "8c2a9d4a"
+    },
+    {
+      "name": "TOOLS/MS6/decompvb.dll",
+      "compressed_bytes": 40011,
+      "uncompressed_bytes": 95920,
+      "header_offset": 928786701,
+      "compression_type": 8,
+      "crc32": "0285ab79"
+    },
+    {
+      "name": "TOOLS/MS6/Sample.c",
+      "compressed_bytes": 590,
+      "uncompressed_bytes": 1306,
+      "header_offset": 928826917,
+      "compression_type": 8,
+      "crc32": "a3180611"
+    },
+    {
+      "name": "TOOLS/MS6/Sample.vb",
+      "compressed_bytes": 667,
+      "uncompressed_bytes": 2040,
+      "header_offset": 928827708,
+      "compression_type": 8,
+      "crc32": "5338eeca"
+    },
+    {
+      "name": "TOOLS/MS6/sampleDLL.c",
+      "compressed_bytes": 767,
+      "uncompressed_bytes": 1989,
+      "header_offset": 928828577,
+      "compression_type": 8,
+      "crc32": "d3a7808b"
+    },
+    {
+      "name": "TOOLS/MS8/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928829548,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/MS8/Decomp.h",
+      "compressed_bytes": 1021,
+      "uncompressed_bytes": 5165,
+      "header_offset": 928829741,
+      "compression_type": 8,
+      "crc32": "1dfc07c0"
+    },
+    {
+      "name": "TOOLS/MS8/Decomp32.lib",
+      "compressed_bytes": 26500,
+      "uncompressed_bytes": 78314,
+      "header_offset": 928830963,
+      "compression_type": 8,
+      "crc32": "aa31020b"
+    },
+    {
+      "name": "TOOLS/MS8/DecompDl.dll",
+      "compressed_bytes": 56326,
+      "uncompressed_bytes": 114864,
+      "header_offset": 928857668,
+      "compression_type": 8,
+      "crc32": "3d4357da"
+    },
+    {
+      "name": "TOOLS/MS8/decompvb.dll",
+      "compressed_bytes": 56369,
+      "uncompressed_bytes": 114864,
+      "header_offset": 928914199,
+      "compression_type": 8,
+      "crc32": "81d26869"
+    },
+    {
+      "name": "TOOLS/MS8/Sample.c",
+      "compressed_bytes": 590,
+      "uncompressed_bytes": 1306,
+      "header_offset": 928970773,
+      "compression_type": 8,
+      "crc32": "a3180611"
+    },
+    {
+      "name": "TOOLS/MS8/Sample.vb",
+      "compressed_bytes": 667,
+      "uncompressed_bytes": 2040,
+      "header_offset": 928971564,
+      "compression_type": 8,
+      "crc32": "768dd8be"
+    },
+    {
+      "name": "TOOLS/MS8/sampleDLL.c",
+      "compressed_bytes": 767,
+      "uncompressed_bytes": 1989,
+      "header_offset": 928972433,
+      "compression_type": 8,
+      "crc32": "d3a7808b"
+    },
+    {
+      "name": "TOOLS/PYTHON/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928973404,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/PYTHON/Sample27.py",
+      "compressed_bytes": 680,
+      "uncompressed_bytes": 1620,
+      "header_offset": 928973600,
+      "compression_type": 8,
+      "crc32": "8d08e6ab"
+    },
+    {
+      "name": "TOOLS/PYTHON/Sample35.py",
+      "compressed_bytes": 706,
+      "uncompressed_bytes": 1692,
+      "header_offset": 928974487,
+      "compression_type": 8,
+      "crc32": "b2f71b9e"
+    },
+    {
+      "name": "TOOLS/README.TXT",
+      "compressed_bytes": 3153,
+      "uncompressed_bytes": 9185,
+      "header_offset": 928975400,
+      "compression_type": 8,
+      "crc32": "bdd4b8b8"
+    },
+    {
+      "name": "TOOLS/SCHEMA.TXT",
+      "compressed_bytes": 2268,
+      "uncompressed_bytes": 7573,
+      "header_offset": 928978752,
+      "compression_type": 8,
+      "crc32": "b67fbbcb"
+    },
+    {
+      "name": "TOOLS/UTILITIES/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "header_offset": 928981219,
+      "compression_type": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "TOOLS/UTILITIES/Alter.exe",
+      "compressed_bytes": 82441,
+      "uncompressed_bytes": 153976,
+      "header_offset": 928981418,
+      "compression_type": 8,
+      "crc32": "e1b25b5c"
+    },
+    {
+      "name": "TOOLS/UTILITIES/Decomp.exe",
+      "compressed_bytes": 40600,
+      "uncompressed_bytes": 93048,
+      "header_offset": 929064067,
+      "compression_type": 8,
+      "crc32": "aa6920d5"
+    },
+    {
+      "name": "TOOLS/UTILITIES/Filter.exe",
+      "compressed_bytes": 81702,
+      "uncompressed_bytes": 151928,
+      "header_offset": 929104876,
+      "compression_type": 8,
+      "crc32": "b9cabca0"
+    },
+    {
+      "name": "TOOLS/UTILITIES/Merge.exe",
+      "compressed_bytes": 38494,
+      "uncompressed_bytes": 71544,
+      "header_offset": 929186787,
+      "compression_type": 8,
+      "crc32": "a34f7459"
+    },
+    {
+      "name": "TOOLS/UTILITIES/OrderBy.exe",
+      "compressed_bytes": 30601,
+      "uncompressed_bytes": 60280,
+      "header_offset": 929225489,
+      "compression_type": 8,
+      "crc32": "7cabc3f0"
+    },
+    {
+      "name": "TUTORIAL.PDF",
+      "compressed_bytes": 8520675,
+      "uncompressed_bytes": 9028458,
+      "header_offset": 929256300,
+      "compression_type": 8,
+      "crc32": "4dc7d730"
+    },
+    {
+      "name": "UPDATEEX.EXE",
+      "compressed_bytes": 501641,
+      "uncompressed_bytes": 2116536,
+      "header_offset": 937777170,
+      "compression_type": 8,
+      "crc32": "b2dcf0ff"
+    },
+    {
+      "name": "V_CAGE_ADDRESS.TAB",
+      "compressed_bytes": 99291299,
+      "uncompressed_bytes": 183934992,
+      "header_offset": 938279006,
+      "compression_type": 8,
+      "crc32": "9c1389b1"
+    },
+    {
+      "name": "V_CHARACTERISTICS.TAB",
+      "compressed_bytes": 155515900,
+      "uncompressed_bytes": 306610192,
+      "header_offset": 1037570506,
+      "compression_type": 8,
+      "crc32": "4095fc3e"
+    },
+    {
+      "name": "V_COLLOQUIAL_NAME.TAB",
+      "compressed_bytes": 305320,
+      "uncompressed_bytes": 524304,
+      "header_offset": 1193086610,
+      "compression_type": 8,
+      "crc32": "8fc41a34"
+    },
+    {
+      "name": "V_FLIS_CANCELLED_NIIN.TAB",
+      "compressed_bytes": 6138290,
+      "uncompressed_bytes": 8593424,
+      "header_offset": 1193392134,
+      "compression_type": 8,
+      "crc32": "338c8a5e"
+    },
+    {
+      "name": "V_FLIS_IDENTIFICATION.TAB",
+      "compressed_bytes": 68975927,
+      "uncompressed_bytes": 166477840,
+      "header_offset": 1199530632,
+      "compression_type": 8,
+      "crc32": "b85148c7"
+    },
+    {
+      "name": "V_FLIS_MANAGEMENT.TAB",
+      "compressed_bytes": 58372909,
+      "uncompressed_bytes": 104226832,
+      "header_offset": 1268506767,
+      "compression_type": 8,
+      "crc32": "c676b0dc"
+    },
+    {
+      "name": "V_FLIS_MANAGEMENT_FUTURE.TAB",
+      "compressed_bytes": 31500,
+      "uncompressed_bytes": 73744,
+      "header_offset": 1326879880,
+      "compression_type": 8,
+      "crc32": "e9067dd6"
+    },
+    {
+      "name": "V_FLIS_PACKAGING_1.TAB",
+      "compressed_bytes": 12299171,
+      "uncompressed_bytes": 22872080,
+      "header_offset": 1326911591,
+      "compression_type": 8,
+      "crc32": "99468aba"
+    },
+    {
+      "name": "V_FLIS_PACKAGING_2.TAB",
+      "compressed_bytes": 15199981,
+      "uncompressed_bytes": 28590096,
+      "header_offset": 1339210967,
+      "compression_type": 8,
+      "crc32": "f468a2e1"
+    },
+    {
+      "name": "V_FLIS_PACKAGING_3.TAB",
+      "compressed_bytes": 6123416,
+      "uncompressed_bytes": 18833424,
+      "header_offset": 1354411153,
+      "compression_type": 8,
+      "crc32": "b1a62113"
+    },
+    {
+      "name": "V_FLIS_PART.TAB",
+      "compressed_bytes": 130989447,
+      "uncompressed_bytes": 187203600,
+      "header_offset": 1360534774,
+      "compression_type": 8,
+      "crc32": "897f6217"
+    },
+    {
+      "name": "V_FLIS_PHRASE.TAB",
+      "compressed_bytes": 1816711,
+      "uncompressed_bytes": 3096592,
+      "header_offset": 1491524419,
+      "compression_type": 8,
+      "crc32": "2d3c3e8d"
+    },
+    {
+      "name": "V_FLIS_STANDARDIZATION.TAB",
+      "compressed_bytes": 17063814,
+      "uncompressed_bytes": 76054544,
+      "header_offset": 1493341330,
+      "compression_type": 8,
+      "crc32": "4f5710a1"
+    },
+    {
+      "name": "V_FREIGHT.TAB",
+      "compressed_bytes": 18330451,
+      "uncompressed_bytes": 42131472,
+      "header_offset": 1510405353,
+      "compression_type": 8,
+      "crc32": "ecfa6e95"
+    },
+    {
+      "name": "V_FSC_IMM.TAB",
+      "compressed_bytes": 71153,
+      "uncompressed_bytes": 196624,
+      "header_offset": 1528736000,
+      "compression_type": 8,
+      "crc32": "10208e9c"
+    },
+    {
+      "name": "V_H2_FSC.TAB",
+      "compressed_bytes": 56592,
+      "uncompressed_bytes": 147472,
+      "header_offset": 1528807349,
+      "compression_type": 8,
+      "crc32": "f69def76"
+    },
+    {
+      "name": "V_H2_FSC_INC.TAB",
+      "compressed_bytes": 409002,
+      "uncompressed_bytes": 663568,
+      "header_offset": 1528864136,
+      "compression_type": 8,
+      "crc32": "82a1d474"
+    },
+    {
+      "name": "V_H2_FSG.TAB",
+      "compressed_bytes": 8843,
+      "uncompressed_bytes": 40976,
+      "header_offset": 1529273337,
+      "compression_type": 8,
+      "crc32": "c5fd0d38"
+    },
+    {
+      "name": "V_H3_AMMUNITION.TAB",
+      "compressed_bytes": 225129,
+      "uncompressed_bytes": 499728,
+      "header_offset": 1529282375,
+      "compression_type": 8,
+      "crc32": "d267776f"
+    },
+    {
+      "name": "V_H6_COLLOQUIAL.TAB",
+      "compressed_bytes": 305321,
+      "uncompressed_bytes": 524304,
+      "header_offset": 1529507706,
+      "compression_type": 8,
+      "crc32": "94829e85"
+    },
+    {
+      "name": "V_H6_MODIFIER.TAB",
+      "compressed_bytes": 89663,
+      "uncompressed_bytes": 221200,
+      "header_offset": 1529813229,
+      "compression_type": 8,
+      "crc32": "deea5680"
+    },
+    {
+      "name": "V_H6_NAME_INC.TAB",
+      "compressed_bytes": 2246113,
+      "uncompressed_bytes": 4874256,
+      "header_offset": 1529903092,
+      "compression_type": 8,
+      "crc32": "a17c25ca"
+    },
+    {
+      "name": "V_ITEM_IDENTIFICATION_HISTORY.TAB",
+      "compressed_bytes": 13210775,
+      "uncompressed_bytes": 45105168,
+      "header_offset": 1532149405,
+      "compression_type": 8,
+      "crc32": "362d74f9"
+    },
+    {
+      "name": "V_MANAGEMENT_HISTORY.TAB",
+      "compressed_bytes": 50004,
+      "uncompressed_bytes": 106512,
+      "header_offset": 1545360396,
+      "compression_type": 8,
+      "crc32": "5d127bff"
+    },
+    {
+      "name": "V_MGMT_AIR_FORCE.TAB",
+      "compressed_bytes": 3198024,
+      "uncompressed_bytes": 7594000,
+      "header_offset": 1545410607,
+      "compression_type": 8,
+      "crc32": "76efbfd7"
+    },
+    {
+      "name": "V_MGMT_ARMY.TAB",
+      "compressed_bytes": 2240121,
+      "uncompressed_bytes": 6610960,
+      "header_offset": 1548608834,
+      "compression_type": 8,
+      "crc32": "eff44a50"
+    },
+    {
+      "name": "V_MGMT_COAST_GUARD.TAB",
+      "compressed_bytes": 278859,
+      "uncompressed_bytes": 835600,
+      "header_offset": 1550849153,
+      "compression_type": 8,
+      "crc32": "52e8ad72"
+    },
+    {
+      "name": "V_MGMT_MARINE_CORPS.TAB",
+      "compressed_bytes": 906349,
+      "uncompressed_bytes": 3186704,
+      "header_offset": 1551128217,
+      "compression_type": 8,
+      "crc32": "1fe88545"
+    },
+    {
+      "name": "V_MGMT_NAVY.TAB",
+      "compressed_bytes": 3243509,
+      "uncompressed_bytes": 10723344,
+      "header_offset": 1552034772,
+      "compression_type": 8,
+      "crc32": "ef06b936"
+    },
+    {
+      "name": "V_MOE_RULE.TAB",
+      "compressed_bytes": 37317269,
+      "uncompressed_bytes": 76316688,
+      "header_offset": 1555278479,
+      "compression_type": 8,
+      "crc32": "9b53a882"
+    },
+    {
+      "name": "V_REFERENCE_NUMBER_HISTORY.TAB",
+      "compressed_bytes": 24706775,
+      "uncompressed_bytes": 35692560,
+      "header_offset": 1592595945,
+      "compression_type": 8,
+      "crc32": "99589288"
+    },
+    {
+      "name": "V_SOCOM_MANAGEMENT.TAB",
+      "compressed_bytes": 57586,
+      "uncompressed_bytes": 147472,
+      "header_offset": 1617302933,
+      "compression_type": 8,
+      "crc32": "cdcf3070"
+    }
+  ],
+  "range_reads": [
+    {
+      "method": "GET",
+      "range": "bytes=1617404286-1617404307",
+      "status": 206,
+      "bytes": 22,
+      "sha256": "d2698bd7f4fa11ed18a687a64971e6e7e64376f4bd37874e1a60cf168aa9594a",
+      "hash_scope": "retrieved range; not retained raw",
+      "content_range": "bytes 1617404286-1617404307/1617404308"
+    },
+    {
+      "method": "GET",
+      "range": "bytes=1617404266-1617404285",
+      "status": 206,
+      "bytes": 20,
+      "sha256": "463bc9e1f52552232a4479b96001468b7de20f36acf033e5a56c7312e4410336",
+      "hash_scope": "retrieved range; not retained raw",
+      "content_range": "bytes 1617404266-1617404285/1617404308"
+    },
+    {
+      "method": "GET",
+      "range": "bytes=1617360724-1617404285",
+      "status": 206,
+      "bytes": 43562,
+      "sha256": "e1f0e38550252342f07a2e34afe946fc52c95b284240203076b9ad733cbdb04b",
+      "hash_scope": "retrieved range; not retained raw",
+      "content_range": "bytes 1617360724-1617404285/1617404308"
+    }
+  ],
+  "scope": "ZIP member metadata only; no member content acquired"
+}

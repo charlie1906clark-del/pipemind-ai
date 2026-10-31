@@ -1,0 +1,53 @@
+{
+  "scope": "Two source-available official catalog prices on HHS order parent FSS, evaluated and rejected as order comparators. These are not purchased order lines.",
+  "observed_date": "2026-10-30",
+  "order_piid": "75N98026F00268",
+  "parent_contract": "36F79720D0041",
+  "observations": [
+    {
+      "id": "va-catalog-9104886",
+      "source_url": "https://www.vendorportal.ecms.va.gov/NAC/MedSurg/Details?lognumber=9104886&type=fss",
+      "source_lines": "223-233,246,255-258,275-285",
+      "catalog_number": "240031300",
+      "description_paraphrase": "32-inch 4K OLED surgical display package",
+      "listed_price_usd": "14744.66",
+      "unit": "EA",
+      "price_basis": "public_catalog_listed_price_not_paid_order_price",
+      "contract": "36F79720D0041",
+      "contractor": "TrillaMed, LLC",
+      "uei": "GW9FLBWB5625",
+      "displayed_effective_date": "2020-01-01",
+      "displayed_expiration_date": "2029-12-31",
+      "contract_date_not_line_price_history": true,
+      "minimum_order": "See Summary of Award",
+      "delivery_terms": "See Summary of Award",
+      "payment_terms": "Net 30 days",
+      "quantity_discount": "None displayed",
+      "warranty": "One year displayed",
+      "rejection_reason": "Surgical display, not a defibrillator; no exact item or quantity match to the sampled NIH order."
+    },
+    {
+      "id": "va-catalog-9104938",
+      "source_url": "https://www.vendorportal.ecms.va.gov/NAC/MedSurg/Details?lognumber=9104938&type=fss",
+      "source_lines": "222-232,245,254-257,274-284",
+      "catalog_number": "P1806UD",
+      "description_paraphrase": "INW server BT21-to-BT22 software upgrade for cardiac laboratory networking; customer supplies hardware or virtual environment",
+      "listed_price_usd": "2012.06",
+      "unit": "EA",
+      "price_basis": "public_catalog_listed_price_not_paid_order_price",
+      "contract": "36F79720D0041",
+      "contractor": "TrillaMed, LLC",
+      "uei": "GW9FLBWB5625",
+      "displayed_effective_date": "2020-01-01",
+      "displayed_expiration_date": "2029-12-31",
+      "contract_date_not_line_price_history": true,
+      "minimum_order": "See Summary of Award",
+      "delivery_terms": "See Summary of Award",
+      "payment_terms": "Net 30 days",
+      "quantity_discount": "None displayed",
+      "warranty": "One year displayed",
+      "rejection_reason": "Software/network upgrade, not a defibrillator; same schedule contract is insufficient item comparability."
+    }
+  ],
+  "source_capture_note": "Selected factual transcription from official web-tool retrieval; original HTML and original-body hashes not archived. No personal/contact/street fields retained. Displayed contract dates do not establish historical line-price validity at order date."
+}

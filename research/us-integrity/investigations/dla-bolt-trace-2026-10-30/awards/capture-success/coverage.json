@@ -1,0 +1,23 @@
+{
+  "requested_keys": [
+    "SPE4A626V138W",
+    "SPE4A626P5931",
+    "SPE4A625V346U",
+    "SPE4A625V252D",
+    "SPE4A625V208Q",
+    "SPE4A625PK654",
+    "SPE4A625V4508"
+  ],
+  "returned_keys": [
+    "SPE4A625PK654",
+    "SPE4A625V208Q",
+    "SPE4A625V252D",
+    "SPE4A625V346U",
+    "SPE4A625V4508",
+    "SPE4A626P5931",
+    "SPE4A626V138W"
+  ],
+  "missing_keys": [],
+  "terminal_page_empty": true,
+  "scope": "Seven exact PIID search keys; not nationwide/recipient history; award summary and latest contract transaction are not invoices or contract line items."
+}

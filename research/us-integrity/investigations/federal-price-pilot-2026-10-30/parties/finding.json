@@ -1,0 +1,55 @@
+{
+  "task_id": "federal-price-pilot-parties-SPE4A626PW775",
+  "agent_id": "transaction_parties",
+  "input_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+  "cohort": [
+    "SPE4A626PW775"
+  ],
+  "source_ids": [
+    "TP-S-ORDER-ROLE",
+    "TP-S-ORDER",
+    "TP-S-AWARD",
+    "TP-S-CAGE-DON",
+    "TP-S-CAGE-SPS",
+    "TP-S-PROFILE-DON",
+    "TP-S-QUERY-SPS",
+    "TP-S-PROFILE-SPS"
+  ],
+  "direct_findings": [
+    "Exact official identifier chain connects named dealer Don to UEI XN9HKU6LUM59 and intended manufacturer SPS CAGE 27624 to UEI E6KFWWNKEQ49.",
+    "USAspending reports Berkshire Hathaway UEI UU26FKF1MML6 as parent of this SPS recipient profile; Don reports itself as parent.",
+    "DLA AVIATION is the public awarding/funding office.",
+    "Original order page 1 prints Joseph Felhauer as CONTRACTING/ORDERING OFFICER dated 2026-07-09; signature execution and price/payment authority are unverified."
+  ],
+  "inferences": [],
+  "contradictions": [],
+  "benign_alternatives_tested": [
+    "SPS comma/no-comma punctuation appears as a profile alternate name tied to the same UEI; no impersonation inference.",
+    "A dealer supplying an approved manufacturer is expressly described in the order; an intermediary alone does not establish wrongdoing.",
+    "Different state registry/profile geography can represent jurisdiction or location scope; no name-only merge."
+  ],
+  "missing_data": [
+    "beneficial_ownership",
+    "actual_payee",
+    "actual_supplier_invoice_party",
+    "actual_manufacturing_site",
+    "actual_delivery_location",
+    "invoice_unit_cost",
+    "credits_rebates_discounts",
+    "shipping_and_insurance_cost",
+    "gross_margin",
+    "kickback_or_personal_benefit",
+    "buyer_employee",
+    "contract_signatory",
+    "price_evaluator",
+    "payment_authorizer",
+    "required_to_test_cost_markup",
+    "state_filing_candidate",
+    "unsupported_conclusions"
+  ],
+  "method": "Bounded original-order → exact CAGE → exact UEI → recipient-profile join; separate reported parents and candidate state filing. Selected captures hashed; original bytes not archived.",
+  "visibility": "public_business_role_evidence_no_novel_allegation",
+  "legal_status_if_case": "not_a_case_or_allegation",
+  "next_step": "Obtain cost/quantity/terms-matched invoice, credits, acceptance and payment evidence through an authorized source before assessing supplier markup or benefit.",
+  "review_status": "pending_independent_review"
+}

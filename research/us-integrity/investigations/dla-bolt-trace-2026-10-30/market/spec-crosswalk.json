@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "task": "Bounded primary-source NSN-to-specification crosswalk",
+  "nsn": "5306016864912",
+  "niin": "016864912",
+  "status": "exact_primary_crosswalk_not_acquired",
+  "primary_verified": {
+    "document": "SPE4A6-26-D-61WS",
+    "page": 5,
+    "nsn": "5306016864912",
+    "item_name": "BOLT,MACHINE",
+    "standard_reference": "ASMEB18.24",
+    "standard_revision_date_as_printed": "10/16/2023",
+    "tdp_reference": "TDP Rev A Gen 1",
+    "part_piece_number_field": "blank",
+    "unit_of_issue": "EA",
+    "unit_price": "0.91000",
+    "currency": "USD",
+    "source_id": "SPEC-P01"
+  },
+  "unverified_candidate_association": {
+    "part_reference": "AEB02F375750WA6DG1",
+    "thread_diameter_inches": "0.375",
+    "thread_quantity_per_inch": 24,
+    "thread_series": "UNF",
+    "thread_class": "2A",
+    "length_inches": "0.750",
+    "grade": "8",
+    "material": "steel",
+    "surface_treatment": "zinc",
+    "head_style": "hex",
+    "reported_cage": "05047",
+    "source": "Parent-supplied secondary NSN Explorer lead; not independently reacquired in this subtask",
+    "source_url": "https://nsnexplorer.com/nsn/5306-01-686-4912/",
+    "primary_confirmation": false,
+    "qualifications": [
+      "An ASME standard reference is not itself a manufacturer-approved source designation.",
+      "A matching nominal diameter, pitch, length and grade is insufficient to prove procurement equivalence.",
+      "Zinc does not independently establish a specific yellow chromate finish, coating specification, thickness or associated acceptance requirements.",
+      "The primary contract's PART PIECE NUMBER field is blank; no exact part-reference assertion can be derived from it."
+    ]
+  },
+  "decision": {
+    "market_products_may_be_reported_as": "Provisional dimensional comparators selected from a secondary catalog lead",
+    "market_products_may_be_reported_as_exact_nsn_equivalents": false,
+    "qualified_like_for_like_price_comparison": false,
+    "overcharge_established": false,
+    "kickback_established": false,
+    "fraud_established": false,
+    "reason": "No original public characteristic/reference record linking this NSN to the exact candidate specifications was acquired. Price comparisons also require quantities, availability, packaging, traceability, acceptance, freight and other terms."
+  },
+  "sources": [
+    {
+      "id": "SPEC-P01",
+      "type": "primary_original_contract_selected_text",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+      "retrieval": "Read existing locally captured page-5 text; original PDF not redownloaded in this subtask",
+      "local_path_relative_to_investigation": "current/snapshots/parent-page5.txt",
+      "sha256_selected_text": "e551d347f7dc7abe51e52351b6ea4dbaa70d97c88ebbeeb447e71f42aa26d9dd",
+      "verified_fields": ["NSN", "item name", "ASME standard reference", "blank part field", "unit price and issue unit"]
+    },
+    {
+      "id": "SPEC-R01",
+      "type": "official_dla_route_search_index_only",
+      "url": "https://www.dla.mil/Information-Operations/Services/Applications/PUB-LOG/ProceduresManuals/",
+      "search_reference": "turn218search0",
+      "open_reference": "turn219view0",
+      "open_status": "403 Forbidden",
+      "search_index_lead": "PUB LOG advertises public, monthly downloadable FLIS data, characteristics and master cross-reference products; no exact NSN record was returned."
+    },
+    {
+      "id": "SPEC-R02",
+      "type": "official_dla_route_search_index_only",
+      "url": "https://www.dla.mil/Small-Business/Resource-Center/Training-Resources/Details/Article/4179917/how-to-use-pub-log-to-find-national-stock-number-information/",
+      "search_reference": "turn218search1",
+      "open_reference": "turn219view1",
+      "open_status": "403 Forbidden",
+      "search_index_lead": "DLA training describes a locally installed PUB LOG query workflow and NIIN/characteristics/reference views; no query was executed in PUB LOG here."
+    },
+    {
+      "id": "SPEC-R03",
+      "type": "official_dla_route_search_index_only",
+      "url": "https://www.dla.mil/Information-Operations/Services/Applications/WebFLIS/",
+      "search_reference": "turn218search2",
+      "open_reference": "turn219view2",
+      "open_status": "403 Forbidden",
+      "search_index_lead": "Related-link listing for PUB LOG; no WebFLIS login or lookup attempted."
+    },
+    {
+      "id": "SPEC-R04",
+      "type": "official_dla_route_failed_document_retrieval",
+      "url": "https://www.dla.mil/Information-Operations/Services/Applications/PUB-LOG/",
+      "open_reference": "turn220view0",
+      "open_status": "403 Forbidden"
+    },
+    {
+      "id": "SPEC-R05",
+      "type": "official_dla_brochure_search_index_only",
+      "url": "https://www.dla.mil/Portals/104/Documents/J3LogisticOperations/Brochures/J3_PUB%20LOG%20Brochure_240126.pdf?ver=bDUUFfog-GHv1aHQtgaQGA%3D%3D",
+      "search_reference": "turn218search6",
+      "open_reference": "turn220view1",
+      "open_status": "403 Forbidden",
+      "search_index_lead": "Public data and cross-reference description only; does not establish the requested NSN specification."
+    }
+  ],
+  "query_log": [
+    {
+      "sequence": 1,
+      "engine": "system1_search_query",
+      "query": "\"5306016864912\" site:dla.mil",
+      "result_status": "Tool response unavailable after output/context truncation; no usable evidence retained and no negative search conclusion drawn"
+    },
+    {
+      "sequence": 2,
+      "engine": "system1_search_query",
+      "query": "\"AEB02F375750WA6DG1\" site:gov",
+      "result_status": "Tool response unavailable after output/context truncation; no usable evidence retained and no negative search conclusion drawn"
+    },
+    {
+      "sequence": 3,
+      "engine": "system1_search_query",
+      "query": "site.dla.mil PUB LOG public download FLIS data NSN search",
+      "result_status": "Returned official DLA overview, training, WebFLIS and brochure search records; literal query contained site.dla.mil rather than a site: filter"
+    },
+    {
+      "sequence": 4,
+      "engine": "system1_search_query",
+      "query": "\"5306-01-686-4912\" site:gov",
+      "result_status": "Combined two-query response contained no exact official characteristic/reference record; this does not establish that no such public record exists"
+    }
+  ],
+  "bounds": {
+    "search_queries_used": 4,
+    "search_query_limit": 4,
+    "web_document_open_attempts": 5,
+    "successful_web_document_opens": 0,
+    "local_documents_read": 2,
+    "total_distinct_document_reads_or_attempts": 7,
+    "document_read_limit": 8,
+    "bulk_archive_download_attempted": false,
+    "authentication_attempted": false,
+    "restricted_data_acquired": false,
+    "contact_or_quote_request_sent": false,
+    "cannot_infer_from_403": ["record absence", "record restriction", "supplier wrongdoing", "catalog accuracy"]
+  },
+  "next_required_evidence": [
+    "Acquire the publicly releasable PUB LOG CHAR record for NIIN 016864912 from a documented current snapshot, including field labels and units.",
+    "Acquire its public MCRD/reference rows, including the AEB02F375750WA6DG1 reference if present, CAGE and reference qualification codes.",
+    "Preserve source date, exact retrieved record and hash; reconcile it to the 2026 contract requirements before calling a retail product equivalent.",
+    "If exact public characteristics remain unavailable, retain the provisional market screen and do not translate its price spread into loss, savings or fraud."
+  ]
+}

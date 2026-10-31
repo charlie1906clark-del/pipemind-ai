@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-10-30",
+  "records": [
+    {
+      "id": "SCB-S01",
+      "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+      "source_origin": "prior captured original, new local passage selection",
+      "event_date": "2026-09-17",
+      "locator": "Page3, H06 paragraphs1\u20135",
+      "original_pdf_sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0",
+      "original_pdf_archived_in_public_repo": false,
+      "artifact_path": "selected/parent-page3-h06.txt",
+      "sha256": "16e68975b9be9a07df2f99dddd5ffb5938e170f4577d09a84ce7c962274608e4",
+      "hash_scope": "selected pdftotext excerpt with provenance heading",
+      "new_network_requests": 0
+    },
+    {
+      "id": "SCB-S02",
+      "source_url": "https://www.dibbs.bsm.dla.mil/rfq/rfqrec.aspx?sn=spe4a626u3619",
+      "observed_at": "2026-10-30T13:19:05.326602+00:00",
+      "locator": "RFQ Package Data and Item/Tech Data/Purchase Request table, with observed attached links",
+      "original_body_sha256": "92878d763954c0003f3d3b452c79700eb9a5b671f8fe9c82321fc3eeaaf6f0e6",
+      "original_body_bytes": 53069,
+      "original_body_archived_in_public_repo": false,
+      "artifact_path": "selected/current-rfq-record.json",
+      "sha256": "ab0e533587aa2ede7e856f553a4dd47718d03807e3430713cf3aead89e0c82f6",
+      "hash_scope": "selected normalized source fields and transaction-relevant links"
+    },
+    {
+      "id": "SCB-S03",
+      "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/26MAY26/SPE4A626V138W.PDF",
+      "observed_at": "2026-10-30T13:19:59.363678+00:00",
+      "locator": "Returned error page title and file-not-found message",
+      "original_body_sha256": "2d4356eddeafa040123aad0955168da4dc820d34234ac154417e6d3cd28fae49",
+      "original_body_bytes": 5579,
+      "original_body_archived_in_public_repo": false,
+      "artifact_path": "selected/latest-historical-missing-document.txt",
+      "sha256": "9cadcc4508a0e496d2fe505ac50cfc313921bfa5269dec7ea4c3ac94b7e09bcf",
+      "hash_scope": "selected error text and explicitly labeled scope note"
+    },
+    {
+      "id": "SCB-S04",
+      "source_url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRec.aspx?contract=SPE4A626D61WS&dlv=",
+      "observed_at": "2026-10-30T13:22:11.564090+00:00",
+      "locator": "Award Package Data, Modifications, and Item/Purchase Request/Solicitation Data",
+      "original_body_sha256": "f290a742fde65ee01e5fe7be99809cf327342e3f6d73f2831981c9c569e4e5a0",
+      "original_body_bytes": 48916,
+      "original_body_archived_in_public_repo": false,
+      "artifact_path": "selected/current-award-record.json",
+      "sha256": "25e26fe9dea45b76976730a3456b4af2f0c8c310f981d9b8d59b5e452f6ea35d",
+      "hash_scope": "selected normalized public fields with clearly separated interpretation"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-10-30",
+  "sources": [
+    {
+      "id": "PA-MKT-NEW-BOLT-01",
+      "url": "https://aerobasegroup.com/part-number/39-8820-501_00-445-7358",
+      "accessed_at": "2026-10-30",
+      "retrieval_status": "seller-owned page present in search-index text; two direct opens timed out",
+      "source_bytes_archived": false,
+      "selected_index_observation": {
+        "part_number": "39-8820-501",
+        "nsn": "5306004457358",
+        "price": null,
+        "availability_count_as_indexed": 36,
+        "availability_date_as_indexed": "2025-09-15",
+        "condition_code_as_indexed": "NE",
+        "quote_required": true
+      },
+      "qualification": "not a current executable quote; no price acquired",
+      "web_refs": [
+        "turn261search2",
+        "turn262view0",
+        "turn269view0"
+      ]
+    },
+    {
+      "id": "PA-MKT-NEW-BOLT-02",
+      "url": "https://www.aehiinc.com/documents/AEHIpartscatalog.pdf",
+      "accessed_at": "2026-10-30",
+      "retrieval_status": "seller-owned catalog indexed match only; original not acquired",
+      "source_bytes_archived": false,
+      "selected_index_observation": {
+        "part_number": "39-8820-501",
+        "nsn": "5306004457358",
+        "price": null
+      },
+      "qualification": "historical catalog pointer only; no availability or price benchmark",
+      "web_refs": [
+        "turn261search27",
+        "turn262search4"
+      ]
+    }
+  ]
+}

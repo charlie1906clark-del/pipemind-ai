@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "scope": "Five CAGEs from seven historical rows for NSN5306016864912; current registry corroboration and exact historical-award joins",
+  "entities": [
+    {
+      "id": "BI-ENTITY-0NFB8",
+      "cage": "0NFB8",
+      "uei": "JEJSN59MQVK3",
+      "legal_business_name": "DIALOGIC CORP",
+      "recipient_record_type": "corporate_business_record",
+      "business_structure_types": [
+        "corporate_entity_not_tax_exempt"
+      ],
+      "reported_aliases": [
+        "DIALOGIC CORP.",
+        "DIALOGIC CORPORATION"
+      ],
+      "alias_effective_dates": null,
+      "profile_location": {
+        "state_code": "PA",
+        "country_code": "USA"
+      },
+      "current_registry_as_of": "2026-10-30",
+      "current_registry_crosswalk_verified": true,
+      "current_registry_result_rows": 1,
+      "historical_award_links": [
+        {
+          "contract_number": "SPE4A626P5931",
+          "cage": "0NFB8",
+          "uei": "JEJSN59MQVK3",
+          "award_date": "2025-11-14",
+          "rfq_source_page": 7,
+          "recipient_name_as_reported": "DIALOGIC CORP",
+          "exact_contract_and_date_match": true,
+          "method": "DLA history PIID+CAGE joined to USAspending exact PIID+signed date+UEI; CAGE is not an award-API field",
+          "source_ids": [
+            "BI-S-HISTORY",
+            "BI-S-AWARD-SPE4A626P5931"
+          ]
+        }
+      ],
+      "reporting_parent": {
+        "name": "DIALOGIC CORP",
+        "uei": "JEJSN59MQVK3",
+        "same_uei_as_child": true,
+        "source_ids": [
+          "BI-S-PROFILE-0NFB8"
+        ],
+        "meaning": "Current USAspending reporting hierarchy; not authenticated beneficial ownership or historical control"
+      },
+      "beneficial_owners": null,
+      "historical_registration_status": null,
+      "sam_active_registration_verified": false,
+      "status": "neutral_identity_consistency_observation",
+      "source_ids": [
+        "BI-S-CAGE-0NFB8",
+        "BI-S-PROFILE-0NFB8",
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A626P5931"
+      ],
+      "fraud_assessment": false
+    },
+    {
+      "id": "BI-ENTITY-51Y73",
+      "cage": "51Y73",
+      "uei": "US4BABY42KV8",
+      "legal_business_name": "CASCADE NUT & BOLT, INC",
+      "recipient_record_type": "corporate_business_record",
+      "business_structure_types": [
+        "corporate_entity_not_tax_exempt",
+        "subchapter_s_corporation"
+      ],
+      "reported_aliases": [
+        "CASCADE NUT & BOLT  INC",
+        "CASCADE NUT & BOLT INC",
+        "CASCADE NUT & BOLT INC."
+      ],
+      "alias_effective_dates": null,
+      "profile_location": {
+        "state_code": "OR",
+        "country_code": "USA"
+      },
+      "current_registry_as_of": "2026-10-30",
+      "current_registry_crosswalk_verified": true,
+      "current_registry_result_rows": 1,
+      "historical_award_links": [
+        {
+          "contract_number": "SPE4A625PK654",
+          "cage": "51Y73",
+          "uei": "US4BABY42KV8",
+          "award_date": "2025-03-24",
+          "rfq_source_page": 8,
+          "recipient_name_as_reported": "CASCADE NUT & BOLT, INC",
+          "exact_contract_and_date_match": true,
+          "method": "DLA history PIID+CAGE joined to USAspending exact PIID+signed date+UEI; CAGE is not an award-API field",
+          "source_ids": [
+            "BI-S-HISTORY",
+            "BI-S-AWARD-SPE4A625PK654"
+          ]
+        }
+      ],
+      "reporting_parent": {
+        "name": "CASCADE NUT & BOLT, INC",
+        "uei": "US4BABY42KV8",
+        "same_uei_as_child": true,
+        "source_ids": [
+          "BI-S-PROFILE-51Y73"
+        ],
+        "meaning": "Current USAspending reporting hierarchy; not authenticated beneficial ownership or historical control"
+      },
+      "beneficial_owners": null,
+      "historical_registration_status": null,
+      "sam_active_registration_verified": false,
+      "status": "neutral_identity_consistency_observation",
+      "source_ids": [
+        "BI-S-CAGE-51Y73",
+        "BI-S-PROFILE-51Y73",
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A625PK654"
+      ],
+      "fraud_assessment": false
+    },
+    {
+      "id": "BI-ENTITY-6ZF42",
+      "cage": "6ZF42",
+      "uei": "GWEEKJ2PNL45",
+      "legal_business_name": "BUTT FAREED AHMAD",
+      "recipient_record_type": "sole_proprietor_business_record",
+      "business_structure_types": [
+        "sole_proprietorship"
+      ],
+      "reported_aliases": [
+        "BUTT  FAREED AHMAD",
+        "BUTT, FAREED AHMAD"
+      ],
+      "alias_effective_dates": null,
+      "profile_location": {
+        "state_code": "TX",
+        "country_code": "USA"
+      },
+      "current_registry_as_of": "2026-10-30",
+      "current_registry_crosswalk_verified": true,
+      "current_registry_result_rows": 1,
+      "historical_award_links": [
+        {
+          "contract_number": "SPE4A626V138W",
+          "cage": "6ZF42",
+          "uei": "GWEEKJ2PNL45",
+          "award_date": "2026-05-26",
+          "rfq_source_page": 7,
+          "recipient_name_as_reported": "BUTT FAREED AHMAD",
+          "exact_contract_and_date_match": true,
+          "method": "DLA history PIID+CAGE joined to USAspending exact PIID+signed date+UEI; CAGE is not an award-API field",
+          "source_ids": [
+            "BI-S-HISTORY",
+            "BI-S-AWARD-SPE4A626V138W"
+          ]
+        },
+        {
+          "contract_number": "SPE4A625V208Q",
+          "cage": "6ZF42",
+          "uei": "GWEEKJ2PNL45",
+          "award_date": "2025-04-30",
+          "rfq_source_page": 8,
+          "recipient_name_as_reported": "BUTT FAREED AHMAD",
+          "exact_contract_and_date_match": true,
+          "method": "DLA history PIID+CAGE joined to USAspending exact PIID+signed date+UEI; CAGE is not an award-API field",
+          "source_ids": [
+            "BI-S-HISTORY",
+            "BI-S-AWARD-SPE4A625V208Q"
+          ]
+        }
+      ],
+      "reporting_parent": {
+        "name": "BUTT FAREED AHMAD",
+        "uei": "GWEEKJ2PNL45",
+        "same_uei_as_child": true,
+        "source_ids": [
+          "BI-S-PROFILE-6ZF42"
+        ],
+        "meaning": "Current USAspending reporting hierarchy; not authenticated beneficial ownership or historical control"
+      },
+      "beneficial_owners": null,
+      "historical_registration_status": null,
+      "sam_active_registration_verified": false,
+      "status": "neutral_identity_consistency_observation",
+      "source_ids": [
+        "BI-S-CAGE-6ZF42",
+        "BI-S-PROFILE-6ZF42",
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A626V138W",
+        "BI-S-AWARD-SPE4A625V208Q"
+      ],
+      "fraud_assessment": false
+    },
+    {
+      "id": "BI-ENTITY-7W108",
+      "cage": "7W108",
+      "uei": "JE5NG1MWNU77",
+      "legal_business_name": "SUBURBAN BOLT & SUPPLY CO",
+      "recipient_record_type": "corporate_business_record",
+      "business_structure_types": [
+        "corporate_entity_not_tax_exempt"
+      ],
+      "reported_aliases": [
+        "SUBURBAN BOLT AND SUPPLY COMPANY",
+        "SUBURBAN BOLT AND SUPPLY COMPANY INC",
+        "SUBURBAN BOLT AND SUPPLY COMPANY INCORPORATED"
+      ],
+      "alias_effective_dates": null,
+      "profile_location": {
+        "state_code": "MI",
+        "country_code": "USA"
+      },
+      "current_registry_as_of": "2026-10-30",
+      "current_registry_crosswalk_verified": true,
+      "current_registry_result_rows": 1,
+      "historical_award_links": [
+        {
+          "contract_number": "SPE4A625V346U",
+          "cage": "7W108",
+          "uei": "JE5NG1MWNU77",
+          "award_date": "2025-06-16",
+          "rfq_source_page": 8,
+          "recipient_name_as_reported": "SUBURBAN BOLT & SUPPLY CO",
+          "exact_contract_and_date_match": true,
+          "method": "DLA history PIID+CAGE joined to USAspending exact PIID+signed date+UEI; CAGE is not an award-API field",
+          "source_ids": [
+            "BI-S-HISTORY",
+            "BI-S-AWARD-SPE4A625V346U"
+          ]
+        }
+      ],
+      "reporting_parent": {
+        "name": "SUBURBAN BOLT & SUPPLY CO",
+        "uei": "JE5NG1MWNU77",
+        "same_uei_as_child": true,
+        "source_ids": [
+          "BI-S-PROFILE-7W108"
+        ],
+        "meaning": "Current USAspending reporting hierarchy; not authenticated beneficial ownership or historical control"
+      },
+      "beneficial_owners": null,
+      "historical_registration_status": null,
+      "sam_active_registration_verified": false,
+      "status": "neutral_identity_consistency_observation",
+      "source_ids": [
+        "BI-S-CAGE-7W108",
+        "BI-S-PROFILE-7W108",
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A625V346U"
+      ],
+      "fraud_assessment": false
+    },
+    {
+      "id": "BI-ENTITY-8A1E8",
+      "cage": "8A1E8",
+      "uei": "KJGWN783BNB5",
+      "legal_business_name": "KAREN CARLISLE",
+      "recipient_record_type": "sole_proprietor_business_record",
+      "business_structure_types": [
+        "sole_proprietorship"
+      ],
+      "reported_aliases": [
+        "CARLISLE  KAREN",
+        "CARLISLE, KAREN"
+      ],
+      "alias_effective_dates": null,
+      "profile_location": {
+        "state_code": "TX",
+        "country_code": "USA"
+      },
+      "current_registry_as_of": "2026-10-30",
+      "current_registry_crosswalk_verified": true,
+      "current_registry_result_rows": 1,
+      "historical_award_links": [
+        {
+          "contract_number": "SPE4A625V252D",
+          "cage": "8A1E8",
+          "uei": "KJGWN783BNB5",
+          "award_date": "2025-05-16",
+          "rfq_source_page": 8,
+          "recipient_name_as_reported": "KAREN CARLISLE",
+          "exact_contract_and_date_match": true,
+          "method": "DLA history PIID+CAGE joined to USAspending exact PIID+signed date+UEI; CAGE is not an award-API field",
+          "source_ids": [
+            "BI-S-HISTORY",
+            "BI-S-AWARD-SPE4A625V252D"
+          ]
+        },
+        {
+          "contract_number": "SPE4A625V4508",
+          "cage": "8A1E8",
+          "uei": "KJGWN783BNB5",
+          "award_date": "2024-12-04",
+          "rfq_source_page": 8,
+          "recipient_name_as_reported": "KAREN CARLISLE",
+          "exact_contract_and_date_match": true,
+          "method": "DLA history PIID+CAGE joined to USAspending exact PIID+signed date+UEI; CAGE is not an award-API field",
+          "source_ids": [
+            "BI-S-HISTORY",
+            "BI-S-AWARD-SPE4A625V4508"
+          ]
+        }
+      ],
+      "reporting_parent": {
+        "name": "KAREN CARLISLE",
+        "uei": "KJGWN783BNB5",
+        "same_uei_as_child": true,
+        "source_ids": [
+          "BI-S-PROFILE-8A1E8"
+        ],
+        "meaning": "Current USAspending reporting hierarchy; not authenticated beneficial ownership or historical control"
+      },
+      "beneficial_owners": null,
+      "historical_registration_status": null,
+      "sam_active_registration_verified": false,
+      "status": "neutral_identity_consistency_observation",
+      "source_ids": [
+        "BI-S-CAGE-8A1E8",
+        "BI-S-PROFILE-8A1E8",
+        "BI-S-HISTORY",
+        "BI-S-AWARD-SPE4A625V252D",
+        "BI-S-AWARD-SPE4A625V4508"
+      ],
+      "fraud_assessment": false
+    }
+  ],
+  "summary": {
+    "entities": 5,
+    "cages": 5,
+    "ueis": 5,
+    "historical_award_joins": 7,
+    "current_cage_registry_matches": 5,
+    "recipient_query_profiles": 9,
+    "aliases": 12,
+    "unresolved_beneficial_ownership_records": 5,
+    "identifier_mismatches_observed": 0,
+    "new_fraud_findings": 0,
+    "money_aggregation_performed": false
+  },
+  "input_artifacts": [
+    {
+      "path": "../../discovery-policy-2026-10-30/pricing/snapshots/selected_evidence.json",
+      "sha256": "052d394c9aeca30e9220436b70fe40a3518233b1f4aabf36a97dd7c6b9c958d8"
+    },
+    {
+      "path": "snapshots/cage-0NFB8-selected.json",
+      "sha256": "f14a89104d95a6f2bcb805a088c8d384e061aad56835de4c0ac7b7d1d291b4ff"
+    },
+    {
+      "path": "snapshots/0NFB8-profile.json",
+      "sha256": "cdc1258cd1dd87399396c5426305eb7e84b67a037e2ddacaa5d43103381667d8"
+    },
+    {
+      "path": "../awards/capture-success/award-SPE4A626P5931.json",
+      "sha256": "46829719b252ea402198a5c6f25ac0f6bdeee3255aea82e05fc3340624351317"
+    },
+    {
+      "path": "snapshots/cage-51Y73-selected.json",
+      "sha256": "87d4eed7f78f3beacfc6bf21c4adb5cfb245e6c94ab713755ca272e7c8eb8062"
+    },
+    {
+      "path": "snapshots/51Y73-profile.json",
+      "sha256": "7ad0de4aec802f649030e1e35f445907c81f85ce57a5042235c58b9ff1185cab"
+    },
+    {
+      "path": "../awards/capture-success/award-SPE4A625PK654.json",
+      "sha256": "eb4c322574b11011abf4251f9a851df5436e2d01ee79b5f1abfd2ddafcb6edd6"
+    },
+    {
+      "path": "snapshots/cage-6ZF42-selected.json",
+      "sha256": "73a50427781e158e07dfac8298342a5f71bc5fe1a223f599d0c7a6d17a360697"
+    },
+    {
+      "path": "snapshots/6ZF42-profile.json",
+      "sha256": "cb72507569f7309caf640edde7f30f76a5542c841d144f615b10e836a4ddabc6"
+    },
+    {
+      "path": "../awards/capture-success/award-SPE4A626V138W.json",
+      "sha256": "bbbd3762d933913f279e9147d5aa792fa1bdf86f7523ba7075b61c0949112f1c"
+    },
+    {
+      "path": "../awards/capture-success/award-SPE4A625V208Q.json",
+      "sha256": "a62d41f787c1f1a7f1bbf02f9d5ed780482c0fa74e086993d45545d734761859"
+    },
+    {
+      "path": "snapshots/cage-7W108-selected.json",
+      "sha256": "115d17b46c9dddbd8ba8e750d5b2d61037c3b90e42a61c8e65ae23ada9304e71"
+    },
+    {
+      "path": "snapshots/7W108-profile.json",
+      "sha256": "5fb534518b465c54667b20c5f14c5b8ec38fdab18dad07881d02e3edc583388b"
+    },
+    {
+      "path": "../awards/capture-success/award-SPE4A625V346U.json",
+      "sha256": "91b533975efd0c4f0dc3d33e33569004f2ba2979887c0013e6bcff87135d688c"
+    },
+    {
+      "path": "snapshots/cage-8A1E8-selected.json",
+      "sha256": "f15a91584b4236b9972a1995ba17ca00633c92aac4462c8b332eea564217dbea"
+    },
+    {
+      "path": "snapshots/8A1E8-profile.json",
+      "sha256": "efaa6958c2e52e66d5ed86088b33fbb5c822e8a56e791151efd581f89776047d"
+    },
+    {
+      "path": "../awards/capture-success/award-SPE4A625V252D.json",
+      "sha256": "35aac13f2921de6499c7070232ae531b08d209e1c3b97fd39a8a61ee2eaaf309"
+    },
+    {
+      "path": "../awards/capture-success/award-SPE4A625V4508.json",
+      "sha256": "9c20cdfd1dfbb67ef26b98b90dd24088f3c295b90dde0b8562ab41144c5f508f"
+    }
+  ]
+}

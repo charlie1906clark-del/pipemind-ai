@@ -1,0 +1,59 @@
+{
+  "as_of": "2026-10-30",
+  "queries": [
+    {
+      "q": "\"5306-00-445-7358\" bolt part price",
+      "purpose": "exact part/award price-source discovery",
+      "result_scope": "search pointer only unless independently opened"
+    },
+    {
+      "q": "\"5306004457358\" \"SPE4A626PW775\"",
+      "purpose": "exact part/award price-source discovery",
+      "result_scope": "search pointer only unless independently opened"
+    },
+    {
+      "q": "\"39-8820-501\" price",
+      "purpose": "exact part/award price-source discovery",
+      "result_scope": "search pointer only unless independently opened"
+    },
+    {
+      "q": "\"39-8820-501\" site.shop.boeing.com",
+      "purpose": "exact part/award price-source discovery",
+      "result_scope": "search pointer only unless independently opened"
+    },
+    {
+      "q": "\"39-8820-501\" SPS Technologies",
+      "purpose": "exact part/award price-source discovery",
+      "result_scope": "search pointer only unless independently opened"
+    },
+    {
+      "q": "\"39-8820-501\" \"$\"",
+      "purpose": "exact part/award price-source discovery",
+      "result_scope": "search pointer only unless independently opened"
+    },
+    {
+      "q": "\"39-8820-501\" \"price\" supplier",
+      "purpose": "exact part/award price-source discovery",
+      "result_scope": "search pointer only unless independently opened"
+    }
+  ],
+  "related_source_discovery_query": "site.va.gov CCST contract catalog search price public",
+  "direct_document_attempts": [
+    {
+      "url": "https://aerobasegroup.com/part-number/39-8820-501_00-445-7358",
+      "result": "timeout",
+      "ref": "turn262view0"
+    },
+    {
+      "url": "https://aerobasegroup.com/part-number/39-8820-501_00-445-7358",
+      "result": "timeout",
+      "ref": "turn269view0"
+    }
+  ],
+  "exclusions": [
+    "Secondary NSN/award summaries are discovery pointers, not qualified manufacturer or market-price proof.",
+    "Irrelevant broad search hits and search snippets with no exact price were not adopted.",
+    "A site.shop.boeing.com phrase query was not a domain-restricted exhaustive search."
+  ],
+  "full_market_coverage": false
+}

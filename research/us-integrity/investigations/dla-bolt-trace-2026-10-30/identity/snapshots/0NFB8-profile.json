@@ -1,0 +1,22 @@
+{
+  "name": "DIALOGIC CORP",
+  "alternate_names": [
+    "DIALOGIC CORP.",
+    "DIALOGIC CORPORATION"
+  ],
+  "duns": "609005350",
+  "uei": "JEJSN59MQVK3",
+  "recipient_id": "646c7184-b1bf-d4f5-fb0c-db4c899c87da-C",
+  "recipient_level": "C",
+  "parent_id": "646c7184-b1bf-d4f5-fb0c-db4c899c87da-P",
+  "parent_name": "DIALOGIC CORP",
+  "parent_duns": "609005350",
+  "parent_uei": "JEJSN59MQVK3",
+  "location": {
+    "state_code": "PA",
+    "country_code": "USA"
+  },
+  "business_structure_types": [
+    "corporate_entity_not_tax_exempt"
+  ]
+}

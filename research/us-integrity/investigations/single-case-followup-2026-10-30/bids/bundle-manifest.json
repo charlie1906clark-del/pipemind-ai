@@ -1,0 +1,81 @@
+{
+  "as_of": "2026-10-30",
+  "scope": "Frozen selected public bid/decision follow-up package; excludes analysis-only original bodies",
+  "artifacts": [
+    {
+      "path": "REPORT.md",
+      "sha256": "599449bf3c935517d0632a95dc58f5403afd4a26a48adab853c420b5b26a0ba0",
+      "bytes": 7154
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "34a1830d013841d2365ae99cdc6a2440a4de8d60fd93b34d7808f040a8abc62f",
+      "bytes": 1115
+    },
+    {
+      "path": "acquire_public_records.py",
+      "sha256": "1e0b8342a34eda02eb8bf9e17b4f34cc613d06835fa2267dc246c82c40d3a48e",
+      "bytes": 4800
+    },
+    {
+      "path": "acquisition-manifest.json",
+      "sha256": "10e25281f4aa04b3a537c431bb00c03ee953466d972e07fd5b7c09bef960aac8",
+      "bytes": 2798
+    },
+    {
+      "path": "acquisition-retry-manifest.json",
+      "sha256": "dfc19c248c992914f0562308358fc8fb4727f8307fbfa9497c9380e5c7037f1b",
+      "bytes": 3414
+    },
+    {
+      "path": "award-record-manifest.json",
+      "sha256": "91f147a036b8498ead5ca1efae2749e44495a33766a1c1a81e2321318e31e737",
+      "bytes": 1322
+    },
+    {
+      "path": "failed-web-opens.json",
+      "sha256": "867996f50221caba0f9c7aaef04e765b530a26728625142609e2d89f71a31282",
+      "bytes": 483
+    },
+    {
+      "path": "observations.json",
+      "sha256": "4abc47405ee70e5f49230f6ffd7abc1b728e85b4bffeadb294af2a6c8e534e31",
+      "bytes": 3215
+    },
+    {
+      "path": "prior-inputs.json",
+      "sha256": "a8639f1859b1291cc72465ab3007430fd82127bc1a5142ef98af4a042c0d8d3a",
+      "bytes": 886
+    },
+    {
+      "path": "query-log.json",
+      "sha256": "e5397fce7b28ecae856f6ac4745af117617bd4d633e584e0d264158cf45fb320",
+      "bytes": 3712
+    },
+    {
+      "path": "selected/current-award-record.json",
+      "sha256": "25e26fe9dea45b76976730a3456b4af2f0c8c310f981d9b8d59b5e452f6ea35d",
+      "bytes": 1191
+    },
+    {
+      "path": "selected/current-rfq-record.json",
+      "sha256": "ab0e533587aa2ede7e856f553a4dd47718d03807e3430713cf3aead89e0c82f6",
+      "bytes": 1682
+    },
+    {
+      "path": "selected/latest-historical-missing-document.txt",
+      "sha256": "9cadcc4508a0e496d2fe505ac50cfc313921bfa5269dec7ea4c3ac94b7e09bcf",
+      "bytes": 258
+    },
+    {
+      "path": "selected/parent-page3-h06.txt",
+      "sha256": "16e68975b9be9a07df2f99dddd5ffb5938e170f4577d09a84ce7c962274608e4",
+      "bytes": 1804
+    },
+    {
+      "path": "selected-manifest.json",
+      "sha256": "36f584ec3881f29a0207638c6cc524f29a43b1bc8bb75a868737a52a5e4ccf1b",
+      "bytes": 2840
+    }
+  ]
+}

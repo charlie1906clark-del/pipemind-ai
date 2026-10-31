@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "adapter": "pipemind-public-transaction-tracer",
+  "case_id": "PUBLIC-TRACE-PROOF-20261030",
+  "completed_at": "2026-10-30T12:33:52.511862+00:00",
+  "plan": {
+    "schema_version": "1.0",
+    "case_id": "PUBLIC-TRACE-PROOF-20261030",
+    "allowed_hosts": [
+      "www.usaspending.gov",
+      "dibbs2.bsm.dla.mil",
+      "raw.githubusercontent.com"
+    ],
+    "allowed_query_keys": {},
+    "limits": {
+      "max_requests": 8,
+      "max_pages": 3,
+      "max_depth": 1,
+      "max_redirects": 2,
+      "max_bytes_per_response": 2000000,
+      "max_total_bytes": 6000000,
+      "timeout_seconds": 6,
+      "max_retries": 0,
+      "max_links_per_page": 100
+    },
+    "seeds": [
+      {
+        "url": "https://www.usaspending.gov/data/about-the-data-download.pdf",
+        "kind": "source_documentation",
+        "identifiers": []
+      },
+      {
+        "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+        "kind": "award",
+        "identifiers": [
+          "SPE4A626D61WS",
+          "5306016864912"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+        "kind": "source_documentation",
+        "identifiers": []
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt_id": "TRACE-0001",
+      "url": "https://www.usaspending.gov/robots.txt",
+      "parent_url": null,
+      "relationship": "robots_policy",
+      "started_at": "2026-10-30T12:33:52.418393+00:00",
+      "method": "GET",
+      "http_status": null,
+      "network_attempted": false,
+      "http_request_sent": false,
+      "body_bytes_retained": false,
+      "status": "failed",
+      "error": "dns_resolution_failed_or_timed_out",
+      "finished_at": "2026-10-30T12:33:52.447213+00:00"
+    },
+    {
+      "attempt_id": "TRACE-0002",
+      "url": "https://dibbs2.bsm.dla.mil/robots.txt",
+      "parent_url": null,
+      "relationship": "robots_policy",
+      "started_at": "2026-10-30T12:33:52.447236+00:00",
+      "method": "GET",
+      "http_status": null,
+      "network_attempted": false,
+      "http_request_sent": false,
+      "body_bytes_retained": false,
+      "status": "failed",
+      "error": "dns_resolution_failed_or_timed_out",
+      "finished_at": "2026-10-30T12:33:52.482630+00:00"
+    },
+    {
+      "attempt_id": "TRACE-0003",
+      "url": "https://raw.githubusercontent.com/robots.txt",
+      "parent_url": null,
+      "relationship": "robots_policy",
+      "started_at": "2026-10-30T12:33:52.482683+00:00",
+      "method": "GET",
+      "http_status": null,
+      "network_attempted": false,
+      "http_request_sent": false,
+      "body_bytes_retained": false,
+      "status": "failed",
+      "error": "dns_resolution_failed_or_timed_out",
+      "finished_at": "2026-10-30T12:33:52.511828+00:00"
+    }
+  ],
+  "link_decisions": [
+    {
+      "parent_url": null,
+      "target_url": "https://www.usaspending.gov/data/about-the-data-download.pdf",
+      "decision": "defer",
+      "reason": "robots_policy_unavailable_or_denied",
+      "observed_at": "2026-10-30T12:33:52.511849+00:00"
+    },
+    {
+      "parent_url": null,
+      "target_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+      "decision": "defer",
+      "reason": "robots_policy_unavailable_or_denied",
+      "observed_at": "2026-10-30T12:33:52.511855+00:00"
+    },
+    {
+      "parent_url": null,
+      "target_url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+      "decision": "defer",
+      "reason": "robots_policy_unavailable_or_denied",
+      "observed_at": "2026-10-30T12:33:52.511859+00:00"
+    }
+  ],
+  "outstanding": [],
+  "coverage": {
+    "logical_attempts": 3,
+    "network_attempts": 0,
+    "http_requests_sent_confirmed": 0,
+    "acquired_documents": 0,
+    "received_body_bytes": 0,
+    "declared_seed_count": 3,
+    "frontier_complete": false,
+    "failed_or_incomplete_attempts": 3,
+    "complete_procurement_universe": false
+  },
+  "evidence_review_required": true,
+  "scope": "Only selected request/link metadata retained. Body digests describe received bytes, not retained full documents. No prices, people, owners, misconduct or transaction facts authenticated.",
+  "retrieved_text_handling": "Untrusted data only; no code, browser scripts, instructions, forms, cookies or account actions executed.",
+  "runtime_import": "Completed audited run may be imported honestly; this adapter does not reserve runtime attempts or claim runtime budget enforcement.",
+  "input_plan_sha256": "a984db159360e17cabb20888527fc64f8de8f342ba1861f18543eca7164c77e8",
+  "input_hash_scope": "Exact plan file bytes"
+}

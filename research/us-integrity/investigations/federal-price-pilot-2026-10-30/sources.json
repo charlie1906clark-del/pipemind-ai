@@ -1,0 +1,130 @@
+{
+  "sources": [
+    {
+      "id": "usaspending-search-dla-bolts",
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "method": "POST",
+      "observed_at": "2026-10-30T12:25:50.052961+00:00",
+      "snapshot_path": "capture/dla-bolts.json",
+      "snapshot_sha256": "b38dbb196a14eaf81586da82c792331916671be803fe40837c6abde01390037f",
+      "wire_sha256": "0d9f20965f1a8149577a06648daf707c63ee7eb34c0cb4e49f252984b64513dd",
+      "original_wire_archived": false,
+      "scope": "selected public business-award fields, reformatted; not original response bytes",
+      "request_path": "capture/dla-bolts.request.json"
+    },
+    {
+      "id": "usaspending-search-va-medical",
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "method": "POST",
+      "observed_at": "2026-10-30T12:25:58.847745+00:00",
+      "snapshot_path": "capture/va-medical.json",
+      "snapshot_sha256": "92c973079abd00806e728f54e83266fd82642a3a20c3d41db25a6ee94409a680",
+      "wire_sha256": "62e00e394dfff602737ae2ec518ac65163cb8fda00b796ff5c46d41f77b53e83",
+      "original_wire_archived": false,
+      "scope": "selected public business-award fields, reformatted; not original response bytes",
+      "request_path": "capture/va-medical.request.json"
+    },
+    {
+      "id": "usaspending-search-hhs-medical",
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "method": "POST",
+      "observed_at": "2026-10-30T12:26:05.675491+00:00",
+      "snapshot_path": "capture/hhs-medical.json",
+      "snapshot_sha256": "74e893736436e33e9c646d50abd0120524409e7f89f91a4693d512f189d0a4ee",
+      "wire_sha256": "20c2a9820691c97d1d6fa4a475c994d287e3aa1808adf28639de1bea543e4b4b",
+      "original_wire_archived": false,
+      "scope": "selected public business-award fields, reformatted; not original response bytes",
+      "request_path": "capture/hhs-medical.request.json"
+    },
+    {
+      "id": "usaspending-detail-SPE4A626PW775",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626PW775_9700_-NONE-_-NONE-/",
+      "method": "GET",
+      "observed_at": "2026-10-30T12:26:53.766170+00:00",
+      "snapshot_path": "detail-capture/detail-SPE4A626PW775.json",
+      "snapshot_sha256": "ac43b78c6d6fca871417142aeddef27144905131323a27d73c5c887675713638",
+      "wire_sha256": "e5fe62925d5b38c93e3d594b0f2ea192d9a5734df3892ccb01b05c667bfbc23b",
+      "original_wire_archived": false,
+      "scope": "selected public business-award fields, reformatted; not original response bytes",
+      "request_path": null
+    },
+    {
+      "id": "usaspending-detail-36C79126F0030",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_36C79126F0030_3600_36C79123A0003_3600/",
+      "method": "GET",
+      "observed_at": "2026-10-30T12:26:58.059222+00:00",
+      "snapshot_path": "detail-capture/detail-36C79126F0030.json",
+      "snapshot_sha256": "37256c9c87447b649b01f1eba90d2d9b68832c6039484c9fdfce33efb0d60bea",
+      "wire_sha256": "3c5e8e23d767cf7bedde2fbdc081c791f7a04b37d0522d8697b59c7e12956bf4",
+      "original_wire_archived": false,
+      "scope": "selected public business-award fields, reformatted; not original response bytes",
+      "request_path": null
+    },
+    {
+      "id": "usaspending-detail-75N98026F00268",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_75N98026F00268_7529_36F79720D0041_3600/",
+      "method": "GET",
+      "observed_at": "2026-10-30T12:27:02.674527+00:00",
+      "snapshot_path": "detail-capture/detail-75N98026F00268.json",
+      "snapshot_sha256": "533fd57d983ca645a533502f48df537134ba6bad969a3dbcf063a7c03ea9e2e2",
+      "wire_sha256": "54e998915e36ac54f306f01b1a71d78d26e503a76193c952e302de069b2168fb",
+      "original_wire_archived": false,
+      "scope": "selected public business-award fields, reformatted; not original response bytes",
+      "request_path": null
+    },
+    {
+      "id": "usaspending-parent-36C79123A0003",
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_IDV_36C79123A0003_3600/",
+      "method": "GET",
+      "observed_at": "2026-10-30T12:31:30.354561+00:00",
+      "snapshot_path": "parent-capture/parent-36C79123A0003.json",
+      "snapshot_sha256": "662c43b5b7bc32572d6f76f65fe663029bd6f0f409a08cdbfbf37e6b511118cf",
+      "wire_sha256": "950bff363ba86b4176d5949fd45f53f4dcd738e326badd54c663def053fcfffa",
+      "original_wire_archived": false,
+      "scope": "selected public business-award fields, reformatted; not original response bytes",
+      "request_path": null
+    },
+    {
+      "id": "dla-original-SPE4A626PW775",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+      "observed_at": "2026-10-30T12:28:29.392645+00:00",
+      "original_sha256": "737e8d1eb1b78d2d8a9d02ec81dc49d9a0e56182b7f0aceb48f2e61fb88a3759",
+      "original_bytes": 88522,
+      "original_archived_in_public_repo": false,
+      "selected_manifest": "selected_manifest.json",
+      "scope": "Selected primary contract pages/passages/images; contact and street blocks excluded."
+    },
+    {
+      "id": "api-date-filter-doc",
+      "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+      "observed_date": "2026-10-30",
+      "scope": "Official API semantics: new_awards_only selects base transaction date; doc not archived."
+    },
+    {
+      "id": "api-award-search-doc",
+      "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/contracts/v2/search/spending_by_award.md",
+      "observed_date": "2026-10-30",
+      "scope": "Official API request fields/pagination; doc not archived."
+    },
+    {
+      "id": "sam-notice-SPE4A626Q0688",
+      "url": "https://sam.gov/opp/608918984f884356a70aa205469ea738/view",
+      "scope": "Official solicitation URL pointer found in search, but opening returned JS shell. Original solicitation attachments not acquired."
+    },
+    {
+      "id": "va-catalog-9104886",
+      "url": "https://www.vendorportal.ecms.va.gov/NAC/MedSurg/Details?lognumber=9104886&type=fss",
+      "observed_date": "2026-10-30",
+      "snapshot_path": "rejected_comparators.json",
+      "scope": "Selected factual transcription; catalog route only, rejected comparison; no original HTML hash."
+    },
+    {
+      "id": "va-catalog-9104938",
+      "url": "https://www.vendorportal.ecms.va.gov/NAC/MedSurg/Details?lognumber=9104938&type=fss",
+      "observed_date": "2026-10-30",
+      "snapshot_path": "rejected_comparators.json",
+      "scope": "Selected factual transcription; catalog route only, rejected comparison; no original HTML hash."
+    }
+  ],
+  "secondary_source_rule": "Search/aggregator sources are discovery pointers only. Primary contract controls DLA line quantities, prices, scope and manufacturer designation."
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-30",
+  "purpose": "Known-case calibration for buyer-supplier collusion research; not a new lead or a finding about the DLA bolt cohort.",
+  "new_fraud_findings": 0,
+  "research_log": {
+    "search_queries_used": 2,
+    "primary_document_reads_used": 2,
+    "search_queries": [
+      "site.justice.gov purchasing official vendor inflated prices kickbacks military quotes sentenced",
+      "site.justice.gov procurement official kickbacks percentage inflated invoices supplier sentenced"
+    ],
+    "search_result_limitation": "The combined search response was truncated before usable results were visible; no search-result claim is used. Exact official URLs were recovered from the repository's existing procurement source registry and freshly opened.",
+    "capture_status": "Official webpage text reviewed through the web retrieval tool. Original HTTP response bytes and underlying court exhibits are not archived here."
+  },
+  "sources": [
+    {
+      "id": "PC-MECH-S01",
+      "publisher": "United States Department of Justice",
+      "title": "USAID Official and Three Corporate Executives Plead Guilty to Decade-Long Bribery Scheme Involving Over $550 Million in Contracts; Two Companies Admit Criminal Liability for Bribery Scheme and Securities Fraud",
+      "url": "https://www.justice.gov/opa/pr/usaid-official-and-three-corporate-executives-plead-guilty-decade-long-bribery-scheme",
+      "published_at": "2025-06-12",
+      "updated_at": "2025-07-09",
+      "accessed_at": "2026-10-30",
+      "web_ref": "turn223view0",
+      "primary_source": true,
+      "locator": "Bribery overview; guilty pleas and deferred prosecution agreements; investigation attribution",
+      "source_type": "official prosecutorial release summarizing court documents and resolutions"
+    },
+    {
+      "id": "PC-MECH-S02",
+      "publisher": "USAID Office of Inspector General",
+      "title": "INVESTIGATIVE SUMMARY: Former USAID Contracting Officer and Three Corporate Executives Debarred After Pleading Guilty to Decade-Long, $500 Million Bribery Scheme",
+      "url": "https://oig.usaid.gov/node/7877",
+      "published_at": "2025-09-04",
+      "accessed_at": "2026-10-30",
+      "web_ref": "turn225view0",
+      "primary_source": true,
+      "locator": "Investigation trigger, May 2025 pleas, August 26, 2025 debarment notices",
+      "source_type": "official investigative summary"
+    }
+  ],
+  "cases": [
+    {
+      "id": "PC-MECH-C01",
+      "label": "USAID contracting-officer bribery involving Apprio and Vistant",
+      "classification": "known_prosecuted_mechanism_calibration",
+      "source_ids": ["PC-MECH-S01", "PC-MECH-S02"],
+      "legal_status": {
+        "as_of_source_date": "2025-09-04",
+        "description": "DOJ reported individual guilty pleas and corporate deferred prosecution agreements with admissions. OIG later reported individual debarment notices dated August 26, 2025.",
+        "not_claimed": "No representation of present debarment eligibility, final sentencing outcomes, or subsequent appeals or modifications."
+      },
+      "source_reported_mechanism": {
+        "source_id": "PC-MECH-S01",
+        "summary": "Existing contractors bribed a contracting officer; prime and subcontract roles changed. A subcontractor intermediary, false payroll transfers, shell entities and false invoices concealed benefits. The officer influenced awards, disclosed procurement information, supplied favorable evaluations and approved contract decisions.",
+        "price_percentage": null,
+        "exact_unit_overprice_established_by_this_release": false
+      },
+      "source_reported_evidence_and_investigative_steps": [
+        {
+          "source_id": "PC-MECH-S02",
+          "description": "OIG says an allegation of disclosure of bid, proposal or source-selection information triggered its investigation. It reports May 2025 guilty pleas, referral to the suspension and debarment official, and subsequent debarment notices."
+        },
+        {
+          "source_id": "PC-MECH-S01",
+          "description": "DOJ attributes its mechanism account to court documents and reports guilty pleas, corporate admissions and cooperation. It names FBI, USAID OIG and IRS Criminal Investigation as investigators. The release describes transfers and concealment, but this review has not examined the underlying account records or exhibits."
+        }
+      ],
+      "amount_interpretation": {
+        "source_id": "PC-MECH-S01",
+        "description": "DOJ's over $550 million concerns contract volume, not established loss or a per-unit premium. Its approximately $1 million-plus bribe amount is expressly alleged. Neither figure calibrates a 12 percent markup."
+      },
+      "researcher_inferences_for_dla_screen": [
+        "Matching a legal name, CAGE and UEI tests identity consistency; it does not test buyer independence or the absence of corrupt benefits.",
+        "An arithmetically correct award amount can coexist with a corrupt award decision; arithmetic alone is not a fair-price test.",
+        "Reported offer counts do not show who prepared each bid, whether offers were independently determined, the price spread, or whether confidential information was leaked.",
+        "A useful next record is the contemporaneous bid and evaluation trail linked to the decisionmaker's role dates. Payment or benefit tracing requires actual supporting records, not an inferred connection from price alone."
+      ],
+      "transfer_limitations": [
+        "This services-procurement case supplies a corruption mechanism, not a market-price comparator for DLA machine bolts.",
+        "No evidence in these sources links these case participants or mechanisms to the studied DLA bolt awards.",
+        "No recurring percentage, independent comparable unit price, invoice-level loss, or buyer kickback is established for the DLA cohort.",
+        "A premium can reflect ordinary margin, quantity, specification, timing, freight, risk, or a poor purchase; establishing an unexplained premium and establishing bribery are separate evidentiary tasks."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "scope": "Public pilot files only; excludes this manifest, originalPDF, caches and separately owned parties/",
+  "original_commit": "d535e545adf362c17e43337e1147a0b2f6c7c18a",
+  "artifacts": [
+    {
+      "path": "REPORT.md",
+      "sha256": "366a10e2c65cbd5a7346e3af192c74367d566d4227dc9709811ae9308c43d9ab",
+      "bytes": 8995
+    },
+    {
+      "path": "SELECTION_PROTOCOL.md",
+      "sha256": "a8f4f4108c9d5e68de02fd74f771fa26cc5870b9c88f344bc62f17ec426e1ca8",
+      "bytes": 6369
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "3770ead97d1d1802b7f574a415ae3c5bf4ef5ddc0e62eb9e382bbf3561e82764",
+      "bytes": 3604
+    },
+    {
+      "path": "acquire.py",
+      "sha256": "34afaa31917d79161198a955112569e3a564852493c7b4861a89079fcb634e7f",
+      "bytes": 7397
+    },
+    {
+      "path": "acquire_dla_document.py",
+      "sha256": "31880aba76aaeed7d1a60fd21a94f00e6eef85213344149744345ec30e60a3f4",
+      "bytes": 3456
+    },
+    {
+      "path": "analyze.py",
+      "sha256": "de97f97db975a94647f293595b2423800bf9386fd1cb36bf797621891078c513",
+      "bytes": 12209
+    },
+    {
+      "path": "capture/dla-bolts.json",
+      "sha256": "b38dbb196a14eaf81586da82c792331916671be803fe40837c6abde01390037f",
+      "bytes": 13071
+    },
+    {
+      "path": "capture/dla-bolts.request.json",
+      "sha256": "eeed072856f328840c6e739be7363e4d3bb4ca72679ce14f41183036e8d28eef",
+      "bytes": 1095
+    },
+    {
+      "path": "capture/hhs-medical.json",
+      "sha256": "74e893736436e33e9c646d50abd0120524409e7f89f91a4693d512f189d0a4ee",
+      "bytes": 14654
+    },
+    {
+      "path": "capture/hhs-medical.request.json",
+      "sha256": "9d9713606884a4c5980a8c575e592e7f98a8044df4e55597f62875da0cc80575",
+      "bytes": 1061
+    },
+    {
+      "path": "capture/manifest.json",
+      "sha256": "cfba7e6f66a3a8f6e74c9c0464fda406d7ed703b00f2703c91e20e16ebdbdc1e",
+      "bytes": 2946
+    },
+    {
+      "path": "capture/va-medical.json",
+      "sha256": "92c973079abd00806e728f54e83266fd82642a3a20c3d41db25a6ee94409a680",
+      "bytes": 14359
+    },
+    {
+      "path": "capture/va-medical.request.json",
+      "sha256": "6b1b10d4c58364f25968d117fdb2aa538b793c41d94981133c2e6635b8253ab1",
+      "bytes": 1052
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "4f933e8301749af078600b9e07bf81a2f1f999aabf02ec90fa25fef2db672564",
+      "bytes": 1124
+    },
+    {
+      "path": "detail-capture/detail-36C79126F0030.json",
+      "sha256": "37256c9c87447b649b01f1eba90d2d9b68832c6039484c9fdfce33efb0d60bea",
+      "bytes": 3039
+    },
+    {
+      "path": "detail-capture/detail-75N98026F00268.json",
+      "sha256": "533fd57d983ca645a533502f48df537134ba6bad969a3dbcf063a7c03ea9e2e2",
+      "bytes": 2949
+    },
+    {
+      "path": "detail-capture/detail-SPE4A626PW775.json",
+      "sha256": "ac43b78c6d6fca871417142aeddef27144905131323a27d73c5c887675713638",
+      "bytes": 2407
+    },
+    {
+      "path": "detail-capture/manifest.json",
+      "sha256": "fd76bd4f4415193ab3890916fc140e97bb292d73b842c328f1f702d7d1a85077",
+      "bytes": 2754
+    },
+    {
+      "path": "detail-selection.json",
+      "sha256": "d6abbf369aa2946bc17bf5d56238573bfb0b77f118b47766357100b3a400dc58",
+      "bytes": 803
+    },
+    {
+      "path": "dla-document-attempt.json",
+      "sha256": "17eb18627234a94eb4c394b095ce16592c72157bfb82b6c7088f6d3669015796",
+      "bytes": 1079
+    },
+    {
+      "path": "document_links.json",
+      "sha256": "b361797117526d59050a0752a27c64a927a4d733ec04f49d698aed46f10c0763",
+      "bytes": 2537
+    },
+    {
+      "path": "follow_up_tasks.json",
+      "sha256": "2fb96dbe6aaec275200a6c6ac52d674bf3d2c425cd02aa62b6758061feb1dd59",
+      "bytes": 12883
+    },
+    {
+      "path": "line_observations.json",
+      "sha256": "b0a05a27a790214832aea4fe3800489badb120637b2955e418115d9076413c87",
+      "bytes": 4643
+    },
+    {
+      "path": "missingness.json",
+      "sha256": "30012f14df6cd907dbc3a5ba917b9674414bde0e37273443eee152e48113f66f",
+      "bytes": 1245
+    },
+    {
+      "path": "observations.json",
+      "sha256": "2909754680a7c46e425d14d49ceb0ab9fcf9dab1b8c359fa5d0af3b3879ff35f",
+      "bytes": 77100
+    },
+    {
+      "path": "parent-capture/manifest.json",
+      "sha256": "48437dac27446f496009e9f79b9b534274475f6c48e5d963e18c74524a15ed22",
+      "bytes": 884
+    },
+    {
+      "path": "parent-capture/parent-36C79123A0003.json",
+      "sha256": "662c43b5b7bc32572d6f76f65fe663029bd6f0f409a08cdbfbf37e6b511118cf",
+      "bytes": 2971
+    },
+    {
+      "path": "rejected_comparators.json",
+      "sha256": "88de962fb4bf609a9549746ac6341a63b96b20fe06d5a24890ed040590df3aa6",
+      "bytes": 2757
+    },
+    {
+      "path": "request_ledger.json",
+      "sha256": "9c2668941111446e23f1f6fbdbbe8052cc0e02081e01cf6dcea067b6f7ba2894",
+      "bytes": 6729
+    },
+    {
+      "path": "schedule-document-attempts.json",
+      "sha256": "dc483600f97ee7f24ad7f9113a1a3863049b8e30a7575b03ee8f538400f75b6a",
+      "bytes": 708
+    },
+    {
+      "path": "selected/dla-award-page1-role-selected.txt",
+      "sha256": "a1357e85137b2c5d7b6f76753d7c38dbe828e6ac8139949f2c4a9b017377dc42",
+      "bytes": 500
+    },
+    {
+      "path": "selected/dla-award-page11-first-article-selected.txt",
+      "sha256": "2451f6b224338a33b745a5fa89e370dcea592a90e04105e59212e40586c1da0e",
+      "bytes": 1673
+    },
+    {
+      "path": "selected/dla-award-page2.txt",
+      "sha256": "817827da5cf774defca599bd9432fb012427eb95ebbcabc1759ea127334e06ff",
+      "bytes": 1117
+    },
+    {
+      "path": "selected/dla-award-page3.txt",
+      "sha256": "ea890b6d25f7ff983162d71de16b265ba4fa88ea9c627b673d7e41ae99e95beb",
+      "bytes": 3070
+    },
+    {
+      "path": "selected/dla-award-page4.png",
+      "sha256": "7eb1aa24722bdbafb88bfa50d11dbcedf618fc926fe43d9aeae797b74d3bc8c2",
+      "bytes": 172815
+    },
+    {
+      "path": "selected/dla-award-page4.txt",
+      "sha256": "2a4198fba2fed895b47fa557d763af8beb819f915b8ed875fd849ea2e6500d9b",
+      "bytes": 2504
+    },
+    {
+      "path": "selected/dla-award-page5-first-article.png",
+      "sha256": "a784840e7e08d47d7e2e9756cf4bd728e558660c59924d559d058216aefb2c3a",
+      "bytes": 21579
+    },
+    {
+      "path": "selected/dla-award-page5-selected.txt",
+      "sha256": "264772e6c86d41d608cf76c57c11cd3cb7344ad55ef80dc0f8b8a54791fbb857",
+      "bytes": 1172
+    },
+    {
+      "path": "selected/dla-award-page6.txt",
+      "sha256": "285b5ec67cc5a099e9fc1cd8e9b30f044c21c29271aa0f6e94c6e2bbcd56380c",
+      "bytes": 1059
+    },
+    {
+      "path": "selected/dla-award-page7-e08-selected.txt",
+      "sha256": "106ec6568b641ed27f8435dbf7c3a56a00be6352433c0d576002e6a28c59c700",
+      "bytes": 1529
+    },
+    {
+      "path": "selected_manifest.json",
+      "sha256": "b7bf46a2070c3b6b455c74164bc966eb90f8158a5ada3e27ce85ba72c536159c",
+      "bytes": 3004
+    },
+    {
+      "path": "sources.json",
+      "sha256": "705d5deb265e77bbc5ec18c69e90deb309f4f5b175662dbf3e7b1dd20d7e448c",
+      "bytes": 6903
+    },
+    {
+      "path": "test_pilot.py",
+      "sha256": "7060a4c4f0b5c7eb6749f69e60ae9150e1996c5efa22ad45b06551a58cb4ecfe",
+      "bytes": 4957
+    },
+    {
+      "path": "transaction_links.json",
+      "sha256": "3803fe9ba60eae77d25c39c42308e20b924737877a48c9018eec20f09c4ad2a6",
+      "bytes": 24748
+    },
+    {
+      "path": "validation.json",
+      "sha256": "52d41ed1391e69d3b9263601db5daaf51f60a44f49f36193c30c41addfb5f652",
+      "bytes": 1022
+    }
+  ]
+}

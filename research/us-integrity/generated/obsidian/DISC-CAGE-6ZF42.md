@@ -32,9 +32,12 @@ This note records supplied sources; it does not independently establish fraud.
 
 ## Outgoing relationships
 
+- current_registry_crosswalk: [[BOLT-UEI-GWEEKJ2PNL45]] — documented_fact (BOLT-E-980da9aeb68a3f7c8ca8); sources: [[BOLT-SRC-BI-S-CAGE-6ZF42]]
 - cites: [[DISC-PRICE-SRC-DLA-SPE4A626U3619]] — documented_fact (edge-5b389ca1235b06d4ba17); sources: [[DISC-PRICE-SRC-DLA-SPE4A626U3619]]
 
 ## Backlinks
 
+- [[BOLT-AWARD-SPE4A625V208Q]]: history_reports_cage — documented_fact (BOLT-E-ae4ea67a860b0d1493f2)
+- [[BOLT-AWARD-SPE4A626V138W]]: history_reports_cage — documented_fact (BOLT-E-b6d2a52ec9ab8765bca9)
 - [[DISC-PRICE-HISTORY-01]]: reports_supplier_identifier — documented_fact (DISC-E-b89465a86fde667a1a0b)
 - [[DISC-PRICE-HISTORY-05]]: reports_supplier_identifier — documented_fact (DISC-E-cd747bab61e90f5d063b)

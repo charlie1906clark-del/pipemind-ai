@@ -1,20 +1,22 @@
 # Claude, Grok and the PipeMind research exchange
 
-Prepared 30 October 2026. **Two research packets are ready; neither has been dispatched to Claude or Grok.** The repository is the shared evidence store. It does not itself open another chat, invoke a model, share a live database lock or train model weights.
+Updated 30 October 2026. **The user reports manually assigning Claude its prepared task; a Claude result has not yet been received or verified. Grok remains queued.** The repository is the shared evidence store. It does not itself open another chat, invoke a model, share a live database lock or train model weights.
 
 ## Current connection state
 
-[CONNECTION-STATUS.json](CONNECTION-STATUS.json) records the root coordinator's verified discovery results. Native GitHub is available. Grok authorization was initiated and is awaiting the user; no Grok model call has run. The Claude administrator connection was rejected by automatic approval review for excessive organizational permissions. A separate inference-only gateway connection was rejected because its routing, account and billing scope had not been explicitly approved. No Claude model call has run. Further authorization attempts are outside this packet.
+[CONNECTION-STATUS.json](CONNECTION-STATUS.json) records the root coordinator's verified discovery results. Native GitHub is available. Grok authorization was initiated and is awaiting the user; no Grok model call has run. The Claude administrator connection was rejected by automatic approval review for excessive organizational permissions. A separate inference-only gateway connection was rejected because its routing, account and billing scope had not been explicitly approved. No Claude API call has run through this coordinator. The user-operated Claude session is reported to be working; its model/session and output remain unverified. Further authorization attempts are outside this packet.
 
 Existing Claude or Grok chat accounts can use the **manual repository handoff** below without a new model-API integration. Whether a particular chat can read or write GitHub depends on that chat's actual connection. A supplied repository URL alone does not grant write access. If it can only read, return the result file to the coordinator for review and commit.
 
 On the inspected research branch, the existing `.claude/agents/x-*.md` files concern X drafting. They are not research dispatchers and are not modified by this work. Older daily-research documents describe a manually initiated workflow; their statements about training must not be read as evidence of updated model weights or permanent cross-provider memory. This exchange persists evidence that each worker must explicitly reload.
 
+The current shared focus and complementary ownership are recorded in [ADJACENT-WORK.md](ADJACENT-WORK.md).
+
 ## Concrete assignments
 
 | Packet | Intended worker | Bounded question | State |
 |---|---|---|---|
-| [CLAUDE-PRICE-001](tasks/CLAUDE-PRICE-001.json) | Claude | Can one official, simple-item procurement record support a comparable unit-price test and a correctly scoped defective-pricing inquiry? | Queued, not dispatched |
+| [CLAUDE-PRICE-001](tasks/CLAUDE-PRICE-001.json) | Claude | Can one official, simple-item procurement record support a comparable unit-price test and a correctly scoped defective-pricing inquiry? | User-reported manual dispatch; awaiting result |
 | [GROK-IDENTITY-001](tasks/GROK-IDENTITY-001.json) | Grok | Does a bounded Amazon/Amazon. recipient query produce aliases, affiliates, separate identifiers or an unresolved identity conflict? | Queued, not dispatched |
 
 The name example is a test of entity matching, not an allegation against Amazon or any similarly named business. High prices, punctuation and absent search results do not establish fraud. Published enforcement matters are comparison material and must not be relabeled discoveries.

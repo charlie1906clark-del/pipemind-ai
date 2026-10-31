@@ -1,0 +1,344 @@
+{
+  "results": [
+    {
+      "internal_id": 360907289,
+      "Award ID": "75N98026P01109",
+      "generated_internal_id": "CONT_AWD_75N98026P01109_7529_-NONE-_-NONE-",
+      "Recipient Name": "AZENTA US INC",
+      "Recipient UEI": "FW1MQC5H7K56",
+      "recipient_id": "6886d17f-6f9c-740a-e4ed-1a5f341492cb-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "National Institutes of Health",
+      "Awarding Sub Agency Code": "7529",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "National Institutes of Health",
+      "Start Date": "2026-07-31",
+      "Base Obligation Date": "2026-07-28",
+      "End Date": "2027-07-30",
+      "Award Amount": 5542679.0,
+      "Total Outlays": 0.0,
+      "Description": "NHLBI:SUPPLY:AUTOMATED -80 C ULTRA-LOW TEMPERATURE ULT FREEZER SYSTEM:N/A",
+      "Place of Performance State Code": "IN",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "334516",
+        "description": "ANALYTICAL LABORATORY INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-08-25 13:36:41",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 361659058,
+      "Award ID": "75H71126F27019",
+      "generated_internal_id": "CONT_AWD_75H71126F27019_7527_75H71125A00016_7527",
+      "Recipient Name": "MEDLINE INDUSTRIES, LP",
+      "Recipient UEI": "DMPAKJ9N9K66",
+      "recipient_id": "e69126ba-ae4e-13a4-4552-7eae9f4ad09d-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "Indian Health Service",
+      "Awarding Sub Agency Code": "7527",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "Indian Health Service",
+      "Start Date": "2026-03-26",
+      "Base Obligation Date": "2026-07-23",
+      "End Date": "2029-05-31",
+      "Award Amount": 2000000.0,
+      "Total Outlays": 2000000.0,
+      "Description": "MEDLINE FEDERAL BLUE. FUNDING FOR PURCHASE OF MEDICAL AND SURGICAL SUPPLIES FOR FEDERAL CUSTOMERS.",
+      "Place of Performance State Code": "OK",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339112",
+        "description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "BPA CALL",
+      "Last Modified Date": "2026-07-23 17:07:19",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 360874103,
+      "Award ID": "75N98026F00268",
+      "generated_internal_id": "CONT_AWD_75N98026F00268_7529_36F79720D0041_3600",
+      "Recipient Name": "TRILLAMED LLC",
+      "Recipient UEI": "GW9FLBWB5625",
+      "recipient_id": "45e59e37-b289-1207-3481-6c9bea251dd8-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "National Institutes of Health",
+      "Awarding Sub Agency Code": "7529",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "National Institutes of Health",
+      "Start Date": "2026-07-27",
+      "Base Obligation Date": "2026-07-27",
+      "End Date": "2026-09-30",
+      "Award Amount": 1928503.77,
+      "Total Outlays": 0.0,
+      "Description": "DEFIBRILLATORS",
+      "Place of Performance State Code": "MI",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339113",
+        "description": "SURGICAL APPLIANCE AND SUPPLIES MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-27 09:02:45",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 360934560,
+      "Award ID": "75H71226P00091",
+      "generated_internal_id": "CONT_AWD_75H71226P00091_7527_-NONE-_-NONE-",
+      "Recipient Name": "CAREFUSION SOLUTIONS, LLC",
+      "Recipient UEI": "E99HA2K3YTG8",
+      "recipient_id": "e49d369a-94b2-f4ea-4093-82ac9abed726-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "Indian Health Service",
+      "Awarding Sub Agency Code": "7527",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "Indian Health Service",
+      "Start Date": "2026-07-28",
+      "Base Obligation Date": "2026-07-29",
+      "End Date": "2027-07-01",
+      "Award Amount": 555171.46,
+      "Total Outlays": 0.0,
+      "Description": "INFUSION PUMPS",
+      "Place of Performance State Code": "AZ",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339112",
+        "description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-07-29 12:34:37",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 360055273,
+      "Award ID": "75N98026F00001",
+      "generated_internal_id": "CONT_AWD_75N98026F00001_7529_75N98026D00048_7529",
+      "Recipient Name": "BIO-MEDICAL DEVICES INTERNATIONAL, INC.",
+      "Recipient UEI": "FHM7CK14DEY3",
+      "recipient_id": "0ee20c12-9e91-3d12-9ef3-203fd56079ca-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "National Institutes of Health",
+      "Awarding Sub Agency Code": "7529",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "National Institutes of Health",
+      "Start Date": "2026-07-07",
+      "Base Obligation Date": "2026-07-06",
+      "End Date": "2026-09-30",
+      "Award Amount": 451577.93,
+      "Total Outlays": 0.0,
+      "Description": "MAXAIR CAPR SYSTEMS AND COMPONENTS FOR ONGOING OPERATIONAL NEED TO SUPPORT THE LABORATORIES AND OFFICES ACROSS NIH TO SUSTAIN MISSION CRITICAL ACTIVITIES FOR PUBLIC HEALTH AND SAFETY, AND TO SUSTAIN ONGOING AGENCY MISSION CRITICAL RESEARCH.",
+      "Place of Performance State Code": "CA",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339112",
+        "description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-09-02 08:20:20",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 360631281,
+      "Award ID": "75N98026P01060",
+      "generated_internal_id": "CONT_AWD_75N98026P01060_7529_-NONE-_-NONE-",
+      "Recipient Name": "ADVANCED CELL DIAGNOSTICS, INC.",
+      "Recipient UEI": "UD6XW8DAGLK6",
+      "recipient_id": "49bf89c5-7b2b-a814-2e5b-5e7339cae89f-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "National Institutes of Health",
+      "Awarding Sub Agency Code": "7529",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "National Institutes of Health",
+      "Start Date": "2026-07-20",
+      "Base Obligation Date": "2026-07-20",
+      "End Date": "2027-01-20",
+      "Award Amount": 399800.0,
+      "Total Outlays": 0.0,
+      "Description": "NHLBI: SUPPLY: COMET PACKAGE: AUTOMATED SEQIF STAINER AND IMAGING SYSTEM FOR SPATIAL MULTIOMICS ANALYSIS",
+      "Place of Performance State Code": "CA",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "334516",
+        "description": "ANALYTICAL LABORATORY INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-08-10 09:56:59",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 360657971,
+      "Award ID": "75N98026F00245",
+      "generated_internal_id": "CONT_AWD_75N98026F00245_7529_GS07F175AA_4732",
+      "Recipient Name": "ALDEVRA LLC",
+      "Recipient UEI": "WF95AG13LN37",
+      "recipient_id": "76664dd4-0990-326f-0728-5f4499ed8c9c-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "National Institutes of Health",
+      "Awarding Sub Agency Code": "7529",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "National Institutes of Health",
+      "Start Date": "2026-07-17",
+      "Base Obligation Date": "2026-07-21",
+      "End Date": "2026-09-30",
+      "Award Amount": 367947.06,
+      "Total Outlays": 0.0,
+      "Description": "FOLLETT ICE AND WATER DISPENSERS",
+      "Place of Performance State Code": "MI",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "333318",
+        "description": "OTHER COMMERCIAL AND SERVICE INDUSTRY MACHINERY MANUFACTURING"
+      },
+      "Contract Award Type": "DELIVERY ORDER",
+      "Last Modified Date": "2026-07-21 07:47:59",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 361038016,
+      "Award ID": "75N98026P01100",
+      "generated_internal_id": "CONT_AWD_75N98026P01100_7529_-NONE-_-NONE-",
+      "Recipient Name": "CARDIODYNAMICS B.V.",
+      "Recipient UEI": "NBYKUK5N6VM4",
+      "recipient_id": "2d5eca30-dad5-f499-b601-8068c91ace6e-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "National Institutes of Health",
+      "Awarding Sub Agency Code": "7529",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "National Institutes of Health",
+      "Start Date": "2026-07-23",
+      "Base Obligation Date": "2026-07-23",
+      "End Date": "2026-10-23",
+      "Award Amount": 242357.0,
+      "Total Outlays": 0.0,
+      "Description": "NHLBI: SUPPLY: CD LEYCOM INCA PRESSURE VOLUME (PV) LOOP SYSTEMS: N/A",
+      "Place of Performance State Code": null,
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339112",
+        "description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-08-03 14:32:34",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 360055279,
+      "Award ID": "75N98026P00954",
+      "generated_internal_id": "CONT_AWD_75N98026P00954_7529_-NONE-_-NONE-",
+      "Recipient Name": "ADVANCED MECHANICAL TECHNOLOGY, INC.",
+      "Recipient UEI": "MG35UP27ERW6",
+      "recipient_id": "309bbbf7-c68f-796b-3f0b-3e558842d1b9-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "National Institutes of Health",
+      "Awarding Sub Agency Code": "7529",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "National Institutes of Health",
+      "Start Date": "2026-07-07",
+      "Base Obligation Date": "2026-07-06",
+      "End Date": "2026-09-30",
+      "Award Amount": 179900.0,
+      "Total Outlays": 0.0,
+      "Description": "ADVANCED MECHANICAL TECHNOLOGY INC:1125790 [26-005977]",
+      "Place of Performance State Code": "MA",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339112",
+        "description": "SURGICAL AND MEDICAL INSTRUMENT MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-07-06 07:59:34",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    },
+    {
+      "internal_id": 360874052,
+      "Award ID": "75H71326P00031",
+      "generated_internal_id": "CONT_AWD_75H71326P00031_7527_-NONE-_-NONE-",
+      "Recipient Name": "BIGHORN RIDGERUNNERS, LLC",
+      "Recipient UEI": "L773U1K5BJR3",
+      "recipient_id": "7006f23e-de98-8e1f-d49d-9cb6a9e73820-C",
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Agency Code": "075",
+      "Awarding Sub Agency": "Indian Health Service",
+      "Awarding Sub Agency Code": "7527",
+      "Funding Agency": "Department of Health and Human Services",
+      "Funding Sub Agency": "Indian Health Service",
+      "Start Date": "2026-07-28",
+      "Base Obligation Date": "2026-07-27",
+      "End Date": "2027-07-27",
+      "Award Amount": 100229.43,
+      "Total Outlays": 0.0,
+      "Description": "MEDICAL SUPPLIES FOR WESTERN OREGON SERVICE UNIT",
+      "Place of Performance State Code": "OR",
+      "PSC": {
+        "code": "6515",
+        "description": "MEDICAL AND SURGICAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES"
+      },
+      "NAICS": {
+        "code": "339113",
+        "description": "SURGICAL APPLIANCE AND SUPPLIES MANUFACTURING"
+      },
+      "Contract Award Type": "PURCHASE ORDER",
+      "Last Modified Date": "2026-07-27 16:48:08",
+      "awarding_agency_id": 806,
+      "agency_slug": "department-of-health-and-human-services"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": true,
+    "last_record_unique_id": 360874052,
+    "last_record_sort_value": "10022943"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ],
+  "limit": 10
+}

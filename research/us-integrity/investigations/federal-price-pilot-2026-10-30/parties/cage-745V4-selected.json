@@ -1,0 +1,19 @@
+{
+  "source_url": "https://cage.dla.mil/Search",
+  "query": "745V4",
+  "observed_on": "2026-10-30",
+  "selected_text": [
+    "745V4",
+    "XN9HKU6LUM59",
+    "DON INDUSTRIAL GROUP LLC"
+  ],
+  "result_links": [
+    {
+      "href": "/Search/Details?id=3945627",
+      "text": "Details"
+    }
+  ],
+  "scope": "Exact expected business identifier/name fields and result link only; no address, contacts, classifications or form/session values",
+  "expected_values_found": true,
+  "registration_status_verified": false
+}

@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.0",
+  "review_id": "SC-REVIEW-20261030-01",
+  "reviewed_on": "2026-10-30",
+  "reviewer": "single_case_challenge",
+  "decision": "accepted_for_limited_public_observations_not_fraud_finding",
+  "base_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "independence_scope": "Separate native agent lane from producers; not an agency, human or authenticated-user certification",
+  "reviewed_input_artifacts": [
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/REPORT.md",
+      "sha256": "075b209ec95c40d2dbbee8916d2c83fdc6099f8fb8658591c024d05c86fb4159",
+      "bytes": 5765
+    },
+    {
+      "path": "research/us-integrity/investigations/bolt-spec-followup-2026-10-30/export-packet.json",
+      "sha256": "631bc01edb433c7b47d7a23804aefc1240cb392bc18b415fe056658ad0289fcf",
+      "bytes": 4154
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/REPORT.md",
+      "sha256": "6c61c1559ea390fa8a0eabc5259799b609006af373f88f80778840a506041409",
+      "bytes": 11682
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/awards/observations.json",
+      "sha256": "90a2a69d999028899a86737857cac308e78633ab4963190e7c41b66550f7f22d",
+      "bytes": 16581
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/observations.json",
+      "sha256": "76c3978c4d9cff03bfcbbadc019fd27699761ef0b0833a8df3e065026f21b401",
+      "bytes": 3517
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/selected_manifest.json",
+      "sha256": "4cb576afaab6e73ec77b13c55f25b14c7946701033f2c21d94e5c2234e80a5eb",
+      "bytes": 2661
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/current/snapshots/parent-page5.txt",
+      "sha256": "e551d347f7dc7abe51e52351b6ea4dbaa70d97c88ebbeeb447e71f42aa26d9dd",
+      "bytes": 2638
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/benchmark_matrix.json",
+      "sha256": "950757e36f73f46cface12a7c3536aedd8ca856a37ffdfb6f23be2a6fd5410d5",
+      "bytes": 11540
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/sources.json",
+      "sha256": "277df83ab8f6610984ed80f39d07024e754bde0e58f953acdb8f51855afcbcec",
+      "bytes": 4649
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/market/spec-crosswalk.json",
+      "sha256": "eac94abc0f42f7c07766d650a282dd7a45972e99f97c03e705fcac45805cd81c",
+      "bytes": 7592
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/price-challenge/market_review.json",
+      "sha256": "4d5d78f0a2d1dde0440bdac3825191fc2db6779c2681c927a2aa19075f0eb585",
+      "bytes": 23084
+    },
+    {
+      "path": "research/us-integrity/investigations/dla-bolt-trace-2026-10-30/specification/archive-directory.json",
+      "sha256": "42652d47b841d5babe39bb6f4982e1a304c7328852098e7d53e436882d813114",
+      "bytes": 105208
+    },
+    {
+      "path": "research/us-integrity/investigations/dme-catheter-2026-10-29/REPORT.md",
+      "sha256": "1fc265b37317347630971118bd09ccd486c7ef3c153e329b74f795d7e1b071a4",
+      "bytes": 17089
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/REPORT.md",
+      "sha256": "366a10e2c65cbd5a7346e3af192c74367d566d4227dc9709811ae9308c43d9ab",
+      "bytes": 8995
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/acquire_dla_document.py",
+      "sha256": "31880aba76aaeed7d1a60fd21a94f00e6eef85213344149744345ec30e60a3f4",
+      "bytes": 3456
+    },
+    {
+      "path": "research/us-integrity/investigations/federal-price-pilot-2026-10-30/observations.json",
+      "sha256": "2909754680a7c46e425d14d49ceb0ab9fcf9dab1b8c359fa5d0af3b3879ff35f",
+      "bytes": 77100
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/REPORT.md",
+      "sha256": "078454ea18f36c2e543c5bc27cc3bf1ad7b080f4940c3f9659870624904d5519",
+      "bytes": 7836
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/RUN-LEDGER.md",
+      "sha256": "34c91e6ef8a6868f692d14cd8f1ee755d0499f02dffea3f7da3fddd37719e591",
+      "bytes": 3015
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/REPORT.md",
+      "sha256": "599449bf3c935517d0632a95dc58f5403afd4a26a48adab853c420b5b26a0ba0",
+      "bytes": 7154
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/VALIDATION.json",
+      "sha256": "34a1830d013841d2365ae99cdc6a2440a4de8d60fd93b34d7808f040a8abc62f",
+      "bytes": 1115
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/acquire_public_records.py",
+      "sha256": "1e0b8342a34eda02eb8bf9e17b4f34cc613d06835fa2267dc246c82c40d3a48e",
+      "bytes": 4800
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/acquisition-manifest.json",
+      "sha256": "10e25281f4aa04b3a537c431bb00c03ee953466d972e07fd5b7c09bef960aac8",
+      "bytes": 2798
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/acquisition-retry-manifest.json",
+      "sha256": "dfc19c248c992914f0562308358fc8fb4727f8307fbfa9497c9380e5c7037f1b",
+      "bytes": 3414
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/award-record-manifest.json",
+      "sha256": "91f147a036b8498ead5ca1efae2749e44495a33766a1c1a81e2321318e31e737",
+      "bytes": 1322
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/bundle-manifest.json",
+      "sha256": "db3bfa3c5512b54de72b798f01e1198f1fba8a0ea8d4b5602c002d0bfb31c131",
+      "bytes": 2543
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/failed-web-opens.json",
+      "sha256": "867996f50221caba0f9c7aaef04e765b530a26728625142609e2d89f71a31282",
+      "bytes": 483
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/observations.json",
+      "sha256": "4abc47405ee70e5f49230f6ffd7abc1b728e85b4bffeadb294af2a6c8e534e31",
+      "bytes": 3215
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/prior-inputs.json",
+      "sha256": "a8639f1859b1291cc72465ab3007430fd82127bc1a5142ef98af4a042c0d8d3a",
+      "bytes": 886
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/query-log.json",
+      "sha256": "e5397fce7b28ecae856f6ac4745af117617bd4d633e584e0d264158cf45fb320",
+      "bytes": 3712
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/selected/current-award-record.json",
+      "sha256": "25e26fe9dea45b76976730a3456b4af2f0c8c310f981d9b8d59b5e452f6ea35d",
+      "bytes": 1191
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/selected/current-rfq-record.json",
+      "sha256": "ab0e533587aa2ede7e856f553a4dd47718d03807e3430713cf3aead89e0c82f6",
+      "bytes": 1682
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/selected/latest-historical-missing-document.txt",
+      "sha256": "9cadcc4508a0e496d2fe505ac50cfc313921bfa5269dec7ea4c3ac94b7e09bcf",
+      "bytes": 258
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/selected/parent-page3-h06.txt",
+      "sha256": "16e68975b9be9a07df2f99dddd5ffb5938e170f4577d09a84ce7c962274608e4",
+      "bytes": 1804
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/bids/selected-manifest.json",
+      "sha256": "36f584ec3881f29a0207638c6cc524f29a43b1bc8bb75a868737a52a5e4ccf1b",
+      "bytes": 2840
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/coordinator-source-log.json",
+      "sha256": "3194725f3a231915cf34ffe4ad0795840b5e4080ff03a54dd0380141cd19d3d1",
+      "bytes": 2559
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/history/REPORT.md",
+      "sha256": "b375310605d6226efe0a689b2b1f3c8ee95f29a9b8b0b24cefdb644bfc870f52",
+      "bytes": 2087
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/history/acquire_history.py",
+      "sha256": "1daba6726270994e7a228545375a722dd6302ab94b8655f19d764b055416db1e",
+      "bytes": 5017
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/history/acquisition.json",
+      "sha256": "a5323c72f848432581ffde00d2b60992353cc3f2ff453d90e2d0d8b839588fac",
+      "bytes": 2950
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/history/additional-route-checks.json",
+      "sha256": "dc55331324c4c63933904a22031fa3477a9a210996eb2fcfaf0a98408a451c8c",
+      "bytes": 787
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/hypothesis-decisions.json",
+      "sha256": "3dc3802da8a950628b8d0cb03cd342cd56900388c9e592a49fdfc172a84cfd16",
+      "bytes": 3210
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/market-terms/REPORT.md",
+      "sha256": "07293664002fc775512c87d80a2df58391d38383f2c94f4017367a5b1c76b7b0",
+      "bytes": 6746
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/market-terms/VALIDATION.json",
+      "sha256": "9c3693305e315f313d255b93eddfd623ca763f3d161475f8e4c83b8f9d48b2d5",
+      "bytes": 726
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/market-terms/manifest.json",
+      "sha256": "672ff8775569aadcfbd7b9b2e9f7850e7d09e370faf9e8664c5a4903ff595bb4",
+      "bytes": 1023
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/market-terms/observations.json",
+      "sha256": "7556e452fb2b6034523fdad602c08256d8f7ae1e60e9ac13430066959681de47",
+      "bytes": 8389
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/market-terms/prior-inputs.json",
+      "sha256": "0388163e6aef12c90abffa19a06fb7c8e6dabe2e876bb310f4b34d340b4f0202",
+      "bytes": 1102
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/market-terms/request-ledger.json",
+      "sha256": "e252ddcba0755ed57176282f1c9854f7c435788255d811fafe57f9fe42e9ee46",
+      "bytes": 3379
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/market-terms/sources.json",
+      "sha256": "686af2b6fa42362c1b0c2100878c70e7f804a96cd74ec1e37631caa5d7fb3ffc",
+      "bytes": 6674
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/REPORT.md",
+      "sha256": "ad8c0edcf00129b5cc6ad35f09b8668a06a85ead44b1c2eeffc00b4516c7384a",
+      "bytes": 9197
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/independent-rechecks.json",
+      "sha256": "a4243704cab401ce544c104886b084db0d74af69d175218b925d06a88ae984d4",
+      "bytes": 5836
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/verification.json",
+      "sha256": "fb999c5141602ae0343a34bc32cfd59fa2777d0a93e2be3577da13987bb92425",
+      "bytes": 999
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/verify_case.py",
+      "sha256": "78a0c689cfcfc6782bf5c13a88e19a85934f58f268fcd664dfedba08051c6a99",
+      "bytes": 8704
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/selection/REPORT.md",
+      "sha256": "1026036f6721ea4fc08cc2f9a685181d7dce49af76fdca75801c85d258448a0f",
+      "bytes": 7671
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/selection/VALIDATION.json",
+      "sha256": "064fafcc8f66b17741e118ce240e1f16eb537baeda89e520c252ad84b5a47fe2",
+      "bytes": 930
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/selection/decision.json",
+      "sha256": "3824831477a3052feb85c4de9d68db51b843f62e6c95abd11054c08b52656577",
+      "bytes": 3470
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/selection/inputs.json",
+      "sha256": "b06e3386ad89da64b12608754e11f7c6f0bfed0cd34c1b96c3e8a69aefbba67f",
+      "bytes": 1141
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/selection/query_log.json",
+      "sha256": "efe441e5ba15e58398e4529d532d47d9a47cc41089dd2748a5164df11f018dfa",
+      "bytes": 2372
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/selection/sources.json",
+      "sha256": "ffcfbee5a68feffae319c41d40688c13cd02376d0924e165543c9b6bf10c9493",
+      "bytes": 4362
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/REPORT.md",
+      "sha256": "9cc39cc5245300cfe4f0581e97956d15c3ab8dba15057a594d56786c60819d9d",
+      "bytes": 4982
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/VALIDATION.json",
+      "sha256": "3b2d7e02467d139596c3cac96a6946c3c45def165f808ca2635490ecd36e8a7c",
+      "bytes": 2346
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/archive-change-inspection.json",
+      "sha256": "cbf673493c31e1ec30e56629b8739a5e08d0acc3e36fd5f425b0b9130c03abcf",
+      "bytes": 2414
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/archive-static-inspection.json",
+      "sha256": "ae6bba6aa2dbc65397997f0bb42ac3ad80888fcda4b7cedf6ddc672d1ae5f911",
+      "bytes": 3368
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/prior-inputs.json",
+      "sha256": "325d7d50a9b048e0b3ff76034a114eb97e5d4fd1630b66cd543d762034f10477",
+      "bytes": 1070
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/qualification.json",
+      "sha256": "8eac0b830e563960425c71db63b222d2b26d1875e4e553e38895b99fc6294769",
+      "bytes": 2061
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/query_log.json",
+      "sha256": "82608a33439feabe8a9030d932e923e377f9690b9df4bd1ee085d7c270d2280d",
+      "bytes": 3130
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/selected/imd-target-tables.txt",
+      "sha256": "f594c9554ee4d8f156bc951317da4d9ee457bb4807af9b7b36c479d195666b1e",
+      "bytes": 38
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/selected/release-label.txt",
+      "sha256": "883bcbd92d17b2da90f1f96d0516380981405923579dd21215fd01dc9695aede",
+      "bytes": 111
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/selected/schema-target-tables.txt",
+      "sha256": "783878015133e52f6086a88427305037763fca949bdb79a91181b08675143895",
+      "bytes": 384
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/sources.json",
+      "sha256": "3c85b44410b1a18e0875827e283a657e7bf7cf469358fc7bcafc2c1cee1414b0",
+      "bytes": 3909
+    },
+    {
+      "path": "research/us-integrity/investigations/single-case-followup-2026-10-30/spec/tdmt-access.json",
+      "sha256": "e96952baaf76a0611d7c997231ab80022cb3ebeab831a0d001ac6d45914db593",
+      "bytes": 1693
+    },
+    {
+      "path": "research/us-integrity/price-agents/plans/claude-supplemental-assignment.json",
+      "sha256": "3a2a78d113598bd829fd99c6a3698722e9e8154f908c7a3b56f08b55f977eefd",
+      "bytes": 2826
+    }
+  ],
+  "hash_scope": "Exact retained file bytes; web selections are researcher-authored facts unless expressly identified as original bytes. No independent download is inferred from a hash.",
+  "case_disposition": {
+    "nsn": "5306016864912",
+    "status": "unqualified_price_screen_pending_specific_records",
+    "nationwide_fraud_probability_rank": null,
+    "qualified_comparators": 0,
+    "actual_competing_quotes": 0,
+    "actual_payment_verified": false,
+    "buyer_benefit": null,
+    "price_premium": null,
+    "recoverable_loss": null,
+    "new_fraud_established": false,
+    "fair_pricing_established": false,
+    "next_record": "Exact releasable technical package or authoritative NIIN export; then feasible dated equivalent offer and actual evaluation record."
+  },
+  "accepted_scope": [
+    "Explicit MF advertised1100-box quantity and lower Nationwide advertised1100-carton price, with date/terms/independence limits.",
+    "Original RFQ-to-award-to-document links and narrowly selected public office/status fields.",
+    "H06 estimated annual demand evaluation and separate order-quantity pricing rule.",
+    "Archive metadata, native schema and release-label observations without technical equivalence.",
+    "TDMT application-shell receipt without technical document acquisition or inferred distribution status.",
+    "Failed historical routes without absence or concealment inference.",
+    "Full-carton counterfactual arithmetic without converting it to cost, profit, overcharge or loss.",
+    "National estimate scopes remain separate and nonadditive; selected procurement has no attributed national loss."
+  ],
+  "independent_checks": {
+    "offline_verification": {
+      "schema_version": "1.0",
+      "checked_on": "2026-10-30",
+      "status": "passed_scoped_consistency_checks",
+      "producer_manifest_pin_counts": {
+        "bids": 15,
+        "market-terms": 6,
+        "spec": 11,
+        "selection": 5
+      },
+      "prior_input_pins_checked_with_repeats": 19,
+      "bids_selected_artifact_hashes_verified": 4,
+      "spec_selected_artifact_hashes_verified": 3,
+      "declared_archive_range_bytes_reconciled": 10412003,
+      "independent_fraction_checks": {
+        "full_carton_scenarios": 4,
+        "counterfactual_allowances": 2
+      },
+      "negative_controls_rejected": [
+        "premature_qualified_comparator",
+        "premature_government_equivalence",
+        "claimed_loss_from_catalog",
+        "fractional_carton_for_906",
+        "round_down_annual_cartons",
+        "nominal_stock_treated_reserved"
+      ],
+      "qualified_benchmarks": 0,
+      "network_requests": 0,
+      "scope_limit": "Checks retained records and exact arithmetic; does not reauthenticate original pages, independence, technical equivalence or source completeness."
+    },
+    "source_rechecks_path": "research/us-integrity/investigations/single-case-followup-2026-10-30/review/independent-rechecks.json",
+    "web_read_operations": 6,
+    "usable_web_read_operations": 4,
+    "failed_web_read_operations": 2,
+    "local_original_html_bodies_checked": 2,
+    "local_original_parent_pdf_checked": 1,
+    "history_output_guard_negative_controls": 2
+  },
+  "review_history": [
+    {
+      "finding": "Reviewer initially interpreted one repository-relative prior-input path as research-relative",
+      "classification": "reviewer_script_error_not_evidence_defect",
+      "resolution": "Explicit research/us-integrity prefix now selects repository root; final replay passes."
+    },
+    {
+      "finding": "Historical helper documentation promised outside-repository fresh source storage before that restriction was enforced",
+      "classification": "producer_code_documentation_mismatch",
+      "actual_incident": "None: original bounded run acquired zero PDFs",
+      "resolution": "Root enforced resolved outside-repository path and fresh directory, plus exclusive PDF writes; two independent invalid-argument checks reject before network."
+    }
+  ],
+  "known_limits": [
+    "Failed MF product and Kanebridge catalog reopens mean stock7boxes/328.91price/Canada-origin observations are not independently re-fetched by this reviewer.",
+    "Original archive range/member bodies are not retained publicly; selected hashes and recorded byte totals checked, but original CRCs were not independently recomputed by this reviewer.",
+    "No exact NSN-to-commercial-item bridge, executable award-date offer, bid abstract, price decision, cash or benefit record was acquired.",
+    "Market scenarios are explicitly counterfactual; similarly named or referenced items are not proven equivalents.",
+    "No aggregate estimate establishes an individual actor did wrong or that this case is unknown to authorities.",
+    "A supported unresolved result is accepted; repeated broad seller searching without a new technical or decision source is not a valid escalation."
+  ],
+  "root_prose_review": "REPORT, RUN-LEDGER, hypothesis decisions and coordinator source log read; scope and unresolved states agree with acquired evidence.",
+  "public_export_scope": "Selected public business/transaction evidence only; original contact-bearing documents remain outside public artifacts.",
+  "not_in_this_receipt": [
+    "Future graph projection and approval registry",
+    "Global navigation and generated outputs",
+    "New source acquisitions or external submissions",
+    "Continuous or outside-model execution"
+  ],
+  "blockers": []
+}

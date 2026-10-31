@@ -1,0 +1,59 @@
+{
+  "as_of": "2026-10-30",
+  "passed": true,
+  "source_sha256": "4a3996d9aca0fac0b32ea1cebfe8833fdbb144de33dc0af2739d0269b037ac51",
+  "source_id": "BR-S01",
+  "visual_pages_reviewed": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "separate_text_pages_reviewed": [
+    2,
+    7,
+    8,
+    9,
+    10
+  ],
+  "history_rows_verified": 7,
+  "current_quote_prices_blank": true,
+  "historical_unknown_fields": [
+    "historical_unit_of_issue",
+    "historical_pack_quantity",
+    "historical_revision",
+    "historical_delivery_terms",
+    "historical_nonrecurring_costs",
+    "currency_explicit_in_history_table"
+  ],
+  "all_seven_printed_costs_decline_in_chronological_order": true,
+  "same_cage_descriptive_changes": [
+    {
+      "cage": "6ZF42",
+      "earlier_contract": "SPE4A625V208Q",
+      "later_contract": "SPE4A626V138W",
+      "quantity_change_percent": "156.78",
+      "printed_cost_change_percent": "-20.51",
+      "meaning": "Unadjusted descriptive change only; neither supplier identity at award nor economic comparability is authenticated by this calculation"
+    },
+    {
+      "cage": "8A1E8",
+      "earlier_contract": "SPE4A625V4508",
+      "later_contract": "SPE4A625V252D",
+      "quantity_change_percent": "24.07",
+      "printed_cost_change_percent": "-42.71",
+      "meaning": "Unadjusted descriptive change only; neither supplier identity at award nor economic comparability is authenticated by this calculation"
+    }
+  ],
+  "secondary_display_arithmetic": {
+    "formula": "350000 / 2221",
+    "rounded_to_four_decimals": "157.5867",
+    "interpretation": "Matches secondary displayed 157.5867; invalid as purchased unit price because source values are ceiling and non-firm estimated quantity",
+    "secondary_site_internal_calculation_verified": false
+  },
+  "historical_terms_verified": false,
+  "paid_price_verified": false,
+  "new_fraud_finding": false,
+  "savings_calculated": false,
+  "parser_warning": "Syntax Error: Can't get Fields array<0a>"
+}

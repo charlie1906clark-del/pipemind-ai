@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-10-30",
+  "derivation": "pdftotext -layout page selection and pdftoppm -scale-to 1600 PNG; original PDFs obtained through ordinary public consent",
+  "source_byte_policy": "Original PDFs retained locally but excluded from public Git. Raw source download hashes and public URLs retained; selected text/render hashes cover only named artifacts.",
+  "records": [
+    {
+      "source_id": "BOLT-CUR-S01",
+      "file": "SPE4A626D61WS.pdf",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+      "date": "2026-09-17",
+      "pages": [
+        2,
+        5
+      ],
+      "original_pdf_sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0",
+      "original_pdf_bytes": 496971,
+      "original_pdf_archived_in_public_repo": false,
+      "selection_reason": "Retain relevant contract terms and line evidence without supplier street/contact fields.",
+      "selected_artifacts": [
+        {
+          "path": "snapshots/parent-page2.txt",
+          "sha256": "c8f6e28f60445d082a740cf1ba7f3403c16b2a49a8abccffe6c0eff28757f531",
+          "hash_scope": "derived_selected_pdftotext_layout_page"
+        },
+        {
+          "path": "snapshots/parent-page5.txt",
+          "sha256": "e551d347f7dc7abe51e52351b6ea4dbaa70d97c88ebbeeb447e71f42aa26d9dd",
+          "hash_scope": "derived_selected_pdftotext_layout_page"
+        },
+        {
+          "path": "snapshots/parent-page5.png",
+          "sha256": "ce430b0c8c817413c39128fde086ede9b24d64b9b1d352804d163c2aa8778619",
+          "hash_scope": "derived_selected_rendered_page"
+        }
+      ]
+    },
+    {
+      "source_id": "BOLT-CUR-S02",
+      "file": "SPE4A626D61WSSPE4A627F0588.pdf",
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/19OCT26/SPE4A626D61WSSPE4A627F0588.PDF",
+      "date": "2026-10-19",
+      "pages": [
+        2
+      ],
+      "original_pdf_sha256": "3360e103d973fd70d38d2baebc1aa47644cd3806822bc8393fb5db99bcbbc4ef",
+      "original_pdf_bytes": 263226,
+      "original_pdf_archived_in_public_repo": false,
+      "selection_reason": "Retain relevant contract terms and line evidence without supplier street/contact fields.",
+      "selected_artifacts": [
+        {
+          "path": "snapshots/order-page2.txt",
+          "sha256": "34f802ee0b549dba5eea5d63fecb96f7593d16466aca2a6f47334a5a5d49ebea",
+          "hash_scope": "derived_selected_pdftotext_layout_page"
+        },
+        {
+          "path": "snapshots/order-page2.png",
+          "sha256": "11db614549c5f1292c6d2471eec904f4285a5ba967aa5e8f5af52777e0d5a5cb",
+          "hash_scope": "derived_selected_rendered_page"
+        }
+      ]
+    }
+  ]
+}

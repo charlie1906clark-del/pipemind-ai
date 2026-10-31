@@ -1,0 +1,19 @@
+{
+  "source_url": "https://cage.dla.mil/Search",
+  "query": "27624",
+  "observed_on": "2026-10-30",
+  "selected_text": [
+    "27624",
+    "E6KFWWNKEQ49",
+    "SPS TECHNOLOGIES LLC"
+  ],
+  "result_links": [
+    {
+      "href": "/Search/Details?id=538986",
+      "text": "Details"
+    }
+  ],
+  "scope": "Exact expected business identifier/name fields and result link only; no address, contacts, classifications or form/session values",
+  "expected_values_found": true,
+  "registration_status_verified": false
+}

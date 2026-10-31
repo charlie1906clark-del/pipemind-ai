@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-10-30",
+  "input_file_pins_verified": 5,
+  "official_pages_opened": 7,
+  "search_queries": 5,
+  "source_bytes_archived": false,
+  "relative_report_links": "passed",
+  "json_parsing": "passed",
+  "retained_pilot_counts": {
+    "awards": 30,
+    "awards_with_original_priced_lines": 1,
+    "awards_without_original_priced_lines": 29,
+    "express_reports": 5
+  },
+  "selection_is_fraud_probability": false,
+  "new_fraud_established": false,
+  "artifact_hashes": {
+    "REPORT.md": "1026036f6721ea4fc08cc2f9a685181d7dce49af76fdca75801c85d258448a0f",
+    "decision.json": "3824831477a3052feb85c4de9d68db51b843f62e6c95abd11054c08b52656577",
+    "inputs.json": "b06e3386ad89da64b12608754e11f7c6f0bfed0cd34c1b96c3e8a69aefbba67f",
+    "query_log.json": "efe441e5ba15e58398e4529d532d47d9a47cc41089dd2748a5164df11f018dfa",
+    "sources.json": "ffcfbee5a68feffae319c41d40688c13cd02376d0924e165543c9b6bf10c9493"
+  }
+}

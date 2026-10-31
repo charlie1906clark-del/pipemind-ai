@@ -1,0 +1,26 @@
+{
+  "contract": "SPE4A626PW775",
+  "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+  "url_derivation": "Known award date formatted DDMMMYY and exact PIID, using observed public DIBBS award-document route; unconfirmed posting-date component",
+  "retrieved_at_utc": "2026-10-30T12:28:29.392645+00:00",
+  "requests": [
+    {
+      "method": "GET",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF"
+    },
+    {
+      "method": "POST public notice consent",
+      "status": 200,
+      "content_type": "application/pdf; charset=ISO-8859-1",
+      "final_url": "https://dibbs2.bsm.dla.mil/dodwarning.aspx?goto=%2fdownloads%2fawards%2f09jul26%2fspe4a626pw775.pdf"
+    }
+  ],
+  "hidden_form_values_retained": false,
+  "snapshot": "SPE4A626PW775.pdf",
+  "snapshot_sha256": "737e8d1eb1b78d2d8a9d02ec81dc49d9a0e56182b7f0aceb48f2e61fb88a3759",
+  "bytes": 88522,
+  "result": "pdf_acquired",
+  "original_pdf_archived_in_public_repo": false
+}

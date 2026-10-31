@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "DEMO-PRICE-WORKFLOW-V1",
+  "base_commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "evidence_mode": "synthetic",
+  "tasks": [
+    {
+      "id": "DEMO-SPEC",
+      "title": "Resolve mock specification",
+      "agent_role": "Technical equivalence auditor",
+      "question": "Can the exact missing mock record be obtained?",
+      "scope": {
+        "data": "synthetic workflow only; no government transaction"
+      },
+      "depends_on": [],
+      "allowed_source_hosts": [
+        "example.invalid"
+      ],
+      "max_attempts": 3,
+      "max_evidence": 3,
+      "max_reopens": 1
+    },
+    {
+      "id": "DEMO-PRICE",
+      "title": "Check mock comparison gates",
+      "agent_role": "Technical equivalence auditor",
+      "question": "Can the exact missing mock record be obtained?",
+      "scope": {
+        "data": "synthetic workflow only; no government transaction"
+      },
+      "depends_on": [
+        "DEMO-SPEC"
+      ],
+      "allowed_source_hosts": [
+        "example.invalid"
+      ],
+      "max_attempts": 3,
+      "max_evidence": 3,
+      "max_reopens": 1
+    }
+  ]
+}

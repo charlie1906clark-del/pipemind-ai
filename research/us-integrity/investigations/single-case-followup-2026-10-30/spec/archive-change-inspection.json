@@ -1,0 +1,83 @@
+{
+  "member": "CHANGES/NIIN.zip",
+  "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+  "observed_at": "2026-10-30T13:18:47.234488+00:00",
+  "requested_range": "bytes=14647107-25051519",
+  "method": "GET",
+  "scope": "Static inspection of published NIIN-change archive; no executable or full base catalog run",
+  "body_archived": false,
+  "status": 206,
+  "content_range": "bytes 14647107-25051519/1617404308",
+  "range_bytes": 10404413,
+  "range_sha256": "72e2c62b4e54dd8fcab99b5b7f7e7abab468c9a20a4e340b9f028f689fbf9914",
+  "member_bytes": 11667597,
+  "member_sha256": "658c78083920ac51202fafc59222d81bc589235bb3a3ba97dd3a9c1115208989",
+  "crc_matches_prior_directory": true,
+  "inner_entries": [
+    {
+      "name": "IMD/TabDB/PUB_LOG/Temp/niin.add",
+      "compressed_bytes": 34536,
+      "bytes": 172086,
+      "crc32": "284e2072"
+    },
+    {
+      "name": "IMD/TabDB/PUB_LOG/Temp/niin.chg",
+      "compressed_bytes": 11632115,
+      "bytes": 53049953,
+      "crc32": "c597bfb4"
+    },
+    {
+      "name": "IMD/TabDB/PUB_LOG/Temp/niin.del",
+      "compressed_bytes": 0,
+      "bytes": 0,
+      "crc32": "00000000"
+    }
+  ],
+  "success": true,
+  "static_scan": [
+    {
+      "name": "IMD/TabDB/PUB_LOG/Temp/niin.add",
+      "exact_ascii_positions": [
+        [
+          "016864912",
+          -1
+        ],
+        [
+          "5306016864912",
+          -1
+        ],
+        [
+          "AEB02F375750WA6DG1",
+          -1
+        ]
+      ],
+      "note": "Absence of a byte string in change data does not establish absence in base catalog."
+    },
+    {
+      "name": "IMD/TabDB/PUB_LOG/Temp/niin.del",
+      "exact_ascii_positions": [
+        [
+          "016864912",
+          -1
+        ],
+        [
+          "5306016864912",
+          -1
+        ],
+        [
+          "AEB02F375750WA6DG1",
+          -1
+        ]
+      ],
+      "note": "Absence of a byte string in change data does not establish absence in base catalog."
+    }
+  ],
+  "skipped_inner_members": [
+    {
+      "name": "IMD/TabDB/PUB_LOG/Temp/niin.chg",
+      "declared_uncompressed_bytes": 53049953,
+      "reason": "Not decompressed: exceeds the chosen 20MB per-member static-inspection limit. No statement about target presence in this member."
+    }
+  ],
+  "inference_limit": "No base catalog record or technical specification is established by the inspected add/delete lists or nested archive directory."
+}

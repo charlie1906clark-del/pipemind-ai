@@ -1,0 +1,70 @@
+{
+  "id": "MKT-FSS-191377",
+  "source_id": "MKT-SRC-FSS",
+  "observed_date": "2026-10-30",
+  "source_capture_kind": "structured_factual_extract_from_opened_page",
+  "original_html_archived": false,
+  "seller": "Fastener SuperStore",
+  "sku": "191377",
+  "specifications": {
+    "diameter_in": 0.375,
+    "threads_per_inch": 24,
+    "length_in": 0.75,
+    "head_style": "hex",
+    "grade": "8",
+    "material": "steel",
+    "finish": "yellow zinc",
+    "nsn_crosswalk_primary": false,
+    "thread_series": "fine/UNF suggested by 3/8-24; not universally explicit",
+    "thread_class": null,
+    "thread_direction": null,
+    "finish_standard": null,
+    "finish_thickness": null,
+    "country_of_manufacture": null,
+    "government_packaging_compliance": null,
+    "lot_traceability_included": null,
+    "certification_included": null,
+    "full_thread": true,
+    "width_across_flats_in": 0.5625,
+    "dimensional_standard": "ASME B18.2.1-2012 via generic linked specification"
+  },
+  "price": {
+    "currency_display": "$",
+    "currency_interpretation": "USD inferred from US merchant; ISO currency not explicit",
+    "selling_uom": "carton",
+    "pack_quantity": 1100,
+    "tiers": [
+      {
+        "minimum_cartons": 1,
+        "maximum_cartons": 2,
+        "price_per_carton": "342.62",
+        "displayed_unit_price": "0.31147",
+        "normalized_unit_price": "0.3114727272727273"
+      },
+      {
+        "minimum_cartons": 3,
+        "maximum_cartons": 4,
+        "price_per_carton": "322.47",
+        "displayed_unit_price": "0.29315",
+        "normalized_unit_price": "0.2931545454545455"
+      },
+      {
+        "minimum_cartons": 5,
+        "maximum_cartons": null,
+        "price_per_carton": "304.55",
+        "displayed_unit_price": "0.27686",
+        "normalized_unit_price": "0.2768636363636364"
+      }
+    ],
+    "freight_included": false,
+    "tax_included": null,
+    "price_as_of": "2026-10-30",
+    "publication_date": null
+  },
+  "availability": {
+    "available_units": null,
+    "item_specific": false,
+    "generic_site_statement": "More than98% of listed items immediately available; not a stock confirmation for this SKU."
+  },
+  "offer_status": "posted_bulk_catalog_offer_not_accepted_quote"
+}

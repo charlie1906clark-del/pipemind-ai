@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "SC-SELECT-20261030-01",
+  "as_of": "2026-10-30",
+  "base_commit": "9238fe6743be83e731cfb40f6481a096bc7208ca",
+  "selection_scope": "Retained research corpus; evidence availability and discriminating next step, not nationwide fraud probability",
+  "selected_case": {
+    "case_id": "SC-NSN5306016864912",
+    "nsn": "5306016864912",
+    "parent_piid": "SPE4A626D61WS",
+    "order_piid": "SPE4A627F0588",
+    "ordered_quantity": 906,
+    "ordered_unit": "EA",
+    "ordered_unit_price_usd": "0.91",
+    "ordered_value_usd": "824.46",
+    "paid_cash_verified": false,
+    "qualified_benchmarks": 0,
+    "fraud_probability": null,
+    "price_excess": null,
+    "buyer_benefit": null,
+    "recoverable_loss": null,
+    "new_or_undiscovered_fraud_established": false,
+    "reason": "Original ordered line and provisional seller-priced products offer a falsifiable comparison; primary technical/terms match remains unresolved.",
+    "shared_upstream_warning": "Fastener SuperStore and MF Supply both show3812CH8O; independent upstream pricing is unverified.",
+    "excluded_benchmark": "Cox test-site/insufficient listed stock."
+  },
+  "alternatives_reviewed": [
+    {
+      "id": "NSN5306004457358",
+      "decision": "defer",
+      "reason": "Specialty item and separate first-article test; zero acquired independent priced equivalent."
+    },
+    {
+      "id": "OTHER29-PILOT-AWARDS",
+      "decision": "defer",
+      "reason": "No original pricedlines acquired; cumulative award amounts do not establish price anomaly."
+    },
+    {
+      "id": "CENTENNIAL-GOLD-RUSH",
+      "decision": "calibration_only_for_new_case_goal",
+      "reason": "Existing publicly investigated/charged matter, not this project discovering a new case."
+    }
+  ],
+  "prohibited_inferences": [
+    "National estimate allocated to selected order",
+    "Order value treated as paid or fraudulent",
+    "High price alone establishes collusion",
+    "Two seller websites establish independent upstream prices",
+    "Offer count or form signatory establishes buyer independence",
+    "Missing records prove concealment",
+    "No published enforcement hit proves undiscovered status"
+  ],
+  "next_evidence_gates": [
+    "Applicable primary NIIN characteristics/reference relationship",
+    "Dated feasible equivalent independent price with full supply terms",
+    "Actual bid/price-reasonableness decision",
+    "Separate source-supported influence/benefit, invoice and payment evidence"
+  ],
+  "national_figure_interpretation": {
+    "likely_200b_reference": "SC-SEL-SBA-OCT2026",
+    "user_original_source_provided": false,
+    "exact_user_reference_confirmed": false,
+    "government_wide_missing_cash_balance_verified": false,
+    "measures_additive": false
+  },
+  "working_hypothesis": "A persistent unexplained comparable-price premium could warrant separate decision/benefit investigation; none has yet been established.",
+  "ordinary_alternatives": [
+    "Technical or quality mismatch",
+    "Different packs, quantities or availability",
+    "Certification, inspection, marking or delivery obligations",
+    "Legitimate distribution/inventory/contract costs",
+    "Wrong time or amount basis"
+  ],
+  "stop_reopen_rule": "Preserve unresolved gates; resume on a new relevant record or source route. Reject disproved benchmarks. Do not tune sources/tolerances until a target12percent appears.",
+  "external_contact_or_submission_authorized": false
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "SC-SPEC-PARENT",
+    "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+    "kind": "original_contract_selected_text_reused",
+    "locator": "page5, SECTIONB and PART PIECE NUMBER field",
+    "depth": "Previously retained selected page reused; no redownload",
+    "claim": "ExactNSN/ASMEreference established; partfieldblank",
+    "artifact": "../../dla-bolt-trace-2026-10-30/current/snapshots/parent-page5.txt"
+  },
+  {
+    "id": "SC-SPEC-ASME-PRODUCT",
+    "url": "https://www.asme.org/codes-standards/find-codes-standards/b18-24-part-identifying-number-code-system-standard-b18-fastener-products/2020/pdf",
+    "kind": "standards_body_primary",
+    "observed_on": "2026-10-30",
+    "depth": "Webopen succeeded, title selectsB18.24-2023 despitepath/2020/pdf",
+    "locator": "Description paragraphs and edition heading",
+    "claim": "PIN identification is distinct from availability and controlled by applicable product standard",
+    "web_ref": "turn280view0",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "SC-SPEC-ASME-PREVIEW",
+    "url": "https://www.asme.org/getmedia/a4338640-c127-46a5-b1cd-a853b794c4c2/B18-24_2023_ToC.pdf",
+    "kind": "standards_body_primary_preview",
+    "observed_on": "2026-10-30",
+    "depth": "Webopen succeeded9pages; originalbytesnotarchived",
+    "locator": "PDFpage3 issue date; PDFpage4 contents",
+    "claim": "Issue date16October2023 matches contractreference; neededPINtablesnotcontained",
+    "web_ref": "turn280view1",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "SC-SPEC-PUBLOG-SCHEMA",
+    "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+    "kind": "official_public_archive_member",
+    "depth": "ThreeboundedrangeGETs; exactmemberlength/CRCmatched retained centraldirectory",
+    "locator": "IMD.LST,TOOLS/SCHEMA.TXT,RELNOTES.TXT",
+    "claim": "Targettables andnativefieldnames verified; leadingrelease-labelNovember2026",
+    "manifest": "archive-static-inspection.json",
+    "exact_niin_record_acquired": false
+  },
+  {
+    "id": "SC-SPEC-PUBLOG-CHANGES",
+    "url": "https://publogstorage.blob.core.windows.net/publog/PublogDVD.zip",
+    "kind": "official_public_archive_member",
+    "depth": "OneboundedrangeGET; innerdirectoryandadd/deletebyte scans; change membernotdecompressed",
+    "locator": "CHANGES/NIIN.zip",
+    "claim": "Nestedmemberstructure only; no exact technicalcrosswalk",
+    "manifest": "archive-change-inspection.json",
+    "exact_niin_record_acquired": false
+  },
+  {
+    "id": "SC-SPEC-TDMT",
+    "url": "https://tdmt.dla.mil/tdmt/Client/?StartItem=DSP_TDP_Acquisition_Doc%3AbySolicitation%3ASPE4A626U3619",
+    "kind": "official_original_rfq_attachment_link",
+    "depth": "Webopen inaccessible; ordinaryGET200 application shellonly",
+    "locator": "StartItemquery andmatchingclientsetup_query",
+    "claim": "Exactsolicitationroute isknown; TDPcontentnotacquired",
+    "manifest": "tdmt-access.json",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "SC-SPEC-TDMT-ACCESS",
+    "url": "https://www.dla.mil/Working-With-DLA/Applications/Details/Article/4567728/tdmt-technical-data-management-transformation/",
+    "kind": "official_access_guidance",
+    "depth": "Officialindexedtext; directwebopen403",
+    "locator": "TDMTInformation andAccessingTDMT",
+    "claim": "DLA states22June2026phase1transition; commercial/non-government accessrequiresAMPSandOktaMFA",
+    "web_search_ref": "turn291search0",
+    "web_open_ref": "turn292view0",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "SC-SPEC-READINGROOM",
+    "url": "https://www.dla.mil/Information-Operations/FLIS-Data-Electronic-Reading-Room/",
+    "kind": "official_route_failure",
+    "depth": "Directwebopen403",
+    "claim": "No targetrecord acquired; recordexistencecannotbeinferred",
+    "web_ref": "turn281view0",
+    "original_bytes_archived": false
+  }
+]

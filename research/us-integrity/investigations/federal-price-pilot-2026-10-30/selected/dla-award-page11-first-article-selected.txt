@@ -1,0 +1,15 @@
+[Selected source page11 passages, with explicit address omission; paragraphs (c)-(d),(f)-(i) omitted]
+52.209-4 FIRST ARTICLE APPROVAL - GOVERNMENT TESTING (DEVIATION 2026-O0038) (FEB 2026) FAR
+As prescribed in 9.308-2 (a) and (b), insert the following clause:
+[Contracting Officer inserts details]
+(a) The Contractor shall deliver 2 unit(s) of Lot/Item 5306004457358 within 400 calendar days from the date of this contract to the Government at [testing facility location and street-address block omitted] for first article tests. The shipping documentation shall contain this contract number and the Lot/Item identification.
+This contract elsewhere specifies the characteristics that the first article must meet and the testing requirements.
+(b) Within 180 calendar days after the Government receives the first article, the Contracting Officer will notify the Contractor, in writing, of the conditional
+approval, approval, or disapproval of the first article. The notice of conditional approval or approval shall not relieve the Contractor from complying with all
+requirements of the specifications and all other terms and conditions of this contract. A notice of conditional approval will state any further action required of
+the Contractor. A notice of disapproval will cite reasons for the disapproval.
+
+(e) Unless otherwise provided in the contract, the Contractor --
+(1) May deliver the approved first article as a part of the contract quantity, provided it meets all contract requirements for acceptance and was not consumed
+or destroyed in testing; and
+(2) Shall remove and dispose of any first article from the Government test facility at the Contractor's expense.

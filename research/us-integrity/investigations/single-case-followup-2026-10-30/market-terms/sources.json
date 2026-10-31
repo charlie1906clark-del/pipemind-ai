@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "source_observation_date": "2026-10-30",
+  "sources": [
+    {
+      "id": "SCM-S01",
+      "url": "https://www.mfsupply.com/pindex.php?Page=117",
+      "type": "seller_owned_public_product_index",
+      "web_refs": [
+        "turn285view0",
+        "turn286view2"
+      ],
+      "locator": "line174 exact HH38FX3/4G8ZY index entry",
+      "facts": {
+        "sku": "HH38FX3/4G8ZY",
+        "pack_quantity_explicit": 1100,
+        "pack_unit": "box"
+      },
+      "limitation": "Same seller index corroborates its product page; not independent inventory or a government NSN crosswalk.",
+      "observed_date": "2026-10-30",
+      "original_page_bytes_archived": false,
+      "hash_scope": "Selected researcher-authored facts; no original website-byte hash claimed"
+    },
+    {
+      "id": "SCM-S02",
+      "url": "https://www.mfsupply.com/product_p/hh38fx3-fslash-4g8zy.htm",
+      "request_url": "https://www.mfsupply.com/productdetails.php?ProductCode=HH38FX3%2F4G8ZY",
+      "type": "seller_owned_public_catalog",
+      "web_refs": [
+        "turn285view2"
+      ],
+      "locator": "lines79\u201389; prior product specification selection retained",
+      "facts": {
+        "sku": "HH38FX3/4G8ZY",
+        "displayed_box_price": "328.91",
+        "displayed_piece_price": "0.29901",
+        "currency_symbol": "$",
+        "boxes_available_as_displayed": 7,
+        "stock_label": "in_stock"
+      },
+      "limitation": "Catalog observation only; no order acceptance, reservation, dated government-compliant quote or delivery promise. USD interpretation follows US merchant context; ISO currency not printed.",
+      "observed_date": "2026-10-30",
+      "original_page_bytes_archived": false,
+      "hash_scope": "Selected researcher-authored facts; no original website-byte hash claimed"
+    },
+    {
+      "id": "SCM-S03",
+      "url": "https://www.nationwideindustrialsupply.com/departments/grade-8-cap-screws/fine-thread-hex-cap-screw-grade-8-zinc-yellow/3812CH8O/",
+      "type": "seller_owned_public_catalog",
+      "web_refs": [
+        "turn285view1",
+        "turn286view3"
+      ],
+      "locator": "lines262\u2013275",
+      "facts": {
+        "part": "3812CH8O",
+        "nominal_size": "3/8-24 x 3/4",
+        "grade": "8",
+        "finish": "zinc_yellow",
+        "carton_quantity": 1100,
+        "carton_weight_lb": "39.05",
+        "stock_label": "in_stock",
+        "available_cartons": null,
+        "displayed_case_price_1_to_4": "190.49",
+        "displayed_case_price_5_plus": "173.18",
+        "currency_symbol": "$"
+      },
+      "limitation": "Price and availability may change. Stock quantity, delivery, freight, origin, lot conformity and purchase acceptance unknown. Identical part reference does not authenticate independent upstream supply.",
+      "observed_date": "2026-10-30",
+      "original_page_bytes_archived": false,
+      "hash_scope": "Selected researcher-authored facts; no original website-byte hash claimed"
+    },
+    {
+      "id": "SCM-S04",
+      "url": "https://legacy.kanebridge.com/landing/certs.asp",
+      "type": "master_distributor_owned_public_service_description",
+      "web_refs": [
+        "turn286view0"
+      ],
+      "locator": "lines29\u201348",
+      "facts": {
+        "free_certifications_advertised": true,
+        "fine_thread_grade8_category_included": true,
+        "exact_lot_certificate_acquired": false,
+        "document_routes": [
+          "contact",
+          "FasNet login"
+        ]
+      },
+      "limitation": "Generic service claim; no exact product/lot certificate obtained and no contact or login attempted.",
+      "observed_date": "2026-10-30",
+      "original_page_bytes_archived": false,
+      "hash_scope": "Selected researcher-authored facts; no original website-byte hash claimed"
+    },
+    {
+      "id": "SCM-S05",
+      "url": "https://legacy.kanebridge.com/kaneprls.asp?SellCode=CH8OF",
+      "type": "master_distributor_owned_public_product_listing",
+      "web_refs": [
+        "turn287view1"
+      ],
+      "locator": "header lines11\u201313 and exact row39",
+      "parent_source_id": "SCM-S04",
+      "followed_link_id": 35,
+      "facts": {
+        "part": "3812CH8O",
+        "size_as_printed": "3/8-24X3/4",
+        "origin_as_printed": "Canada",
+        "carton_quantity_as_printed": "1.100",
+        "unit_as_printed": "M",
+        "weight_lb_per_unit_as_printed": "35.50",
+        "public_price": null
+      },
+      "limitation": "Public catalog row, not delivered-lot evidence. Confidential distributor prices require registered access; no login attempted. M is retained as printed; explicit1100-pack corroboration is SCM-S01 andSCM-S03.",
+      "observed_date": "2026-10-30",
+      "original_page_bytes_archived": false,
+      "hash_scope": "Selected researcher-authored facts; no original website-byte hash claimed"
+    },
+    {
+      "id": "SCM-S06",
+      "url": "https://www.kanebridge.com/pdf/linecards/tap-cap.pdf",
+      "type": "master_distributor_owned_public_linecard",
+      "web_refs": [
+        "turn287view0"
+      ],
+      "locator": "PDF pages2 and7 (zero-basedP1 andP6)",
+      "facts": {
+        "described_business_role": "master_distributor",
+        "commercial_grade8_and_military_grade_bd_listed_separately": true,
+        "chemical_physical_certifications_advertised_free_for_thru_hardened_parts": true,
+        "lot_control_advertised": true,
+        "custom_labels_described_at_box_level": true
+      },
+      "limitation": "General catalog policies, not accepted quoted services for3812CH8O or proof of QUP001 packaging/NSN equivalence. No actual manufacturer identified.",
+      "observed_date": "2026-10-30",
+      "original_page_bytes_archived": false,
+      "hash_scope": "Selected researcher-authored facts; no original website-byte hash claimed"
+    },
+    {
+      "id": "SCM-S07",
+      "url": "https://legacy.kanebridge.com/faq.asp",
+      "type": "master_distributor_owned_public_faq",
+      "web_refs": [
+        "turn288view1"
+      ],
+      "locator": "lines115\u2013127;234\u2013243",
+      "facts": {
+        "invoice_specific_certificates_and_reports_route": "FasNet login and invoice selection",
+        "exact_product_specifications_route": "FasNet login",
+        "partial_carton_inventory_route": "FasNet",
+        "private_documents_acquired": false
+      },
+      "limitation": "Route description only; no access beyond public page. No contact/account request or authentication attempted.",
+      "observed_date": "2026-10-30",
+      "original_page_bytes_archived": false,
+      "hash_scope": "Selected researcher-authored facts; no original website-byte hash claimed"
+    }
+  ]
+}

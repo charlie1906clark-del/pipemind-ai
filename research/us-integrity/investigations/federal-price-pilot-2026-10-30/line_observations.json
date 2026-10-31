@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "source_id": "dla-original-SPE4A626PW775",
+  "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/09JUL26/SPE4A626PW775.PDF",
+  "original_pdf_sha256": "737e8d1eb1b78d2d8a9d02ec81dc49d9a0e56182b7f0aceb48f2e61fb88a3759",
+  "status": "Primary awarded contract line evidence. No invoice, payment, delivery acceptance or independent market benchmark acquired.",
+  "observations": [
+    {
+      "observation_id": "SPE4A626PW775-0001",
+      "piid": "SPE4A626PW775",
+      "clin": "0001",
+      "line_type": "production_item",
+      "description": "BOLT, EXTERNALLY REL",
+      "item_id": "5306004457358",
+      "item_id_type": "NSN",
+      "manufacturer_part_number": "39-8820-501",
+      "quantity": "2243.000",
+      "unit": "EA",
+      "unit_price_usd": "272.99",
+      "extended_amount_usd": "612316.57",
+      "price_basis": "awarded_contract_line",
+      "page": 4,
+      "source_paths": [
+        "selected/dla-award-page4.txt",
+        "selected/dla-award-page4.png"
+      ],
+      "price_type": "Firm Fixed Price",
+      "quantity_variance_percent": {
+        "plus": 0,
+        "minus": 0
+      },
+      "delivery_due": "2028-04-10",
+      "delivery_date_source_page": 5,
+      "inspection": "ORIGIN",
+      "acceptance": "ORIGIN",
+      "fob": "ORIGIN",
+      "freight_payment": "GOVERNMENT",
+      "freight_included_in_unit_price": null,
+      "packaging": "QUP 001; ASTM D3951 subject to DLA technical/quality precedence; MIL-STD-129 labeling; RP001 palletization",
+      "packaging_source_page": 5,
+      "drawing_reference": "81205 39-8820 revision A dated 1961-03-09; further referenced drawings/QAPs on page4",
+      "dealer_cage": "745V4",
+      "contractually_intended_manufacturer_cage": "27624",
+      "manufacturer_source_page": 2,
+      "manufacturer_role_limit": "Contract states dealer will supply this approved manufacturer; actual production, delivery and manufacturer transfer not independently verified.",
+      "independent_comparator_unit_price_usd": null,
+      "markup_percent": null,
+      "excess_amount_usd": null,
+      "freight_note": "Contract states FOB origin and government freight payment; actual freight bill or allocation not acquired.",
+      "item_description_page3": "BOLT-FRONT ENGINE MOUNT, SPECIAL",
+      "critical_application_item": true,
+      "description_source_page": 3,
+      "additional_source_paths": [
+        "selected/dla-award-page3.txt",
+        "selected/dla-award-page7-e08-selected.txt"
+      ]
+    },
+    {
+      "observation_id": "SPE4A626PW775-0002",
+      "piid": "SPE4A626PW775",
+      "clin": "0002",
+      "line_type": "first_article_test_requirement",
+      "description": "Government First Article Test",
+      "item_id": null,
+      "item_id_type": null,
+      "source_supplies_services_field": "0001 - S00000052",
+      "quantity": "1.000",
+      "unit": "EA",
+      "unit_price_usd": "3500.00",
+      "extended_amount_usd": "3500.00",
+      "price_basis": "awarded_contract_line",
+      "page": 5,
+      "source_paths": [
+        "selected/dla-award-page5-selected.txt",
+        "selected/dla-award-page5-first-article.png"
+      ],
+      "quantity_interpretation": "The number of units signifies the test requirement. Source directs actual test quantity to FAR clause 52.209-4. This is not one additional production bolt.",
+      "independent_comparator_unit_price_usd": null,
+      "markup_percent": null,
+      "excess_amount_usd": null,
+      "delivery_due": "2027-08-13",
+      "delivery_date_source_page": 6,
+      "freight_payment": "CONTRACTOR",
+      "price_type": "Firm Fixed Price",
+      "actual_first_article_test_sample_quantity": "2",
+      "actual_test_sample_quantity_source_page": 11,
+      "first_article_due_days_after_award": 400,
+      "government_notice_days_after_receipt": 180,
+      "test_article_quantity_not_added_to_production_quantity": true,
+      "test_article_reuse_condition": "Clause(e) permits an approved first article to count toward contract quantity if it meets all acceptance requirements and was not consumed or destroyed in testing.",
+      "additional_source_paths": [
+        "selected/dla-award-page6.txt",
+        "selected/dla-award-page7-e08-selected.txt",
+        "selected/dla-award-page11-first-article-selected.txt"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "production_line_usd": "612316.57",
+    "test_requirement_line_usd": "3500.00",
+    "sum_lines_usd": "615816.57",
+    "usaspending_award_obligation_usd": "615816.57",
+    "difference_usd": "0.00",
+    "arithmetic_result": "reconciles",
+    "price_fairness_result": "not_evaluated_without_matched_price_evidence"
+  }
+}

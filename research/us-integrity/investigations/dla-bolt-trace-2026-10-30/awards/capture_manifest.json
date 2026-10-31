@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "scope": "Seven fixed historical PIIDs from original DLA RFQ; no nationwide or recipient-history coverage",
+  "request_budget": {
+    "document_api_reads_limit": 35,
+    "logical_document_api_reads_executed": 33,
+    "search_queries_limit": 14,
+    "search_queries_executed": 11
+  },
+  "successful_capture_registry": "capture-success/manifest.json",
+  "failed_initial_capture_registry": "capture/manifest.json",
+  "dla_award_document_attempt_registry": "dla-attempts/manifest.json",
+  "supporting_document_registry": "supporting/manifest.json",
+  "unarchived_diagnostics": [
+    {
+      "url": "https://raw.githubusercontent.com/fedspendingtransparency/usaspending-api/master/usaspending_api/api_contracts/search_filters.md",
+      "method": "GET",
+      "result": "200 API filter documentation read; not archived",
+      "logical_requests": 1
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "method": "POST",
+      "scope": "Single unquoted award_ids SPE4A626V138W, contracttypesA\u2013D,limit10,page1",
+      "result": "200 one exact matching award; superseded by archived full seven-key capture",
+      "logical_requests": 1
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A626V138W_9700_-NONE-_-NONE-/",
+      "method": "GET",
+      "result": "200; superseded by archived selected detail",
+      "logical_requests": 1
+    },
+    {
+      "url": "https://www.dla.mil/Portals/104/Documents/InformationOperations/EBS%20Supplier%20Information/TheLink_Issue40_April2026.pdf",
+      "method": "web open",
+      "result": "403",
+      "logical_requests": 1
+    },
+    {
+      "url": "https://www.dibbs.bsm.dla.mil/refs/help/dibbsdocretention.aspx",
+      "method": "web open",
+      "result": "not accessible via tool",
+      "logical_requests": 1
+    },
+    {
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/RFQ/3/SPE4A626T52U3.PDF",
+      "method": "GET and normal consent POST",
+      "result": "TimeoutError; no PDF saved",
+      "logical_requests": 2
+    }
+  ],
+  "privacy": "Selected detail snapshots exclude all location/contact fields and demographic business categories. Original response hashes do not imply those bytes were archived.",
+  "coverage": "Seven exact award matches and seven details obtained; no original historical priced order obtained; original-source attempt failures preserve URL-derivation uncertainty."
+}

@@ -1,0 +1,30 @@
+{
+  "source_url": "https://tdmt.dla.mil/tdmt/Client/?StartItem=DSP_TDP_Acquisition_Doc%3AbySolicitation%3ASPE4A626U3619",
+  "observed_at": "2026-10-30T13:21:52.559065+00:00",
+  "method": "GET",
+  "discovery": "Exact technical-data attachment supplied by the original public RFQ page in adjacent bids research; not a guessed route",
+  "credentials_used": false,
+  "no_authentication_attempt": true,
+  "web_open_result": "Tool reported inaccessible",
+  "max_response_bytes": 2000000,
+  "http_status": 200,
+  "final_url": "https://tdmt.dla.mil/tdmt/Client/?StartItem=DSP_TDP_Acquisition_Doc%3AbySolicitation%3ASPE4A626U3619",
+  "content_type": "text/html; charset=utf-8",
+  "received_bytes": 12531,
+  "original_sha256": "500110cf2c70810568ec16b90ae6cb23f93656bd37f53dbed19f14ab344a3fb1",
+  "original_body_archived": false,
+  "page_titles": [],
+  "success": true,
+  "result_type": "application_shell_only",
+  "technical_record_acquired": false,
+  "exact_startitem_observed": "DSP_TDP_Acquisition_Doc:bySolicitation:SPE4A626U3619",
+  "shell_observations": [
+    "Client document title variable names Digital Sustainment Platform",
+    "Source contains login-success handler and OAuth client initialization",
+    "No target characteristic, drawing or reference record obtained"
+  ],
+  "publication_scope": "Selected metadata only; application HTML and incidental session/security material not retained in repository",
+  "document_content_status": "application_shell_only_no_target_TDP_rows",
+  "access_policy_source_id": "SC-SPEC-TDMT-ACCESS",
+  "access_policy_evidence_depth": "Official indexed guidance says external users require AMPS registration and Okta MFA; live login screen not rendered"
+}

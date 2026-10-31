@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "observed_date": "2026-10-30",
+  "case_nsn": "5306016864912",
+  "order": "SPE4A627F0588",
+  "parent": "SPE4A626D61WS",
+  "status": "market_gaps_partially_resolved_comparison_still_blocked",
+  "changed_findings": [
+    {
+      "id": "SCM-F01",
+      "statement": "MF Supply exactSKU index explicitly states1100perbox; prior unknown packsize is resolved for the advertised catalog item.",
+      "source_ids": [
+        "SCM-S01",
+        "SCM-S02"
+      ],
+      "previous_state": "packquantityunknown; ratio inference prohibited",
+      "current_state": "1100explicitly published"
+    },
+    {
+      "id": "SCM-F02",
+      "statement": "MF product page displays7boxes. With its explicit1100pack, the seller-stated inventory corresponds to7700pieces.",
+      "source_ids": [
+        "SCM-S01",
+        "SCM-S02"
+      ],
+      "seller_displayed_nominal_pieces": 7700,
+      "actual_available_or_reserved_pieces": null,
+      "delivery_promise_verified": false
+    },
+    {
+      "id": "SCM-F03",
+      "statement": "Kanebridge public exactpart row lists3812CH8O and Canada; the company describes itself as masterdistributor. Actual manufacturer and government-delivered lot remain unidentified.",
+      "source_ids": [
+        "SCM-S05",
+        "SCM-S06"
+      ],
+      "catalog_origin": "Canada",
+      "actual_lot_origin": null,
+      "actual_manufacturer": null
+    },
+    {
+      "id": "SCM-F04",
+      "statement": "A third seller-owned public listing offers the samepartreference in1100cartons at190.49 for1\u20134cases; stock quantity and accepted supplyterms are unspecified.",
+      "source_ids": [
+        "SCM-S03"
+      ],
+      "upstream_independence_verified": false
+    },
+    {
+      "id": "SCM-F05",
+      "statement": "Kanebridge advertises freecertifications and lotcontrol. Their existence cannot be treated as automatically costly; exactacceptedlotrecords and QUP001services remainunverified.",
+      "source_ids": [
+        "SCM-S04",
+        "SCM-S06",
+        "SCM-S07"
+      ],
+      "exact_lot_certificate_acquired": false,
+      "government_packaging_quote_acquired": false
+    }
+  ],
+  "qualification_gates": {
+    "official_nsn_to_candidate_bridge": "unresolved_other_specialist",
+    "mf_catalog_pack_quantity": "resolved1100",
+    "mf_displayed_stock_quantity": "sevenboxes_equivalent7700nominalpieces",
+    "actual_stock_reservation_and_delivery": "unverified",
+    "catalog_origin_of_kanebridge_part": "Canada_as_published_not_lotverified",
+    "actual_manufacturer": "unverified",
+    "country_restriction_compatibility": "unverified",
+    "thread_class_finish_thickness_specific_conformance": "unverified",
+    "exact_lot_certification": "unacquired",
+    "qup001_packaging_and_marking_cost": "unpriced",
+    "freight_and_taxes": "not_complete",
+    "quote_validity_at_government_award_date": "unverified_pricesobservedafteraward",
+    "benchmark_upstream_independence": "unverified_shared3812CH8Oreference",
+    "annual_demand_and_minimum_order_risk": "must_reconcile_parentH06_and_awardterms"
+  },
+  "catalog_outlay_arithmetic": [
+    {
+      "seller": "MF Supply",
+      "target_quantity_context": "observed_child_order_quantity",
+      "target_quantity": 906,
+      "minimum_full_cartons": 1,
+      "catalog_units_purchased": 1100,
+      "surplus_units": 194,
+      "catalog_cash_outlay_before_unpriced_terms": "328.91",
+      "currency_interpretation": "USD inferred from US merchant catalog; not ISO-coded in page",
+      "price_basis": "Existing public one-box price multiplied by cartons; no unposted MF quantity discount assumed. Nationwide1\u20134case tier applies to both arithmetic quantities.",
+      "source_ids": [
+        "SCM-S01",
+        "SCM-S02"
+      ],
+      "government_comparable": false,
+      "price_premium": null,
+      "overcharge": null,
+      "loss": null
+    },
+    {
+      "seller": "MF Supply",
+      "target_quantity_context": "parent_estimated_annual_demand_not_an_order",
+      "target_quantity": 2221,
+      "minimum_full_cartons": 3,
+      "catalog_units_purchased": 3300,
+      "surplus_units": 1079,
+      "catalog_cash_outlay_before_unpriced_terms": "986.73",
+      "currency_interpretation": "USD inferred from US merchant catalog; not ISO-coded in page",
+      "price_basis": "Existing public one-box price multiplied by cartons; no unposted MF quantity discount assumed. Nationwide1\u20134case tier applies to both arithmetic quantities.",
+      "source_ids": [
+        "SCM-S01",
+        "SCM-S02"
+      ],
+      "government_comparable": false,
+      "price_premium": null,
+      "overcharge": null,
+      "loss": null
+    },
+    {
+      "seller": "Nationwide Industrial Supply",
+      "target_quantity_context": "observed_child_order_quantity",
+      "target_quantity": 906,
+      "minimum_full_cartons": 1,
+      "catalog_units_purchased": 1100,
+      "surplus_units": 194,
+      "catalog_cash_outlay_before_unpriced_terms": "190.49",
+      "currency_interpretation": "USD inferred from US merchant catalog; not ISO-coded in page",
+      "price_basis": "Existing public one-box price multiplied by cartons; no unposted MF quantity discount assumed. Nationwide1\u20134case tier applies to both arithmetic quantities.",
+      "source_ids": [
+        "SCM-S03"
+      ],
+      "government_comparable": false,
+      "price_premium": null,
+      "overcharge": null,
+      "loss": null
+    },
+    {
+      "seller": "Nationwide Industrial Supply",
+      "target_quantity_context": "parent_estimated_annual_demand_not_an_order",
+      "target_quantity": 2221,
+      "minimum_full_cartons": 3,
+      "catalog_units_purchased": 3300,
+      "surplus_units": 1079,
+      "catalog_cash_outlay_before_unpriced_terms": "571.47",
+      "currency_interpretation": "USD inferred from US merchant catalog; not ISO-coded in page",
+      "price_basis": "Existing public one-box price multiplied by cartons; no unposted MF quantity discount assumed. Nationwide1\u20134case tier applies to both arithmetic quantities.",
+      "source_ids": [
+        "SCM-S03"
+      ],
+      "government_comparable": false,
+      "price_premium": null,
+      "overcharge": null,
+      "loss": null
+    }
+  ],
+  "quantity_interpretation": "H06 evaluation based on estimatedannualdemand is a separate government clause observation being acquired by bidsworker. The2221scenario is estimateddemand, not an order, obligation or guaranteedpurchase. The906scenario refers to the documentedchildorder. No historicalgovernmentfairvalue or actualsupplierinvoice is inferred.",
+  "qualified_comparators": 0,
+  "fraud_established": false,
+  "buyer_benefit_established": false,
+  "known_nonconclusions": [
+    "A lower current advertised price is not an overcharge.",
+    "Three sellerwebsites with sharedpartreference are not three verified independentmanufacturers.",
+    "A commercial/military catalog category label does not determine thisNSN procurementrequirement.",
+    "Genericfreecertificate service does not prove the exactlotdocuments exist or satisfy the contract.",
+    "A failedlabelpage retrieval is not evidence of concealedinformation."
+  ],
+  "counterfactual_allowance": {
+    "status": "illustrative_only_not_a_qualified_price_comparison",
+    "conditions": [
+      "Assume, without establishing, exact NSN/product equivalence and a USD interpretation of both catalog prices.",
+      "Assume full-carton purchase, no credit for surplus pieces, and catalog availability/price executable.",
+      "All required incremental packaging, marking, certification, freight, taxes, service, inventory risk and ordinary profit must still fit the residual budget; applicability and actual amounts are unverified."
+    ],
+    "actual_order_value_usd": "824.46",
+    "scope_quantity": 906,
+    "rows": [
+      {
+        "seller": "MF Supply",
+        "full_carton_outlay_assumed_usd": "328.91",
+        "residual_budget_assumed_usd": "495.55"
+      },
+      {
+        "seller": "Nationwide Industrial Supply",
+        "full_carton_outlay_assumed_usd": "190.49",
+        "residual_budget_assumed_usd": "633.97"
+      }
+    ],
+    "meaning": "Order value less assumed full-carton purchase outlay, solely to size the next cost-evidence question. Not supplier profit, an actual invoice difference, unjustified premium, loss or recoverable amount.",
+    "not_applied_to_annual_demand": true,
+    "no_fraud_inference": true
+  }
+}

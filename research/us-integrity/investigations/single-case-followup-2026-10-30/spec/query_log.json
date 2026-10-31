@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-10-30",
+  "queries": [
+    {
+      "sequence": 1,
+      "engine": "system1",
+      "query": "\"5306016864912\" \"AEB\"",
+      "outcome": "Returned secondaryNSN listings; no primary exact item row"
+    },
+    {
+      "sequence": 2,
+      "engine": "system1",
+      "query": "\"AEB02F375750WA6DG1\"",
+      "outcome": "Returned secondaryNSN listings and solicitation aggregators; no primary exact item row"
+    },
+    {
+      "sequence": 3,
+      "engine": "system1",
+      "query": "site:asme.org B18.24 identification AEB bolt grade coating",
+      "outcome": "OfficialASME product page/2023contents identified"
+    },
+    {
+      "sequence": 4,
+      "engine": "system2",
+      "query": "site:dla.mil \"Characteristics\" \"Download\" \"CSV\" \"Reference\"",
+      "outcome": "No useful primary result in combined response"
+    },
+    {
+      "sequence": 5,
+      "engine": "system2",
+      "query": "site:asme.org \"AEB\" \"B18.24\"",
+      "outcome": "No code-table result acquired"
+    },
+    {
+      "sequence": 6,
+      "engine": "system2",
+      "query": "\"AEB02F375750WA6DG1\" -site:nsnexplorer.com -site:sam.directory",
+      "outcome": "Low-specificity component-sourcing pages rejected; no primary crosswalk"
+    },
+    {
+      "sequence": 7,
+      "engine": "system1",
+      "query": "site:dla.mil \"V_CHARACTERISTICS.CSV\"",
+      "outcome": "Olderofficiallayout reconfirmed; actualCSVURLnot returned"
+    },
+    {
+      "sequence": 8,
+      "engine": "system1",
+      "query": "site:dla.mil \"V_FLIS_PART.CSV\"",
+      "outcome": "Olderofficiallayout reconfirmed; actualCSVURLnot returned"
+    },
+    {
+      "sequence": 9,
+      "engine": "system1",
+      "query": "site:dla.mil \"Characteristics\" \"FOIA\" \"Download\"",
+      "outcome": "Officialoverview/layout routes; no actualtarget row"
+    },
+    {
+      "sequence": 10,
+      "engine": "system1",
+      "query": "site:dla.mil TDMT technical data login Digital Sustainment Platform supplier access",
+      "outcome": "OfficialTDMT page reports22June2026transition andAMPS/Oktaexternal access"
+    },
+    {
+      "sequence": 11,
+      "engine": "system1",
+      "query": "site:dla.mil TDMT publicly available technical data CUI access",
+      "outcome": "OfficialTDMT and related guidance; no exact item classification acquired"
+    }
+  ],
+  "query_count": 11,
+  "query_limit": 12,
+  "direct_document_reads": 10,
+  "read_limit": 16,
+  "direct_archive_http_requests": 4,
+  "direct_archive_bytes_read": 10412003,
+  "archive_byte_limit": 50000000,
+  "web_result_body_bytes": "Not exposed by search service; no bulk archive transmitted through web tool",
+  "queries_are_not_record_absence_proof": true,
+  "direct_nonarchive_http_requests": 1,
+  "direct_nonarchive_response_bytes": 12531,
+  "web_open_attempts": 5,
+  "web_open_successes": 2,
+  "retrieval_count_basis": "Five web-open attempts plus four archive range GETs and one ordinary TDMT GET; search queries counted separately.",
+  "scope_note": "New exact TDMT route supplied by adjacent bids worker after the initial archive research; its two access-guidance searches are included."
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "date": "2026-07-09",
+    "event": "USAspending signed date for purchase order SPE4A626PW775; DLA contract names dealer and intended manufacturer.",
+    "source_ids": [
+      "TP-S-AWARD",
+      "TP-S-ORDER",
+      "TP-S-ORDER-ROLE"
+    ],
+    "printed_officer": "Joseph Felhauer, CONTRACTING/ORDERING OFFICER; printed role only",
+    "temporal_limit": "Intended supply and obligation, not fulfillment or payment evidence."
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Exact CAGE searches connect both dealer/manufacturer names to their distinct UEIs.",
+    "source_ids": [
+      "TP-S-CAGE-DON",
+      "TP-S-CAGE-SPS"
+    ],
+    "temporal_limit": "Observed registry state; not a complete registration history."
+  },
+  {
+    "date": "2026-10-30",
+    "event": "USAspending profiles show Don self-parent and SPS reporting Berkshire Hathaway as parent.",
+    "source_ids": [
+      "TP-S-PROFILE-DON",
+      "TP-S-PROFILE-SPS"
+    ],
+    "temporal_limit": "No ownership percentage or historical-effective interval supplied."
+  },
+  {
+    "date": "2028-04-10",
+    "event": "Reported period-of-performance end in the award record.",
+    "source_ids": [
+      "TP-S-AWARD"
+    ],
+    "temporal_limit": "Scheduled performance date, not evidence that delivery or acceptance occurred."
+  }
+]

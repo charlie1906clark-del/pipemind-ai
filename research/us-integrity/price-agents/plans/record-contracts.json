@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "unknown_representation": null,
+  "records": {
+    "transaction_line": {
+      "required_identity": [
+        "agency_namespace",
+        "PIID",
+        "parent_PIID_if_any",
+        "order_id_if_any",
+        "modification_id",
+        "CLIN",
+        "subCLIN_if_any",
+        "source_locator"
+      ],
+      "dates": [
+        "solicited_at",
+        "awarded_at",
+        "effective_from",
+        "required_delivery_at",
+        "received_at",
+        "invoice_date",
+        "paid_at",
+        "observed_at"
+      ],
+      "terms": [
+        "exact_item_identifier",
+        "revision",
+        "unit_of_issue",
+        "pack_quantity",
+        "ordered_quantity",
+        "currency",
+        "unit_price",
+        "extended_line_value",
+        "quantity_tier",
+        "delivery",
+        "freight",
+        "condition",
+        "quality",
+        "traceability",
+        "warranty",
+        "included_services"
+      ],
+      "basis": [
+        "contract_ceiling",
+        "obligation",
+        "ordered_value",
+        "invoiced_value",
+        "paid_cash"
+      ],
+      "provenance": "Each non-null assertion has a source locator and date; identity fields may be unresolved, but that blocks joins rather than filling them."
+    },
+    "entity_relationship": {
+      "subject_keys": [
+        "UEI",
+        "CAGE",
+        "CIK",
+        "state_registry_id"
+      ],
+      "types": [
+        "legal_name",
+        "reported_alias",
+        "registered_agent",
+        "disclosed_officer",
+        "reported_parent",
+        "disclosed_subsidiary",
+        "beneficial_owner_if_actually_disclosed",
+        "prime_vendor",
+        "subcontractor",
+        "manufacturer",
+        "distributor"
+      ],
+      "qualifiers": [
+        "source_reported_role",
+        "ownership_percentage_if_stated",
+        "effective_from",
+        "effective_to",
+        "filed_at",
+        "observed_at",
+        "exact_identity_join",
+        "uncertainty"
+      ],
+      "prohibited_inference": "Registered agent, 13F holding, shared address or parent field alone is not beneficial ownership."
+    },
+    "professional_decision": {
+      "fields": [
+        "public_professional_name_if_necessary",
+        "official_role",
+        "office_identifier",
+        "authority_record",
+        "specific_decision",
+        "decision_date",
+        "role_effective_date",
+        "source_locator",
+        "role_not_inferred_from_signature_only"
+      ],
+      "excluded": [
+        "residential_address",
+        "personal_contact",
+        "family_relationship",
+        "unrelated_social_activity",
+        "private_bank_records"
+      ]
+    },
+    "benefit_assertion": {
+      "fields": [
+        "source_stated_event",
+        "source_stated_beneficiary",
+        "event_date",
+        "procurement_nexus",
+        "source_locator",
+        "legal_status",
+        "status_date",
+        "ordinary_alternatives",
+        "amount_if_source_established",
+        "amount_basis"
+      ],
+      "boundary": "A candidate price residual never populates this record as a factual payment."
+    },
+    "market_benchmark": {
+      "fields": [
+        "manufacturer_part",
+        "technical_match_matrix",
+        "seller_offer",
+        "offer_date",
+        "applicable_quantity",
+        "minimum_pack",
+        "full_feasible_order_outlay",
+        "available_stock",
+        "accepted_conditions",
+        "currency",
+        "freight",
+        "source_independence_group",
+        "material_adjustments_with_sources",
+        "comparison_reviewer",
+        "qualification_status"
+      ],
+      "boundary": "A posted or schedule price is not automatically an independent, feasible or historical equivalent offer."
+    },
+    "public_link": {
+      "fields": [
+        "parent_url",
+        "child_url",
+        "anchor_context",
+        "relationship_kind",
+        "exact_identifier_matches",
+        "retrieved_at",
+        "redirect_chain",
+        "included_or_excluded_reason",
+        "http_outcome",
+        "bytes_or_selected_artifact_digest",
+        "hash_scope"
+      ],
+      "boundary": "No blanket follow-every-link claim; relevance and approved public URL scope are enforced before requests."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-30",
+  "status": "gated_design_not_executed_not_runtime_import",
+  "national_investigation_claim": false,
+  "activation_rules": [
+    "Create a new immutable runtime plan for one named agency/commodity/date cohort; select actual PSC/NAICS codes from official source definitions before querying.",
+    "Demonstrate acquisition of a priced line and its terms, or explicitly document why that sector cannot yet support a price test.",
+    "Use a complete declared population when claiming repeated pattern prevalence; a first page supports only sample observations.",
+    "Verify an independent source route and comparison requirements before expanding volume.",
+    "Reserve a separate independent reviewer and explicit source budgets.",
+    "Retain an explained/no-support control and report blocked coverage; expansion does not require finding fraud."
+  ],
+  "waves": [
+    {
+      "id": "W2-DEFENSE",
+      "sector": "Defense consumables and spares",
+      "agency_scope": "DLA and service procurement offices",
+      "first_selection": "FSC5306 first, then a separately reviewed commodity code",
+      "match_key": "NSN + revision + unit/pack + manufacturer part",
+      "candidate_sources": "DIBBS original lines; public FLIS/PUB LOG; supplier catalogs",
+      "critical_control": "Certification, traceability, supply urgency and aircraft/weapon-system-specific requirements can destroy a retail match.",
+      "status": "not_executed"
+    },
+    {
+      "id": "W2-VA",
+      "sector": "Healthcare equipment and consumables procurement",
+      "agency_scope": "VA and HHS procurement offices",
+      "first_selection": "PSC6515; pick one exact product family",
+      "match_key": "Manufacturer/catalog model + pack + sterile/reusable status + warranty",
+      "candidate_sources": "VA CCST and authorized price lists; public solicitation/order attachments",
+      "critical_control": "Schedule catalog price is not the transaction price; service, installation and training bundles matter.",
+      "status": "not_executed"
+    },
+    {
+      "id": "W3-CONSTRUCTION",
+      "sector": "Construction and infrastructure purchases",
+      "agency_scope": "USACE, GSA and agency construction offices",
+      "first_selection": "A named project and defined bill-of-quantities trade",
+      "match_key": "Specification revision + measured quantity + installed scope + site/date",
+      "candidate_sources": "Public solicitation schedules, amendments and released change-order records",
+      "critical_control": "Installed rates include labor, site conditions, waste, risk and plant; retail material price alone is not a benchmark.",
+      "status": "not_executed"
+    },
+    {
+      "id": "W3-IT",
+      "sector": "IT hardware, software and services",
+      "agency_scope": "GSA and civilian/defense ordering offices",
+      "first_selection": "One exact SKU/license or labor category and one contract type",
+      "match_key": "SKU/version + license rights + seat/term + support; or role/level/location + hours",
+      "candidate_sources": "Public order attachments, schedule catalogs and public CALC+ ceiling data",
+      "critical_control": "License bundles and services differ; public ceilings cannot be relabeled actual paid rates.",
+      "status": "not_executed"
+    },
+    {
+      "id": "W3-ENERGY",
+      "sector": "Fuel and energy procurement",
+      "agency_scope": "DLA Energy and agency facilities",
+      "first_selection": "One fuel grade/location/delivery basis per declared period",
+      "match_key": "Fuel specification + quantity + delivery point + pricing date/formula",
+      "candidate_sources": "Released contracts and published market index terms",
+      "critical_control": "Taxes, storage, freight, hedging formula and location basis require separate controls.",
+      "status": "not_executed"
+    },
+    {
+      "id": "W3-LOGISTICS",
+      "sector": "Freight, storage and logistics",
+      "agency_scope": "DLA, military transport and civilian logistics offices",
+      "first_selection": "One lane, cargo type and service level",
+      "match_key": "Origin/destination commercial route + cargo + distance + timing + accessorials",
+      "candidate_sources": "Released rate schedules, orders and amendments",
+      "critical_control": "Emergency transport, hazardous cargo, empty return, demurrage and accessorial services explain many differences.",
+      "status": "not_executed"
+    },
+    {
+      "id": "W4-LABS",
+      "sector": "Laboratory and research purchasing",
+      "agency_scope": "NIH, other HHS agencies and research offices",
+      "first_selection": "One reagent/instrument/service specification",
+      "match_key": "Catalog lot/grade + quantity + shelf life + calibration/service",
+      "candidate_sources": "Public procurement lines and manufacturer offers",
+      "critical_control": "Grant expenditure summaries and reimbursement data do not identify the actual purchased instrument or specimen service.",
+      "status": "not_executed"
+    },
+    {
+      "id": "W4-OTHER",
+      "sector": "Other federal procurement sectors",
+      "agency_scope": "Named awarding offices selected from foundation coverage map",
+      "first_selection": "One agency/commodity question per new plan",
+      "match_key": "Sector-specific economic unit, exact item/service and applicable period",
+      "candidate_sources": "Source availability assessment before acquisition",
+      "critical_control": "Food, disaster, education, justice, housing and other purchases need sector-specific terms; grant/benefit programs require a different payment/eligibility model.",
+      "status": "not_executed"
+    }
+  ],
+  "outside_current_price_model": [
+    "Medicare/Medicaid reimbursement, grants, benefits, loans, tax and customs assessments: do not treat them as ordinary government item purchases. Reuse foundation sector research but design their own eligibility, service and payment models."
+  ]
+}

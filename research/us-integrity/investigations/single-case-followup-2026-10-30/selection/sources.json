@@ -1,0 +1,90 @@
+{
+  "as_of": "2026-10-30",
+  "source_scope": "Official agency webpages rendered by search tool; no original webpage byte archive",
+  "sources": [
+    {
+      "id": "SC-SEL-SBA-2023",
+      "url": "https://legacy.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape",
+      "published_at": "2023-06-27",
+      "title": "SBA Office of Inspector General Report23-09",
+      "source_class": "official_primary",
+      "observed_at": "2026-10-30",
+      "access_outcome": "opened_rendered_page",
+      "source_bytes_archived": false,
+      "claim_limit": "More than200billionUSD in estimated potentially fraudulent pandemic PPP/EIDL assistance; not a government-wide verified missing-cash balance.",
+      "tool_reference": "turn273view0"
+    },
+    {
+      "id": "SC-SEL-SBA-2025",
+      "url": "https://legacy.sba.gov/document/report-25-10-covid-19-pandemic-eidl-ppp-loan-fraud-landscape-recommendations-update",
+      "published_at": "2025-03-31",
+      "title": "SBA Office of Inspector General Report25-10",
+      "source_class": "official_primary",
+      "observed_at": "2026-10-30",
+      "access_outcome": "opened_rendered_page",
+      "source_bytes_archived": false,
+      "claim_limit": "Recommendation update repeats the prior200billion estimate; do not add it as a new amount.",
+      "tool_reference": "turn273view1"
+    },
+    {
+      "id": "SC-SEL-GAO-IP",
+      "url": "https://www.gao.gov/products/gao-26-108694",
+      "published_at": "2026-04-27",
+      "title": "GAO-26-108694",
+      "source_class": "official_primary",
+      "observed_at": "2026-10-30",
+      "access_outcome": "opened_rendered_page",
+      "source_bytes_archived": false,
+      "claim_limit": "FY2025 improper-payment estimate186billionUSD, reported by15agencies/64programs;153billion overpayments. Not all fraud or complete coverage.",
+      "tool_reference": "turn273view2"
+    },
+    {
+      "id": "SC-SEL-GAO-FRAUD",
+      "url": "https://www.gao.gov/products/gao-24-105833",
+      "published_at": "2024-04-16",
+      "title": "GAO-24-105833",
+      "source_class": "official_primary",
+      "observed_at": "2026-10-30",
+      "access_outcome": "opened_rendered_page",
+      "source_bytes_archived": false,
+      "claim_limit": "Modeled233–521billionUSD annual direct fraud-loss range using FY2018–2022. Not predictive; no agency/program allocation or addition to improper-payment estimates.",
+      "tool_reference": "turn275view0"
+    },
+    {
+      "id": "SC-SEL-GAO-REFERRALS",
+      "url": "https://www.gao.gov/products/gao-25-107267",
+      "published_at": "2025-03-24",
+      "title": "GAO-25-107267",
+      "source_class": "official_primary",
+      "observed_at": "2026-10-30",
+      "access_outcome": "opened_rendered_page",
+      "source_bytes_archived": false,
+      "claim_limit": "Earlier EIDL referral-data deficiencies; current page reports February2026 agreement and pending operational evidence. Does not identify a new named case.",
+      "tool_reference": "turn275view1"
+    },
+    {
+      "id": "SC-SEL-SBA-OCT2026",
+      "url": "https://legacy.sba.gov/article/2026/10/27/sba-asks-public-report-suspected-pandemic-era-fraud-through-doj-whistleblower-portal",
+      "published_at": "2026-10-27",
+      "title": "SBA News release26-112",
+      "source_class": "official_primary",
+      "observed_at": "2026-10-30",
+      "access_outcome": "opened_rendered_page",
+      "source_bytes_archived": false,
+      "claim_limit": "Reiterates200billion potential PPP/EIDL estimate; agency reports122billion suspected referrals and50billion associated with suspensions. Overlap unquantified, not additive confirmed loss.",
+      "tool_reference": "turn279view0"
+    },
+    {
+      "id": "SC-SEL-SBA-SEP2026",
+      "url": "https://legacy.sba.gov/article/2026/09/23/sba-referral-leads-irs-investigate-tax-liabilities-related-potentially-100-billion-covid-loan-fraud",
+      "published_at": "2026-09-23",
+      "title": "SBA News release26-95",
+      "source_class": "official_primary",
+      "observed_at": "2026-10-30",
+      "access_outcome": "opened_rendered_page",
+      "source_bytes_archived": false,
+      "claim_limit": "Approximately100billionUSD in loans associated with tax-information discrepancies; individual examinations ongoing. Not a quantified adjudicated tax loss.",
+      "tool_reference": "turn279view1"
+    }
+  ]
+}

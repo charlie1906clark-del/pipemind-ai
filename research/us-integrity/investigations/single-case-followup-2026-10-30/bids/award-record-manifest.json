@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "id": "current-award-record",
+      "source_url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRec.aspx?contract=SPE4A626D61WS&dlv=",
+      "url_lineage": "Observed exact link on acquired original RFQ record",
+      "observed_at": "2026-10-30T13:22:11.564090+00:00",
+      "operations": [
+        {
+          "method": "GET",
+          "status": 200,
+          "final_url": "https://www.dibbs.bsm.dla.mil/dodwarning.aspx?goto=/awards/awdrec.aspx?contract=spe4a626d61ws&dlv=",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "method": "POST ordinary public notice consent",
+          "status": 200,
+          "final_url": "https://www.dibbs.bsm.dla.mil//awards/awdrec.aspx?contract=spe4a626d61ws",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ],
+      "max_operations": 2,
+      "hidden_form_values_retained": false,
+      "original_body_archived_publicly": false,
+      "outcome": "html_acquired",
+      "original_sha256": "f290a742fde65ee01e5fe7be99809cf327342e3f6d73f2831981c9c569e4e5a0",
+      "original_bytes": 48916,
+      "scratch_filename": "current-award-record.html"
+    }
+  ],
+  "operation_count": 2,
+  "counter_scope": "urllib opener operations; redirects may issue additional HTTP requests; no hidden form values retained"
+}

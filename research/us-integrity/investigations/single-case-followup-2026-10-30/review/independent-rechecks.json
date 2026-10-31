@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-30",
+  "web_read_operation_limit": 6,
+  "web_read_operations_used": 6,
+  "original_web_page_bytes_archived": false,
+  "remote_http_request_count": "not_exposed_by_web_service; read operations are not claimed to equal HTTP requests",
+  "reads": [
+    {
+      "operation": 1,
+      "url": "https://www.nationwideindustrialsupply.com/departments/grade-8-cap-screws/fine-thread-hex-cap-screw-grade-8-zinc-yellow/3812CH8O/",
+      "ref": "turn293view0",
+      "status": "usable",
+      "verified_facts": {
+        "part": "3812CH8O",
+        "carton_quantity": 1100,
+        "case_price_1_to_4": "190.49",
+        "stock_label": "In Stock",
+        "stock_quantity": null,
+        "prices_and_availability_subject_to_change": true
+      },
+      "locator": "lines262-275",
+      "scope": "Posted seller catalog only; no technical NSN match, quote acceptance, supply independence or order established"
+    },
+    {
+      "operation": 2,
+      "url": "https://www.mfsupply.com/pindex.php?Page=117",
+      "ref": "turn293view1",
+      "status": "usable_index",
+      "scope": "Initial returned excerpt did not include target row; following operation4 inspected it"
+    },
+    {
+      "operation": 3,
+      "url": "https://legacy.kanebridge.com/kaneprls.asp?SellCode=CH8OF",
+      "ref": "turn293view2",
+      "status": "failed_403",
+      "scope": "No independent confirmation of catalog origin from this reviewer retrieval; failure does not contradict producer observation"
+    },
+    {
+      "operation": 4,
+      "url": "https://www.mfsupply.com/pindex.php?Page=117",
+      "ref": "turn294view0",
+      "status": "usable_target_row",
+      "locator": "line174",
+      "verified_facts": {
+        "sku": "HH38FX3/4G8ZY",
+        "box_quantity_explicit": 1100
+      },
+      "scope": "Same-seller product index confirms advertised pack only; not stock reservation or government equivalence"
+    },
+    {
+      "operation": 5,
+      "url": "https://www.mfsupply.com/product_p/hh38fx3-fslash-4g8zy.htm",
+      "ref": "turn294view1",
+      "status": "inaccessible_via_web_reader",
+      "scope": "This reviewer did not independently reacquire displayed7boxes or328.91price; retained producer/source selection remains separately attributed"
+    },
+    {
+      "operation": 6,
+      "url": "https://legacy.sba.gov/article/2026/10/27/sba-asks-public-report-suspected-pandemic-era-fraud-through-doj-whistleblower-portal",
+      "ref": "turn296view0",
+      "status": "usable_official_announcement",
+      "locator": "lines42-49",
+      "verified_facts": {
+        "publication_date": "2026-10-27",
+        "approximately_200b_scope": "potential PPP/COVID-EIDL fraudulent disbursements estimate",
+        "administrative_referral_suspension_figures_are_confirmed_losses": false
+      },
+      "scope": "Attribution and estimate status verified; no nationwide missing-cash allocation to this procurement."
+    }
+  ],
+  "local_original_html_checks": [
+    {
+      "source_id": "SCB-S02",
+      "original_sha256": "92878d763954c0003f3d3b452c79700eb9a5b671f8fe9c82321fc3eeaaf6f0e6",
+      "original_bytes": 53069,
+      "exact_tokens_verified": {
+        "SPE4A626U3619": true,
+        "5306016864912": true,
+        "1000241595": true,
+        "2221": true,
+        "8A1E8": true,
+        "SPE4A626D61WS": true
+      },
+      "source_url": "https://www.dibbs.bsm.dla.mil/rfq/rfqrec.aspx?sn=spe4a626u3619",
+      "inspection": "Independent local read of original already-acquired source body; no new network read",
+      "original_body_archived_publicly": false
+    },
+    {
+      "source_id": "SCB-S04",
+      "original_sha256": "f290a742fde65ee01e5fe7be99809cf327342e3f6d73f2831981c9c569e4e5a0",
+      "original_bytes": 48916,
+      "exact_tokens_verified": {
+        "SPE4A626D61WS": true,
+        "5306016864912": true,
+        "1000241595": true,
+        "SPE4A626U3619": true,
+        "SL4701": true,
+        "350,000.00": true
+      },
+      "source_url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRec.aspx?contract=SPE4A626D61WS&dlv=",
+      "inspection": "Independent local read of original already-acquired source body; no new network read",
+      "original_body_archived_publicly": false
+    }
+  ],
+  "local_original_pdf_check": {
+    "source_url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/17SEP26/SPE4A626D61WS.PDF",
+    "original_sha256": "0a3a9251aefd31299321b89aba0afe7ebbfe0afc544af4af23585bba54f050e0",
+    "locator": "page3 H06",
+    "method": "Independent pdftotext extraction; whitespace-normalized exact passage checks",
+    "phrases_verified": [
+      "EAD-based price evaluation",
+      "Order price depends on applicable order quantity range",
+      "Price and other factors considered"
+    ],
+    "new_network_requests": 0,
+    "original_pdf_archived_publicly": false,
+    "poppler_warning": "Fields-array warning occurred; the selected page text and all three exact clauses were present."
+  },
+  "no_contact_login_form_submission_or_purchase": true,
+  "history_output_guard_checks": {
+    "script_sha256": "1daba6726270994e7a228545375a722dd6302ab94b8655f19d764b055416db1e",
+    "scope": "Offline invalid-argument subprocess checks; validation fails before any source acquisition",
+    "controls": [
+      {
+        "input_class": "repo_internal",
+        "rejected": true,
+        "exit_code": 1,
+        "receipt_written": false,
+        "network_requests": 0,
+        "exception_last_line": "ValueError: Complete source PDFs must remain outside this repository"
+      },
+      {
+        "input_class": "existing_external",
+        "rejected": true,
+        "exit_code": 1,
+        "receipt_written": false,
+        "network_requests": 0,
+        "exception_last_line": "ValueError: Use a fresh raw-source directory; prior source files are immutable"
+      }
+    ]
+  }
+}

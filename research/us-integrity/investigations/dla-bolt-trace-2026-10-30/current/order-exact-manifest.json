@@ -1,0 +1,6 @@
+{
+  "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+  "accessed_at": "2026-10-30T11:27:05.628863+00:00",
+  "request_sha256": "f142bdd1018a4e6b7f8f6f665764815cdfdb1c9b4582778e60c3f9e10898846b",
+  "error": "HTTPError: HTTP Error 503: Service Unavailable"
+}

@@ -1,0 +1,28 @@
+{
+  "checked_on": "2026-10-30",
+  "test_command": "python -m unittest discover -s research/us-integrity/investigations/bolt-spec-followup-2026-10-30 -p 'test_*.py' -v",
+  "tests_passed": 11,
+  "scope": "Offline syntax/provenance-declaration parser and acquisition packet; no actual selected NIIN export acquired",
+  "source_hash_scope": "Prior input hashes bind retained artifacts; indexed layout sources are not archived original PDFs",
+  "actual_primary_rows_acquired": 0,
+  "actual_price_comparison_qualified": false,
+  "network_use": {
+    "queries": 12,
+    "document_open_attempts": 2,
+    "successful_new_document_opens": 0,
+    "new_bulk_archive_downloads": 0
+  },
+  "files_sha256": {
+    "observations.json": "c6e6ef1550e0dfca2c6522b362241ba15f81d8da1758628bfd370fc5fc360281",
+    "test_publog_export.py": "f3717dd9a0e3fb57e2fa9c6de4c7f6ed16d479ddab920431eed1f8e419f9c424",
+    "query_log.json": "c4f6f3f3cbf6172d866274a56fbeaef8c2597a6f5fee3b39da68be09a69b1208",
+    "prior-inputs.json": "946daa9dcb0b15e9d6ed87e10820d627bbb3bea621b5d4ced6d7f1fdf86d2294",
+    "export-packet.json": "631bc01edb433c7b47d7a23804aefc1240cb392bc18b415fe056658ad0289fcf",
+    "sources.json": "d0de0e9bc21a9fea19dbb3ae293faf166186217429527ec6fccd76b05e6364d1",
+    "REPORT.md": "075b209ec95c40d2dbbee8916d2c83fdc6099f8fb8658591c024d05c86fb4159",
+    "parse_publog_export.py": "e1d5eee9356504a0271bc9baa958a9affeaa7a776217ec9b1c95f7e023226f50"
+  },
+  "review_corrections": [
+    "Reject source receipt URLs containing empty userinfo, sensitive query keys including encoded/case variants, control whitespace or backslashes before public output. Ordinary ver parameter retained."
+  ]
+}

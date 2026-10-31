@@ -60,4 +60,6 @@ This note records supplied sources; it does not independently establish fraud.
 
 ## Backlinks
 
+- [[BOLT-BREV-F01]]: assesses_evidence — documented_fact (BOLT-E-a184dfe6adff6b4a185a)
+- [[BOLT-TRACE-20261030]]: continues_source_trace — documented_fact (BOLT-E-b3c6b1e50f43cb0e6b29)
 - [[DISC-20261030]]: records_observation — documented_fact (DISC-E-450f651d1576f41a3f81)

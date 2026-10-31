@@ -1,0 +1,41 @@
+[Selected passages from source page5; address blocks omitted]
+ACCEPTANCE POINT: ORIGIN
+
+FOB: ORIGIN   DELIVERY DATE: 2028 APR 10
+
+FOB PAYMENT METHOD:    GOVERNMENT
+
+
+[Packaging passage]
+PREP FOR DELIVERY:
+
+PKGING DATA-QUP:001
+
+WILL BE PACKAGED IN ACCORDANCE WITH ASTM D3951.
+
+All DLA Master List of Technical and Quality Requirements take
+ precedence over ASTM D3951.
+Mark and label all packaging and packing in accordance with MIL-STD-129.
+The Unit of Issue (U/I) and Quantity per Unit Pack (QUP) will be
+ as specified in the contract/purchase order.
+PALLETIZATION SHALL BE IN ACCORDANCE WITH RP001: DLA PACKAGING
+ REQUIREMENTS FOR PROCUREMENT
+
+
+
+[First article test line]
+Government First Article Test
+Government First Article Test – The number of units shown signifies the test requirement. See FAR clause 52.209-4 for
+the actual quantity required to be tested.
+
+
+ITEM NO.        SUPPLIES/SERVICES     QUANTITY       UNIT   UNIT PRICE        AMOUNT               .
+
+
+
+
+0002            0001 - S00000052      1.000          EA     $ 3,500.00        $ 3,500.00
+
+
+
+                                                                                   CONTINUED ON NEXT PAGE

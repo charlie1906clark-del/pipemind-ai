@@ -1,0 +1,59 @@
+{
+  "as_of": "2026-10-30",
+  "passed": true,
+  "method": "Independent selected-registry row, profile, exact award key and provenance reconstruction; no producer modules",
+  "entities_checked": 5,
+  "historical_joins_checked": 7,
+  "recipient_profiles_checked": 9,
+  "aliases_checked": 12,
+  "relationships_checked": 29,
+  "findings": [
+    {
+      "cage": "0NFB8",
+      "uei": "JEJSN59MQVK3",
+      "registry_and_profile_consistent": true,
+      "historical_exact_key_joins": 1,
+      "aliases": 2,
+      "ownership_verified": false,
+      "historical_eligibility_verified": false
+    },
+    {
+      "cage": "51Y73",
+      "uei": "US4BABY42KV8",
+      "registry_and_profile_consistent": true,
+      "historical_exact_key_joins": 1,
+      "aliases": 3,
+      "ownership_verified": false,
+      "historical_eligibility_verified": false
+    },
+    {
+      "cage": "6ZF42",
+      "uei": "GWEEKJ2PNL45",
+      "registry_and_profile_consistent": true,
+      "historical_exact_key_joins": 2,
+      "aliases": 2,
+      "ownership_verified": false,
+      "historical_eligibility_verified": false
+    },
+    {
+      "cage": "7W108",
+      "uei": "JE5NG1MWNU77",
+      "registry_and_profile_consistent": true,
+      "historical_exact_key_joins": 1,
+      "aliases": 3,
+      "ownership_verified": false,
+      "historical_eligibility_verified": false
+    },
+    {
+      "cage": "8A1E8",
+      "uei": "KJGWN783BNB5",
+      "registry_and_profile_consistent": true,
+      "historical_exact_key_joins": 2,
+      "aliases": 2,
+      "ownership_verified": false,
+      "historical_eligibility_verified": false
+    }
+  ],
+  "source_authentication_limit": "Retained selected CAGE output was checked; this reviewer did not independently repeat the five live registry requests. Two historical award API responses were independently re-fetched separately.",
+  "fraud_established": false
+}

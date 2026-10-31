@@ -48,8 +48,12 @@ def load_approved_extensions(root, nodes, edges, as_of):
             raise ValueError("Investigation date cannot exceed assembly date")
         for dependency in extension.get("input_artifacts", []):
             source_path = (root / dependency["path"]).resolve()
-            if not source_path.is_relative_to(root / "investigations"):
-                raise ValueError("Investigation input escapes investigations directory")
+            # Reviewed agent code/contracts are evidence for a system-run
+            # observation. Keep the accepted roots explicit; this is not
+            # permission to ingest arbitrary repository or private files.
+            approved_roots = (root / "investigations", root / "price-agents")
+            if not any(source_path.is_relative_to(base) for base in approved_roots):
+                raise ValueError("Investigation input escapes approved evidence/code directories")
             if hashlib.sha256(source_path.read_bytes()).hexdigest() != dependency["sha256"]:
                 raise ValueError("Investigation reviewed input changed: " + str(source_path))
         for record in extension["nodes"] + extension["edges"]:

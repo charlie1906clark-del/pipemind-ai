@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "data_origin": "illustrative",
+  "lines": [
+    {
+      "line_id": "SYN-0",
+      "supplier_identifier": "ILL-SUPPLIER",
+      "purchasing_office_identifier": "ILL-OFFICE",
+      "item_stratum": "ILL-MATCHED-ITEM",
+      "solicitation_identifier": "ILL-SOL-0",
+      "benchmark_family": "ILL-FAMILY-0",
+      "grouping_review_id": "ILL-REVIEW"
+    },
+    {
+      "line_id": "SYN-1",
+      "supplier_identifier": "ILL-SUPPLIER",
+      "purchasing_office_identifier": "ILL-OFFICE",
+      "item_stratum": "ILL-MATCHED-ITEM",
+      "solicitation_identifier": "ILL-SOL-1",
+      "benchmark_family": "ILL-FAMILY-1",
+      "grouping_review_id": "ILL-REVIEW"
+    },
+    {
+      "line_id": "SYN-2",
+      "supplier_identifier": "ILL-SUPPLIER",
+      "purchasing_office_identifier": "ILL-OFFICE",
+      "item_stratum": "ILL-MATCHED-ITEM",
+      "solicitation_identifier": "ILL-SOL-2",
+      "benchmark_family": "ILL-FAMILY-0",
+      "grouping_review_id": "ILL-REVIEW"
+    },
+    {
+      "line_id": "SYN-3",
+      "supplier_identifier": "ILL-SUPPLIER",
+      "purchasing_office_identifier": "ILL-OFFICE",
+      "item_stratum": "ILL-MATCHED-ITEM",
+      "solicitation_identifier": "ILL-SOL-3",
+      "benchmark_family": "ILL-FAMILY-1",
+      "grouping_review_id": "ILL-REVIEW"
+    }
+  ],
+  "input_canonical_sha256": "e6008f763ce8dc0a663b376c7a5dec10f2fa5bc450ebbecdb83e911b48ff619c",
+  "plan_canonical_sha256": "f1fc56cc98de032878c0ea5bdebce2597c3a68e25e29c365b421d1d63ba85b82"
+}
